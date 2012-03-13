@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/ggrep/grep-2.5.4
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/ggrep/grep-2.5.4 -p1 --backup --version-control=numbered < patches/ggrep.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  grep-2.5.4.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/ggrep/grep-2.5.4/.unpacked

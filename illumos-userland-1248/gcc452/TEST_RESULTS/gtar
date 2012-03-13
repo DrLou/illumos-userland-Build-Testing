@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/gtar/tar-1.26
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gtar/tar-1.26 -p1 --backup --version-control=numbered < patches/xgetcwd.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  tar-1.26.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/gtar/tar-1.26/.unpacked

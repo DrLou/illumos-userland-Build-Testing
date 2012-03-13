@@ -1,0 +1,409 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/vim/vim-v7-3-254 /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/vim/vim-v7-3-254 to /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim
+(cd /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/vim/vim-v7-3-254/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --with-features=huge --with-compiledby="the Solaris Userland build environment" --with-modified-by="Solaris Userland <userland-discuss@opensolaris.org>" --enable-luainterp=dynamic --enable-pythoninterp=dynamic --enable-rubyinterp=dynamic --without-x --disable-gui --disable-gtktest)
+configure: creating cache auto/config.cache
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for library containing strerror... none required
+checking for gawk... gawk
+checking for strip... strip
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+configure: checking for buggy tools...
+checking for BeOS... no
+checking for QNX... no
+checking for Darwin (Mac OS X)... no
+checking --with-local-dir argument... Defaulting to /usr/local
+checking --with-vim-name argument... Defaulting to vim
+checking --with-ex-name argument... Defaulting to ex
+checking --with-view-name argument... Defaulting to view
+checking --with-global-runtime argument... no
+checking --with-modified-by argument... Solaris Userland <userland-discuss@opensolaris.org>
+checking if character set is EBCDIC... no
+checking --disable-selinux argument... no
+checking for is_selinux_enabled in -lselinux... no
+checking --with-features argument... huge
+checking --with-compiledby argument... the Solaris Userland build environment
+checking --disable-xsmp argument... no
+checking --disable-xsmp-interact argument... no
+checking --enable-luainterp argument... dynamic
+checking --with-lua-prefix argument... no
+checking LUA_PREFIX environment var... not set, default to /usr
+checking if lua.h can be found in /usr/include... no
+checking for lua... no
+checking --enable-mzschemeinterp argument... no
+checking --enable-perlinterp argument... no
+checking --enable-pythoninterp argument... dynamic
+checking for python... /usr/bin/python
+checking Python version... 2.6
+checking Python is 1.4 or better... yep
+checking Python's install prefix... /usr
+checking Python's execution prefix... /usr
+checking Python's configuration directory... /usr/lib/python2.6/config
+checking if -pthread should be used... no
+checking if compile and link flags for Python are sane... yes
+checking --enable-python3interp argument... no
+checking --enable-tclinterp argument... no
+checking --enable-rubyinterp argument... dynamic
+checking --with-ruby-command argument... defaulting to ruby
+checking for ruby... no
+checking --enable-cscope argument... no
+checking --enable-workshop argument... no
+checking --disable-netbeans argument... no
+checking for socket in -lsocket... yes
+checking for gethostbyname in -lnsl... yes
+checking whether compiling netbeans integration is possible... yes
+checking --enable-sniff argument... no
+checking --enable-multibyte argument... no
+checking --enable-hangulinput argument... no
+checking --enable-xim argument... defaulting to auto
+checking --enable-fontset argument... no
+defaulting to: don't HAVE_X11
+checking --enable-gui argument... no GUI support
+checking X11/SM/SMlib.h usability... yes
+checking X11/SM/SMlib.h presence... yes
+checking for X11/SM/SMlib.h... yes
+checking whether toupper is broken... no
+checking whether __DATE__ and __TIME__ work... yes
+checking whether __attribute__((unused)) is allowed... yes
+checking elf.h usability... yes
+checking elf.h presence... yes
+checking for elf.h... yes
+checking for main in -lelf... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking stdint.h usability... yes
+checking stdint.h presence... yes
+checking for stdint.h... yes
+checking stdlib.h usability... yes
+checking stdlib.h presence... yes
+checking for stdlib.h... yes
+checking string.h usability... yes
+checking string.h presence... yes
+checking for string.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/types.h usability... yes
+checking sys/types.h presence... yes
+checking for sys/types.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking inttypes.h usability... yes
+checking inttypes.h presence... yes
+checking for inttypes.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking unistd.h usability... yes
+checking unistd.h presence... yes
+checking for unistd.h... yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/systeminfo.h usability... yes
+checking sys/systeminfo.h presence... yes
+checking for sys/systeminfo.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking sys/stream.h usability... yes
+checking sys/stream.h presence... yes
+checking for sys/stream.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking libc.h usability... no
+checking libc.h presence... no
+checking for libc.h... no
+checking sys/statfs.h usability... yes
+checking sys/statfs.h presence... yes
+checking for sys/statfs.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/poll.h usability... yes
+checking sys/poll.h presence... yes
+checking for sys/poll.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking libgen.h usability... yes
+checking libgen.h presence... yes
+checking for libgen.h... yes
+checking util/debug.h usability... no
+checking util/debug.h presence... no
+checking for util/debug.h... no
+checking util/msg18n.h usability... no
+checking util/msg18n.h presence... no
+checking for util/msg18n.h... no
+checking frame.h usability... no
+checking frame.h presence... no
+checking for frame.h... no
+checking sys/acl.h usability... yes
+checking sys/acl.h presence... yes
+checking for sys/acl.h... yes
+checking sys/access.h usability... no
+checking sys/access.h presence... no
+checking for sys/access.h... no
+checking sys/sysinfo.h usability... yes
+checking sys/sysinfo.h presence... yes
+checking for sys/sysinfo.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for sys/ptem.h... yes
+checking for sys/sysctl.h... no
+checking for pthread_np.h... no
+checking strings.h usability... yes
+checking strings.h presence... yes
+checking for strings.h... yes
+checking if strings.h can be included after string.h... yes
+checking for an ANSI C-conforming const... yes
+checking for working volatile... yes
+checking for mode_t... yes
+checking for off_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for uint32_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for ino_t... yes
+checking for dev_t... yes
+checking whether byte ordering is bigendian... no
+checking for rlim_t... yes
+checking for stack_t... yes
+checking whether stack_t has an ss_base field... no
+checking --with-tlib argument... empty: automatic terminal library selection
+checking for tgetent in -ltinfo... no
+checking for tgetent in -lncurses... no
+checking for tgetent in -ltermlib... yes
+checking whether we talk terminfo... yes
+checking what tgetent() returns for an unknown terminal... zero
+checking whether termcap.h contains ospeed... yes
+checking whether termcap.h contains UP, BC and PC... yes
+checking whether tputs() uses outfuntype... no
+checking whether sys/select.h and sys/time.h may both be included... yes
+checking for /dev/ptc... no
+checking for SVR4 ptys... yes
+checking for ptyranges... don't know
+checking default tty permissions/group... can't determine - assume ptys are world accessible
+world
+checking return type of signal handlers... void
+checking for struct sigcontext... yes
+checking getcwd implementation is broken... no
+checking for bcmp... yes
+checking for fchdir... yes
+checking for fchown... yes
+checking for fsync... yes
+checking for getcwd... yes
+checking for getpseudotty... no
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for getrlimit... yes
+checking for gettimeofday... yes
+checking for getwd... yes
+checking for lstat... yes
+checking for memcmp... yes
+checking for memset... yes
+checking for mkdtemp... yes
+checking for nanosleep... yes
+checking for opendir... yes
+checking for putenv... yes
+checking for qsort... yes
+checking for readlink... yes
+checking for select... yes
+checking for setenv... yes
+checking for setpgid... yes
+checking for setsid... yes
+checking for sigaltstack... yes
+checking for sigstack... yes
+checking for sigset... yes
+checking for sigsetjmp... yes
+checking for sigaction... yes
+checking for sigvec... no
+checking for strcasecmp... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for strpbrk... yes
+checking for strtol... yes
+checking for tgetent... yes
+checking for towlower... yes
+checking for towupper... yes
+checking for iswupper... yes
+checking for usleep... yes
+checking for utime... yes
+checking for utimes... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for st_blksize... yes
+checking whether stat() ignores a trailing slash... no
+checking for iconv_open()... yes
+checking for nl_langinfo(CODESET)... yes
+checking for strtod in -lm... yes
+checking for strtod() and other floating point functions... yes
+checking --disable-acl argument... no
+checking for acl_get_file in -lposix1e... no
+checking for acl_get_file in -lacl... no
+checking for POSIX ACL support... no
+checking for Solaris ACL support... yes
+checking for AIX ACL support... no
+checking --disable-gpm argument... no
+checking for gpm... no
+checking --disable-sysmouse argument... no
+checking for sysmouse... no
+checking for FD_CLOEXEC... yes
+checking for rename... yes
+checking for sysctl... not usable
+checking for sysinfo... not usable
+checking for sysinfo.mem_unit... no
+checking for sysconf... yes
+checking size of int... 4
+checking size of long... 4
+checking size of time_t... 4
+checking size of off_t... 8
+checking uint32_t is 32 bits... ok
+checking whether memmove handles overlaps... yes
+checking for _xpg4_setrunelocale in -lxpg4... no
+checking how to create tags... ctags -t
+checking how to run man with a section nr... man
+checking --disable-nls argument... no
+checking for msgfmt... msgfmt
+checking for NLS... gettext() works
+checking for bind_textdomain_codeset... yes
+checking for _nl_msg_cat_cntr... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for dlopen()... yes
+checking for dlsym()... yes
+checking setjmp.h usability... yes
+checking setjmp.h presence... yes
+checking for setjmp.h... yes
+checking linker --as-needed support... no
+configure: updating cache auto/config.cache
+configure: creating auto/config.status
+config.status: creating auto/config.mk
+config.status: creating auto/config.h
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim'
+Starting make in the src directory.
+If there are problems, cd to the src directory and run make there
+cd src && /usr/gnu/bin/make first
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim/src'
+mkdir objects
+CC="/opt/SUNWspro/solarisstudio12.3/bin/cc -Iproto -DHAVE_CONFIG_H        " srcdir=. sh ./osdef.sh
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/buffer.o buffer.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/blowfish.o blowfish.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/charset.o charset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/diff.o diff.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/digraph.o digraph.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/edit.o edit.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/eval.o eval.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ex_cmds.o ex_cmds.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ex_cmds2.o ex_cmds2.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ex_docmd.o ex_docmd.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ex_eval.o ex_eval.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ex_getln.o ex_getln.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/fileio.o fileio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/fold.o fold.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/getchar.o getchar.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/hardcopy.o hardcopy.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/hashtab.o hashtab.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/if_cscope.o if_cscope.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/if_xcmdsrv.o if_xcmdsrv.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/mark.o mark.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/memline.o memline.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/menu.o menu.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/message.o message.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/misc1.o misc1.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/misc2.o misc2.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/move.o move.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/mbyte.o mbyte.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/normal.o normal.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ops.o ops.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/option.o option.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/os_unix.o os_unix.c
+creating auto/pathdef.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/pathdef.o auto/pathdef.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/popupmnu.o popupmnu.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/quickfix.o quickfix.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/regexp.o regexp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/screen.o screen.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/search.o search.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/sha256.o sha256.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/spell.o spell.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/syntax.o syntax.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/tag.o tag.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/term.o term.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/ui.o ui.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/undo.o undo.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -o objects/window.o window.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -Iproto -DHAVE_CONFIG_H     -g       -DDYNAMIC_LUA_DLL=\"liblua.so\" -I/usr/include -o objects/if_lua.o if_lua.c
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/vim/build/i86-vim'

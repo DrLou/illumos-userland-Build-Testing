@@ -1,0 +1,62 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/librsync/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/librsync/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/librsync/librsync-0.9.7 /export/home/drlou/illumos-userland-1248/components/librsync/build/i86) ; tar -xvf librsync-docs-0.9.7.tar.gz
+symlink cloning /export/home/drlou/illumos-userland-1248/components/librsync/librsync-0.9.7 to /export/home/drlou/illumos-userland-1248/components/librsync/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/librsync/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/librsync/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/librsync/librsync-0.9.7 /export/home/drlou/illumos-userland-1248/components/librsync/build/amd64) ; tar -xvf librsync-docs-0.9.7.tar.gz
+symlink cloning /export/home/drlou/illumos-userland-1248/components/librsync/librsync-0.9.7 to /export/home/drlou/illumos-userland-1248/components/librsync/build/amd64
+Decompressing 'librsync-docs-0.9.7.tar.gz' with '/usr/bin/gzcat'...
+x librsync-docs, 0 bytes, 0 tape blocks
+x librsync-docs/librsync.pdf, 80579 bytes, 158 tape blocks
+x librsync-docs/html, 0 bytes, 0 tape blocks
+x librsync-docs/html/doxygen.css, 8097 bytes, 16 tape blocks
+x librsync-docs/html/tab_l.gif, 706 bytes, 2 tape blocks
+x librsync-docs/html/tabs.css, 1758 bytes, 4 tape blocks
+x librsync-docs/html/tab_b.gif, 35 bytes, 1 tape blocks
+x librsync-docs/html/index.html, 975 bytes, 2 tape blocks
+x librsync-docs/html/doxygen.png, 1281 bytes, 3 tape blocks
+x librsync-docs/html/globals_enum.html, 1984 bytes, 4 tape blocks
+x librsync-docs/html/globals.html, 8830 bytes, 18 tape blocks
+x librsync-docs/html/functions_vars.html, 2647 bytes, 6 tape blocks
+x librsync-docs/html/functions.html, 2746 bytes, 6 tape blocks
+x librsync-docs/html/annotated.html, 1824 bytes, 4 tape blocks
+x librsync-docs/html/globals_defs.html, 1897 bytes, 4 tape blocks
+x librsync-docs/html/structrs__target.html, 2228 bytes, 5 tape blocks
+x librsync-docs/html/globals_eval.html, 4684 bytes, 10 tape blocks
+x librsync-docs/html/librsync_8h.html, 75705 bytes, 148 tape blocks
+x librsync-docs/html/files.html, 1645 bytes, 4 tape blocks
+x librsync-docs/html/structrs__buffers__s.html, 8919 bytes, 18 tape blocks
+x librsync-docs/html/tab_r.gif, 2585 bytes, 6 tape blocks
+x librsync-docs/html/globals_type.html, 2305 bytes, 5 tape blocks
+x librsync-docs/html/librsync-config_8h.html, 2674 bytes, 6 tape blocks
+x librsync-docs/html/pages.html, 1082 bytes, 3 tape Decompressing 'librsync-docs-0.9.7.tar.gz' with '/usr/bin/gzcat'...
+x librsync-docs/librsync.pdf, 80579 bytes, 158 tape blocks
+x librsync-docs/html/doxygen.css, 8097 bytes, 16 tape blocks
+x librsync-docs/html/tab_l.gif, 706 bytes, 2 tape blocks
+x librsync-docs/html/tabs.css, 1758 bytes, 4 tape blocks
+x librsync-docs/html/tab_b.gif, 35 bytes, 1 tape blocks
+x librsync-docs/html/index.html, 975 bytes, 2 tape blocks
+x librsync-docs/html/doxygen.png, 1281 bytes, 3 tape blocks
+x librsync-docs/html/globals_enum.html, 1984 bytes, 4 tape blocks
+x librsync-docs/html/globals.html, 8830 bytes, 18 tape blocks
+x librsync-docs/html/functions_vars.html, 2647 bytes, 6 tape blocks
+x librsync-docs/html/functions.html, 2746 bytes, 6 tape blocks
+x librsync-docs/html/annotated.html, 1824 bytes, 4 tape blocks
+x librsync-docs/html/globals_defs.html, 1897 bytes, 4 tape blocks
+x librsync-docs/html/structrs__target.html, 2228 bytes, 5 tape blocks
+x librsync-docs/html/globals_eval.html, 4684 bytes, 10 tape blocks
+x librsync-docs/html/librsync_8h.html, 75705 bytes, 148 tape blocks
+x librsync-docs/html/files.html, 1645 bytes, 4 tape blocks
+x librsync-docs/html/structrs__buffers__s.html, 8919 bytes, 18 tape blocks
+x librsync-docs/html/tab_r.gif, 2585 bytes, 6 tape blocks
+x librsync-docs/html/globals_type.html, 2305 bytes, 5 tape blocks
+x librsync-docs/html/librsync-config_8h.html, 2674 bytes, 6 tape blocks
+x librsync-docs/html/pages.html, 1082 bytes, 3 tape blocks
+x librsync-docs/html/todo.html, 1539 bytes, 4 tape blocks
+x librsync-docs/htmlblocks
+x librsync-docs/html/todo.html, 1539 bytes, 4 tape blocks
+x librsync-docs/html/structrs__stats.html, 11693 bytes, 23 tape blocks
+x librsync-docs/html/globals_func.html, 4166 bytes, 9 tape blocks
+x librsync-docs/html/globals_vars.html, 1886 bytes, 4 tape blocks
+/structrs__stats.html, 11693 bytes, 23 tape blocks
+x librsync-docs/html/globals_func.html, 4166 bytes, 9 tape blocks
+x librsync-docs/html/globals_vars.html, 1886 bytes, 4 tape blocks

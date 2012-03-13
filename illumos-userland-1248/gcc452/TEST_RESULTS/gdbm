@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/gdbm/gdbm-1.8.3
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gdbm/gdbm-1.8.3 -p1 --backup --version-control=numbered < patches/Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  gdbm-1.8.3.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/gdbm/gdbm-1.8.3/.unpacked

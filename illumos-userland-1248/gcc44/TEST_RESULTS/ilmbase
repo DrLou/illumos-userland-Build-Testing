@@ -1,0 +1,20 @@
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64'
+Making all in Half
+Making all in Half
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half/u/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT   -lc -lm -o libHalf.la -rpath /usr/lib -version-info 6:0:0 -no-undefined half.lo  -lpthread 
+/opt/SUNWspro/solarisstudio12.3/bin/CC   -G  -zdefs -nolib -hlibHalf.so.6 -o .libs/libHalf.so.6.0.0   .libs/half.o  -library=Cstd,Crun -lc -lm -lpthread   -m64 -norunpath
+/opt/SUNWspro/solarisstudio12.3/bin/CC   -G  -zdefs -nolib -hlibHalf.so.6 -o .libs/libHalf.so.6.0.0   .libs/half.o  -library=Cstd,Crun -lc -lm -lpthread   -m32 -norunpath
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86'

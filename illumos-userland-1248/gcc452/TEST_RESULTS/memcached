@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/memcached/memcached-1.4.5
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/memcached/memcached-1.4.5 -p1 --backup --version-control=numbered < patches/tests.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  memcached-1.4.5.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/memcached/memcached-1.4.5/.unpacked

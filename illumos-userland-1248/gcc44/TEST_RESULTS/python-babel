@@ -1,0 +1,3 @@
+(cd Babel-0.9.6/test; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland-1248/components/python/babel/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		/usr/bin/python2.6 ./runtests.py )

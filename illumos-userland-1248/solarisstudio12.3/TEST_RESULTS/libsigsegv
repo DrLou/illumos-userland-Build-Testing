@@ -1,0 +1,465 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-static --enable-shared CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-static --enable-shared CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt")
+
+[1mBuild Tools:[m
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... 
+[1mBuild Tools:[m
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for a thread-safe mkdir -p... yes
+/usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... none needed
+checking for style of include used by make... GNU
+GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking host platform... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking host platform... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+i386-pc-solaris2.11
+checking for a BSD-compatible install... checking for a sed that does not truncate output... /usr/bin/ginstall -c
+checking for a sed that does not truncate output... /usr/bin/gsed
+/usr/bin/gsed
+checking for grep that handles long lines and -e... checking for grep that handles long lines and -e... /usr/bin/ggrep
+/usr/bin/ggrep
+checking for egrep... checking for egrep... /usr/bin/ggrep -E
+/usr/bin/ggrep -E
+checking for fgrep... checking for fgrep... /usr/bin/ggrep -F
+/usr/bin/ggrep -F
+checking for non-GNU ld... checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+/usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... checking the name lister (/usr/bin/nm -p) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786240
+checking whether the shell understands some XSI constructs... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... yes
+checking whether the shell understands "+="... yes
+786240
+checking whether the shell understands some XSI constructs... checking for /usr/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+yes
+checking whether the shell understands "+="... checking for ar... ar
+checking for strip... strip
+yes
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... checking for /usr/bin/ld option to reload object files... -r
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+ok
+checking for ANSI C header files... checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+yes
+checking for sys/stat.h... checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+yes
+checking for strings.h... checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+yes
+checking for stdint.h... checking for stdint.h... yes
+yes
+checking for unistd.h... checking for unistd.h... yes
+yes
+checking for dlfcn.h... checking for dlfcn.h... yes
+checking for objdir... yes
+.libs
+checking for objdir... .libs
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+
+[1mOptional Platform Environment:[m
+
+[1mOptional Platform Environment:[m
+checking sys/signal.h usability... yes
+checking sys/signal.h presence... yes
+checking sys/signal.h presence... yes
+checking for sys/signal.h... yes
+checking for sys/signal.h... yes
+yes
+checking for unistd.h... (cached) checking for unistd.h... (cached) yes
+yes
+checking for getpagesize... checking for getpagesize... yes
+checking for sysconf(_SC_PAGESIZE)... yes
+checking for sysconf(_SC_PAGESIZE)... yes
+checking for PAGESIZE in limits.h... yes
+checking for PAGESIZE in limits.h... no
+checking for mmap with MAP_ANON... no
+checking for mmap with MAP_ANON... yes
+checking for mmap with MAP_ANONYMOUS... yes
+checking for mmap with MAP_ANONYMOUS... yes
+yes
+checking for mmap of /dev/zero... checking for mmap of /dev/zero... yes
+yes
+checking whether a fault handler according to POSIX works... checking whether a fault handler according to POSIX works... yes
+checking whether a fault handler according to Linux/i386 works... yes
+checking whether a fault handler according to Linux/i386 works... no
+no
+checking whether a fault handler according to old Linux/i386 works... no
+checking whether a fault handler according to Linux/m68k works... no
+checking whether a fault handler according to Linux/m68k works... no
+checking whether a fault handler according to Linux/PowerPC works... no
+checking whether a fault handler according to Linux/PowerPC works... no
+checking whether a fault handler according to Linux/HPPA works... no
+checking whether a fault handler according to Linux/HPPA works... no
+checking whether a fault handler according to BSD works... no
+checking whether a fault handler according to BSD works... no
+checking whether a fault handler according to IRIX works... no
+checking whether a fault handler according to IRIX works... no
+checking whether a fault handler according to HP-UX HPPA works... no
+checking whether a fault handler according to HP-UX HPPA works... no
+checking whether a fault handler according to OSF/1 Alpha works... no
+checking whether a fault handler according to OSF/1 Alpha works... no
+checking whether a fault handler according to NetBSD Alpha works... no
+checking whether a fault handler according to NetBSD Alpha works... no
+checking whether a fault handler according to AIX works... no
+checking whether a fault handler according to AIX works... no
+checking whether a fault handler according to MacOSX/Darwin7 PowerPC works... no
+checking whether a fault handler according to MacOSX/Darwin7 PowerPC works... no
+checking whether a fault handler according to MacOSX/Darwin5 PowerPC works... no
+checking whether a fault handler according to MacOSX/Darwin5 PowerPC works... no
+checking whether a fault handler according to Hurd works... no
+checking whether a fault handler according to Hurd works... no
+checking for the fault handler specifics... fault-solaris-i386.h
+checking if the system supports catching SIGSEGV... yes
+checking for stack direction... grows down
+checking for PIOCMAP in sys/procfs.h... no
+checking for the fault handler specifics... fault-solaris-i386.h
+checking if the system supports catching SIGSEGV... yes
+checking for stack direction... grows down
+checking for PIOCMAP in sys/procfs.h... yes
+checking for mincore... yes
+checking for mincore... yes
+yes
+checking for getrlimit... checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setrlimit... yes
+checking for sigaltstack... yes
+checking for sigaltstack... yes
+checking for stack_t... yes
+checking for stack_t... yes
+checking for working sigaltstack... yes
+checking for working sigaltstack... yes
+checking if the system supports catching stack overflow... yes
+checking if the system supports catching stack overflow... yes
+checking whether a signal handler can be left through longjmp... yes
+checking whether a signal handler can be left through longjmp... no
+checking whether a signal handler can be left through longjmp and sigaltstack... no
+checking whether a signal handler can be left through longjmp and sigaltstack... no
+checking whether a signal handler can be left through longjmp and setcontext... yes
+checking whether a signal handler can be left through siglongjmp... yes
+checking whether a signal handler can be left through siglongjmp and sigaltstack... no
+checking whether a signal handler can be left through longjmp and setcontext... yes
+checking whether a signal handler can be left through siglongjmp and setcontext... yes
+checking whether a signal handler can be left through siglongjmp... yes
+yes
+checking whether a signal handler can be left through siglongjmp and sigaltstack... 
+[1mBuild Parameters:[m
+checking whether to activate relocatable installation... no
+
+[1mOutput Substitution:[m
+configure: creating ./config.status
+yes
+checking whether a signal handler can be left through siglongjmp and setcontext... yes
+
+[1mBuild Parameters:[m
+checking whether to activate relocatable installation... no
+
+[1mOutput Substitution:[m
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/sigsegv.h
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: creating Makefile
+config.status: executing depfiles commands
+config.status: creating src/Makefile
+config.status: creating src/sigsegv.h
+config.status: creating tests/Makefile
+config.status: executing libtool commands
+config.status: creating config.h
+
+Now please type '[1mmake[m' to compile. Good luck.
+
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+config.status: executing libtool commands
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+/usr/gnu/bin/make TARGETSTACK=" all" all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/src'
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o handler.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/handler.c
+
+Now please type '[1mmake[m' to compile. Good luck.
+
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/handler.c  -KPIC -DPIC -o .libs/handler.o
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+/usr/gnu/bin/make TARGETSTACK=" all" all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/src'
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o handler.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/handler.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/handler.c  -KPIC -DPIC -o .libs/handler.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o stackvma.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/stackvma.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/stackvma.c  -KPIC -DPIC -o .libs/stackvma.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o stackvma.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/stackvma.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/stackvma.c  -KPIC -DPIC -o .libs/stackvma.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o leave.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/leave.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/leave.c  -KPIC -DPIC -o .libs/leave.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o leave.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/leave.c
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o dispatcher.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/dispatcher.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/leave.c  -KPIC -DPIC -o .libs/leave.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/dispatcher.c  -KPIC -DPIC -o .libs/dispatcher.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o dispatcher.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/dispatcher.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/dispatcher.c  -KPIC -DPIC -o .libs/dispatcher.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o version.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/version.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/version.c  -KPIC -DPIC -o .libs/version.o
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o version.lo /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/version.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -lc -no-undefined  -o libsigsegv.la -rpath /usr/lib handler.lo stackvma.lo leave.lo dispatcher.lo version.lo  
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -I.. -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/src/version.c  -KPIC -DPIC -o .libs/version.o
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -lc -no-undefined  -o libsigsegv.la -rpath /usr/lib/amd64 handler.lo stackvma.lo leave.lo dispatcher.lo version.lo  
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -z defs -h libsigsegv.so.0 -o .libs/libsigsegv.so.0.0.0  .libs/handler.o .libs/stackvma.o .libs/leave.o .libs/dispatcher.o .libs/version.o   -lc -lc  -m32 -mt   -mt
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -z defs -h libsigsegv.so.0 -o .libs/libsigsegv.so.0.0.0  .libs/handler.o .libs/stackvma.o .libs/leave.o .libs/dispatcher.o .libs/version.o   -lc -lc  -m64 -mt   -mt
+libtool: link: (cd ".libs" && rm -f "libsigsegv.so.0" && ln -s "libsigsegv.so.0.0.0" "libsigsegv.so.0")
+libtool: link: (cd ".libs" && rm -f "libsigsegv.so" && ln -s "libsigsegv.so.0.0.0" "libsigsegv.so")
+libtool: link: (cd ".libs" && rm -f "libsigsegv.so.0" && ln -s "libsigsegv.so.0.0.0" "libsigsegv.so.0")
+libtool: link: (cd ".libs" && rm -f "libsigsegv.so" && ln -s "libsigsegv.so.0.0.0" "libsigsegv.so")
+libtool: link: ( cd ".libs" && rm -f "libsigsegv.la" && ln -s "../libsigsegv.la" "libsigsegv.la" )
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/src'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv1.c
+libtool: link: ( cd ".libs" && rm -f "libsigsegv.la" && ln -s "../libsigsegv.la" "libsigsegv.la" )
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/src'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv1.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o sigsegv1 sigsegv1.o ../src/libsigsegv.la 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o sigsegv1 sigsegv1.o ../src/libsigsegv.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/sigsegv1 sigsegv1.o  ../src/.libs/libsigsegv.so -lc -mt
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/sigsegv1 sigsegv1.o  ../src/.libs/libsigsegv.so -lc -mt -R/usr/lib/amd64
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv2.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv2.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o sigsegv2 sigsegv2.o ../src/libsigsegv.la 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o sigsegv2 sigsegv2.o ../src/libsigsegv.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/sigsegv2 sigsegv2.o  ../src/.libs/libsigsegv.so -lc -mt
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/sigsegv2 sigsegv2.o  ../src/.libs/libsigsegv.so -lc -mt -R/usr/lib/amd64
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv3.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/sigsegv3.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o sigsegv3 sigsegv3.o ../src/libsigsegv.la 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o sigsegv3 sigsegv3.o ../src/libsigsegv.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/sigsegv3 sigsegv3.o  ../src/.libs/libsigsegv.so -lc -mt
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/sigsegv3 sigsegv3.o  ../src/.libs/libsigsegv.so -lc -mt -R/usr/lib/amd64
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/stackoverflow1.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/stackoverflow1.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o stackoverflow1 stackoverflow1.o ../src/libsigsegv.la 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o stackoverflow1 stackoverflow1.o ../src/libsigsegv.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/stackoverflow1 stackoverflow1.o  ../src/.libs/libsigsegv.so -lc -mt
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/stackoverflow1 stackoverflow1.o  ../src/.libs/libsigsegv.so -lc -mt -R/usr/lib/amd64
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/stackoverflow2.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests -I.. -I../src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/libsigsegv/libsigsegv-2.6/tests/stackoverflow2.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o stackoverflow2 stackoverflow2.o ../src/libsigsegv.la 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o stackoverflow2 stackoverflow2.o ../src/libsigsegv.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/stackoverflow2 stackoverflow2.o  ../src/.libs/libsigsegv.so -lc -mt
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/stackoverflow2 stackoverflow2.o  ../src/.libs/libsigsegv.so -lc -mt -R/usr/lib/amd64
+
+Now please type '[1mmake check[m' to run a quick test suite. Hope it works.
+
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+Making check in src
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/src'
+Making check in tests
+
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+Now please type '[1mmake check[m' to run a quick test suite. Hope it works.
+
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/.built
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+(cd /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+Making check in src
+Test passed.
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/src'
+PASS: sigsegv1
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+Test passed.
+PASS: sigsegv2
+Doing SIGSEGV pass 1.
+Stack overflow 1 caught.
+Doing SIGSEGV pass 2.
+Stack overflow 2 caught.
+Test passed.
+PASS: sigsegv3
+Test passed.
+PASS: sigsegv1
+Starting recursion pass 1.
+Stack overflow 1 caught.
+Starting recursion pass 2.
+Stack overflow 2 caught.
+Test passed.
+PASS: stackoverflow1
+Test passed.
+PASS: sigsegv2
+Starting recursion pass 1.
+Stack overflow 1 caught.
+Starting recursion pass 2.
+Stack overflow 2 caught.
+Segmentation violation correctly detected.
+Segmentation violation correctly detected.
+Test passed.
+Doing SIGSEGV pass 1.
+Stack overflow 1 caught.
+Doing SIGSEGV pass 2.
+Stack overflow 2 caught.
+Test passed.
+PASS: stackoverflow2
+PASS: sigsegv3
+==================
+All 5 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/tests'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+
+Please send the following summary line via email to the author
+Bruno Haible <bruno@clisp.org> for inclusion into the list of
+successfully tested platforms (see PORTING file).  Please also
+send the config.log file; this will help improving portability
+of the package.
+
+[1mlibsigsegv: i386-pc-solaris2.11 | yes | yes | 2.6[m
+
+Starting recursion pass 1.
+Stack overflow 1 caught.
+Starting recursion pass 2.
+Stack overflow 2 caught.
+Test passed.
+PASS: stackoverflow1
+Then please type '[1mmake install[m' to install the package.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/i86/.tested
+Starting recursion pass 1.
+Stack overflow 1 caught.
+Starting recursion pass 2.
+Stack overflow 2 caught.
+Segmentation violation correctly detected.
+Segmentation violation correctly detected.
+Test passed.
+PASS: stackoverflow2
+==================
+All 5 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/tests'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+
+Please send the following summary line via email to the author
+Bruno Haible <bruno@clisp.org> for inclusion into the list of
+successfully tested platforms (see PORTING file).  Please also
+send the config.log file; this will help improving portability
+of the package.
+
+[1mlibsigsegv: i386-pc-solaris2.11 | yes | yes | 2.6[m
+
+Then please type '[1mmake install[m' to install the package.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libsigsegv/build/amd64/.tested

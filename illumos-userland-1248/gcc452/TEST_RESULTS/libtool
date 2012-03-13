@@ -1,0 +1,138 @@
+(cd /export/home/drlou/illumos-userland/components/libtool/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64'
+Making check in .
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64'
+Making check in libltdl
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/libltdl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/libltdl'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/doc'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/tests'
+PASS: cdemo-static.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-static.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: depdemo-static.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: mdemo-static.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: cdemo-conf.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-conf.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: deplibs.test
+PASS: depdemo-conf.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: mdemo-conf.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: dryrun.test
+PASS: demo-nofast.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: demo-pic.test
+PASS: demo-make.test
+PASS: demo-exec.test
+SKIP: demo-nopic.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: depdemo-nofast.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: cdemo-shared.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-shared.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: hardcode.test
+PASS: build-relink.test
+PASS: noinst-link.test
+PASS: demo-unst.test
+PASS: depdemo-shared.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: build-relink2.test
+PASS: depdemo-unst.test
+PASS: mdemo-shared.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: assign.test
+PASS: link.test
+PASS: link-2.test
+PASS: nomode.test
+PASS: quote.test
+PASS: sh.test
+PASS: suffix.test
+PASS: pdemo-conf.test
+PASS: pdemo-make.test
+PASS: pdemo-exec.test
+PASS: pdemo-inst.test
+PASS: mdemo-conf.test
+PASS: mdemo-make.test
+PASS: mdemo2-conf.test
+PASS: mdemo2-make.test
+PASS: mdemo2-exec.test
+PASS: duplicate_members.test
+PASS: link-order.test
+PASS: tagdemo-static.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-conf.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-shared.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: f77demo-static.test
+FAIL: f77demo-make.test
+SKIP: f77demo-exec.test
+PASS: f77demo-conf.test
+FAIL: f77demo-make.test
+SKIP: f77demo-exec.test
+PASS: f77demo-shared.test
+FAIL: f77demo-make.test
+SKIP: f77demo-exec.test
+====================================
+3 of 108 tests failed
+(4 tests were not run)
+Please report to bug-libtool@gnu.org
+====================================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/libtool/build/amd64'

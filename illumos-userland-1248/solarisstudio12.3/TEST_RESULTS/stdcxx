@@ -1,0 +1,11 @@
+test -d /export/home/drlou/illumos-userland-1248/components/stdcxx/build/i86 || echo "/export/home/drlou/illumos-userland-1248/components/stdcxx/build/i86 does not exist!"
+/export/home/drlou/illumos-userland-1248/components/stdcxx/build/i86 does not exist!
+test -d /export/home/drlou/illumos-userland-1248/components/stdcxx/build/amd64 || echo "/export/home/drlou/illumos-userland-1248/components/stdcxx/build/amd64 does not exist!"
+/export/home/drlou/illumos-userland-1248/components/stdcxx/build/amd64 does not exist!
+/bin/cp -f -p /export/home/drlou/illumos-userland-1248/components/stdcxx/Solaris/prep_build_area.sh \
+	    /export/home/drlou/illumos-userland-1248/components/stdcxx/
+/usr/bin/chmod 0755 /export/home/drlou/illumos-userland-1248/components/stdcxx/prep_build_area.sh
+/bin/bash /export/home/drlou/illumos-userland-1248/components/stdcxx/prep_build_area.sh -m32 \
+	    -builddir=/export/home/drlou/illumos-userland-1248/components/stdcxx/build/i86 \
+	    -srcdir=/export/home/drlou/illumos-userland-1248/components/stdcxx/stdcxx-4.2.1-32
+build directory /export/home/drlou/illumos-userland-1248/components/stdcxx/build/i86 not found or unreadable!

@@ -1,0 +1,17 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland/components/gnupg/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland/components/gnupg/build/i86)
+(cd /export/home/drlou/illumos-userland/components/gnupg/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -02 -flto=jobserver -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC" LDFLAGS="-lc -z defs" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland/components/gnupg/gnupg-2.0.17/configure CC="/usr/gcc/4.5/bin/gcc" CXX="/usr/gcc/4.5/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --localstatedir=/var --libexecdir=/usr/bin --datadir=/usr/share --sysconfdir=/etc --infodir=/usr/share/info --enable-nls --enable-largefile --disable-selinux-support --with-pinentry-pgm=/usr/lib/pinentry --with-gpg-error-prefix=/usr --with-libassuan-prefix=/usr --with-ksba-prefix=/usr --with-pth-prefix=/usr --with-libcurl=/usr --with-libiconv-prefix=/usr --with-libintl-prefix=/usr --with-zlib=/usr --with-bzip2=/usr --with-readline=/usr)
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+configure: autobuild project... gnupg
+configure: autobuild revision... 2.0.17
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120227-005046
+checking for style of include used by make... GNU
+checking for gcc... /usr/gcc/4.5/bin/gcc
+checking for C compiler default output file name... 

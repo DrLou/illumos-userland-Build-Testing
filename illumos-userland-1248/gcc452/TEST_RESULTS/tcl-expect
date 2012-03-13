@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/tcl/expect/expect5.45
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tcl/expect/expect5.45 -p1 --backup --version-control=numbered < patches/Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  expect5.45.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/tcl/expect/expect5.45/.unpacked

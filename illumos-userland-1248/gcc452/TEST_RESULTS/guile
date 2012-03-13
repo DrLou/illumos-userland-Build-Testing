@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/guile/guile-1.8.4
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/guile/guile-1.8.4 -p1 --backup --version-control=numbered < patches/time.test.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  guile-1.8.4.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/guile/guile-1.8.4/.unpacked

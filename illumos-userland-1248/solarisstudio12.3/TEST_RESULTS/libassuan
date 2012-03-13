@@ -1,0 +1,638 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --localstatedir=/var --infodir=/usr/share/info --enable-shared --disable-static --with-gpg-error-prefix=/usr --with-pic)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --localstatedir=/var --infodir=/usr/share/info --enable-shared --disable-static --with-gpg-error-prefix=/usr --with-pic)
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking whether to enable maintainer-specific portions of Makefiles... no
+yes
+checking build system type... checking whether to enable maintainer-specific portions of Makefiles... no
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+configure: autobuild project... libassuan
+configure: autobuild revision... 2.0.1
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120304-135819
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+configure: autobuild project... libassuan
+configure: autobuild revision... 2.0.1
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120304-135819
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+none
+checking how to run the C preprocessor... checking for grep that handles long lines and -e... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a sed that does not truncate output... yes
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for fgrep... /usr/bin/ggrep -F
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... /usr/bin/gsed
+checking for fgrep... /usr/bin/ggrep -F
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786240
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786240
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for dlfcn.h... ok
+checking for dlfcn.h... yes
+checking for objdir... .libs
+yes
+checking for objdir... .libs
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+yes
+checking if libtool supports shared libraries... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+yes
+checking whether to build static libraries... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... no
+checking for windres... no
+yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for windres... no
+checking for gawk... (cached) gawk
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for gawk... (cached) gawk
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for cc for build... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for setsockopt... yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for cc for build... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for setsockopt... no
+checking for setsockopt in -lsocket... no
+checking for setsockopt in -lsocket... yes
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+yes
+checking for ANSI C header files... (cached) yes
+checking locale.h usability... checking for string.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+yes
+checking for locale.h... yes
+checking sys/uio.h usability... checking sys/uio.h usability... yes
+checking sys/uio.h presence... yes
+checking sys/uio.h presence... yes
+checking for sys/uio.h... yes
+yes
+checking for sys/uio.h... yes
+checking for stdint.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking for uintptr_t... checking for inttypes.h... (cached) yes
+checking for uintptr_t... yes
+checking for uint16_t... yes
+checking for uint16_t... yes
+checking for an ANSI C-conforming const... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... yes
+checking for inline... inline
+checking for size_t... inline
+checking for size_t... yes
+checking return type of signal handlers... yes
+checking return type of signal handlers... void
+checking whether sys_siglist is declared... void
+checking whether sys_siglist is declared... no
+checking sys/socket.h usability... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for socklen_t... yes
+checking for sys/socket.h... yes
+checking for socklen_t... yes
+checking for struct cmsghdr.cmsg_len... yes
+checking for struct cmsghdr.cmsg_len... yes
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.8... yes
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.8... yes
+checking for flockfile... yes
+checking for flockfile... yes
+yes
+checking for funlockfile... checking for funlockfile... yes
+yes
+checking for inet_pton... checking for inet_pton... no
+checking for library containing nanosleep... no
+checking for library containing nanosleep... none required
+checking for funopen... none required
+checking for funopen... no
+checking for fopencookie... no
+checking for fopencookie... no
+checking for isascii... no
+checking for isascii... yes
+yes
+checking for putc_unlocked... checking for putc_unlocked... yes
+checking for memrchr... yes
+checking for memrchr... no
+checking for stpcpy... no
+checking for stpcpy... yes
+yes
+checking for unistd.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for setenv... checking for setenv... yes
+yes
+checking for vasprintf... checking for vasprintf... yes
+yes
+checking for SO_PEERCRED... checking for SO_PEERCRED... no
+no
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating m4/Makefile
+config.status: creating src/Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/Makefile
+config.status: creating src/libassuan-config
+config.status: creating src/libassuan-config
+config.status: creating src/versioninfo.rc
+config.status: creating src/versioninfo.rc
+config.status: creating config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+config.status: executing libtool commands
+config.status: executing libtool commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/.configured
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+/usr/gnu/bin/make  all-recursive
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+Making all in m4
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/m4'
+/usr/gnu/bin/make  all-recursive
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -o mkheader /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/mkheader.c
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/m4'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -o mkheader /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/mkheader.c
+./mkheader solaris2.11 /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan.h.in >assuan.h
+/usr/gnu/bin/make  all-am
+./mkheader solaris2.11 /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan.h.in >assuan.h
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+source='assuan.c' object='libassuan_la-assuan.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan.lo `test -f 'assuan.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan.c
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+source='assuan.c' object='libassuan_la-assuan.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan.lo `test -f 'assuan.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan.c  -KPIC -DPIC -o .libs/libassuan_la-assuan.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan.c  -KPIC -DPIC -o .libs/libassuan_la-assuan.o
+source='context.c' object='libassuan_la-context.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-context.lo `test -f 'context.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`context.c
+source='context.c' object='libassuan_la-context.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-context.lo `test -f 'context.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`context.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/context.c  -KPIC -DPIC -o .libs/libassuan_la-context.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/context.c  -KPIC -DPIC -o .libs/libassuan_la-context.o
+source='system.c' object='libassuan_la-system.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-system.lo `test -f 'system.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`system.c
+source='system.c' object='libassuan_la-system.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-system.lo `test -f 'system.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`system.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/system.c  -KPIC -DPIC -o .libs/libassuan_la-system.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/system.c  -KPIC -DPIC -o .libs/libassuan_la-system.o
+source='debug.c' object='libassuan_la-debug.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-debug.lo `test -f 'debug.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`debug.c
+source='debug.c' object='libassuan_la-debug.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-debug.lo `test -f 'debug.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`debug.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/debug.c  -KPIC -DPIC -o .libs/libassuan_la-debug.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/debug.c  -KPIC -DPIC -o .libs/libassuan_la-debug.o
+source='conversion.c' object='libassuan_la-conversion.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-conversion.lo `test -f 'conversion.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`conversion.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/conversion.c  -KPIC -DPIC -o .libs/libassuan_la-conversion.o
+source='conversion.c' object='libassuan_la-conversion.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-conversion.lo `test -f 'conversion.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`conversion.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/conversion.c  -KPIC -DPIC -o .libs/libassuan_la-conversion.o
+source='sysutils.c' object='libassuan_la-sysutils.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-sysutils.lo `test -f 'sysutils.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`sysutils.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/sysutils.c  -KPIC -DPIC -o .libs/libassuan_la-sysutils.o
+source='sysutils.c' object='libassuan_la-sysutils.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-sysutils.lo `test -f 'sysutils.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`sysutils.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/sysutils.c  -KPIC -DPIC -o .libs/libassuan_la-sysutils.o
+source='client.c' object='libassuan_la-client.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-client.lo `test -f 'client.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`client.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/client.c  -KPIC -DPIC -o .libs/libassuan_la-client.o
+source='client.c' object='libassuan_la-client.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-client.lo `test -f 'client.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`client.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/client.c  -KPIC -DPIC -o .libs/libassuan_la-client.o
+source='server.c' object='libassuan_la-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-server.lo `test -f 'server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/server.c  -KPIC -DPIC -o .libs/libassuan_la-server.o
+source='server.c' object='libassuan_la-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-server.lo `test -f 'server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/server.c  -KPIC -DPIC -o .libs/libassuan_la-server.o
+source='assuan-error.c' object='libassuan_la-assuan-error.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-error.lo `test -f 'assuan-error.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-error.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-error.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-error.o
+source='assuan-error.c' object='libassuan_la-assuan-error.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-error.lo `test -f 'assuan-error.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-error.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-error.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-error.o
+source='assuan-buffer.c' object='libassuan_la-assuan-buffer.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-buffer.lo `test -f 'assuan-buffer.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-buffer.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-buffer.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-buffer.o
+source='assuan-buffer.c' object='libassuan_la-assuan-buffer.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-buffer.lo `test -f 'assuan-buffer.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-buffer.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-buffer.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-buffer.o
+source='assuan-handler.c' object='libassuan_la-assuan-handler.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-handler.lo `test -f 'assuan-handler.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-handler.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-handler.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-handler.o
+source='assuan-handler.c' object='libassuan_la-assuan-handler.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-handler.lo `test -f 'assuan-handler.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-handler.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-handler.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-handler.o
+source='assuan-inquire.c' object='libassuan_la-assuan-inquire.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-inquire.lo `test -f 'assuan-inquire.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-inquire.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-inquire.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-inquire.o
+source='assuan-inquire.c' object='libassuan_la-assuan-inquire.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-inquire.lo `test -f 'assuan-inquire.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-inquire.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-inquire.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-inquire.o
+source='assuan-listen.c' object='libassuan_la-assuan-listen.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-listen.lo `test -f 'assuan-listen.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-listen.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-listen.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-listen.o
+source='assuan-listen.c' object='libassuan_la-assuan-listen.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-listen.lo `test -f 'assuan-listen.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-listen.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-listen.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-listen.o
+source='assuan-pipe-server.c' object='libassuan_la-assuan-pipe-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-pipe-server.lo `test -f 'assuan-pipe-server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-pipe-server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-pipe-server.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-pipe-server.o
+source='assuan-pipe-server.c' object='libassuan_la-assuan-pipe-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-pipe-server.lo `test -f 'assuan-pipe-server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-pipe-server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-pipe-server.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-pipe-server.o
+source='assuan-socket-server.c' object='libassuan_la-assuan-socket-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket-server.lo `test -f 'assuan-socket-server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket-server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket-server.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket-server.o
+source='assuan-socket-server.c' object='libassuan_la-assuan-socket-server.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket-server.lo `test -f 'assuan-socket-server.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket-server.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket-server.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket-server.o
+source='assuan-pipe-connect.c' object='libassuan_la-assuan-pipe-connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-pipe-connect.lo `test -f 'assuan-pipe-connect.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-pipe-connect.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-pipe-connect.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-pipe-connect.o
+source='assuan-pipe-connect.c' object='libassuan_la-assuan-pipe-connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-pipe-connect.lo `test -f 'assuan-pipe-connect.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-pipe-connect.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-pipe-connect.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-pipe-connect.o
+source='assuan-socket-connect.c' object='libassuan_la-assuan-socket-connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket-connect.lo `test -f 'assuan-socket-connect.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket-connect.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket-connect.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket-connect.o
+source='assuan-socket-connect.c' object='libassuan_la-assuan-socket-connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket-connect.lo `test -f 'assuan-socket-connect.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket-connect.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket-connect.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket-connect.o
+source='assuan-uds.c' object='libassuan_la-assuan-uds.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-uds.lo `test -f 'assuan-uds.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-uds.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-uds.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-uds.o
+source='assuan-uds.c' object='libassuan_la-assuan-uds.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-uds.lo `test -f 'assuan-uds.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-uds.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-uds.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-uds.o
+source='assuan-logging.c' object='libassuan_la-assuan-logging.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-logging.lo `test -f 'assuan-logging.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-logging.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-logging.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-logging.o
+source='assuan-logging.c' object='libassuan_la-assuan-logging.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-logging.lo `test -f 'assuan-logging.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-logging.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-logging.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-logging.o
+source='assuan-socket.c' object='libassuan_la-assuan-socket.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket.lo `test -f 'assuan-socket.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket.o
+source='assuan-socket.c' object='libassuan_la-assuan-socket.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-socket.lo `test -f 'assuan-socket.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-socket.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-socket.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-socket.o
+source='system-posix.c' object='libassuan_la-system-posix.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-system-posix.lo `test -f 'system-posix.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`system-posix.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/system-posix.c  -KPIC -DPIC -o .libs/libassuan_la-system-posix.o
+source='system-posix.c' object='libassuan_la-system-posix.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-system-posix.lo `test -f 'system-posix.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`system-posix.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/system-posix.c  -KPIC -DPIC -o .libs/libassuan_la-system-posix.o
+source='assuan-io.c' object='libassuan_la-assuan-io.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-io.lo `test -f 'assuan-io.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-io.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-io.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-io.o
+source='assuan-io.c' object='libassuan_la-assuan-io.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o libassuan_la-assuan-io.lo `test -f 'assuan-io.c' || echo '/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/'`assuan-io.c
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c' object='memrchr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o memrchr.lo /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/assuan-io.c  -KPIC -DPIC -o .libs/libassuan_la-assuan-io.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c  -KPIC -DPIC -o .libs/memrchr.o
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c' object='memrchr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o memrchr.lo /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC     -version-info 1:0:1  -o libassuan.la -rpath /usr/lib  libassuan_la-assuan.lo libassuan_la-context.lo libassuan_la-system.lo libassuan_la-debug.lo libassuan_la-conversion.lo libassuan_la-sysutils.lo libassuan_la-client.lo libassuan_la-server.lo libassuan_la-assuan-error.lo libassuan_la-assuan-buffer.lo libassuan_la-assuan-handler.lo libassuan_la-assuan-inquire.lo libassuan_la-assuan-listen.lo libassuan_la-assuan-pipe-server.lo libassuan_la-assuan-socket-server.lo libassuan_la-assuan-pipe-connect.lo libassuan_la-assuan-socket-connect.lo libassuan_la-assuan-uds.lo libassuan_la-assuan-logging.lo libassuan_la-assuan-socket.lo   libassuan_la-system-posix.lo libassuan_la-assuan-io.lo  memrchr.lo -lsocket  -lgpg-error 
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/src/memrchr.c  -KPIC -DPIC -o .libs/memrchr.o
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC     -version-info 1:0:1  -o libassuan.la -rpath /usr/lib/amd64  libassuan_la-assuan.lo libassuan_la-context.lo libassuan_la-system.lo libassuan_la-debug.lo libassuan_la-conversion.lo libassuan_la-sysutils.lo libassuan_la-client.lo libassuan_la-server.lo libassuan_la-assuan-error.lo libassuan_la-assuan-buffer.lo libassuan_la-assuan-handler.lo libassuan_la-assuan-inquire.lo libassuan_la-assuan-listen.lo libassuan_la-assuan-pipe-server.lo libassuan_la-assuan-socket-server.lo libassuan_la-assuan-pipe-connect.lo libassuan_la-assuan-socket-connect.lo libassuan_la-assuan-uds.lo libassuan_la-assuan-logging.lo libassuan_la-assuan-socket.lo   libassuan_la-system-posix.lo libassuan_la-assuan-io.lo  memrchr.lo -lsocket  -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -h libassuan.so.0 -o .libs/libassuan.so.0.1.0  .libs/libassuan_la-assuan.o .libs/libassuan_la-context.o .libs/libassuan_la-system.o .libs/libassuan_la-debug.o .libs/libassuan_la-conversion.o .libs/libassuan_la-sysutils.o .libs/libassuan_la-client.o .libs/libassuan_la-server.o .libs/libassuan_la-assuan-error.o .libs/libassuan_la-assuan-buffer.o .libs/libassuan_la-assuan-handler.o .libs/libassuan_la-assuan-inquire.o .libs/libassuan_la-assuan-listen.o .libs/libassuan_la-assuan-pipe-server.o .libs/libassuan_la-assuan-socket-server.o .libs/libassuan_la-assuan-pipe-connect.o .libs/libassuan_la-assuan-socket-connect.o .libs/libassuan_la-assuan-uds.o .libs/libassuan_la-assuan-logging.o .libs/libassuan_la-assuan-socket.o .libs/libassuan_la-system-posix.o .libs/libassuan_la-assuan-io.o .libs/memrchr.o   -lsocket -lgpg-error -lc  -m32 -mt   -mt
+libtool: link: (cd ".libs" && rm -f "libassuan.so.0" && ln -s "libassuan.so.0.1.0" "libassuan.so.0")
+libtool: link: (cd ".libs" && rm -f "libassuan.so" && ln -s "libassuan.so.0.1.0" "libassuan.so")
+libtool: link: ( cd ".libs" && rm -f "libassuan.la" && ln -s "../libassuan.la" "libassuan.la" )
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/doc'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/pipeconnect.c' object='pipeconnect.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/pipeconnect.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -h libassuan.so.0 -o .libs/libassuan.so.0.1.0  .libs/libassuan_la-assuan.o .libs/libassuan_la-context.o .libs/libassuan_la-system.o .libs/libassuan_la-debug.o .libs/libassuan_la-conversion.o .libs/libassuan_la-sysutils.o .libs/libassuan_la-client.o .libs/libassuan_la-server.o .libs/libassuan_la-assuan-error.o .libs/libassuan_la-assuan-buffer.o .libs/libassuan_la-assuan-handler.o .libs/libassuan_la-assuan-inquire.o .libs/libassuan_la-assuan-listen.o .libs/libassuan_la-assuan-pipe-server.o .libs/libassuan_la-assuan-socket-server.o .libs/libassuan_la-assuan-pipe-connect.o .libs/libassuan_la-assuan-socket-connect.o .libs/libassuan_la-assuan-uds.o .libs/libassuan_la-assuan-logging.o .libs/libassuan_la-assuan-socket.o .libs/libassuan_la-system-posix.o .libs/libassuan_la-assuan-io.o .libs/memrchr.o   -lsocket -lgpg-error -lc  -m64 -mt   -mt
+libtool: link: (cd ".libs" && rm -f "libassuan.so.0" && ln -s "libassuan.so.0.1.0" "libassuan.so.0")
+libtool: link: (cd ".libs" && rm -f "libassuan.so" && ln -s "libassuan.so.0.1.0" "libassuan.so")
+libtool: link: ( cd ".libs" && rm -f "libassuan.la" && ln -s "../libassuan.la" "libassuan.la" )
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/doc'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/pipeconnect.c' object='pipeconnect.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/pipeconnect.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o pipeconnect pipeconnect.o ../src/libassuan.la  -lsocket  -lgpg-error 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o pipeconnect pipeconnect.o ../src/libassuan.la  -lsocket  -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/pipeconnect pipeconnect.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/fdpassing.c' object='fdpassing.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/fdpassing.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/pipeconnect pipeconnect.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/fdpassing.c' object='fdpassing.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/fdpassing.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o fdpassing fdpassing.o ../src/libassuan.la  -lsocket  -lgpg-error 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o fdpassing fdpassing.o ../src/libassuan.la  -lsocket  -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/fdpassing fdpassing.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/ce-server.c' object='ce-server.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/ce-server.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/fdpassing fdpassing.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/ce-server.c' object='ce-server.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libassuan/libassuan-2.0.1/tests/ce-server.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o ce-server ce-server.o ../src/libassuan.la  -lsocket  -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/ce-server ce-server.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o ce-server ce-server.o ../src/libassuan.la  -lsocket  -lgpg-error 
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/m4'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/src'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/doc'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/ce-server ce-server.o  ../src/.libs/libassuan.so -lsocket -lgpg-error -mt -R/usr/lib/amd64
+Received data `Your lucky number is 3552664958674928.  Watch for it everywhere.'
+PASS: pipeconnect
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/m4'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/src'
+Making check in doc
+PASS: fdpassing
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/doc'
+Making check in tests
+==================
+All 2 tests passed
+==================
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/tests'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+/usr/gnu/bin/make  check-am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/i86/.tested
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+Received data `Your lucky number is 3552664958674928.  Watch for it everywhere.'
+PASS: pipeconnect
+PASS: fdpassing
+==================
+All 2 tests passed
+==================
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/tests'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libassuan/build/amd64/.tested

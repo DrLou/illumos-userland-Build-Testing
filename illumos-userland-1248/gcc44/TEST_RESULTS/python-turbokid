@@ -1,0 +1,3 @@
+(cd TurboKid-1.0.5/test; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland-1248/components/python/turbokid/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		/usr/bin/python2.6 ./runtests.py )

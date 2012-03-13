@@ -1,0 +1,86 @@
+(cd /export/home/drlou/illumos-userland/components/a2ps/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86'
+Making check in auxdir
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/auxdir'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/auxdir'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/m4'
+Making check in etc
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/etc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/etc'
+Making check in ps
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ps'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ps'
+Making check in ogonkify
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify'
+Making check in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify/doc'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify/doc'
+Making check in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify/m4'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify/m4'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/ogonkify'
+Making check in intl
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/intl'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/intl'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/lib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/lib'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/src'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/po'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/tests'
+FAIL: align-1.tst
+FAIL: backup.tst
+PASS: contrib.tst
+FAIL: cut.tst
+PASS: deleg-1.tst
+PASS: deleg-2.tst
+FAIL: encoding.tst
+PASS: guess-1.tst
+PASS: guess-2.tst
+PASS: inline.tst
+FAIL: inout-1.tst
+FAIL: inout-2.tst
+FAIL: inout-3.tst
+PASS: options-1.tst
+FAIL: pages-1.tst
+PASS: pages-2.tst
+PASS: po.tst
+FAIL: printers.tst
+FAIL: prolog-1.tst
+FAIL: prolog-2.tst
+FAIL: strip.tst
+-------------------------------------
+   Comparing generated PostScript
+-------------------------------------
+AppDelegate.m     (objc)...       FAIL: styles.tst
+FAIL: toc.tst
+PASS: usropt-1.tst
+PASS: usropt-2.tst
+=====================
+14 of 25 tests failed
+=====================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/a2ps/build/i86'

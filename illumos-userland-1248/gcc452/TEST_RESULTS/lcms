@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/lcms/lcms-1.19
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lcms/lcms-1.19 -p0 --backup --version-control=numbered < patches/000-configure.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lcms/lcms-1.19 -p0 --backup --version-control=numbered < patches/001-Makefile.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lcms/lcms-1.19 -p0 --backup --version-control=numbered < patches/002-Makefile.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lcms/lcms-1.19 -p0 --backup --version-control=numbered < patches/003-icc34.h.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lcms/lcms-1.19 -p0 --backup --version-control=numbered < patches/004-ltmain.sh.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  lcms-1.19.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/lcms/lcms-1.19/.unpacked

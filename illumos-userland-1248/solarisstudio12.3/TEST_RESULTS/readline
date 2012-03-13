@@ -1,0 +1,548 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/readline/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/readline/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info --enable-shared --disable-static CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" LDFLAGS="-lc")
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/readline/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/readline/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --infodir=/usr/share/info --enable-shared --disable-static CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" LDFLAGS="-lc")
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+i386-pc-solaris2.11
+checking host system type... 
+Beginning configuration for readline-5.2 for i386-pc-solaris2.11
+
+checking whether make sets $(MAKE)... i386-pc-solaris2.11
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+
+Beginning configuration for readline-5.2 for i386-pc-solaris2.11
+
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+none needed
+checking how to run the C preprocessor... checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for egrep... egrep
+checking for ANSI C header files... checking for egrep... egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ar... ar
+checking for ranlib... ranlib
+checking for an ANSI C-conforming const... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ar... ar
+checking for ranlib... ranlib
+checking for an ANSI C-conforming const... yes
+checking for function prototypes... yes
+checking whether char is unsigned... yes
+checking for function prototypes... yes
+checking whether char is unsigned... no
+checking return type of signal handlers... no
+checking return type of signal handlers... void
+checking for size_t... void
+checking for size_t... yes
+checking for ssize_t... yes
+checking for ssize_t... yes
+checking for ANSI C header files... (cached) yes
+checking whether stat file-mode macros are broken... no
+yes
+checking for ANSI C header files... (cached) yes
+checking whether stat file-mode macros are broken... checking for dirent.h that defines DIR... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... yes
+checking for library containing opendir... none required
+checking for fcntl... none required
+checking for fcntl... yes
+checking for kill... yes
+checking for kill... yes
+checking for lstat... yes
+checking for lstat... yes
+checking for memmove... yes
+checking for memmove... yes
+checking for putenv... yes
+checking for putenv... yes
+checking for select... yes
+checking for select... yes
+checking for setenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for setlocale... yes
+checking for strcasecmp... yes
+checking for strcasecmp... yes
+checking for strpbrk... yes
+checking for strpbrk... yes
+checking for tcgetattr... yes
+checking for tcgetattr... yes
+checking for vsnprintf... yes
+checking for vsnprintf... yes
+checking for isascii... yes
+checking for isascii... yes
+checking for isxdigit... yes
+checking for isxdigit... yes
+checking for getpwent... yes
+checking for getpwent... yes
+checking for getpwnam... yes
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for getpwuid... yes
+checking for working strcoll... yes
+checking for working strcoll... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking fcntl.h usability... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking varargs.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking varargs.h usability... yes
+checking varargs.h presence... yes
+checking for varargs.h... yes
+checking stdarg.h usability... yes
+checking varargs.h presence... yes
+checking for varargs.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+yes
+checking stdarg.h presence... checking for strings.h... (cached) yes
+checking limits.h usability... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking pwd.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking for memory.h... (cached) yes
+yes
+checking pwd.h presence... checking termcap.h usability... yes
+checking for pwd.h... yes
+checking for memory.h... (cached) yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+yes
+checking termcap.h presence... checking termios.h usability... yes
+checking for termcap.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+yes
+checking termios.h presence... checking termio.h usability... yes
+checking for termios.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking sys/pte.h usability... yes
+checking for termio.h... yes
+checking sys/pte.h usability... yes
+checking sys/pte.h presence... yes
+checking sys/pte.h presence... yes
+checking for sys/pte.h... yes
+checking for sys/pte.h... yes
+yes
+checking sys/stream.h usability... checking sys/stream.h usability... yes
+checking sys/stream.h presence... yes
+checking sys/stream.h presence... yes
+checking for sys/stream.h... yes
+checking for sys/stream.h... yes
+yes
+checking sys/select.h usability... checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+yes
+checking for sys/select.h... yes
+checking sys/file.h usability... checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+yes
+checking for sys/file.h... yes
+checking for sys/ptem.h... checking for sys/ptem.h... yes
+yes
+checking for type of signal functions... checking for type of signal functions... posix
+checking if signal handlers must be reinstalled when invoked... posix
+checking if signal handlers must be reinstalled when invoked... no
+checking for presence of POSIX-style sigsetjmp/siglongjmp... no
+checking for presence of POSIX-style sigsetjmp/siglongjmp... present
+present
+checking for lstat... checking for lstat... yes
+checking whether or not strcoll and strcmp differ... yes
+checking whether or not strcoll and strcmp differ... no
+checking whether the ctype macros accept non-ascii characters... no
+checking whether the ctype macros accept non-ascii characters... no
+checking whether getpw functions are declared in pwd.h... no
+checking whether getpw functions are declared in pwd.h... yes
+yes
+checking whether termios.h defines TIOCGWINSZ... checking whether termios.h defines TIOCGWINSZ... yes
+checking whether signal handlers are of type void... yes
+checking whether signal handlers are of type void... yes
+yes
+checking for TIOCSTAT in sys/ioctl.h... checking for TIOCSTAT in sys/ioctl.h... no
+checking for FIONREAD in sys/ioctl.h... no
+checking for FIONREAD in sys/ioctl.h... no
+checking for speed_t in sys/types.h... no
+checking for speed_t in sys/types.h... no
+checking for struct winsize in sys/ioctl.h and termios.h... no
+checking for struct winsize in sys/ioctl.h and termios.h... termios.h
+checking for struct dirent.d_ino... termios.h
+checking for struct dirent.d_ino... yes
+yes
+checking for struct dirent.d_fileno... checking for struct dirent.d_fileno... no
+checking for tgetent... no
+checking for tgetent... no
+checking for tgetent in -ltermcap... no
+checking for tgetent in -ltermcap... yes
+checking which library has the termcap functions... using libtermcap
+checking wctype.h usability... yes
+checking which library has the termcap functions... using libtermcap
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking wchar.h usability... yes
+checking for wctype.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+yes
+checking for wchar.h... checking langinfo.h usability... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+yes
+checking for langinfo.h... yes
+checking for mbsrtowcs... checking for mbsrtowcs... yes
+yes
+checking for mbrlen... checking for mbrlen... yes
+checking for wcrtomb... yes
+checking for wcrtomb... yes
+yes
+checking for wcscoll... checking for wcscoll... yes
+checking for wcsdup... yes
+checking for wcsdup... yes
+checking for wcwidth... yes
+checking for wcwidth... yes
+checking for wctype... yes
+checking for wctype... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for iswlower... yes
+checking for iswlower... yes
+checking for iswupper... yes
+checking for iswupper... yes
+checking for towlower... yes
+checking for towlower... yes
+checking for towupper... yes
+checking for towupper... yes
+checking for iswctype... yes
+checking for iswctype... yes
+checking for nl_langinfo and CODESET... yes
+checking for nl_langinfo and CODESET... yes
+checking for wchar_t in wchar.h... yes
+checking for wchar_t in wchar.h... yes
+checking for wctype_t in wctype.h... yes
+checking for wctype_t in wctype.h... yes
+checking for wint_t in wctype.h... yes
+checking for wint_t in wctype.h... yes
+checking configuration for building shared libraries... supported
+yes
+checking configuration for building shared libraries... configure: creating ./config.status
+supported
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating Makefile
+config.status: creating examples/Makefile
+config.status: creating doc/Makefile
+config.status: creating shlib/Makefile
+config.status: creating config.h
+config.status: creating examples/Makefile
+config.status: creating shlib/Makefile
+config.status: creating config.h
+config.status: executing default commands
+config.status: executing default commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86'
+test -d shlib || mkdir shlib
+( cd shlib ; /usr/gnu/bin/make -w all )
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86/shlib'
+rm -f readline.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o readline.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/readline.c 
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64'
+test -d shlib || mkdir shlib
+( cd shlib ; /usr/gnu/bin/make -w all )
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64/shlib'
+rm -f readline.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o readline.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/readline.c 
+mv readline.o readline.so
+rm -f vi_mode.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o vi_mode.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/vi_mode.c 
+mv readline.o readline.so
+rm -f vi_mode.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o vi_mode.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/vi_mode.c 
+mv vi_mode.o vi_mode.so
+rm -f funmap.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o funmap.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/funmap.c 
+mv vi_mode.o vi_mode.so
+rm -f funmap.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o funmap.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/funmap.c 
+mv funmap.o funmap.so
+rm -f keymaps.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o keymaps.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/keymaps.c 
+mv funmap.o funmap.so
+rm -f keymaps.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o keymaps.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/keymaps.c 
+mv keymaps.o keymaps.so
+rm -f parens.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o parens.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/parens.c 
+mv keymaps.o keymaps.so
+rm -f parens.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o parens.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/parens.c 
+mv parens.o parens.so
+rm -f search.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o search.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/search.c 
+mv parens.o parens.so
+rm -f search.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o search.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/search.c 
+mv search.o search.so
+rm -f rltty.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o rltty.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/rltty.c 
+mv search.o search.so
+rm -f rltty.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o rltty.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/rltty.c 
+mv rltty.o rltty.so
+rm -f complete.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o complete.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/complete.c 
+mv rltty.o rltty.so
+rm -f complete.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o complete.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/complete.c 
+mv complete.o complete.so
+rm -f bind.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o bind.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/bind.c 
+mv complete.o complete.so
+rm -f bind.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o bind.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/bind.c 
+mv bind.o bind.so
+rm -f isearch.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o isearch.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/isearch.c 
+mv bind.o bind.so
+rm -f isearch.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o isearch.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/isearch.c 
+mv isearch.o isearch.so
+rm -f display.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o display.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/display.c 
+mv isearch.o isearch.so
+rm -f display.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o display.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/display.c 
+mv display.o display.so
+rm -f signals.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o signals.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/signals.c 
+mv signals.o signals.so
+rm -f util.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o util.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/util.c 
+mv util.o util.so
+rm -f kill.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o kill.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/kill.c 
+mv kill.o kill.so
+rm -f undo.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o undo.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/undo.c 
+mv undo.o undo.so
+rm -f macro.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o macro.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/macro.c 
+mv display.o display.so
+rm -f signals.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o signals.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/signals.c 
+mv macro.o macro.so
+rm -f input.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o input.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/input.c 
+mv signals.o signals.so
+rm -f util.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o util.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/util.c 
+mv input.o input.so
+rm -f callback.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o callback.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/callback.c 
+mv util.o util.so
+rm -f kill.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o kill.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/kill.c 
+mv callback.o callback.so
+rm -f terminal.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o terminal.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/terminal.c 
+mv kill.o kill.so
+rm -f undo.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o undo.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/undo.c 
+mv terminal.o terminal.so
+rm -f text.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o text.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/text.c 
+mv undo.o undo.so
+rm -f macro.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o macro.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/macro.c 
+mv macro.o macro.so
+rm -f input.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o input.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/input.c 
+mv input.o input.so
+rm -f callback.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o callback.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/callback.c 
+mv callback.o callback.so
+rm -f terminal.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o terminal.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/terminal.c 
+mv text.o text.so
+rm -f nls.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o nls.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/nls.c 
+mv nls.o nls.so
+rm -f misc.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o misc.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/misc.c 
+mv terminal.o terminal.so
+rm -f text.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o text.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/text.c 
+mv misc.o misc.so
+rm -f xmalloc.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o xmalloc.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/xmalloc.c 
+mv xmalloc.o xmalloc.so
+rm -f history.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o history.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/history.c 
+mv history.o history.so
+rm -f histexpand.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o histexpand.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histexpand.c 
+mv text.o text.so
+rm -f nls.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o nls.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/nls.c 
+mv nls.o nls.so
+rm -f misc.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o misc.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/misc.c 
+mv misc.o misc.so
+rm -f xmalloc.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o xmalloc.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/xmalloc.c 
+mv xmalloc.o xmalloc.so
+rm -f history.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o history.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/history.c 
+mv histexpand.o histexpand.so
+rm -f histfile.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o histfile.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histfile.c 
+mv history.o history.so
+rm -f histexpand.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o histexpand.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histexpand.c 
+mv histfile.o histfile.so
+rm -f histsearch.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o histsearch.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histsearch.c 
+mv histsearch.o histsearch.so
+rm -f shell.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o shell.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/shell.c 
+mv shell.o shell.so
+rm -f mbutil.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o mbutil.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/mbutil.c 
+mv mbutil.o mbutil.so
+rm -f tilde.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -DREADLINE_LIBRARY -c -o tilde.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/tilde.c
+mv tilde.o tilde.so
+rm -f compat.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -K pic -o compat.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/compat.c 
+mv compat.o compat.so
+rm -f libreadline.so.5
+/usr/ccs/bin/ld -G -dy -z text -i -h libreadline.so.5 -lc  -o libreadline.so.5 readline.so vi_mode.so funmap.so keymaps.so parens.so search.so rltty.so complete.so bind.so isearch.so display.so signals.so util.so kill.so undo.so macro.so input.so callback.so terminal.so text.so nls.so misc.so xmalloc.so history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so tilde.so compat.so 
+rm -f libhistory.so.5
+/usr/ccs/bin/ld -G -dy -z text -i -h libhistory.so.5 -lc  -o libhistory.so.5 history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so xmalloc.so 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86/shlib'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/i86/.tested
+mv histexpand.o histexpand.so
+rm -f histfile.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o histfile.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histfile.c 
+mv histfile.o histfile.so
+rm -f histsearch.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o histsearch.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/histsearch.c 
+mv histsearch.o histsearch.so
+rm -f shell.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o shell.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/shell.c 
+mv shell.o shell.so
+rm -f mbutil.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o mbutil.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/mbutil.c 
+mv mbutil.o mbutil.so
+rm -f tilde.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -DREADLINE_LIBRARY -c -o tilde.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/tilde.c
+mv tilde.o tilde.so
+rm -f compat.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -DHAVE_CONFIG_H    -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/readline/readline-5.2 -DRL_LIBRARY_VERSION='"5.2"' -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -K pic -o compat.o /export/home/drlou/illumos-userland-1248/components/readline/readline-5.2/compat.c 
+mv compat.o compat.so
+rm -f libreadline.so.5
+/usr/ccs/bin/ld -G -dy -z text -i -h libreadline.so.5 -lc  -o libreadline.so.5 readline.so vi_mode.so funmap.so keymaps.so parens.so search.so rltty.so complete.so bind.so isearch.so display.so signals.so util.so kill.so undo.so macro.so input.so callback.so terminal.so text.so nls.so misc.so xmalloc.so history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so tilde.so compat.so 
+rm -f libhistory.so.5
+/usr/ccs/bin/ld -G -dy -z text -i -h libhistory.so.5 -lc  -o libhistory.so.5 history.so histexpand.so histfile.so histsearch.so shell.so mbutil.so xmalloc.so 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64/shlib'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/readline/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64'
+make[1]: Nothing to be done for `check'.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/readline/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/readline/build/amd64/.tested

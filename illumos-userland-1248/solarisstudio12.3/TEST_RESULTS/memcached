@@ -1,0 +1,288 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5 /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5 to /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/lib/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64 --with-libevent=/usr/lib/amd64 --enable-dtrace --disable-docs --disable-coverage --localstatedir=/var CFLAGS="-m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt")
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for icc in use... no
+checking for Sun cc in use... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C99... none needed
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking sasl/sasl.h usability... yes
+checking sasl/sasl.h presence... yes
+checking for sasl/sasl.h... yes
+checking for dtrace... /usr/sbin/dtrace
+checking for libevent directory... /usr/lib/amd64
+checking for library containing socket... -lsocket
+checking for library containing gethostbyname... -lnsl
+checking for library containing umem_cache_create... -lumem
+checking for library containing gethugepagesizes... no
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for inttypes.h... (cached) yes
+checking for print macros for integers (C99 section 7.8.1)... yes
+checking for an ANSI C-conforming const... yes
+checking for socklen_t... yes
+checking for endianness... little
+checking for htonll... yes
+checking for library containing pthread_create... none required
+checking for mlockall... yes
+checking for getpagesizes... yes
+checking for memcntl... yes
+checking for sigignore... yes
+checking for alignment... need
+checking for setppriv... yes
+checking priv.h usability... yes
+checking priv.h presence... yes
+checking for priv.h... yes
+checking umem.h usability... yes
+checking umem.h presence... yes
+checking for umem.h... yes
+checking for xml2rfc... no
+checking for xsltproc... /usr/bin/xsltproc
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+/usr/sbin/dtrace -h -s memcached_dtrace.d
+sed -e 's,void \*,const void \*,g' memcached_dtrace.h | \
+            sed -e 's,char \*,const char \*,g' | tr '\t' ' ' > mmc_dtrace.tmp
+mv mmc_dtrace.tmp memcached_dtrace.h
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/doc'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/doc'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/doc'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+source='memcached.c' object='memcached-memcached.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-memcached.o `test -f 'memcached.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`memcached.c
+source='hash.c' object='memcached-hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-hash.o `test -f 'hash.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`hash.c
+source='slabs.c' object='memcached-slabs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-slabs.o `test -f 'slabs.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`slabs.c
+source='items.c' object='memcached-items.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-items.o `test -f 'items.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`items.c
+source='assoc.c' object='memcached-assoc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-assoc.o `test -f 'assoc.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`assoc.c
+source='thread.c' object='memcached-thread.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-thread.o `test -f 'thread.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`thread.c
+source='daemon.c' object='memcached-daemon.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-daemon.o `test -f 'daemon.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`daemon.c
+source='stats.c' object='memcached-stats.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-stats.o `test -f 'stats.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`stats.c
+source='util.c' object='memcached-util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-util.o `test -f 'util.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`util.c
+source='solaris_priv.c' object='memcached-solaris_priv.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5  -DNDEBUG -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached-solaris_priv.o `test -f 'solaris_priv.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`solaris_priv.c
+/usr/sbin/dtrace  -G -o memcached_dtrace.o -s /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/memcached_dtrace.d memcached-memcached.o memcached-hash.o memcached-slabs.o memcached-items.o memcached-assoc.o memcached-thread.o memcached-daemon.o memcached-stats.o memcached-util.o  memcached-solaris_priv.o 
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags  -L/usr/lib/amd64  -o memcached memcached-memcached.o memcached-hash.o memcached-slabs.o memcached-items.o memcached-assoc.o memcached-thread.o memcached-daemon.o memcached-stats.o memcached-util.o  memcached-solaris_priv.o  memcached_dtrace.o -lumem -lnsl -lsocket  -levent
+source='memcached.c' object='memcached_debug-memcached.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-memcached.o `test -f 'memcached.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`memcached.c
+source='hash.c' object='memcached_debug-hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-hash.o `test -f 'hash.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`hash.c
+source='slabs.c' object='memcached_debug-slabs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-slabs.o `test -f 'slabs.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`slabs.c
+source='items.c' object='memcached_debug-items.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-items.o `test -f 'items.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`items.c
+source='assoc.c' object='memcached_debug-assoc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-assoc.o `test -f 'assoc.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`assoc.c
+source='thread.c' object='memcached_debug-thread.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-thread.o `test -f 'thread.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`thread.c
+source='daemon.c' object='memcached_debug-daemon.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-daemon.o `test -f 'daemon.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`daemon.c
+source='stats.c' object='memcached_debug-stats.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-stats.o `test -f 'stats.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`stats.c
+source='util.c' object='memcached_debug-util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-util.o `test -f 'util.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`util.c
+source='solaris_priv.c' object='memcached_debug-solaris_priv.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c -o memcached_debug-solaris_priv.o `test -f 'solaris_priv.c' || echo '/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/'`solaris_priv.c
+/usr/sbin/dtrace  -G -o memcached_debug_dtrace.o -s /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/memcached_dtrace.d memcached_debug-memcached.o memcached_debug-hash.o memcached_debug-slabs.o memcached_debug-items.o memcached_debug-assoc.o memcached_debug-thread.o memcached_debug-daemon.o memcached_debug-stats.o memcached_debug-util.o  memcached_debug-solaris_priv.o 
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags  -L/usr/lib/amd64  -o memcached-debug memcached_debug-memcached.o memcached_debug-hash.o memcached_debug-slabs.o memcached_debug-items.o memcached_debug-assoc.o memcached_debug-thread.o memcached_debug-daemon.o memcached_debug-stats.o memcached_debug-util.o  memcached_debug-solaris_priv.o  memcached_debug_dtrace.o -lumem -lnsl -lsocket  -levent
+source='sizes.c' object='sizes.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c sizes.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags  -L/usr/lib/amd64  -o sizes sizes.o  -lumem -lnsl -lsocket  -levent
+source='testapp.c' object='testapp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c testapp.c
+source='util.c' object='util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c util.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags  -L/usr/lib/amd64  -o testapp testapp.o util.o   -lumem -lnsl -lsocket  -levent
+source='timedrun.c' object='timedrun.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/memcached/memcached-1.4.5   -I/usr/lib/amd64   -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags -c timedrun.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -mt -m64 -xO5 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -errfmt=error -errwarn -errshort=tags  -L/usr/lib/amd64  -o timedrun timedrun.o  -lumem -lnsl -lsocket  -levent
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+./sizes
+Slab Stats	56
+Thread stats	176
+Global stats	128
+Settings	112
+Item (no cas)	48
+Item (cas)	56
+Libevent thread	192
+Connection	520
+----------------------------------------
+libevent thread cumulative	11568
+Thread stats cumulative		11376
+./testapp
+1..46
+ok 1 - cache_create
+ok 2 - cache_constructor
+ok 3 - cache_constructor_fail
+ok 4 - cache_destructor
+ok 5 - cache_reuse
+ok # SKIP 6 - cache_redzone
+ok 7 - strtol
+ok 8 - strtoll
+ok 9 - strtoul
+ok 10 - strtoull
+ok 11 - issue_44
+ok 12 - vperror
+ok 13 - issue_101
+ok 14 - start_server
+ok 15 - issue_92
+ok 16 - issue_102
+ok 17 - binary_noop
+ok 18 - binary_quit
+ok 19 - binary_quitq
+ok 20 - binary_set
+ok 21 - binary_setq
+ok 22 - binary_add
+ok 23 - binary_addq
+ok 24 - binary_replace
+ok 25 - binary_replaceq
+ok 26 - binary_delete
+ok 27 - binary_deleteq
+ok 28 - binary_get
+ok 29 - binary_getq
+ok 30 - binary_getk
+ok 31 - binary_getkq
+ok 32 - binary_incr
+ok 33 - binary_incrq
+ok 34 - binary_decr
+ok 35 - binary_decrq
+ok 36 - binary_version
+ok 37 - binary_flush
+ok 38 - binary_flushq
+ok 39 - binary_append
+ok 40 - binary_appendq
+ok 41 - binary_prepend
+ok 42 - binary_prependq
+ok 43 - binary_stat
+ok 44 - binary_illegal
+ok 45 - binary_pipeline_hickup
+ok 46 - stop_server
+prove ./t
+t/00-startup.........ok
+t/64bit..............ok
+t/binary-get.........ok
+t/binary-sasl........ok
+t/binary.............ok
+t/bogus-commands.....ok
+t/cas................ok
+t/daemonize..........ok
+t/dash-M.............ok
+t/evictions..........ok
+t/expirations........ok
+t/flags..............ok
+t/flush-all..........ok
+t/getset.............ok
+t/incrdecr...........ok
+t/issue_104..........ok
+t/issue_108..........ok
+t/issue_14...........ok
+t/issue_22...........ok
+t/issue_29...........ok
+t/issue_3............ok
+t/issue_41...........ok
+t/issue_42...........ok
+t/issue_50...........ok
+t/issue_61...........ok
+t/issue_67...........ok
+t/issue_68...........ok
+t/issue_70...........ok
+t/item_size_max......ok
+t/line-lengths.......ok
+t/lru................ok
+t/maxconns...........ok
+t/multiversioning....ok
+t/noreply............ok
+t/stats-detail.......ok
+t/stats..............ok
+t/udp................ok
+t/unixsocket.........ok
+t/whitespace.........skipped
+        all skipped: Skipping tests probably because you don't have git.
+All tests successful, 1 test skipped.
+Files=39, Tests=6472, 135 wallclock secs ( 2.17 cusr +  0.67 csys =  2.84 CPU)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/memcached/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/memcached/build/amd64/.tested

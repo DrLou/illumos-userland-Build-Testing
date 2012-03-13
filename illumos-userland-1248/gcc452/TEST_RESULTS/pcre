@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/pcre/pcre-7.8
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/pcre/pcre-7.8 -p1 --backup --version-control=numbered < patches/Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  pcre-7.8.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/pcre/pcre-7.8/.unpacked

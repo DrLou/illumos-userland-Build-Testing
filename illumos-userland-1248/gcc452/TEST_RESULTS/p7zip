@@ -1,0 +1,7 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1 -p1 --backup --version-control=numbered < patches/compile.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1 -p1 --backup --version-control=numbered < patches/manpages.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1 -p1 --backup --version-control=numbered < patches/plugindir.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1 -p1 --backup --version-control=numbered < patches/pragmapack.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  p7zip_9.20.1_src_all.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/p7zip/p7zip_9.20.1/.unpacked

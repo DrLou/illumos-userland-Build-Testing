@@ -1,0 +1,1268 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/elinks/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/elinks/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/elinks/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/elinks/elinks-0.11.7/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --enable-bittorrent --enable-html-highlight --enable-256-colors CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for aclocal... aclocal
+checking for autoconf... autoconf
+checking for autoheader... autoheader
+checking for gnumake... no
+checking for gmake... /usr/bin/gmake
+checking for "/export/home/drlou/illumos-userland-1248/components/elinks/elinks-0.11.7/features.conf"... yes
+checking for "/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/features.conf"... no
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for gawk... gawk
+checking for gawk... /usr/bin/gawk
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for git... /usr/bin/git
+checking for sparse... no
+checking for asciidoc... no
+checking for xmlto... no
+checking for jw... no
+checking for pod2html... no
+checking for BEOS... no
+checking for RISCOS... no
+checking for WIN32... no
+checking for EMX... no
+checking for UNIX... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking for unistd.h... (cached) yes
+checking sigaction.h usability... no
+checking sigaction.h presence... no
+checking for sigaction.h... no
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking netinet/in_systm.h usability... yes
+checking netinet/in_systm.h presence... yes
+checking for netinet/in_systm.h... yes
+checking netinet/in_system.h usability... no
+checking netinet/in_system.h presence... no
+checking for netinet/in_system.h... no
+checking netinet/ip.h usability... no
+checking netinet/ip.h presence... yes
+checking for netinet/ip.h... yes
+checking net/if.h usability... yes
+checking net/if.h presence... yes
+checking for net/if.h... yes
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking netinet/in6_var.h usability... no
+checking netinet/in6_var.h presence... no
+checking for netinet/in6_var.h... no
+checking ifaddrs.h usability... yes
+checking ifaddrs.h presence... yes
+checking for ifaddrs.h... yes
+checking sys/cygwin.h usability... no
+checking sys/cygwin.h presence... no
+checking for sys/cygwin.h... no
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking sys/fmutex.h usability... no
+checking sys/fmutex.h presence... no
+checking for sys/fmutex.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/sockio.h usability... yes
+checking sys/sockio.h presence... yes
+checking for sys/sockio.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/signal.h usability... yes
+checking sys/signal.h presence... yes
+checking for sys/signal.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/un.h usability... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for typeof... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for size_t... yes
+checking for off_t... yes
+checking for ssize_t... yes
+checking for long long... yes
+checking for off_t... yes
+checking for int32_t... yes
+checking for uint32_t... yes
+checking for uint16_t... yes
+checking for char... yes
+checking size of char... 1
+checking for short... yes
+checking size of short... 2
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 4
+checking for long long... yes
+checking size of long long... 8
+checking for off_t... (cached) yes
+checking size of off_t... 8
+checking for variadic macros... yes
+checking for -rdynamic... no
+checking for regex_t... yes
+checking for working memcmp... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for strftime... yes
+checking for gethostbyaddr... no
+checking for herror... no
+checking for strerror... yes
+checking for popen... yes
+checking for uname... yes
+checking for access... yes
+checking for chmod... yes
+checking for alarm... yes
+checking for timegm... yes
+checking for mremap... no
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strcasestr... yes
+checking for strstr... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for memmove... yes
+checking for bcopy... yes
+checking for stpcpy... yes
+checking for strdup... yes
+checking for index... yes
+checking for isdigit... yes
+checking for mempcpy... no
+checking for memrchr... no
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for asprintf... yes
+checking for vasprintf... yes
+checking for getifaddrs... no
+checking for getpwnam... yes
+checking for inet_pton... no
+checking for inet_ntop... no
+checking for fflush... yes
+checking for fsync... yes
+checking for fseeko... yes
+checking for ftello... yes
+checking for sigaction... yes
+checking for gettimeofday... yes
+checking for clock_gettime... yes
+checking for cygwin_conv_to_full_win32_path... no
+checking for setenv... yes
+checking for putenv... yes
+checking for getuid... yes
+checking for geteuid... yes
+checking for getpid... yes
+checking for setpgid... yes
+checking for getpgid... yes
+checking for setpgrp... yes
+checking for getpgrp... yes
+checking for raise... yes
+checking for kill... yes
+checking for __va_copy... yes
+checking for sysconf(_SC_PAGE_SIZE)... yes
+checking for C99 vsnprintf... yes
+checking for dlopen in -ldl... yes
+checking for socket... no
+checking for socket in -lsocket... yes
+checking for setsockopt... yes
+checking for gethostbyname... no
+checking for gethostbyname in -lsocket... no
+checking for gethostbyname in -lnsl... yes
+checking for gpm support... yes
+checking gpm.h usability... no
+checking gpm.h presence... no
+checking for gpm.h... no
+checking for zlib support... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzdopen in -lz... yes
+checking for bzlib support... yes
+checking bzlib.h usability... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for BZ2_bzReadOpen in -lbz2... yes
+checking for idn support... yes
+checking idna.h usability... no
+checking idna.h presence... no
+checking for idna.h... no
+checking expat.h usability... yes
+checking expat.h presence... yes
+checking for expat.h... yes
+checking for XML_ParserCreate in -lexpat... yes
+checking sys/consio.h usability... no
+checking sys/consio.h presence... no
+checking for sys/consio.h... no
+checking machine/console.h usability... no
+checking machine/console.h presence... no
+checking for machine/console.h... no
+checking for SpiderMonkey... no
+checking for Guile... no
+checking for Perl... no
+checking whether POPpx works without an n_a variable... no
+checking for Python... no
+checking for Lua... no
+checking for Ruby... no
+checking for OpenSSL... yes
+checking for GNU TLS (1.2 or later)... not used
+checking whether to be or not to be... needs to be determined experimentally
+checking for struct sockaddr_storage... yes
+checking for struct sockaddr_in6... yes
+checking for struct addrinfo... yes
+checking for getaddrinfo... yes
+checking for X... libraries , headers 
+checking execinfo.h usability... yes
+checking execinfo.h presence... yes
+checking for execinfo.h... yes
+checking for smbclient... no
+checking whether /usr/bin/gmake sets $(MAKE)... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for strerror in -lcposix... no
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking argz.h usability... no
+checking argz.h presence... no
+checking for argz.h... no
+checking for limits.h... (cached) yes
+checking for locale.h... (cached) yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for feof_unlocked... no
+checking for fgets_unlocked... no
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... (cached) yes
+checking for getgid... yes
+checking for getuid... (cached) yes
+checking for mempcpy... (cached) no
+checking for munmap... yes
+checking for putenv... (cached) yes
+checking for setenv... (cached) yes
+checking for setlocale... yes
+checking for stpcpy... (cached) yes
+checking for strchr... (cached) yes
+checking for strcasecmp... (cached) yes
+checking for strdup... (cached) yes
+checking for strtoul... yes
+checking for tsearch... yes
+checking for __argz_count... no
+checking for __argz_stringify... no
+checking for __argz_next... no
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for bison... bison
+checking version of bison... 2.3, ok
+checking for catalogs to be installed...  be bg ca cs da de el es et fi fr gl hr hu id is it lt nl nb pl pt pt_BR ro ru sk sr sv tr uk
+checking fsplib.h usability... no
+checking fsplib.h presence... no
+checking for fsplib.h... no
+configure: creating ./config.status
+config.status: creating Makefile.config
+config.status: creating contrib/elinks.spec
+config.status: creating contrib/lua/hooks.lua
+config.status: creating contrib/conv/w3m2links.awk
+config.status: creating doc/man/man1/elinks.1
+config.status: creating src/intl/gettext/ref-add.sed
+config.status: creating src/intl/gettext/ref-del.sed
+config.status: creating config.h
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+[[35mMAKE init(B[m]   doc
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE init(B[m]   doc/man
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+[[35mMAKE init(B[m]   doc/man/man1
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+[[35mMAKE init(B[m]   doc/man/man5
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE init(B[m]   po
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+gmake[2]: Nothing to be done for `init'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+[[35mMAKE init(B[m]   src
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+[[35mMAKE init(B[m]   src/bfu
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+[[35mMAKE init(B[m]   src/bookmarks
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE init(B[m]   src/bookmarks/backend
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE init(B[m]   src/cache
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+[[35mMAKE init(B[m]   src/config
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+[[35mMAKE init(B[m]   src/cookies
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+[[35mMAKE init(B[m]   src/dialogs
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+[[35mMAKE init(B[m]   src/document
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE init(B[m]   src/document/css
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+[[35mMAKE init(B[m]   src/document/dom
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+[[35mMAKE init(B[m]   src/document/html
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE init(B[m]   src/document/html/parser
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+gmake[5]: Nothing to be done for `init'.
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE init(B[m]   src/document/plain
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE init(B[m]   src/dom
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE init(B[m]   src/dom/css
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+[[35mMAKE init(B[m]   src/dom/sgml
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+[[35mMAKE init(B[m]   src/dom/sgml/html
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+gmake[5]: Nothing to be done for `init'.
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+[[35mMAKE init(B[m]   src/dom/sgml/rss
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+gmake[5]: Nothing to be done for `init'.
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+[[35mMAKE init(B[m]   src/dom/sgml/xbel
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+gmake[5]: Nothing to be done for `init'.
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+[[35mMAKE init(B[m]   src/dom/test
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/test'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/test'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE init(B[m]   src/ecmascript
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/ecmascript'
+[[35mMAKE init(B[m]   src/ecmascript/spidermonkey
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/ecmascript/spidermonkey'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/ecmascript/spidermonkey'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/ecmascript'
+[[35mMAKE init(B[m]   src/encoding
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+[[35mMAKE init(B[m]   src/formhist
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+[[35mMAKE init(B[m]   src/globhist
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+[[35mMAKE init(B[m]   src/intl
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE init(B[m]   src/intl/gettext
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE init(B[m]   src/main
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+[[35mMAKE init(B[m]   src/mime
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE init(B[m]   src/mime/backend
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE init(B[m]   src/network
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE init(B[m]   src/network/ssl
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE init(B[m]   src/osdep
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE init(B[m]   src/osdep/beos
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/beos'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/beos'
+[[35mMAKE init(B[m]   src/osdep/os2
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/os2'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/os2'
+[[35mMAKE init(B[m]   src/osdep/riscos
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/riscos'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/riscos'
+[[35mMAKE init(B[m]   src/osdep/unix
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+[[35mMAKE init(B[m]   src/osdep/win32
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/win32'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/win32'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE init(B[m]   src/protocol
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE init(B[m]   src/protocol/auth
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+[[35mMAKE init(B[m]   src/protocol/bittorrent
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+[[35mMAKE init(B[m]   src/protocol/file
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+[[35mMAKE init(B[m]   src/protocol/finger
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/finger'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/finger'
+[[35mMAKE init(B[m]   src/protocol/fsp
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/fsp'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/fsp'
+[[35mMAKE init(B[m]   src/protocol/ftp
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+[[35mMAKE init(B[m]   src/protocol/gopher
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/gopher'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/gopher'
+[[35mMAKE init(B[m]   src/protocol/http
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+[[35mMAKE init(B[m]   src/protocol/nntp
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/nntp'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/nntp'
+[[35mMAKE init(B[m]   src/protocol/rewrite
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+[[35mMAKE init(B[m]   src/protocol/smb
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/smb'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/smb'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE init(B[m]   src/scripting
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting'
+[[35mMAKE init(B[m]   src/scripting/guile
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/guile'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/guile'
+[[35mMAKE init(B[m]   src/scripting/lua
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/lua'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/lua'
+[[35mMAKE init(B[m]   src/scripting/perl
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/perl'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/perl'
+[[35mMAKE init(B[m]   src/scripting/python
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/python'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/python'
+[[35mMAKE init(B[m]   src/scripting/ruby
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/ruby'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/ruby'
+[[35mMAKE init(B[m]   src/scripting/smjs
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/smjs'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting/smjs'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/scripting'
+[[35mMAKE init(B[m]   src/session
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+[[35mMAKE init(B[m]   src/terminal
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+[[35mMAKE init(B[m]   src/util
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+gmake[3]: Nothing to be done for `init'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+[[35mMAKE init(B[m]   src/viewer
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+[[35mMAKE init(B[m]   src/viewer/dump
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+[[35mMAKE init(B[m]   src/viewer/text
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+gmake[4]: Nothing to be done for `init'.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+The following feature summary has been saved to features.log
+Feature summary:
+Documentation Tools ............. no
+Manual Formats .................. no
+Man Page Formats ................ no
+gpm ............................. no
+zlib ............................ yes
+bzlib ........................... yes
+idn ............................. no
+Bookmarks ....................... yes
+XBEL bookmarks .................. yes
+ECMAScript (JavaScript) ......... no
+Browser scripting ............... no
+SSL ............................. OpenSSL
+Native Language Support ......... yes
+Cookies ......................... yes
+Form history .................... yes
+Global history .................. yes
+Mailcap ......................... yes
+Mimetypes files ................. yes
+IPv6 ............................ yes
+BitTorrent protocol ............. yes
+Data protocol ................... yes
+URI rewriting ................... yes
+Local CGI ....................... no
+Finger protocol ................. no
+FSP protocol .................... no
+FTP protocol .................... yes
+Gopher protocol ................. no
+NNTP protocol ................... no
+SMB protocol .................... no
+Mouse handling .................. yes
+BSD sysmouse .................... no
+88 colors ....................... no
+256 colors ...................... yes
+Exmode interface ................ no
+LEDs ............................ yes
+Marks ........................... yes
+Cascading Style Sheets .......... yes
+HTML highlighting ............... yes
+DOM engine ...................... HTML highlighting
+Backtrace ....................... yes
+No root exec .................... no
+Debug mode ...................... no
+Fast mode ....................... no
+Own libc stubs .................. no
+Small binary .................... no
+System configuration directory .. /usr/etc/elinks
+Locale catalogs directory ....... /usr/share/locale
+Compiler options (CFLAGS) ....... -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt 
+Linker options (LIBS) ........... -lX11 -lssl -lcrypto -lnsl -lsocket -ldl  -lz -lbz2 -lexpat 
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/elinks/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/elinks/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+cd . \
+	  && CONFIG_FILES= CONFIG_HEADERS=config.h \
+	     /bin/bash ./config.status
+config.status: creating config.h
+config.status: config.h is unchanged
+[[35mMAKE all(B[m]   doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE all(B[m]   doc/man
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+[[35mMAKE all(B[m]   doc/man/man1
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+[[35mMAKE all(B[m]   doc/man/man5
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE all(B[m]   po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+ [[36mGMSGFMT(B[m]   po/be.gmo       [[36mGMSGFMT(B[m]   po/bg.gmo       [[36mGMSGFMT(B[m]   po/ca.gmo       [[36mGMSGFMT(B[m]   po/cs.gmo       [[36mGMSGFMT(B[m]   po/da.gmo       [[36mGMSGFMT(B[m]   po/de.gmo       [[36mGMSGFMT(B[m]   po/el.gmo       [[36mGMSGFMT(B[m]   po/es.gmo       [[36mGMSGFMT(B[m]   po/et.gmo       [[36mGMSGFMT(B[m]   po/fi.gmo       [[36mGMSGFMT(B[m]   po/fr.gmo       [[36mGMSGFMT(B[m]   po/gl.gmo       [[36mGMSGFMT(B[m]   po/hr.gmo       [[36mGMSGFMT(B[m]   po/hu.gmo       [[36mGMSGFMT(B[m]   po/id.gmo       [[36mGMSGFMT(B[m]   po/is.gmo       [[36mGMSGFMT(B[m]   po/it.gmo       [[36mGMSGFMT(B[m]   po/lt.gmo       [[36mGMSGFMT(B[m]   po/nl.gmo       [[36mGMSGFMT(B[m]   po/nb.gmo       [[36mGMSGFMT(B[m]   po/pl.gmo       [[36mGMSGFMT(B[m]   po/pt.gmo       [[36mGMSGFMT(B[m]   po/pt_BR.gmo    [[36mGMSGFMT(B[m]   po/ro.gmo       [[36mGMSGFMT(B[m]   po/ru.gmo       [[36mGMSGFMT(B[m]   po/sk.gmo       [[36mGMSGFMT(B[m]   po/sr.gmo       [[36mGMSGFMT(B[m]   po/sv.gmo       [[36mGMSGFMT(B[m]   po/tr.gmo       [[36mGMSGFMT(B[m]   po/uk.gmo      make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+[[35mMAKE all(B[m]   src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+[[35mMAKE all(B[m]   src/bfu
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+      [[36mCC(B[m]   src/bfu/button.o
+      [[36mCC(B[m]   src/bfu/checkbox.o
+      [[36mCC(B[m]   src/bfu/dialog.o
+      [[36mCC(B[m]   src/bfu/group.o
+      [[36mCC(B[m]   src/bfu/hierbox.o
+      [[36mCC(B[m]   src/bfu/hotkey.o
+      [[36mCC(B[m]   src/bfu/inpfield.o
+      [[36mCC(B[m]   src/bfu/inphist.o
+      [[36mCC(B[m]   src/bfu/leds.o
+      [[36mCC(B[m]   src/bfu/listbox.o
+      [[36mCC(B[m]   src/bfu/listmenu.o
+      [[36mCC(B[m]   src/bfu/menu.o
+      [[36mCC(B[m]   src/bfu/msgbox.o
+      [[36mCC(B[m]   src/bfu/style.o
+      [[36mCC(B[m]   src/bfu/text.o
+      [[36mCC(B[m]   src/bfu/widget.o
+      [[32mLD(B[m]   src/bfu/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+[[35mMAKE all(B[m]   src/bookmarks
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE all(B[m]   src/bookmarks/backend
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+      [[36mCC(B[m]   src/bookmarks/backend/common.o
+      [[36mCC(B[m]   src/bookmarks/backend/default.o
+      [[36mCC(B[m]   src/bookmarks/backend/xbel.o
+      [[32mLD(B[m]   src/bookmarks/backend/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+      [[36mCC(B[m]   src/bookmarks/bookmarks.o
+      [[36mCC(B[m]   src/bookmarks/dialogs.o
+      [[32mLD(B[m]   src/bookmarks/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE all(B[m]   src/cache
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+      [[36mCC(B[m]   src/cache/cache.o
+      [[36mCC(B[m]   src/cache/dialogs.o
+      [[32mLD(B[m]   src/cache/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+[[35mMAKE all(B[m]   src/config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+      [[36mCC(B[m]   src/config/cmdline.o
+      [[36mCC(B[m]   src/config/conf.o
+      [[36mCC(B[m]   src/config/dialogs.o
+      [[36mCC(B[m]   src/config/home.o
+      [[36mCC(B[m]   src/config/kbdbind.o
+      [[36mCC(B[m]   src/config/options.o
+      [[36mCC(B[m]   src/config/opttypes.o
+      [[36mCC(B[m]   src/config/timer.o
+      [[36mCC(B[m]   src/config/urlhist.o
+      [[32mLD(B[m]   src/config/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+[[35mMAKE all(B[m]   src/cookies
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+      [[36mCC(B[m]   src/cookies/cookies.o
+      [[36mCC(B[m]   src/cookies/dialogs.o
+      [[36mCC(B[m]   src/cookies/parser.o
+      [[32mLD(B[m]   src/cookies/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+[[35mMAKE all(B[m]   src/dialogs
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+      [[36mCC(B[m]   src/dialogs/document.o
+      [[36mCC(B[m]   src/dialogs/download.o
+      [[36mCC(B[m]   src/dialogs/edit.o
+      [[36mCC(B[m]   src/dialogs/info.o
+      [[36mCC(B[m]   src/dialogs/menu.o
+      [[36mCC(B[m]   src/dialogs/options.o
+      [[36mCC(B[m]   src/dialogs/progress.o
+      [[36mCC(B[m]   src/dialogs/status.o
+      [[32mLD(B[m]   src/dialogs/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+[[35mMAKE all(B[m]   src/document
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE all(B[m]   src/document/css
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+      [[36mCC(B[m]   src/document/css/apply.o
+      [[36mCC(B[m]   src/document/css/css.o
+      [[36mCC(B[m]   src/document/css/parser.o
+      [[36mCC(B[m]   src/document/css/property.o
+      [[36mCC(B[m]   src/document/css/scanner.o
+      [[36mCC(B[m]   src/document/css/stylesheet.o
+      [[36mCC(B[m]   src/document/css/value.o
+      [[32mLD(B[m]   src/document/css/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+[[35mMAKE all(B[m]   src/document/dom
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+      [[36mCC(B[m]   src/document/dom/renderer.o
+      [[32mLD(B[m]   src/document/dom/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+[[35mMAKE all(B[m]   src/document/html
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE all(B[m]   src/document/html/parser
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+      [[36mCC(B[m]   src/document/html/parser/forms.o
+      [[36mCC(B[m]   src/document/html/parser/general.o
+      [[36mCC(B[m]   src/document/html/parser/link.o
+      [[36mCC(B[m]   src/document/html/parser/parse.o
+      [[36mCC(B[m]   src/document/html/parser/stack.o
+      [[36mCC(B[m]   src/document/html/parser/table.o
+      [[32mLD(B[m]   src/document/html/parser/lib.o
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+      [[36mCC(B[m]   src/document/html/frames.o
+      [[36mCC(B[m]   src/document/html/parser.o
+      [[36mCC(B[m]   src/document/html/renderer.o
+      [[36mCC(B[m]   src/document/html/tables.o
+      [[32mLD(B[m]   src/document/html/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE all(B[m]   src/document/plain
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+      [[36mCC(B[m]   src/document/plain/renderer.o
+      [[32mLD(B[m]   src/document/plain/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+      [[36mCC(B[m]   src/document/docdata.o
+      [[36mCC(B[m]   src/document/document.o
+      [[36mCC(B[m]   src/document/forms.o
+      [[36mCC(B[m]   src/document/options.o
+      [[36mCC(B[m]   src/document/refresh.o
+      [[36mCC(B[m]   src/document/renderer.o
+      [[32mLD(B[m]   src/document/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE all(B[m]   src/dom
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE all(B[m]   src/dom/css
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+      [[36mCC(B[m]   src/dom/css/scanner.o
+      [[32mLD(B[m]   src/dom/css/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+[[35mMAKE all(B[m]   src/dom/sgml
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+[[35mMAKE all(B[m]   src/dom/sgml/html
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+      [[36mCC(B[m]   src/dom/sgml/html/html.o
+      [[32mLD(B[m]   src/dom/sgml/html/lib.o
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+[[35mMAKE all(B[m]   src/dom/sgml/rss
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+      [[36mCC(B[m]   src/dom/sgml/rss/rss.o
+      [[32mLD(B[m]   src/dom/sgml/rss/lib.o
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+[[35mMAKE all(B[m]   src/dom/sgml/xbel
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+      [[36mCC(B[m]   src/dom/sgml/xbel/xbel.o
+      [[32mLD(B[m]   src/dom/sgml/xbel/lib.o
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+      [[36mCC(B[m]   src/dom/sgml/parser.o
+      [[36mCC(B[m]   src/dom/sgml/scanner.o
+      [[36mCC(B[m]   src/dom/sgml/sgml.o
+      [[32mLD(B[m]   src/dom/sgml/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+      [[36mCC(B[m]   src/dom/node.o
+      [[36mCC(B[m]   src/dom/scanner.o
+      [[36mCC(B[m]   src/dom/select.o
+      [[36mCC(B[m]   src/dom/stack.o
+      [[32mLD(B[m]   src/dom/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE all(B[m]   src/encoding
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+      [[36mCC(B[m]   src/encoding/bzip2.o
+      [[36mCC(B[m]   src/encoding/encoding.o
+      [[36mCC(B[m]   src/encoding/gzip.o
+      [[32mLD(B[m]   src/encoding/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+[[35mMAKE all(B[m]   src/formhist
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+      [[36mCC(B[m]   src/formhist/dialogs.o
+      [[36mCC(B[m]   src/formhist/formhist.o
+      [[32mLD(B[m]   src/formhist/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+[[35mMAKE all(B[m]   src/globhist
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+      [[36mCC(B[m]   src/globhist/dialogs.o
+      [[36mCC(B[m]   src/globhist/globhist.o
+      [[32mLD(B[m]   src/globhist/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+[[35mMAKE all(B[m]   src/intl
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE all(B[m]   src/intl/gettext
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+      [[36mCC(B[m]   src/intl/gettext/bindtextdom.o
+      [[36mCC(B[m]   src/intl/gettext/dcgettext.o
+      [[36mCC(B[m]   src/intl/gettext/dcigettext.o
+      [[36mCC(B[m]   src/intl/gettext/dcngettext.o
+      [[36mCC(B[m]   src/intl/gettext/dgettext.o
+      [[36mCC(B[m]   src/intl/gettext/dngettext.o
+      [[36mCC(B[m]   src/intl/gettext/explodename.o
+      [[36mCC(B[m]   src/intl/gettext/finddomain.o
+      [[36mCC(B[m]   src/intl/gettext/gettext.o
+      [[36mCC(B[m]   src/intl/gettext/intl-compat.o
+      [[36mCC(B[m]   src/intl/gettext/l10nflist.o
+      [[36mCC(B[m]   src/intl/gettext/libintl.o
+      [[36mCC(B[m]   src/intl/gettext/loadmsgcat.o
+      [[36mCC(B[m]   src/intl/gettext/localcharset.o
+      [[36mCC(B[m]   src/intl/gettext/localealias.o
+      [[36mCC(B[m]   src/intl/gettext/ngettext.o
+      [[36mCC(B[m]   src/intl/gettext/plural.o
+      [[36mCC(B[m]   src/intl/gettext/textdomain.o
+      [[32mLD(B[m]   src/intl/gettext/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+      [[36mCC(B[m]   src/intl/charsets.o
+      [[32mLD(B[m]   src/intl/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE all(B[m]   src/main
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+      [[36mCC(B[m]   src/main/event.o
+      [[36mCC(B[m]   src/main/interlink.o
+      [[36mCC(B[m]   src/main/main.o
+      [[36mCC(B[m]   src/main/module.o
+      [[36mCC(B[m]   src/main/select.o
+      [[36mCC(B[m]   src/main/timer.o
+      [[36mCC(B[m]   src/main/version.o
+      [[32mLD(B[m]   src/main/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+[[35mMAKE all(B[m]   src/mime
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE all(B[m]   src/mime/backend
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+      [[36mCC(B[m]   src/mime/backend/common.o
+      [[36mCC(B[m]   src/mime/backend/default.o
+      [[36mCC(B[m]   src/mime/backend/mailcap.o
+      [[36mCC(B[m]   src/mime/backend/mimetypes.o
+      [[32mLD(B[m]   src/mime/backend/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+      [[36mCC(B[m]   src/mime/dialogs.o
+      [[36mCC(B[m]   src/mime/mime.o
+      [[32mLD(B[m]   src/mime/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE all(B[m]   src/network
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE all(B[m]   src/network/ssl
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+      [[36mCC(B[m]   src/network/ssl/socket.o
+      [[36mCC(B[m]   src/network/ssl/ssl.o
+      [[32mLD(B[m]   src/network/ssl/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+      [[36mCC(B[m]   src/network/connection.o
+      [[36mCC(B[m]   src/network/dns.o
+      [[36mCC(B[m]   src/network/progress.o
+      [[36mCC(B[m]   src/network/socket.o
+      [[36mCC(B[m]   src/network/state.o
+      [[32mLD(B[m]   src/network/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE all(B[m]   src/osdep
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE all(B[m]   src/osdep/unix
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+      [[36mCC(B[m]   src/osdep/unix/bsd.o
+      [[36mCC(B[m]   src/osdep/unix/unix.o
+      [[32mLD(B[m]   src/osdep/unix/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+      [[36mCC(B[m]   src/osdep/getifaddrs.o
+      [[36mCC(B[m]   src/osdep/newwin.o
+      [[36mCC(B[m]   src/osdep/osdep.o
+      [[36mCC(B[m]   src/osdep/signals.o
+      [[36mCC(B[m]   src/osdep/stub.o
+      [[36mCC(B[m]   src/osdep/sysname.o
+      [[32mLD(B[m]   src/osdep/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE all(B[m]   src/protocol
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE all(B[m]   src/protocol/auth
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+      [[36mCC(B[m]   src/protocol/auth/auth.o
+      [[36mCC(B[m]   src/protocol/auth/dialogs.o
+      [[36mCC(B[m]   src/protocol/auth/digest.o
+      [[32mLD(B[m]   src/protocol/auth/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+[[35mMAKE all(B[m]   src/protocol/bittorrent
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+      [[36mCC(B[m]   src/protocol/bittorrent/bencoding.o
+      [[36mCC(B[m]   src/protocol/bittorrent/bittorrent.o
+      [[36mCC(B[m]   src/protocol/bittorrent/common.o
+      [[36mCC(B[m]   src/protocol/bittorrent/connection.o
+      [[36mCC(B[m]   src/protocol/bittorrent/dialogs.o
+      [[36mCC(B[m]   src/protocol/bittorrent/peerconnect.o
+      [[36mCC(B[m]   src/protocol/bittorrent/peerwire.o
+      [[36mCC(B[m]   src/protocol/bittorrent/piececache.o
+      [[36mCC(B[m]   src/protocol/bittorrent/tracker.o
+      [[32mLD(B[m]   src/protocol/bittorrent/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+[[35mMAKE all(B[m]   src/protocol/file
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+      [[36mCC(B[m]   src/protocol/file/file.o
+      [[32mLD(B[m]   src/protocol/file/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+[[35mMAKE all(B[m]   src/protocol/ftp
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+      [[36mCC(B[m]   src/protocol/ftp/ftp.o
+      [[36mCC(B[m]   src/protocol/ftp/parse.o
+      [[32mLD(B[m]   src/protocol/ftp/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+[[35mMAKE all(B[m]   src/protocol/http
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+      [[36mCC(B[m]   src/protocol/http/blacklist.o
+      [[36mCC(B[m]   src/protocol/http/codes.o
+      [[36mCC(B[m]   src/protocol/http/http.o
+      [[32mLD(B[m]   src/protocol/http/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+[[35mMAKE all(B[m]   src/protocol/rewrite
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+      [[36mCC(B[m]   src/protocol/rewrite/rewrite.o
+      [[32mLD(B[m]   src/protocol/rewrite/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+      [[36mCC(B[m]   src/protocol/about.o
+      [[36mCC(B[m]   src/protocol/data.o
+      [[36mCC(B[m]   src/protocol/date.o
+      [[36mCC(B[m]   src/protocol/header.o
+      [[36mCC(B[m]   src/protocol/protocol.o
+      [[36mCC(B[m]   src/protocol/proxy.o
+      [[36mCC(B[m]   src/protocol/uri.o
+      [[36mCC(B[m]   src/protocol/user.o
+      [[32mLD(B[m]   src/protocol/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE all(B[m]   src/session
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+      [[36mCC(B[m]   src/session/download.o
+      [[36mCC(B[m]   src/session/history.o
+      [[36mCC(B[m]   src/session/location.o
+      [[36mCC(B[m]   src/session/session.o
+      [[36mCC(B[m]   src/session/task.o
+      [[32mLD(B[m]   src/session/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+[[35mMAKE all(B[m]   src/terminal
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+      [[36mCC(B[m]   src/terminal/color.o
+      [[36mCC(B[m]   src/terminal/draw.o
+      [[36mCC(B[m]   src/terminal/event.o
+      [[36mCC(B[m]   src/terminal/hardio.o
+      [[36mCC(B[m]   src/terminal/kbd.o
+      [[36mCC(B[m]   src/terminal/mouse.o
+      [[36mCC(B[m]   src/terminal/screen.o
+      [[36mCC(B[m]   src/terminal/tab.o
+      [[36mCC(B[m]   src/terminal/terminal.o
+      [[36mCC(B[m]   src/terminal/window.o
+      [[32mLD(B[m]   src/terminal/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+[[35mMAKE all(B[m]   src/util
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+      [[36mCC(B[m]   src/util/base64.o
+      [[36mCC(B[m]   src/util/color.o
+      [[36mCC(B[m]   src/util/conv.o
+      [[36mCC(B[m]   src/util/env.o
+      [[36mCC(B[m]   src/util/error.o
+      [[36mCC(B[m]   src/util/fastfind.o
+      [[36mCC(B[m]   src/util/file.o
+      [[36mCC(B[m]   src/util/hash.o
+      [[36mCC(B[m]   src/util/memlist.o
+      [[36mCC(B[m]   src/util/memory.o
+      [[36mCC(B[m]   src/util/scanner.o
+      [[36mCC(B[m]   src/util/secsave.o
+      [[36mCC(B[m]   src/util/snprintf.o
+      [[36mCC(B[m]   src/util/string.o
+      [[36mCC(B[m]   src/util/time.o
+      [[32mLD(B[m]   src/util/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+[[35mMAKE all(B[m]   src/viewer
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+[[35mMAKE all(B[m]   src/viewer/dump
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+      [[36mCC(B[m]   src/viewer/dump/dump.o
+      [[32mLD(B[m]   src/viewer/dump/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+[[35mMAKE all(B[m]   src/viewer/text
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+      [[36mCC(B[m]   src/viewer/text/draw.o
+      [[36mCC(B[m]   src/viewer/text/form.o
+      [[36mCC(B[m]   src/viewer/text/link.o
+      [[36mCC(B[m]   src/viewer/text/marks.o
+      [[36mCC(B[m]   src/viewer/text/search.o
+      [[36mCC(B[m]   src/viewer/text/textarea.o
+      [[36mCC(B[m]   src/viewer/text/view.o
+      [[36mCC(B[m]   src/viewer/text/vs.o
+      [[32mLD(B[m]   src/viewer/text/lib.o
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+      [[36mCC(B[m]   src/viewer/action.o
+      [[36mCC(B[m]   src/viewer/timer.o
+      [[32mLD(B[m]   src/viewer/lib.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+      [[32mLD(B[m]   src/lib.o
+      [[36mCC(B[m]   src/vernum.o
+    [[1m[34mLINK(B[m]   src/elinks
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/elinks/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/elinks/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+[[35mMAKE check(B[m]   doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE check(B[m]   doc/man
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+[[35mMAKE check(B[m]   doc/man/man1
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man1'
+[[35mMAKE check(B[m]   doc/man/man5
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man/man5'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc/man'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/doc'
+[[35mMAKE check(B[m]   po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/po'
+[[35mMAKE check(B[m]   src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+[[35mMAKE check(B[m]   src/bfu
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bfu'
+[[35mMAKE check(B[m]   src/bookmarks
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE check(B[m]   src/bookmarks/backend
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks/backend'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/bookmarks'
+[[35mMAKE check(B[m]   src/cache
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cache'
+[[35mMAKE check(B[m]   src/config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/config'
+[[35mMAKE check(B[m]   src/cookies
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/cookies'
+[[35mMAKE check(B[m]   src/dialogs
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dialogs'
+[[35mMAKE check(B[m]   src/document
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE check(B[m]   src/document/css
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/css'
+[[35mMAKE check(B[m]   src/document/dom
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/dom'
+[[35mMAKE check(B[m]   src/document/html
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE check(B[m]   src/document/html/parser
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+make[5]: Nothing to be done for `check'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html/parser'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/html'
+[[35mMAKE check(B[m]   src/document/plain
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document/plain'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/document'
+[[35mMAKE check(B[m]   src/dom
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE check(B[m]   src/dom/css
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/css'
+[[35mMAKE check(B[m]   src/dom/sgml
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+[[35mMAKE check(B[m]   src/dom/sgml/html
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+make[5]: Nothing to be done for `check'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/html'
+[[35mMAKE check(B[m]   src/dom/sgml/rss
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+make[5]: Nothing to be done for `check'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/rss'
+[[35mMAKE check(B[m]   src/dom/sgml/xbel
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+make[5]: Nothing to be done for `check'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml/xbel'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom/sgml'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/dom'
+[[35mMAKE check(B[m]   src/encoding
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/encoding'
+[[35mMAKE check(B[m]   src/formhist
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/formhist'
+[[35mMAKE check(B[m]   src/globhist
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/globhist'
+[[35mMAKE check(B[m]   src/intl
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE check(B[m]   src/intl/gettext
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl/gettext'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/intl'
+[[35mMAKE check(B[m]   src/main
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/main'
+[[35mMAKE check(B[m]   src/mime
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE check(B[m]   src/mime/backend
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime/backend'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/mime'
+[[35mMAKE check(B[m]   src/network
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE check(B[m]   src/network/ssl
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network/ssl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/network'
+[[35mMAKE check(B[m]   src/osdep
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE check(B[m]   src/osdep/unix
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep/unix'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/osdep'
+[[35mMAKE check(B[m]   src/protocol
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE check(B[m]   src/protocol/auth
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/auth'
+[[35mMAKE check(B[m]   src/protocol/bittorrent
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/bittorrent'
+[[35mMAKE check(B[m]   src/protocol/file
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/file'
+[[35mMAKE check(B[m]   src/protocol/ftp
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/ftp'
+[[35mMAKE check(B[m]   src/protocol/http
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/http'
+[[35mMAKE check(B[m]   src/protocol/rewrite
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol/rewrite'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/protocol'
+[[35mMAKE check(B[m]   src/session
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/session'
+[[35mMAKE check(B[m]   src/terminal
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/terminal'
+[[35mMAKE check(B[m]   src/util
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/util'
+[[35mMAKE check(B[m]   src/viewer
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+[[35mMAKE check(B[m]   src/viewer/dump
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/dump'
+[[35mMAKE check(B[m]   src/viewer/text
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer/text'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src/viewer'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/elinks/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/elinks/build/i86/.tested

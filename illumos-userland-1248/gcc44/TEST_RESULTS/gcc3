@@ -1,0 +1,47 @@
+(cd /export/home/drlou/illumos-userland-1248/components/gcc3/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/gcc'
+(rootme=`${PWDCMD-pwd}`; export rootme; \
+	srcdir=`cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc; ${PWDCMD-pwd}` ; export srcdir ; \
+	cd testsuite; \
+	EXPECT=expect ; export EXPECT ; \
+	if [ -f ${rootme}/../expect/expect ] ; then  \
+	   TCL_LIBRARY=`cd .. ; cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc/../tcl/library ; ${PWDCMD-pwd}` ; \
+	    export TCL_LIBRARY ; fi ; \
+	runtest --tool gcc )
+(rootme=`${PWDCMD-pwd}`; export rootme; \
+	srcdir=`cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc; ${PWDCMD-pwd}` ; export srcdir ; \
+	cd testsuite; \
+	EXPECT=expect ; export EXPECT ; \
+	if [ -f ${rootme}/../expect/expect ] ; then  \
+	   TCL_LIBRARY=`cd .. ; cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc/../tcl/library ; ${PWDCMD-pwd}` ; \
+	    export TCL_LIBRARY ; fi ; \
+	runtest --tool g++ )
+(rootme=`${PWDCMD-pwd}`; export rootme; \
+	srcdir=`cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc; ${PWDCMD-pwd}` ; export srcdir ; \
+	cd testsuite; \
+	EXPECT=expect ; export EXPECT ; \
+	if [ -f ${rootme}/../expect/expect ] ; then  \
+	   TCL_LIBRARY=`cd .. ; cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc/../tcl/library ; ${PWDCMD-pwd}` ; \
+	    export TCL_LIBRARY ; fi ; \
+	runtest --tool g77 )
+(rootme=`${PWDCMD-pwd}`; export rootme; \
+	srcdir=`cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc; ${PWDCMD-pwd}` ; export srcdir ; \
+	cd testsuite; \
+	EXPECT=expect ; export EXPECT ; \
+	if [ -f ${rootme}/../expect/expect ] ; then  \
+	   TCL_LIBRARY=`cd .. ; cd /export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/gcc/../tcl/library ; ${PWDCMD-pwd}` ; \
+	    export TCL_LIBRARY ; fi ; \
+	runtest --tool objc )
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/gcc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/intl'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/intl'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/libiberty'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/libiberty/testsuite'
+/usr/sfw/bin/gcc -DHAVE_CONFIG_H -O2 -I.. -I/export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/libiberty/testsuite/../../include  -o test-demangle \
+		/export/home/drlou/illumos-userland-1248/components/gcc3/gcc-3.4.3/libiberty/testsuite/test-demangle.c ../libiberty.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/libiberty/testsuite'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86/libiberty'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gcc3/build/i86'

@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/libxslt/libxslt-1.1.26
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxslt/libxslt-1.1.26 -p1 --backup --version-control=numbered < patches/configure.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxslt/libxslt-1.1.26 -p1 --backup --version-control=numbered < patches/libxslt.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  libxslt-1.1.26.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/libxslt/libxslt-1.1.26/.unpacked

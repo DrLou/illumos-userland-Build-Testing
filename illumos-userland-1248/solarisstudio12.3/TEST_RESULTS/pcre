@@ -1,0 +1,956 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/pcre/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/pcre/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  "CC=/opt/SUNWspro/solarisstudio12.3/bin/cc" "CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6" "CPP=/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E" "CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" "CXXFLAGS=-norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5" "CXXCPP=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E" "LDFLAGS=-L/usr/lib -R/usr/lib" "CXXLDFLAGS=-L/usr/lib -R/usr/lib" "CXXLD=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -L/usr/lib -R/usr/lib" "INSTALL=/usr/bin/ginstall" "MAKE=/usr/gnu/bin/make" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --includedir=/usr/include/pcre --localstatedir=/var --disable-static --enable-cpp --enable-rebuild-chartables --enable-utf8 --enable-unicode-properties --enable-newline-is-any --disable-stack-for-recursion --enable-pcregrep-libz --enable-pcregrep-libbz2 --with-posix-malloc-threshold=20 --with-link-size=4 --with-match-limit=10000000 --with-pic)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash" "CXXLINKLIB=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -L/usr/lib/amd64 -R/usr/lib/amd64" "MACH64=amd64" "CC=/opt/SUNWspro/solarisstudio12.3/bin/cc" "CFLAGS=-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6" "CPP=/opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E" "CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" "CXXFLAGS=-norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5" "CXXCPP=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E" "LDFLAGS=-L/usr/lib/amd64 -R/usr/lib/amd64" "CXXLDFLAGS=-L/usr/lib/amd64 -R/usr/lib/amd64" "CXXLD=/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -L/usr/lib/amd64 -R/usr/lib/amd64" "INSTALL=/usr/bin/ginstall" "MAKE=/usr/gnu/bin/make" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64 --libexecdir=/usr/libexec/amd64 --includedir=/usr/include/pcre --localstatedir=/var --disable-static --enable-cpp --enable-rebuild-chartables --enable-utf8 --enable-unicode-properties --enable-newline-is-any --disable-stack-for-recursion --enable-pcregrep-libz --enable-pcregrep-libbz2 --with-posix-malloc-threshold=20 --with-link-size=4 --with-match-limit=10000000 --with-pic)
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... checking for C compiler default output file name... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... a.out
+checking whether the C compiler works... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... none needed
+checking for style of include used by /usr/gnu/bin/make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by /usr/gnu/bin/make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath... none
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath... none
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... none
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking build system type... /usr/bin/gsed
+checking for grep that handles long lines and -e... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E
+checking for ANSI C header files... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for sys/types.h... yes
+checking for string.h... yes
+checking for sys/stat.h... yes
+checking for memory.h... yes
+checking for stdlib.h... yes
+checking for strings.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for memory.h... yes
+checking for stdint.h... yes
+checking for strings.h... yes
+checking for unistd.h... yes
+checking for inttypes.h... yes
+checking dlfcn.h usability... yes
+checking for stdint.h... yes
+checking dlfcn.h presence... yes
+yes
+checking for unistd.h... checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E
+yes
+checking dlfcn.h usability... checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+yes
+checking dlfcn.h presence... checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... yes
+checking for dlfcn.h... yes
+no
+checking the maximum length of command line arguments... checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E
+786240
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking whether we are using the GNU Fortran 77 compiler... checking for correct ltmain.sh version... yes
+no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 786240
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... ok
+checking for objdir... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for correct ltmain.sh version... yes
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+configure: creating libtool
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath static flag -Bstatic works... appending configuration tag "CXX" to libtool
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath supports -c -o file.o... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath supports -c -o file.o... appending configuration tag "F77" to libtool
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+(cached) (cached) checking how to hardcode library paths into programs... immediate
+checking whether ln -s works... yes
+checking for ANSI C header files... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking dirent.h usability... yes
+checking dirent.h presence... appending configuration tag "F77" to libtool
+yes
+checking for dirent.h... checking whether ln -s works... yes
+yes
+checking for ANSI C header files... (cached) yes
+checking limits.h usability... checking windows.h usability... no
+checking windows.h presence... yes
+checking limits.h presence... no
+checking for windows.h... yes
+checking for limits.h... no
+yes
+checking for alias support in the linker... checking for sys/types.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking dirent.h usability... no
+checking for alias support in the linker... yes
+checking dirent.h presence... no
+checking string usability... yes
+checking for dirent.h... yes
+checking windows.h usability... no
+checking windows.h presence... no
+checking for windows.h... no
+checking for alias support in the linker... yes
+checking string presence... no
+checking for alias support in the linker... yes
+checking for string... yes
+checking bits/type_traits.h usability... no
+checking string usability... no
+checking bits/type_traits.h presence... no
+checking for bits/type_traits.h... no
+yes
+checking string presence... checking type_traits.h usability... no
+checking type_traits.h presence... yes
+checking for string... yes
+checking bits/type_traits.h usability... no
+checking for type_traits.h... no
+checking for an ANSI C-conforming const... no
+checking bits/type_traits.h presence... yes
+checking for size_t... no
+checking for bits/type_traits.h... no
+checking type_traits.h usability... yes
+checking for strtoq... no
+checking type_traits.h presence... no
+checking for strtoll... no
+checking for type_traits.h... no
+checking for an ANSI C-conforming const... yes
+checking for long long... yes
+checking for size_t... yes
+yes
+checking for unsigned long long... checking for strtoq... yes
+no
+checking for bcopy... checking for strtoll... yes
+yes
+checking for long long... checking for memmove... yes
+checking for unsigned long long... yes
+checking for strerror... yes
+checking for bcopy... yes
+checking zlib.h usability... yes
+checking for memmove... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzopen in -lz... yes
+checking for strerror... yes
+checking bzlib.h usability... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for zlib.h... yes
+yes
+checking for BZ2_bzopen in -lbz2... checking for gzopen in -lz... yes
+yes
+checking readline/readline.h usability... checking bzlib.h usability... yes
+checking bzlib.h presence... yes
+checking for bzlib.h... yes
+checking for BZ2_bzopen in -lbz2... yes
+checking readline/readline.h presence... yes
+checking for readline/readline.h... yes
+checking readline/history.h usability... yes
+checking readline/readline.h usability... yes
+checking readline/history.h presence... yes
+checking readline/readline.h presence... yes
+checking for readline/history.h... yes
+yes
+checking for readline/readline.h... yes
+checking for readline in -lreadline... checking readline/history.h usability... yes
+checking readline/history.h presence... yes
+checking for readline/history.h... yes
+checking for readline in -lreadline... no
+no
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating libpcre.pc
+config.status: creating libpcre.pc
+config.status: creating libpcrecpp.pc
+config.status: creating libpcrecpp.pc
+config.status: creating pcre-config
+config.status: creating pcre-config
+config.status: creating pcre.h
+config.status: creating pcre.h
+config.status: creating pcre_stringpiece.h
+config.status: creating pcre_stringpiece.h
+config.status: creating pcrecpparg.h
+config.status: creating pcrecpparg.h
+config.status: creating config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+config.status: executing script-chmod commands
+config.status: executing script-chmod commands
+config.status: executing delete-old-chartables commands
+config.status: executing delete-old-chartables commands
+
+pcre-7.8 configuration summary:
+
+    Install prefix .................. : /usr
+    C preprocessor .................. : /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E
+    C compiler ...................... : /opt/SUNWspro/solarisstudio12.3/bin/cc
+    C++ preprocessor ................ : /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E
+    C++ compiler .................... : /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath
+    Linker .......................... : /usr/bin/ld
+    C preprocessor flags ............ : 
+    C compiler flags ................ : -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6
+    C++ compiler flags .............. : -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5
+    Linker flags .................... : -L/usr/lib/amd64 -R/usr/lib/amd64
+    Extra libraries ................. : -lz -lbz2
+
+    Build C++ library ............... : yes
+    Enable UTF-8 support ............ : yes
+    Unicode properties .............. : yes
+    Newline char/sequence ........... : any
+    \R matches only ANYCRLF ......... : no
+    EBCDIC coding ................... : no
+    Rebuild char tables ............. : yes
+    Use stack recursion ............. : no
+    POSIX mem threshold ............. : 20
+    Internal link size .............. : 4
+    Match limit ..................... : 10000000
+    Match limit recursion ........... : MATCH_LIMIT
+    Build shared libs ............... : yes
+    Build static libs ............... : no
+    Link pcregrep with libz ......... : yes
+    Link pcregrep with libbz2 ....... : yes
+    Link pcretest with libreadline .. : no
+
+
+pcre-7.8 configuration summary:
+
+    Install prefix .................. : /usr
+    C preprocessor .................. : /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -E
+    C compiler ...................... : /opt/SUNWspro/solarisstudio12.3/bin/cc
+    C++ preprocessor ................ : /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -E
+    C++ compiler .................... : /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath
+    Linker .......................... : /usr/bin/ld
+    C preprocessor flags ............ : 
+    C compiler flags ................ : -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6
+    C++ compiler flags .............. : -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5
+    Linker flags .................... : -L/usr/lib -R/usr/lib
+    Extra libraries ................. : -lz -lbz2
+
+    Build C++ library ............... : yes
+    Enable UTF-8 support ............ : yes
+    Unicode properties .............. : yes
+    Newline char/sequence ........... : any
+    \R matches only ANYCRLF ......... : no
+    EBCDIC coding ................... : no
+    Rebuild char tables ............. : yes
+    Use stack recursion ............. : no
+    POSIX mem threshold ............. : 20
+    Internal link size .............. : 4
+    Match limit ..................... : 10000000
+    Match limit recursion ........... : MATCH_LIMIT
+    Build shared libs ............... : yes
+    Build static libs ............... : no
+    Link pcregrep with libz ......... : yes
+    Link pcregrep with libbz2 ....... : yes
+    Link pcretest with libreadline .. : no
+
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.configured
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  "LDFLAGS=-L/usr/lib/amd64 -R/usr/lib/amd64" "INSTALL=/usr/bin/ginstall" "MAKE=/usr/gnu/bin/make" \
+		/usr/gnu/bin/make  -e )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/gnu/bin/make  all-am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c' object='pcre_compile.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_compile.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c  -KPIC -DPIC -o .libs/pcre_compile.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c' object='pcre_config.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_config.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c  -KPIC -DPIC -o .libs/pcre_config.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c' object='pcre_dfa_exec.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_dfa_exec.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c  -KPIC -DPIC -o .libs/pcre_dfa_exec.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c' object='pcre_exec.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_exec.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c  -KPIC -DPIC -o .libs/pcre_exec.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c' object='pcre_fullinfo.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_fullinfo.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c  -KPIC -DPIC -o .libs/pcre_fullinfo.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c' object='pcre_get.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_get.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c  -KPIC -DPIC -o .libs/pcre_get.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c' object='pcre_globals.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_globals.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c  -KPIC -DPIC -o .libs/pcre_globals.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c' object='pcre_info.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_info.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c  -KPIC -DPIC -o .libs/pcre_info.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c' object='pcre_maketables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_maketables.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c  -KPIC -DPIC -o .libs/pcre_maketables.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c' object='pcre_newline.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_newline.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c  -KPIC -DPIC -o .libs/pcre_newline.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c' object='pcre_ord2utf8.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_ord2utf8.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c  -KPIC -DPIC -o .libs/pcre_ord2utf8.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c' object='pcre_refcount.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_refcount.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c  -KPIC -DPIC -o .libs/pcre_refcount.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c' object='pcre_study.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_study.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c  -KPIC -DPIC -o .libs/pcre_study.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c' object='pcre_tables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_tables.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c  -KPIC -DPIC -o .libs/pcre_tables.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c' object='pcre_try_flipped.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_try_flipped.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c  -KPIC -DPIC -o .libs/pcre_try_flipped.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c' object='pcre_ucd.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_ucd.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c  -KPIC -DPIC -o .libs/pcre_ucd.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c' object='pcre_valid_utf8.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_valid_utf8.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c  -KPIC -DPIC -o .libs/pcre_valid_utf8.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c' object='pcre_version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_version.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c  -KPIC -DPIC -o .libs/pcre_version.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c' object='pcre_xclass.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_xclass.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c  -KPIC -DPIC -o .libs/pcre_xclass.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/dftables.c' object='dftables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/dftables.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib/amd64 -R/usr/lib/amd64 -o dftables dftables.o  -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o dftables dftables.o  -L/usr/lib/amd64 -lz -lbz2   -R/usr/lib/amd64
+./dftables pcre_chartables.c
+source='pcre_chartables.c' object='pcre_chartables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_chartables.lo pcre_chartables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c pcre_chartables.c  -KPIC -DPIC -o .libs/pcre_chartables.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -L/usr/lib/amd64 -R/usr/lib/amd64 -L/usr/lib/amd64 -R/usr/lib/amd64 -o libpcre.la -rpath /usr/lib/amd64 pcre_compile.lo pcre_config.lo pcre_dfa_exec.lo pcre_exec.lo pcre_fullinfo.lo pcre_get.lo pcre_globals.lo pcre_info.lo pcre_maketables.lo pcre_newline.lo pcre_ord2utf8.lo pcre_refcount.lo pcre_study.lo pcre_tables.lo pcre_try_flipped.lo pcre_ucd.lo pcre_valid_utf8.lo pcre_version.lo pcre_xclass.lo pcre_chartables.lo  -lz -lbz2
+/usr/bin/ld -G -h libpcre.so.0 -o .libs/libpcre.so.0.0.0  .libs/pcre_compile.o .libs/pcre_config.o .libs/pcre_dfa_exec.o .libs/pcre_exec.o .libs/pcre_fullinfo.o .libs/pcre_get.o .libs/pcre_globals.o .libs/pcre_info.o .libs/pcre_maketables.o .libs/pcre_newline.o .libs/pcre_ord2utf8.o .libs/pcre_refcount.o .libs/pcre_study.o .libs/pcre_tables.o .libs/pcre_try_flipped.o .libs/pcre_ucd.o .libs/pcre_valid_utf8.o .libs/pcre_version.o .libs/pcre_xclass.o .libs/pcre_chartables.o  -R/usr/lib/amd64 -L/usr/lib/amd64 -lz -lbz2 -lc 
+(cd .libs && rm -f libpcre.so.0 && ln -s libpcre.so.0.0.0 libpcre.so.0)
+(cd .libs && rm -f libpcre.so && ln -s libpcre.so.0.0.0 libpcre.so)
+creating libpcre.la
+(cd .libs && rm -f libpcre.la && ln -s ../libpcre.la libpcre.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c' object='pcreposix.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcreposix.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c  -KPIC -DPIC -o .libs/pcreposix.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -L/usr/lib/amd64 -R/usr/lib/amd64 -L/usr/lib/amd64 -R/usr/lib/amd64 -o libpcreposix.la -rpath /usr/lib/amd64 pcreposix.lo libpcre.la -lz -lbz2
+/usr/bin/ld -G -h libpcreposix.so.0 -o .libs/libpcreposix.so.0.0.0  .libs/pcreposix.o  -R/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs -R/usr/lib/amd64 -L/usr/lib/amd64 ./.libs/libpcre.so -lz -lbz2 -lc 
+(cd .libs && rm -f libpcreposix.so.0 && ln -s libpcreposix.so.0.0.0 libpcreposix.so.0)
+(cd .libs && rm -f libpcreposix.so && ln -s libpcreposix.so.0.0.0 libpcreposix.so)
+creating libpcreposix.la
+(cd .libs && rm -f libpcreposix.la && ln -s ../libpcreposix.la libpcreposix.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc' object='pcrecpp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcrecpp.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc  -KPIC -DPIC -o .libs/pcrecpp.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc' object='pcre_scanner.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_scanner.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc  -KPIC -DPIC -o .libs/pcre_scanner.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc' object='pcre_stringpiece.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_stringpiece.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc  -KPIC -DPIC -o .libs/pcre_stringpiece.o
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -L/usr/lib/amd64 -R/usr/lib/amd64 -L/usr/lib/amd64 -R/usr/lib/amd64 -o libpcrecpp.la -rpath /usr/lib/amd64 pcrecpp.lo pcre_scanner.lo pcre_stringpiece.lo libpcre.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -G -hlibpcrecpp.so.0 -o .libs/libpcrecpp.so.0.0.0   .libs/pcrecpp.o .libs/pcre_scanner.o .libs/pcre_stringpiece.o  -R/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs -R/usr/lib/amd64 -L/usr/lib/amd64 ./.libs/libpcre.so -lz -lbz2 -library=Cstd -library=Crun -lc   -m64 -m64
+(cd .libs && rm -f libpcrecpp.so.0 && ln -s libpcrecpp.so.0.0.0 libpcrecpp.so.0)
+(cd .libs && rm -f libpcrecpp.so && ln -s libpcrecpp.so.0.0.0 libpcrecpp.so)
+creating libpcrecpp.la
+(cd .libs && rm -f libpcrecpp.la && ln -s ../libpcrecpp.la libpcrecpp.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcretest.c' object='pcretest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcretest.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib/amd64 -R/usr/lib/amd64 -o pcretest pcretest.o libpcreposix.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o .libs/pcretest pcretest.o  -L/usr/lib/amd64 ./.libs/libpcreposix.so /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs/libpcre.so -lz -lbz2  -R/usr/lib/amd64
+creating pcretest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcregrep.c' object='pcregrep.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcregrep.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib/amd64 -R/usr/lib/amd64 -o pcregrep pcregrep.o libpcreposix.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE64_SOURCE -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o .libs/pcregrep pcregrep.o  -L/usr/lib/amd64 ./.libs/libpcreposix.so /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs/libpcre.so -lz -lbz2  -R/usr/lib/amd64
+creating pcregrep
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp_unittest.cc' object='pcrecpp_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcrecpp_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib/amd64 -R/usr/lib/amd64 -o pcrecpp_unittest pcrecpp_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcrecpp_unittest pcrecpp_unittest.o  -L/usr/lib/amd64 ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs/libpcre.so -lz -lbz2  -R/usr/lib/amd64
+creating pcrecpp_unittest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner_unittest.cc' object='pcre_scanner_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_scanner_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib/amd64 -R/usr/lib/amd64 -o pcre_scanner_unittest pcre_scanner_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcre_scanner_unittest pcre_scanner_unittest.o  -L/usr/lib/amd64 ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs/libpcre.so -lz -lbz2  -R/usr/lib/amd64
+creating pcre_scanner_unittest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece_unittest.cc' object='pcre_stringpiece_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_stringpiece_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib/amd64 -R/usr/lib/amd64 -o pcre_stringpiece_unittest pcre_stringpiece_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m64 -KPIC -DPIC -D_LARGEFILE64_SOURCE -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcre_stringpiece_unittest pcre_stringpiece_unittest.o  -L/usr/lib/amd64 ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.libs/libpcre.so -lz -lbz2  -R/usr/lib/amd64
+creating pcre_stringpiece_unittest
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  "LDFLAGS=-L/usr/lib -R/usr/lib" "INSTALL=/usr/bin/ginstall" "MAKE=/usr/gnu/bin/make" \
+		/usr/gnu/bin/make  -e )
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/gnu/bin/make  all-am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c' object='pcre_compile.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_compile.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c
+/usr/gnu/bin/make  
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/gnu/bin/make  check-TESTS
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+Testing FullMatch
+Testing PartialMatch
+Testing hex
+Testing octal
+Testing decimal
+Testing Replace
+Testing Extract
+Testing Consume
+Testing FindAndConsume
+Testing QuoteMeta
+Testing match-number peculiaraity
+Testing UTF-8 handling
+Testing error reporting
+Testing recursion
+Testing Options
+Testing Option <CASELESS (class)>
+Testing Option <CASELESS (class2)>
+Testing Option <CASELESS (class)>
+Testing Option <CASELESS (function)>
+Testing Option <CASELESS (function)>
+Testing Option <no CASELESS>
+Testing Option <MULTILINE (class)>
+Testing Option <MULTILINE (class2)>
+Testing Option <MULTILINE (function)>
+Testing Option <no MULTILINE>
+Testing Option <DOTALL (class)>
+Testing Option <DOTALL (class2)>
+Testing Option <DOTALL (function)>
+Testing Option <no DOTALL>
+Testing Option <no DOLLAR_ENDONLY>
+Testing Option <DOLLAR_ENDONLY 1>
+Testing Option <DOLLAR_ENDONLY 2>
+Testing Option <EXTENDED (class)>
+Testing Option <EXTENDED (class2)>
+Testing Option <EXTENDED (class)>
+Testing Option <EXTENDED (function)>
+Testing Option <EXTENDED (function)>
+Testing Option <no EXTENDED>
+Testing Option <no NO_AUTO_CAPTURE>
+testing Option <NO_AUTO_CAPTURE>
+Testing Option <UNGREEDY 1>
+Testing Option <UNGREEDY 2>
+Testing Option <UNGREEDY>
+Testing Option <no UNGREEDY>
+Testing Option <no UNGREEDY>
+Testing Option <EXTRA 1>
+Testing Option <EXTRA 2>
+Testing Option <no EXTRA>
+Testing Option <all_options (CASELESS|DOTALL)>
+Testing Option <all_options (0)>
+Testing Option <all_options (MULTILINE|EXTENDED)>
+Testing Option <all_options (MULTILINE|EXTENDED) with constructor>
+Testing Option <all_options (MULTILINE|EXTENDED) with concatenation>
+Testing Option <all_options (0)>
+Testing constructors
+OK
+PASS: pcrecpp_unittest
+OK
+PASS: pcre_scanner_unittest
+OK
+PASS: pcre_stringpiece_unittest
+mkdir .libs
+No differences encountered
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_compile.c  -KPIC -DPIC -o .libs/pcre_compile.o
+
+PCRE C library tests
+PCRE version 7.8 2008-09-05
+
+Test 1: main functionality (Perl compatible)
+No differences encountered
+OK
+Test 2: API and error handling (not Perl compatible)
+No differences encountered
+OK
+Cannot test locale-specific features - neither the 'fr_FR' nor the
+'french' locale exists, or the "locale" command is not available
+to check for them.
+ 
+Test 4: UTF-8 support (Perl compatible)
+No differences encountered
+OK
+Test 5: API and internals for UTF-8 support (not Perl compatible)
+No differences encountered
+OK
+Test 6: Unicode property support
+No differences encountered
+OK
+Test 7: DFA matching
+No differences encountered
+OK
+Test 8: DFA matching with UTF-8
+No differences encountered
+OK
+Test 9: DFA matching with Unicode properties
+No differences encountered
+OK
+PASS: RunTest
+ 
+Testing pcregrep
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c' object='pcre_config.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_config.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_config.c  -KPIC -DPIC -o .libs/pcre_config.o
+No differences encountered
+Testing pcregrep UTF-8 features
+No differences encountered
+Testing pcregrep newline settings
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c' object='pcre_dfa_exec.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_dfa_exec.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c
+No differences encountered
+PASS: RunGrepTest
+==================
+All 5 tests passed
+==================
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/amd64/.tested
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_dfa_exec.c  -KPIC -DPIC -o .libs/pcre_dfa_exec.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c' object='pcre_exec.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_exec.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_exec.c  -KPIC -DPIC -o .libs/pcre_exec.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c' object='pcre_fullinfo.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_fullinfo.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_fullinfo.c  -KPIC -DPIC -o .libs/pcre_fullinfo.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c' object='pcre_get.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_get.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_get.c  -KPIC -DPIC -o .libs/pcre_get.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c' object='pcre_globals.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_globals.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_globals.c  -KPIC -DPIC -o .libs/pcre_globals.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c' object='pcre_info.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_info.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_info.c  -KPIC -DPIC -o .libs/pcre_info.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c' object='pcre_maketables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_maketables.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_maketables.c  -KPIC -DPIC -o .libs/pcre_maketables.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c' object='pcre_newline.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_newline.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_newline.c  -KPIC -DPIC -o .libs/pcre_newline.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c' object='pcre_ord2utf8.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_ord2utf8.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ord2utf8.c  -KPIC -DPIC -o .libs/pcre_ord2utf8.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c' object='pcre_refcount.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_refcount.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_refcount.c  -KPIC -DPIC -o .libs/pcre_refcount.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c' object='pcre_study.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_study.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_study.c  -KPIC -DPIC -o .libs/pcre_study.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c' object='pcre_tables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_tables.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_tables.c  -KPIC -DPIC -o .libs/pcre_tables.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c' object='pcre_try_flipped.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_try_flipped.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_try_flipped.c  -KPIC -DPIC -o .libs/pcre_try_flipped.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c' object='pcre_ucd.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_ucd.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_ucd.c  -KPIC -DPIC -o .libs/pcre_ucd.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c' object='pcre_valid_utf8.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_valid_utf8.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_valid_utf8.c  -KPIC -DPIC -o .libs/pcre_valid_utf8.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c' object='pcre_version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_version.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_version.c  -KPIC -DPIC -o .libs/pcre_version.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c' object='pcre_xclass.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_xclass.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_xclass.c  -KPIC -DPIC -o .libs/pcre_xclass.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/dftables.c' object='dftables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/dftables.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib -R/usr/lib -o dftables dftables.o  -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o dftables dftables.o  -L/usr/lib -lz -lbz2   -R/usr/lib
+./dftables pcre_chartables.c
+source='pcre_chartables.c' object='pcre_chartables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcre_chartables.lo pcre_chartables.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c pcre_chartables.c  -KPIC -DPIC -o .libs/pcre_chartables.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -L/usr/lib -R/usr/lib -L/usr/lib -R/usr/lib -o libpcre.la -rpath /usr/lib pcre_compile.lo pcre_config.lo pcre_dfa_exec.lo pcre_exec.lo pcre_fullinfo.lo pcre_get.lo pcre_globals.lo pcre_info.lo pcre_maketables.lo pcre_newline.lo pcre_ord2utf8.lo pcre_refcount.lo pcre_study.lo pcre_tables.lo pcre_try_flipped.lo pcre_ucd.lo pcre_valid_utf8.lo pcre_version.lo pcre_xclass.lo pcre_chartables.lo  -lz -lbz2
+/usr/bin/ld -G -h libpcre.so.0 -o .libs/libpcre.so.0.0.0  .libs/pcre_compile.o .libs/pcre_config.o .libs/pcre_dfa_exec.o .libs/pcre_exec.o .libs/pcre_fullinfo.o .libs/pcre_get.o .libs/pcre_globals.o .libs/pcre_info.o .libs/pcre_maketables.o .libs/pcre_newline.o .libs/pcre_ord2utf8.o .libs/pcre_refcount.o .libs/pcre_study.o .libs/pcre_tables.o .libs/pcre_try_flipped.o .libs/pcre_ucd.o .libs/pcre_valid_utf8.o .libs/pcre_version.o .libs/pcre_xclass.o .libs/pcre_chartables.o  -R/usr/lib -L/usr/lib -lz -lbz2 -lc 
+(cd .libs && rm -f libpcre.so.0 && ln -s libpcre.so.0.0.0 libpcre.so.0)
+(cd .libs && rm -f libpcre.so && ln -s libpcre.so.0.0.0 libpcre.so)
+creating libpcre.la
+(cd .libs && rm -f libpcre.la && ln -s ../libpcre.la libpcre.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c' object='pcreposix.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c -o pcreposix.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcreposix.c  -KPIC -DPIC -o .libs/pcreposix.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -L/usr/lib -R/usr/lib -L/usr/lib -R/usr/lib -o libpcreposix.la -rpath /usr/lib pcreposix.lo libpcre.la -lz -lbz2
+/usr/bin/ld -G -h libpcreposix.so.0 -o .libs/libpcreposix.so.0.0.0  .libs/pcreposix.o  -R/export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs -R/usr/lib -L/usr/lib ./.libs/libpcre.so -lz -lbz2 -lc 
+(cd .libs && rm -f libpcreposix.so.0 && ln -s libpcreposix.so.0.0.0 libpcreposix.so.0)
+(cd .libs && rm -f libpcreposix.so && ln -s libpcreposix.so.0.0.0 libpcreposix.so)
+creating libpcreposix.la
+(cd .libs && rm -f libpcreposix.la && ln -s ../libpcreposix.la libpcreposix.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc' object='pcrecpp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcrecpp.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp.cc  -KPIC -DPIC -o .libs/pcrecpp.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc' object='pcre_scanner.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_scanner.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner.cc  -KPIC -DPIC -o .libs/pcre_scanner.o
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc' object='pcre_stringpiece.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/bin/bash ./libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_stringpiece.lo /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8 -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece.cc  -KPIC -DPIC -o .libs/pcre_stringpiece.o
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -L/usr/lib -R/usr/lib -L/usr/lib -R/usr/lib -o libpcrecpp.la -rpath /usr/lib pcrecpp.lo pcre_scanner.lo pcre_stringpiece.lo libpcre.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -G -hlibpcrecpp.so.0 -o .libs/libpcrecpp.so.0.0.0   .libs/pcrecpp.o .libs/pcre_scanner.o .libs/pcre_stringpiece.o  -R/export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs -R/usr/lib -L/usr/lib ./.libs/libpcre.so -lz -lbz2 -library=Cstd -library=Crun -lc   -m32 -m32
+(cd .libs && rm -f libpcrecpp.so.0 && ln -s libpcrecpp.so.0.0.0 libpcrecpp.so.0)
+(cd .libs && rm -f libpcrecpp.so && ln -s libpcrecpp.so.0.0.0 libpcrecpp.so)
+creating libpcrecpp.la
+(cd .libs && rm -f libpcrecpp.la && ln -s ../libpcrecpp.la libpcrecpp.la)
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcretest.c' object='pcretest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcretest.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib -R/usr/lib -o pcretest pcretest.o libpcreposix.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o .libs/pcretest pcretest.o  -L/usr/lib ./.libs/libpcreposix.so /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs/libpcre.so -lz -lbz2  -R/usr/lib
+creating pcretest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcregrep.c' object='pcregrep.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -c /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcregrep.c
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -xc99=all  -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6  -L/usr/lib -R/usr/lib -o pcregrep pcregrep.o libpcreposix.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -xc99=all -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -o .libs/pcregrep pcregrep.o  -L/usr/lib ./.libs/libpcreposix.so /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs/libpcre.so -lz -lbz2  -R/usr/lib
+creating pcregrep
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp_unittest.cc' object='pcrecpp_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcrecpp_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcrecpp_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib -R/usr/lib -o pcrecpp_unittest pcrecpp_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcrecpp_unittest pcrecpp_unittest.o  -L/usr/lib ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs/libpcre.so -lz -lbz2  -R/usr/lib
+creating pcrecpp_unittest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner_unittest.cc' object='pcre_scanner_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_scanner_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_scanner_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib -R/usr/lib -o pcre_scanner_unittest pcre_scanner_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcre_scanner_unittest pcre_scanner_unittest.o  -L/usr/lib ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs/libpcre.so -lz -lbz2  -R/usr/lib
+creating pcre_scanner_unittest
+source='/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece_unittest.cc' object='pcre_stringpiece_unittest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8     -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -c -o pcre_stringpiece_unittest.o /export/home/drlou/illumos-userland-1248/components/pcre/pcre-7.8/pcre_stringpiece_unittest.cc
+/bin/bash ./libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath  -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5  -L/usr/lib -R/usr/lib -o pcre_stringpiece_unittest pcre_stringpiece_unittest.o libpcrecpp.la -lz -lbz2
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m32 -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -xlang=c99 -D_XOPEN_SOURCE=500 -D__EXTENSIONS__=1 -D_XPG5 -o .libs/pcre_stringpiece_unittest pcre_stringpiece_unittest.o  -L/usr/lib ./.libs/libpcrecpp.so /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.libs/libpcre.so -lz -lbz2  -R/usr/lib
+creating pcre_stringpiece_unittest
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/pcre/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+/usr/gnu/bin/make  
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+/usr/gnu/bin/make  check-TESTS
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+Testing FullMatch
+Testing PartialMatch
+Testing hex
+Testing octal
+Testing decimal
+Testing Replace
+Testing Extract
+Testing Consume
+Testing FindAndConsume
+Testing QuoteMeta
+Testing match-number peculiaraity
+Testing UTF-8 handling
+Testing error reporting
+Testing recursion
+Testing Options
+Testing Option <CASELESS (class)>
+Testing Option <CASELESS (class2)>
+Testing Option <CASELESS (class)>
+Testing Option <CASELESS (function)>
+Testing Option <CASELESS (function)>
+Testing Option <no CASELESS>
+Testing Option <MULTILINE (class)>
+Testing Option <MULTILINE (class2)>
+Testing Option <MULTILINE (function)>
+Testing Option <no MULTILINE>
+Testing Option <DOTALL (class)>
+Testing Option <DOTALL (class2)>
+Testing Option <DOTALL (function)>
+Testing Option <no DOTALL>
+Testing Option <no DOLLAR_ENDONLY>
+Testing Option <DOLLAR_ENDONLY 1>
+Testing Option <DOLLAR_ENDONLY 2>
+Testing Option <EXTENDED (class)>
+Testing Option <EXTENDED (class2)>
+Testing Option <EXTENDED (class)>
+Testing Option <EXTENDED (function)>
+Testing Option <EXTENDED (function)>
+Testing Option <no EXTENDED>
+Testing Option <no NO_AUTO_CAPTURE>
+testing Option <NO_AUTO_CAPTURE>
+Testing Option <UNGREEDY 1>
+Testing Option <UNGREEDY 2>
+Testing Option <UNGREEDY>
+Testing Option <no UNGREEDY>
+Testing Option <no UNGREEDY>
+Testing Option <EXTRA 1>
+Testing Option <EXTRA 2>
+Testing Option <no EXTRA>
+Testing Option <all_options (CASELESS|DOTALL)>
+Testing Option <all_options (0)>
+Testing Option <all_options (MULTILINE|EXTENDED)>
+Testing Option <all_options (MULTILINE|EXTENDED) with constructor>
+Testing Option <all_options (MULTILINE|EXTENDED) with concatenation>
+Testing Option <all_options (0)>
+Testing constructors
+OK
+PASS: pcrecpp_unittest
+OK
+PASS: pcre_scanner_unittest
+OK
+PASS: pcre_stringpiece_unittest
+No differences encountered
+
+PCRE C library tests
+PCRE version 7.8 2008-09-05
+
+Test 1: main functionality (Perl compatible)
+No differences encountered
+OK
+Test 2: API and error handling (not Perl compatible)
+No differences encountered
+OK
+Cannot test locale-specific features - neither the 'fr_FR' nor the
+'french' locale exists, or the "locale" command is not available
+to check for them.
+ 
+Test 4: UTF-8 support (Perl compatible)
+No differences encountered
+OK
+Test 5: API and internals for UTF-8 support (not Perl compatible)
+No differences encountered
+OK
+Test 6: Unicode property support
+No differences encountered
+OK
+Test 7: DFA matching
+No differences encountered
+OK
+Test 8: DFA matching with UTF-8
+No differences encountered
+OK
+Test 9: DFA matching with Unicode properties
+No differences encountered
+OK
+PASS: RunTest
+ 
+Testing pcregrep
+No differences encountered
+Testing pcregrep UTF-8 features
+No differences encountered
+Testing pcregrep newline settings
+No differences encountered
+PASS: RunGrepTest
+==================
+All 5 tests passed
+==================
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/pcre/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pcre/build/i86/.tested

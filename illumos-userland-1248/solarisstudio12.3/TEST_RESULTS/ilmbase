@@ -1,0 +1,346 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC" LDFLAGS="-lc -lm" PKG_CONFIG_PATH="PKG_CONFIG_PATH.32" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-static --enable-threading --enable-posix-sem --with-pic)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC" LDFLAGS="-lc -lm" PKG_CONFIG_PATH="PKG_CONFIG_PATH.64" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-static --enable-threading --enable-posix-sem --with-pic)
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+i386-pc-solaris2.11
+checking host system type... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking whether to enable maintainer-specific portions of Makefiles... no
+yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for C++ compiler default output file name... checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... o
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... none
+checking whether ln -s works... yes
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for egrep... egrep
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /usr/bin/gsed
+checking for egrep... egrep
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -E
+checking for ANSI C header files... checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+yes
+checking for strings.h... checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking the maximum length of command line arguments... checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag  works... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag  works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+appending configuration tag "CXX" to libtool
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+appending configuration tag "F77" to libtool
+checking whether make sets $(MAKE)... (cached) yes
+checking whether pthreads work with -pthread... appending configuration tag "F77" to libtool
+no
+checking whether pthreads work with -pthreads... checking whether make sets $(MAKE)... (cached) yes
+checking whether pthreads work with -pthread... no
+checking for the pthreads library -lpthread... no
+checking whether pthreads work with -pthreads... yes
+checking for joinable pthread attribute... no
+checking for the pthreads library -lpthread... yes
+checking for joinable pthread attribute... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_REENTRANT
+checking for cc_r... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking semaphore.h usability... yes
+checking semaphore.h presence... PTHREAD_CREATE_JOINABLE
+checking if more special flags are required for pthreads... -D_REENTRANT
+checking for cc_r... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking semaphore.h usability... yes
+checking for semaphore.h... yes
+checking for library containing sem_init... yes
+checking semaphore.h presence... yes
+checking for semaphore.h... yes
+none required
+checking whether to use POSIX unnamed semaphores... checking for library containing sem_init... yes
+configure: multithread true, LIBS = -lpthread , CC = /opt/SUNWspro/solarisstudio12.3/bin/cc, CXXFLAGS = -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT 
+checking for ANSI C header files... (cached) yes
+checking limits.h usability... none required
+checking whether to use POSIX unnamed semaphores... yes
+checking limits.h presence... yes
+configure: multithread true, LIBS = -lpthread , CC = /opt/SUNWspro/solarisstudio12.3/bin/cc, CXXFLAGS = -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT 
+checking for ANSI C header files... (cached) yes
+checking limits.h usability... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking limits.h presence... yes
+checking for inline... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... inline
+checking for size_t... yes
+checking for inline... yes
+checking for strerror... inline
+checking for size_t... yes
+checking for complete iomanip support in C++ standard library... yes
+checking for strerror... yes
+checking for complete iomanip support in C++ standard library... yes
+checking for gcc optimization flags... 
+yes
+checking for gcc optimization flags... configure: creating ./config.status
+
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating IlmBase.pc
+config.status: creating config/Makefile
+config.status: creating Half/Makefile
+config.status: creating Makefile
+config.status: creating HalfTest/Makefile
+config.status: creating IlmBase.pc
+config.status: creating Iex/Makefile
+config.status: creating config/Makefile
+config.status: creating IexTest/Makefile
+config.status: creating Half/Makefile
+config.status: creating IlmThread/Makefile
+config.status: creating HalfTest/Makefile
+config.status: creating Imath/Makefile
+config.status: creating Iex/Makefile
+config.status: creating ImathTest/Makefile
+config.status: creating IexTest/Makefile
+config.status: creating vc/Makefile
+config.status: creating IlmThread/Makefile
+config.status: creating config/IlmBaseConfig.h
+config.status: creating Imath/Makefile
+config.status: executing depfiles commands
+config.status: creating ImathTest/Makefile
+config.status: creating vc/Makefile
+config.status: creating config/IlmBaseConfig.h
+config.status: executing depfiles commands
+
+---------------------------------------------
+Summary for IlmBase features:
+
+No variable options in this package.  Configure completed successfully.
+---------------------------------------------
+  
+
+---------------------------------------------
+Summary for IlmBase features:
+
+No variable options in this package.  Configure completed successfully.
+---------------------------------------------
+  
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86'
+Making all in Half
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/eLut.cpp' object='eLut.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT  -c -o eLut.o /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/eLut.cpp
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64'
+Making all in Half
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/eLut.cpp' object='eLut.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT  -c -o eLut.o /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/eLut.cpp
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT   -lc -lm -o eLut  eLut.o  -lpthread 
+mkdir .libs
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT   -lc -lm -o eLut  eLut.o  -lpthread 
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT -o eLut eLut.o  -library=Cstd,Crun -lc -lm -lpthread
+./eLut > eLut.h
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/toFloat.cpp' object='toFloat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT  -c -o toFloat.o /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/toFloat.cpp
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m64 -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT -o eLut eLut.o  -library=Cstd,Crun -lc -lm -lpthread
+./eLut > eLut.h
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/toFloat.cpp' object='toFloat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT  -c -o toFloat.o /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/toFloat.cpp
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT   -lc -lm -o toFloat  toFloat.o  -lpthread 
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT   -lc -lm -o toFloat  toFloat.o  -lpthread 
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT -o toFloat toFloat.o  -library=Cstd,Crun -lc -lm -lpthread
+./toFloat > toFloat.h
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m64 -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT -o toFloat toFloat.o  -library=Cstd,Crun -lc -lm -lpthread
+./toFloat > toFloat.h
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp' object='half.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/bin/bash ../libtool --tag=CXX --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT  -c -o half.lo /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+source='/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp' object='half.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/depcomp \
+	/bin/bash ../libtool --tag=CXX --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config    -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT  -c -o half.lo /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT -c /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp  -KPIC -DPIC -o .libs/half.o
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half -I../config -I/export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/config -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT -c /export/home/drlou/illumos-userland-1248/components/ilmbase/ilmbase-1.0.1/Half/half.cpp  -KPIC -DPIC -o .libs/half.o
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m64 -library=Cstd,Crun -D_LARGEFILE64_SOURCE -KPIC -DPIC -D_REENTRANT   -lc -lm -o libHalf.la -rpath /usr/lib/amd64 -version-info 6:0:0 -no-undefined half.lo  -lpthread 
+/bin/bash ../libtool --tag=CXX --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32 -library=Cstd,Crun -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -KPIC -DPIC -D_REENTRANT   -lc -lm -o libHalf.la -rpath /usr/lib -version-info 6:0:0 -no-undefined half.lo  -lpthread 
+/opt/SUNWspro/solarisstudio12.3/bin/CC   -G  -zdefs -nolib -hlibHalf.so.6 -o .libs/libHalf.so.6.0.0   .libs/half.o  -library=Cstd,Crun -lc -lm -lpthread   -m64 -norunpath
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64/Half'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/amd64'
+/opt/SUNWspro/solarisstudio12.3/bin/CC   -G  -zdefs -nolib -hlibHalf.so.6 -o .libs/libHalf.so.6.0.0   .libs/half.o  -library=Cstd,Crun -lc -lm -lpthread   -m32 -norunpath
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86/Half'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ilmbase/build/i86'

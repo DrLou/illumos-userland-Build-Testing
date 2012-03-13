@@ -1,0 +1,25 @@
+(cd /export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libqrencode/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libqrencode/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libqrencode/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" CPPFLAGS="-D_LARGEFILE64_SOURCE" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc -m64" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --localstatedir=/var --mandir=/usr/share/man --infodir=/usr/share/info --enable-shared --disable-static --enable-webdav --enable-threadsafe-ssl=posix --enable-nls --disable-warnings --disable-ld-version-script --with-zlib --with-ssl=openssl --with-libproxy --with-libxml2)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0/qrencode.c' object='qrencode.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0/use/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0   -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -Wall -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o qrencode.lo /export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0/qrencode.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Wall -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libqrencode/qrencode-3.2.0/qrencode.c  -KPIC -DPIC -o .libs/qrencode.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libqrencode/build/i86'
+checking build system type... x86_64-pc-solaris2.11
+checking host system type... x86_64-pc-solaris2.11
+checking target system type... x86_64-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes

@@ -1,0 +1,105 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/lua/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/lua/build/i86
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/lua/lua-5.1.4 /export/home/drlou/illumos-userland-1248/components/lua/build/i86
+symlink cloning /export/home/drlou/illumos-userland-1248/components/lua/lua-5.1.4 to /export/home/drlou/illumos-userland-1248/components/lua/build/i86
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/lua/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/lua/build/amd64
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/lua/lua-5.1.4 /export/home/drlou/illumos-userland-1248/components/lua/build/amd64
+symlink cloning /export/home/drlou/illumos-userland-1248/components/lua/lua-5.1.4 to /export/home/drlou/illumos-userland-1248/components/lua/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/lua/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc -m32" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86'
+cd src && /usr/gnu/bin/make solaris
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86/src'
+/usr/gnu/bin/make all MYCFLAGS="-DLUA_USE_POSIX -DLUA_USE_DLOPEN -D__EXTENSIONS__" MYLIBS="-ldl"
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lapi.o lapi.c
+(cd /export/home/drlou/illumos-userland-1248/components/lua/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc -m64" CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE" )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64'
+cd src && /usr/gnu/bin/make solaris
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64/src'
+/usr/gnu/bin/make all MYCFLAGS="-DLUA_USE_POSIX -DLUA_USE_DLOPEN -D__EXTENSIONS__" MYLIBS="-ldl"
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lapi.o lapi.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lcode.o lcode.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lcode.o lcode.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ldebug.o ldebug.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ldebug.o ldebug.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ldo.o ldo.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ldo.o ldo.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ldump.o ldump.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ldump.o ldump.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lfunc.o lfunc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lgc.o lgc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lfunc.o lfunc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lgc.o lgc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o llex.o llex.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o llex.o llex.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lmem.o lmem.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lobject.o lobject.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lmem.o lmem.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lopcodes.o lopcodes.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lparser.o lparser.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lobject.o lobject.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lopcodes.o lopcodes.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lparser.o lparser.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lstate.o lstate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lstring.o lstring.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lstate.o lstate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ltable.o ltable.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lstring.o lstring.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ltable.o ltable.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ltm.o ltm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lundump.o lundump.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ltm.o ltm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lvm.o lvm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lundump.o lundump.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lvm.o lvm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lzio.o lzio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lauxlib.o lauxlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lzio.o lzio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lbaselib.o lbaselib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lauxlib.o lauxlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ldblib.o ldblib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lbaselib.o lbaselib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o liolib.o liolib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ldblib.o ldblib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lmathlib.o lmathlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o liolib.o liolib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o loslib.o loslib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o ltablib.o ltablib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lmathlib.o lmathlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lstrlib.o lstrlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o loslib.o loslib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o ltablib.o ltablib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lstrlib.o lstrlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o loadlib.o loadlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o linit.o linit.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -o liblua.so -G -h liblua.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -zdefs -ztext lapi.o lcode.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o \
+	lauxlib.o lbaselib.o ldblib.o liolib.o lmathlib.o loslib.o ltablib.o lstrlib.o loadlib.o linit.o -lm -lc -ldl
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o lua.o lua.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o loadlib.o loadlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -o lua -zdefs -ztext lua.o liblua.so -lm -lc -ldl
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o luac.o luac.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o linit.o linit.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -o liblua.so -G -h liblua.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE -zdefs -ztext lapi.o lcode.o ldebug.o ldo.o ldump.o lfunc.o lgc.o llex.o lmem.o lobject.o lopcodes.o lparser.o lstate.o lstring.o ltable.o ltm.o lundump.o lvm.o lzio.o \
+	lauxlib.o lbaselib.o ldblib.o liolib.o lmathlib.o loslib.o ltablib.o lstrlib.o loadlib.o linit.o -lm -lc -ldl
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o lua.o lua.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -c -o print.o print.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -o luac -zdefs -ztext luac.o print.o liblua.so -lm -lc -ldl
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lua/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/lua/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+		 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86'
+src/lua test/hello.lua
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -o lua -zdefs -ztext lua.o liblua.so -lm -lc -ldl
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o luac.o luac.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC -D_LARGEFILE64_SOURCE   -c -o print.o print.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -o luac -zdefs -ztext luac.o print.o liblua.so -lm -lc -ldl
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lua/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lua/build/amd64/.built

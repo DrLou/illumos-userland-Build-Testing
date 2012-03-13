@@ -1,0 +1,534 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --libexecdir=/usr/lib --sysconfdir=/etc/gnu --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m32")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for function prototypes... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for preprocessor stringizing operator... yes
+checking whether ln -s works... yes
+checking for emacs... emacs
+checking for tex... no
+checking for latex... no
+checking for latex2e... no
+checking for pdflatex... no
+checking for dvips... no
+checking for troff... troff
+checking for kpsexpand... no
+checking for texhash... no
+checking for X... libraries , headers 
+checking for gethostbyname... no
+checking for gethostbyname in -lnsl... yes
+checking for connect... no
+checking for connect in -lsocket... yes
+checking for remove... yes
+checking for shmat... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for MS-DOS/djgpp/libGRX... no
+checking for NeXT... no
+checking for Apple MacOS X... no
+checking for BeOS... no
+checking for Alpha/AXP CPU... no
+checking for sin... no
+checking for sin in -lm... yes
+checking for ANSI C header files... (cached) yes
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/bsdtypes.h usability... no
+checking sys/bsdtypes.h presence... no
+checking for sys/bsdtypes.h... no
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/systeminfo.h usability... yes
+checking sys/systeminfo.h presence... yes
+checking for sys/systeminfo.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking libc.h usability... no
+checking libc.h presence... no
+checking for libc.h... no
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for struct exception in math.h... yes
+checking whether stat file-mode macros are broken... no
+checking for unistd.h... yes
+checking if errno variable is declared... yes
+checking for size_t... yes
+checking for time_t in time.h... yes
+checking return type of signal handlers... void
+checking for atexit... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for memset... yes
+checking for on_exit... no
+checking for bcopy... yes
+checking for bzero... yes
+checking for setvbuf... yes
+checking for strerror... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strstr... yes
+checking for index... yes
+checking for rindex... yes
+checking for isnan... yes
+checking for erf... yes
+checking for erfc... yes
+checking for gamma... yes
+checking for lgamma... yes
+checking for getcwd... yes
+checking for poll... yes
+checking for pclose... yes
+checking for popen... yes
+checking for select... yes
+checking for sleep... yes
+checking for stpcpy... yes
+checking for strcspn... yes
+checking for strdup... yes
+checking for strcasecmp... yes
+checking for stricmp... no
+checking for strncasecmp... yes
+checking for strnicmp... no
+checking for sysinfo... yes
+checking for tcgetattr... yes
+checking for vfprintf... yes
+checking for doprnt... no
+checking for usleep... yes
+checking for snprintf... yes
+checking whether signgam is declared... yes
+checking for sigsetjmp... yes
+checking for sys/select.h... (cached) yes
+checking for sys/socket.h... (cached) yes
+checking types of arguments for select... int,fd_set *,struct timeval *
+checking for tputs in -lncurses... no
+checking for tputs in -lcurses... yes
+checking for remove_history in -lreadline... yes
+checking readline/readline.h usability... yes
+checking readline/readline.h presence... yes
+checking for readline/readline.h... yes
+checking readline/history.h usability... yes
+checking readline/history.h presence... yes
+checking for readline/history.h... yes
+checking readline/tilde.h usability... yes
+checking readline/tilde.h presence... yes
+checking for readline/tilde.h... yes
+checking for deflate in -lz... yes
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gdlib-config... no
+checking for gdImageCreateTrueColor in -lgd... no
+checking for pdflib-config... no
+checking for PDF_get_majorversion in -lpdf... no
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for LUA... no
+checking for library containing luaL_openlibs... no
+checking for window_create in -lsuntool... no
+checking for multi-byte support in x11... checking for XmbDrawString in -lX11... yes
+Compiling outside source directory - copying needed files
+checking for pkg-config... (cached) /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for wx-config... no
+checking for CAIROPANGO... yes
+checking for PANGO_1_10_2... no
+checking for CAIROPDF... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config/Makefile
+config.status: creating demo/Makefile
+config.status: creating docs/Makefile
+config.status: creating m4/Makefile
+config.status: creating man/Makefile
+config.status: creating share/Makefile
+config.status: creating share/LaTeX/Makefile
+config.status: creating src/Makefile
+config.status: creating src/beos/Makefile
+config.status: creating src/wxterminal/Makefile
+config.status: creating term/Makefile
+config.status: creating tutorial/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default commands
+=== configuring in lisp (/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/lisp)
+configure: running /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/lisp/configure --disable-option-checking '--prefix=/usr'  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--libexecdir=/usr/lib' '--sysconfdir=/etc/gnu' '--infodir=/usr/share/info' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'CXXFLAGS=-norunpath -m32' --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/lisp
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for emacs... emacs
+checking where .elc files should go... ${datadir}/emacs/site-lisp
+checking for dvips... no
+checking for latex... no
+checking for latex2e... no
+checking for makeinfo... /usr/bin/makeinfo
+checking for pdflatex... no
+Compiling outside source directory - copying needed .el files
+checking for emacs version... 
+checking whether info-look.el is needed... using info-look.20.2.el
+configure: creating ./config.status
+config.status: creating Makefile
+
+** Configuration summary for gnuplot 4.4.0:
+
+gnuplot will be compiled with the following terminals:
+
+  Standalone terminals: yes (always builtin)
+    (canvas, cgm, corel, dumb, dxf, eepic, emf, emtex,
+    epslatex, epson_180dpi, epson_60dpi, epson_lx800, fig, gpic, hp2623A,
+    hp2648, hp500c, hpdj, hpgl, hpljii, hppj, imagen,
+    latex, metafont, metapost, mif, pbm, postscript, pslatex, nec_cp6, okidata,
+    pcl5, pstex, pstricks, qms, regis, svg, tandy_60dpi,
+    tek40xx, tek410x, texdraw, tgif, tkcanvas, tpic, vttek)
+  X Window System terminal: yes
+    (with multi-byte fonts)
+    (enable plotting to windows opened by external apps) 
+    (without binary polygon protocol )
+    (with application defaults, in /etc/X11/app-defaults/)
+  jpeg terminal: no (requires libgd with jpeg support)
+  gif terminal: no (requires libgd with gif support)
+  png terminal: no (requires libgd with png support)
+    (jpeg, gif and png terminals cannot use TTF fonts, requires libgd support)
+  pdf terminal: no (requires libpdf)
+  plot library terminal: no (use --with-plot to enable, requires GNU plotutils
+                             or UNIX plot)
+  linux terminal (vga console): no (use --with-linux-vga to enable,
+                                       requires SVGAlib)
+  vgagl terminal ((s)vga console): no (use --with-linux-vga to enable,
+                                       requires SVGAlib with vgagl)
+  ggi terminal: no (use --with-ggi to enable, requires libggi)
+  mgr terminal: no (use --enable-mgr to enable, requires libpixrect)
+  rgip/uniplex terminal: no (use --enable-rgip to enable)
+  svga terminal (MSDOS/djgpp): no
+  be terminal (BeOS): no
+  next terminal: no
+  aqua terminal (MacOS X): no
+  wxt terminal: no (requires C++, wxWidgets>2.6, cairo>0.9, pango>1.10)
+  cairo-based pdf and png terminals: yes 
+  lua/TikZ terminal: no 
+
+  Additional terminals are availaible in platform-specific makefiles:
+   amiga (makefile.amg and makefile.ami), apollo/gpr (makefile.unx)
+   cgi (makefile.unx), pm (makefile.os2),
+   sun (makefile.unx), unixpc (makefile.unx), windows (various Windows
+   makefiles)
+  Additional terminals are built automatically if possible at compile-time:
+   vesa (MSDOS), emxvga (MSDOS, OS/2), ega/vga/svga/ssvga/hercules (Windows with
+   Zortec compiler), macintosh
+
+gnuplot will be compiled with the following features:
+
+  Mouse support in interactive terminals: yes
+  Fitting error variables: yes
+  Zooming or refresh of volatile data: yes (EXPERIMENTAL)
+  Typing <space> in plot window raises console
+  Command line macros: yes 
+  Placement of rectangles and other objects: yes 
+
+gnuplot will be compiled with the following options:
+
+  Readline library: GNU readline library with  -lcurses
+  Command-line history file: yes
+  Check current directory for .gnuplot file: no (use --with-cwdrc to enable)
+  Sort help/subtopic tables by column: no (use --without-row-help to enable)
+  Use TeX kpsexpand to search for fonts: no (use --with-kpsexpand to enable)
+  Thin plate splines: no (use --enable-thin-spline to enable)
+  Hidden3d optimization: quadtree
+  Deprecated syntax and terminal options : no (use --enable-backwards-compatibility to enable)
+
+gnuplot will install the following additional materials:
+
+  lasergnu printer script: no (use --with-lasergnu to enable)
+  gnuplot-mode for X/Emacs: yes
+  LaTeX tutorial: no
+  cfg file for epslatex terminal: no
+  TeX *.sty for lua/tikz terminal: no
+  Help file: yes (always), in ${datarootdir}/gnuplot/4.4/gnuplot.gih
+  PostScript prologue files: yes (always)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect "  \
+		/usr/gnu/bin/make  all info)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+Making all in config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/config'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/config'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/m4'
+Making all in term
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/term'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/term'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+Making all in wxterminal
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src/wxterminal'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src/wxterminal'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/alloc.c' object='alloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/alloc.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/axis.c' object='axis.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/axis.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/binary.c' object='binary.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/binary.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/breaders.c' object='breaders.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/breaders.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/bitmap.c' object='bitmap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/bitmap.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/color.c' object='color.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/color.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/command.c' object='command.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/command.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/contour.c' object='contour.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/contour.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/datafile.c' object='datafile.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/datafile.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/dynarray.c' object='dynarray.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/dynarray.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/eval.c' object='eval.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/eval.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/fit.c' object='fit.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/fit.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gadgets.c' object='gadgets.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gadgets.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/getcolor.c' object='getcolor.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/getcolor.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/graph3d.c' object='graph3d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/graph3d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/graphics.c' object='graphics.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/graphics.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/help.c' object='help.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/help.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/hidden3d.c' object='hidden3d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/hidden3d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/history.c' object='history.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/history.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/internal.c' object='internal.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/internal.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/interpol.c' object='interpol.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/interpol.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/matrix.c' object='matrix.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/matrix.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/misc.c' object='misc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/misc.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/mouse.c' object='mouse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/mouse.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/parse.c' object='parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/parse.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot.c' object='plot.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot2d.c' object='plot2d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot2d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot3d.c' object='plot3d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/plot3d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/pm3d.c' object='pm3d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/pm3d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/readline.c' object='readline.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/readline.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/save.c' object='save.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/save.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/scanner.c' object='scanner.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/scanner.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/set.c' object='set.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/set.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/show.c' object='show.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/show.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/specfun.c' object='specfun.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/specfun.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/standard.c' object='standard.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/standard.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/stdfn.c' object='stdfn.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/stdfn.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/tables.c' object='tables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/tables.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/tabulate.c' object='tabulate.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/tabulate.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/term.c' object='term.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/term.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/time.c' object='time.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/time.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/unset.c' object='unset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/unset.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/util.c' object='util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/util.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/util3d.c' object='util3d.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/util3d.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/variable.c' object='variable.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/variable.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/version.c
+source='wxterminal/gp_cairo.c' object='gp_cairo.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gp_cairo.o `test -f 'wxterminal/gp_cairo.c' || echo '/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/'`wxterminal/gp_cairo.c
+source='wxterminal/gp_cairo_helpers.c' object='gp_cairo_helpers.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gp_cairo_helpers.o `test -f 'wxterminal/gp_cairo_helpers.c' || echo '/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/'`wxterminal/gp_cairo_helpers.c
+/opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32   -o gnuplot alloc.o axis.o binary.o breaders.o bitmap.o color.o command.o contour.o datafile.o dynarray.o eval.o fit.o gadgets.o getcolor.o graph3d.o graphics.o help.o hidden3d.o history.o internal.o interpol.o matrix.o misc.o mouse.o parse.o plot.o plot2d.o plot3d.o pm3d.o readline.o save.o scanner.o set.o show.o specfun.o standard.o stdfn.o tables.o tabulate.o term.o time.o unset.o util.o util3d.o variable.o version.o  gp_cairo.o gp_cairo_helpers.o -lpng12 -lreadline -lcurses -lz -lm  -lz -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lpthread -lthread -lglib-2.0  
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/bf_test.c' object='bf_test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/bf_test.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o bf_test bf_test.o binary.o alloc.o  -lm  -lz -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lpthread -lthread -lglib-2.0  
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gplt_x11.c' object='gplt_x11.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gplt_x11.c
+source='/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gpexecute.c' object='gpexecute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/gpexecute.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I..  -I../term -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -DBINDIR=\"/usr/bin\" -DX11_DRIVER_DIR=\"/usr/lib/gnuplot/4.4\" -DGNUPLOT_PS_DIR=\"/usr/share/gnuplot/4.4/PostScript\" -DGNUPLOT_JS_DIR=\"/usr/share/gnuplot/4.4/js\" -DGNUPLOT_LUA_DIR=\"/usr/share/gnuplot/4.4/lua\"  -DCONTACT=\"gnuplot-bugs@lists.sourceforge.net\" -DHELPFILE=\"/usr/share/gnuplot/4.4/gnuplot.gih\" -DGNUPLOT_X11=\"`echo gnuplot_x11 | sed 's,x,x,'`\" -DXAPPLRESDIR=\"/etc/X11/app-defaults/\" -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -DGPLT_X11_MODE -o getcolor_x11.o /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src/getcolor.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o gnuplot_x11 gplt_x11.o gpexecute.o getcolor_x11.o -lX11 -lsocket  -lnsl -lm  -lz -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lpthread -lthread -lglib-2.0  
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+Making all in docs
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/docs'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/docs -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/docs/doc2gih.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/docs -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/src -I/export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/term -D_REENTRANT -D_POSIX_PTHREAD_SEMANTICS -D_PTHREADS -I/usr/include/cairo -I/usr/include/pixman-1 -I/usr/include/freetype2 -I/usr/include/libpng12 -I/usr/include/pango-1.0 -I/usr/include/glib-2.0 -I/usr/lib/glib-2.0/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/docs/termdoc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -o doc2gih doc2gih.o termdoc.o -lm  -lz -lpangocairo-1.0 -lpango-1.0 -lcairo -lgobject-2.0 -lgmodule-2.0 -lgthread-2.0 -lpthread -lthread -lglib-2.0  
+./doc2gih /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/docs/gnuplot.doc gnuplot.gih
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/docs'
+Making all in lisp
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/lisp'
+emacs -batch -q -no-site-file -l /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/lisp/dot.el -f batch-byte-compile gnuplot.el
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/lisp'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'

@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/gpgme/gpgme-1.1.8
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gpgme/gpgme-1.1.8 -p0 --backup --version-control=numbered < patches/000-gpgconf.c.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gpgme/gpgme-1.1.8 -p0 --backup --version-control=numbered < patches/001-mkstatus.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  gpgme-1.1.8.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/gpgme/gpgme-1.1.8/.unpacked

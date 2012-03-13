@@ -1,0 +1,88 @@
+(/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/XML-Parser-2.36 /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12
+symlink cloning /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/XML-Parser-2.36 to /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " PERL="/usr/perl5/5.12/bin/perl" /usr/perl5/5.12/bin/perl  \
+				Makefile.PL )
+Checking if your kit is complete...
+Looks good
+Writing Makefile for XML::Parser::Expat
+Writing Makefile for XML::Parser
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12; /usr/gnu/bin/sed 's/^CCCDLFLAGS = -KPIC/^CCCDLFLAGS = -fPIC/' Makefile > Makefile.tmp; grep -v '^OPTIMIZE =' Makefile.tmp > Makefile)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+cp Parser/Encodings/x-sjis-cp932.enc blib/lib/XML/Parser/Encodings/x-sjis-cp932.enc
+cp Parser/Encodings/iso-8859-7.enc blib/lib/XML/Parser/Encodings/iso-8859-7.enc
+cp Parser/Style/Tree.pm blib/lib/XML/Parser/Style/Tree.pm
+cp Parser/Encodings/iso-8859-9.enc blib/lib/XML/Parser/Encodings/iso-8859-9.enc
+cp Parser/Encodings/x-euc-jp-unicode.enc blib/lib/XML/Parser/Encodings/x-euc-jp-unicode.enc
+cp Parser/Encodings/README blib/lib/XML/Parser/Encodings/README
+cp Parser/Encodings/euc-kr.enc blib/lib/XML/Parser/Encodings/euc-kr.enc
+cp Parser/Encodings/windows-1250.enc blib/lib/XML/Parser/Encodings/windows-1250.enc
+cp Parser/Encodings/windows-1252.enc blib/lib/XML/Parser/Encodings/windows-1252.enc
+cp Parser/Encodings/big5.enc blib/lib/XML/Parser/Encodings/big5.enc
+cp Parser/Encodings/Japanese_Encodings.msg blib/lib/XML/Parser/Encodings/Japanese_Encodings.msg
+cp Parser/Encodings/iso-8859-3.enc blib/lib/XML/Parser/Encodings/iso-8859-3.enc
+cp Parser/Encodings/iso-8859-8.enc blib/lib/XML/Parser/Encodings/iso-8859-8.enc
+cp Parser/Encodings/x-euc-jp-jisx0221.enc blib/lib/XML/Parser/Encodings/x-euc-jp-jisx0221.enc
+cp Parser/Style/Subs.pm blib/lib/XML/Parser/Style/Subs.pm
+cp Parser/Encodings/iso-8859-4.enc blib/lib/XML/Parser/Encodings/iso-8859-4.enc
+cp Parser/Encodings/iso-8859-2.enc blib/lib/XML/Parser/Encodings/iso-8859-2.enc
+cp Parser/Encodings/x-sjis-jdk117.enc blib/lib/XML/Parser/Encodings/x-sjis-jdk117.enc
+cp Parser/Encodings/x-sjis-unicode.enc blib/lib/XML/Parser/Encodings/x-sjis-unicode.enc
+cp Parser/LWPExternEnt.pl blib/lib/XML/Parser/LWPExternEnt.pl
+cp Parser/Style/Objects.pm blib/lib/XML/Parser/Style/Objects.pm
+cp Parser.pm blib/lib/XML/Parser.pm
+cp Parser/Style/Debug.pm blib/lib/XML/Parser/Style/Debug.pm
+cp Parser/Encodings/x-sjis-jisx0221.enc blib/lib/XML/Parser/Encodings/x-sjis-jisx0221.enc
+cp Parser/Style/Stream.pm blib/lib/XML/Parser/Style/Stream.pm
+cp Parser/Encodings/iso-8859-5.enc blib/lib/XML/Parser/Encodings/iso-8859-5.enc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+cp Expat.pm ../blib/lib/XML/Parser/Expat.pm
+/usr/perl5/5.12/bin/perl /usr/perl5/5.12/lib/ExtUtils/xsubpp -noprototypes -typemap /usr/perl5/5.12/lib/ExtUtils/typemap -typemap typemap  Expat.xs > Expat.xsc && mv Expat.xsc Expat.c
+cc -c   -DPTR_IS_LONG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DPERL_USE_SAFE_PUTENV    -DVERSION=\"2.36\" -DXS_VERSION=\"2.36\" -KPIC "-I/usr/perl5/5.12/lib/i86pc-solaris-64int/CORE"   Expat.c
+Running Mkbootstrap for XML::Parser::Expat ()
+chmod 644 Expat.bs
+rm -f ../blib/arch/auto/XML/Parser/Expat/Expat.so
+LD_RUN_PATH="/usr/lib" cc  -G -L/usr/lib -L/usr/ccs/lib -L/opt/sunstudio12.1/prod/lib -L/lib -L/usr/gnu/lib Expat.o  -o ../blib/arch/auto/XML/Parser/Expat/Expat.so 	\
+	   -lexpat  	\
+	  
+chmod 755 ../blib/arch/auto/XML/Parser/Expat/Expat.so
+cp Expat.bs ../blib/arch/auto/XML/Parser/Expat/Expat.bs
+chmod 644 ../blib/arch/auto/XML/Parser/Expat/Expat.bs
+Manifying ../blib/man3/XML::Parser::Expat.3
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+Manifying blib/man3/XML::Parser::Style::Objects.3
+Manifying blib/man3/XML::Parser::Style::Debug.3
+Manifying blib/man3/XML::Parser.3
+Manifying blib/man3/XML::Parser::Style::Subs.3
+Manifying blib/man3/XML::Parser::Style::Tree.3
+Manifying blib/man3/XML::Parser::Style::Stream.3
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/.built
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+PERL_DL_NONLAZY=1 /usr/perl5/5.12/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/astress.t ....... ok
+t/cdata.t ......... ok
+t/decl.t .......... ok
+t/defaulted.t ..... ok
+t/encoding.t ...... ok
+t/external_ent.t .. ok
+t/file.t .......... ok
+t/finish.t ........ ok
+t/namespaces.t .... ok
+t/parament.t ...... ok
+t/partial.t ....... ok
+t/skip.t .......... ok
+t/stream.t ........ ok
+t/styles.t ........ ok
+All tests successful.
+Files=14, Tests=130,  0 wallclock secs ( 0.03 usr  0.01 sys +  0.17 cusr  0.00 csys =  0.21 CPU)
+Result: PASS
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/.tested

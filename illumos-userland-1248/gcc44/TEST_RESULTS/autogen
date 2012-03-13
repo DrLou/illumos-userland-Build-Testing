@@ -1,0 +1,160 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/autogen/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/autogen/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/autogen/autogen-5.9 /export/home/drlou/illumos-userland-1248/components/autogen/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/autogen/autogen-5.9 to /export/home/drlou/illumos-userland-1248/components/autogen/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/autogen/build/i86 ; /usr/bin/env -i CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/autogen/autogen-5.9/configure CC="/usr/gcc/4.4/bin/gcc" CXX="/usr/gcc/4.4/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -O2")
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+                 A      U      T      O      G      E      N
+
+GNU AutoGen-5.9                                             libopts.la-28:0:3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+checking for a BSD-compatible install... /bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... /usr/gcc/4.4/bin/gcc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/gcc/4.4/bin/gcc accepts -g... yes
+checking for /usr/gcc/4.4/bin/gcc option to accept ISO C89... none needed
+checking dependency style of /usr/gcc/4.4/bin/gcc... gcc3
+checking for a sed that does not truncate output... /usr/gnu/bin/sed
+checking for grep that handles long lines and -e... /usr/gnu/bin/grep
+checking for egrep... /usr/gnu/bin/grep -E
+checking for ld used by /usr/gcc/4.4/bin/gcc... /usr/ccs/bin/ld
+checking if the linker (/usr/ccs/bin/ld) is GNU ld... no
+checking for /usr/ccs/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/gnu/bin/nm -B
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /usr/gcc/4.4/bin/gcc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether /usr/gcc/4.4/bin/g++ accepts -g... yes
+checking dependency style of /usr/gcc/4.4/bin/g++... gcc3
+checking how to run the C++ preprocessor... /usr/gcc/4.4/bin/g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/gnu/bin/nm -B output from /usr/gcc/4.4/bin/gcc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if /usr/gcc/4.4/bin/gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/gcc/4.4/bin/gcc option to produce PIC... -fPIC
+checking if /usr/gcc/4.4/bin/gcc PIC flag -fPIC works... yes
+checking if /usr/gcc/4.4/bin/gcc static flag -static works... no
+checking if /usr/gcc/4.4/bin/gcc supports -c -o file.o... yes
+checking whether the /usr/gcc/4.4/bin/gcc linker (/usr/ccs/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by /usr/gcc/4.4/bin/g++... /usr/ccs/bin/ld
+checking if the linker (/usr/ccs/bin/ld) is GNU ld... no
+checking whether the /usr/gcc/4.4/bin/g++ linker (/usr/ccs/bin/ld) supports shared libraries... yes
+checking for /usr/gcc/4.4/bin/g++ option to produce PIC... -fPIC
+checking if /usr/gcc/4.4/bin/g++ PIC flag -fPIC works... yes
+checking if /usr/gcc/4.4/bin/g++ static flag -static works... no
+checking if /usr/gcc/4.4/bin/g++ supports -c -o file.o... yes
+checking whether the /usr/gcc/4.4/bin/g++ linker (/usr/ccs/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking if malloc debugging is wanted... no
+checking for gcc... (cached) /usr/gcc/4.4/bin/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /usr/gcc/4.4/bin/gcc accepts -g... (cached) yes
+checking for /usr/gcc/4.4/bin/gcc option to accept ISO C89... (cached) none needed
+checking dependency style of /usr/gcc/4.4/bin/gcc... (cached) gcc3
+checking for /usr/gcc/4.4/bin/gcc option to accept ISO C99... -std=gnu99
+checking for /usr/gcc/4.4/bin/gcc -std=gnu99 option to accept ISO Standard C... (cached) -std=gnu99
+checking for a BSD-compatible install... /bin/ginstall -c
+checking for texi2html... texi2html
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for dlopen in -ldl... yes
+checking for mode_t... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for long double with more range or precision than double... yes
+checking for u_int... yes
+checking for long long... yes
+checking for uintmax_t... yes
+checking for char*... yes
+checking size of char*... 4
+checking for int... yes
+checking size of int... 4
+checking for long... yes
+checking size of long... 4
+checking for short... yes
+checking size of short... 2
+checking for strchr... yes
+checking for strsignal... yes
+checking for strlcpy... yes
+checking for snprintf... yes
+checking for dlopen... yes
+checking for library containing copysign... -lm
+checking for library containing copysignl... none required
+checking for library containing modfl... none required
+checking whether using shell scripts... yes
+checking whether setjmp() links okay... yes
+checking whether sigsetjmp() links okay... yes
+checking whether with-libguile was specified... no
+checking whether with-libguile-cflags was specified... no
+checking whether with-libguile-libs was specified... no
+checking whether libguile can be linked with... no

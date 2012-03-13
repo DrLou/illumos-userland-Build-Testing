@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/ilmbase/ilmbase-1.0.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/ilmbase/ilmbase-1.0.1 -p0 --backup --version-control=numbered < patches/000-ltmain.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/ilmbase/ilmbase-1.0.1 -p0 --backup --version-control=numbered < patches/001-configure.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  ilmbase-1.0.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/ilmbase/ilmbase-1.0.1/.unpacked

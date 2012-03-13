@@ -1,0 +1,578 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6 /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86) 
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6 to /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6 /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64) 
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6 to /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-static --enable-shared CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-static --enable-shared CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt")
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... checking whether to enable maintainer-specific portions of Makefiles... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for C compiler default output file name... checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... none
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -ll
+checking whether yytext is a pointer... -ll
+checking whether yytext is a pointer... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for grep that handles long lines and -e... yes
+/usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... checking build system type... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ANSI C header files... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+yes
+checking for sys/types.h... yes
+checking for ANSI C header files... checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for sys/types.h... yes
+checking for memory.h... yes
+checking for sys/stat.h... yes
+checking for strings.h... yes
+checking for stdlib.h... yes
+checking for inttypes.h... yes
+checking for string.h... yes
+checking for stdint.h... yes
+checking for memory.h... yes
+checking for unistd.h... yes
+checking for strings.h... yes
+checking dlfcn.h usability... yes
+checking for inttypes.h... yes
+checking dlfcn.h presence... yes
+yes
+checking for dlfcn.h... yes
+checking for stdint.h... checking the maximum length of command line arguments... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... ok
+checking for objdir... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+no
+checking for strip... strip
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+configure: creating libtool
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... configure: creating libtool
+yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for ANSI C header files... (cached) yes
+checking whether NLS is requested... yes
+checking for msgfmt... checking for stdlib.h... (cached) yes
+/usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for string.h... (cached) yes
+checking for xgettext... checking for unistd.h... (cached) /usr/gnu/bin/xgettext
+yes
+checking for an ANSI C-conforming const... checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... yes
+checking for strcasecmp... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking for strdup... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for ANSI C header files... (cached) yes
+checking for stdlib.h... (cached) yes
+yes
+checking for string.h... (cached) yes
+checking for strndup... checking for unistd.h... (cached) yes
+checking for an ANSI C-conforming const... yes
+yes
+checking for strcasecmp... configure: creating ./config.status
+yes
+checking for strdup... yes
+checking for strndup... yes
+config.status: creating Makefile
+config.status: creating src/Makefile
+configure: creating ./config.status
+config.status: creating examples/Makefile
+config.status: creating po/Makefile.in
+config.status: creating m4/Makefile
+config.status: creating tests/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating libconfuse.pc
+config.status: creating libconfuse.spec
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating examples/Makefile
+config.status: creating po/Makefile.in
+config.status: creating m4/Makefile
+config.status: creating tests/Makefile
+config.status: creating doc/Makefile
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: creating doc/Doxyfile
+config.status: creating libconfuse.pc
+config.status: creating libconfuse.spec
+config.status: creating config.h
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/.configured
+config.status: executing depfiles commands
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/m4'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/po'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src'
+source='confuse.c' object='confuse.lo' libtool=yes \
+	depfile='.deps/confuse.Plo' tmpdepfile='.deps/confuse.TPlo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/bin/bash ../libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o confuse.lo confuse.c
+config.status: executing po-directories commands
+mkdir .libs
+config.status: creating po/POTFILES
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c confuse.c  -KPIC -DPIC -o .libs/confuse.o
+config.status: creating po/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/m4'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/po'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src'
+source='confuse.c' object='confuse.lo' libtool=yes \
+	depfile='.deps/confuse.Plo' tmpdepfile='.deps/confuse.TPlo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/bin/bash ../libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o confuse.lo confuse.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c confuse.c  -KPIC -DPIC -o .libs/confuse.o
+source='lexer.c' object='lexer.lo' libtool=yes \
+	depfile='.deps/lexer.Plo' tmpdepfile='.deps/lexer.TPlo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/bin/bash ../libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o lexer.lo lexer.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c lexer.c  -KPIC -DPIC -o .libs/lexer.o
+source='lexer.c' object='lexer.lo' libtool=yes \
+	depfile='.deps/lexer.Plo' tmpdepfile='.deps/lexer.TPlo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/bin/bash ../libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o lexer.lo lexer.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c lexer.c  -KPIC -DPIC -o .libs/lexer.o
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o libconfuse.la -rpath /usr/lib  confuse.lo lexer.lo  
+/usr/bin/ld -G -h libconfuse.so.0 -o .libs/libconfuse.so.0.0.0  .libs/confuse.o .libs/lexer.o  -lc 
+(cd .libs && rm -f libconfuse.so.0 && ln -s libconfuse.so.0.0.0 libconfuse.so.0)
+(cd .libs && rm -f libconfuse.so && ln -s libconfuse.so.0.0.0 libconfuse.so)
+creating libconfuse.la
+(cd .libs && rm -f libconfuse.la && ln -s ../libconfuse.la libconfuse.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src'
+Making all in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/examples'
+source='simple.c' object='simple.o' libtool=no \
+	depfile='.deps/simple.Po' tmpdepfile='.deps/simple.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c simple.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -L../src/  -o simple  simple.o ../src/libconfuse.la 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/simple simple.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating simple
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o libconfuse.la -rpath /usr/lib/amd64  confuse.lo lexer.lo  
+source='reread.c' object='reread.o' libtool=no \
+	depfile='.deps/reread.Po' tmpdepfile='.deps/reread.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c reread.c
+/usr/bin/ld -G -h libconfuse.so.0 -o .libs/libconfuse.so.0.0.0  .libs/confuse.o .libs/lexer.o  -lc 
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -L../src/  -o reread  reread.o ../src/libconfuse.la 
+(cd .libs && rm -f libconfuse.so.0 && ln -s libconfuse.so.0.0.0 libconfuse.so.0)
+(cd .libs && rm -f libconfuse.so && ln -s libconfuse.so.0.0.0 libconfuse.so)
+creating libconfuse.la
+(cd .libs && rm -f libconfuse.la && ln -s ../libconfuse.la libconfuse.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src'
+Making all in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/examples'
+source='simple.c' object='simple.o' libtool=no \
+	depfile='.deps/simple.Po' tmpdepfile='.deps/simple.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c simple.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -L../src/  -o simple  simple.o ../src/libconfuse.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/reread reread.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating reread
+source='ftpconf.c' object='ftpconf.o' libtool=no \
+	depfile='.deps/ftpconf.Po' tmpdepfile='.deps/ftpconf.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c ftpconf.c
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/simple simple.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating simple
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -L../src/  -o ftpconf  ftpconf.o ../src/libconfuse.la 
+source='reread.c' object='reread.o' libtool=no \
+	depfile='.deps/reread.Po' tmpdepfile='.deps/reread.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c reread.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -L../src/  -o reread  reread.o ../src/libconfuse.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/ftpconf ftpconf.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating ftpconf
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/examples'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/m4'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/po'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src'
+Making check in examples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/examples'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/examples'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+/usr/gnu/bin/make  suite_single suite_dup suite_func suite_list suite_validate list_plus_syntax section_title_dupes single_title_sections quote_before_print
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+source='suite_single.c' object='suite_single.o' libtool=no \
+	depfile='.deps/suite_single.Po' tmpdepfile='.deps/suite_single.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c suite_single.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/reread reread.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating reread
+source='ftpconf.c' object='ftpconf.o' libtool=no \
+	depfile='.deps/ftpconf.Po' tmpdepfile='.deps/ftpconf.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/examples -I.. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/src    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c ftpconf.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -L../src/  -o ftpconf  ftpconf.o ../src/libconfuse.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/ftpconf ftpconf.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating ftpconf
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/examples'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+Making all in doc
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o suite_single  suite_single.o -lsocket -lnsl -L../src ../src/libconfuse.la  
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/m4'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/po'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src'
+Making check in examples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/examples'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/examples'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+/usr/gnu/bin/make  suite_single suite_dup suite_func suite_list suite_validate list_plus_syntax section_title_dupes single_title_sections quote_before_print
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+source='suite_single.c' object='suite_single.o' libtool=no \
+	depfile='.deps/suite_single.Po' tmpdepfile='.deps/suite_single.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c suite_single.c
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/suite_single suite_single.o  -lsocket -lnsl -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating suite_single
+source='suite_dup.c' object='suite_dup.o' libtool=no \
+	depfile='.deps/suite_dup.Po' tmpdepfile='.deps/suite_dup.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c suite_dup.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o suite_dup  suite_dup.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/suite_dup suite_dup.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating suite_dup
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o suite_single  suite_single.o -lsocket -lnsl -L../src ../src/libconfuse.la  
+source='suite_func.c' object='suite_func.o' libtool=no \
+	depfile='.deps/suite_func.Po' tmpdepfile='.deps/suite_func.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c suite_func.c
+mkdir .libs
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o suite_func  suite_func.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/suite_single suite_single.o  -lsocket -lnsl -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating suite_single
+source='suite_dup.c' object='suite_dup.o' libtool=no \
+	depfile='.deps/suite_dup.Po' tmpdepfile='.deps/suite_dup.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c suite_dup.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/suite_func suite_func.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating suite_func
+source='suite_list.c' object='suite_list.o' libtool=no \
+	depfile='.deps/suite_list.Po' tmpdepfile='.deps/suite_list.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c suite_list.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o suite_dup  suite_dup.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/suite_dup suite_dup.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating suite_dup
+source='suite_func.c' object='suite_func.o' libtool=no \
+	depfile='.deps/suite_func.Po' tmpdepfile='.deps/suite_func.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c suite_func.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o suite_list  suite_list.o -L../src ../src/libconfuse.la  
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o suite_func  suite_func.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/suite_list suite_list.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating suite_list
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/suite_func suite_func.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating suite_func
+source='suite_validate.c' object='suite_validate.o' libtool=no \
+	depfile='.deps/suite_validate.Po' tmpdepfile='.deps/suite_validate.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c suite_validate.c
+source='suite_list.c' object='suite_list.o' libtool=no \
+	depfile='.deps/suite_list.Po' tmpdepfile='.deps/suite_list.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c suite_list.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o suite_validate  suite_validate.o -lsocket -lnsl -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/suite_validate suite_validate.o  -lsocket -lnsl -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o suite_list  suite_list.o -L../src ../src/libconfuse.la  
+creating suite_validate
+source='list_plus_syntax.c' object='list_plus_syntax.o' libtool=no \
+	depfile='.deps/list_plus_syntax.Po' tmpdepfile='.deps/list_plus_syntax.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c list_plus_syntax.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o list_plus_syntax  list_plus_syntax.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/suite_list suite_list.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating suite_list
+source='suite_validate.c' object='suite_validate.o' libtool=no \
+	depfile='.deps/suite_validate.Po' tmpdepfile='.deps/suite_validate.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c suite_validate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/list_plus_syntax list_plus_syntax.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating list_plus_syntax
+source='section_title_dupes.c' object='section_title_dupes.o' libtool=no \
+	depfile='.deps/section_title_dupes.Po' tmpdepfile='.deps/section_title_dupes.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c section_title_dupes.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o section_title_dupes  section_title_dupes.o -L../src ../src/libconfuse.la  
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o suite_validate  suite_validate.o -lsocket -lnsl -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/section_title_dupes section_title_dupes.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating section_title_dupes
+source='single_title_sections.c' object='single_title_sections.o' libtool=no \
+	depfile='.deps/single_title_sections.Po' tmpdepfile='.deps/single_title_sections.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c single_title_sections.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/suite_validate suite_validate.o  -lsocket -lnsl -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating suite_validate
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o single_title_sections  single_title_sections.o -L../src ../src/libconfuse.la  
+source='list_plus_syntax.c' object='list_plus_syntax.o' libtool=no \
+	depfile='.deps/list_plus_syntax.Po' tmpdepfile='.deps/list_plus_syntax.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c list_plus_syntax.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o list_plus_syntax  list_plus_syntax.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/single_title_sections single_title_sections.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating single_title_sections
+source='quote_before_print.c' object='quote_before_print.o' libtool=no \
+	depfile='.deps/quote_before_print.Po' tmpdepfile='.deps/quote_before_print.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c quote_before_print.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o quote_before_print  quote_before_print.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/list_plus_syntax list_plus_syntax.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating list_plus_syntax
+source='section_title_dupes.c' object='section_title_dupes.o' libtool=no \
+	depfile='.deps/section_title_dupes.Po' tmpdepfile='.deps/section_title_dupes.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c section_title_dupes.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o section_title_dupes  section_title_dupes.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/quote_before_print quote_before_print.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/src ../src/.libs/libconfuse.so
+creating quote_before_print
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+PASS: suite_single
+PASS: suite_dup
+PASS: suite_func
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/section_title_dupes section_title_dupes.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+PASS: suite_list
+creating section_title_dupes
+PASS: suite_validate
+source='single_title_sections.c' object='single_title_sections.o' libtool=no \
+	depfile='.deps/single_title_sections.Po' tmpdepfile='.deps/single_title_sections.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c single_title_sections.c
+PASS: list_plus_syntax
+PASS: section_title_dupes
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o single_title_sections  single_title_sections.o -L../src ../src/libconfuse.la  
+PASS: single_title_sections
+PASS: quote_before_print
+==================
+All 9 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/tests'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/i86/.tested
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/single_title_sections single_title_sections.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating single_title_sections
+source='quote_before_print.c' object='quote_before_print.o' libtool=no \
+	depfile='.deps/quote_before_print.Po' tmpdepfile='.deps/quote_before_print.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/support/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libconfuse/confuse-2.6/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c quote_before_print.c
+/bin/bash ../libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -o quote_before_print  quote_before_print.o -L../src ../src/libconfuse.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/quote_before_print quote_before_print.o  -L/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/src ../src/.libs/libconfuse.so -R/usr/lib/amd64
+creating quote_before_print
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+PASS: suite_single
+PASS: suite_dup
+PASS: suite_func
+PASS: suite_list
+PASS: suite_validate
+PASS: list_plus_syntax
+PASS: section_title_dupes
+PASS: single_title_sections
+PASS: quote_before_print
+==================
+All 9 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/tests'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libconfuse/build/amd64/.tested

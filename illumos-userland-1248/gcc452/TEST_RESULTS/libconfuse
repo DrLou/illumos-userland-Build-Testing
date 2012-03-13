@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/libconfuse/confuse-2.6
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libconfuse/confuse-2.6 -p1 --backup --version-control=numbered < patches/confuse.h.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libconfuse/confuse-2.6 -p1 --backup --version-control=numbered < patches/test-Makefile.am.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libconfuse/confuse-2.6 -p1 --backup --version-control=numbered < patches/test-Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  confuse-2.6.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/libconfuse/confuse-2.6/.unpacked

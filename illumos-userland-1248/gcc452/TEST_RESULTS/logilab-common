@@ -1,0 +1,57 @@
+(cd logilab-common-0.40.0; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		bin/pytest test )
+going into /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/test
+[]
+going into /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test
+[]
+['# test configuration',
+ '[TEST]',
+ '',
+ 'dothis=yes',
+ '',
+ '#value=',
+ '',
+ '# you can also document the option',
+ 'multiple=yop,yep',
+ '',
+ '# boom',
+ 'number=2',
+ '',
+ 'choice=yo',
+ '',
+ 'multiple-choice=yo,ye',
+ '',
+ 'named=key:val',
+ '',
+ '',
+ '[AGROUP]',
+ '',
+ 'diffgroup=pouet']
+['# test configuration',
+ '[TEST]',
+ '',
+ 'dothis=yes',
+ '',
+ "value='    '",
+ '',
+ '# you can also document the option',
+ 'multiple=yop',
+ '',
+ '# boom',
+ 'number=2',
+ '',
+ 'choice=yo',
+ '',
+ 'multiple-choice=yo,ye',
+ '',
+ 'named=key:val',
+ '',
+ '',
+ '[AGROUP]',
+ '',
+ 'diffgroup=pouet']
+*******************************************************************************
+Ran 600 test cases in 13.41s (0.26s CPU), 6 errors, 1 failures, 56 skipped
+43 modules OK (7 failed)
+failures: /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/test/unittest_shellutils [1/16], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_changelog [1/1], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_fileutils [1/1], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_testlib [1/1], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_configuration [1/12], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_shellutils [1/1], /export/home/drlou/illumos-userland/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_umessage [1/1]

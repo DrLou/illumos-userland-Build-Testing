@@ -1,0 +1,687 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/quilt/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/quilt/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/quilt/quilt-0.47 /export/home/drlou/illumos-userland-1248/components/quilt/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/quilt/quilt-0.47 to /export/home/drlou/illumos-userland-1248/components/quilt/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/quilt/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/quilt/quilt-0.47/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --without-getopt --with-cp=/usr/gnu/bin/cp --with-date=/usr/gnu/bin/date --with-grep=/usr/gnu/bin/grep --with-tail=/usr/gnu/bin/tail --with-tr=/usr/gnu/bin/tr --with-sed=/usr/gnu/bin/sed --with-diff=/usr/gnu/bin/diff --with-patch=/usr/gnu/bin/patch --with-perl=/usr/perl5/5.12/bin/perl --with-pod2man=/usr/perl5/5.12/bin/pod2man --with-xgettext=/usr/bin/gxgettext --with-msgfmt=/usr/bin/gmsgfmt CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for fchmod... yes
+checking for chmod... yes
+checking for mkstemp... yes
+checking for mkdir... yes
+checking for rmdir... yes
+checking for strchr... yes
+checking for strrchr... yes
+checking for strerror... yes
+checking for an ANSI C-conforming const... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking whether stat accepts an empty string... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether #! works in shell scripts... yes
+checking for bash... /usr/bin/bash
+checking whether /usr/bin/bash quoting works... yes
+checking for cp... /usr/gnu/bin/cp
+checking whether /usr/gnu/bin/cp -l works... yes
+checking for date... /usr/gnu/bin/date
+checking whether /usr/gnu/bin/date --rfc-822 works... yes
+checking for perl... /usr/perl5/5.12/bin/perl
+checking for grep... /usr/gnu/bin/grep
+checking whether /usr/gnu/bin/grep -q works... yes
+checking whether /usr/gnu/bin/grep understands (foo|bar)... yes
+checking for tail... /usr/gnu/bin/tail
+checking whether /usr/gnu/bin/tail -n works... yes
+checking for tr... /usr/gnu/bin/tr
+checking whether /usr/gnu/bin/tr understands a-z ... yes
+checking for sed... /usr/gnu/bin/sed
+checking whether /usr/gnu/bin/sed understands (foo|bar)... yes
+checking for gawk... /usr/bin/gawk
+checking whether /usr/bin/gawk supports sub... yes
+checking for column... no
+checking for mktemp... /usr/bin/mktemp
+checking whether /usr/bin/mktemp -d works... yes
+checking for diff... /usr/gnu/bin/diff
+checking for patch... /usr/gnu/bin/patch
+checking the version of /usr/gnu/bin/diff... 2.8.7
+checking the version of /usr/gnu/bin/patch... 2.5.9
+checking for find... /usr/bin/find
+checking for diffstat... no
+checking for sendmail... no
+checking for xgettext... /usr/bin/gxgettext
+checking for msgfmt... /usr/bin/gmsgfmt
+checking for msgmerge... /usr/bin/msgmerge
+checking for msguniq... /usr/bin/msguniq
+checking for msgcat... /usr/bin/msgcat
+checking for gtar... /usr/bin/gtar
+checking for rpmbuild... no
+checking for rpm... no
+configure: creating ./config.status
+config.status: creating Makefile
+
+quilt version 0.47 configured.
+
+Using '/usr' for installation prefix.
+
+Report bugs to quilt-dev@nongnu.org
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/quilt/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/quilt/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  --no-print-directory )
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DPACKAGE_NAME=\"quilt\" -DPACKAGE_TARNAME=\"quilt\" -DPACKAGE_VERSION=\"0.47\" -DPACKAGE_STRING=\"quilt\ 0.47\" -DPACKAGE_BUGREPORT=\"quilt-dev@nongnu.org\" -DSTDC_HEADERS=1 -DHAVE_FCHMOD=1 -DHAVE_CHMOD=1 -DHAVE_MKSTEMP=1 -DHAVE_MKDIR=1 -DHAVE_RMDIR=1 -DHAVE_STRCHR=1 -DHAVE_STRRCHR=1 -DHAVE_STRERROR=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DLSTAT_FOLLOWS_SLASHED_SYMLINK=1   lib/backup-files.c   -o lib/backup-files
+README.in -> README
+quilt.1.in -> quilt.1
+while read line; do						\
+	  case "$line" in						\
+	  '@REFERENCE''@')						\
+	    /usr/gnu/bin/make -s reference |					\
+	    /usr/gnu/bin/sed -e 's/^quilt \([^ ]*\)\(.*\)/.IP "\\fB\1\\fP\2 " 4/'	\
+		   -e $'s/^  \\(-[^\t]*\\)\t\\?/.IP "    \\1" 8\\\n/'	\
+		   -e $'s/^  \t\\?//'					\
+	    ;;								\
+	  *)								\
+	    echo "$line"						\
+	    ;;								\
+	  esac;								\
+	done < doc/quilt.1.in 2>&1 > doc/quilt.1
+/usr/perl5/5.12/bin/pod2man bin/guards > bin/guards.1
+rm -f po/quilt.pot; touch po/quilt.pot
+for file in bin/guards.in bin/patch-wrapper.in bin/quilt.in compat/column.in compat/date.in compat/getopt.in compat/mktemp.in compat/sendmail.in quilt/add.in quilt/annotate.in quilt/applied.in quilt/delete.in quilt/diff.in quilt/edit.in quilt/files.in quilt/fold.in quilt/fork.in quilt/graph.in quilt/grep.in quilt/header.in quilt/import.in quilt/mail.in quilt/new.in quilt/next.in quilt/patches.in quilt/pop.in quilt/previous.in quilt/push.in quilt/refresh.in quilt/rename.in quilt/revert.in quilt/series.in quilt/setup.in quilt/snapshot.in quilt/top.in quilt/unapplied.in quilt/upgrade.in quilt/scripts/dependency-graph.in quilt/scripts/edmail.in quilt/scripts/inspect.in quilt/scripts/parse-patch.in quilt/scripts/patchfns.in quilt/scripts/remove-trailing-ws.in ; do						\
+	  if test -n "`/usr/gnu/bin/sed -ne '1{ /@BASH''@/p }' $file`"; then	\
+	    /usr/bin/bash --dump-po-strings $file ;				\
+	  elif test -n "`/usr/gnu/bin/sed -ne '1{ /@PERL''@/p }' $file`"; then	\
+	    /usr/bin/gxgettext --from-code=UTF-8 --omit-header --language=Perl	\
+			--keyword=_ -o - $file;			\
+	  else								\
+	    echo "Don't know how to handle $file" >&2 ;		\
+	    exit 1;							\
+	  fi								\
+	done								\
+	|/usr/bin/msguniq							\
+	|/usr/bin/msgcat --force-po -F - po/quilt.pot -o po/quilt.pot
+/usr/bin/msgmerge -o po/fr.po po/fr.po po/quilt.pot
+/usr/bin/gmsgfmt --statistics -o po/fr.mo po/fr.po
+/usr/bin/msgmerge -o po/de.po po/de.po po/quilt.pot
+/usr/bin/gmsgfmt --statistics -o po/de.mo po/de.po
+/usr/bin/msgmerge -o po/ja.po po/ja.po po/quilt.pot
+/usr/bin/gmsgfmt --statistics -o po/ja.mo po/ja.po
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/quilt/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/quilt/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/quilt/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/quilt/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/quilt/build/i86'
+[add-filename-check.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[4] $ quilt new test.diff -- ok
+[7] $ echo foo > foo -- ok
+[8] $ quilt add foo -- ok
+[11] $ quilt add patches/bar -- ok
+[14] $ quilt add .pc/baz -- ok
+[17] $ cd .. -- ok
+[18] $ rm -rf d -- ok
+10 commands (10 passed, 0 failed)
+[annotate.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > foo -- ok
+[10] $ quilt new patch -- ok
+[13] $ quilt add foo -- ok
+[16] $ sed -e 's:b:B:' foo > foo.new -- ok
+[17] $ mv foo.new foo -- ok
+[18] $ quilt refresh -- ok
+[21] $ quilt annotate foo -- ok
+[28] $ quilt new patch2 -- ok
+[31] $ quilt add foo -- ok
+[34] $ sed -e 's:Baz:baz:' foo > foo.new -- ok
+[35] $ mv foo.new foo -- ok
+[36] $ quilt refresh -- ok
+[39] $ quilt annotate foo -- ok
+[47] $ quilt new patch3 -- ok
+[50] $ quilt add foo -- ok
+[53] $ sed -e '/Bar/d' foo > foo.new -- ok
+[54] $ mv foo.new foo -- ok
+[55] $ quilt refresh -- ok
+[58] $ quilt annotate foo -- ok
+[66] $ quilt annotate -P patch3 foo -- ok
+[74] $ quilt annotate -P patch2 foo -- ok
+[82] $ quilt annotate -P patch foo -- ok
+[89] $ quilt new patch4 -- ok
+[92] $ cat > jkl -- ok
+[96] $ quilt add jkl wrz -- ok
+[100] $ rm -f jkl -- ok
+[101] $ cat > wrz -- ok
+[105] $ quilt refresh -- ok
+[108] $ quilt annotate jkl -- ok
+[112] $ quilt annotate wrz -- ok
+[118] $ cd .. -- ok
+[119] $ rm -rf d -- ok
+35 commands (35 passed, 0 failed)
+[applied.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ echo a > a -- ok
+[6] $ echo b > b -- ok
+[7] $ diff -u a b > patches/patch -- ok
+[8] $ echo patch -p0 > patches/series -- ok
+[9] $ rm -f b -- ok
+[10] $ quilt push -q -- ok
+[14] $ quilt pop -q -- ok
+[18] $ patch -s -p0 < patches/patch -- ok
+[19] $ quilt push -q -- ok
+[24] $ echo patch -p0 -R > patches/series -- ok
+[25] $ quilt push -q -- ok
+[29] $ quilt pop -q -- ok
+[33] $ patch -s -p0 -R < patches/patch -- ok
+[34] $ quilt push -q -- ok
+[39] $ cd .. -- ok
+[40] $ rm -rf d -- ok
+19 commands (19 passed, 0 failed)
+[comments.test]
+[4] $ rm -rf d -- ok
+[5] $ mkdir -p d/patches -- ok
+[6] $ cd d -- ok
+[7] $ echo one > f -- ok
+[8] $ cat > patches/test.diff -- ok
+[21] $ cat > patches/series -- ok
+[24] $ quilt push -- ok
+[30] $ quilt refresh -- ok
+[32] $ cat patches/test.diff -- ok
+[45] $ quilt refresh -c -- ok
+[48] $ cat patches/test.diff -- ok
+[63] $ quilt refresh -- ok
+[66] $ cat patches/test.diff -- ok
+[78] $ cd .. -- ok
+[79] $ rm -rf d -- ok
+15 commands (15 passed, 0 failed)
+[conflicts.test]
+[5] $ rm -rf d -- ok
+[6] $ mkdir -p d/patches -- ok
+[7] $ cd d -- ok
+[9] $ cat > one.txt -- ok
+[26] $ quilt new a.diff -- ok
+[29] $ quilt add one.txt -- ok
+[32] $ mv one.txt one.orig -- ok
+[33] $ sed -e "s/4/4+/" -e 's/d/d+/' one.orig > one.txt -- ok
+[34] $ quilt refresh -- ok
+[37] $ quilt pop -q -- ok
+[42] $ sed -e "s/^\([17]\)$/\1-/" one.orig > one.txt -- ok
+[43] $ quilt push -q -- ok
+[47] $ quilt pop -q -- ok
+[51] $ sed -e "s/^\([1267]\)$/\1-/" one.orig > one.txt -- ok
+[52] $ quilt push -q -- ok
+[56] $ quilt pop -q -- ok
+[61] $ sed -e "s/^\([123567]\)$/\1-/" one.orig > one.txt -- ok
+[62] $ quilt push -q -- ok
+[67] $ quilt push -qf -- ok
+[72] $ mv one.txt one.x -- ok
+[73] $ sed -e "s/4/4+/" one.x > one.txt -- ok
+[74] $ rm -f one.x -- ok
+[75] $ quilt diff -z | grep -v "^\(---\|+++\)" -- ok
+[88] $ quilt diff | grep -v "^\(---\|+++\)" -- ok
+[110] $ quilt refresh -- ok
+[113] $ cat patches/a.diff | grep -v "^\(---\|+++\)" -- ok
+[135] $ quilt pop -q -- ok
+[139] $ cd .. -- ok
+[140] $ rm -rf d -- ok
+29 commands (29 passed, 0 failed)
+[create-delete.test]
+[4] $ rm -rf d -- ok
+[5] $ mkdir -p d/patches -- ok
+[6] $ cd d -- ok
+[8] $ echo delete > delete -- ok
+[9] $ quilt new test.diff -- ok
+[12] $ quilt add create -- ok
+[15] $ echo create > create -- ok
+[16] $ quilt refresh -- ok
+[19] $ quilt add delete -- ok
+[22] $ rm -f delete -- ok
+[23] $ quilt refresh -- ok
+[26] $ quilt pop -q -- ok
+[30] $ echo create > create -- ok
+[31] $ rm -f delete -- ok
+[32] $ patch -p1 --dry-run < patches/test.diff -- ok
+[44] $ cd .. -- ok
+[45] $ rm -rf d -- ok
+17 commands (17 passed, 0 failed)
+[delete.test]
+[3] $ rm -rf d -- ok
+[4] $ mkdir -p d/patches -- ok
+[5] $ cd d -- ok
+[7] $ quilt delete -- ok
+[10] $ cat > test.txt -- ok
+[13] $ quilt new test1 -- ok
+[16] $ quilt add test.txt -- ok
+[19] $ cat > test.txt -- ok
+[22] $ quilt refresh -- ok
+[25] $ quilt new test2 -- ok
+[28] $ quilt add test.txt -- ok
+[31] $ cat > test.txt -- ok
+[34] $ quilt refresh -- ok
+[37] $ quilt delete test1 -- ok
+[40] $ quilt pop -- ok
+[46] $ quilt series -- ok
+[50] $ quilt delete -n -- ok
+[53] $ quilt series -- ok
+[56] $ quilt pop -- ok
+[62] $ quilt delete test1 -- ok
+[65] $ quilt series -- ok
+[67] $ echo "test1" > patches/series -- ok
+[68] $ quilt delete -n -- ok
+[71] $ quilt series -- ok
+[74] $ echo "test3" > patches//series -- ok
+[75] $ echo "test3" > .pc/applied-patches -- ok
+[76] $ mkdir -p .pc/test3/dir -- ok
+[77] $ touch .pc/test3/dir/file -- ok
+[78] $ chmod a-rx .pc/test3/dir -- ok
+[80] $ quilt delete "test3" -- ok
+[84] $ chmod a+rx .pc/test3/dir -- ok
+[86] $ find .pc/test3 -- ok
+[91] $ quilt applied -- ok
+[94] $ quilt series -- ok
+[97] $ quilt delete -- ok
+[100] $ quilt delete test3 -- ok
+[103] $ cd .. -- ok
+[104] $ rm -rf d -- ok
+38 commands (38 passed, 0 failed)
+[dir-a-b.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ echo a > test.txt -- ok
+[6] $ echo d > test3.txt -- ok
+[8] $ cat > patches/ab.diff -- ok
+[23] $ echo "ab.diff" > patches/series -- ok
+[25] $ quilt push -q -- ok
+[29] $ quilt diff -p ab --no-index -- ok
+[44] $ rm -f patches/ab.diff -- ok
+[45] $ quilt refresh -p ab --no-index -- ok
+[48] $ cat patches/ab.diff -- ok
+[63] $ quilt pop -qR -- ok
+[67] $ cd .. -- ok
+[68] $ rm -rf d -- ok
+15 commands (15 passed, 0 failed)
+[dotglob.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ quilt new dotglob.diff -- ok
+[8] $ quilt add .foo -- ok
+[11] $ echo dot-foo > .foo -- ok
+[12] $ quilt refresh -- ok
+[15] $ quilt pop -q -- ok
+[19] $ quilt push -q -- ok
+[23] $ cd .. -- ok
+[24] $ rm -rf d -- ok
+11 commands (11 passed, 0 failed)
+[edit.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches d/subdir -- ok
+[3] $ cd d -- ok
+[5] $ cat > editor -- ok
+[10] $ chmod +x editor -- ok
+[11] $ export EDITOR=/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/test/d/editor -- ok
+[13] $ quilt new patch -- ok
+[16] $ echo foobar > foobar -- ok
+[17] $ quilt edit foobar -- ok
+[21] $ cd subdir -- ok
+[22] $ echo foo > foo -- ok
+[23] $ quilt edit foo -- ok
+[27] $ cd .. -- ok
+[28] $ cat foobar -- ok
+[31] $ cat subdir/foo -- ok
+[34] $ quilt files -- ok
+[38] $ cd ../.. -- ok
+[39] $ rm -rf d -- ok
+18 commands (18 passed, 0 failed)
+[empty.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > patches/series -- ok
+[8] $ touch patches/empty1.diff patches/empty2.diff -- ok
+[10] $ quilt push -qa -- ok
+[17] $ quilt rename empty3.diff -- ok
+[20] $ quilt pop -qa -- ok
+[25] $ quilt new empty_new.diff -- ok
+[28] $ quilt pop -q -- ok
+[32] $ quilt delete empty_new.diff -- ok
+[35] $ quilt rename -P empty3.diff empty_new.diff -- ok
+[38] $ cd .. -- ok
+[39] $ rm -rf d -- ok
+14 commands (14 passed, 0 failed)
+[example1.test]
+[4] $ rm -rf example1 -- ok
+[5] $ mkdir -p example1/patches -- ok
+[6] $ cd example1 -- ok
+[7] $ cat > Oberon.txt -- ok
+[13] $ quilt new flower.diff -- ok
+[16] $ quilt add Oberon.txt -- ok
+[19] $ cat >> Oberon.txt -- ok
+[26] $ quilt refresh -- ok
+[29] $ cat patches/flower.diff -- ok
+[42] $ sed -ne '1,4p' Oberon.txt > Oberon.new -- ok
+[43] $ echo "Fetch me that flower; the herb I shew'd thee once:" >> Oberon.new -- ok
+[44] $ sed -e '1,4d' Oberon.txt >> Oberon.new -- ok
+[45] $ mv Oberon.new Oberon.txt -- ok
+[46] $ quilt diff -z -- ok
+[60] $ quilt diff -- ok
+[74] $ quilt refresh -- ok
+[77] $ quilt top -- ok
+[80] $ quilt files -- ok
+[83] $ quilt patches Oberon.txt -- ok
+[85] $ quilt pop -f -- ok
+[91] $ sed -e "s/girls/maidens/" Oberon.txt > Oberon.new -- ok
+[92] $ mv Oberon.new Oberon.txt -- ok
+[93] $ quilt push -- ok
+[100] $ quilt push -f -- ok
+[107] $ cat >> Oberon.txt -- ok
+[113] $ quilt refresh -- ok
+[116] $ cat Oberon.txt -- ok
+[126] $ cat patches/flower.diff -- ok
+[140] $ cd .. -- ok
+[141] $ rm -rf example1 -- ok
+30 commands (30 passed, 0 failed)
+[failpop.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > test.txt -- ok
+[8] $ quilt new test.diff -- ok
+[11] $ quilt add test.txt -- ok
+[14] $ cat >> test.txt -- ok
+[17] $ quilt refresh -- ok
+[20] $ sleep 2 -- ok
+[22] $ sed -e "s/ /_/g" patches/test.diff > patches/test.new -- ok
+[23] $ mv patches/test.new patches/test.diff -- ok
+[24] $ quilt pop -- ok
+[27] $ cd .. -- ok
+[28] $ rm -rf d -- ok
+14 commands (14 passed, 0 failed)
+[fold.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > patches/series -- ok
+[8] $ cat > patches/patch1.diff -- ok
+[18] $ quilt push -q -- ok
+[22] $ quilt files -- ok
+[26] $ quilt fold -q -- ok
+[36] $ quilt diff -- ok
+[50] $ cd dir -- ok
+[51] $ quilt fold -q -- ok
+[58] $ cd .. -- ok
+[59] $ quilt diff -- ok
+[73] $ cd .. -- ok
+[74] $ rm -rf d -- ok
+15 commands (15 passed, 0 failed)
+[formats.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > test.txt -- ok
+[12] $ quilt new test -- ok
+[15] $ quilt add test.txt -- ok
+[18] $ cat > test.txt -- ok
+[25] $ quilt diff -- ok
+[38] $ quilt diff --no-index -- ok
+[49] $ quilt diff -R -- ok
+[62] $ quilt diff -U1 -- ok
+[73] $ quilt diff -c -- ok
+[92] $ quilt diff -C1 -- ok
+[107] $ quilt diff -p ab -- ok
+[120] $ cd .. -- ok
+[121] $ rm -rf d -- ok
+16 commands (16 passed, 0 failed)
+[half-applies.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ echo foo > foo.orig -- ok
+[6] $ echo foo2 > foo -- ok
+[7] $ echo bar > bar.orig -- ok
+[8] $ echo bar2 > bar -- ok
+[9] $ diff -u foo.orig foo >> patches/foorab.diff -- ok
+[10] $ diff -u bar bar.orig >> patches/foorab.diff -- ok
+[11] $ mv foo.orig foo -- ok
+[12] $ mv bar.orig bar -- ok
+[13] $ echo foorab.diff -p0 > patches/series -- ok
+[14] $ quilt push -- ok
+[22] $ quilt push -- ok
+[30] $ quilt push -qf -- ok
+[35] $ quilt diff -- ok
+[43] $ cd .. -- ok
+[44] $ rm -rf d -- ok
+18 commands (18 passed, 0 failed)
+[header.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ echo foo > foo -- ok
+[6] $ quilt new patch -- ok
+[9] $ quilt add foo -- ok
+[12] $ echo bar > foo -- ok
+[13] $ quilt refresh -- ok
+[16] $ mv patches/patch patches/patch~ -- ok
+[17] $ echo Header > patches/patch -- ok
+[18] $ cat patches/patch~ >> patches/patch -- ok
+[19] $ quilt header -- ok
+[22] $ quilt header -r -- ok
+[26] $ quilt header -- ok
+[29] $ quilt header -a -- ok
+[33] $ quilt header -- ok
+[37] $ cat patches/patch -- ok
+[48] $ cd .. -- ok
+[49] $ rm -rf d -- ok
+19 commands (19 passed, 0 failed)
+[import.test]
+[2] $ rm -rf d -- ok
+[3] $ mkdir -p d/patches -- ok
+[4] $ cd d -- ok
+[6] $ quilt new patch1.diff -- ok
+[9] $ quilt add f -- ok
+[12] $ echo f > f -- ok
+[14] $ quilt refresh -- ok
+[17] $ quilt new patchR.diff -- ok
+[20] $ quilt add f -- ok
+[23] $ rm -f f -- ok
+[25] $ quilt refresh -- ok
+[28] $ quilt fork patchRp0.diff -- ok
+[31] $ quilt refresh -p0 -- ok
+[34] $ quilt pop -a -- ok
+[43] $ mkdir t -- ok
+[44] $ mv patches/patch1.diff t/patch1.diff -- ok
+[45] $ mv patches/patchR.diff t/patchR.diff -- ok
+[46] $ mv patches/patchRp0.diff t/patchRp0.diff -- ok
+[49] $ rm -rf patches/ .pc/ -- ok
+[50] $ mkdir patches -- ok
+[51] $ quilt import t/patch1.diff -- ok
+[54] $ quilt push -- ok
+[60] $ quilt new patch2.diff -- ok
+[63] $ quilt add g -- ok
+[66] $ echo g > g -- ok
+[68] $ quilt refresh -- ok
+[71] $ quilt pop -- ok
+[77] $ quilt header -a -- ok
+[81] $ quilt pop -- ok
+[87] $ quilt delete patch1 -- ok
+[90] $ cat patches/series -- ok
+[95] $ quilt import missing.diff -- ok
+[98] $ quilt import patches/patch1.diff -- ok
+[101] $ quilt import patches/patch2.diff -- ok
+[106] $ quilt import t/patch1.diff -- ok
+[109] $ quilt import -f t/patch1.diff -- ok
+[113] $ sed -e 's/original/new/' patches/patch1.diff > t/patch1.diff -- ok
+[114] $ quilt import t/patch1.diff -- ok
+[117] $ quilt import -f t/patch1.diff -- ok
+[124] $ quilt import -d a -f t/patch1.diff -- ok
+[128] $ head -n 3 patches/patch1.diff -- ok
+[133] $ quilt import -d n -f t/patch1.diff -- ok
+[136] $ quilt header patch1 -- ok
+[139] $ quilt delete patch1 -- ok
+[145] $ cp patches/patch1.diff t/patch1.patch -- ok
+[146] $ quilt import t/patch1.patch -- ok
+[149] $ ls patches/ -- ok
+[155] $ cat patches/series -- ok
+[159] $ quilt delete patch1.diff -- ok
+[163] $ rm -rf patches/ .pc/ -- ok
+[164] $ mkdir patches -- ok
+[165] $ quilt import -R t/patchR.diff -- ok
+[168] $ quilt push -- ok
+[174] $ cat f -- ok
+[177] $ cat patches/series -- ok
+[181] $ echo "# Test of -R import" > patches/series -- ok
+[182] $ echo "patchR.diff -R # This patch was originally -R -p1" >> patches/series -- ok
+[185] $ quilt refresh -- ok
+[188] $ cat patches/series -- ok
+[192] $ touch f -- ok
+[193] $ quilt pop -- ok
+[200] $ rm -rf patches/ .pc/ -- ok
+[201] $ mkdir patches -- ok
+[202] $ quilt import -R -p0 t/patchRp0.diff -- ok
+[205] $ quilt push -- ok
+[211] $ cat f -- ok
+[214] $ cat patches/series -- ok
+[218] $ quilt refresh -- ok
+[221] $ cat patches/series -- ok
+[224] $ touch f -- ok
+[225] $ quilt pop -- ok
+[232] $ rm -rf patches/ .pc/ -- ok
+[233] $ mkdir patches -- ok
+[234] $ quilt import t/patch1.diff t/patchR.diff -- ok
+[238] $ cat patches/series -- ok
+[242] $ rm -rf patches/ .pc/ -- ok
+[243] $ mkdir patches -- ok
+[244] $ quilt import t/patchR.diff -- ok
+[246] $ quilt import t/patch1.diff -- ok
+[249] $ cat patches/series -- ok
+[253] $ cd .. -- ok
+[254] $ rm -rf d -- ok
+82 commands (82 passed, 0 failed)
+[import2.test]
+[3] $ rm -rf d -- ok
+[4] $ mkdir -p d/patches -- ok
+[5] $ cd d -- ok
+[7] $ quilt new patch1.diff -- ok
+[10] $ quilt add f -- ok
+[13] $ echo f > f -- ok
+[15] $ quilt refresh -- ok
+[18] $ quilt pop -- ok
+[24] $ mkdir t -- ok
+[25] $ gzip < patches/patch1.diff > t/patch1.diff.gz -- ok
+[26] $ rm -f patches/patch1.diff -- ok
+[29] $ rm -rf patches/ .pc/ -- ok
+[30] $ mkdir patches -- ok
+[31] $ quilt import t/patch1.diff.gz -- ok
+[34] $ quilt push -- ok
+[40] $ quilt new patch2.diff.gz -- ok
+[43] $ quilt add g -- ok
+[46] $ echo g > g -- ok
+[48] $ quilt refresh -- ok
+[51] $ quilt pop -- ok
+[57] $ quilt header -a -- ok
+[61] $ quilt pop -- ok
+[67] $ quilt delete patch1 -- ok
+[70] $ cat patches/series -- ok
+[75] $ quilt import missing.diff.gz -- ok
+[78] $ quilt import patches/patch1.diff.gz -- ok
+[81] $ quilt import patches/patch2.diff.gz -- ok
+[86] $ quilt import t/patch1.diff.gz -- ok
+[89] $ quilt import -f t/patch1.diff.gz -- ok
+[93] $ gzip -dc patches/patch1.diff.gz | sed -e 's/original/new/' | gzip > t/patch1.diff.gz -- ok
+[94] $ quilt import t/patch1.diff.gz -- ok
+[97] $ quilt import -f t/patch1.diff.gz -- ok
+[104] $ quilt import -d a -f t/patch1.diff.gz -- ok
+[108] $ gzip -dc patches/patch1.diff.gz | head -n 3 -- ok
+[113] $ quilt import -d n -f t/patch1.diff.gz -- ok
+[116] $ quilt header patch1 -- ok
+[119] $ quilt delete patch1 -- ok
+[125] $ cp patches/patch1.diff.gz t/patch1.patch.gz -- ok
+[126] $ quilt import t/patch1.patch.gz -- ok
+[129] $ ls patches/ -- ok
+[135] $ cat patches/series -- ok
+[139] $ quilt delete patch1.diff.gz -- ok
+[142] $ cd .. -- ok
+[143] $ rm -rf d -- ok
+44 commands (44 passed, 0 failed)
+[mail.test]
+[1] $ rm -rf d -- ok
+[2] $ mkdir -p d/patches -- ok
+[3] $ cd d -- ok
+[5] $ cat > no-subject -- ok
+[13] $ cat no-subject > patches/1.diff -- ok
+[14] $ ls patches/ > series -- ok
+[15] $ quilt mail --mbox mbox --prefix "test" --subject "This is a test" -m "Message" -- failed
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 298: formail: command not found != Unable to extract a subject header from patches/1.diff
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 397: formail: command not found != ~
+Unable to extract a subject header from patches/1.diff != ~
+[18] $ cat - no-subject > patches/1.diff -- ok
+[24] $ quilt mail --mbox mbox --prefix "test" -m "Message" -- failed
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 298: formail: command not found != Introduction has no subject header
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 397: formail: command not found != ~
+Unable to extract a subject header from patches/1.diff != ~
+[27] $ cat - no-subject > patches/2.diff -- ok
+[38] $ cat - no-subject > patches/3.diff -- ok
+[44] $ cat - no-subject > patches/4.diff -- ok
+[53] $ cat - no-subject > patches/5.diff -- ok
+[57] $ ls patches/ > series -- ok
+[58] $ quilt mail --mbox mbox --prefix "test" --subject "This is a test" -m "Message" -- failed
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 298: formail: command not found != Patches patches/1.diff, patches/5.diff have duplicate subject headers.
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 397: formail: command not found != ~
+Unable to extract a subject header from patches/1.diff != ~
+[61] $ cat - no-subject > patches/5.diff -- ok
+[65] $ cat - no-subject > patches/6.diff -- ok
+[69] $ ls patches/ > series -- ok
+[70] $ quilt mail --mbox mbox --prefix "test" --subject "This is a test" -m "Message" -- failed
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 298: formail: command not found != ~
+/export/home/drlou/illumos-userland-1248/components/quilt/build/i86/quilt/mail: line 397: formail: command not found != ~
+Unable to extract a subject header from patches/1.diff != ~
+[71] $ sed -nre "s/^(From [^ ]*).*/\1/p" -e "/^Subject:/p" -e "/^To:/p" -e "/^Cc:/p" -e "/^ /p" -e "/^Replace-.*:/p" -e "/^Recipient-.*:/p" mbox -- failed
+/usr/gnu/bin/sed: can't read mbox: No such file or directory != From a@b.c
+~                                     != Subject: [test 0/6] This is a test
+~                                     != From a@b.c
+~                                     != Cc: Dummy <dummy@some.where>
+~                                     != Subject: [test 1/6] Subject of 1.diff
+~                                     != From a@b.c
+~                                     != Cc: Dummy <dummy@some.where>
+~                                     != Subject: [test 2/6] Subject of 2.diff is: split into multiple lines
+~                                     != From a@b.c
+~                                     != To: "John X. Doe" <jxd@some.where>
+~                                     != Subject: [test 3/6] Subject of 3.diff
+~                                     != To: John X. Doe <jxd@some.where>
+~                                     != From a@b.c
+~                                     != Cc: "Joe R. Hacker" <joe@foo.baz>,
+~                                     !=  "John X. Doe" <jxd@some.where>,
+~                                     !=  =?UTF-8?q?=C3=9C=20is=20an=20umlaut?= <used@in.german>
+~                                     != Subject: [test 4/6] First paragraph used as subject of 4.diff.
+~                                     != Cc: "John X. Doe" <jxd@some.where>
+~                                     != Cc: Ü is an umlaut <used@in.german>
+~                                     != From a@b.c
+~                                     != Subject: [test 5/6] Subject of 5.diff
+~                                     != From a@b.c
+~                                     != Subject: [test 6/6] Must not expand * ? [abc]
+[96] $ cd .. -- ok
+[97] $ rm -rf d -- ok
+22 commands (17 passed, 5 failed)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/quilt/build/i86'

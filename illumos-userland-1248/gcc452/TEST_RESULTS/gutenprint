@@ -1,0 +1,86 @@
+(cd /export/home/drlou/illumos-userland/components/gutenprint/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  all)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86'
+Making all in include
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include'
+Making all in gutenprint
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include/gutenprint'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include/gutenprint'
+Making all in gutenprintui2
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include/gutenprintui2'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include/gutenprintui2'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/include'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src'
+Making all in main
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/main'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/main'
+Making all in xml
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml'
+Making all in escp2
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2'
+Making all in inks
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/inks'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/inks'
+Making all in inputslots
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/inputslots'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/inputslots'
+Making all in model
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/model'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/model'
+Making all in media
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/media'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/media'
+Making all in mediasizes
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/mediasizes'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/mediasizes'
+Making all in qualitypresets
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/qualitypresets'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/qualitypresets'
+Making all in weaves
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/weaves'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2/weaves'
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2'
+make[6]: Nothing to be done for `all-am'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml/escp2'
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/xml'
+Making all in gutenprintui2
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/gutenprintui2'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/gutenprintui2'
+Making all in escputil
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/escputil'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/escputil'
+Making all in gimp2
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/gimp2'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/gimp2'
+Making all in cups
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/cups'
+source='genppd.c' object='gutenprint_5_2-genppd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland/components/gutenprint/gutenprint-5.2.4/scripts/depcomp \
+	/opt/SUNWspro/sunstudio12.1/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland/components/gutenprint/gutenprint-5.2.4/src/cups -I../..  -I/export/home/drlou/illumos-userland/components/gutenprint/gutenprint-5.2.4/include -I../../include     -DCUPS_DRIVER_INTERFACE -DALL_LINGUAS='"cs da de el en_GB es fr hu it ja nb nl pl pt ru sk sv zh_TW"' -DGENERATE_SIMPLIFIED_PPDS  -Disfinite=finite -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -O -c -o gutenprint_5_2-genppd.o `test -f 'genppd.c' || echo '/export/home/drlou/illumos-userland/components/gutenprint/gutenprint-5.2.4/src/cups/'`genppd.c
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src/cups'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/gutenprint/build/i86'

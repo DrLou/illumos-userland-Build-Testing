@@ -1,0 +1,1106 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libxml2/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libxml2/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/libxml2/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-static --with-pic --with-threads --with-python=/usr/bin/python2.6 CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" LDFLAGS="-z defs -z direct -lpthread" PYTHON_VENDOR_PACKAGES=/usr/lib/python2.6/vendor-packages)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-static --with-pic --with-threads --with-python=/usr/bin/amd64/python2.6 CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE" LDFLAGS="-z defs -z direct -lpthread" PYTHON_VENDOR_PACKAGES=/usr/lib/python2.6/vendor-packages/64)
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... 
+checking for suffix of object files... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... o
+checking whether we are using the GNU C compiler... none needed
+no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... checking for rm... /usr/bin/rm
+checking for mv... /usr/bin/mv
+checking for tar... /usr/bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for function prototypes... yes
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for rm... /usr/bin/rm
+checking for mv... /usr/bin/mv
+checking for tar... /usr/bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for function prototypes... yes
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+yes
+checking for stdlib.h... checking for sys/types.h... yes
+yes
+checking for string.h... checking for sys/stat.h... yes
+checking for memory.h... yes
+checking for stdlib.h... yes
+checking for strings.h... yes
+checking for string.h... yes
+checking for inttypes.h... yes
+checking for memory.h... yes
+yes
+checking for stdint.h... checking for strings.h... yes
+yes
+checking for unistd.h... checking for inttypes.h... yes
+yes
+checking for string.h... (cached) yes
+checking for stdint.h... checking for a sed that does not truncate output... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for fgrep... /usr/bin/ggrep -F
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786240
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... /usr/bin/gsed
+checking for fgrep... /usr/bin/ggrep -F
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... ok
+BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... checking for dlfcn.h... 786240
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... yes
+checking for objdir... .libs
+ok
+checking for dlfcn.h... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking for objdir... .libs
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+Checking zlib
+checking zlib.h usability... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+Checking zlib
+checking zlib.h usability... yes
+Checking headers
+checking for dirent.h that defines DIR... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+yes
+checking for gzread in -lz... checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for unistd.h... (cached) yes
+yes
+Checking headers
+checking ctype.h usability... checking for dirent.h that defines DIR... yes
+checking ctype.h presence... yes
+checking for library containing opendir... yes
+checking for ctype.h... yes
+checking dirent.h usability... none required
+checking for ANSI C header files... (cached) yes
+yes
+checking dirent.h presence... checking fcntl.h usability... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+yes
+checking errno.h presence... checking for unistd.h... (cached) yes
+checking ctype.h usability... yes
+checking for errno.h... yes
+checking malloc.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+yes
+checking malloc.h presence... checking dirent.h usability... yes
+checking for malloc.h... yes
+checking stdarg.h usability... yes
+checking dirent.h presence... yes
+checking stdarg.h presence... yes
+checking for dirent.h... yes
+checking errno.h usability... yes
+checking for stdarg.h... yes
+checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+yes
+checking errno.h presence... checking inttypes.h.h usability... yes
+checking for errno.h... yes
+checking malloc.h usability... no
+checking inttypes.h.h presence... no
+checking for inttypes.h.h... no
+checking time.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+yes
+checking time.h presence... checking stdarg.h usability... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+no
+checking ansidecl.h presence... checking for sys/stat.h... (cached) yes
+checking for sys/types.h... (cached) yes
+no
+checking for ansidecl.h... no
+checking ieeefp.h usability... checking for stdint.h... (cached) yes
+checking inttypes.h.h usability... no
+checking inttypes.h.h presence... yes
+checking ieeefp.h presence... no
+checking for inttypes.h.h... no
+checking time.h usability... yes
+checking for ieeefp.h... yes
+checking nan.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking nan.h presence... no
+checking ansidecl.h presence... yes
+checking for nan.h... yes
+checking math.h usability... no
+checking for ansidecl.h... no
+checking ieeefp.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+yes
+checking ieeefp.h presence... checking limits.h usability... yes
+checking for ieeefp.h... yes
+checking nan.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+yes
+checking nan.h presence... checking fp_class.h usability... yes
+checking for nan.h... yes
+checking math.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+yes
+checking float.h presence... checking limits.h usability... yes
+checking for float.h... yes
+checking for stdlib.h... (cached) yes
+yes
+checking limits.h presence... checking for sys/socket.h... yes
+checking for limits.h... yes
+checking fp_class.h usability... no
+checking fp_class.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking for stdlib.h... (cached) yes
+checking for sys/socket.h... yes
+yes
+checking for netinet/in.h... checking for netinet/in.h... yes
+yes
+checking for arpa/inet.h... checking for arpa/inet.h... yes
+yes
+checking netdb.h usability... checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking for netdb.h... yes
+yes
+checking sys/time.h usability... checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+yes
+checking for sys/time.h... yes
+checking sys/select.h usability... checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+yes
+checking for sys/select.h... yes
+checking poll.h usability... checking poll.h usability... yes
+checking poll.h presence... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking for poll.h... yes
+yes
+checking sys/mman.h usability... checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+yes
+checking for sys/mman.h... yes
+checking sys/timeb.h usability... checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+yes
+checking for sys/timeb.h... yes
+checking signal.h usability... checking signal.h usability... yes
+checking signal.h presence... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+yes
+checking for signal.h... yes
+checking for arpa/nameser.h... checking for arpa/nameser.h... yes
+yes
+checking for resolv.h... checking for resolv.h... yes
+yes
+checking dl.h usability... checking dl.h usability... no
+checking dl.h presence... no
+checking dl.h presence... no
+checking for dl.h... no
+no
+checking for dl.h... no
+checking for dlfcn.h... (cached) yes
+checking for dlfcn.h... (cached) yes
+Checking libraries
+checking for strftime... Checking libraries
+checking for strftime... yes
+yes
+checking for strdup... checking for strdup... yes
+yes
+checking for strndup... checking for strndup... yes
+yes
+checking for strerror... checking for strerror... yes
+yes
+checking for finite... checking for finite... yes
+yes
+checking for isnand... checking for isnand... yes
+yes
+checking for fp_class... checking for fp_class... no
+no
+checking for class... checking for class... no
+checking for fpclass... no
+checking for fpclass... yes
+yes
+checking for strftime... (cached) yes
+checking for strftime... (cached) yes
+checking for localtime... checking for localtime... yes
+yes
+checking for gettimeofday... checking for gettimeofday... yes
+yes
+checking for ftime... checking for ftime... yes
+checking for stat... yes
+checking for stat... yes
+yes
+checking for _stat... checking for _stat... yes
+yes
+checking for signal... checking for signal... yes
+yes
+checking for printf... checking for printf... yes
+yes
+checking for sprintf... checking for sprintf... yes
+yes
+checking for fprintf... checking for fprintf... yes
+yes
+checking for snprintf... checking for snprintf... yes
+yes
+checking for vfprintf... checking for vfprintf... yes
+yes
+checking for vsprintf... checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for vsnprintf... yes
+yes
+checking for sscanf... checking for sscanf... yes
+yes
+checking for va_copy... checking for va_copy... yes
+yes
+checking for library containing gethostent... checking for library containing gethostent... -lnsl
+checking for library containing setsockopt... -lsocket
+checking for library containing connect... none required
+checking for type of socket length (socklen_t)... socklen_t *
+-lnsl
+checking for library containing setsockopt... checking whether to enable IPv6... yes
+checking struct sockaddr::ss_family... yes
+checking for getaddrinfo... yes
+checking for isnan... -lsocket
+checking for library containing connect... yes
+checking for isinf... none required
+checking for type of socket length (socklen_t)... no
+checking for isinf in -lm... socklen_t *
+checking whether to enable IPv6... no
+Found python in /usr/bin/python2.6
+Found Python version 2.6
+yes
+checking struct sockaddr::ss_family... yes
+checking for getaddrinfo... yes
+checking for isnan... yes
+checking for isinf... no
+checking for isinf in -lm... checking for shl_load... no
+Found python in /usr/bin/amd64/python2.6
+no
+checking for shl_load in -ldld... no
+checking for dlopen... yes
+Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... Found Python version 2.6
+yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... checking for shl_load... yes
+checking iconv.h usability... no
+checking for shl_load in -ldld... yes
+checking iconv.h presence... no
+checking for dlopen... yes
+checking for iconv.h... yes
+checking for iconv... yes
+yes
+checking for iconv declaration... Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... 
+	extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+Disabling code coverage for GCC
+yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... configure: creating ./config.status
+yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for iconv... yes
+checking for iconv declaration... 
+	extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+Disabling code coverage for GCC
+configure: creating ./config.status
+config.status: creating libxml2.spec
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxml/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating example/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating xml2-config
+config.status: creating libxml-2.0.pc
+config.status: creating libxml2.spec
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating Makefile
+config.status: creating python/setup.py
+config.status: creating include/Makefile
+config.status: creating config.h
+config.status: creating include/libxml/Makefile
+config.status: executing depfiles commands
+config.status: creating doc/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating example/Makefile
+config.status: creating python/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating xml2-config
+config.status: creating libxml-2.0.pc
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating python/setup.py
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+Done configuring
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libxml2/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run aclocal-1.11 
+config.status: executing libtool commands
+Done configuring
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run aclocal-1.11 
+ cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run automake-1.11 --gnu
+ cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run automake-1.11 --gnu
+CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run autoconf
+CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run autoconf
+/bin/bash ./config.status --recheck
+running CONFIG_SHELL=/bin/bash /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/configure CC=/opt/SUNWspro/solarisstudio12.3/bin/cc CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64 --disable-static --with-pic --with-threads --with-python=/usr/bin/amd64/python2.6 CFLAGS=-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE LDFLAGS=-z defs -z direct -lpthread PYTHON_VENDOR_PACKAGES=/usr/lib/python2.6/vendor-packages/64 --no-create --no-recursion
+/bin/bash ./config.status --recheck
+running CONFIG_SHELL=/bin/bash /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/configure CC=/opt/SUNWspro/solarisstudio12.3/bin/cc CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin --disable-static --with-pic --with-threads --with-python=/usr/bin/python2.6 CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 LDFLAGS=-z defs -z direct -lpthread PYTHON_VENDOR_PACKAGES=/usr/lib/python2.6/vendor-packages --no-create --no-recursion
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking build system type... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for C compiler default output file name... checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... checking for C compiler default output file name... 
+checking for suffix of object files... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... o
+checking whether we are using the GNU C compiler... 
+checking for suffix of object files... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... none needed
+yes
+checking for style of include used by make... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... checking for rm... /usr/bin/rm
+checking for mv... /usr/bin/mv
+checking for tar... /usr/bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for function prototypes... yes
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/usr/bin/ggrep -E
+checking for ANSI C header files... checking for rm... /usr/bin/rm
+checking for mv... /usr/bin/mv
+checking for tar... /usr/bin/tar
+checking for perl... /usr/bin/perl
+checking for wget... /usr/bin/wget
+checking for xmllint... /usr/bin/xmllint
+checking for xsltproc... /usr/bin/xsltproc
+checking for function prototypes... yes
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+checking for stdlib.h... yes
+checking for sys/stat.h... yes
+checking for string.h... yes
+checking for stdlib.h... yes
+checking for memory.h... yes
+checking for string.h... yes
+checking for strings.h... yes
+checking for memory.h... yes
+checking for inttypes.h... yes
+checking for strings.h... yes
+checking for stdint.h... yes
+checking for inttypes.h... yes
+checking for unistd.h... yes
+checking for stdint.h... yes
+checking for string.h... (cached) yes
+yes
+checking for a sed that does not truncate output... checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... /usr/bin/gsed
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+yes
+checking for dlfcn.h... checking dlfcn.h usability... yes
+checking whether we are using the GNU C++ compiler... yes
+checking dlfcn.h presence... no
+yes
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking how to run the C++ preprocessor... none
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+configure: creating libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+appending configuration tag "CXX" to libtool
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+Checking zlib
+checking zlib.h usability... yes
+checking zlib.h presence... appending configuration tag "F77" to libtool
+yes
+checking for zlib.h... yes
+checking for gzread in -lz... Checking zlib
+checking zlib.h usability... yes
+Checking headers
+checking for dirent.h that defines DIR... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for gzread in -lz... yes
+checking for library containing opendir... yes
+Checking headers
+checking for dirent.h that defines DIR... none required
+checking for ANSI C header files... (cached) yes
+checking fcntl.h usability... yes
+checking for library containing opendir... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+none required
+checking for ANSI C header files... (cached) yes
+checking for unistd.h... (cached) yes
+checking fcntl.h usability... checking ctype.h usability... yes
+checking fcntl.h presence... yes
+checking ctype.h presence... yes
+checking for fcntl.h... yes
+yes
+checking for ctype.h... yes
+checking for unistd.h... (cached) yes
+checking dirent.h usability... checking ctype.h usability... yes
+checking dirent.h presence... yes
+checking ctype.h presence... yes
+checking for dirent.h... yes
+yes
+checking for ctype.h... yes
+checking errno.h usability... checking dirent.h usability... yes
+checking errno.h presence... yes
+checking dirent.h presence... yes
+checking for errno.h... yes
+yes
+checking for dirent.h... yes
+checking malloc.h usability... checking errno.h usability... yes
+checking malloc.h presence... yes
+checking errno.h presence... yes
+checking for malloc.h... yes
+yes
+checking for errno.h... yes
+checking stdarg.h usability... checking malloc.h usability... yes
+checking stdarg.h presence... yes
+checking malloc.h presence... yes
+checking for stdarg.h... yes
+yes
+checking for malloc.h... yes
+checking for sys/stat.h... (cached) yes
+checking stdarg.h usability... checking for sys/types.h... (cached) yes
+checking for stdint.h... (cached) yes
+checking inttypes.h.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... no
+checking inttypes.h.h presence... yes
+checking for sys/stat.h... (cached) yes
+no
+checking for inttypes.h.h... no
+checking for sys/types.h... (cached) yes
+checking time.h usability... checking for stdint.h... (cached) yes
+checking inttypes.h.h usability... yes
+checking time.h presence... no
+checking inttypes.h.h presence... yes
+checking for time.h... yes
+no
+checking for inttypes.h.h... no
+checking ansidecl.h usability... checking time.h usability... no
+checking ansidecl.h presence... yes
+checking time.h presence... no
+checking for ansidecl.h... no
+checking ieeefp.h usability... yes
+checking for time.h... yes
+checking ansidecl.h usability... yes
+checking ieeefp.h presence... no
+checking ansidecl.h presence... yes
+checking for ieeefp.h... yes
+no
+checking for ansidecl.h... no
+checking ieeefp.h usability... checking nan.h usability... yes
+checking nan.h presence... yes
+checking ieeefp.h presence... yes
+checking for ieeefp.h... yes
+checking for nan.h... yes
+yes
+checking nan.h usability... checking math.h usability... yes
+checking nan.h presence... yes
+checking math.h presence... yes
+checking for nan.h... yes
+yes
+checking for math.h... yes
+checking math.h usability... checking limits.h usability... yes
+checking math.h presence... yes
+checking limits.h presence... yes
+checking for math.h... yes
+yes
+checking for limits.h... yes
+checking limits.h usability... checking fp_class.h usability... no
+checking fp_class.h presence... yes
+checking limits.h presence... no
+checking for fp_class.h... no
+checking float.h usability... yes
+checking for limits.h... yes
+checking fp_class.h usability... yes
+checking float.h presence... no
+checking fp_class.h presence... yes
+checking for float.h... yes
+no
+checking for fp_class.h... checking for stdlib.h... (cached) no
+yes
+checking float.h usability... checking for sys/socket.h... yes
+checking float.h presence... yes
+yes
+checking for float.h... yes
+checking for netinet/in.h... checking for stdlib.h... (cached) yes
+checking for sys/socket.h... yes
+checking for arpa/inet.h... yes
+checking for netinet/in.h... yes
+checking netdb.h usability... yes
+checking for arpa/inet.h... yes
+checking netdb.h presence... yes
+checking netdb.h usability... yes
+checking for netdb.h... yes
+checking sys/time.h usability... yes
+checking netdb.h presence... yes
+checking sys/time.h presence... yes
+checking for netdb.h... yes
+yes
+checking for sys/time.h... yes
+checking sys/time.h usability... checking sys/select.h usability... yes
+checking sys/time.h presence... yes
+checking sys/select.h presence... yes
+checking for sys/time.h... yes
+yes
+checking for sys/select.h... yes
+checking sys/select.h usability... checking poll.h usability... yes
+checking sys/select.h presence... yes
+checking poll.h presence... yes
+checking for sys/select.h... yes
+checking poll.h usability... yes
+checking for poll.h... yes
+checking sys/mman.h usability... yes
+checking poll.h presence... yes
+checking sys/mman.h presence... yes
+checking for poll.h... yes
+checking sys/mman.h usability... yes
+checking for sys/mman.h... yes
+checking sys/timeb.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+yes
+checking sys/timeb.h presence... checking sys/timeb.h usability... yes
+checking for sys/timeb.h... yes
+checking signal.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+yes
+checking signal.h presence... checking signal.h usability... yes
+checking for signal.h... yes
+checking for arpa/nameser.h... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+yes
+checking for arpa/nameser.h... checking for resolv.h... yes
+checking for resolv.h... yes
+checking dl.h usability... yes
+no
+checking dl.h presence... checking dl.h usability... no
+checking for dl.h... no
+checking for dlfcn.h... (cached) yes
+Checking libraries
+checking for strftime... no
+checking dl.h presence... no
+checking for dl.h... no
+checking for dlfcn.h... (cached) yes
+Checking libraries
+checking for strftime... yes
+checking for strdup... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for strndup... yes
+checking for strerror... yes
+checking for strerror... yes
+checking for finite... yes
+checking for finite... yes
+checking for isnand... yes
+checking for isnand... yes
+checking for fp_class... yes
+checking for fp_class... no
+checking for class... no
+checking for class... no
+checking for fpclass... no
+checking for fpclass... yes
+checking for strftime... (cached) yes
+checking for localtime... yes
+checking for strftime... (cached) yes
+checking for localtime... yes
+checking for gettimeofday... yes
+checking for gettimeofday... yes
+checking for ftime... yes
+checking for ftime... yes
+checking for stat... yes
+checking for stat... yes
+checking for _stat... yes
+checking for _stat... yes
+checking for signal... yes
+checking for signal... yes
+checking for printf... yes
+checking for printf... yes
+checking for sprintf... yes
+checking for sprintf... yes
+checking for fprintf... yes
+checking for fprintf... yes
+checking for snprintf... yes
+checking for snprintf... yes
+checking for vfprintf... yes
+checking for vfprintf... yes
+checking for vsprintf... yes
+checking for vsprintf... yes
+checking for vsnprintf... yes
+checking for vsnprintf... yes
+checking for sscanf... yes
+checking for sscanf... yes
+checking for va_copy... yes
+checking for va_copy... yes
+checking for library containing gethostent... yes
+checking for library containing gethostent... -lnsl
+checking for library containing setsockopt... -lnsl
+checking for library containing setsockopt... -lsocket
+checking for library containing connect... -lsocket
+checking for library containing connect... none required
+checking for type of socket length (socklen_t)... none required
+checking for type of socket length (socklen_t)... socklen_t *
+checking whether to enable IPv6... socklen_t *
+checking whether to enable IPv6... yes
+checking struct sockaddr::ss_family... yes
+checking struct sockaddr::ss_family... yes
+checking for getaddrinfo... yes
+checking for getaddrinfo... yes
+checking for isnan... yes
+checking for isnan... yes
+checking for isinf... yes
+checking for isinf... no
+checking for isinf in -lm... no
+checking for isinf in -lm... no
+Found python in /usr/bin/amd64/python2.6
+Found Python version 2.6
+no
+Found python in /usr/bin/python2.6
+Found Python version 2.6
+checking for shl_load... checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen... yes
+Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... yes
+Checking configuration requirements
+Enabling multithreaded support
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for pthread_join in -lpthread... yes
+checking iconv.h usability... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for iconv... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking for iconv... yes
+checking for iconv declaration... 
+	extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+Disabling code coverage for GCC
+yes
+checking for iconv declaration... 
+	extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+Enabled Schematron support
+Enabled Schemas/Relax-NG support
+Disabling code coverage for GCC
+configure: creating ./config.status
+configure: creating ./config.status
+Done configuring
+Done configuring
+ /bin/bash ./config.status
+ /bin/bash ./config.status
+config.status: creating libxml2.spec
+config.status: creating Makefile
+config.status: creating include/Makefile
+config.status: creating libxml2.spec
+config.status: creating include/libxml/Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating include/Makefile
+config.status: creating include/libxml/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating doc/Makefile
+config.status: creating example/Makefile
+config.status: creating doc/examples/Makefile
+config.status: creating python/Makefile
+config.status: creating doc/devhelp/Makefile
+config.status: creating python/tests/Makefile
+config.status: creating example/Makefile
+config.status: creating xstc/Makefile
+config.status: creating python/Makefile
+config.status: creating include/libxml/xmlversion.h
+config.status: creating python/tests/Makefile
+config.status: creating xstc/Makefile
+config.status: creating xml2-config
+config.status: creating libxml-2.0.pc
+config.status: creating include/libxml/xmlversion.h
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: creating xml2-config
+config.status: creating python/setup.py
+config.status: creating libxml-2.0.pc
+config.status: creating config.h
+config.status: creating libxml-2.0-uninstalled.pc
+config.status: executing depfiles commands
+config.status: creating python/setup.py
+config.status: creating config.h
+config.status: executing depfiles commands
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+(CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run autoheader)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+(CDPATH="${ZSH_VERSION+.}:" && cd /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 && /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/missing --run autoheader)
+rm -f stamp-h1
+touch /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/config.h.in
+cd . && /bin/bash ./config.status config.h
+config.status: creating config.h
+rm -f stamp-h1
+touch /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/config.h.in
+/usr/gnu/bin/make  all-recursive
+cd . && /bin/bash ./config.status config.h
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+Making all in include
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include'
+Making all in libxml
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include/libxml'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include/libxml'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64/include'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+source='/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/SAX.c' object='SAX.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 -I./include -I/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/include  -D_REENTRANT      -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o SAX.lo /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/SAX.c
+config.status: creating config.h
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/amd64'
+Making all in include
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include'
+Making all in libxml
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include/libxml'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include/libxml'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86/include'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/SAX.c' object='SAX.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/depcomp \
+	/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6 -I./include -I/export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/include  -D_REENTRANT      -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o SAX.lo /export/home/drlou/illumos-userland-1248/components/libxml2/libxml2-2.7.6/SAX.c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libxml2/build/i86'

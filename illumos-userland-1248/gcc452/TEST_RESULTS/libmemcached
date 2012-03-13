@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/libmemcached/libmemcached-0.16
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libmemcached/libmemcached-0.16 -p1 --backup --version-control=numbered < patches/docs.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libmemcached/libmemcached-0.16 -p1 --backup --version-control=numbered < patches/tests.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  libmemcached-0.16.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/libmemcached/libmemcached-0.16/.unpacked

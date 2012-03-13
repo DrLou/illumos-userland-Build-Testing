@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/dcmtk/dcmtk-3.6.0
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/dcmtk/dcmtk-3.6.0 -p1 --backup --version-control=numbered < patches/dcmtk.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  dcmtk-3.6.0.zip
+/usr/bin/touch /export/home/drlou/illumos-userland/components/dcmtk/dcmtk-3.6.0/.unpacked

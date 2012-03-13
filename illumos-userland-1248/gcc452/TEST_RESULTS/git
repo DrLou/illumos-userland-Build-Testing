@@ -1,0 +1,2650 @@
+(cd /export/home/drlou/illumos-userland/components/git/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/git-gui'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/git-gui'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/gitk-git'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/gitk-git'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/perl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/perl'
+mkdir -p blib/lib
+rm -f blib/lib/Git.pm; cp Git.pm blib/lib/
+rm -f blib/lib/Error.pm
+cp private-Error.pm blib/lib/Error.pm
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/perl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/perl'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/git_remote_helpers'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/git_remote_helpers'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/templates'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/templates'
+/usr/gnu/bin/make -C t/ all
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/t'
+rm -f -r test-results
+/usr/gnu/bin/make aggregate-results-and-cleanup
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/git/build/i86/t'
+*** t0000-basic.sh ***
+ok 1 - .git/objects should be empty after git init in an empty repo.
+ok 2 - .git/objects should have 3 subdirectories.
+ok 3 - success is reported like this
+not ok 4 - pretend we have a known breakage # TODO known breakage
+ok 5 - pretend we have fixed a known breakage (run in sub test-lib)
+ok 6 - test runs if prerequisite is satisfied
+ok 7 # skip unmet prerequisite causes test to be skipped (missing DONTHAVEIT)
+ok 8 - test runs if prerequisites are satisfied
+ok 9 # skip unmet prerequisites causes test to be skipped (missing DONTHAVEIT of HAVEIT,DONTHAVEIT)
+ok 10 # skip unmet prerequisites causes test to be skipped (missing DONTHAVEIT of DONTHAVEIT,HAVEIT)
+ok 11 - tests clean up after themselves
+ok 12 - tests clean up even after a failure
+ok 13 - failure to clean up causes the test to fail
+ok 14 - git update-index without --add should fail adding.
+ok 15 - git update-index with --add should succeed.
+ok 16 - writing tree out with git write-tree
+ok 17 - validate object ID of a known tree.
+ok 18 - git update-index without --remove should fail removing.
+ok 19 - git update-index with --remove should be able to remove.
+ok 20 - git write-tree should be able to write an empty tree.
+ok 21 - validate object ID of a known tree.
+ok 22 - adding various types of objects with git update-index --add.
+ok 23 - showing stage with git ls-files --stage
+ok 24 - validate git ls-files output for a known tree.
+ok 25 - writing tree out with git write-tree.
+ok 26 - validate object ID for a known tree.
+ok 27 - showing tree with git ls-tree
+ok 28 - git ls-tree output for a known tree.
+ok 29 - showing tree with git ls-tree -r
+ok 30 - git ls-tree -r output for a known tree.
+ok 31 - showing tree with git ls-tree -r -t
+ok 32 - git ls-tree -r output for a known tree.
+ok 33 - writing partial tree out with git write-tree --prefix.
+ok 34 - validate object ID for a known tree.
+ok 35 - writing partial tree out with git write-tree --prefix.
+ok 36 - validate object ID for a known tree.
+ok 37 - put invalid objects into the index.
+ok 38 - writing this tree without --missing-ok.
+ok 39 - writing this tree with --missing-ok.
+ok 40 - git read-tree followed by write-tree should be idempotent.
+ok 41 - validate git diff-files output for a know cache/work tree state.
+ok 42 - git update-index --refresh should succeed.
+ok 43 - no diff after checkout and git update-index --refresh.
+ok 44 - git commit-tree records the correct tree in a commit.
+ok 45 - git commit-tree records the correct parent in a commit.
+ok 46 - git commit-tree omits duplicated parent in a commit.
+ok 47 - update-index D/F conflict
+ok 48 - absolute path works as expected
+ok 49 - very long name in the index handled sanely
+# still have 1 known breakage(s)
+# passed all remaining 48 test(s)
+1..49
+*** t0001-init.sh ***
+ok 1 - plain
+ok 2 - plain with GIT_WORK_TREE
+ok 3 - plain bare
+ok 4 - plain bare with GIT_WORK_TREE
+ok 5 - GIT_DIR bare
+ok 6 - init --bare
+ok 7 - GIT_DIR non-bare
+ok 8 - GIT_DIR & GIT_WORK_TREE (1)
+ok 9 - GIT_DIR & GIT_WORK_TREE (2)
+ok 10 - reinit
+ok 11 - init with --template
+ok 12 - init with --template (blank)
+ok 13 - init with init.templatedir set
+ok 14 - init --bare/--shared overrides system/global config
+ok 15 - init honors global core.sharedRepository
+ok 16 - init rejects insanely long --template
+ok 17 - init creates a new directory
+ok 18 - init creates a new bare directory
+ok 19 - init recreates a directory
+ok 20 - init recreates a new bare directory
+ok 21 - init creates a new deep directory
+ok 22 - init creates a new deep directory (umask vs. shared)
+ok 23 - init notices EEXIST (1)
+ok 24 - init notices EEXIST (2)
+ok 25 - init notices EPERM
+ok 26 - init creates a new bare directory with global --bare
+ok 27 - init prefers command line to GIT_DIR
+# passed all 27 test(s)
+1..27
+*** t0002-gitfile.sh ***
+ok 1 - initial setup
+ok 2 - bad setup: invalid .git file format
+ok 3 - bad setup: invalid .git file path
+ok 4 - final setup + check rev-parse --git-dir
+ok 5 - check hash-object
+ok 6 - check cat-file
+ok 7 - check update-index
+ok 8 - check write-tree
+ok 9 - check commit-tree
+ok 10 - check rev-list
+# passed all 10 test(s)
+1..10
+*** t0003-attributes.sh ***
+ok 1 - setup
+ok 2 - attribute test
+ok 3 - attribute test: read paths from stdin
+ok 4 - root subdir attribute test
+ok 5 - setup bare
+ok 6 - bare repository: check that .gitattribute is ignored
+ok 7 - bare repository: test info/attributes
+# passed all 7 test(s)
+1..7
+*** t0004-unwritable.sh ***
+ok 1 - setup
+ok 2 - write-tree should notice unwritable repository
+ok 3 - commit should notice unwritable repository
+ok 4 - update-index should notice unwritable repository
+ok 5 - add should notice unwritable repository
+# passed all 5 test(s)
+1..5
+*** t0005-signals.sh ***
+ok 1 - sigchain works
+# passed all 1 test(s)
+1..1
+*** t0006-date.sh ***
+ok 1 - relative date (5 seconds ago)
+ok 2 - relative date (5 minutes ago)
+ok 3 - relative date (5 hours ago)
+ok 4 - relative date (5 days ago)
+ok 5 - relative date (3 weeks ago)
+ok 6 - relative date (5 months ago)
+ok 7 - relative date (1 year, 2 months ago)
+ok 8 - relative date (1 year, 9 months ago)
+ok 9 - relative date (20 years ago)
+ok 10 - relative date (12 months ago)
+ok 11 - parse date (2008)
+ok 12 - parse date (2008-02)
+ok 13 - parse date (2008-02-14)
+ok 14 - parse date (2008-02-14 20:30:45)
+ok 15 - parse date (2008-02-14 20:30:45 -0500)
+ok 16 - parse date (2008-02-14 20:30:45 TZ=EST5)
+ok 17 - parse approxidate (now)
+ok 18 - parse approxidate (5 seconds ago)
+ok 19 - parse approxidate (5.seconds.ago)
+ok 20 - parse approxidate (10.minutes.ago)
+ok 21 - parse approxidate (yesterday)
+ok 22 - parse approxidate (3.days.ago)
+ok 23 - parse approxidate (3.weeks.ago)
+ok 24 - parse approxidate (3.months.ago)
+ok 25 - parse approxidate (2.years.3.months.ago)
+ok 26 - parse approxidate (6am yesterday)
+ok 27 - parse approxidate (6pm yesterday)
+ok 28 - parse approxidate (3:00)
+ok 29 - parse approxidate (15:00)
+ok 30 - parse approxidate (noon today)
+ok 31 - parse approxidate (noon yesterday)
+ok 32 - parse approxidate (last tuesday)
+ok 33 - parse approxidate (July 5th)
+ok 34 - parse approxidate (06/05/2009)
+ok 35 - parse approxidate (06.05.2009)
+ok 36 - parse approxidate (Jun 6, 5AM)
+ok 37 - parse approxidate (5AM Jun 6)
+ok 38 - parse approxidate (6AM, June 7, 2009)
+# passed all 38 test(s)
+1..38
+*** t0010-racy-git.sh ***
+ok 1 - Racy GIT trial #0 part A
+ok 2 - Racy GIT trial #0 part B
+ok 3 - Racy GIT trial #1 part A
+ok 4 - Racy GIT trial #1 part B
+ok 5 - Racy GIT trial #2 part A
+ok 6 - Racy GIT trial #2 part B
+ok 7 - Racy GIT trial #3 part A
+ok 8 - Racy GIT trial #3 part B
+ok 9 - Racy GIT trial #4 part A
+ok 10 - Racy GIT trial #4 part B
+# passed all 10 test(s)
+1..10
+*** t0020-crlf.sh ***
+ok 1 - setup
+ok 2 - safecrlf: autocrlf=input, all CRLF
+ok 3 - safecrlf: autocrlf=input, mixed LF/CRLF
+ok 4 - safecrlf: autocrlf=true, all LF
+ok 5 - safecrlf: autocrlf=true mixed LF/CRLF
+ok 6 - safecrlf: print warning only once
+ok 7 - switch off autocrlf, safecrlf, reset HEAD
+ok 8 - update with autocrlf=input
+ok 9 - update with autocrlf=true
+ok 10 - checkout with autocrlf=true
+ok 11 - checkout with autocrlf=input
+ok 12 - apply patch (autocrlf=input)
+ok 13 - apply patch --cached (autocrlf=input)
+ok 14 - apply patch --index (autocrlf=input)
+ok 15 - apply patch (autocrlf=true)
+ok 16 - apply patch --cached (autocrlf=true)
+ok 17 - apply patch --index (autocrlf=true)
+ok 18 - .gitattributes says two is binary
+ok 19 - .gitattributes says two is input
+ok 20 - .gitattributes says two and three are text
+ok 21 - in-tree .gitattributes (1)
+ok 22 - in-tree .gitattributes (2)
+ok 23 - in-tree .gitattributes (3)
+ok 24 - in-tree .gitattributes (4)
+ok 25 - checkout with existing .gitattributes
+ok 26 - checkout when deleting .gitattributes
+ok 27 - invalid .gitattributes (must not crash)
+ok 28 - setting up for new autocrlf tests
+ok 29 - report no change after setting autocrlf
+ok 30 - files are clean after checkout
+ok 31 - LF only file gets CRLF with autocrlf
+ok 32 - Mixed file is still mixed with autocrlf
+ok 33 - CRLF only file has CRLF with autocrlf
+ok 34 - New CRLF file gets LF in repo
+# passed all 34 test(s)
+1..34
+*** t0021-conversion.sh ***
+ok 1 - setup
+ok 2 - check
+ok 3 - expanded_in_repo
+# passed all 3 test(s)
+1..3
+*** t0022-crlf-rename.sh ***
+ok 1 - setup
+ok 2 - diff -M
+# passed all 2 test(s)
+1..2
+*** t0023-crlf-am.sh ***
+ok 1 - setup
+ok 2 - am
+# passed all 2 test(s)
+1..2
+*** t0024-crlf-archive.sh ***
+ok 1 - setup
+ok 2 - tar archive
+ok 3 - zip archive
+# passed all 3 test(s)
+1..3
+*** t0025-crlf-auto.sh ***
+ok 1 - setup
+ok 2 - default settings cause no changes
+ok 3 - crlf=true causes a CRLF file to be normalized
+ok 4 - text=true causes a CRLF file to be normalized
+ok 5 - eol=crlf gives a normalized file CRLFs with autocrlf=false
+ok 6 - eol=crlf gives a normalized file CRLFs with autocrlf=input
+ok 7 - eol=lf gives a normalized file LFs with autocrlf=true
+ok 8 - autocrlf=true does not normalize CRLF files
+ok 9 - text=auto, autocrlf=true _does_ normalize CRLF files
+ok 10 - text=auto, autocrlf=true does not normalize binary files
+ok 11 - eol=crlf _does_ normalize binary files
+# passed all 11 test(s)
+1..11
+*** t0026-eol-config.sh ***
+ok 1 - setup
+ok 2 - eol=lf puts LFs in normalized file
+ok 3 - eol=crlf puts CRLFs in normalized file
+ok 4 - autocrlf=true overrides eol=lf
+ok 5 - autocrlf=true overrides unset eol
+# passed all 5 test(s)
+1..5
+*** t0030-stripspace.sh ***
+ok 1 - long lines without spaces should be unchanged
+ok 2 - lines with spaces at the beginning should be unchanged
+ok 3 - lines with intermediate spaces should be unchanged
+ok 4 - consecutive blank lines should be unified
+ok 5 - only consecutive blank lines should be completely removed
+ok 6 - consecutive blank lines at the beginning should be removed
+ok 7 - consecutive blank lines at the end should be removed
+ok 8 - text without newline at end should end with newline
+ok 9 - text plus spaces without newline at end should end with newline
+ok 10 - text plus spaces without newline at end should not show spaces
+ok 11 - text plus spaces without newline should show the correct lines
+ok 12 - text plus spaces at end should not show spaces
+ok 13 - text plus spaces at end should be cleaned and newline must remain
+ok 14 - spaces with newline at end should be replaced with empty string
+ok 15 - spaces without newline at end should not show spaces
+ok 16 - spaces without newline at end should be replaced with empty string
+ok 17 - consecutive text lines should be unchanged
+ok 18 - strip comments, too
+# passed all 18 test(s)
+1..18
+*** t0040-parse-options.sh ***
+ok 1 - test help
+ok 2 - short options
+ok 3 - long options
+ok 4 - missing required value
+ok 5 - intermingled arguments
+ok 6 - unambiguously abbreviated option
+ok 7 - unambiguously abbreviated option with "="
+ok 8 - ambiguously abbreviated option
+ok 9 - non ambiguous option (after two options it abbreviates)
+ok 10 - detect possible typos
+ok 11 - keep some options as arguments
+ok 12 - OPT_DATE() and OPT_SET_PTR() work
+ok 13 - OPT_CALLBACK() and OPT_BIT() work
+ok 14 - OPT_CALLBACK() and callback errors work
+ok 15 - OPT_BIT() and OPT_SET_INT() work
+ok 16 - OPT_NEGBIT() and OPT_SET_INT() work
+ok 17 - OPT_BIT() works
+ok 18 - OPT_NEGBIT() works
+ok 19 - OPT_BOOLEAN() with PARSE_OPT_NODASH works
+ok 20 - OPT_NUMBER_CALLBACK() works
+ok 21 - negation of OPT_NONEG flags is not ambiguous
+# passed all 21 test(s)
+1..21
+*** t0050-filesystem.sh ***
+ok 1 - see what we expect
+ok 2 - detection of case insensitive filesystem during repo init
+ok 3 - detection of filesystem w/o symlink support during repo init
+ok 4 - setup case tests
+ok 5 - rename (case change)
+ok 6 - merge (case change)
+not ok 7 - add (with different case) # TODO known breakage
+ok 8 - setup unicode normalization tests
+ok 9 - rename (silent unicode normalization)
+ok 10 - merge (silent unicode normalization)
+# still have 1 known breakage(s)
+# passed all remaining 9 test(s)
+1..10
+*** t0055-beyond-symlinks.sh ***
+ok 1 - setup
+ok 2 - update-index --add beyond symlinks
+ok 3 - add beyond symlinks
+# passed all 3 test(s)
+1..3
+*** t0060-path-utils.sh ***
+ok 1 - normalize path:  => 
+ok 2 - normalize path: . => 
+ok 3 - normalize path: ./ => 
+ok 4 - normalize path: ./. => 
+ok 5 - normalize path: ./.. => ++failed++
+ok 6 - normalize path: ../. => ++failed++
+ok 7 - normalize path: ./../.// => ++failed++
+ok 8 - normalize path: dir/.. => 
+ok 9 - normalize path: dir/sub/../.. => 
+ok 10 - normalize path: dir/sub/../../.. => ++failed++
+ok 11 - normalize path: dir => dir
+ok 12 - normalize path: dir// => dir/
+ok 13 - normalize path: ./dir => dir
+ok 14 - normalize path: dir/. => dir/
+ok 15 - normalize path: dir///./ => dir/
+ok 16 - normalize path: dir//sub/.. => dir/
+ok 17 - normalize path: dir/sub/../ => dir/
+ok 18 - normalize path: dir/sub/../. => dir/
+ok 19 - normalize path: dir/s1/../s2/ => dir/s2/
+ok 20 - normalize path: d1/s1///s2/..//../s3/ => d1/s3/
+ok 21 - normalize path: d1/s1//../s2/../../d2 => d2
+ok 22 - normalize path: d1/.../d2 => d1/.../d2
+ok 23 - normalize path: d1/..././../d2 => d1/d2
+ok 24 - normalize path: / => /
+ok 25 - normalize path: // => /
+ok 26 - normalize path: /// => /
+ok 27 - normalize path: /. => /
+ok 28 - normalize path: /./ => /
+ok 29 - normalize path: /./.. => ++failed++
+ok 30 - normalize path: /../. => ++failed++
+ok 31 - normalize path: /./../.// => ++failed++
+ok 32 - normalize path: /dir/.. => /
+ok 33 - normalize path: /dir/sub/../.. => /
+ok 34 - normalize path: /dir/sub/../../.. => ++failed++
+ok 35 - normalize path: /dir => /dir
+ok 36 - normalize path: /dir// => /dir/
+ok 37 - normalize path: /./dir => /dir
+ok 38 - normalize path: /dir/. => /dir/
+ok 39 - normalize path: /dir///./ => /dir/
+ok 40 - normalize path: /dir//sub/.. => /dir/
+ok 41 - normalize path: /dir/sub/../ => /dir/
+ok 42 - normalize path: //dir/sub/../. => /dir/
+ok 43 - normalize path: /dir/s1/../s2/ => /dir/s2/
+ok 44 - normalize path: /d1/s1///s2/..//../s3/ => /d1/s3/
+ok 45 - normalize path: /d1/s1//../s2/../../d2 => /d2
+ok 46 - normalize path: /d1/.../d2 => /d1/.../d2
+ok 47 - normalize path: /d1/..././../d2 => /d1/d2
+ok 48 - longest ancestor: /  => -1
+ok 49 - longest ancestor: / / => -1
+ok 50 - longest ancestor: /foo  => -1
+ok 51 - longest ancestor: /foo : => -1
+ok 52 - longest ancestor: /foo ::. => -1
+ok 53 - longest ancestor: /foo ::..:: => -1
+ok 54 - longest ancestor: /foo / => 0
+ok 55 - longest ancestor: /foo /fo => -1
+ok 56 - longest ancestor: /foo /foo => -1
+ok 57 - longest ancestor: /foo /foo/ => -1
+ok 58 - longest ancestor: /foo /bar => -1
+ok 59 - longest ancestor: /foo /bar/ => -1
+ok 60 - longest ancestor: /foo /foo/bar => -1
+ok 61 - longest ancestor: /foo /foo:/bar/ => -1
+ok 62 - longest ancestor: /foo /foo/:/bar/ => -1
+ok 63 - longest ancestor: /foo /foo::/bar/ => -1
+ok 64 - longest ancestor: /foo /:/foo:/bar/ => 0
+ok 65 - longest ancestor: /foo /foo:/:/bar/ => 0
+ok 66 - longest ancestor: /foo /:/bar/:/foo => 0
+ok 67 - longest ancestor: /foo/bar  => -1
+ok 68 - longest ancestor: /foo/bar / => 0
+ok 69 - longest ancestor: /foo/bar /fo => -1
+ok 70 - longest ancestor: /foo/bar foo => -1
+ok 71 - longest ancestor: /foo/bar /foo => 4
+ok 72 - longest ancestor: /foo/bar /foo/ => 4
+ok 73 - longest ancestor: /foo/bar /foo/ba => -1
+ok 74 - longest ancestor: /foo/bar /:/fo => 0
+ok 75 - longest ancestor: /foo/bar /foo:/foo/ba => 4
+ok 76 - longest ancestor: /foo/bar /bar => -1
+ok 77 - longest ancestor: /foo/bar /bar/ => -1
+ok 78 - longest ancestor: /foo/bar /fo: => -1
+ok 79 - longest ancestor: /foo/bar :/fo => -1
+ok 80 - longest ancestor: /foo/bar /foo:/bar/ => 4
+ok 81 - longest ancestor: /foo/bar /:/foo:/bar/ => 4
+ok 82 - longest ancestor: /foo/bar /foo:/:/bar/ => 4
+ok 83 - longest ancestor: /foo/bar /:/bar/:/fo => 0
+ok 84 - longest ancestor: /foo/bar /:/bar/ => 0
+ok 85 - longest ancestor: /foo/bar .:/foo/. => 4
+ok 86 - longest ancestor: /foo/bar .:/foo/.:.: => 4
+ok 87 - longest ancestor: /foo/bar /foo/./:.:/bar => 4
+ok 88 - longest ancestor: /foo/bar .:/bar => -1
+ok 89 - strip_path_suffix
+# passed all 89 test(s)
+1..89
+*** t0061-run-command.sh ***
+ok 1 - start_command reports ENOENT
+# passed all 1 test(s)
+1..1
+*** t0070-fundamental.sh ***
+ok 1 - character classes (isspace, isalpha etc.)
+# passed all 1 test(s)
+1..1
+*** t0080-vcs-svn.sh ***
+ok 1 - obj pool: store data
+ok 2 - obj pool: NULL is offset ~0
+ok 3 - obj pool: out-of-bounds access
+ok 4 - obj pool: high-water mark
+ok 5 - line buffer
+ok 6 - string pool
+ok 7 - treap sort
+# passed all 7 test(s)
+1..7
+*** t0100-previous.sh ***
+ok 1 - branch -d @{-1}
+ok 2 - branch -d @{-12} when there is not enough switches yet
+ok 3 - merge @{-1}
+ok 4 - merge @{-1} when there is not enough switches yet
+# passed all 4 test(s)
+1..4
+*** t0101-at-syntax.sh ***
+ok 1 - setup
+ok 2 - @{0} shows current
+ok 3 - @{1} shows old
+ok 4 - @{now} shows current
+ok 5 - @{2001-09-17} (before the first commit) shows old
+ok 6 - silly approxidates work
+ok 7 - notice misspelled upstream
+ok 8 - complain about total nonsense
+# passed all 8 test(s)
+1..8
+*** t1000-read-tree-m-3way.sh ***
+ok 1 - adding test file NN and Z/NN
+ok 2 - adding test file ND and Z/ND
+ok 3 - adding test file NM and Z/NM
+ok 4 - adding test file DN and Z/DN
+ok 5 - adding test file DD and Z/DD
+ok 6 - adding test file DM and Z/DM
+ok 7 - adding test file MN and Z/MN
+ok 8 - adding test file MD and Z/MD
+ok 9 - adding test file MM and Z/MM
+ok 10 - adding test file SS
+ok 11 - adding test file TT
+ok 12 - prepare initial tree
+ok 13 - change in branch A (removal)
+ok 14 - change in branch A (modification)
+ok 15 - change in branch A (modification)
+ok 16 - change in branch A (modification)
+ok 17 - change in branch A (modification)
+ok 18 - change in branch A (modification)
+ok 19 - change in branch A (modification)
+ok 20 - change in branch A (addition)
+ok 21 - change in branch A (addition)
+ok 22 - change in branch A (addition)
+ok 23 - change in branch A (addition)
+ok 24 - change in branch A (addition)
+ok 25 - change in branch A (edit)
+ok 26 - change in branch A (change file to directory)
+ok 27 - recording branch A tree
+ok 28 - reading original tree and checking out
+ok 29 - change in branch B (removal)
+ok 30 - change in branch B (modification)
+ok 31 - change in branch B (modification)
+ok 32 - change in branch B (modification)
+ok 33 - change in branch B (modification)
+ok 34 - change in branch B (modification)
+ok 35 - change in branch B (modification)
+ok 36 - change in branch B (addition)
+ok 37 - change in branch B (addition)
+ok 38 - change in branch B (addition)
+ok 39 - change in branch B (addition)
+ok 40 - change in branch B (addition and modification)
+ok 41 - change in branch B (modification)
+ok 42 - change in branch B (addition of a file to conflict with directory)
+ok 43 - recording branch B tree
+ok 44 - keep contents of 3 trees for easy access
+ok 45 - 3-way merge with git read-tree -m, empty cache
+ok 46 - 3-way merge with git read-tree -m, match H
+ok 47 - 1 - must not have an entry not in A.
+ok 48 - 2 - must match B in !O && !A && B case.
+ok 49 - 2 - matching B alone is OK in !O && !A && B case.
+ok 50 - 3 - must match A in !O && A && !B case.
+ok 51 - 3 - matching A alone is OK in !O && A && !B case.
+ok 52 - 3 (fail) - must match A in !O && A && !B case.
+ok 53 - 4 - must match and be up-to-date in !O && A && B && A!=B case.
+ok 54 - 4 (fail) - must match and be up-to-date in !O && A && B && A!=B case.
+ok 55 - 4 (fail) - must match and be up-to-date in !O && A && B && A!=B case.
+ok 56 - 5 - must match in !O && A && B && A==B case.
+ok 57 - 5 - must match in !O && A && B && A==B case.
+ok 58 - 5 (fail) - must match A in !O && A && B && A==B case.
+ok 59 - 6 - must not exist in O && !A && !B case
+ok 60 - 7 - must not exist in O && !A && B && O!=B case
+ok 61 - 8 - must not exist in O && !A && B && O==B case
+ok 62 - 9 - must match and be up-to-date in O && A && !B && O!=A case
+ok 63 - 9 (fail) - must match and be up-to-date in O && A && !B && O!=A case
+ok 64 - 9 (fail) - must match and be up-to-date in O && A && !B && O!=A case
+ok 65 - 10 - must match and be up-to-date in O && A && !B && O==A case
+ok 66 - 10 (fail) - must match and be up-to-date in O && A && !B && O==A case
+ok 67 - 10 (fail) - must match and be up-to-date in O && A && !B && O==A case
+ok 68 - 11 - must match and be up-to-date in O && A && B && O!=A && O!=B && A!=B case
+ok 69 - 11 (fail) - must match and be up-to-date in O && A && B && O!=A && O!=B && A!=B case
+ok 70 - 11 (fail) - must match and be up-to-date in O && A && B && O!=A && O!=B && A!=B case
+ok 71 - 12 - must match A in O && A && B && O!=A && A==B case
+ok 72 - 12 - must match A in O && A && B && O!=A && A==B case
+ok 73 - 12 (fail) - must match A in O && A && B && O!=A && A==B case
+ok 74 - 13 - must match A in O && A && B && O!=A && O==B case
+ok 75 - 13 - must match A in O && A && B && O!=A && O==B case
+ok 76 - 14 - must match and be up-to-date in O && A && B && O==A && O!=B case
+ok 77 - 14 - may match B in O && A && B && O==A && O!=B case
+ok 78 - 14 (fail) - must match and be up-to-date in O && A && B && O==A && O!=B case
+ok 79 - 14 (fail) - must match and be up-to-date in O && A && B && O==A && O!=B case
+ok 80 - 15 - must match A in O && A && B && O==A && O==B case
+ok 81 - 15 - must match A in O && A && B && O==A && O==B case
+ok 82 - 15 (fail) - must match A in O && A && B && O==A && O==B case
+ok 83 - 16 - A matches in one and B matches in another.
+# passed all 83 test(s)
+1..83
+*** t1001-read-tree-m-2way.sh ***
+ok 1 - setup
+ok 2 - 1, 2, 3 - no carry forward
+ok 3 - 4 - carry forward local addition.
+ok 4 - 5 - carry forward local addition.
+ok 5 - 6 - local addition already has the same.
+ok 6 - 7 - local addition already has the same.
+ok 7 - 8 - conflicting addition.
+ok 8 - 9 - conflicting addition.
+ok 9 - 10 - path removed.
+ok 10 - 11 - dirty path removed.
+ok 11 - 12 - unmatching local changes being removed.
+ok 12 - 13 - unmatching local changes being removed.
+ok 13 - 14 - unchanged in two heads.
+ok 14 - 15 - unchanged in two heads.
+ok 15 - 16 - conflicting local change.
+ok 16 - 17 - conflicting local change.
+ok 17 - 18 - local change already having a good result.
+ok 18 - 19 - local change already having a good result, further modified.
+ok 19 - 20 - no local change, use new tree.
+ok 20 - 21 - no local change, dirty cache.
+ok 21 - 22 - local change cache updated.
+ok 22 - DF vs DF/DF case setup.
+ok 23 - DF vs DF/DF case test.
+ok 24 - a/b (untracked) vs a case setup.
+ok 25 - a/b (untracked) vs a, plus c/d case test.
+ok 26 - a/b vs a, plus c/d case setup.
+ok 27 - a/b vs a, plus c/d case test.
+ok 28 - -m references the correct modified tree
+# passed all 28 test(s)
+1..28
+*** t1002-read-tree-m-u-2way.sh ***
+ok 1 - setup
+ok 2 - 1, 2, 3 - no carry forward
+ok 3 - 4 - carry forward local addition.
+ok 4 - 5 - carry forward local addition.
+ok 5 - 6 - local addition already has the same.
+ok 6 - 7 - local addition already has the same.
+ok 7 - 8 - conflicting addition.
+ok 8 - 9 - conflicting addition.
+ok 9 - 10 - path removed.
+ok 10 - 11 - dirty path removed.
+ok 11 - 12 - unmatching local changes being removed.
+ok 12 - 13 - unmatching local changes being removed.
+ok 13 - 14 - unchanged in two heads.
+ok 14 - 15 - unchanged in two heads.
+ok 15 - 16 - conflicting local change.
+ok 16 - 17 - conflicting local change.
+ok 17 - 18 - local change already having a good result.
+ok 18 - 19 - local change already having a good result, further modified.
+ok 19 - 20 - no local change, use new tree.
+ok 20 - 21 - no local change, dirty cache.
+ok 21 - DF vs DF/DF case setup.
+ok 22 - DF vs DF/DF case test.
+# passed all 22 test(s)
+1..22
+*** t1003-read-tree-prefix.sh ***
+ok 1 - setup
+ok 2 - read-tree --prefix
+# passed all 2 test(s)
+1..2
+*** t1004-read-tree-m-u-wf.sh ***
+ok 1 - two-way setup
+ok 2 - two-way not clobbering
+ok 3 - two-way with incorrect --exclude-per-directory (1)
+ok 4 - two-way with incorrect --exclude-per-directory (2)
+ok 5 - two-way clobbering a ignored file
+ok 6 - three-way not complaining on an untracked path in both
+ok 7 - three-way not clobbering a working tree file
+ok 8 - three-way not complaining on an untracked file
+ok 9 - 3-way not overwriting local changes (setup)
+ok 10 - 3-way not overwriting local changes (our side)
+ok 11 - 3-way not overwriting local changes (their side)
+ok 12 - funny symlink in work tree
+ok 13 - funny symlink in work tree, un-unlink-able
+ok 14 - D/F setup
+ok 15 - D/F
+ok 16 - D/F resolve
+ok 17 - D/F recursive
+# passed all 17 test(s)
+1..17
+*** t1005-read-tree-reset.sh ***
+ok 1 - setup
+ok 2 - reset should work
+ok 3 - reset should remove remnants from a failed merge
+ok 4 - Porcelain reset should remove remnants too
+ok 5 - Porcelain checkout -f should remove remnants too
+ok 6 - Porcelain checkout -f HEAD should remove remnants too
+# passed all 6 test(s)
+1..6
+*** t1006-cat-file.sh ***
+ok 1 - setup
+ok 2 - blob exists
+ok 3 - Type of blob is correct
+ok 4 - Size of blob is correct
+ok 5 - Content of blob is correct
+ok 6 - Pretty content of blob is correct
+ok 7 - --batch output of blob is correct
+ok 8 - --batch-check output of blob is correct
+ok 9 - tree exists
+ok 10 - Type of tree is correct
+ok 11 - Size of tree is correct
+ok 12 - Pretty content of tree is correct
+ok 13 - --batch-check output of tree is correct
+ok 14 - commit exists
+ok 15 - Type of commit is correct
+ok 16 - Size of commit is correct
+ok 17 - Content of commit is correct
+ok 18 - Pretty content of commit is correct
+ok 19 - --batch output of commit is correct
+ok 20 - --batch-check output of commit is correct
+ok 21 - tag exists
+ok 22 - Type of tag is correct
+ok 23 - Size of tag is correct
+ok 24 - Content of tag is correct
+ok 25 - Pretty content of tag is correct
+ok 26 - --batch output of tag is correct
+ok 27 - --batch-check output of tag is correct
+ok 28 - Reach a blob from a tag pointing to it
+ok 29 - Passing -t with --batch fails
+ok 30 - Passing --batch with -t fails
+ok 31 - Passing -s with --batch fails
+ok 32 - Passing --batch with -s fails
+ok 33 - Passing -e with --batch fails
+ok 34 - Passing --batch with -e fails
+ok 35 - Passing -p with --batch fails
+ok 36 - Passing --batch with -p fails
+ok 37 - Passing <type> with --batch fails
+ok 38 - Passing --batch with <type> fails
+ok 39 - Passing sha1 with --batch fails
+ok 40 - Passing -t with --batch-check fails
+ok 41 - Passing --batch-check with -t fails
+ok 42 - Passing -s with --batch-check fails
+ok 43 - Passing --batch-check with -s fails
+ok 44 - Passing -e with --batch-check fails
+ok 45 - Passing --batch-check with -e fails
+ok 46 - Passing -p with --batch-check fails
+ok 47 - Passing --batch-check with -p fails
+ok 48 - Passing <type> with --batch-check fails
+ok 49 - Passing --batch-check with <type> fails
+ok 50 - Passing sha1 with --batch-check fails
+ok 51 - --batch-check for a non-existent named object
+ok 52 - --batch-check for a non-existent hash
+ok 53 - --batch for an existent and a non-existent hash
+ok 54 - --batch-check for an emtpy line
+ok 55 - --batch with multiple sha1s gives correct format
+ok 56 - --batch-check with multiple sha1s gives correct format
+# passed all 56 test(s)
+1..56
+*** t1007-hash-object.sh ***
+ok 1 - multiple '--stdin's are rejected
+ok 2 - Can't use --stdin and --stdin-paths together
+ok 3 - Can't pass filenames as arguments with --stdin-paths
+ok 4 - Can't use --path with --stdin-paths
+ok 5 - Can't use --path with --no-filters
+ok 6 - hash a file
+ok 7 - blob does not exist in database
+ok 8 - hash from stdin
+ok 9 - blob does not exist in database
+ok 10 - hash a file and write to database
+ok 11 - blob exists in database
+ok 12 - git hash-object --stdin file1 <file0 first operates on file0, then file1
+ok 13 - check that appropriate filter is invoke when --path is used
+ok 14 - check that --no-filters option works
+ok 15 - check that --no-filters option works with --stdin-paths
+ok 16 - hash from stdin and write to database (-w --stdin)
+ok 17 - blob exists in database
+ok 18 - hash from stdin and write to database (--stdin -w)
+ok 19 - blob exists in database
+ok 20 - hash two files with names on stdin
+ok 21 - hash two files with names on stdin and write to database (-w --stdin-paths)
+ok 22 - blob exists in database
+ok 23 - blob exists in database
+ok 24 - hash two files with names on stdin and write to database (--stdin-paths -w)
+ok 25 - blob exists in database
+ok 26 - blob exists in database
+# passed all 26 test(s)
+1..26
+*** t1008-read-tree-overlay.sh ***
+ok 1 - setup
+ok 2 - multi-read
+# passed all 2 test(s)
+1..2
+*** t1009-read-tree-new-index.sh ***
+ok 1 - setup
+ok 2 - non-existent index file
+ok 3 - empty index file
+# passed all 3 test(s)
+1..3
+*** t1010-mktree.sh ***
+ok 1 - setup
+ok 2 - ls-tree piped to mktree (1)
+ok 3 - ls-tree piped to mktree (2)
+ok 4 - ls-tree output in wrong order given to mktree (1)
+ok 5 - ls-tree output in wrong order given to mktree (2)
+ok 6 - allow missing object with --missing
+ok 7 - mktree refuses to read ls-tree -r output (1)
+ok 8 - mktree refuses to read ls-tree -r output (2)
+# passed all 8 test(s)
+1..8
+*** t1011-read-tree-sparse-checkout.sh ***
+ok 1 - setup
+ok 2 - read-tree without .git/info/sparse-checkout
+ok 3 - read-tree with .git/info/sparse-checkout but disabled
+ok 4 - read-tree --no-sparse-checkout with empty .git/info/sparse-checkout and enabled
+ok 5 - read-tree with empty .git/info/sparse-checkout
+ok 6 - match directories with trailing slash
+not ok 7 - match directories without trailing slash # TODO known breakage
+ok 8 - checkout area changes
+ok 9 - read-tree updates worktree, absent case
+ok 10 - read-tree updates worktree, dirty case
+ok 11 - read-tree removes worktree, dirty case
+ok 12 - read-tree adds to worktree, absent case
+ok 13 - read-tree adds to worktree, dirty case
+ok 14 - index removal and worktree narrowing at the same time
+ok 15 - read-tree --reset removes outside worktree
+# still have 1 known breakage(s)
+# passed all remaining 14 test(s)
+1..15
+*** t1012-read-tree-df.sh ***
+ok 1 - setup
+ok 2 - 3-way (1)
+ok 3 - 3-way (2)
+ok 4 - 3-way (3)
+ok 5 - 2-way (1)
+# passed all 5 test(s)
+1..5
+*** t1020-subdirectory.sh ***
+ok 1 - setup
+ok 2 - update-index and ls-files
+ok 3 - cat-file
+ok 4 - diff-files
+ok 5 - write-tree
+ok 6 - checkout-index
+ok 7 - read-tree
+ok 8 - no file/rev ambiguity check inside .git
+ok 9 - no file/rev ambiguity check inside a bare repo
+ok 10 - detection should not be fooled by a symlink
+# passed all 10 test(s)
+1..10
+*** t1100-commit-tree-options.sh ***
+ok 1 - test preparation: write empty tree
+ok 2 - construct commit
+ok 3 - read commit
+ok 4 - compare commit
+# passed all 4 test(s)
+1..4
+*** t1200-tutorial.sh ***
+ok 1 - blob
+ok 2 - blob 557db03
+ok 3 - git diff-files -p
+ok 4 - git diff
+ok 5 - tree
+ok 6 - git diff-index -p HEAD
+ok 7 - git diff HEAD
+ok 8 - git whatchanged -p --root
+ok 9 - git tag my-first-tag
+ok 10 - git checkout -b mybranch
+ok 11 - git branch
+ok 12 - git resolve now fails
+ok 13 - git show-branch
+ok 14 - git resolve
+ok 15 - git show-branch (part 2)
+ok 16 - git show-branch (part 3)
+ok 17 - rewind to "Some fun." and "Some work."
+ok 18 - git show-branch (part 4)
+ok 19 - manual merge
+ok 20 - git ls-files --stage
+ok 21 - git ls-files --unmerged
+ok 22 - git-merge-index
+ok 23 - git ls-files --stage (part 2)
+ok 24 - git repack
+ok 25 - git prune-packed
+ok 26 - -> only packed objects
+# passed all 26 test(s)
+1..26
+*** t1300-repo-config.sh ***
+ok 1 - initial
+ok 2 - mixed case
+ok 3 - similar section
+ok 4 - similar section
+ok 5 - replace with non-match
+ok 6 - replace with non-match (actually matching)
+ok 7 - non-match result
+ok 8 - unset with cont. lines
+ok 9 - unset with cont. lines is correct
+ok 10 - multiple unset
+ok 11 - multiple unset is correct
+ok 12 - --replace-all missing value
+ok 13 - --replace-all
+ok 14 - all replaced
+ok 15 - really mean test
+ok 16 - really really mean test
+ok 17 - get value
+ok 18 - unset
+ok 19 - multivar
+ok 20 - non-match
+ok 21 - non-match value
+ok 22 - ambiguous get
+ok 23 - get multivar
+ok 24 - multivar replace
+ok 25 - ambiguous value
+ok 26 - ambiguous unset
+ok 27 - invalid unset
+ok 28 - multivar unset
+ok 29 - invalid key
+ok 30 - correct key
+ok 31 - hierarchical section
+ok 32 - hierarchical section value
+ok 33 - working --list
+ok 34 - --get-regexp
+ok 35 - --add
+ok 36 - get variable with no value
+ok 37 - get variable with empty value
+ok 38 - get-regexp variable with no value
+ok 39 - get-regexp variable with empty value
+ok 40 - get bool variable with no value
+ok 41 - get bool variable with empty value
+ok 42 - no arguments, but no crash
+ok 43 - new section is partial match of another
+ok 44 - new variable inserts into proper section
+ok 45 - alternative GIT_CONFIG (non-existing file should fail)
+ok 46 - alternative GIT_CONFIG
+ok 47 - alternative GIT_CONFIG (--file)
+ok 48 - refer config from subdirectory
+ok 49 - --set in alternative GIT_CONFIG
+ok 50 - rename section
+ok 51 - rename succeeded
+ok 52 - rename non-existing section
+ok 53 - rename succeeded
+ok 54 - rename another section
+ok 55 - rename succeeded
+ok 56 - rename a section with a var on the same line
+ok 57 - rename succeeded
+ok 58 - remove section
+ok 59 - section was removed properly
+ok 60 - section ending
+ok 61 - numbers
+ok 62 - invalid unit
+ok 63 - bool
+ok 64 - invalid bool (--get)
+ok 65 - invalid bool (set)
+ok 66 - set --bool
+ok 67 - set --int
+ok 68 - get --bool-or-int
+ok 69 - set --bool-or-int
+ok 70 - set --path
+ok 71 - get --path
+ok 72 - get --path copes with unset $HOME
+ok 73 - quoting
+ok 74 - key with newline
+ok 75 - value with newline
+ok 76 - value continued on next line
+ok 77 - --null --list
+ok 78 - --null --get-regexp
+ok 79 - inner whitespace kept verbatim
+ok 80 - symlinked configuration
+ok 81 - check split_cmdline return
+ok 82 - git -c "key=value" support
+# passed all 82 test(s)
+1..82
+*** t1301-shared-repo.sh ***
+ok 1 - shared = 0400 (faulty permission u-w)
+ok 2 - shared=1 does not clear bits preset by umask 002
+ok 3 - shared=1 does not clear bits preset by umask 022
+ok 4 - shared=all
+ok 5 - update-server-info honors core.sharedRepository
+ok 6 - shared = 0660 (r--r-----) ro
+ok 7 - shared = 0660 (rw-rw----) rw
+ok 8 - shared = 0640 (r--r-----) ro
+ok 9 - shared = 0640 (rw-r-----) rw
+ok 10 - shared = 0600 (r--------) ro
+ok 11 - shared = 0600 (rw-------) rw
+ok 12 - shared = 0666 (r--r--r--) ro
+ok 13 - shared = 0666 (rw-rw-rw-) rw
+ok 14 - shared = 0664 (r--r--r--) ro
+ok 15 - shared = 0664 (rw-rw-r--) rw
+ok 16 - git reflog expire honors core.sharedRepository
+ok 17 - forced modes
+# passed all 17 test(s)
+1..17
+*** t1302-repo-version.sh ***
+ok 1 - setup
+ok 2 - gitdir selection on normal repos
+ok 3 - gitdir selection on unsupported repo
+ok 4 - gitdir not required mode
+ok 5 - gitdir required mode
+# passed all 5 test(s)
+1..5
+*** t1303-wacky-config.sh ***
+ok 1 - modify same key
+ok 2 - add key in same section
+ok 3 - add key in different section
+ok 4 - make sure git config escapes section names properly
+ok 5 - do not crash on special long config line
+# passed all 5 test(s)
+1..5
+*** t1304-default-acl.sh ***
+Unable to use setfacl (output: 'File system doesn't support aclent_t style ACL's.
+See acl(5) for more information on ACL styles support by Solaris.'; return code: '2')
+ok 1 # skip Setup test repo (missing SETFACL)
+ok 2 # skip Objects creation does not break ACLs with restrictive umask (missing SETFACL)
+ok 3 # skip git gc does not break ACLs with restrictive umask (missing SETFACL)
+# passed all 3 test(s)
+1..3
+*** t1400-update-ref.sh ***
+ok 1 - setup
+ok 2 - create refs/heads/master
+ok 3 - create refs/heads/master
+ok 4 - fail to delete refs/heads/master with stale ref
+ok 5 - delete refs/heads/master
+ok 6 - delete refs/heads/master without oldvalue verification
+ok 7 - fail to create refs/heads/gu/fixes
+ok 8 - create refs/heads/master (by HEAD)
+ok 9 - create refs/heads/master (by HEAD)
+ok 10 - fail to delete refs/heads/master (by HEAD) with stale ref
+ok 11 - delete refs/heads/master (by HEAD)
+ok 12 - delete symref without dereference
+ok 13 - delete symref without dereference when the referred ref is packed
+ok 14 - (not) create HEAD with old sha1
+ok 15 - (not) prior created .git/refs/heads/master
+ok 16 - create HEAD
+ok 17 - (not) change HEAD with wrong SHA1
+ok 18 - (not) changed .git/refs/heads/master
+ok 19 - create refs/heads/master (logged by touch)
+ok 20 - update refs/heads/master (logged by touch)
+ok 21 - set refs/heads/master (logged by touch)
+ok 22 - verifying refs/heads/master's log
+ok 23 - enable core.logAllRefUpdates
+ok 24 - create refs/heads/master (logged by config)
+ok 25 - update refs/heads/master (logged by config)
+ok 26 - set refs/heads/master (logged by config)
+ok 27 - verifying refs/heads/master's log
+ok 28 - Query "master@{May 25 2005}" (before history)
+ok 29 - Query master@{2005-05-25} (before history)
+ok 30 - Query "master@{May 26 2005 23:31:59}" (1 second before history)
+ok 31 - Query "master@{May 26 2005 23:32:00}" (exactly history start)
+ok 32 - Query "master@{May 26 2005 23:32:30}" (first non-creation change)
+ok 33 - Query "master@{2005-05-26 23:33:01}" (middle of history with gap)
+ok 34 - Query "master@{2005-05-26 23:38:00}" (middle of history)
+ok 35 - Query "master@{2005-05-26 23:43:00}" (exact end of history)
+ok 36 - Query "master@{2005-05-28}" (past end of history)
+ok 37 - creating initial files
+ok 38 - git commit logged updates
+ok 39 - git cat-file blob master:F (expect OTHER)
+ok 40 - git cat-file blob master@{2005-05-26 23:30}:F (expect TEST)
+ok 41 - git cat-file blob master@{2005-05-26 23:42}:F (expect OTHER)
+# passed all 41 test(s)
+1..41
+*** t1401-symbolic-ref.sh ***
+ok 1 - symbolic-ref writes HEAD
+ok 2 - symbolic-ref reads HEAD
+ok 3 - symbolic-ref refuses non-ref for HEAD
+ok 4 - symbolic-ref refuses bare sha1
+# passed all 4 test(s)
+1..4
+*** t1402-check-ref-format.sh ***
+ok 1 - ref name 'heads/foo' is valid
+ok 2 - ref name 'foo' is not valid
+ok 3 - ref name 'foo/bar/baz' is valid
+ok 4 - ref name 'refs///heads/foo' is valid
+ok 5 - ref name 'heads/foo/' is not valid
+ok 6 - ref name './foo' is not valid
+ok 7 - ref name '.refs/foo' is not valid
+ok 8 - ref name 'heads/foo..bar' is not valid
+ok 9 - ref name 'heads/foo?bar' is not valid
+ok 10 - ref name 'foo./bar' is valid
+ok 11 - ref name 'heads/foo.lock' is not valid
+ok 12 - ref name 'heads/foo@bar' is valid
+ok 13 - ref name 'heads/v@{ation' is not valid
+ok 14 - ref name 'heads/fooar' is not valid
+ok 15 - check-ref-format --branch @{-1}
+ok 16 - check-ref-format --branch from subdir
+ok 17 - ref name 'heads/foo' simplifies to 'heads/foo'
+ok 18 - ref name 'refs///heads/foo' simplifies to 'refs/heads/foo'
+ok 19 - check-ref-format --print rejects 'foo'
+ok 20 - check-ref-format --print rejects 'heads/foo/../bar'
+ok 21 - check-ref-format --print rejects 'heads/./foo'
+ok 22 - check-ref-format --print rejects 'headsoo'
+# passed all 22 test(s)
+1..22
+*** t1410-reflog.sh ***
+ok 1 - setup
+ok 2 - rewind
+ok 3 - corrupt and check
+ok 4 - reflog expire --dry-run should not touch reflog
+ok 5 - reflog expire
+ok 6 - prune and fsck
+ok 7 - recover and check
+ok 8 - delete
+ok 9 - rewind2
+ok 10 - --expire=never
+ok 11 - gc.reflogexpire=never
+ok 12 - gc.reflogexpire=false
+# passed all 12 test(s)
+1..12
+*** t1411-reflog-show.sh ***
+ok 1 - setup
+ok 2 - log -g shows reflog headers
+ok 3 - oneline reflog format
+ok 4 - using @{now} syntax shows reflog date (multiline)
+ok 5 - using @{now} syntax shows reflog date (oneline)
+ok 6 - using --date= shows reflog date (multiline)
+ok 7 - using --date= shows reflog date (oneline)
+ok 8 - empty reflog file
+# passed all 8 test(s)
+1..8
+*** t1420-lost-found.sh ***
+ok 1 - setup
+ok 2 - lost and found something
+# passed all 2 test(s)
+1..2
+*** t1450-fsck.sh ***
+ok 1 - setup
+ok 2 - loose objects borrowed from alternate are not missing
+ok 3 - HEAD is part of refs, valid objects appear valid
+ok 4 - setup: helpers for corruption tests
+ok 5 - object with bad sha1
+ok 6 - branch pointing to non-commit
+ok 7 - email without @ is okay
+ok 8 - email with embedded > is not okay
+ok 9 - tag pointing to nonexistent
+ok 10 - tag pointing to something else than its type
+ok 11 - cleaned up
+# passed all 11 test(s)
+1..11
+*** t1500-rev-parse.sh ***
+ok 1 - toplevel: is-bare-repository
+ok 2 - toplevel: is-inside-git-dir
+ok 3 - toplevel: is-inside-work-tree
+ok 4 - toplevel: prefix
+ok 5 - toplevel: git-dir
+ok 6 - .git/: is-bare-repository
+ok 7 - .git/: is-inside-git-dir
+ok 8 - .git/: is-inside-work-tree
+ok 9 - .git/: prefix
+ok 10 - .git/: git-dir
+ok 11 - .git/objects/: is-bare-repository
+ok 12 - .git/objects/: is-inside-git-dir
+ok 13 - .git/objects/: is-inside-work-tree
+ok 14 - .git/objects/: prefix
+ok 15 - .git/objects/: git-dir
+ok 16 - subdirectory: is-bare-repository
+ok 17 - subdirectory: is-inside-git-dir
+ok 18 - subdirectory: is-inside-work-tree
+ok 19 - subdirectory: prefix
+ok 20 - subdirectory: git-dir
+ok 21 - core.bare = true: is-bare-repository
+ok 22 - core.bare = true: is-inside-git-dir
+ok 23 - core.bare = true: is-inside-work-tree
+ok 24 - core.bare undefined: is-bare-repository
+ok 25 - core.bare undefined: is-inside-git-dir
+ok 26 - core.bare undefined: is-inside-work-tree
+ok 27 - GIT_DIR=../.git, core.bare = false: is-bare-repository
+ok 28 - GIT_DIR=../.git, core.bare = false: is-inside-git-dir
+ok 29 - GIT_DIR=../.git, core.bare = false: is-inside-work-tree
+ok 30 - GIT_DIR=../.git, core.bare = false: prefix
+ok 31 - GIT_DIR=../.git, core.bare = true: is-bare-repository
+ok 32 - GIT_DIR=../.git, core.bare = true: is-inside-git-dir
+ok 33 - GIT_DIR=../.git, core.bare = true: is-inside-work-tree
+ok 34 - GIT_DIR=../.git, core.bare = true: prefix
+ok 35 - GIT_DIR=../.git, core.bare undefined: is-bare-repository
+ok 36 - GIT_DIR=../.git, core.bare undefined: is-inside-git-dir
+ok 37 - GIT_DIR=../.git, core.bare undefined: is-inside-work-tree
+ok 38 - GIT_DIR=../.git, core.bare undefined: prefix
+ok 39 - GIT_DIR=../repo.git, core.bare = false: is-bare-repository
+ok 40 - GIT_DIR=../repo.git, core.bare = false: is-inside-git-dir
+ok 41 - GIT_DIR=../repo.git, core.bare = false: is-inside-work-tree
+ok 42 - GIT_DIR=../repo.git, core.bare = false: prefix
+ok 43 - GIT_DIR=../repo.git, core.bare = true: is-bare-repository
+ok 44 - GIT_DIR=../repo.git, core.bare = true: is-inside-git-dir
+ok 45 - GIT_DIR=../repo.git, core.bare = true: is-inside-work-tree
+ok 46 - GIT_DIR=../repo.git, core.bare = true: prefix
+ok 47 - GIT_DIR=../repo.git, core.bare undefined: is-bare-repository
+ok 48 - GIT_DIR=../repo.git, core.bare undefined: is-inside-git-dir
+ok 49 - GIT_DIR=../repo.git, core.bare undefined: is-inside-work-tree
+ok 50 - GIT_DIR=../repo.git, core.bare undefined: prefix
+# passed all 50 test(s)
+1..50
+*** t1501-worktree.sh ***
+ok 1 - setup
+ok 2 - setup: helper for testing rev-parse
+ok 3 - setup: core.worktree = relative path
+ok 4 - outside
+ok 5 - inside work tree
+not ok 6 - empty prefix is actually written out # TODO known breakage
+ok 7 - subdir of work tree
+ok 8 - setup: core.worktree = absolute path
+ok 9 - outside
+ok 10 - inside work tree
+ok 11 - subdir of work tree
+ok 12 - setup: GIT_WORK_TREE=relative (override core.worktree)
+ok 13 - outside
+ok 14 - inside work tree
+ok 15 - subdir of work tree
+ok 16 - setup: GIT_WORK_TREE=absolute, below git dir
+ok 17 - outside
+ok 18 - in repo.git
+ok 19 - inside work tree
+ok 20 - subdir of work tree
+ok 21 - find work tree from repo
+ok 22 - find work tree from work tree
+ok 23 - _gently() groks relative GIT_DIR & GIT_WORK_TREE
+ok 24 - diff-index respects work tree under .git dir
+ok 25 - diff-files respects work tree under .git dir
+ok 26 - git diff respects work tree under .git dir
+ok 27 - git grep
+ok 28 - git commit
+ok 29 - absolute pathspec should fail gracefully
+ok 30 - make_relative_path handles double slashes in GIT_DIR
+# still have 1 known breakage(s)
+# passed all remaining 29 test(s)
+1..30
+*** t1502-rev-parse-parseopt.sh ***
+ok 1 - test --parseopt help output
+ok 2 - test --parseopt
+ok 3 - test --parseopt with mixed options and arguments
+ok 4 - test --parseopt with --
+ok 5 - test --parseopt --stop-at-non-option
+ok 6 - test --parseopt --keep-dashdash
+ok 7 - test --parseopt --keep-dashdash --stop-at-non-option with --
+ok 8 - test --parseopt --keep-dashdash --stop-at-non-option without --
+# passed all 8 test(s)
+1..8
+*** t1503-rev-parse-verify.sh ***
+ok 1 - set up basic repo with 1 file (hello) and 4 commits
+ok 2 - works with one good rev
+ok 3 - fails with any bad rev or many good revs
+ok 4 - fails silently when using -q
+ok 5 - no stdout output on error
+ok 6 - use --default
+ok 7 - master@{n} for various n
+# passed all 7 test(s)
+1..7
+*** t1504-ceiling-dirs.sh ***
+ok 1 - no_ceil
+ok 2 - ceil_empty
+ok 3 - ceil_at_parent
+ok 4 - ceil_at_parent_slash
+ok 5 - ceil_at_trash
+ok 6 - ceil_at_trash_slash
+ok 7 - ceil_at_sub
+ok 8 - ceil_at_sub_slash
+ok 9 - subdir_no_ceil
+ok 10 - subdir_ceil_empty
+ok 11 - subdir_ceil_at_trash: prefix
+ok 12 - subdir_ceil_at_trash_slash: prefix
+ok 13 - subdir_ceil_at_sub: prefix
+ok 14 - subdir_ceil_at_sub_slash: prefix
+ok 15 - subdir_ceil_at_subdir
+ok 16 - subdir_ceil_at_subdir_slash
+ok 17 - subdir_ceil_at_su
+ok 18 - subdir_ceil_at_su_slash
+ok 19 - subdir_ceil_at_sub_di
+ok 20 - subdir_ceil_at_sub_di_slash
+ok 21 - subdir_ceil_at_subdi
+ok 22 - subdir_ceil_at_subdi_slash
+ok 23 - second_of_two: prefix
+ok 24 - first_of_two: prefix
+ok 25 - second_of_three: prefix
+ok 26 - git_dir_specified
+ok 27 - sd_no_ceil
+ok 28 - sd_ceil_empty
+ok 29 - sd_ceil_at_trash: prefix
+ok 30 - sd_ceil_at_trash_slash: prefix
+ok 31 - sd_ceil_at_s: prefix
+ok 32 - sd_ceil_at_s_slash: prefix
+ok 33 - sd_ceil_at_sd
+ok 34 - sd_ceil_at_sd_slash
+ok 35 - sd_ceil_at_su
+ok 36 - sd_ceil_at_su_slash
+ok 37 - sd_ceil_at_s_di
+ok 38 - sd_ceil_at_s_di_slash
+ok 39 - sd_ceil_at_sdi
+ok 40 - sd_ceil_at_sdi_slash
+# passed all 40 test(s)
+1..40
+*** t1505-rev-parse-last.sh ***
+ok 1 - setup
+ok 2 - @{-1} works
+ok 3 - @{-1}~2 works
+ok 4 - @{-1}^2 works
+ok 5 - @{-1}@{1} works
+ok 6 - @{-2} works
+ok 7 - @{-3} fails
+# passed all 7 test(s)
+1..7
+*** t1506-rev-parse-diagnosis.sh ***
+ok 1 - set up basic repo
+ok 2 - correct file objects
+ok 3 - incorrect revision id
+ok 4 - incorrect file in sha1:path
+ok 5 - incorrect file in :path and :N:path
+ok 6 - invalid @{n} reference
+# passed all 6 test(s)
+1..6
+*** t1507-rev-parse-upstream.sh ***
+ok 1 - setup
+ok 2 - @{upstream} resolves to correct full name
+ok 3 - @{u} resolves to correct full name
+ok 4 - my-side@{upstream} resolves to correct full name
+ok 5 - my-side@{u} resolves to correct commit
+ok 6 - not-tracking@{u} fails
+ok 7 - <branch>@{u}@{1} resolves correctly
+ok 8 - @{u} without specifying branch fails on a detached HEAD
+ok 9 - checkout -b new my-side@{u} forks from the same
+ok 10 - merge my-side@{u} records the correct name
+ok 11 - branch -d other@{u}
+ok 12 - checkout other@{u}
+ok 13 - log -g other@{u}
+ok 14 - log -g other@{u}@{now}
+# passed all 14 test(s)
+1..14
+*** t1508-at-combinations.sh ***
+ok 1 - setup
+ok 2 - HEAD = new-two
+ok 3 - @{1} = new-one
+ok 4 - @{-1} = old-two
+ok 5 - @{-1}@{1} = old-one
+ok 6 - @{u} = upstream-two
+ok 7 - @{u}@{1} = upstream-one
+ok 8 - @{-1}@{u} = master-two
+ok 9 - @{-1}@{u}@{1} = master-one
+ok 10 - @{u}@{-1} is nonsensical
+ok 11 - @{1}@{u} is nonsensical
+# passed all 11 test(s)
+1..11
+*** t1509-root-worktree.sh ***
+# passed all 0 test(s)
+1..0 # SKIP Dangerous test skipped. Read this test if you want to execute it
+*** t2000-checkout-cache-clash.sh ***
+ok 1 - git update-index --add various paths.
+ok 2 - git checkout-index without -f should fail on conflicting work tree.
+ok 3 - git checkout-index with -f should succeed.
+ok 4 - git checkout-index conflicting paths.
+ok 5 - checkout-index -f twice with --prefix
+# passed all 5 test(s)
+1..5
+*** t2001-checkout-cache-clash.sh ***
+ok 1 - git update-index --add path0/file0
+ok 2 - writing tree out with git write-tree
+ok 3 - git update-index --add path1/file1
+ok 4 - writing tree out with git write-tree
+ok 5 - read previously written tree and checkout.
+ok 6 - git update-index --add a symlink.
+ok 7 - writing tree out with git write-tree
+ok 8 - read previously written tree and checkout.
+ok 9 - checking out conflicting path with -f
+# passed all 9 test(s)
+1..9
+*** t2002-checkout-cache-u.sh ***
+ok 1 - preparation
+ok 2 - without -u, git checkout-index smudges stat information.
+ok 3 - with -u, git checkout-index picks up stat information from new files.
+# passed all 3 test(s)
+1..3
+*** t2003-checkout-cache-mkdir.sh ***
+ok 1 - setup
+ok 2 - have symlink in place where dir is expected.
+ok 3 - use --prefix=path2/
+ok 4 - use --prefix=tmp-
+ok 5 - use --prefix=tmp- but with a conflicting file and dir
+ok 6 - use --prefix=tmp/orary/ where tmp is a symlink
+ok 7 - use --prefix=tmp/orary- where tmp is a symlink
+ok 8 - use --prefix=tmp- where tmp-path1 is a symlink
+# passed all 8 test(s)
+1..8
+*** t2004-checkout-cache-temp.sh ***
+ok 1 - preparation
+ok 2 - checkout one stage 0 to temporary file
+ok 3 - checkout all stage 0 to temporary files
+ok 4 - prepare 3-way merge
+ok 5 - checkout one stage 2 to temporary file
+ok 6 - checkout all stage 2 to temporary files
+ok 7 - checkout all stages/one file to nothing
+ok 8 - checkout all stages/one file to temporary files
+ok 9 - checkout some stages/one file to temporary files
+ok 10 - checkout all stages/all files to temporary files
+ok 11 - -- path0: no entry
+ok 12 - -- path1: all 3 stages
+ok 13 - -- path2: no stage 1, have stage 2 and 3
+ok 14 - -- path3: no stage 2, have stage 1 and 3
+ok 15 - -- path4: no stage 3, have stage 1 and 3
+ok 16 - -- asubdir/path5: no stage 2 and 3 have stage 1
+ok 17 - checkout --temp within subdir
+ok 18 - checkout --temp symlink
+# passed all 18 test(s)
+1..18
+*** t2005-checkout-index-symlinks.sh ***
+ok 1 - preparation
+ok 2 - the checked-out symlink must be a file
+ok 3 - the file must be the blob we added during the setup
+# passed all 3 test(s)
+1..3
+*** t2007-checkout-symlink.sh ***
+ok 1 - setup
+ok 2 - switch from symlink to dir
+ok 3 - Remove temporary directories & switch to master
+ok 4 - switch from dir to symlink
+# passed all 4 test(s)
+1..4
+*** t2008-checkout-subdir.sh ***
+ok 1 - setup
+ok 2 - remove and restore with relative path
+ok 3 - checkout with empty prefix
+ok 4 - checkout with simple prefix
+ok 5 - relative path outside tree should fail
+ok 6 - incorrect relative path to file should fail (1)
+ok 7 - incorrect relative path should fail (2)
+ok 8 - incorrect relative path should fail (3)
+# passed all 8 test(s)
+1..8
+*** t2009-checkout-statinfo.sh ***
+ok 1 - setup
+ok 2 - branch switching
+ok 3 - path checkout
+# passed all 3 test(s)
+1..3
+*** t2010-checkout-ambiguous.sh ***
+ok 1 - setup
+ok 2 - reference must be a tree
+ok 3 - branch switching
+ok 4 - checkout world from the index
+ok 5 - non ambiguous call
+ok 6 - allow the most common case
+ok 7 - check ambiguity
+ok 8 - disambiguate checking out from a tree-ish
+# passed all 8 test(s)
+1..8
+*** t2011-checkout-invalid-head.sh ***
+ok 1 - setup
+ok 2 - checkout should not start branch from a tree
+ok 3 - checkout master from invalid HEAD
+# passed all 3 test(s)
+1..3
+*** t2012-checkout-last.sh ***
+ok 1 - setup
+ok 2 - "checkout -" does not work initially
+ok 3 - first branch switch
+ok 4 - "checkout -" switches back
+ok 5 - "checkout -" switches forth
+ok 6 - detach HEAD
+ok 7 - "checkout -" attaches again
+ok 8 - "checkout -" detaches again
+ok 9 - more switches
+ok 10 - switch to the last
+ok 11 - switch to second from the last
+ok 12 - switch to third from the last
+ok 13 - switch to fourth from the last
+ok 14 - switch to twelfth from the last
+ok 15 - merge base test setup
+ok 16 - another...master
+ok 17 - ...master
+ok 18 - master...
+# passed all 18 test(s)
+1..18
+*** t2013-checkout-submodule.sh ***
+ok 1 - setup
+ok 2 - "reset <submodule>" updates the index
+ok 3 - "checkout <submodule>" updates the index only
+ok 4 - "checkout <submodule>" honors diff.ignoreSubmodules
+ok 5 - "checkout <submodule>" honors submodule.*.ignore from .gitmodules
+ok 6 - "checkout <submodule>" honors submodule.*.ignore from .git/config
+# passed all 6 test(s)
+1..6
+*** t2014-switch.sh ***
+ok 1 - setup
+ok 2 - check all changes are staged
+ok 3 - second commit
+ok 4 - check
+# passed all 4 test(s)
+1..4
+*** t2015-checkout-unborn.sh ***
+ok 1 - setup
+ok 2 - checkout from unborn preserves untracked files
+ok 3 - checkout from unborn preserves index contents
+ok 4 - checkout from unborn merges identical index contents
+# passed all 4 test(s)
+1..4
+*** t2016-checkout-patch.sh ***
+ok 1 - setup
+ok 2 - saying "n" does nothing
+ok 3 - git checkout -p
+ok 4 - git checkout -p with staged changes
+ok 5 - git checkout -p HEAD with NO staged changes: abort
+ok 6 - git checkout -p HEAD with NO staged changes: apply
+ok 7 - git checkout -p HEAD with change already staged
+ok 8 - git checkout -p HEAD^
+ok 9 - git checkout -p handles deletion
+ok 10 - path limiting works: dir
+ok 11 - path limiting works: -- dir
+ok 12 - path limiting works: HEAD^ -- dir
+ok 13 - path limiting works: foo inside dir
+ok 14 - none of this moved HEAD
+# passed all 14 test(s)
+1..14
+*** t2017-checkout-orphan.sh ***
+ok 1 - Setup
+ok 2 - --orphan creates a new orphan branch from HEAD
+ok 3 - --orphan creates a new orphan branch from <start_point>
+ok 4 - --orphan must be rejected with -b
+ok 5 - --orphan must be rejected with -t
+ok 6 - --orphan ignores branch.autosetupmerge
+ok 7 - --orphan makes reflog by default
+ok 8 - --orphan does not make reflog when core.logAllRefUpdates = false
+ok 9 - --orphan with -l makes reflog when core.logAllRefUpdates = false
+ok 10 - giving up --orphan not committed when -l and core.logAllRefUpdates = false deletes reflog
+ok 11 - --orphan is rejected with an existing name
+ok 12 - --orphan refuses to switch if a merge is needed
+# passed all 12 test(s)
+1..12
+*** t2018-checkout-branch.sh ***
+ok 1 - setup
+ok 2 - checkout -b to a new branch, set to HEAD
+ok 3 - checkout -b to a new branch, set to an explicit ref
+ok 4 - checkout -b to a new branch with unmergeable changes fails
+ok 5 - checkout -f -b to a new branch with unmergeable changes discards changes
+ok 6 - checkout -b to a new branch preserves mergeable changes
+ok 7 - checkout -f -b to a new branch with mergeable changes discards changes
+ok 8 - checkout -b to an existing branch fails
+ok 9 - checkout -B to an existing branch resets branch to HEAD
+ok 10 - checkout -B to an existing branch from detached HEAD resets branch to HEAD
+ok 11 - checkout -B to an existing branch with an explicit ref resets branch to that ref
+ok 12 - checkout -B to an existing branch with unmergeable changes fails
+ok 13 - checkout -f -B to an existing branch with unmergeable changes discards changes
+ok 14 - checkout -B to an existing branch preserves mergeable changes
+ok 15 - checkout -f -B to an existing branch with mergeable changes discards changes
+# passed all 15 test(s)
+1..15
+*** t2030-unresolve-info.sh ***
+ok 1 - setup
+ok 2 - add records switch clears
+ok 3 - rm records reset clears
+ok 4 - plumbing clears
+ok 5 - add records checkout -m undoes
+ok 6 - unmerge with plumbing
+ok 7 - rerere and rerere forget
+ok 8 - rerere and rerere forget (subdirectory)
+# passed all 8 test(s)
+1..8
+*** t2050-git-dir-relative.sh ***
+ok 1 - Setting up post-commit hook
+ok 2 - post-commit hook used ordinarily
+ok 3 - post-commit-hook created and used from top dir
+ok 4 - post-commit-hook from sub dir
+# passed all 4 test(s)
+1..4
+*** t2100-update-cache-badpath.sh ***
+ok 1 - git update-index --add to add various paths.
+ok 2 - git update-index to add conflicting path path0/file0 should fail.
+ok 3 - git update-index to add conflicting path path1/file1 should fail.
+ok 4 - git update-index to add conflicting path path2 should fail.
+ok 5 - git update-index to add conflicting path path3 should fail.
+# passed all 5 test(s)
+1..5
+*** t2101-update-index-reupdate.sh ***
+ok 1 - update-index --add
+ok 2 - update-index --again
+ok 3 - update-index --remove --again
+ok 4 - first commit
+ok 5 - update-index again
+ok 6 - update-index --update from subdir
+ok 7 - update-index --update with pathspec
+# passed all 7 test(s)
+1..7
+*** t2102-update-index-symlinks.sh ***
+ok 1 - preparation
+ok 2 - modify the symbolic link
+ok 3 - the index entry must still be a symbolic link
+# passed all 3 test(s)
+1..3
+*** t2103-update-index-ignore-missing.sh ***
+ok 1 - basics
+ok 2 - --ignore-missing --refresh
+ok 3 - --unmerged --refresh
+ok 4 - --ignore-submodules --refresh (1)
+ok 5 - --ignore-submodules --refresh (2)
+# passed all 5 test(s)
+1..5
+*** t2104-update-index-skip-worktree.sh ***
+ok 1 - setup
+ok 2 - index is at version 2
+ok 3 - update-index --skip-worktree
+ok 4 - index is at version 3 after having some skip-worktree entries
+ok 5 - ls-files -t
+ok 6 - update-index --no-skip-worktree
+ok 7 - index version is back to 2 when there is no skip-worktree entry
+# passed all 7 test(s)
+1..7
+*** t2105-update-index-gitfile.sh ***
+ok 1 - submodule with absolute .git file
+ok 2 - add gitlink to absolute .git file
+ok 3 - submodule with relative .git file
+ok 4 - add gitlink to relative .git file
+# passed all 4 test(s)
+1..4
+*** t2106-update-index-assume-unchanged.sh ***
+ok 1 - setup
+ok 2 - do not switch branches with dirty file
+# passed all 2 test(s)
+1..2
+*** t2200-add-update.sh ***
+ok 1 - setup
+ok 2 - update
+ok 3 - update noticed a removal
+ok 4 - update touched correct path
+ok 5 - update did not touch other tracked files
+ok 6 - update did not touch untracked files
+ok 7 - cache tree has not been corrupted
+ok 8 - update from a subdirectory
+ok 9 - change gets noticed
+ok 10 - replace a file with a symlink
+ok 11 - add everything changed
+ok 12 - touch and then add -u
+ok 13 - touch and then add explicitly
+ok 14 - add -n -u should not add but just report
+ok 15 - add -u resolves unmerged paths
+ok 16 - "add -u non-existent" should fail
+# passed all 16 test(s)
+1..16
+*** t2201-add-update-typechange.sh ***
+ok 1 - setup
+ok 2 - modify
+ok 3 - diff-files
+ok 4 - diff-index
+ok 5 - add -u
+ok 6 - commit -a
+# passed all 6 test(s)
+1..6
+*** t2202-add-addremove.sh ***
+ok 1 - setup
+ok 2 - git add --all
+# passed all 2 test(s)
+1..2
+*** t2203-add-intent.sh ***
+ok 1 - intent to add
+ok 2 - check result of "add -N"
+ok 3 - intent to add is just an ordinary empty blob
+ok 4 - intent to add does not clobber existing paths
+ok 5 - cannot commit with i-t-a entry
+ok 6 - can commit with an unrelated i-t-a entry in index
+ok 7 - can "commit -a" with an i-t-a entry
+# passed all 7 test(s)
+1..7
+*** t2204-add-ignored.sh ***
+ok 1 - setup
+ok 2 - no complaints for unignored file
+ok 3 - no complaints for unignored dir/file
+ok 4 - no complaints for unignored dir
+ok 5 - no complaints for unignored d*
+ok 6 - complaints for ignored ign
+ok 7 - complaints for ignored ign with unignored file
+ok 8 - complaints for ignored dir/ign
+ok 9 - complaints for ignored dir/ign with unignored file
+ok 10 - complaints for ignored dir/sub
+ok 11 - complaints for ignored dir/sub with unignored file
+ok 12 - complaints for ignored dir/sub/ign
+ok 13 - complaints for ignored dir/sub/ign with unignored file
+ok 14 - complaints for ignored sub/file
+ok 15 - complaints for ignored sub/file with unignored file
+ok 16 - complaints for ignored sub
+ok 17 - complaints for ignored sub with unignored file
+ok 18 - complaints for ignored sub/file
+ok 19 - complaints for ignored sub/file with unignored file
+ok 20 - complaints for ignored sub/ign
+ok 21 - complaints for ignored sub/ign with unignored file
+ok 22 - complaints for ignored sub in dir
+ok 23 - complaints for ignored sub/file in dir
+ok 24 - complaints for ignored sub/ign in dir
+ok 25 - complaints for ignored ign in sub
+ok 26 - complaints for ignored file in sub
+# passed all 26 test(s)
+1..26
+*** t2300-cd-to-toplevel.sh ***
+ok 1 - at physical root
+ok 2 - at physical subdir
+ok 3 - at symbolic root
+ok 4 - at symbolic subdir
+ok 5 - at internal symbolic subdir
+# passed all 5 test(s)
+1..5
+*** t3000-ls-files-others.sh ***
+ok 1 - setup 
+ok 2 - setup: expected output
+ok 3 - ls-files --others
+ok 4 - ls-files --others --directory
+ok 5 - --no-empty-directory hides empty directory
+# passed all 5 test(s)
+1..5
+*** t3001-ls-files-others-exclude.sh ***
+ok 1 - git ls-files --others with various exclude options.
+ok 2 - git ls-files --others with 
+ line endings.
+ok 3 - setup skip-worktree gitignore
+ok 4 - git ls-files --others with various exclude options.
+ok 5 - restore gitignore
+ok 6 - git status honors core.excludesfile
+ok 7 - trailing slash in exclude allows directory match(1)
+ok 8 - trailing slash in exclude allows directory match (2)
+ok 9 - trailing slash in exclude forces directory match (1)
+ok 10 - trailing slash in exclude forces directory match (2)
+ok 11 - negated exclude matches can override previous ones
+ok 12 - subdirectory ignore (setup)
+ok 13 - subdirectory ignore (toplevel)
+ok 14 - subdirectory ignore (l1/l2)
+ok 15 - subdirectory ignore (l1)
+# passed all 15 test(s)
+1..15
+*** t3002-ls-files-dashpath.sh ***
+ok 1 - setup
+ok 2 - git ls-files without path restriction.
+ok 3 - git ls-files with path restriction.
+ok 4 - git ls-files with path restriction with --.
+ok 5 - git ls-files with path restriction with -- --.
+ok 6 - git ls-files with no path restriction.
+# passed all 6 test(s)
+1..6
+*** t3003-ls-files-exclude.sh ***
+ok 1 - create repo with file
+ok 2 - ls-files output contains file (cached)
+ok 3 - ls-files output contains file (modified)
+ok 4 - add file to gitignore
+ok 5 - ls-files output contains file (cached)
+ok 6 - ls-files output contains file (modified)
+ok 7 - ls-files -i lists only tracked-but-ignored files
+# passed all 7 test(s)
+1..7
+*** t3010-ls-files-killed-modified.sh ***
+ok 1 - git update-index --add to add various paths.
+ok 2 - git ls-files -k to show killed files.
+ok 3 - validate git ls-files -k output.
+ok 4 - git ls-files -m to show modified files.
+ok 5 - validate git ls-files -m output.
+# passed all 5 test(s)
+1..5
+*** t3020-ls-files-error-unmatch.sh ***
+ok 1 - setup
+ok 2 - git ls-files --error-unmatch should fail with unmatched path.
+ok 3 - git ls-files --error-unmatch should succeed eith matched paths.
+# passed all 3 test(s)
+1..3
+*** t3030-merge-recursive.sh ***
+ok 1 - setup 1
+ok 2 - setup 2
+ok 3 - setup 3
+ok 4 - setup 4
+ok 5 - setup 5
+ok 6 - setup 6
+ok 7 - setup 7
+ok 8 - setup 8
+ok 9 - setup 9
+ok 10 - merge-recursive simple
+ok 11 - merge-recursive result
+ok 12 - fail if the index has unresolved entries
+ok 13 - merge-recursive remove conflict
+ok 14 - merge-recursive remove conflict
+ok 15 - merge-recursive d/f simple
+ok 16 - merge-recursive result
+ok 17 - merge-recursive d/f conflict
+ok 18 - merge-recursive d/f conflict result
+ok 19 - merge-recursive d/f conflict the other way
+ok 20 - merge-recursive d/f conflict result the other way
+ok 21 - merge-recursive d/f conflict
+ok 22 - merge-recursive d/f conflict result
+ok 23 - merge-recursive d/f conflict
+ok 24 - merge-recursive d/f conflict result
+ok 25 - reset and 3-way merge
+ok 26 - reset and bind merge
+ok 27 - merge removes empty directories
+not ok 28 - merge-recursive simple w/submodule # TODO known breakage
+not ok 29 - merge-recursive simple w/submodule result # TODO known breakage
+ok 30 - merge-recursive copy vs. rename
+# still have 2 known breakage(s)
+# passed all remaining 28 test(s)
+1..30
+*** t3031-merge-criscross.sh ***
+ok 1 - setup repo with criss-cross history
+ok 2 - recursive merge between F and G, causes segfault
+# passed all 2 test(s)
+1..2
+*** t3040-subprojects-basic.sh ***
+ok 1 - Super project creation
+ok 2 - create subprojects
+ok 3 - check if fsck ignores the subprojects
+ok 4 - check if commit in a subproject detected
+ok 5 - check if a changed subproject HEAD can be committed
+ok 6 - check if diff-index works for subproject elements
+ok 7 - check if diff-tree works for subproject elements
+ok 8 - check if git diff works for subproject elements
+ok 9 - check if clone works
+ok 10 - removing and adding subproject
+ok 11 - checkout in superproject
+# passed all 11 test(s)
+1..11
+*** t3050-subprojects-fetch.sh ***
+ok 1 - setup
+ok 2 - clone
+ok 3 - advance
+ok 4 - fetch
+# passed all 4 test(s)
+1..4
+*** t3060-ls-files-with-tree.sh ***
+ok 1 - setup
+ok 2 - git -ls-files --with-tree should succeed from subdir
+ok 3 - git -ls-files --with-tree should add entries from named tree.
+# passed all 3 test(s)
+1..3
+*** t3100-ls-tree-restrict.sh ***
+ok 1 - setup
+ok 2 - ls-tree plain
+ok 3 - ls-tree recursive
+ok 4 - ls-tree recursive with -t
+ok 5 - ls-tree recursive with -d
+ok 6 - ls-tree filtered with path
+ok 7 - ls-tree filtered with path1 path0
+ok 8 - ls-tree filtered with path0/
+ok 9 - ls-tree filtered with path2
+ok 10 - ls-tree filtered with path2/
+ok 11 - ls-tree filtered with path2/baz
+ok 12 - ls-tree filtered with path2/bak
+ok 13 - ls-tree -t filtered with path2/bak
+ok 14 - ls-tree with one path a prefix of the other
+# passed all 14 test(s)
+1..14
+*** t3101-ls-tree-dirname.sh ***
+ok 1 - setup
+ok 2 - ls-tree plain
+ok 3 - ls-tree recursive
+ok 4 - ls-tree filter 1.txt
+ok 5 - ls-tree filter path1/b/c/1.txt
+ok 6 - ls-tree filter all 1.txt files
+ok 7 - ls-tree filter directories
+ok 8 - ls-tree filter odd names
+ok 9 - ls-tree filter missing files and extra slashes
+ok 10 - ls-tree filter is leading path match
+ok 11 - ls-tree --full-name
+ok 12 - ls-tree --full-tree
+ok 13 - ls-tree --full-tree -r
+ok 14 - ls-tree --abbrev=5
+ok 15 - ls-tree --name-only
+ok 16 - ls-tree --name-only -r
+# passed all 16 test(s)
+1..16
+*** t3200-branch.sh ***
+ok 1 - prepare a trivial repository
+ok 2 - git branch --help should not have created a bogus branch
+ok 3 - git branch abc should create a branch
+ok 4 - git branch a/b/c should create a branch
+ok 5 - git branch -l d/e/f should create a branch and a log
+ok 6 - git branch -d d/e/f should delete a branch and a log
+ok 7 - git branch j/k should work after branch j has been deleted
+ok 8 - git branch l should work after branch l/m has been deleted
+ok 9 - git branch -m m m/m should work
+ok 10 - git branch -m n/n n should work
+ok 11 - git branch -m o/o o should fail when o/p exists
+ok 12 - git branch -m q r/q should fail when r exists
+ok 13 - git branch -m q q2 without config should succeed
+ok 14 - git branch -m s/s s should work when s/t is deleted
+ok 15 - config information was renamed, too
+ok 16 - renaming a symref is not allowed
+ok 17 - git branch -m u v should fail when the reflog for u is a symlink
+ok 18 - test tracking setup via --track
+ok 19 - test tracking setup (non-wildcard, matching)
+ok 20 - test tracking setup (non-wildcard, not matching)
+ok 21 - test tracking setup via config
+ok 22 - test overriding tracking setup via --no-track
+ok 23 - no tracking without .fetch entries
+ok 24 - test tracking setup via --track but deeper
+ok 25 - test deleting branch deletes branch config
+ok 26 - test deleting branch without config
+ok 27 - test --track without .fetch entries
+ok 28 - branch from non-branch HEAD w/autosetupmerge=always
+ok 29 - branch from non-branch HEAD w/--track causes failure
+ok 30 - git checkout -b g/h/i -l should create a branch and a log
+ok 31 - checkout -b makes reflog by default
+ok 32 - checkout -b does not make reflog when core.logAllRefUpdates = false
+ok 33 - checkout -b with -l makes reflog when core.logAllRefUpdates = false
+ok 34 - avoid ambiguous track
+ok 35 - autosetuprebase local on a tracked local branch
+ok 36 - autosetuprebase always on a tracked local branch
+ok 37 - autosetuprebase remote on a tracked local branch
+ok 38 - autosetuprebase never on a tracked local branch
+ok 39 - autosetuprebase local on a tracked remote branch
+ok 40 - autosetuprebase never on a tracked remote branch
+ok 41 - autosetuprebase remote on a tracked remote branch
+ok 42 - autosetuprebase always on a tracked remote branch
+ok 43 - autosetuprebase unconfigured on a tracked remote branch
+ok 44 - autosetuprebase unconfigured on a tracked local branch
+ok 45 - autosetuprebase unconfigured on untracked local branch
+ok 46 - autosetuprebase unconfigured on untracked remote branch
+ok 47 - autosetuprebase never on an untracked local branch
+ok 48 - autosetuprebase local on an untracked local branch
+ok 49 - autosetuprebase remote on an untracked local branch
+ok 50 - autosetuprebase always on an untracked local branch
+ok 51 - autosetuprebase never on an untracked remote branch
+ok 52 - autosetuprebase local on an untracked remote branch
+ok 53 - autosetuprebase remote on an untracked remote branch
+ok 54 - autosetuprebase always on an untracked remote branch
+ok 55 - detect misconfigured autosetuprebase (bad value)
+ok 56 - detect misconfigured autosetuprebase (no value)
+ok 57 - attempt to delete a branch without base and unmerged to HEAD
+ok 58 - attempt to delete a branch merged to its base
+ok 59 - attempt to delete a branch merged to its base
+# passed all 59 test(s)
+1..59
+*** t3201-branch-contains.sh ***
+ok 1 - setup
+ok 2 - branch --contains=master
+ok 3 - branch --contains master
+ok 4 - branch --contains=side
+ok 5 - side: branch --merged
+ok 6 - side: branch --no-merged
+ok 7 - master: branch --merged
+ok 8 - master: branch --no-merged
+# passed all 8 test(s)
+1..8
+*** t3202-show-branch-octopus.sh ***
+ok 1 - setup
+ok 2 - show-branch with more than 8 branches
+ok 3 - show-branch with showbranch.default
+# passed all 3 test(s)
+1..3
+*** t3203-branch-output.sh ***
+ok 1 - make commits
+ok 2 - make branches
+ok 3 - make remote branches
+ok 4 - git branch shows local branches
+ok 5 - git branch -r shows remote branches
+ok 6 - git branch -a shows local and remote branches
+ok 7 - git branch -v shows branch summaries
+ok 8 - git branch shows detached HEAD properly
+# passed all 8 test(s)
+1..8
+*** t3210-pack-refs.sh ***
+ok 1 - prepare a trivial repository
+ok 2 - see if git show-ref works as expected
+ok 3 - see if a branch still exists when packed
+ok 4 - git branch c/d should barf if branch c exists
+ok 5 - see if a branch still exists after git pack-refs --prune
+ok 6 - see if git pack-refs --prune remove ref files
+ok 7 - see if git pack-refs --prune removes empty dirs
+ok 8 - git branch g should work when git branch g/h has been deleted
+ok 9 - git branch i/j/k should barf if branch i exists
+ok 10 - test git branch k after branch k/l/m and k/lm have been deleted
+ok 11 - test git branch n after some branch deletion and pruning
+ok 12 - see if up-to-date packed refs are preserved
+ok 13 - pack, prune and repack
+# passed all 13 test(s)
+1..13
+*** t3300-funny-names.sh ***
+ok 1 - setup expect
+ok 2 - git ls-files no-funny
+ok 3 - setup expect
+ok 4 - git ls-files with-funny
+ok 5 - setup expect
+ok 6 - git ls-files -z with-funny
+ok 7 - setup expect
+ok 8 - git ls-tree with funny
+ok 9 - setup expect
+ok 10 - git diff-index with-funny
+ok 11 - git diff-tree with-funny
+ok 12 - setup expect
+ok 13 - git diff-index -z with-funny
+ok 14 - git diff-tree -z with-funny
+ok 15 - setup expect
+ok 16 - git diff-tree -C with-funny
+ok 17 - setup expect
+ok 18 - git diff-tree delete with-funny
+ok 19 - setup expect
+ok 20 - git diff-tree delete with-funny
+ok 21 - setup expect
+ok 22 - git diff-tree delete with-funny
+ok 23 - setup expect
+ok 24 - git diff-tree rename with-funny applied
+ok 25 - setup expect
+ok 26 - git diff-tree delete with-funny applied
+ok 27 - git apply non-git diff
+# passed all 27 test(s)
+1..27
+*** t3301-notes.sh ***
+ok 1 - cannot annotate non-existing HEAD
+ok 2 - setup
+ok 3 - need valid notes ref
+ok 4 - refusing to add notes in refs/heads/
+ok 5 - refusing to edit notes in refs/remotes/
+ok 6 - handle empty notes gracefully
+ok 7 - show non-existent notes entry with %N
+ok 8 - create notes
+ok 9 - show notes entry with %N
+ok 10 - create reflog entry
+ok 11 - edit existing notes
+ok 12 - cannot add note where one exists
+ok 13 - can overwrite existing note with "git notes add -f"
+ok 14 - show notes
+ok 15 - create multi-line notes (setup)
+ok 16 - show multi-line notes
+ok 17 - create -F notes (setup)
+ok 18 - show -F notes
+ok 19 - git log --pretty=raw does not show notes
+ok 20 - git log --show-notes
+ok 21 - git log --no-notes
+ok 22 - git format-patch does not show notes
+ok 23 - git format-patch --show-notes does show notes
+ok 24 - git show  does show notes
+ok 25 - git show --pretty does not show notes
+ok 26 - git show --pretty=raw does not show notes
+ok 27 - git show --pretty=short does not show notes
+ok 28 - git show --pretty=medium does not show notes
+ok 29 - git show --pretty=full does not show notes
+ok 30 - git show --pretty=fuller does not show notes
+ok 31 - git show --pretty=format:%s does not show notes
+ok 32 - git show --oneline does not show notes
+ok 33 - create -m notes (setup)
+ok 34 - show -m notes
+ok 35 - remove note with add -f -F /dev/null (setup)
+ok 36 - verify note removal with -F /dev/null
+ok 37 - do not create empty note with -m "" (setup)
+ok 38 - verify non-creation of note with -m ""
+ok 39 - create note with combination of -m and -F
+ok 40 - remove note with "git notes remove" (setup)
+ok 41 - verify note removal with "git notes remove"
+ok 42 - removing non-existing note should not create new commit
+ok 43 - list notes with "git notes list"
+ok 44 - list notes with "git notes"
+ok 45 - list specific note with "git notes list <object>"
+ok 46 - listing non-existing notes fails
+ok 47 - append to existing note with "git notes append"
+ok 48 - "git notes list" does not expand to "git notes list HEAD"
+ok 49 - appending empty string does not change existing note
+ok 50 - git notes append == add when there is no existing note
+ok 51 - appending empty string to non-existing note does not create note
+ok 52 - create other note on a different notes ref (setup)
+ok 53 - Do not show note on other ref by default
+ok 54 - Do show note when ref is given in GIT_NOTES_REF
+ok 55 - Do show note when ref is given in core.notesRef config
+ok 56 - Do not show note when core.notesRef is overridden
+ok 57 - Show all notes when notes.displayRef=refs/notes/*
+ok 58 - core.notesRef is implicitly in notes.displayRef
+ok 59 - notes.displayRef can be given more than once
+ok 60 - notes.displayRef respects order
+ok 61 - GIT_NOTES_DISPLAY_REF works
+ok 62 - GIT_NOTES_DISPLAY_REF overrides config
+ok 63 - --show-notes=* adds to GIT_NOTES_DISPLAY_REF
+ok 64 - --no-standard-notes
+ok 65 - --standard-notes
+ok 66 - --show-notes=ref accumulates
+ok 67 - Allow notes on non-commits (trees, blobs, tags)
+ok 68 - create note from other note with "git notes add -C"
+ok 69 - create note from non-existing note with "git notes add -C" fails
+ok 70 - create note from other note with "git notes add -c"
+ok 71 - create note from non-existing note with "git notes add -c" fails
+ok 72 - append to note from other note with "git notes append -C"
+ok 73 - create note from other note with "git notes append -c"
+ok 74 - append to note from other note with "git notes append -c"
+ok 75 - copy note with "git notes copy"
+ok 76 - prevent overwrite with "git notes copy"
+ok 77 - allow overwrite with "git notes copy -f"
+ok 78 - cannot copy note from object without notes
+ok 79 - git notes copy --stdin
+ok 80 - git notes copy --for-rewrite (unconfigured)
+ok 81 - git notes copy --for-rewrite (enabled)
+ok 82 - git notes copy --for-rewrite (disabled)
+ok 83 - git notes copy --for-rewrite (overwrite)
+ok 84 - git notes copy --for-rewrite (ignore)
+ok 85 - git notes copy --for-rewrite (append)
+ok 86 - git notes copy --for-rewrite (append two to one)
+ok 87 - git notes copy --for-rewrite (append empty)
+ok 88 - GIT_NOTES_REWRITE_MODE works
+ok 89 - GIT_NOTES_REWRITE_REF works
+ok 90 - GIT_NOTES_REWRITE_REF overrides config
+ok 91 - git notes copy diagnoses too many or too few parameters
+# passed all 91 test(s)
+1..91
+*** t3302-notes-index-expensive.sh ***
+ok 1 - setup / mkdir
+ok 2 - setup 10
+ok 3 - notes work
+ok 4 - notes timing with /usr/bin/time
+ok 5 - teardown / cd ..
+ok 6 # skip setup / mkdir (missing EXPENSIVE)
+ok 7 # skip setup 100 (missing EXPENSIVE)
+ok 8 # skip notes work (missing EXPENSIVE)
+ok 9 # skip notes timing with /usr/bin/time (missing EXPENSIVE of USR_BIN_TIME,EXPENSIVE)
+ok 10 # skip teardown / cd .. (missing EXPENSIVE)
+ok 11 # skip setup / mkdir (missing EXPENSIVE)
+ok 12 # skip setup 1000 (missing EXPENSIVE)
+ok 13 # skip notes work (missing EXPENSIVE)
+ok 14 # skip notes timing with /usr/bin/time (missing EXPENSIVE of USR_BIN_TIME,EXPENSIVE)
+ok 15 # skip teardown / cd .. (missing EXPENSIVE)
+ok 16 # skip setup / mkdir (missing EXPENSIVE)
+ok 17 # skip setup 10000 (missing EXPENSIVE)
+ok 18 # skip notes work (missing EXPENSIVE)
+ok 19 # skip notes timing with /usr/bin/time (missing EXPENSIVE of USR_BIN_TIME,EXPENSIVE)
+ok 20 # skip teardown / cd .. (missing EXPENSIVE)
+# passed all 20 test(s)
+1..20
+*** t3303-notes-subtrees.sh ***
+ok 1 - setup: create 100 commits
+ok 2 - test notes in 2/38-fanout
+ok 3 - verify notes in 2/38-fanout
+ok 4 - test notes in 2/2/36-fanout
+ok 5 - verify notes in 2/2/36-fanout
+ok 6 - test notes in 2/2/2/34-fanout
+ok 7 - verify notes in 2/2/2/34-fanout
+ok 8 - test same notes in no fanout and 2/38-fanout
+ok 9 - verify same notes in no fanout and 2/38-fanout
+ok 10 - test same notes in no fanout and 2/2/36-fanout
+ok 11 - verify same notes in no fanout and 2/2/36-fanout
+ok 12 - test same notes in 2/38-fanout and 2/2/36-fanout
+ok 13 - verify same notes in 2/38-fanout and 2/2/36-fanout
+ok 14 - test same notes in 2/2/2/34-fanout and 2/2/36-fanout
+ok 15 - verify same notes in 2/2/2/34-fanout and 2/2/36-fanout
+ok 16 - test notes in no fanout concatenated with 2/38-fanout
+ok 17 - verify notes in no fanout concatenated with 2/38-fanout
+ok 18 - test notes in no fanout concatenated with 2/2/36-fanout
+ok 19 - verify notes in no fanout concatenated with 2/2/36-fanout
+ok 20 - test notes in 2/38-fanout concatenated with 2/2/36-fanout
+ok 21 - verify notes in 2/38-fanout concatenated with 2/2/36-fanout
+ok 22 - test notes in 2/2/36-fanout concatenated with 2/2/2/34-fanout
+ok 23 - verify notes in 2/2/36-fanout concatenated with 2/2/2/34-fanout
+# passed all 23 test(s)
+1..23
+*** t3304-notes-mixed.sh ***
+ok 1 - setup: create a couple of commits
+ok 2 - create a notes tree with both notes and non-notes
+ok 3 - verify contents of notes
+ok 4 - verify contents of non-notes
+ok 5 - git-notes preserves non-notes
+ok 6 - verify contents of non-notes after git-notes
+# passed all 6 test(s)
+1..6
+*** t3305-notes-fanout.sh ***
+ok 1 - creating many notes with git-notes
+ok 2 - many notes created correctly with git-notes
+ok 3 - many notes created with git-notes triggers fanout
+ok 4 - deleting most notes with git-notes
+ok 5 - most notes deleted correctly with git-notes
+ok 6 - deleting most notes triggers fanout consolidation
+# passed all 6 test(s)
+1..6
+*** t3306-notes-prune.sh ***
+ok 1 - setup: create a few commits with notes
+ok 2 - verify commits and notes
+ok 3 - remove some commits
+ok 4 - verify that commits are gone
+ok 5 - verify that notes are still present
+ok 6 - prune -n does not remove notes
+ok 7 - prune -n lists prunable notes
+ok 8 - prune notes
+ok 9 - verify that notes are gone
+ok 10 - remove some commits
+ok 11 - prune -v notes
+ok 12 - verify that notes are gone
+# passed all 12 test(s)
+1..12
+*** t3307-notes-man.sh ***
+ok 1 - setup
+ok 2 - example 1: notes to add an Acked-by line
+ok 3 - example 2: binary notes
+# passed all 3 test(s)
+1..3
+*** t3400-rebase.sh ***
+ok 1 - prepare repository with topic branches
+ok 2 - rebase on dirty worktree
+ok 3 - rebase on dirty cache
+ok 4 - rebase against master
+ok 5 - rebase against master twice
+ok 6 - rebase against master twice with --force
+ok 7 - rebase against master twice from another branch
+ok 8 - rebase fast-forward to master
+ok 9 - the rebase operation should not have destroyed author information
+ok 10 - the rebase operation should not have destroyed author information (2)
+ok 11 - HEAD was detached during rebase
+ok 12 - rebase after merge master
+ok 13 - rebase of history with merges is linearized
+ok 14 - rebase of history with merges after upstream merge is linearized
+ok 15 - rebase a single mode change
+ok 16 - rebase is not broken by diff.renames
+ok 17 - setup: recover
+ok 18 - Show verbose error when HEAD could not be detached
+ok 19 - dump usage when upstream arg is missing
+ok 20 - rebase -q is quiet
+ok 21 - Rebase a commit that sprinkles CRs in
+ok 22 - rebase can copy notes
+ok 23 - rebase -m can copy notes
+# passed all 23 test(s)
+1..23
+*** t3401-rebase-partial.sh ***
+ok 1 - prepare repository with topic branch
+ok 2 - pick top patch from topic branch into master
+ok 3 - rebase topic branch against new master and check git am did not get halted
+ok 4 - rebase --merge topic branch that was partially merged upstream
+# passed all 4 test(s)
+1..4
+*** t3402-rebase-merge.sh ***
+ok 1 - setup
+ok 2 - reference merge
+ok 3 - rebase
+ok 4 - test-rebase@{1} is pre rebase
+ok 5 - merge and rebase should match
+ok 6 - rebase the other way
+ok 7 - rebase -Xtheirs
+ok 8 - merge and rebase should match
+ok 9 - picking rebase
+# passed all 9 test(s)
+1..9
+*** t3403-rebase-skip.sh ***
+ok 1 - setup
+ok 2 - rebase with git am -3 (default)
+ok 3 - rebase --skip with am -3
+ok 4 - rebase moves back to skip-reference
+ok 5 - checkout skip-merge
+ok 6 - rebase with --merge
+ok 7 - rebase --skip with --merge
+ok 8 - merge and reference trees equal
+ok 9 - moved back to branch correctly
+# passed all 9 test(s)
+1..9
+*** t3404-rebase-interactive.sh ***
+ok 1 - setup
+ok 2 - rebase -i with the exec command
+ok 3 - rebase -i with the exec command runs from tree root
+ok 4 - rebase -i with the exec command checks tree cleanness
+ok 5 - no changes are a nop
+ok 6 - test the [branch] option
+ok 7 - test --onto <branch>
+ok 8 - rebase on top of a non-conflicting commit
+ok 9 - reflog for the branch shows state before rebase
+ok 10 - exchange two commits
+ok 11 - stop on conflicting pick
+ok 12 - abort
+ok 13 - abort with error when new base cannot be checked out
+ok 14 - retain authorship
+ok 15 - squash
+ok 16 - retain authorship when squashing
+ok 17 - -p handles "no changes" gracefully
+not ok 18 - exchange two commits with -p # TODO known breakage
+ok 19 - preserve merges with -p
+ok 20 - edit ancestor with -p
+ok 21 - --continue tries to commit
+ok 22 - verbose flag is heeded, even after --continue
+ok 23 - multi-squash only fires up editor once
+ok 24 - multi-fixup does not fire up editor
+ok 25 - commit message used after conflict
+ok 26 - commit message retained after conflict
+ok 27 - squash and fixup generate correct log messages
+ok 28 - squash ignores comments
+ok 29 - squash ignores blank lines
+ok 30 - squash works as expected
+ok 31 - interrupted squash works as expected
+ok 32 - interrupted squash works as expected (case 2)
+ok 33 - ignore patch if in upstream
+ok 34 - --continue tries to commit, even for "edit"
+ok 35 - aborted --continue does not squash commits after "edit"
+ok 36 - auto-amend only edited commits after "edit"
+ok 37 - rebase a detached HEAD
+ok 38 - rebase a commit violating pre-commit
+ok 39 - rebase with a file named HEAD in worktree
+ok 40 - do "noop" when there is nothing to cherry-pick
+ok 41 - submodule rebase setup
+ok 42 - submodule rebase -i
+ok 43 - avoid unnecessary reset
+ok 44 - reword
+ok 45 - rebase -i can copy notes
+ok 46 - rebase -i can copy notes over a fixup
+ok 47 - rebase while detaching HEAD
+ok 48 - always cherry-pick with --no-ff
+ok 49 - set up commits with funny messages
+ok 50 - rebase-i history with funny messages
+# still have 1 known breakage(s)
+# passed all remaining 49 test(s)
+1..50
+*** t3405-rebase-malformed.sh ***
+ok 1 - setup
+ok 2 - rebase
+# passed all 2 test(s)
+1..2
+*** t3406-rebase-message.sh ***
+ok 1 - setup
+ok 2 - rebase -m
+ok 3 - rebase --stat
+ok 4 - rebase w/config rebase.stat
+ok 5 - rebase -n overrides config rebase.stat config
+# passed all 5 test(s)
+1..5
+*** t3407-rebase-abort.sh ***
+ok 1 - setup
+ok 2 - rebase --abort
+ok 3 - rebase --abort after --skip
+ok 4 - rebase --abort after --continue
+ok 5 - rebase --merge --abort
+ok 6 - rebase --merge --abort after --skip
+ok 7 - rebase --merge --abort after --continue
+# passed all 7 test(s)
+1..7
+*** t3408-rebase-multi-line.sh ***
+ok 1 - setup
+ok 2 - rebase
+# passed all 2 test(s)
+1..2
+*** t3409-rebase-preserve-merges.sh ***
+ok 1 - setup for merge-preserving rebase
+ok 2 - rebase -p fakes interactive rebase
+ok 3 - --continue works after a conflict
+# passed all 3 test(s)
+1..3
+*** t3410-rebase-preserve-dropped-merges.sh ***
+ok 1 - setup
+ok 2 - skip same-resolution merges with -p
+ok 3 - keep different-resolution merges with -p
+# passed all 3 test(s)
+1..3
+*** t3411-rebase-preserve-around-merges.sh ***
+ok 1 - setup
+ok 2 - squash F1 into D1
+ok 3 - rebase two levels of merge
+# passed all 3 test(s)
+1..3
+*** t3412-rebase-root.sh ***
+ok 1 - prepare repository
+ok 2 - rebase --root expects --onto
+ok 3 - setup pre-rebase hook
+ok 4 - rebase --root --onto <newbase>
+ok 5 - pre-rebase got correct input (1)
+ok 6 - rebase --root --onto <newbase> <branch>
+ok 7 - pre-rebase got correct input (2)
+ok 8 - rebase -i --root --onto <newbase>
+ok 9 - pre-rebase got correct input (3)
+ok 10 - rebase -i --root --onto <newbase> <branch>
+ok 11 - pre-rebase got correct input (4)
+ok 12 - rebase -i -p with linear history
+ok 13 - pre-rebase got correct input (5)
+ok 14 - set up merge history
+ok 15 - rebase -i -p with merge
+ok 16 - set up second root and merge
+ok 17 - rebase -i -p with two roots
+ok 18 - setup pre-rebase hook that fails
+ok 19 - pre-rebase hook stops rebase
+ok 20 - pre-rebase hook stops rebase -i
+ok 21 - remove pre-rebase hook
+ok 22 - set up a conflict
+ok 23 - rebase --root with conflict (first part)
+ok 24 - fix the conflict
+ok 25 - rebase --root with conflict (second part)
+ok 26 - rebase -i --root with conflict (first part)
+ok 27 - fix the conflict
+ok 28 - rebase -i --root with conflict (second part)
+ok 29 - rebase -i -p --root with conflict (first part)
+ok 30 - fix the conflict
+ok 31 - rebase -i -p --root with conflict (second part)
+# passed all 31 test(s)
+1..31
+*** t3413-rebase-hook.sh ***
+ok 1 - setup
+ok 2 - rebase
+ok 3 - rebase -i
+ok 4 - setup pre-rebase hook
+ok 5 - pre-rebase hook gets correct input (1)
+ok 6 - pre-rebase hook gets correct input (2)
+ok 7 - pre-rebase hook gets correct input (3)
+ok 8 - pre-rebase hook gets correct input (4)
+ok 9 - pre-rebase hook gets correct input (5)
+ok 10 - pre-rebase hook gets correct input (6)
+ok 11 - setup pre-rebase hook that fails
+ok 12 - pre-rebase hook stops rebase (1)
+ok 13 - pre-rebase hook stops rebase (2)
+ok 14 - rebase --no-verify overrides pre-rebase (1)
+ok 15 - rebase --no-verify overrides pre-rebase (2)
+# passed all 15 test(s)
+1..15
+*** t3414-rebase-preserve-onto.sh ***
+ok 1 - setup
+ok 2 - rebase from B1 onto H1
+ok 3 - rebase from E1 onto H1
+ok 4 - rebase from C1 onto H1
+# passed all 4 test(s)
+1..4
+*** t3415-rebase-autosquash.sh ***
+ok 1 - setup
+ok 2 - auto fixup (option)
+ok 3 - auto fixup (config)
+ok 4 - auto squash (option)
+ok 5 - auto squash (config)
+ok 6 - misspelled auto squash
+# passed all 6 test(s)
+1..6
+*** t3416-rebase-onto-threedots.sh ***
+ok 1 - setup
+ok 2 - rebase --onto master...topic
+ok 3 - rebase --onto master...
+ok 4 - rebase --onto master...side
+ok 5 - rebase -i --onto master...topic
+ok 6 - rebase -i --onto master...
+ok 7 - rebase -i --onto master...side
+# passed all 7 test(s)
+1..7
+*** t3417-rebase-whitespace-fix.sh ***
+ok 1 - blank line at end of file; extend at end of file
+ok 2 - two blanks line at end of file; extend at end of file
+ok 3 - same, but do not remove trailing spaces
+ok 4 - at beginning of file
+# passed all 4 test(s)
+1..4
+*** t3418-rebase-continue.sh ***
+ok 1 - setup
+ok 2 - interactive rebase --continue works with touched file
+ok 3 - non-interactive rebase --continue works with touched file
+# passed all 3 test(s)
+1..3
+*** t3500-cherry.sh ***
+ok 1 - prepare repository with topic branch, and check cherry finds the 2 patches from there
+ok 2 - check that cherry with limit returns only the top patch
+ok 3 - cherry-pick one of the 2 patches, and check cherry recognized one and only one as new
+# passed all 3 test(s)
+1..3
+*** t3501-revert-cherry-pick.sh ***
+ok 1 - setup
+ok 2 - cherry-pick --nonsense
+ok 3 - revert --nonsense
+ok 4 - cherry-pick after renaming branch
+ok 5 - revert after renaming branch
+ok 6 - revert forbidden on dirty working tree
+# passed all 6 test(s)
+1..6
+*** t3502-cherry-pick-merge.sh ***
+ok 1 - setup
+ok 2 - cherry-pick a non-merge with -m should fail
+ok 3 - cherry pick a merge without -m should fail
+ok 4 - cherry pick a merge (1)
+ok 5 - cherry pick a merge (2)
+ok 6 - cherry pick a merge relative to nonexistent parent should fail
+ok 7 - revert a non-merge with -m should fail
+ok 8 - revert a merge without -m should fail
+ok 9 - revert a merge (1)
+ok 10 - revert a merge (2)
+ok 11 - revert a merge relative to nonexistent parent should fail
+# passed all 11 test(s)
+1..11
+*** t3503-cherry-pick-root.sh ***
+ok 1 - setup
+ok 2 - cherry-pick a root commit
+# passed all 2 test(s)
+1..2
+*** t3504-cherry-pick-rerere.sh ***
+ok 1 - setup
+ok 2 - conflicting merge
+ok 3 - fixup
+ok 4 - cherry-pick conflict
+ok 5 - reconfigure
+ok 6 - cherry-pick conflict without rerere
+# passed all 6 test(s)
+1..6
+*** t3505-cherry-pick-empty.sh ***
+ok 1 - setup
+ok 2 - cherry-pick an empty commit
+ok 3 - index lockfile was removed
+ok 4 - cherry-pick a commit with an empty message
+ok 5 - index lockfile was removed
+# passed all 5 test(s)
+1..5
+*** t3506-cherry-pick-ff.sh ***
+ok 1 - setup
+ok 2 - cherry-pick using --ff fast forwards
+ok 3 - cherry-pick not using --ff does not fast forwards
+ok 4 - merge setup
+ok 5 - cherry-pick a non-merge with --ff and -m should fail
+ok 6 - cherry pick a merge with --ff but without -m should fail
+ok 7 - cherry pick with --ff a merge (1)
+ok 8 - cherry pick with --ff a merge (2)
+ok 9 - cherry pick a merge relative to nonexistent parent with --ff should fail
+# passed all 9 test(s)
+1..9
+*** t3507-cherry-pick-conflict.sh ***
+ok 1 - setup
+ok 2 - failed cherry-pick does not advance HEAD
+ok 3 - advice from failed cherry-pick
+ok 4 - failed cherry-pick produces dirty index
+ok 5 - failed cherry-pick registers participants in index
+ok 6 - failed cherry-pick describes conflict in work tree
+ok 7 - diff3 -m style
+ok 8 - revert also handles conflicts sanely
+ok 9 - revert conflict, diff3 -m style
+# passed all 9 test(s)
+1..9
+*** t3508-cherry-pick-many-commits.sh ***
+ok 1 - setup
+ok 2 - cherry-pick first..fourth works
+ok 3 - cherry-pick --strategy resolve first..fourth works
+ok 4 - cherry-pick --ff first..fourth works
+ok 5 - cherry-pick -n first..fourth works
+ok 6 - revert first..fourth works
+ok 7 - revert ^first fourth works
+ok 8 - revert fourth fourth~1 fourth~2 works
+ok 9 - cherry-pick -3 fourth works
+ok 10 - cherry-pick --stdin works
+# passed all 10 test(s)
+1..10
+*** t3509-cherry-pick-merge-df.sh ***
+ok 1 - Setup rename across paths each below D/F conflicts
+ok 2 - Cherry-pick succeeds with rename across D/F conflicts
+# passed all 2 test(s)
+1..2
+*** t3600-rm.sh ***
+ok 1 - Initialize test directory
+ok 2 - add files with funny names
+ok 3 - Pre-check that foo exists and is in index before git rm foo
+ok 4 - Test that git rm foo succeeds
+ok 5 - Test that git rm --cached foo succeeds if the index matches the file
+ok 6 - Test that git rm --cached foo succeeds if the index matches the file
+ok 7 - Test that git rm --cached foo fails if the index matches neither the file nor HEAD
+ok 8 - Test that git rm --cached -f foo works in case where --cached only did not
+ok 9 - Post-check that foo exists but is not in index after git rm foo
+ok 10 - Pre-check that bar exists and is in index before "git rm bar"
+ok 11 - Test that "git rm bar" succeeds
+ok 12 - Post-check that bar does not exist and is not in index after "git rm -f bar"
+ok 13 - Test that "git rm -- -q" succeeds (remove a file that looks like an option)
+ok 14 - Test that "git rm -f" succeeds with embedded space, tab, or newline characters.
+ok 15 # skip Test that "git rm -f" fails if its rm fails (missing RO_DIR)
+ok 16 - When the rm in "git rm -f" fails, it should not remove the file from the index
+ok 17 - Remove nonexistent file with --ignore-unmatch
+ok 18 - "rm" command printed
+ok 19 - "rm" command suppressed with --quiet
+ok 20 - Re-add foo and baz
+ok 21 - Modify foo -- rm should refuse
+ok 22 - Modified foo -- rm -f should work
+ok 23 - Re-add foo and baz for HEAD tests
+ok 24 - foo is different in index from HEAD -- rm should refuse
+ok 25 - but with -f it should work.
+ok 26 - refuse to remove cached empty file with modifications
+ok 27 - remove intent-to-add file without --force
+ok 28 - Recursive test setup
+ok 29 - Recursive without -r fails
+ok 30 - Recursive with -r but dirty
+ok 31 - Recursive with -r -f
+ok 32 - Remove nonexistent file returns nonzero exit status
+ok 33 - Call "rm" from outside the work tree
+ok 34 - refresh index before checking if it is up-to-date
+ok 35 - choking "git rm" should not let it die with cruft
+ok 36 - rm removes subdirectories recursively
+# passed all 36 test(s)
+1..36
+*** t3700-add.sh ***
+ok 1 - Test of git add
+ok 2 - Post-check that foo is in the index
+ok 3 - Test that "git add -- -q" works
+ok 4 - git add: Test that executable bit is not used if core.filemode=0
+ok 5 - git add: filemode=0 should not get confused by symlink
+ok 6 - git update-index --add: Test that executable bit is not used...
+ok 7 - git add: filemode=0 should not get confused by symlink
+ok 8 - git update-index --add: Test that executable bit is not used...
+ok 9 - .gitignore test setup
+ok 10 - .gitignore is honored
+ok 11 - error out when attempting to add ignored ones without -f
+ok 12 - error out when attempting to add ignored ones without -f
+ok 13 - add ignored ones with -f
+ok 14 - add ignored ones with -f
+ok 15 - add ignored ones with -f
+ok 16 - .gitignore with subdirectory
+ok 17 - check correct prefix detection
+ok 18 - git add with filemode=0, symlinks=0, and unmerged entries
+ok 19 - git add with filemode=0, symlinks=0 prefers stage 2 over stage 1
+ok 20 - git add --refresh
+ok 21 - git add should fail atomically upon an unreadable file
+ok 22 - git add --ignore-errors
+ok 23 - git add (add.ignore-errors)
+ok 24 - git add (add.ignore-errors = false)
+ok 25 - --no-ignore-errors overrides config
+ok 26 - git add 'fo\[ou\]bar' ignores foobar
+ok 27 - git add to resolve conflicts on otherwise ignored path
+ok 28 - "add non-existent" should fail
+ok 29 - git add --dry-run of existing changed file
+ok 30 - git add --dry-run of non-existing file
+ok 31 - git add --dry-run --ignore-missing of non-existing file
+# passed all 31 test(s)
+1..31
+*** t3701-add-interactive.sh ***
+ok 1 - setup (initial)
+ok 2 - status works (initial)
+ok 3 - setup expected
+ok 4 - diff works (initial)
+ok 5 - revert works (initial)
+ok 6 - setup (commit)
+ok 7 - status works (commit)
+ok 8 - setup expected
+ok 9 - diff works (commit)
+ok 10 - revert works (commit)
+ok 11 - setup expected
+ok 12 - setup fake editor
+ok 13 - dummy edit works
+ok 14 - setup patch
+ok 15 - setup fake editor
+ok 16 - bad edit rejected
+ok 17 - setup patch
+ok 18 - garbage edit rejected
+ok 19 - setup patch
+ok 20 - setup expected
+ok 21 - real edit works
+ok 22 - skip files similarly as commit -a
+ok 23 - patch does not affect mode
+ok 24 - stage mode but not hunk
+ok 25 - stage mode and hunk
+ok 26 - setup again
+ok 27 - setup patch
+ok 28 - setup expected
+ok 29 - add first line works
+ok 30 - setup expected
+ok 31 - deleting a non-empty file
+ok 32 - setup expected
+ok 33 - deleting an empty file
+# passed all 33 test(s)
+1..33
+*** t3702-add-edit.sh ***
+ok 1 - setup
+ok 2 - add -e
+# passed all 2 test(s)
+1..2
+*** t3800-mktag.sh ***
+ok 1 - setup
+ok 2 - Tag object length check
+ok 3 - "object" line label check
+ok 4 - "object" line SHA1 check
+ok 5 - "type" line label check
+ok 6 - "type" line eol check
+ok 7 - "tag" line label check #1
+ok 8 - "tag" line label check #2
+ok 9 - "type" line type-name length check
+ok 10 - verify object (SHA1/type) check
+ok 11 - verify tag-name check
+ok 12 - "tagger" line label check #1
+ok 13 - "tagger" line label check #2
+ok 14 - disallow missing tag author name
+ok 15 - disallow malformed tagger
+ok 16 - allow empty tag email
+ok 17 - disallow spaces in tag email
+ok 18 - disallow missing tag timestamp
+ok 19 - detect invalid tag timestamp1
+ok 20 - detect invalid tag timestamp2
+ok 21 - detect invalid tag timezone1
+ok 22 - detect invalid tag timezone2
+ok 23 - detect invalid tag timezone3
+ok 24 - detect invalid header entry
+ok 25 - create valid tag
+ok 26 - check mytag
+# passed all 26 test(s)
+1..26
+*** t3900-i18n-commit.sh ***
+ok 1 - setup
+ok 2 - no encoding header for base case
+ok 3 - ISO8859-1 setup
+ok 4 - eucJP setup
+ok 5 - ISO-2022-JP setup
+ok 6 - check encoding header for ISO8859-1
+ok 7 - check encoding header for eucJP
+ok 8 - check encoding header for ISO-2022-JP
+ok 9 - config to remove customization
+ok 10 - ISO8859-1 should be shown in UTF-8 now
+ok 11 - eucJP should be shown in UTF-8 now
+not ok - 12 ISO-2022-JP should be shown in UTF-8 now
+#	
+#			compare_with ISO-2022-JP "$TEST_DIRECTORY"/t3900/2-UTF-8.txt
+#		
+ok 13 - config to add customization
+ok 14 - ISO8859-1 should be shown in itself now
+ok 15 - eucJP should be shown in itself now
+ok 16 - ISO-2022-JP should be shown in itself now
+ok 17 - config to tweak customization
+ok 18 - ISO8859-1 should be shown in UTF-8 now
+ok 19 - eucJP should be shown in UTF-8 now
+not ok - 20 ISO-2022-JP should be shown in UTF-8 now
+#	
+#			compare_with ISO-2022-JP "$TEST_DIRECTORY"/t3900/2-UTF-8.txt
+#		
+ok 21 - eucJP should be shown in eucJP now
+not ok - 22 ISO-2022-JP should be shown in eucJP now
+#	
+#				compare_with ISO-2022-JP "$TEST_DIRECTORY"/t3900/eucJP.txt $ICONV
+#			
+not ok - 23 eucJP should be shown in ISO-2022-JP now
+#	
+#				compare_with eucJP "$TEST_DIRECTORY"/t3900/ISO-2022-JP.txt $ICONV
+#			
+not ok - 24 ISO-2022-JP should be shown in ISO-2022-JP now
+#	
+#				compare_with ISO-2022-JP "$TEST_DIRECTORY"/t3900/ISO-2022-JP.txt $ICONV
+#			
+ok 25 - No conversion with ISO8859-1
+ok 26 - No conversion with eucJP
+ok 27 - No conversion with ISO-2022-JP
+# failed 5 among 27 test(s)
+1..27
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/t'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86/t'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/git/build/i86'

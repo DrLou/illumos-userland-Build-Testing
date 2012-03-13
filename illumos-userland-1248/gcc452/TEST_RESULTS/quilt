@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/quilt/quilt-0.47
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/quilt/quilt-0.47 -p0 --backup --version-control=numbered < patches/01-import-mkdir.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/quilt/quilt-0.47 -p0 --backup --version-control=numbered < patches/02-makefile-install.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/quilt/quilt-0.47 -p0 --backup --version-control=numbered < patches/03-find-path.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/quilt/quilt-0.47 -p0 --backup --version-control=numbered < patches/04-import2-zcat.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/quilt/quilt-0.47 -p0 --backup --version-control=numbered < patches/05-with-xgettext.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  quilt-0.47.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/quilt/quilt-0.47/.unpacked

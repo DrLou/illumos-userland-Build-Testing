@@ -1,0 +1,436 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" am_cv_python_pythondir="/usr/lib/python2.6/vendor-packages" --with-kerberos5 --with-ssl --enable-NTLM)
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for a Python interpreter with version >= 2.0... python
+checking for python... /usr/bin/python
+checking for python version... 2.6
+checking for python platform... sunos5
+checking for python script directory... (cached) /usr/lib/python2.6/vendor-packages
+checking for python extension module directory... ${exec_prefix}lib/python2.6/site-packages
+checking for gawk... (cached) gawk
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ranlib... ranlib
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... none required
+checking for a working shell...... /usr/xpg4/bin/sh
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for size_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for unistd.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking sgtty.h usability... yes
+checking sgtty.h presence... yes
+checking for sgtty.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking sys/itimer.h usability... no
+checking sys/itimer.h presence... no
+checking for sys/itimer.h... no
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking for memory.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking arpa/nameser.h usability... yes
+checking arpa/nameser.h presence... yes
+checking for arpa/nameser.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking net/socket.h usability... no
+checking net/socket.h presence... no
+checking for net/socket.h... no
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking for u_int32_t... no
+checking for resolv.h... yes
+checking whether h_errno is declared... yes
+checking for an ANSI C-conforming const... yes
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -ll
+checking whether yytext is a pointer... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for bison... bison -y
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for socket... no
+checking for socket in -lsocket... yes
+checking for socket in -linet... no
+checking for inet_addr... no
+checking for inet_addr in -lnsl... yes
+checking for strchr in -lcposix... no
+checking for strstr... yes
+checking for strcasecmp... yes
+checking for memmove... yes
+checking for stpcpy... yes
+checking for strlcpy... yes
+checking for strlcat... yes
+checking for getopt_long... yes
+checking for vprintf... yes
+checking for _doprnt... yes
+checking for tcsetattr... yes
+checking for stty... yes
+checking for setsid... yes
+checking for geteuid... yes
+checking for seteuid... yes
+checking for strerror... yes
+checking for syslog... yes
+checking for snprintf... yes
+checking for vprintf... (cached) yes
+checking for vsnprintf... yes
+checking for vsyslog... yes
+checking for atexit... yes
+checking for inet_aton... yes
+checking for strftime... yes
+checking for setrlimit... yes
+checking for socketpair... yes
+checking for sigaction... yes
+checking for strdup... yes
+checking for setlocale... yes
+checking whether strerror is declared... yes
+checking whether getenv is declared... yes
+checking for AF_INET6/PF_INET6... yes
+checking for res_search in libc... not found
+checking for res_search in -lresolv... found
+checking for crypt... yes
+checking use of void pointer type... yes
+checking for working volatile... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking sys_siglist declaration in signal.h or unistd.h... no
+root-mode pid file will go in /var/run
+checking for procmail... no
+checking for sendmail... no
+checking for maildrop... no
+configure: Will not use a fallback MDA.
+checking size of short... 2
+checking size of int... 4
+checking size of long... 4
+checking for library containing getaddrinfo... none required
+checking for getaddrinfo... yes
+checking for getnameinfo... yes
+checking for inet_ntop... yes
+checking if your getaddrinfo is async-signal-safe... no
+krb5-config points to kerberosV under /usr
+configure: Enabling OpenSSL support in /usr.
+checking for additional library dependencies of SSL... (none)
+checking number of arguments to gethostbyname_r... 5
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating po/Makefile.in
+config.status: creating genlsm.sh
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[2]: `/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_y.c' is up to date.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/xmalloc.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/base64.c' object='base64.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/base64.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc822.c' object='rfc822.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc822.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/report.c' object='report.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/report.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc2047e.c' object='rfc2047e.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc2047e.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/servport.c' object='servport.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/servport.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbdes.c' object='smbdes.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbdes.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbencrypt.c' object='smbencrypt.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbencrypt.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbmd4.c' object='smbmd4.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbmd4.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbutil.c' object='smbutil.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smbutil.c
+source='libesmtp/gethostbyname.c' object='gethostbyname.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o gethostbyname.o `test -f 'libesmtp/gethostbyname.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`libesmtp/gethostbyname.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/fm_getaddrinfo.c' object='fm_getaddrinfo.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/fm_getaddrinfo.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/tls.c' object='tls.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/tls.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc822valid.c' object='rfc822valid.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rfc822valid.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/sdump.c' object='sdump.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/sdump.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/x509_name_match.c' object='x509_name_match.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/x509_name_match.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/md5c.c' object='md5c.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/md5c.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/ntlmsubr.c' object='ntlmsubr.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/ntlmsubr.c
+rm -f libfm.a
+ar cru libfm.a xmalloc.o base64.o rfc822.o report.o rfc2047e.o servport.o smbdes.o smbencrypt.o smbmd4.o smbutil.o gethostbyname.o fm_getaddrinfo.o tls.o rfc822valid.o sdump.o x509_name_match.o md5c.o ntlmsubr.o 
+ranlib libfm.a
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/socket.c' object='socket.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/socket.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/getpass.c' object='getpass.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/getpass.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/fetchmail.c' object='fetchmail.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/fetchmail.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/env.c' object='env.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/env.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/idle.c' object='idle.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/idle.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/options.c' object='options.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/options.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/daemon.c' object='daemon.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/daemon.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/driver.c' object='driver.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/driver.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/transact.c' object='transact.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/transact.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/sink.c' object='sink.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/sink.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smtp.c' object='smtp.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/smtp.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/idlist.c' object='idlist.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/idlist.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/uid.c' object='uid.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/uid.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/mxget.c' object='mxget.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/mxget.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/md5ify.c' object='md5ify.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/md5ify.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/cram.c' object='cram.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/cram.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/gssapi.c' object='gssapi.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/gssapi.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/opie.c' object='opie.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/opie.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/interface.c' object='interface.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/interface.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/netrc.c' object='netrc.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/netrc.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/unmime.c' object='unmime.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/unmime.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/conf.c' object='conf.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/conf.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/checkalias.c' object='checkalias.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/checkalias.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/lock.c' object='lock.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/lock.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_l.c' object='rcfile_l.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_l.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_y.c' object='rcfile_y.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_y.c
+source='ucs/norm_charmap.c' object='norm_charmap.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o norm_charmap.o `test -f 'ucs/norm_charmap.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`ucs/norm_charmap.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/pop3.c' object='pop3.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/pop3.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/imap.c' object='imap.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/imap.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/etrn.c' object='etrn.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/etrn.c
+source='/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/odmr.c' object='odmr.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/odmr.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o fetchmail socket.o getpass.o fetchmail.o env.o idle.o options.o daemon.o driver.o transact.o sink.o smtp.o idlist.o uid.o mxget.o md5ify.o cram.o gssapi.o opie.o interface.o netrc.o unmime.o conf.o checkalias.o lock.o rcfile_l.o rcfile_y.o norm_charmap.o  pop3.o imap.o etrn.o odmr.o     libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+( echo '#! /bin/sh' && echo 'exec /usr/bin/python /usr/lib/python2.6/vendor-packages/fetchmailconf.py "$@"' ) >fetchmailconf && chmod +x fetchmailconf || { rm -f fetchmailconf ; exit 1; }
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/po'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[2]: `/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/rcfile_y.c' is up to date.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+Making check in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/gnu/bin/make   rfc822 unmime netrc rfc2047e mxget rfc822valid x509_name_match
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+source='rfc822.c' object='rfc822-rfc822.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DMAIN -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o rfc822-rfc822.o `test -f 'rfc822.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`rfc822.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DMAIN -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o rfc822 rfc822-rfc822.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='unmime.c' object='unmime-unmime.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o unmime-unmime.o `test -f 'unmime.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`unmime.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o unmime unmime-unmime.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='netrc.c' object='netrc-netrc.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o netrc-netrc.o `test -f 'netrc.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`netrc.c
+source='xmalloc.c' object='netrc-xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o netrc-xmalloc.o `test -f 'xmalloc.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`xmalloc.c
+source='report.c' object='netrc-report.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o netrc-report.o `test -f 'report.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`report.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o netrc netrc-netrc.o netrc-xmalloc.o netrc-report.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='rfc2047e.c' object='rfc2047e-rfc2047e.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o rfc2047e-rfc2047e.o `test -f 'rfc2047e.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`rfc2047e.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o rfc2047e rfc2047e-rfc2047e.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='mxget.c' object='mxget-mxget.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o mxget-mxget.o `test -f 'mxget.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`mxget.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DSTANDALONE -DHAVE_CONFIG_H -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o mxget mxget-mxget.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='rfc822valid.c' object='rfc822valid-rfc822valid.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o rfc822valid-rfc822valid.o `test -f 'rfc822valid.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`rfc822valid.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o rfc822valid rfc822valid-rfc822valid.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+source='x509_name_match.c' object='x509_name_match-x509_name_match.o' libtool=no \
+	DEPDIR=.deps depmode=none /usr/xpg4/bin/sh /export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21  -I/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/libesmtp  -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include -c -o x509_name_match-x509_name_match.o `test -f 'x509_name_match.c' || echo '/export/home/drlou/illumos-userland-1248/components/fetchmail/fetchmail-6.3.21/'`x509_name_match.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DTEST -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/usr/include/kerberosv5 -I/usr/kerberos/include  -L/usr/lib -o x509_name_match x509_name_match-x509_name_match.o libfm.a    -lnsl -lsocket  -lresolv -L/usr/lib -R/usr/lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -I/usr/include/kerberosv5 -lkrb5 -lssl -lcrypto 
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/gnu/bin/make  check-TESTS
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+PASS: t.smoke
+SKIP: t.validate-xhtml
+PASS: t.x509_name_match
+====================
+All 2 tests passed
+(1 test was not run)
+====================
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+Making check in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/po'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/fetchmail/build/i86/.tested

@@ -1,0 +1,1590 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/flex/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/flex/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m32" LDFLAGS="-m32" M4="/usr/gnu/bin/m4")
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/flex/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/flex/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --infodir=/usr/share/info CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m64" LDFLAGS="-m64" M4="/usr/gnu/bin/m4")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether NLS is requested... yes
+yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... checking whether NLS is requested... yes
+/usr/gnu/bin/xgettext
+checking for msgfmt... checking for msgmerge... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+/usr/bin/msgmerge
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for style of include used by make... checking for msgmerge... GNU
+/usr/bin/msgmerge
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... none
+
+checking for suffix of object files... checking build system type... o
+checking whether we are using the GNU C compiler... i386-pc-solaris2.11
+checking host system type... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... none needed
+yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... checking for bison... bison -y
+checking for flex... flex
+checking for yywrap in -lfl... no
+checking for yywrap in -ll... yes
+checking lex output file root... lex.yy
+checking whether yytext is a pointer... none
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for bison... bison -y
+checking for flex... flex
+checking for yywrap in -lfl... no
+checking for yywrap in -ll... yes
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+yes
+checking lex output file root... lex.yy
+checking whether yytext is a pointer... checking whether we are using the GNU C++ compiler... yes
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking whether we are using the GNU C++ compiler... no
+no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking whether ln -s works... yes
+checking for ranlib... ranlib
+checking for gawk... (cached) gawk
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for bison... /usr/bin/bison
+checking for help2man... none
+help2man
+checking whether ln -s works... checking for gm4... yes
+/usr/gnu/bin/m4
+checking for GNU m4... checking for ranlib... ranlib
+checking for gawk... (cached) gawk
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for bison... /usr/bin/bison
+checking for help2man... help2man
+checking for gm4... /usr/gnu/bin/m4
+checking for GNU m4... yes
+checking for indent... yes
+indent
+checking how to run the C preprocessor... checking for indent... indent
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for egrep... egrep
+checking for working alloca.h... checking for egrep... egrep
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for alloca... yes
+checking for ANSI C header files... yes
+checking for ANSI C header files... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+yes
+checking for sys/types.h... checking for sys/types.h... yes
+yes
+checking for sys/stat.h... checking for sys/stat.h... yes
+yes
+checking for stdlib.h... checking for stdlib.h... yes
+yes
+checking for string.h... checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking for inttypes.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+yes
+checking libintl.h presence... checking limits.h usability... yes
+checking for libintl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+yes
+checking for locale.h... yes
+checking malloc.h usability... checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+yes
+checking for malloc.h... yes
+checking netinet/in.h usability... checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+yes
+checking for netinet/in.h... yes
+checking stddef.h usability... checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for unistd.h... (cached) checking for log10 in -lm... yes
+checking for log10 in -lm... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking pthread.h usability... yes
+checking for pthread_mutex_lock in -lpthread... yes
+checking pthread.h presence... yes
+checking pthread.h usability... yes
+checking for pthread.h... yes
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking for stdbool.h that conforms to C99... yes
+checking for an ANSI C-conforming const... no
+checking for _Bool... yes
+checking for size_t... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking for unistd.h... (cached) yes
+checking vfork.h usability... yes
+checking for pid_t... no
+checking vfork.h presence... no
+checking for vfork.h... no
+yes
+checking for fork... checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... yes
+checking for vfork... no
+checking for vfork.h... no
+checking for fork... yes
+checking for working fork... yes
+checking for vfork... yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+yes
+checking for GNU libc compatible malloc... checking for working fork... yes
+yes
+checking for working vfork... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for stdlib.h... (cached) checking for GNU libc compatible realloc... yes
+checking for GNU libc compatible malloc... yes
+checking for dup2... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for isascii... yes
+checking for dup2... yes
+checking for memset... yes
+checking for isascii... yes
+checking for pow... yes
+checking for memset... yes
+checking for regcomp... yes
+checking for pow... yes
+checking for setlocale... yes
+checking for regcomp... yes
+checking for strchr... yes
+checking for setlocale... yes
+checking for strtol... yes
+checking for strchr... yes
+yes
+checking for strtol... configure: creating ./config.status
+yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/fastwc/Makefile
+config.status: creating Makefile
+config.status: creating examples/manual/Makefile
+config.status: creating m4/Makefile
+config.status: creating doc/Makefile
+config.status: creating examples/Makefile
+config.status: creating po/Makefile.in
+config.status: creating examples/fastwc/Makefile
+config.status: creating tools/Makefile
+config.status: creating examples/manual/Makefile
+config.status: creating tests/Makefile
+config.status: creating m4/Makefile
+config.status: creating tests/TEMPLATE/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tests/test-array-nr/Makefile
+config.status: creating tools/Makefile
+config.status: creating tests/test-array-r/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/test-basic-nr/Makefile
+config.status: creating tests/TEMPLATE/Makefile
+config.status: creating tests/test-basic-r/Makefile
+config.status: creating tests/test-array-nr/Makefile
+config.status: creating tests/test-bison-yylloc/Makefile
+config.status: creating tests/test-array-r/Makefile
+config.status: creating tests/test-bison-yylval/Makefile
+config.status: creating tests/test-basic-nr/Makefile
+config.status: creating tests/test-c-cpp-nr/Makefile
+config.status: creating tests/test-basic-r/Makefile
+config.status: creating tests/test-c-cpp-r/Makefile
+config.status: creating tests/test-bison-yylloc/Makefile
+config.status: creating tests/test-header-nr/Makefile
+config.status: creating tests/test-bison-yylval/Makefile
+config.status: creating tests/test-header-r/Makefile
+config.status: creating tests/test-include-by-buffer/Makefile
+config.status: creating tests/test-c-cpp-nr/Makefile
+config.status: creating tests/test-include-by-push/Makefile
+config.status: creating tests/test-include-by-reentrant/Makefile
+config.status: creating tests/test-header-nr/Makefile
+config.status: creating tests/test-header-r/Makefile
+config.status: creating tests/test-multiple-scanners-nr/Makefile
+config.status: creating tests/test-multiple-scanners-r/Makefile
+config.status: creating tests/test-include-by-buffer/Makefile
+config.status: creating tests/test-noansi-nr/Makefile
+config.status: creating tests/test-include-by-push/Makefile
+config.status: creating tests/test-noansi-r/Makefile
+config.status: creating tests/test-include-by-reentrant/Makefile
+config.status: creating tests/test-prefix-nr/Makefile
+config.status: creating tests/test-multiple-scanners-nr/Makefile
+config.status: creating tests/test-prefix-r/Makefile
+config.status: creating tests/test-multiple-scanners-r/Makefile
+config.status: creating tests/test-noansi-nr/Makefile
+config.status: creating tests/test-pthread/Makefile
+config.status: creating tests/test-noansi-r/Makefile
+config.status: creating tests/test-string-nr/Makefile
+config.status: creating tests/test-prefix-nr/Makefile
+config.status: creating tests/test-string-r/Makefile
+config.status: creating tests/test-prefix-r/Makefile
+config.status: creating tests/test-yyextra/Makefile
+config.status: creating tests/test-pthread/Makefile
+config.status: creating tests/test-alloc-extra/Makefile
+config.status: creating tests/test-string-nr/Makefile
+config.status: creating tests/test-lineno-nr/Makefile
+config.status: creating tests/test-string-r/Makefile
+config.status: creating tests/test-lineno-r/Makefile
+config.status: creating tests/test-yyextra/Makefile
+config.status: creating tests/test-linedir-r/Makefile
+config.status: creating tests/test-alloc-extra/Makefile
+config.status: creating tests/test-debug-r/Makefile
+config.status: creating tests/test-lineno-nr/Makefile
+config.status: creating tests/test-debug-nr/Makefile
+config.status: creating tests/test-lineno-r/Makefile
+config.status: creating tests/test-mem-nr/Makefile
+config.status: creating tests/test-linedir-r/Makefile
+config.status: creating tests/test-mem-r/Makefile
+config.status: creating tests/test-debug-r/Makefile
+config.status: creating tests/test-posix/Makefile
+config.status: creating tests/test-debug-nr/Makefile
+config.status: creating tests/test-posixly-correct/Makefile
+config.status: creating tests/test-mem-nr/Makefile
+config.status: creating tests/test-table-opts/Makefile
+config.status: creating tests/test-mem-r/Makefile
+config.status: creating tests/test-c++-basic/Makefile
+config.status: creating tests/test-posix/Makefile
+config.status: creating tests/test-bison-nr/Makefile
+config.status: creating tests/test-posixly-correct/Makefile
+config.status: creating tests/test-reject/Makefile
+config.status: creating tests/test-table-opts/Makefile
+config.status: creating tests/test-c++-multiple-scanners/Makefile
+config.status: creating tests/test-c++-basic/Makefile
+config.status: creating tests/test-top/Makefile
+config.status: creating tests/test-bison-nr/Makefile
+config.status: creating tests/test-rescan-nr/Makefile
+config.status: creating tests/test-reject/Makefile
+config.status: creating tests/test-rescan-r/Makefile
+config.status: creating tests/test-c++-multiple-scanners/Makefile
+config.status: creating tests/test-quotes/Makefile
+config.status: creating tests/test-top/Makefile
+config.status: creating tests/test-ccl/Makefile
+config.status: creating tests/test-rescan-nr/Makefile
+config.status: creating tests/test-extended/Makefile
+config.status: creating tests/test-rescan-r/Makefile
+config.status: creating tests/test-c++-yywrap/Makefile
+config.status: creating tests/test-quotes/Makefile
+config.status: creating tests/test-concatenated-options/Makefile
+config.status: creating config.h
+config.status: creating tests/test-ccl/Makefile
+config.status: creating tests/test-extended/Makefile
+config.status: executing default-1 commands
+config.status: creating tests/test-c++-yywrap/Makefile
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: creating tests/test-concatenated-options/Makefile
+config.status: executing depfiles commands
+config.status: creating config.h
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/flex/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  SONAME="libfl.so.1" \
+		/usr/gnu/bin/make  libfl.so.1)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+source='libmain.c' object='libfl_pic_a-libmain.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl  -DPIC -KPIC -xregs=no%appl  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libfl_pic_a-libmain.o `test -f 'libmain.c' || echo '/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/'`libmain.c
+source='libyywrap.c' object='libfl_pic_a-libyywrap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl  -DPIC -KPIC -xregs=no%appl  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libfl_pic_a-libyywrap.o `test -f 'libyywrap.c' || echo '/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/'`libyywrap.c
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/flex/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  SONAME="libfl.so.1" \
+		/usr/gnu/bin/make  libfl.so.1)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -G -h libfl.so.1 -o libfl.so.1 libfl_pic_a-libmain.o libfl_pic_a-libyywrap.o 
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/flex/build/i86/.built
+source='libmain.c' object='libfl_pic_a-libmain.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl  -DPIC -KPIC -xregs=no%appl  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o libfl_pic_a-libmain.o `test -f 'libmain.c' || echo '/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/'`libmain.c
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/i86 ; /usr/bin/env PATH=/usr/gnu/bin:/usr/bin /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+Making check in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ccl.c' object='ccl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ccl.c
+source='libyywrap.c' object='libfl_pic_a-libyywrap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl  -DPIC -KPIC -xregs=no%appl  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c -o libfl_pic_a-libyywrap.o `test -f 'libyywrap.c' || echo '/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/'`libyywrap.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -G -h libfl.so.1 -o libfl.so.1 libfl_pic_a-libmain.o libfl_pic_a-libyywrap.o 
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/flex/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/flex/build/amd64 ; /usr/bin/env PATH=/usr/gnu/bin:/usr/bin /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+Making check in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ccl.c' object='ccl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ccl.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/dfa.c' object='dfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/dfa.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/dfa.c' object='dfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/dfa.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ecs.c' object='ecs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ecs.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanflags.c' object='scanflags.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanflags.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/gen.c' object='gen.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/gen.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ecs.c' object='ecs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/ecs.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanflags.c' object='scanflags.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanflags.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/gen.c' object='gen.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/gen.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/main.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/misc.c' object='misc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/misc.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/nfa.c' object='nfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/nfa.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/main.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/parse.c' object='parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/parse.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/misc.c' object='misc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/misc.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/nfa.c' object='nfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/nfa.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scan.c' object='scan.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scan.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/parse.c' object='parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/parse.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scan.c' object='scan.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scan.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/skel.c' object='skel.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/skel.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/sym.c' object='sym.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/sym.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tblcmp.c' object='tblcmp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tblcmp.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/yylex.c' object='yylex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/yylex.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/options.c' object='options.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/options.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanopt.c' object='scanopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanopt.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/buf.c' object='buf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/buf.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables.c' object='tables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables_shared.c' object='tables_shared.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables_shared.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/filter.c' object='filter.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/filter.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/regex.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/skel.c' object='skel.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/skel.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -m32 -o flex  ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o  -lm 
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+Making check in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/doc'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/doc'
+Making check in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/m4'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/m4'
+Making check in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples'
+Making check in manual
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples/manual'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples/manual'
+Making check in fastwc
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples/fastwc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples/fastwc'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/examples'
+Making check in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/po'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/po'
+Making check in tools
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tools'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tools'
+Making check in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+Making check in test-concatenated-options
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-concatenated-options'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-concatenated-options'
+Making check in test-c++-yywrap
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-yywrap'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-yywrap'
+Making check in test-extended
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-extended'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-extended'
+Making check in test-ccl
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-ccl'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-ccl'
+Making check in test-quotes
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-quotes'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-quotes'
+Making check in test-rescan-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-r'
+Making check in test-rescan-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-nr'
+Making check in test-basic-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-nr'
+Making check in test-basic-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-r'
+Making check in test-bison-yylloc
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylloc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylloc'
+Making check in test-bison-yylval
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylval'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylval'
+Making check in test-bison-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-nr'
+Making check in test-multiple-scanners-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-nr'
+Making check in test-multiple-scanners-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-r'
+Making check in test-header-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-nr'
+Making check in test-header-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-r'
+Making check in test-reject
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-reject'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-reject'
+Making check in test-c++-multiple-scanners
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-multiple-scanners'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-multiple-scanners'
+Making check in test-c++-basic
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-basic'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-basic'
+Making check in test-posixly-correct
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posixly-correct'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posixly-correct'
+Making check in test-posix
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posix'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posix'
+Making check in test-mem-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-r'
+Making check in test-mem-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-nr'
+Making check in test-debug-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-nr'
+Making check in test-debug-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-r'
+Making check in test-lineno-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-r'
+Making check in test-lineno-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-nr'
+Making check in test-linedir-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-linedir-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-linedir-r'
+Making check in test-array-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-nr'
+Making check in test-array-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-r'
+Making check in test-c-cpp-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-nr'
+Making check in test-c-cpp-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-r'
+Making check in test-include-by-buffer
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-buffer'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-buffer'
+Making check in test-include-by-push
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-push'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-push'
+Making check in test-include-by-reentrant
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-reentrant'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-reentrant'
+Making check in test-prefix-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-nr'
+Making check in test-prefix-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-r'
+Making check in test-pthread
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-pthread'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-pthread'
+Making check in test-string-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-nr'
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/sym.c' object='sym.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/sym.c
+Making check in test-string-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-r'
+Making check in test-yyextra
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-yyextra'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-yyextra'
+Making check in test-alloc-extra
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-alloc-extra'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-alloc-extra'
+Making check in test-noansi-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-nr'
+Making check in test-noansi-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-r'
+Making check in test-top
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-top'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-top'
+Making check in test-table-opts
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-table-opts'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-table-opts'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+/usr/gnu/bin/make  check-local
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+Making clean in test-table-opts
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-table-opts'
+test -z "scanner.c OUTPUT test-opt-nr-Ca.o test-opt-r-Ca.o test-opt-nr-Ce.o test-opt-r-Ce.o test-opt-nr-Cf.o test-opt-r-Cf.o test-opt-nr-CF.o test-opt-r-CF.o test-opt-nr-Cm.o test-opt-r-Cm.o test-opt-nr-Cem.o test-opt-r-Cem.o test-opt-nr-Cae.o test-opt-r-Cae.o test-opt-nr-Caef.o test-opt-r-Caef.o test-opt-nr-CaeF.o test-opt-r-CaeF.o test-opt-nr-Cam.o test-opt-r-Cam.o test-opt-nr-Caem.o test-opt-r-Caem.o test-ver-nr-Ca.o test-ver-r-Ca.o test-ver-nr-Ce.o test-ver-r-Ce.o test-ver-nr-Cf.o test-ver-r-Cf.o test-ver-nr-CF.o test-ver-r-CF.o test-ver-nr-Cm.o test-ver-r-Cm.o test-ver-nr-Cem.o test-ver-r-Cem.o test-ver-nr-Cae.o test-ver-r-Cae.o test-ver-nr-Caef.o test-ver-r-Caef.o test-ver-nr-CaeF.o test-ver-r-CaeF.o test-ver-nr-Cam.o test-ver-r-Cam.o test-ver-nr-Caem.o test-ver-r-Caem.o test-ser-nr-Ca.o test-ser-r-Ca.o test-ser-nr-Ce.o test-ser-r-Ce.o test-ser-nr-Cf.o test-ser-r-Cf.o test-ser-nr-CF.o test-ser-r-CF.o test-ser-nr-Cm.o test-ser-r-Cm.o test-ser-nr-Cem.o test-ser-r-Cem.o test-ser-nr-Cae.o test-ser-r-Cae.o test-ser-nr-Caef.o test-ser-r-Caef.o test-ser-nr-CaeF.o test-ser-r-CaeF.o test-ser-nr-Cam.o test-ser-r-Cam.o test-ser-nr-Caem.o test-ser-r-Caem.o test-opt-nr-Ca.c test-opt-r-Ca.c test-opt-nr-Ce.c test-opt-r-Ce.c test-opt-nr-Cf.c test-opt-r-Cf.c test-opt-nr-CF.c test-opt-r-CF.c test-opt-nr-Cm.c test-opt-r-Cm.c test-opt-nr-Cem.c test-opt-r-Cem.c test-opt-nr-Cae.c test-opt-r-Cae.c test-opt-nr-Caef.c test-opt-r-Caef.c test-opt-nr-CaeF.c test-opt-r-CaeF.c test-opt-nr-Cam.c test-opt-r-Cam.c test-opt-nr-Caem.c test-opt-r-Caem.c test-ver-nr-Ca.c test-ver-r-Ca.c test-ver-nr-Ce.c test-ver-r-Ce.c test-ver-nr-Cf.c test-ver-r-Cf.c test-ver-nr-CF.c test-ver-r-CF.c test-ver-nr-Cm.c test-ver-r-Cm.c test-ver-nr-Cem.c test-ver-r-Cem.c test-ver-nr-Cae.c test-ver-r-Cae.c test-ver-nr-Caef.c test-ver-r-Caef.c test-ver-nr-CaeF.c test-ver-r-CaeF.c test-ver-nr-Cam.c test-ver-r-Cam.c test-ver-nr-Caem.c test-ver-r-Caem.c test-ser-nr-Ca.c test-ser-r-Ca.c test-ser-nr-Ce.c test-ser-r-Ce.c test-ser-nr-Cf.c test-ser-r-Cf.c test-ser-nr-CF.c test-ser-r-CF.c test-ser-nr-Cm.c test-ser-r-Cm.c test-ser-nr-Cem.c test-ser-r-Cem.c test-ser-nr-Cae.c test-ser-r-Cae.c test-ser-nr-Caef.c test-ser-r-Caef.c test-ser-nr-CaeF.c test-ser-r-CaeF.c test-ser-nr-Cam.c test-ser-r-Cam.c test-ser-nr-Caem.c test-ser-r-Caem.c test-opt-nr-Ca.tables test-opt-r-Ca.tables test-opt-nr-Ce.tables test-opt-r-Ce.tables test-opt-nr-Cf.tables test-opt-r-Cf.tables test-opt-nr-CF.tables test-opt-r-CF.tables test-opt-nr-Cm.tables test-opt-r-Cm.tables test-opt-nr-Cem.tables test-opt-r-Cem.tables test-opt-nr-Cae.tables test-opt-r-Cae.tables test-opt-nr-Caef.tables test-opt-r-Caef.tables test-opt-nr-CaeF.tables test-opt-r-CaeF.tables test-opt-nr-Cam.tables test-opt-r-Cam.tables test-opt-nr-Caem.tables test-opt-r-Caem.tables test-ver-nr-Ca.tables test-ver-r-Ca.tables test-ver-nr-Ce.tables test-ver-r-Ce.tables test-ver-nr-Cf.tables test-ver-r-Cf.tables test-ver-nr-CF.tables test-ver-r-CF.tables test-ver-nr-Cm.tables test-ver-r-Cm.tables test-ver-nr-Cem.tables test-ver-r-Cem.tables test-ver-nr-Cae.tables test-ver-r-Cae.tables test-ver-nr-Caef.tables test-ver-r-Caef.tables test-ver-nr-CaeF.tables test-ver-r-CaeF.tables test-ver-nr-Cam.tables test-ver-r-Cam.tables test-ver-nr-Caem.tables test-ver-r-Caem.tables test-ser-nr-Ca.tables test-ser-r-Ca.tables test-ser-nr-Ce.tables test-ser-r-Ce.tables test-ser-nr-Cf.tables test-ser-r-Cf.tables test-ser-nr-CF.tables test-ser-r-CF.tables test-ser-nr-Cm.tables test-ser-r-Cm.tables test-ser-nr-Cem.tables test-ser-r-Cem.tables test-ser-nr-Cae.tables test-ser-r-Cae.tables test-ser-nr-Caef.tables test-ser-r-Caef.tables test-ser-nr-CaeF.tables test-ser-r-CaeF.tables test-ser-nr-Cam.tables test-ser-r-Cam.tables test-ser-nr-Caem.tables test-ser-r-Caem.tables test-mul.tables all-ser.tables test-opt-nr-Ca test-opt-r-Ca test-opt-nr-Ce test-opt-r-Ce test-opt-nr-Cf test-opt-r-Cf test-opt-nr-CF test-opt-r-CF test-opt-nr-Cm test-opt-r-Cm test-opt-nr-Cem test-opt-r-Cem test-opt-nr-Cae test-opt-r-Cae test-opt-nr-Caef test-opt-r-Caef test-opt-nr-CaeF test-opt-r-CaeF test-opt-nr-Cam test-opt-r-Cam test-opt-nr-Caem test-opt-r-Caem test-ver-nr-Ca test-ver-r-Ca test-ver-nr-Ce test-ver-r-Ce test-ver-nr-Cf test-ver-r-Cf test-ver-nr-CF test-ver-r-CF test-ver-nr-Cm test-ver-r-Cm test-ver-nr-Cem test-ver-r-Cem test-ver-nr-Cae test-ver-r-Cae test-ver-nr-Caef test-ver-r-Caef test-ver-nr-CaeF test-ver-r-CaeF test-ver-nr-Cam test-ver-r-Cam test-ver-nr-Caem test-ver-r-Caem test-ser-nr-Ca test-ser-r-Ca test-ser-nr-Ce test-ser-r-Ce test-ser-nr-Cf test-ser-r-Cf test-ser-nr-CF test-ser-r-CF test-ser-nr-Cm test-ser-r-Cm test-ser-nr-Cem test-ser-r-Cem test-ser-nr-Cae test-ser-r-Cae test-ser-nr-Caef test-ser-r-Caef test-ser-nr-CaeF test-ser-r-CaeF test-ser-nr-Cam test-ser-r-Cam test-ser-nr-Caem test-ser-r-Caem" || rm -f scanner.c OUTPUT test-opt-nr-Ca.o test-opt-r-Ca.o test-opt-nr-Ce.o test-opt-r-Ce.o test-opt-nr-Cf.o test-opt-r-Cf.o test-opt-nr-CF.o test-opt-r-CF.o test-opt-nr-Cm.o test-opt-r-Cm.o test-opt-nr-Cem.o test-opt-r-Cem.o test-opt-nr-Cae.o test-opt-r-Cae.o test-opt-nr-Caef.o test-opt-r-Caef.o test-opt-nr-CaeF.o test-opt-r-CaeF.o test-opt-nr-Cam.o test-opt-r-Cam.o test-opt-nr-Caem.o test-opt-r-Caem.o test-ver-nr-Ca.o test-ver-r-Ca.o test-ver-nr-Ce.o test-ver-r-Ce.o test-ver-nr-Cf.o test-ver-r-Cf.o test-ver-nr-CF.o test-ver-r-CF.o test-ver-nr-Cm.o test-ver-r-Cm.o test-ver-nr-Cem.o test-ver-r-Cem.o test-ver-nr-Cae.o test-ver-r-Cae.o test-ver-nr-Caef.o test-ver-r-Caef.o test-ver-nr-CaeF.o test-ver-r-CaeF.o test-ver-nr-Cam.o test-ver-r-Cam.o test-ver-nr-Caem.o test-ver-r-Caem.o test-ser-nr-Ca.o test-ser-r-Ca.o test-ser-nr-Ce.o test-ser-r-Ce.o test-ser-nr-Cf.o test-ser-r-Cf.o test-ser-nr-CF.o test-ser-r-CF.o test-ser-nr-Cm.o test-ser-r-Cm.o test-ser-nr-Cem.o test-ser-r-Cem.o test-ser-nr-Cae.o test-ser-r-Cae.o test-ser-nr-Caef.o test-ser-r-Caef.o test-ser-nr-CaeF.o test-ser-r-CaeF.o test-ser-nr-Cam.o test-ser-r-Cam.o test-ser-nr-Caem.o test-ser-r-Caem.o test-opt-nr-Ca.c test-opt-r-Ca.c test-opt-nr-Ce.c test-opt-r-Ce.c test-opt-nr-Cf.c test-opt-r-Cf.c test-opt-nr-CF.c test-opt-r-CF.c test-opt-nr-Cm.c test-opt-r-Cm.c test-opt-nr-Cem.c test-opt-r-Cem.c test-opt-nr-Cae.c test-opt-r-Cae.c test-opt-nr-Caef.c test-opt-r-Caef.c test-opt-nr-CaeF.c test-opt-r-CaeF.c test-opt-nr-Cam.c test-opt-r-Cam.c test-opt-nr-Caem.c test-opt-r-Caem.c test-ver-nr-Ca.c test-ver-r-Ca.c test-ver-nr-Ce.c test-ver-r-Ce.c test-ver-nr-Cf.c test-ver-r-Cf.c test-ver-nr-CF.c test-ver-r-CF.c test-ver-nr-Cm.c test-ver-r-Cm.c test-ver-nr-Cem.c test-ver-r-Cem.c test-ver-nr-Cae.c test-ver-r-Cae.c test-ver-nr-Caef.c test-ver-r-Caef.c test-ver-nr-CaeF.c test-ver-r-CaeF.c test-ver-nr-Cam.c test-ver-r-Cam.c test-ver-nr-Caem.c test-ver-r-Caem.c test-ser-nr-Ca.c test-ser-r-Ca.c test-ser-nr-Ce.c test-ser-r-Ce.c test-ser-nr-Cf.c test-ser-r-Cf.c test-ser-nr-CF.c test-ser-r-CF.c test-ser-nr-Cm.c test-ser-r-Cm.c test-ser-nr-Cem.c test-ser-r-Cem.c test-ser-nr-Cae.c test-ser-r-Cae.c test-ser-nr-Caef.c test-ser-r-Caef.c test-ser-nr-CaeF.c test-ser-r-CaeF.c test-ser-nr-Cam.c test-ser-r-Cam.c test-ser-nr-Caem.c test-ser-r-Caem.c test-opt-nr-Ca.tables test-opt-r-Ca.tables test-opt-nr-Ce.tables test-opt-r-Ce.tables test-opt-nr-Cf.tables test-opt-r-Cf.tables test-opt-nr-CF.tables test-opt-r-CF.tables test-opt-nr-Cm.tables test-opt-r-Cm.tables test-opt-nr-Cem.tables test-opt-r-Cem.tables test-opt-nr-Cae.tables test-opt-r-Cae.tables test-opt-nr-Caef.tables test-opt-r-Caef.tables test-opt-nr-CaeF.tables test-opt-r-CaeF.tables test-opt-nr-Cam.tables test-opt-r-Cam.tables test-opt-nr-Caem.tables test-opt-r-Caem.tables test-ver-nr-Ca.tables test-ver-r-Ca.tables test-ver-nr-Ce.tables test-ver-r-Ce.tables test-ver-nr-Cf.tables test-ver-r-Cf.tables test-ver-nr-CF.tables test-ver-r-CF.tables test-ver-nr-Cm.tables test-ver-r-Cm.tables test-ver-nr-Cem.tables test-ver-r-Cem.tables test-ver-nr-Cae.tables test-ver-r-Cae.tables test-ver-nr-Caef.tables test-ver-r-Caef.tables test-ver-nr-CaeF.tables test-ver-r-CaeF.tables test-ver-nr-Cam.tables test-ver-r-Cam.tables test-ver-nr-Caem.tables test-ver-r-Caem.tables test-ser-nr-Ca.tables test-ser-r-Ca.tables test-ser-nr-Ce.tables test-ser-r-Ce.tables test-ser-nr-Cf.tables test-ser-r-Cf.tables test-ser-nr-CF.tables test-ser-r-CF.tables test-ser-nr-Cm.tables test-ser-r-Cm.tables test-ser-nr-Cem.tables test-ser-r-Cem.tables test-ser-nr-Cae.tables test-ser-r-Cae.tables test-ser-nr-Caef.tables test-ser-r-Caef.tables test-ser-nr-CaeF.tables test-ser-r-CaeF.tables test-ser-nr-Cam.tables test-ser-r-Cam.tables test-ser-nr-Caem.tables test-ser-r-Caem.tables test-mul.tables all-ser.tables test-opt-nr-Ca test-opt-r-Ca test-opt-nr-Ce test-opt-r-Ce test-opt-nr-Cf test-opt-r-Cf test-opt-nr-CF test-opt-r-CF test-opt-nr-Cm test-opt-r-Cm test-opt-nr-Cem test-opt-r-Cem test-opt-nr-Cae test-opt-r-Cae test-opt-nr-Caef test-opt-r-Caef test-opt-nr-CaeF test-opt-r-CaeF test-opt-nr-Cam test-opt-r-Cam test-opt-nr-Caem test-opt-r-Caem test-ver-nr-Ca test-ver-r-Ca test-ver-nr-Ce test-ver-r-Ce test-ver-nr-Cf test-ver-r-Cf test-ver-nr-CF test-ver-r-CF test-ver-nr-Cm test-ver-r-Cm test-ver-nr-Cem test-ver-r-Cem test-ver-nr-Cae test-ver-r-Cae test-ver-nr-Caef test-ver-r-Caef test-ver-nr-CaeF test-ver-r-CaeF test-ver-nr-Cam test-ver-r-Cam test-ver-nr-Caem test-ver-r-Caem test-ser-nr-Ca test-ser-r-Ca test-ser-nr-Ce test-ser-r-Ce test-ser-nr-Cf test-ser-r-Cf test-ser-nr-CF test-ser-r-CF test-ser-nr-Cm test-ser-r-Cm test-ser-nr-Cem test-ser-r-Cem test-ser-nr-Cae test-ser-r-Cae test-ser-nr-Caef test-ser-r-Caef test-ser-nr-CaeF test-ser-r-CaeF test-ser-nr-Cam test-ser-r-Cam test-ser-nr-Caem test-ser-r-Caem
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-table-opts'
+Making clean in test-top
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-top'
+test -z "scanner.c scanner.h test-top OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-top OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-top'
+Making clean in test-noansi-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-r'
+test -z "scanner.c parser.c parser.h test-noansi-r OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-noansi-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-r'
+Making clean in test-noansi-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-nr'
+test -z "scanner.c parser.c parser.h test-noansi-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-noansi-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-noansi-nr'
+Making clean in test-alloc-extra
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-alloc-extra'
+test -z "scanner.c scanner.h parser.c parser.h test-alloc-extra OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-alloc-extra OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-alloc-extra'
+Making clean in test-yyextra
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-yyextra'
+test -z "scanner.c scanner.h parser.c parser.h test-yyextra OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-yyextra OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-yyextra'
+Making clean in test-string-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-r'
+test -z "scanner.c scanner.h parser.c parser.h test-string-r OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-string-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-r'
+Making clean in test-string-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-string-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-string-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-string-nr'
+Making clean in test-pthread
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-pthread'
+test -z "scanner.c scanner.h parser.c parser.h test-pthread OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-pthread OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-pthread'
+Making clean in test-prefix-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-r'
+test -z "scanner.c scanner.h parser.c parser.h test-prefix-r OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-prefix-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-r'
+Making clean in test-prefix-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-prefix-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-prefix-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-prefix-nr'
+Making clean in test-include-by-reentrant
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-reentrant'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-reentrant OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-reentrant OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-reentrant'
+Making clean in test-include-by-push
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-push'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-push OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-push OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-push'
+Making clean in test-include-by-buffer
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tblcmp.c' object='tblcmp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tblcmp.c
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-buffer'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-buffer OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-buffer OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-include-by-buffer'
+Making clean in test-c-cpp-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-r'
+test -z "scanner.cpp test-c-cpp-r scanner.o OUTPUT" || rm -f scanner.cpp test-c-cpp-r scanner.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-r'
+Making clean in test-c-cpp-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-nr'
+test -z "scanner.cpp test-c-cpp-nr scanner.o OUTPUT" || rm -f scanner.cpp test-c-cpp-nr scanner.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c-cpp-nr'
+Making clean in test-array-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-r'
+test -z "scanner.c test-array-r OUTPUT scanner.o" || rm -f scanner.c test-array-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-r'
+Making clean in test-array-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-nr'
+test -z "scanner.c parser.c parser.h test-array-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-array-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-array-nr'
+Making clean in test-linedir-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-linedir-r'
+test -z "scanner.c scanner.h test-linedir-r OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-linedir-r OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-linedir-r'
+Making clean in test-lineno-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-nr'
+test -z "scanner.c test-lineno-nr OUTPUT scanner.o" || rm -f scanner.c test-lineno-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-nr'
+Making clean in test-lineno-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-r'
+test -z "scanner.c test-lineno-r OUTPUT scanner.o" || rm -f scanner.c test-lineno-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-lineno-r'
+Making clean in test-debug-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-r'
+test -z "scanner.c test-debug-r OUTPUT scanner.o " || rm -f scanner.c test-debug-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-r'
+Making clean in test-debug-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-nr'
+test -z "scanner.c scanner.h test-debug-nr OUTPUT scanner.o" || rm -f scanner.c scanner.h test-debug-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-debug-nr'
+Making clean in test-mem-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-nr'
+test -z "scanner.c scanner.h test-mem-nr OUTPUT scanner.o" || rm -f scanner.c scanner.h test-mem-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-nr'
+Making clean in test-mem-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-r'
+test -z "scanner.c scanner.h test-mem-r OUTPUT scanner.o" || rm -f scanner.c scanner.h test-mem-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-mem-r'
+Making clean in test-posix
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posix'
+test -z "scanner.c scanner.h test-posix OUTPUT scanner.o" || rm -f scanner.c scanner.h test-posix OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posix'
+Making clean in test-posixly-correct
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posixly-correct'
+test -z "scanner.c scanner.h test-posixly-correct OUTPUT scanner.o " || rm -f scanner.c scanner.h test-posixly-correct OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-posixly-correct'
+Making clean in test-c++-basic
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-basic'
+test -z "scanner.cpp scanner.h test-c++-basic OUTPUT scanner.o" || rm -f scanner.cpp scanner.h test-c++-basic OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-basic'
+Making clean in test-c++-multiple-scanners
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-multiple-scanners'
+test -z "scanner-1.cpp test-c++-multiple-scanners OUTPUT scanner-1.o scanner-2.o main.o scanner-2.cpp" || rm -f scanner-1.cpp test-c++-multiple-scanners OUTPUT scanner-1.o scanner-2.o main.o scanner-2.cpp
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-multiple-scanners'
+Making clean in test-reject
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-reject'
+test -z "scanner.c test-reject-* OUTPUT test-reject-nr.o test-reject-r.o test-reject-ver.o test-reject-ser.o" || rm -f scanner.c test-reject-* OUTPUT test-reject-nr.o test-reject-r.o test-reject-ver.o test-reject-ser.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-reject'
+Making clean in test-header-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-r'
+test -z "scanner.c scanner.h test-header-r OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-header-r OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-r'
+Making clean in test-header-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-nr'
+test -z "scanner.c scanner.h test-header-nr scanner.o main.o OUTPUT" || rm -f scanner.c scanner.h test-header-nr scanner.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-header-nr'
+Making clean in test-multiple-scanners-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-r'
+test -z "scanner-1.c scanner-1.h test-multiple-scanners-r OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h scanner-1.tables scanner-2.tables" || rm -f scanner-1.c scanner-1.h test-multiple-scanners-r OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h scanner-1.tables scanner-2.tables
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-r'
+Making clean in test-multiple-scanners-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-nr'
+test -z "scanner-1.c scanner-1.h test-multiple-scanners-nr OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h" || rm -f scanner-1.c scanner-1.h test-multiple-scanners-nr OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-multiple-scanners-nr'
+Making clean in test-bison-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-nr scanner.o parser.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-nr scanner.o parser.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-nr'
+Making clean in test-bison-yylval
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylval'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-yylval parser.o scanner.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-yylval parser.o scanner.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylval'
+Making clean in test-bison-yylloc
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylloc'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-yylloc scanner.o parser.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-yylloc scanner.o parser.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-bison-yylloc'
+Making clean in test-basic-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-r'
+test -z "scanner.c parser.c parser.h test-basic-r OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-basic-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-r'
+Making clean in test-basic-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-nr'
+test -z "scanner.c parser.c parser.h test-basic-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-basic-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-basic-nr'
+Making clean in test-rescan-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-nr'
+test -z "scanner.c scanner.h test-rescan-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h test-rescan-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-nr'
+Making clean in test-rescan-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-r'
+test -z "scanner.c scanner.h test-rescan-r OUTPUT scanner.o " || rm -f scanner.c scanner.h test-rescan-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-rescan-r'
+Making clean in test-quotes
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-quotes'
+test -z "l.out c.out  scanner.c scanner.h test-quotes OUTPUT scanner.o" || rm -f l.out c.out  scanner.c scanner.h test-quotes OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-quotes'
+Making clean in test-ccl
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-ccl'
+test -z "scanner.c scanner.h  test-ccl OUTPUT scanner.o" || rm -f scanner.c scanner.h  test-ccl OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-ccl'
+Making clean in test-extended
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-extended'
+test -z "scanner.c scanner.h test-extended OUTPUT scanner.o" || rm -f scanner.c scanner.h test-extended OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-extended'
+Making clean in test-c++-yywrap
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-yywrap'
+test -z "scanner.cpp scanner.h test-c++-yywrap OUTPUT scanner.o" || rm -f scanner.cpp scanner.h test-c++-yywrap OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-c++-yywrap'
+Making clean in test-concatenated-options
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-concatenated-options'
+test -z "OUTPUT" || rm -f OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests/test-concatenated-options'
+Making clean in .
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+make[6]: Nothing to be done for `clean-am'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+NOK=;\
+	NFAIL=;\
+	for dir in test-concatenated-options test-c++-yywrap test-extended test-ccl test-quotes test-rescan-r test-rescan-nr test-basic-nr test-basic-r test-bison-yylloc test-bison-yylval test-bison-nr test-multiple-scanners-nr test-multiple-scanners-r test-header-nr test-header-r test-reject test-c++-multiple-scanners test-c++-basic test-posixly-correct test-posix test-mem-r test-mem-nr test-debug-nr test-debug-r test-lineno-r test-lineno-nr test-linedir-r test-array-nr test-array-r test-c-cpp-nr test-c-cpp-r test-include-by-buffer test-include-by-push test-include-by-reentrant test-prefix-nr test-prefix-r test-pthread test-string-nr test-string-r test-yyextra test-alloc-extra test-noansi-nr test-noansi-r test-top test-table-opts ; do \
+		echo Executing test "$dir" ; \
+		( cd "$dir" && /usr/gnu/bin/make test  > OUTPUT 2>&1 ) ; \
+		case $? in \
+			0 )  echo Test "$dir" succeeded.; \
+				NOK=0$NOK;\
+				;; \
+			* )  echo Test "$dir" FAILED. See "$dir"/OUTPUT for details. ; \
+				NFAIL=0$NFAIL; \
+				;; \
+		esac; \
+	done ; \
+	echo Results: ; \
+	echo Tests succeeded: `echo  "$NOK\c"|wc -c`; \
+	echo Tests FAILED: `echo  "$NFAIL\c"|wc -c` ; \
+	test "$NFAIL" = ""
+Executing test test-concatenated-options
+Test test-concatenated-options succeeded.
+Executing test test-c++-yywrap
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/yylex.c' object='yylex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/yylex.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/options.c' object='options.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/options.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanopt.c' object='scanopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/scanopt.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/buf.c' object='buf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/buf.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables.c' object='tables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables_shared.c' object='tables_shared.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/tables_shared.c
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/filter.c' object='filter.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/filter.c
+Test test-c++-yywrap succeeded.
+Executing test test-extended
+source='/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35 -I.  -DLOCALEDIR=\"/usr/share/locale\" -I/export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/intl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/flex/flex-2.5.35/regex.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -m64 -o flex  ccl.o dfa.o ecs.o scanflags.o gen.o main.o misc.o nfa.o parse.o scan.o skel.o sym.o tblcmp.o yylex.o options.o scanopt.o buf.o tables.o tables_shared.o filter.o regex.o  -lm 
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+Making check in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/doc'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/doc'
+Making check in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/m4'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/m4'
+Making check in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples'
+Making check in manual
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples/manual'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples/manual'
+Making check in fastwc
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples/fastwc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples/fastwc'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/examples'
+Making check in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/po'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/po'
+Making check in tools
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tools'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tools'
+Making check in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+Making check in test-concatenated-options
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-concatenated-options'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-concatenated-options'
+Making check in test-c++-yywrap
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-yywrap'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-yywrap'
+Making check in test-extended
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-extended'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-extended'
+Making check in test-ccl
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-ccl'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-ccl'
+Making check in test-quotes
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-quotes'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-quotes'
+Making check in test-rescan-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-r'
+Making check in test-rescan-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-nr'
+Making check in test-basic-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-nr'
+Making check in test-basic-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-r'
+Making check in test-bison-yylloc
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylloc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylloc'
+Making check in test-bison-yylval
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylval'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylval'
+Making check in test-bison-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-nr'
+Making check in test-multiple-scanners-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-nr'
+Making check in test-multiple-scanners-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-r'
+Making check in test-header-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-nr'
+Making check in test-header-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-r'
+Making check in test-reject
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-reject'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-reject'
+Making check in test-c++-multiple-scanners
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-multiple-scanners'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-multiple-scanners'
+Making check in test-c++-basic
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-basic'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-basic'
+Making check in test-posixly-correct
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posixly-correct'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posixly-correct'
+Making check in test-posix
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posix'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posix'
+Making check in test-mem-r
+Test test-extended succeeded.
+Executing test test-ccl
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-r'
+Making check in test-mem-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-nr'
+Making check in test-debug-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-nr'
+Making check in test-debug-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-r'
+Making check in test-lineno-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-r'
+Making check in test-lineno-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-nr'
+Making check in test-linedir-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-linedir-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-linedir-r'
+Making check in test-array-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-nr'
+Making check in test-array-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-r'
+Making check in test-c-cpp-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-nr'
+Making check in test-c-cpp-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-r'
+Making check in test-include-by-buffer
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-buffer'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-buffer'
+Making check in test-include-by-push
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-push'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-push'
+Making check in test-include-by-reentrant
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-reentrant'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-reentrant'
+Making check in test-prefix-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-nr'
+Making check in test-prefix-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-r'
+Making check in test-pthread
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-pthread'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-pthread'
+Making check in test-string-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-nr'
+Making check in test-string-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-r'
+Making check in test-yyextra
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-yyextra'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-yyextra'
+Making check in test-alloc-extra
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-alloc-extra'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-alloc-extra'
+Making check in test-noansi-nr
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-nr'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-nr'
+Making check in test-noansi-r
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-r'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-r'
+Making check in test-top
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-top'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-top'
+Making check in test-table-opts
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-table-opts'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-table-opts'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+/usr/gnu/bin/make  check-local
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+Making clean in test-table-opts
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-table-opts'
+test -z "scanner.c OUTPUT test-opt-nr-Ca.o test-opt-r-Ca.o test-opt-nr-Ce.o test-opt-r-Ce.o test-opt-nr-Cf.o test-opt-r-Cf.o test-opt-nr-CF.o test-opt-r-CF.o test-opt-nr-Cm.o test-opt-r-Cm.o test-opt-nr-Cem.o test-opt-r-Cem.o test-opt-nr-Cae.o test-opt-r-Cae.o test-opt-nr-Caef.o test-opt-r-Caef.o test-opt-nr-CaeF.o test-opt-r-CaeF.o test-opt-nr-Cam.o test-opt-r-Cam.o test-opt-nr-Caem.o test-opt-r-Caem.o test-ver-nr-Ca.o test-ver-r-Ca.o test-ver-nr-Ce.o test-ver-r-Ce.o test-ver-nr-Cf.o test-ver-r-Cf.o test-ver-nr-CF.o test-ver-r-CF.o test-ver-nr-Cm.o test-ver-r-Cm.o test-ver-nr-Cem.o test-ver-r-Cem.o test-ver-nr-Cae.o test-ver-r-Cae.o test-ver-nr-Caef.o test-ver-r-Caef.o test-ver-nr-CaeF.o test-ver-r-CaeF.o test-ver-nr-Cam.o test-ver-r-Cam.o test-ver-nr-Caem.o test-ver-r-Caem.o test-ser-nr-Ca.o test-ser-r-Ca.o test-ser-nr-Ce.o test-ser-r-Ce.o test-ser-nr-Cf.o test-ser-r-Cf.o test-ser-nr-CF.o test-ser-r-CF.o test-ser-nr-Cm.o test-ser-r-Cm.o test-ser-nr-Cem.o test-ser-r-Cem.o test-ser-nr-Cae.o test-ser-r-Cae.o test-ser-nr-Caef.o test-ser-r-Caef.o test-ser-nr-CaeF.o test-ser-r-CaeF.o test-ser-nr-Cam.o test-ser-r-Cam.o test-ser-nr-Caem.o test-ser-r-Caem.o test-opt-nr-Ca.c test-opt-r-Ca.c test-opt-nr-Ce.c test-opt-r-Ce.c test-opt-nr-Cf.c test-opt-r-Cf.c test-opt-nr-CF.c test-opt-r-CF.c test-opt-nr-Cm.c test-opt-r-Cm.c test-opt-nr-Cem.c test-opt-r-Cem.c test-opt-nr-Cae.c test-opt-r-Cae.c test-opt-nr-Caef.c test-opt-r-Caef.c test-opt-nr-CaeF.c test-opt-r-CaeF.c test-opt-nr-Cam.c test-opt-r-Cam.c test-opt-nr-Caem.c test-opt-r-Caem.c test-ver-nr-Ca.c test-ver-r-Ca.c test-ver-nr-Ce.c test-ver-r-Ce.c test-ver-nr-Cf.c test-ver-r-Cf.c test-ver-nr-CF.c test-ver-r-CF.c test-ver-nr-Cm.c test-ver-r-Cm.c test-ver-nr-Cem.c test-ver-r-Cem.c test-ver-nr-Cae.c test-ver-r-Cae.c test-ver-nr-Caef.c test-ver-r-Caef.c test-ver-nr-CaeF.c test-ver-r-CaeF.c test-ver-nr-Cam.c test-ver-r-Cam.c test-ver-nr-Caem.c test-ver-r-Caem.c test-ser-nr-Ca.c test-ser-r-Ca.c test-ser-nr-Ce.c test-ser-r-Ce.c test-ser-nr-Cf.c test-ser-r-Cf.c test-ser-nr-CF.c test-ser-r-CF.c test-ser-nr-Cm.c test-ser-r-Cm.c test-ser-nr-Cem.c test-ser-r-Cem.c test-ser-nr-Cae.c test-ser-r-Cae.c test-ser-nr-Caef.c test-ser-r-Caef.c test-ser-nr-CaeF.c test-ser-r-CaeF.c test-ser-nr-Cam.c test-ser-r-Cam.c test-ser-nr-Caem.c test-ser-r-Caem.c test-opt-nr-Ca.tables test-opt-r-Ca.tables test-opt-nr-Ce.tables test-opt-r-Ce.tables test-opt-nr-Cf.tables test-opt-r-Cf.tables test-opt-nr-CF.tables test-opt-r-CF.tables test-opt-nr-Cm.tables test-opt-r-Cm.tables test-opt-nr-Cem.tables test-opt-r-Cem.tables test-opt-nr-Cae.tables test-opt-r-Cae.tables test-opt-nr-Caef.tables test-opt-r-Caef.tables test-opt-nr-CaeF.tables test-opt-r-CaeF.tables test-opt-nr-Cam.tables test-opt-r-Cam.tables test-opt-nr-Caem.tables test-opt-r-Caem.tables test-ver-nr-Ca.tables test-ver-r-Ca.tables test-ver-nr-Ce.tables test-ver-r-Ce.tables test-ver-nr-Cf.tables test-ver-r-Cf.tables test-ver-nr-CF.tables test-ver-r-CF.tables test-ver-nr-Cm.tables test-ver-r-Cm.tables test-ver-nr-Cem.tables test-ver-r-Cem.tables test-ver-nr-Cae.tables test-ver-r-Cae.tables test-ver-nr-Caef.tables test-ver-r-Caef.tables test-ver-nr-CaeF.tables test-ver-r-CaeF.tables test-ver-nr-Cam.tables test-ver-r-Cam.tables test-ver-nr-Caem.tables test-ver-r-Caem.tables test-ser-nr-Ca.tables test-ser-r-Ca.tables test-ser-nr-Ce.tables test-ser-r-Ce.tables test-ser-nr-Cf.tables test-ser-r-Cf.tables test-ser-nr-CF.tables test-ser-r-CF.tables test-ser-nr-Cm.tables test-ser-r-Cm.tables test-ser-nr-Cem.tables test-ser-r-Cem.tables test-ser-nr-Cae.tables test-ser-r-Cae.tables test-ser-nr-Caef.tables test-ser-r-Caef.tables test-ser-nr-CaeF.tables test-ser-r-CaeF.tables test-ser-nr-Cam.tables test-ser-r-Cam.tables test-ser-nr-Caem.tables test-ser-r-Caem.tables test-mul.tables all-ser.tables test-opt-nr-Ca test-opt-r-Ca test-opt-nr-Ce test-opt-r-Ce test-opt-nr-Cf test-opt-r-Cf test-opt-nr-CF test-opt-r-CF test-opt-nr-Cm test-opt-r-Cm test-opt-nr-Cem test-opt-r-Cem test-opt-nr-Cae test-opt-r-Cae test-opt-nr-Caef test-opt-r-Caef test-opt-nr-CaeF test-opt-r-CaeF test-opt-nr-Cam test-opt-r-Cam test-opt-nr-Caem test-opt-r-Caem test-ver-nr-Ca test-ver-r-Ca test-ver-nr-Ce test-ver-r-Ce test-ver-nr-Cf test-ver-r-Cf test-ver-nr-CF test-ver-r-CF test-ver-nr-Cm test-ver-r-Cm test-ver-nr-Cem test-ver-r-Cem test-ver-nr-Cae test-ver-r-Cae test-ver-nr-Caef test-ver-r-Caef test-ver-nr-CaeF test-ver-r-CaeF test-ver-nr-Cam test-ver-r-Cam test-ver-nr-Caem test-ver-r-Caem test-ser-nr-Ca test-ser-r-Ca test-ser-nr-Ce test-ser-r-Ce test-ser-nr-Cf test-ser-r-Cf test-ser-nr-CF test-ser-r-CF test-ser-nr-Cm test-ser-r-Cm test-ser-nr-Cem test-ser-r-Cem test-ser-nr-Cae test-ser-r-Cae test-ser-nr-Caef test-ser-r-Caef test-ser-nr-CaeF test-ser-r-CaeF test-ser-nr-Cam test-ser-r-Cam test-ser-nr-Caem test-ser-r-Caem" || rm -f scanner.c OUTPUT test-opt-nr-Ca.o test-opt-r-Ca.o test-opt-nr-Ce.o test-opt-r-Ce.o test-opt-nr-Cf.o test-opt-r-Cf.o test-opt-nr-CF.o test-opt-r-CF.o test-opt-nr-Cm.o test-opt-r-Cm.o test-opt-nr-Cem.o test-opt-r-Cem.o test-opt-nr-Cae.o test-opt-r-Cae.o test-opt-nr-Caef.o test-opt-r-Caef.o test-opt-nr-CaeF.o test-opt-r-CaeF.o test-opt-nr-Cam.o test-opt-r-Cam.o test-opt-nr-Caem.o test-opt-r-Caem.o test-ver-nr-Ca.o test-ver-r-Ca.o test-ver-nr-Ce.o test-ver-r-Ce.o test-ver-nr-Cf.o test-ver-r-Cf.o test-ver-nr-CF.o test-ver-r-CF.o test-ver-nr-Cm.o test-ver-r-Cm.o test-ver-nr-Cem.o test-ver-r-Cem.o test-ver-nr-Cae.o test-ver-r-Cae.o test-ver-nr-Caef.o test-ver-r-Caef.o test-ver-nr-CaeF.o test-ver-r-CaeF.o test-ver-nr-Cam.o test-ver-r-Cam.o test-ver-nr-Caem.o test-ver-r-Caem.o test-ser-nr-Ca.o test-ser-r-Ca.o test-ser-nr-Ce.o test-ser-r-Ce.o test-ser-nr-Cf.o test-ser-r-Cf.o test-ser-nr-CF.o test-ser-r-CF.o test-ser-nr-Cm.o test-ser-r-Cm.o test-ser-nr-Cem.o test-ser-r-Cem.o test-ser-nr-Cae.o test-ser-r-Cae.o test-ser-nr-Caef.o test-ser-r-Caef.o test-ser-nr-CaeF.o test-ser-r-CaeF.o test-ser-nr-Cam.o test-ser-r-Cam.o test-ser-nr-Caem.o test-ser-r-Caem.o test-opt-nr-Ca.c test-opt-r-Ca.c test-opt-nr-Ce.c test-opt-r-Ce.c test-opt-nr-Cf.c test-opt-r-Cf.c test-opt-nr-CF.c test-opt-r-CF.c test-opt-nr-Cm.c test-opt-r-Cm.c test-opt-nr-Cem.c test-opt-r-Cem.c test-opt-nr-Cae.c test-opt-r-Cae.c test-opt-nr-Caef.c test-opt-r-Caef.c test-opt-nr-CaeF.c test-opt-r-CaeF.c test-opt-nr-Cam.c test-opt-r-Cam.c test-opt-nr-Caem.c test-opt-r-Caem.c test-ver-nr-Ca.c test-ver-r-Ca.c test-ver-nr-Ce.c test-ver-r-Ce.c test-ver-nr-Cf.c test-ver-r-Cf.c test-ver-nr-CF.c test-ver-r-CF.c test-ver-nr-Cm.c test-ver-r-Cm.c test-ver-nr-Cem.c test-ver-r-Cem.c test-ver-nr-Cae.c test-ver-r-Cae.c test-ver-nr-Caef.c test-ver-r-Caef.c test-ver-nr-CaeF.c test-ver-r-CaeF.c test-ver-nr-Cam.c test-ver-r-Cam.c test-ver-nr-Caem.c test-ver-r-Caem.c test-ser-nr-Ca.c test-ser-r-Ca.c test-ser-nr-Ce.c test-ser-r-Ce.c test-ser-nr-Cf.c test-ser-r-Cf.c test-ser-nr-CF.c test-ser-r-CF.c test-ser-nr-Cm.c test-ser-r-Cm.c test-ser-nr-Cem.c test-ser-r-Cem.c test-ser-nr-Cae.c test-ser-r-Cae.c test-ser-nr-Caef.c test-ser-r-Caef.c test-ser-nr-CaeF.c test-ser-r-CaeF.c test-ser-nr-Cam.c test-ser-r-Cam.c test-ser-nr-Caem.c test-ser-r-Caem.c test-opt-nr-Ca.tables test-opt-r-Ca.tables test-opt-nr-Ce.tables test-opt-r-Ce.tables test-opt-nr-Cf.tables test-opt-r-Cf.tables test-opt-nr-CF.tables test-opt-r-CF.tables test-opt-nr-Cm.tables test-opt-r-Cm.tables test-opt-nr-Cem.tables test-opt-r-Cem.tables test-opt-nr-Cae.tables test-opt-r-Cae.tables test-opt-nr-Caef.tables test-opt-r-Caef.tables test-opt-nr-CaeF.tables test-opt-r-CaeF.tables test-opt-nr-Cam.tables test-opt-r-Cam.tables test-opt-nr-Caem.tables test-opt-r-Caem.tables test-ver-nr-Ca.tables test-ver-r-Ca.tables test-ver-nr-Ce.tables test-ver-r-Ce.tables test-ver-nr-Cf.tables test-ver-r-Cf.tables test-ver-nr-CF.tables test-ver-r-CF.tables test-ver-nr-Cm.tables test-ver-r-Cm.tables test-ver-nr-Cem.tables test-ver-r-Cem.tables test-ver-nr-Cae.tables test-ver-r-Cae.tables test-ver-nr-Caef.tables test-ver-r-Caef.tables test-ver-nr-CaeF.tables test-ver-r-CaeF.tables test-ver-nr-Cam.tables test-ver-r-Cam.tables test-ver-nr-Caem.tables test-ver-r-Caem.tables test-ser-nr-Ca.tables test-ser-r-Ca.tables test-ser-nr-Ce.tables test-ser-r-Ce.tables test-ser-nr-Cf.tables test-ser-r-Cf.tables test-ser-nr-CF.tables test-ser-r-CF.tables test-ser-nr-Cm.tables test-ser-r-Cm.tables test-ser-nr-Cem.tables test-ser-r-Cem.tables test-ser-nr-Cae.tables test-ser-r-Cae.tables test-ser-nr-Caef.tables test-ser-r-Caef.tables test-ser-nr-CaeF.tables test-ser-r-CaeF.tables test-ser-nr-Cam.tables test-ser-r-Cam.tables test-ser-nr-Caem.tables test-ser-r-Caem.tables test-mul.tables all-ser.tables test-opt-nr-Ca test-opt-r-Ca test-opt-nr-Ce test-opt-r-Ce test-opt-nr-Cf test-opt-r-Cf test-opt-nr-CF test-opt-r-CF test-opt-nr-Cm test-opt-r-Cm test-opt-nr-Cem test-opt-r-Cem test-opt-nr-Cae test-opt-r-Cae test-opt-nr-Caef test-opt-r-Caef test-opt-nr-CaeF test-opt-r-CaeF test-opt-nr-Cam test-opt-r-Cam test-opt-nr-Caem test-opt-r-Caem test-ver-nr-Ca test-ver-r-Ca test-ver-nr-Ce test-ver-r-Ce test-ver-nr-Cf test-ver-r-Cf test-ver-nr-CF test-ver-r-CF test-ver-nr-Cm test-ver-r-Cm test-ver-nr-Cem test-ver-r-Cem test-ver-nr-Cae test-ver-r-Cae test-ver-nr-Caef test-ver-r-Caef test-ver-nr-CaeF test-ver-r-CaeF test-ver-nr-Cam test-ver-r-Cam test-ver-nr-Caem test-ver-r-Caem test-ser-nr-Ca test-ser-r-Ca test-ser-nr-Ce test-ser-r-Ce test-ser-nr-Cf test-ser-r-Cf test-ser-nr-CF test-ser-r-CF test-ser-nr-Cm test-ser-r-Cm test-ser-nr-Cem test-ser-r-Cem test-ser-nr-Cae test-ser-r-Cae test-ser-nr-Caef test-ser-r-Caef test-ser-nr-CaeF test-ser-r-CaeF test-ser-nr-Cam test-ser-r-Cam test-ser-nr-Caem test-ser-r-Caem
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-table-opts'
+Making clean in test-top
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-top'
+test -z "scanner.c scanner.h test-top OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-top OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-top'
+Making clean in test-noansi-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-r'
+test -z "scanner.c parser.c parser.h test-noansi-r OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-noansi-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-r'
+Making clean in test-noansi-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-nr'
+test -z "scanner.c parser.c parser.h test-noansi-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-noansi-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-noansi-nr'
+Making clean in test-alloc-extra
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-alloc-extra'
+test -z "scanner.c scanner.h parser.c parser.h test-alloc-extra OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-alloc-extra OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-alloc-extra'
+Making clean in test-yyextra
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-yyextra'
+test -z "scanner.c scanner.h parser.c parser.h test-yyextra OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-yyextra OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-yyextra'
+Making clean in test-string-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-r'
+test -z "scanner.c scanner.h parser.c parser.h test-string-r OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-string-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-r'
+Making clean in test-string-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-string-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-string-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-string-nr'
+Making clean in test-pthread
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-pthread'
+test -z "scanner.c scanner.h parser.c parser.h test-pthread OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-pthread OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-pthread'
+Making clean in test-prefix-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-r'
+test -z "scanner.c scanner.h parser.c parser.h test-prefix-r OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-prefix-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-r'
+Making clean in test-prefix-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-prefix-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-prefix-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-prefix-nr'
+Making clean in test-include-by-reentrant
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-reentrant'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-reentrant OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-reentrant OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-reentrant'
+Making clean in test-include-by-push
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-push'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-push OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-push OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-push'
+Making clean in test-include-by-buffer
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-buffer'
+test -z "scanner.c scanner.h parser.c parser.h test-include-by-buffer OUTPUT scanner.o " || rm -f scanner.c scanner.h parser.c parser.h test-include-by-buffer OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-include-by-buffer'
+Making clean in test-c-cpp-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-r'
+test -z "scanner.cpp test-c-cpp-r scanner.o OUTPUT" || rm -f scanner.cpp test-c-cpp-r scanner.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-r'
+Making clean in test-c-cpp-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-nr'
+test -z "scanner.cpp test-c-cpp-nr scanner.o OUTPUT" || rm -f scanner.cpp test-c-cpp-nr scanner.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c-cpp-nr'
+Making clean in test-array-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-r'
+test -z "scanner.c test-array-r OUTPUT scanner.o" || rm -f scanner.c test-array-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-r'
+Making clean in test-array-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-nr'
+test -z "scanner.c parser.c parser.h test-array-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-array-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-array-nr'
+Making clean in test-linedir-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-linedir-r'
+test -z "scanner.c scanner.h test-linedir-r OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-linedir-r OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-linedir-r'
+Making clean in test-lineno-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-nr'
+test -z "scanner.c test-lineno-nr OUTPUT scanner.o" || rm -f scanner.c test-lineno-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-nr'
+Making clean in test-lineno-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-r'
+test -z "scanner.c test-lineno-r OUTPUT scanner.o" || rm -f scanner.c test-lineno-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-lineno-r'
+Making clean in test-debug-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-r'
+test -z "scanner.c test-debug-r OUTPUT scanner.o " || rm -f scanner.c test-debug-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-r'
+Making clean in test-debug-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-nr'
+test -z "scanner.c scanner.h test-debug-nr OUTPUT scanner.o" || rm -f scanner.c scanner.h test-debug-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-debug-nr'
+Making clean in test-mem-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-nr'
+test -z "scanner.c scanner.h test-mem-nr OUTPUT scanner.o" || rm -f scanner.c scanner.h test-mem-nr OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-nr'
+Making clean in test-mem-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-r'
+test -z "scanner.c scanner.h test-mem-r OUTPUT scanner.o" || rm -f scanner.c scanner.h test-mem-r OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-mem-r'
+Making clean in test-posix
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posix'
+test -z "scanner.c scanner.h test-posix OUTPUT scanner.o" || rm -f scanner.c scanner.h test-posix OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posix'
+Making clean in test-posixly-correct
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posixly-correct'
+test -z "scanner.c scanner.h test-posixly-correct OUTPUT scanner.o " || rm -f scanner.c scanner.h test-posixly-correct OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-posixly-correct'
+Making clean in test-c++-basic
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-basic'
+test -z "scanner.cpp scanner.h test-c++-basic OUTPUT scanner.o" || rm -f scanner.cpp scanner.h test-c++-basic OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-basic'
+Making clean in test-c++-multiple-scanners
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-multiple-scanners'
+test -z "scanner-1.cpp test-c++-multiple-scanners OUTPUT scanner-1.o scanner-2.o main.o scanner-2.cpp" || rm -f scanner-1.cpp test-c++-multiple-scanners OUTPUT scanner-1.o scanner-2.o main.o scanner-2.cpp
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-multiple-scanners'
+Making clean in test-reject
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-reject'
+test -z "scanner.c test-reject-* OUTPUT test-reject-nr.o test-reject-r.o test-reject-ver.o test-reject-ser.o" || rm -f scanner.c test-reject-* OUTPUT test-reject-nr.o test-reject-r.o test-reject-ver.o test-reject-ser.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-reject'
+Making clean in test-header-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-r'
+test -z "scanner.c scanner.h test-header-r OUTPUT scanner.o main.o" || rm -f scanner.c scanner.h test-header-r OUTPUT scanner.o main.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-r'
+Making clean in test-header-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-nr'
+test -z "scanner.c scanner.h test-header-nr scanner.o main.o OUTPUT" || rm -f scanner.c scanner.h test-header-nr scanner.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-header-nr'
+Making clean in test-multiple-scanners-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-r'
+test -z "scanner-1.c scanner-1.h test-multiple-scanners-r OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h scanner-1.tables scanner-2.tables" || rm -f scanner-1.c scanner-1.h test-multiple-scanners-r OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h scanner-1.tables scanner-2.tables
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-r'
+Making clean in test-multiple-scanners-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-nr'
+test -z "scanner-1.c scanner-1.h test-multiple-scanners-nr OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h" || rm -f scanner-1.c scanner-1.h test-multiple-scanners-nr OUTPUT scanner-1.o scanner-2.o main.o scanner-2.c scanner-2.h
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-multiple-scanners-nr'
+Making clean in test-bison-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-nr'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-nr scanner.o parser.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-nr scanner.o parser.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-nr'
+Making clean in test-bison-yylval
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylval'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-yylval parser.o scanner.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-yylval parser.o scanner.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylval'
+Making clean in test-bison-yylloc
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylloc'
+test -z "scanner.c scanner.h parser.c parser.h test-bison-yylloc scanner.o parser.o main.o OUTPUT" || rm -f scanner.c scanner.h parser.c parser.h test-bison-yylloc scanner.o parser.o main.o OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-bison-yylloc'
+Making clean in test-basic-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-r'
+test -z "scanner.c parser.c parser.h test-basic-r OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-basic-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-r'
+Making clean in test-basic-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-nr'
+test -z "scanner.c parser.c parser.h test-basic-nr OUTPUT scanner.o " || rm -f scanner.c parser.c parser.h test-basic-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-basic-nr'
+Making clean in test-rescan-nr
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-nr'
+test -z "scanner.c scanner.h test-rescan-nr OUTPUT scanner.o " || rm -f scanner.c scanner.h test-rescan-nr OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-nr'
+Making clean in test-rescan-r
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-r'
+test -z "scanner.c scanner.h test-rescan-r OUTPUT scanner.o " || rm -f scanner.c scanner.h test-rescan-r OUTPUT scanner.o 
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-rescan-r'
+Making clean in test-quotes
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-quotes'
+test -z "l.out c.out  scanner.c scanner.h test-quotes OUTPUT scanner.o" || rm -f l.out c.out  scanner.c scanner.h test-quotes OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-quotes'
+Making clean in test-ccl
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-ccl'
+test -z "scanner.c scanner.h  test-ccl OUTPUT scanner.o" || rm -f scanner.c scanner.h  test-ccl OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-ccl'
+Making clean in test-extended
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-extended'
+test -z "scanner.c scanner.h test-extended OUTPUT scanner.o" || rm -f scanner.c scanner.h test-extended OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-extended'
+Making clean in test-c++-yywrap
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-yywrap'
+test -z "scanner.cpp scanner.h test-c++-yywrap OUTPUT scanner.o" || rm -f scanner.cpp scanner.h test-c++-yywrap OUTPUT scanner.o
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-c++-yywrap'
+Making clean in test-concatenated-options
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-concatenated-options'
+test -z "OUTPUT" || rm -f OUTPUT
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests/test-concatenated-options'
+Making clean in .
+make[6]: Entering directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+make[6]: Nothing to be done for `clean-am'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+NOK=;\
+	NFAIL=;\
+	for dir in test-concatenated-options test-c++-yywrap test-extended test-ccl test-quotes test-rescan-r test-rescan-nr test-basic-nr test-basic-r test-bison-yylloc test-bison-yylval test-bison-nr test-multiple-scanners-nr test-multiple-scanners-r test-header-nr test-header-r test-reject test-c++-multiple-scanners test-c++-basic test-posixly-correct test-posix test-mem-r test-mem-nr test-debug-nr test-debug-r test-lineno-r test-lineno-nr test-linedir-r test-array-nr test-array-r test-c-cpp-nr test-c-cpp-r test-include-by-buffer test-include-by-push test-include-by-reentrant test-prefix-nr test-prefix-r test-pthread test-string-nr test-string-r test-yyextra test-alloc-extra test-noansi-nr test-noansi-r test-top test-table-opts ; do \
+		echo Executing test "$dir" ; \
+		( cd "$dir" && /usr/gnu/bin/make test  > OUTPUT 2>&1 ) ; \
+		case $? in \
+			0 )  echo Test "$dir" succeeded.; \
+				NOK=0$NOK;\
+				;; \
+			* )  echo Test "$dir" FAILED. See "$dir"/OUTPUT for details. ; \
+				NFAIL=0$NFAIL; \
+				;; \
+		esac; \
+	done ; \
+	echo Results: ; \
+	echo Tests succeeded: `echo  "$NOK\c"|wc -c`; \
+	echo Tests FAILED: `echo  "$NFAIL\c"|wc -c` ; \
+	test "$NFAIL" = ""
+Executing test test-concatenated-options
+Test test-concatenated-options succeeded.
+Executing test test-c++-yywrap
+Test test-ccl succeeded.
+Executing test test-quotes
+Test test-quotes succeeded.
+Executing test test-rescan-r
+Test test-rescan-r succeeded.
+Executing test test-rescan-nr
+Test test-c++-yywrap succeeded.
+Executing test test-extended
+Test test-rescan-nr succeeded.
+Executing test test-basic-nr
+Test test-extended succeeded.
+Executing test test-ccl
+Test test-basic-nr succeeded.
+Executing test test-basic-r
+Test test-ccl succeeded.
+Executing test test-quotes
+Test test-basic-r succeeded.
+Executing test test-bison-yylloc
+Test test-quotes succeeded.
+Executing test test-rescan-r
+Test test-bison-yylloc succeeded.
+Executing test test-bison-yylval
+Test test-rescan-r succeeded.
+Executing test test-rescan-nr
+Test test-rescan-nr succeeded.
+Executing test test-basic-nr
+Test test-bison-yylval succeeded.
+Executing test test-bison-nr
+Test test-basic-nr succeeded.
+Executing test test-basic-r
+Test test-bison-nr succeeded.
+Executing test test-multiple-scanners-nr
+Test test-basic-r succeeded.
+Executing test test-bison-yylloc
+Test test-multiple-scanners-nr succeeded.
+Executing test test-multiple-scanners-r
+Test test-bison-yylloc succeeded.
+Executing test test-bison-yylval
+Test test-bison-yylval succeeded.
+Executing test test-bison-nr
+Test test-multiple-scanners-r succeeded.
+Executing test test-header-nr
+Test test-header-nr succeeded.
+Executing test test-header-r
+Test test-bison-nr succeeded.
+Executing test test-multiple-scanners-nr
+Test test-header-r succeeded.
+Executing test test-reject
+Test test-multiple-scanners-nr succeeded.
+Executing test test-multiple-scanners-r
+Test test-multiple-scanners-r succeeded.
+Executing test test-header-nr
+Test test-reject succeeded.
+Executing test test-c++-multiple-scanners
+Test test-header-nr succeeded.
+Executing test test-header-r
+Test test-header-r succeeded.
+Executing test test-reject
+Test test-c++-multiple-scanners succeeded.
+Executing test test-c++-basic
+Test test-c++-basic succeeded.
+Executing test test-posixly-correct
+Test test-posixly-correct succeeded.
+Executing test test-posix
+Test test-posix succeeded.
+Executing test test-mem-r
+Test test-reject succeeded.
+Executing test test-c++-multiple-scanners
+Test test-mem-r succeeded.
+Executing test test-mem-nr
+Test test-c++-multiple-scanners succeeded.
+Executing test test-c++-basic
+Test test-mem-nr succeeded.
+Executing test test-debug-nr
+Test test-debug-nr succeeded.
+Executing test test-debug-r
+Test test-c++-basic succeeded.
+Executing test test-posixly-correct
+Test test-debug-r succeeded.
+Executing test test-lineno-r
+Test test-posixly-correct succeeded.
+Executing test test-posix
+Test test-lineno-r succeeded.
+Executing test test-lineno-nr
+Test test-posix succeeded.
+Executing test test-mem-r
+Test test-lineno-nr succeeded.
+Executing test test-linedir-r
+Test test-linedir-r succeeded.
+Executing test test-array-nr
+Test test-mem-r succeeded.
+Executing test test-mem-nr
+Test test-array-nr succeeded.
+Executing test test-array-r
+Test test-mem-nr succeeded.
+Executing test test-debug-nr
+Test test-array-r succeeded.
+Executing test test-c-cpp-nr
+Test test-c-cpp-nr succeeded.
+Executing test test-c-cpp-r
+Test test-debug-nr succeeded.
+Executing test test-debug-r
+Test test-c-cpp-r succeeded.
+Executing test test-include-by-buffer
+Test test-include-by-buffer succeeded.
+Executing test test-include-by-push
+Test test-debug-r succeeded.
+Executing test test-lineno-r
+Test test-include-by-push succeeded.
+Executing test test-include-by-reentrant
+Test test-lineno-r succeeded.
+Executing test test-lineno-nr
+Test test-include-by-reentrant succeeded.
+Executing test test-prefix-nr
+Test test-lineno-nr succeeded.
+Executing test test-linedir-r
+Test test-prefix-nr succeeded.
+Executing test test-prefix-r
+Test test-linedir-r succeeded.
+Executing test test-array-nr
+Test test-prefix-r succeeded.
+Executing test test-pthread
+Test test-array-nr succeeded.
+Executing test test-array-r
+Test test-pthread succeeded.
+Executing test test-string-nr
+Test test-array-r succeeded.
+Executing test test-c-cpp-nr
+Test test-c-cpp-nr succeeded.
+Executing test test-c-cpp-r
+Test test-c-cpp-r succeeded.
+Executing test test-include-by-buffer
+Test test-string-nr succeeded.
+Executing test test-string-r
+Test test-include-by-buffer succeeded.
+Executing test test-include-by-push
+Test test-string-r succeeded.
+Executing test test-yyextra
+Test test-include-by-push succeeded.
+Executing test test-include-by-reentrant
+Test test-yyextra succeeded.
+Executing test test-alloc-extra
+Test test-include-by-reentrant succeeded.
+Executing test test-prefix-nr
+Test test-alloc-extra succeeded.
+Executing test test-noansi-nr
+Test test-prefix-nr succeeded.
+Executing test test-prefix-r
+Test test-noansi-nr succeeded.
+Executing test test-noansi-r
+Test test-noansi-r succeeded.
+Executing test test-top
+Test test-prefix-r succeeded.
+Executing test test-pthread
+Test test-top succeeded.
+Executing test test-table-opts
+Test test-pthread FAILED. See test-pthread/OUTPUT for details.
+Executing test test-string-nr
+Test test-string-nr succeeded.
+Executing test test-string-r
+Test test-string-r succeeded.
+Executing test test-yyextra
+Test test-yyextra succeeded.
+Executing test test-alloc-extra
+Test test-alloc-extra succeeded.
+Executing test test-noansi-nr
+Test test-noansi-nr succeeded.
+Executing test test-noansi-r
+Test test-noansi-r succeeded.
+Executing test test-top
+Test test-top succeeded.
+Executing test test-table-opts
+Test test-table-opts succeeded.
+Results:
+Tests succeeded: 46
+Tests FAILED: 0
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/flex/build/i86/.tested
+Test test-table-opts succeeded.
+Results:
+Tests succeeded: 45
+Tests FAILED: 1
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/flex/build/amd64'

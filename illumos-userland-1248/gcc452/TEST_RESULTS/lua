@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/lua/lua-5.1.4
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lua/lua-5.1.4 -p1 --backup --version-control=numbered < patches/1.Makefile.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lua/lua-5.1.4 -p1 --backup --version-control=numbered < patches/2.lua.pc.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/lua/lua-5.1.4 -p1 --backup --version-control=numbered < patches/3.headers.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  lua-5.1.4.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/lua/lua-5.1.4/.unpacked

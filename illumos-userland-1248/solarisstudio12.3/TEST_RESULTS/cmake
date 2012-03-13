@@ -1,0 +1,551 @@
+(cd /export/home/drlou/illumos-userland-1248/components/cmake/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cmake/build/i86'
+Running tests...
+Test project /export/home/drlou/illumos-userland-1248/components/cmake/build/i86
+        Start 164: BootstrapTest
+  1/195 Test #164: BootstrapTest ...............................***Failed    0.00 sec
+        Start   1: SystemInformationNew
+  2/195 Test   #1: SystemInformationNew ........................***Failed    0.00 sec
+        Start   2: kwsys.testEncode
+  3/195 Test   #2: kwsys.testEncode ............................   Passed    0.00 sec
+        Start   3: kwsys.testTerminal
+  4/195 Test   #3: kwsys.testTerminal ..........................   Passed    0.00 sec
+        Start   4: kwsys.testAutoPtr
+  5/195 Test   #4: kwsys.testAutoPtr ...........................   Passed    0.00 sec
+        Start   5: kwsys.testHashSTL
+  6/195 Test   #5: kwsys.testHashSTL ...........................   Passed    0.00 sec
+        Start   6: kwsys.testRegistry
+  7/195 Test   #6: kwsys.testRegistry ..........................   Passed    0.00 sec
+        Start   7: kwsys.testIOS
+  8/195 Test   #7: kwsys.testIOS ...............................   Passed    0.00 sec
+        Start   8: kwsys.testSystemTools
+  9/195 Test   #8: kwsys.testSystemTools .......................   Passed    0.00 sec
+        Start   9: kwsys.testCommandLineArguments
+ 10/195 Test   #9: kwsys.testCommandLineArguments ..............   Passed    0.00 sec
+        Start  10: kwsys.testCommandLineArguments1
+ 11/195 Test  #10: kwsys.testCommandLineArguments1 .............   Passed    0.00 sec
+        Start  11: kwsys.testSystemInformation
+ 12/195 Test  #11: kwsys.testSystemInformation .................   Passed    0.00 sec
+        Start  12: kwsys.testDynamicLoader
+ 13/195 Test  #12: kwsys.testDynamicLoader .....................   Passed    0.00 sec
+        Start  13: kwsys.testProcess-1
+ 14/195 Test  #13: kwsys.testProcess-1 .........................   Passed    0.00 sec
+        Start  14: kwsys.testProcess-2
+ 15/195 Test  #14: kwsys.testProcess-2 .........................   Passed    0.00 sec
+        Start  15: kwsys.testProcess-3
+ 16/195 Test  #15: kwsys.testProcess-3 .........................   Passed   10.00 sec
+        Start  16: kwsys.testProcess-4
+ 17/195 Test  #16: kwsys.testProcess-4 .........................   Passed    0.00 sec
+        Start  17: kwsys.testProcess-5
+ 18/195 Test  #17: kwsys.testProcess-5 .........................   Passed    1.00 sec
+        Start  18: kwsys.testProcess-6
+ 19/195 Test  #18: kwsys.testProcess-6 .........................   Passed   10.00 sec
+        Start  19: kwsys.testProcess-7
+ 20/195 Test  #19: kwsys.testProcess-7 .........................   Passed    1.00 sec
+        Start  20: kwsys.testSharedForward
+ 21/195 Test  #20: kwsys.testSharedForward .....................   Passed    0.00 sec
+        Start  21: curl
+ 22/195 Test  #21: curl ........................................   Passed    0.00 sec
+        Start  22: CMake.HTML
+ 23/195 Test  #22: CMake.HTML ..................................   Passed    0.00 sec
+        Start  23: CommandLineTest
+ 24/195 Test  #23: CommandLineTest .............................***Failed    1.00 sec
+        Start  24: FindPackageTest
+ 25/195 Test  #24: FindPackageTest .............................***Failed    1.00 sec
+        Start  25: FindModulesExecuteAll
+ 26/195 Test  #25: FindModulesExecuteAll .......................***Failed    1.00 sec
+        Start  26: StringFileTest
+ 27/195 Test  #26: StringFileTest ..............................***Failed    1.00 sec
+        Start  27: TryCompile
+ 28/195 Test  #27: TryCompile ..................................***Failed    0.00 sec
+        Start  28: TarTest
+ 29/195 Test  #28: TarTest .....................................***Failed    0.00 sec
+        Start  29: SystemInformation
+ 30/195 Test  #29: SystemInformation ...........................***Failed    0.00 sec
+        Start  30: MathTest
+ 31/195 Test  #30: MathTest ....................................***Failed    0.00 sec
+        Start  31: Simple
+ 32/195 Test  #31: Simple ......................................***Failed    0.00 sec
+        Start  32: PreOrder
+ 33/195 Test  #32: PreOrder ....................................***Failed    0.00 sec
+        Start  33: MissingSourceFile
+ 34/195 Test  #33: MissingSourceFile ...........................***Failed  Required regular expression not found.Regex=[CMake Error at CMakeLists.txt:3 \(add_executable\):[ 
+]*Cannot find source file:[ 
+]*DoesNotExist/MissingSourceFile.c
+]  0.00 sec
+        Start  34: COnly
+ 35/195 Test  #34: COnly .......................................***Failed    0.00 sec
+        Start  35: CxxOnly
+ 36/195 Test  #35: CxxOnly .....................................***Failed    0.00 sec
+        Start  36: IPO
+ 37/195 Test  #36: IPO .........................................***Failed    0.00 sec
+        Start  37: OutDir
+ 38/195 Test  #37: OutDir ......................................***Failed    0.00 sec
+        Start  38: NewlineArgs
+ 39/195 Test  #38: NewlineArgs .................................***Failed    0.00 sec
+        Start  39: SetLang
+ 40/195 Test  #39: SetLang .....................................***Failed    0.00 sec
+        Start  40: ExternalOBJ
+ 41/195 Test  #40: ExternalOBJ .................................***Failed    1.00 sec
+        Start  41: LoadCommand
+ 42/195 Test  #41: LoadCommand .................................***Failed    0.00 sec
+        Start  42: LinkDirectory
+ 43/195 Test  #42: LinkDirectory ...............................***Failed    0.00 sec
+        Start  43: LinkLanguage
+ 44/195 Test  #43: LinkLanguage ................................***Failed    0.00 sec
+        Start  44: LinkLine
+ 45/195 Test  #44: LinkLine ....................................***Failed    0.00 sec
+        Start  45: MacroTest
+ 46/195 Test  #45: MacroTest ...................................***Failed    0.00 sec
+        Start  46: FunctionTest
+ 47/195 Test  #46: FunctionTest ................................***Failed    0.00 sec
+        Start  47: ReturnTest
+ 48/195 Test  #47: ReturnTest ..................................***Failed    0.00 sec
+        Start  48: Properties
+ 49/195 Test  #48: Properties ..................................***Failed    0.00 sec
+        Start  49: Assembler
+ 50/195 Test  #49: Assembler ...................................***Failed    0.00 sec
+        Start  50: SourceGroups
+ 51/195 Test  #50: SourceGroups ................................***Failed    0.00 sec
+        Start  51: Preprocess
+ 52/195 Test  #51: Preprocess ..................................***Failed    0.00 sec
+        Start  52: ExportImport
+ 53/195 Test  #52: ExportImport ................................***Failed    0.00 sec
+        Start  53: Unset
+ 54/195 Test  #53: Unset .......................................***Failed    0.00 sec
+        Start  54: PolicyScope
+ 55/195 Test  #54: PolicyScope .................................***Failed    0.00 sec
+        Start  55: EmptyLibrary
+ 56/195 Test  #55: EmptyLibrary ................................***Failed  Required regular expression not found.Regex=[CMake Error: CMake can not determine linker language for target:test
+]  1.00 sec
+        Start  56: CrossCompile
+ 57/195 Test  #56: CrossCompile ................................***Failed  Required regular expression not found.Regex=[TRY_RUN.. invoked in cross-compiling mode
+]  0.00 sec
+        Start  57: Policy0002
+ 58/195 Test  #57: Policy0002 ..................................***Failed    0.00 sec
+        Start  58: CMakeBuildTest
+ 59/195 Test  #58: CMakeBuildTest ..............................***Failed    0.00 sec
+        Start  59: Module.CheckTypeSize
+ 60/195 Test  #59: Module.CheckTypeSize ........................***Failed    0.00 sec
+        Start  60: LinkFlags-prepare
+ 61/195 Test  #60: LinkFlags-prepare ...........................***Failed    0.00 sec
+        Start  61: LinkFlags-lib
+ 62/195 Test  #61: LinkFlags-lib ...............................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  62: LinkFlags-dll
+ 63/195 Test  #62: LinkFlags-dll ...............................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  63: LinkFlags-exe
+ 64/195 Test  #63: LinkFlags-exe ...............................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  64: LinkFlags-lib_config
+ 65/195 Test  #64: LinkFlags-lib_config ........................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  65: LinkFlags-dll_config
+ 66/195 Test  #65: LinkFlags-dll_config ........................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  66: LinkFlags-exe_config
+ 67/195 Test  #66: LinkFlags-exe_config ........................***Failed  Required regular expression not found.Regex=[BADFLAG
+]  0.00 sec
+        Start  67: SubProject
+ 68/195 Test  #67: SubProject ..................................***Failed    0.00 sec
+        Start  68: SubProject-Stage2
+ 69/195 Test  #68: SubProject-Stage2 ...........................***Failed    0.00 sec
+        Start  69: Framework
+ 70/195 Test  #69: Framework ...................................***Failed    0.00 sec
+        Start  70: TargetName
+ 71/195 Test  #70: TargetName ..................................***Failed    0.00 sec
+        Start  71: LibName
+ 72/195 Test  #71: LibName .....................................***Failed    0.00 sec
+        Start  72: CustComDepend
+ 73/195 Test  #72: CustComDepend ...............................***Failed    0.00 sec
+        Start  73: ArgumentExpansion
+ 74/195 Test  #73: ArgumentExpansion ...........................***Failed    0.00 sec
+        Start  74: CustomCommand
+ 75/195 Test  #74: CustomCommand ...............................***Failed    1.00 sec
+        Start  75: CustomCommandWorkingDirectory
+ 76/195 Test  #75: CustomCommandWorkingDirectory ...............***Failed    0.00 sec
+        Start  76: OutOfSource
+ 77/195 Test  #76: OutOfSource .................................***Failed    0.00 sec
+        Start  77: BuildDepends
+ 78/195 Test  #77: BuildDepends ................................***Failed    0.00 sec
+        Start  78: SimpleInstall
+ 79/195 Test  #78: SimpleInstall ...............................***Failed    0.00 sec
+        Start  79: SimpleInstall-Stage2
+ 80/195 Test  #79: SimpleInstall-Stage2 ........................***Failed    0.00 sec
+        Start  80: CPackComponents
+ 81/195 Test  #80: CPackComponents .............................***Failed    0.00 sec
+        Start  81: CPackComponentsForAll-ZIP-default
+ 82/195 Test  #81: CPackComponentsForAll-ZIP-default ...........***Failed    0.00 sec
+        Start  82: CPackComponentsForAll-ZIP-OnePackPerGroup
+ 83/195 Test  #82: CPackComponentsForAll-ZIP-OnePackPerGroup ...***Failed    1.00 sec
+        Start  83: CPackComponentsForAll-ZIP-IgnoreGroup
+ 84/195 Test  #83: CPackComponentsForAll-ZIP-IgnoreGroup .......***Failed    0.00 sec
+        Start  84: CPackComponentsForAll-ZIP-AllInOne
+ 85/195 Test  #84: CPackComponentsForAll-ZIP-AllInOne ..........***Failed    0.00 sec
+        Start  85: CPackTestAllGenerators
+ 86/195 Test  #85: CPackTestAllGenerators ......................***Failed    0.00 sec
+        Start  86: X11
+ 87/195 Test  #86: X11 .........................................***Failed    0.00 sec
+        Start  87: CMakeTestAllGenerators
+ 88/195 Test  #87: CMakeTestAllGenerators ......................   Passed    1.00 sec
+        Start  88: CMakeTestBadCommandLines
+ 89/195 Test  #88: CMakeTestBadCommandLines ....................   Passed    0.00 sec
+        Start  89: CMakeTestMultipleConfigures
+ 90/195 Test  #89: CMakeTestMultipleConfigures .................   Passed    1.00 sec
+        Start  90: LoadedCommandOneConfig
+ 91/195 Test  #90: LoadedCommandOneConfig ......................***Failed    0.00 sec
+        Start  92: complexOneConfig
+ 92/195 Test  #92: complexOneConfig ............................***Failed    0.00 sec
+        Start  91: complex
+ 93/195 Test  #91: complex .....................................***Failed    0.00 sec
+        Start  93: Example
+ 94/195 Test  #93: Example .....................................***Failed    0.00 sec
+        Start  94: Environment
+ 95/195 Test  #94: Environment .................................***Failed    0.00 sec
+        Start  95: ExternalProject
+ 96/195 Test  #95: ExternalProject .............................***Failed    3.00 sec
+        Start  96: TutorialStep1
+ 97/195 Test  #96: TutorialStep1 ...............................***Failed    0.00 sec
+        Start  97: TutorialStep2
+ 98/195 Test  #97: TutorialStep2 ...............................***Failed    0.00 sec
+        Start  98: TutorialStep3
+ 99/195 Test  #98: TutorialStep3 ...............................***Failed    0.00 sec
+        Start  99: TutorialStep4
+100/195 Test  #99: TutorialStep4 ...............................***Failed    0.00 sec
+        Start 100: TutorialStep5
+101/195 Test #100: TutorialStep5 ...............................***Failed    0.00 sec
+        Start 101: TutorialStep6
+102/195 Test #101: TutorialStep6 ...............................***Failed    0.00 sec
+        Start 102: TutorialStep7
+103/195 Test #102: TutorialStep7 ...............................***Failed    0.00 sec
+        Start 103: testing
+104/195 Test #103: testing .....................................***Failed  Required regular expression not found.Regex=[Passed
+]  1.00 sec
+        Start 104: wrapping
+105/195 Test #104: wrapping ....................................***Failed    0.00 sec
+        Start 105: qtwrapping
+106/195 Test #105: qtwrapping ..................................***Failed    0.00 sec
+        Start 106: testdriver1
+107/195 Test #106: testdriver1 .................................***Failed    0.00 sec
+        Start 107: testdriver2
+108/195 Test #107: testdriver2 .................................***Failed    0.00 sec
+        Start 108: testdriver3
+109/195 Test #108: testdriver3 .................................***Failed    0.00 sec
+        Start 109: Dependency
+110/195 Test #109: Dependency ..................................***Failed    0.00 sec
+        Start 110: JumpWithLibOut
+111/195 Test #110: JumpWithLibOut ..............................***Failed    0.00 sec
+        Start 111: JumpNoLibOut
+112/195 Test #111: JumpNoLibOut ................................***Failed    0.00 sec
+        Start 112: Plugin
+113/195 Test #112: Plugin ......................................***Failed    0.00 sec
+        Start 113: RuntimePath
+114/195 Test #113: RuntimePath .................................***Failed    0.00 sec
+        Start 114: linkorder1
+115/195 Test #114: linkorder1 ..................................***Failed    0.00 sec
+        Start 115: linkorder2
+116/195 Test #115: linkorder2 ..................................***Failed    0.00 sec
+        Start 116: kwsys
+117/195 Test #116: kwsys .......................................***Failed    1.00 sec
+        Start 117: SubDirSpaces
+118/195 Test #117: SubDirSpaces ................................***Failed    0.00 sec
+        Start 118: SubDir
+119/195 Test #118: SubDir ......................................***Failed    0.00 sec
+        Start 119: CheckCompilerRelatedVariables
+120/195 Test #119: CheckCompilerRelatedVariables ...............***Failed    0.00 sec
+        Start 120: MakeClean
+121/195 Test #120: MakeClean ...................................***Failed    0.00 sec
+        Start 121: WarnUnusedUnusedViaSet
+122/195 Test #121: WarnUnusedUnusedViaSet ......................   Passed    0.00 sec
+        Start 122: WarnUnusedUnusedViaUnset
+123/195 Test #122: WarnUnusedUnusedViaUnset ....................   Passed    0.00 sec
+        Start 123: WarnUnusedCliUnused
+124/195 Test #123: WarnUnusedCliUnused .........................***Failed  Required regular expression not found.Regex=[CMake Warning:.*Manually-specified variables were not used by the project:.*  UNUSED_CLI_VARIABLE
+]  0.00 sec
+        Start 124: WarnUnusedCliUsed
+125/195 Test #124: WarnUnusedCliUsed ...........................   Passed    0.00 sec
+        Start 125: WarnUninitialized
+126/195 Test #125: WarnUninitialized ...........................   Passed    0.00 sec
+        Start 126: TestsWorkingDirectory
+127/195 Test #126: TestsWorkingDirectory .......................***Failed    0.00 sec
+        Start 127: CTest.NoNewline
+128/195 Test #127: CTest.NoNewline .............................   Passed    0.00 sec
+        Start 128: CTest.UpdateGIT
+129/195 Test #128: CTest.UpdateGIT .............................   Passed   10.00 sec
+        Start 129: CTest.UpdateHG
+130/195 Test #129: CTest.UpdateHG ..............................   Passed    3.00 sec
+        Start 130: CTestTestNoBuild
+131/195 Test #130: CTestTestNoBuild ............................   Passed    1.00 sec
+        Start 131: CTestTestNoExe
+132/195 Test #131: CTestTestNoExe ..............................***Failed  Required regular expression not found.Regex=[Could not find executable
+]  1.00 sec
+        Start 132: CTestTestUpload
+133/195 Test #132: CTestTestUpload .............................   Passed    3.00 sec
+        Start 133: CTestConfig.Script.Debug
+134/195 Test #133: CTestConfig.Script.Debug ....................***Failed    0.00 sec
+        Start 134: CTestConfig.Dashboard.Debug
+135/195 Test #134: CTestConfig.Dashboard.Debug .................***Failed    0.00 sec
+        Start 135: CTestConfig.Script.MinSizeRel
+136/195 Test #135: CTestConfig.Script.MinSizeRel ...............***Failed    1.00 sec
+        Start 136: CTestConfig.Dashboard.MinSizeRel
+137/195 Test #136: CTestConfig.Dashboard.MinSizeRel ............***Failed    0.00 sec
+        Start 137: CTestConfig.Script.Release
+138/195 Test #137: CTestConfig.Script.Release ..................***Failed    1.00 sec
+        Start 138: CTestConfig.Dashboard.Release
+139/195 Test #138: CTestConfig.Dashboard.Release ...............***Failed    0.00 sec
+        Start 139: CTestConfig.Script.RelWithDebInfo
+140/195 Test #139: CTestConfig.Script.RelWithDebInfo ...........***Failed    0.00 sec
+        Start 140: CTestConfig.Dashboard.RelWithDebInfo
+141/195 Test #140: CTestConfig.Dashboard.RelWithDebInfo ........***Failed    0.00 sec
+        Start 141: CMakeCommands.build_command
+142/195 Test #141: CMakeCommands.build_command .................***Failed    0.00 sec
+        Start 142: CTestTestCrash
+143/195 Test #142: CTestTestCrash ..............................***Failed  Required regular expression not found.Regex=[SegFault
+]  2.00 sec
+        Start 143: CTestTestBadExe
+144/195 Test #143: CTestTestBadExe .............................***Failed  Required regular expression not found.Regex=[BAD_COMMAND
+]  2.00 sec
+        Start 144: CTestTestParallel
+145/195 Test #144: CTestTestParallel ...........................***Failed    1.00 sec
+        Start 145: CTestTestPrintLabels
+146/195 Test #145: CTestTestPrintLabels ........................   Passed    0.00 sec
+        Start 146: CTestTestResourceLock
+147/195 Test #146: CTestTestResourceLock .......................***Failed    2.00 sec
+        Start 147: CTestTestScheduler
+148/195 Test #147: CTestTestScheduler ..........................***Failed  Required regular expression not found.Regex=[Start 1.*Start 2.*Start 3.*Start 4.*Start 4.*Start 3.*Start 2.*Start 1
+]  2.00 sec
+        Start 148: CTestTestCostSerial
+149/195 Test #148: CTestTestCostSerial .........................***Failed  Required regular expression not found.Regex=[Start 2.*Start 3.*Start 1.*Start 2.*Start 3.*Start 1
+]  3.00 sec
+        Start 149: CTestTestStopTime
+150/195 Test #149: CTestTestStopTime ...........................***Failed  Required regular expression not found.Regex=[The stop time has been passed
+]  1.00 sec
+        Start 150: CTestTestSubdir
+151/195 Test #150: CTestTestSubdir .............................***Failed  Required regular expression not found.Regex=[0 tests failed out of 3
+]  2.00 sec
+        Start 151: CTestTestTimeout
+152/195 Test #151: CTestTestTimeout ............................***Failed  Required regular expression not found.Regex=[TestTimeout *\.+ *\*\*\*Timeout.*CheckChild *\.+ *Passed
+]  1.00 sec
+        Start 152: CTestTestZeroTimeout
+153/195 Test #152: CTestTestZeroTimeout ........................***Failed    2.00 sec
+        Start 153: CTestTestDepends
+154/195 Test #153: CTestTestDepends ............................***Failed    2.00 sec
+        Start 154: CTestTestCycle
+155/195 Test #154: CTestTestCycle ..............................***Failed  Required regular expression not found.Regex=[a cycle exists in the test dependency graph
+]  1.00 sec
+        Start 155: CTestTestRunScript
+156/195 Test #155: CTestTestRunScript ..........................   Passed    0.00 sec
+        Start 156: CTestTestShowOnly
+157/195 Test #156: CTestTestShowOnly ...........................   Passed    0.00 sec
+        Start 157: CTestBatchTest
+158/195 Test #157: CTestBatchTest ..............................   Passed    0.00 sec
+        Start 158: CTestTestFailedSubmit-cp
+159/195 Test #158: CTestTestFailedSubmit-cp ....................   Passed    2.00 sec
+        Start 159: CTestTestFailedSubmit-ftp
+160/195 Test #159: CTestTestFailedSubmit-ftp ...................   Passed    2.00 sec
+        Start 160: CTestTestFailedSubmit-http
+161/195 Test #160: CTestTestFailedSubmit-http ..................   Passed    1.00 sec
+        Start 161: CTestTestFailedSubmit-https
+162/195 Test #161: CTestTestFailedSubmit-https .................   Passed    2.00 sec
+        Start 162: CTestTestFailedSubmit-scp
+163/195 Test #162: CTestTestFailedSubmit-scp ...................   Passed    2.00 sec
+        Start 163: CTestTestFailedSubmit-xmlrpc
+164/195 Test #163: CTestTestFailedSubmit-xmlrpc ................   Passed    1.00 sec
+        Start 165: CMakeWizardTest
+165/195 Test #165: CMakeWizardTest .............................   Passed    1.00 sec
+        Start 166: CompileCommandOutput
+166/195 Test #166: CompileCommandOutput ........................***Failed    0.00 sec
+        Start 167: IncludeDirectories
+167/195 Test #167: IncludeDirectories ..........................***Failed    0.00 sec
+        Start 168: CMakeLib.testUTF8
+168/195 Test #168: CMakeLib.testUTF8 ...........................   Passed    0.00 sec
+        Start 169: CMakeLib.testXMLParser
+169/195 Test #169: CMakeLib.testXMLParser ......................   Passed    0.00 sec
+        Start 170: CMakeLib.testXMLSafe
+170/195 Test #170: CMakeLib.testXMLSafe ........................   Passed    0.00 sec
+        Start 171: CMake.List
+171/195 Test #171: CMake.List ..................................   Passed    0.00 sec
+        Start 172: CMake.VariableWatch
+172/195 Test #172: CMake.VariableWatch .........................   Passed    0.00 sec
+        Start 173: CMake.Include
+173/195 Test #173: CMake.Include ...............................   Passed    0.00 sec
+        Start 174: CMake.FindBase
+174/195 Test #174: CMake.FindBase ..............................   Passed    0.00 sec
+        Start 175: CMake.Toolchain
+175/195 Test #175: CMake.Toolchain .............................   Passed    0.00 sec
+        Start 176: CMake.GetFilenameComponentRealpath
+176/195 Test #176: CMake.GetFilenameComponentRealpath ..........   Passed    0.00 sec
+        Start 177: CMake.Version
+177/195 Test #177: CMake.Version ...............................   Passed    0.00 sec
+        Start 178: CMake.Message
+178/195 Test #178: CMake.Message ...............................   Passed    0.00 sec
+        Start 179: CMake.File
+179/195 Test #179: CMake.File ..................................   Passed    0.00 sec
+        Start 180: CMake.ConfigureFile
+180/195 Test #180: CMake.ConfigureFile .........................   Passed    0.00 sec
+        Start 181: CMake.SeparateArguments
+181/195 Test #181: CMake.SeparateArguments .....................   Passed    0.00 sec
+        Start 182: CMake.ImplicitLinkInfo
+182/195 Test #182: CMake.ImplicitLinkInfo ......................   Passed    1.00 sec
+        Start 183: CMake.ModuleNotices
+183/195 Test #183: CMake.ModuleNotices .........................   Passed    0.00 sec
+        Start 184: CMake.If
+184/195 Test #184: CMake.If ....................................   Passed    0.00 sec
+        Start 185: CMake.String
+185/195 Test #185: CMake.String ................................   Passed    1.00 sec
+        Start 186: CMake.Math
+186/195 Test #186: CMake.Math ..................................   Passed    0.00 sec
+        Start 187: CMake.CMakeMinimumRequired
+187/195 Test #187: CMake.CMakeMinimumRequired ..................   Passed    0.00 sec
+        Start 188: CMake.CompilerIdVendor
+188/195 Test #188: CMake.CompilerIdVendor ......................   Passed    0.00 sec
+        Start 189: CMake.ProcessorCount
+189/195 Test #189: CMake.ProcessorCount ........................   Passed    0.00 sec
+        Start 190: CMake.FileDownload
+190/195 Test #190: CMake.FileDownload ..........................   Passed    0.00 sec
+        Start 191: CMake.FileUpload
+191/195 Test #191: CMake.FileUpload ............................   Passed    0.00 sec
+        Start 192: CMake.ELF
+192/195 Test #192: CMake.ELF ...................................   Passed    0.00 sec
+        Start 193: CMake.EndStuff
+193/195 Test #193: CMake.EndStuff ..............................   Passed    0.00 sec
+        Start 194: CMake.GetPrerequisites
+194/195 Test #194: CMake.GetPrerequisites ......................   Passed    0.00 sec
+        Start 195: CMake.CheckSourceTree
+195/195 Test #195: CMake.CheckSourceTree .......................   Passed    0.00 sec
+
+37% tests passed, 123 tests failed out of 195
+
+Label Time Summary:
+Label1    =   0.00 sec
+Label2    =   0.00 sec
+
+Total Test time (real) =  92.00 sec
+
+The following tests FAILED:
+	164 - BootstrapTest (Failed)
+	  1 - SystemInformationNew (Failed)
+	 23 - CommandLineTest (Failed)
+	 24 - FindPackageTest (Failed)
+	 25 - FindModulesExecuteAll (Failed)
+	 26 - StringFileTest (Failed)
+	 27 - TryCompile (Failed)
+	 28 - TarTest (Failed)
+	 29 - SystemInformation (Failed)
+	 30 - MathTest (Failed)
+	 31 - Simple (Failed)
+	 32 - PreOrder (Failed)
+	 33 - MissingSourceFile (Failed)
+	 34 - COnly (Failed)
+	 35 - CxxOnly (Failed)
+	 36 - IPO (Failed)
+	 37 - OutDir (Failed)
+	 38 - NewlineArgs (Failed)
+	 39 - SetLang (Failed)
+	 40 - ExternalOBJ (Failed)
+	 41 - LoadCommand (Failed)
+	 42 - LinkDirectory (Failed)
+	 43 - LinkLanguage (Failed)
+	 44 - LinkLine (Failed)
+	 45 - MacroTest (Failed)
+	 46 - FunctionTest (Failed)
+	 47 - ReturnTest (Failed)
+	 48 - Properties (Failed)
+	 49 - Assembler (Failed)
+	 50 - SourceGroups (Failed)
+	 51 - Preprocess (Failed)
+	 52 - ExportImport (Failed)
+	 53 - Unset (Failed)
+	 54 - PolicyScope (Failed)
+	 55 - EmptyLibrary (Failed)
+	 56 - CrossCompile (Failed)
+	 57 - Policy0002 (Failed)
+	 58 - CMakeBuildTest (Failed)
+	 59 - Module.CheckTypeSize (Failed)
+	 60 - LinkFlags-prepare (Failed)
+	 61 - LinkFlags-lib (Failed)
+	 62 - LinkFlags-dll (Failed)
+	 63 - LinkFlags-exe (Failed)
+	 64 - LinkFlags-lib_config (Failed)
+	 65 - LinkFlags-dll_config (Failed)
+	 66 - LinkFlags-exe_config (Failed)
+	 67 - SubProject (Failed)
+	 68 - SubProject-Stage2 (Failed)
+	 69 - Framework (Failed)
+	 70 - TargetName (Failed)
+	 71 - LibName (Failed)
+	 72 - CustComDepend (Failed)
+	 73 - ArgumentExpansion (Failed)
+	 74 - CustomCommand (Failed)
+	 75 - CustomCommandWorkingDirectory (Failed)
+	 76 - OutOfSource (Failed)
+	 77 - BuildDepends (Failed)
+	 78 - SimpleInstall (Failed)
+	 79 - SimpleInstall-Stage2 (Failed)
+	 80 - CPackComponents (Failed)
+	 81 - CPackComponentsForAll-ZIP-default (Failed)
+	 82 - CPackComponentsForAll-ZIP-OnePackPerGroup (Failed)
+	 83 - CPackComponentsForAll-ZIP-IgnoreGroup (Failed)
+	 84 - CPackComponentsForAll-ZIP-AllInOne (Failed)
+	 85 - CPackTestAllGenerators (Failed)
+	 86 - X11 (Failed)
+	 90 - LoadedCommandOneConfig (Failed)
+	 92 - complexOneConfig (Failed)
+	 91 - complex (Failed)
+	 93 - Example (Failed)
+	 94 - Environment (Failed)
+	 95 - ExternalProject (Failed)
+	 96 - TutorialStep1 (Failed)
+	 97 - TutorialStep2 (Failed)
+	 98 - TutorialStep3 (Failed)
+	 99 - TutorialStep4 (Failed)
+	100 - TutorialStep5 (Failed)
+	101 - TutorialStep6 (Failed)
+	102 - TutorialStep7 (Failed)
+	103 - testing (Failed)
+	104 - wrapping (Failed)
+	105 - qtwrapping (Failed)
+	106 - testdriver1 (Failed)
+	107 - testdriver2 (Failed)
+	108 - testdriver3 (Failed)
+	109 - Dependency (Failed)
+	110 - JumpWithLibOut (Failed)
+	111 - JumpNoLibOut (Failed)
+	112 - Plugin (Failed)
+	113 - RuntimePath (Failed)
+	114 - linkorder1 (Failed)
+	115 - linkorder2 (Failed)
+	116 - kwsys (Failed)
+	117 - SubDirSpaces (Failed)
+	118 - SubDir (Failed)
+	119 - CheckCompilerRelatedVariables (Failed)
+	120 - MakeClean (Failed)
+	123 - WarnUnusedCliUnused (Failed)
+	126 - TestsWorkingDirectory (Failed)
+	131 - CTestTestNoExe (Failed)
+	133 - CTestConfig.Script.Debug (Failed)
+	134 - CTestConfig.Dashboard.Debug (Failed)
+	135 - CTestConfig.Script.MinSizeRel (Failed)
+	136 - CTestConfig.Dashboard.MinSizeRel (Failed)
+	137 - CTestConfig.Script.Release (Failed)
+	138 - CTestConfig.Dashboard.Release (Failed)
+	139 - CTestConfig.Script.RelWithDebInfo (Failed)
+	140 - CTestConfig.Dashboard.RelWithDebInfo (Failed)
+	141 - CMakeCommands.build_command (Failed)
+	142 - CTestTestCrash (Failed)
+	143 - CTestTestBadExe (Failed)
+	144 - CTestTestParallel (Failed)
+	146 - CTestTestResourceLock (Failed)
+	147 - CTestTestScheduler (Failed)
+	148 - CTestTestCostSerial (Failed)
+	149 - CTestTestStopTime (Failed)
+	150 - CTestTestSubdir (Failed)
+	151 - CTestTestTimeout (Failed)
+	152 - CTestTestZeroTimeout (Failed)
+	153 - CTestTestDepends (Failed)
+	154 - CTestTestCycle (Failed)
+	166 - CompileCommandOutput (Failed)
+	167 - IncludeDirectories (Failed)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cmake/build/i86'

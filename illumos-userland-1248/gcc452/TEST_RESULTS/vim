@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/vim/vim-v7-3-254
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/vim/vim-v7-3-254 -p0 --backup --version-control=numbered < patches/vim-help.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  vim-v7-3-254.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/vim/vim-v7-3-254/.unpacked

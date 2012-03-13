@@ -1,0 +1,942 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16 /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16 to /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16 /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16 to /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  MAKE=/usr/gnu/bin/make /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst" CXXFLAGS="-norunpath -m32" LDFLAGS="-lsocket -lnsl" --includedir=/usr/include)
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  MAKE=/usr/gnu/bin/make /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst" CXXFLAGS="-norunpath -m64" LDFLAGS="-lsocket -lnsl" --includedir=/usr/include)
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... yes
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... yes
+checking for C compiler default output file name... checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by /usr/gnu/bin/make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking for style of include used by /usr/gnu/bin/make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking whether we are using the GNU C++ compiler... none
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking for a sed that does not truncate output... none
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+/usr/bin/gsed
+checking for grep that handles long lines and -e... checking how to run the C preprocessor... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ANSI C header files... checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+yes
+checking dlfcn.h presence... checking how to run the C++ preprocessor... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... checking for g77... no
+checking for xlf... checking whether  accepts -g... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+no
+checking the maximum length of command line arguments... checking whether we are using the GNU Fortran 77 compiler... 786240
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 786240
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking whether build environment is sane... appending configuration tag "F77" to libtool
+checking whether build environment is sane... yes
+checking for an ANSI C-conforming const... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+yes
+checking for library containing getopt_long... checking for size_t... none required
+yes
+checking for library containing getopt_long... none required
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating docs/Makefile
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating lib/Makefile
+config.status: creating tests/Makefile
+config.status: creating include/Makefile
+config.status: creating docs/Makefile
+config.status: creating support/Makefile
+config.status: creating lib/Makefile
+config.status: creating support/libmemcached.pc
+config.status: creating include/Makefile
+config.status: creating support/libmemcached.spec
+config.status: creating support/Makefile
+config.status: creating include/libmemcached_config.h
+config.status: creating support/libmemcached.pc
+config.status: executing depfiles commands
+config.status: creating support/libmemcached.spec
+config.status: creating include/libmemcached_config.h
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  PATH=/usr/perl5/bin:/usr/bin:/usr/gnu/bin MAKE="/usr/gnu/bin/make"	 \
+		/usr/gnu/bin/make  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst" pkglibdir=/usr/lib )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+Making all in docs
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/docs'
+pod2man -c "libmemcached" -r "" -s 3libmemcached libmemcached.pod > libmemcached.3libmemcached
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  PATH=/usr/perl5/bin:/usr/bin:/usr/gnu/bin MAKE="/usr/gnu/bin/make"	 \
+		/usr/gnu/bin/make  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst" pkglibdir=/usr/lib )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+Making all in docs
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/docs'
+pod2man -c "libmemcached" -r "" -s 3libmemcached libmemcached.pod > libmemcached.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached libmemcached_examples.pod > libmemcached_examples.3libmemcached
+pod2man -c "libmemcached" -r "" -s 1 memcat.pod > memcat.1
+pod2man -c "libmemcached" -r "" -s 1 memcp.pod > memcp.1
+pod2man -c "libmemcached" -r "" -s 1 memerror.pod > memerror.1
+pod2man -c "libmemcached" -r "" -s 1 memflush.pod > memflush.1
+pod2man -c "libmemcached" -r "" -s 1 memrm.pod > memrm.1
+pod2man -c "libmemcached" -r "" -s 1 memslap.pod > memslap.1
+pod2man -c "libmemcached" -r "" -s 1 memstat.pod > memstat.1
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_add.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_add_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_append.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_append_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_behavior.pod > memcached_behavior_get.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_behavior.pod > memcached_behavior_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_behavior.pod > memcached_behavior_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_callback.pod > memcached_callback_get.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_callback.pod > memcached_callback_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_callback.pod > memcached_callback_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_cas.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_cas_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_create.pod > memcached_clone.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_create.pod > memcached_create.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_auto.pod > memcached_decrement.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_auto.pod > memcached_decrement.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_delete.pod > memcached_delete.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_delete.pod > memcached_delete_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_fetch.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_fetch_execute.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_fetch_result.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_create.pod > memcached_free.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_get.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_get_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_auto.pod > memcached_increment.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_mget.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_get.pod > memcached_mget_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_prepend.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_prepend_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_prepend_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_replace.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_replace.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_replace_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_replace_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_add.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_add.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_count.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_count.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_list.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_list.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_server_list_append.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_server_list_append.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_server_list_count.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_server_list_count.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_server_list_free.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_servers.pod > memcached_server_push.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_servers_parse.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_server_st.pod > memcached_servers_parse.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_set.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_set_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_set.pod > memcached_set_by_key.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat_get_keys.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat_get_value.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat_get_value.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat_servername.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_stats.pod > memcached_stat_servername.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_strerror.pod > memcached_strerror.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_quit.pod > memcached_quit.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_quit.pod > memcached_quit.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_verbosity.pod > memcached_verbosity.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_version.pod  > memcached_lib_version.3libmemcached
+pod2man -c "libmemcached" -r "" -s 3libmemcached memcached_version.pod > memcached_version.3libmemcached
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/docs'
+Making all in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+/usr/gnu/bin/make  all-am
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+Making all in lib
+Making all in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/lib'
+source='crc.c' object='crc.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o crc.lo crc.c
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/lib'
+source='crc.c' object='crc.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o crc.lo crc.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c crc.c  -KPIC -DPIC -o .libs/crc.o
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c crc.c  -KPIC -DPIC -o .libs/crc.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c crc.c -o crc.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c crc.c -o crc.o >/dev/null 2>&1
+source='hsieh_hash.c' object='hsieh_hash.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o hsieh_hash.lo hsieh_hash.c
+source='hsieh_hash.c' object='hsieh_hash.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o hsieh_hash.lo hsieh_hash.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c hsieh_hash.c  -KPIC -DPIC -o .libs/hsieh_hash.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c hsieh_hash.c  -KPIC -DPIC -o .libs/hsieh_hash.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c hsieh_hash.c -o hsieh_hash.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c hsieh_hash.c -o hsieh_hash.o >/dev/null 2>&1
+source='memcached.c' object='memcached.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached.lo memcached.c
+source='memcached.c' object='memcached.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached.lo memcached.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached.c  -KPIC -DPIC -o .libs/memcached.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached.c  -KPIC -DPIC -o .libs/memcached.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached.c -o memcached.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached.c -o memcached.o >/dev/null 2>&1
+source='memcached_auto.c' object='memcached_auto.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_auto.lo memcached_auto.c
+source='memcached_auto.c' object='memcached_auto.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_auto.lo memcached_auto.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_auto.c  -KPIC -DPIC -o .libs/memcached_auto.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_auto.c  -KPIC -DPIC -o .libs/memcached_auto.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_auto.c -o memcached_auto.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_auto.c -o memcached_auto.o >/dev/null 2>&1
+source='memcached_behavior.c' object='memcached_behavior.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_behavior.lo memcached_behavior.c
+source='memcached_behavior.c' object='memcached_behavior.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_behavior.lo memcached_behavior.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_behavior.c  -KPIC -DPIC -o .libs/memcached_behavior.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_behavior.c  -KPIC -DPIC -o .libs/memcached_behavior.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_behavior.c -o memcached_behavior.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_behavior.c -o memcached_behavior.o >/dev/null 2>&1
+source='memcached_callback.c' object='memcached_callback.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_callback.lo memcached_callback.c
+source='memcached_callback.c' object='memcached_callback.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_callback.lo memcached_callback.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_callback.c  -KPIC -DPIC -o .libs/memcached_callback.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_callback.c  -KPIC -DPIC -o .libs/memcached_callback.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_callback.c -o memcached_callback.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_callback.c -o memcached_callback.o >/dev/null 2>&1
+source='memcached_connect.c' object='memcached_connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_connect.lo memcached_connect.c
+source='memcached_connect.c' object='memcached_connect.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_connect.lo memcached_connect.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_connect.c  -KPIC -DPIC -o .libs/memcached_connect.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_connect.c  -KPIC -DPIC -o .libs/memcached_connect.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_connect.c -o memcached_connect.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_connect.c -o memcached_connect.o >/dev/null 2>&1
+source='memcached_delete.c' object='memcached_delete.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_delete.lo memcached_delete.c
+source='memcached_delete.c' object='memcached_delete.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_delete.lo memcached_delete.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_delete.c  -KPIC -DPIC -o .libs/memcached_delete.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_delete.c  -KPIC -DPIC -o .libs/memcached_delete.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_delete.c -o memcached_delete.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_delete.c -o memcached_delete.o >/dev/null 2>&1
+source='memcached_do.c' object='memcached_do.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_do.lo memcached_do.c
+source='memcached_do.c' object='memcached_do.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_do.lo memcached_do.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_do.c  -KPIC -DPIC -o .libs/memcached_do.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_do.c  -KPIC -DPIC -o .libs/memcached_do.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_do.c -o memcached_do.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_do.c -o memcached_do.o >/dev/null 2>&1
+source='memcached_fetch.c' object='memcached_fetch.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_fetch.lo memcached_fetch.c
+source='memcached_fetch.c' object='memcached_fetch.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_fetch.lo memcached_fetch.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_fetch.c  -KPIC -DPIC -o .libs/memcached_fetch.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_fetch.c  -KPIC -DPIC -o .libs/memcached_fetch.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_fetch.c -o memcached_fetch.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_fetch.c -o memcached_fetch.o >/dev/null 2>&1
+source='memcached_fetch_execute.c' object='memcached_fetch_execute.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_fetch_execute.lo memcached_fetch_execute.c
+source='memcached_fetch_execute.c' object='memcached_fetch_execute.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_fetch_execute.lo memcached_fetch_execute.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_fetch_execute.c  -KPIC -DPIC -o .libs/memcached_fetch_execute.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_fetch_execute.c  -KPIC -DPIC -o .libs/memcached_fetch_execute.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_fetch_execute.c -o memcached_fetch_execute.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_fetch_execute.c -o memcached_fetch_execute.o >/dev/null 2>&1
+source='memcached_flush.c' object='memcached_flush.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_flush.lo memcached_flush.c
+source='memcached_flush.c' object='memcached_flush.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_flush.lo memcached_flush.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_flush.c  -KPIC -DPIC -o .libs/memcached_flush.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_flush.c  -KPIC -DPIC -o .libs/memcached_flush.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_flush.c -o memcached_flush.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_flush.c -o memcached_flush.o >/dev/null 2>&1
+source='memcached_get.c' object='memcached_get.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_get.lo memcached_get.c
+source='memcached_get.c' object='memcached_get.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_get.lo memcached_get.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_get.c  -KPIC -DPIC -o .libs/memcached_get.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_get.c  -KPIC -DPIC -o .libs/memcached_get.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_get.c -o memcached_get.o >/dev/null 2>&1
+source='memcached_hash.c' object='memcached_hash.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_hash.lo memcached_hash.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_get.c -o memcached_get.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_hash.c  -KPIC -DPIC -o .libs/memcached_hash.o
+source='memcached_hash.c' object='memcached_hash.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_hash.lo memcached_hash.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_hash.c -o memcached_hash.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_hash.c  -KPIC -DPIC -o .libs/memcached_hash.o
+source='memcached_hosts.c' object='memcached_hosts.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_hosts.lo memcached_hosts.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_hash.c -o memcached_hash.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_hosts.c  -KPIC -DPIC -o .libs/memcached_hosts.o
+source='memcached_hosts.c' object='memcached_hosts.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_hosts.lo memcached_hosts.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_hosts.c -o memcached_hosts.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_hosts.c  -KPIC -DPIC -o .libs/memcached_hosts.o
+source='memcached_io.c' object='memcached_io.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_io.lo memcached_io.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_hosts.c -o memcached_hosts.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_io.c  -KPIC -DPIC -o .libs/memcached_io.o
+source='memcached_io.c' object='memcached_io.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_io.lo memcached_io.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_io.c -o memcached_io.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_io.c  -KPIC -DPIC -o .libs/memcached_io.o
+source='md5.c' object='md5.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o md5.lo md5.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_io.c -o memcached_io.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c md5.c  -KPIC -DPIC -o .libs/md5.o
+source='md5.c' object='md5.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o md5.lo md5.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c md5.c -o md5.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c md5.c  -KPIC -DPIC -o .libs/md5.o
+source='memcached_key.c' object='memcached_key.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_key.lo memcached_key.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c md5.c -o md5.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_key.c  -KPIC -DPIC -o .libs/memcached_key.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_key.c -o memcached_key.o >/dev/null 2>&1
+source='memcached_key.c' object='memcached_key.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_key.lo memcached_key.c
+source='memcached_quit.c' object='memcached_quit.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_quit.lo memcached_quit.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_key.c  -KPIC -DPIC -o .libs/memcached_key.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_quit.c  -KPIC -DPIC -o .libs/memcached_quit.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_key.c -o memcached_key.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_quit.c -o memcached_quit.o >/dev/null 2>&1
+source='memcached_quit.c' object='memcached_quit.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_quit.lo memcached_quit.c
+source='memcached_parse.c' object='memcached_parse.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_parse.lo memcached_parse.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_quit.c  -KPIC -DPIC -o .libs/memcached_quit.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_parse.c  -KPIC -DPIC -o .libs/memcached_parse.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_quit.c -o memcached_quit.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_parse.c -o memcached_parse.o >/dev/null 2>&1
+source='memcached_parse.c' object='memcached_parse.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_parse.lo memcached_parse.c
+source='memcached_response.c' object='memcached_response.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_response.lo memcached_response.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_parse.c  -KPIC -DPIC -o .libs/memcached_parse.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_response.c  -KPIC -DPIC -o .libs/memcached_response.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_parse.c -o memcached_parse.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_response.c -o memcached_response.o >/dev/null 2>&1
+source='memcached_response.c' object='memcached_response.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_response.lo memcached_response.c
+source='memcached_result.c' object='memcached_result.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_result.lo memcached_result.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_response.c  -KPIC -DPIC -o .libs/memcached_response.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_result.c  -KPIC -DPIC -o .libs/memcached_result.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_response.c -o memcached_response.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_result.c -o memcached_result.o >/dev/null 2>&1
+source='memcached_result.c' object='memcached_result.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_result.lo memcached_result.c
+source='memcached_storage.c' object='memcached_storage.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_storage.lo memcached_storage.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_storage.c  -KPIC -DPIC -o .libs/memcached_storage.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_result.c  -KPIC -DPIC -o .libs/memcached_result.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_result.c -o memcached_result.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_storage.c -o memcached_storage.o >/dev/null 2>&1
+source='memcached_storage.c' object='memcached_storage.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_storage.lo memcached_storage.c
+source='memcached_string.c' object='memcached_string.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_string.lo memcached_string.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_storage.c  -KPIC -DPIC -o .libs/memcached_storage.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_string.c  -KPIC -DPIC -o .libs/memcached_string.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_storage.c -o memcached_storage.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_string.c -o memcached_string.o >/dev/null 2>&1
+source='memcached_string.c' object='memcached_string.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_string.lo memcached_string.c
+source='memcached_stats.c' object='memcached_stats.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_stats.lo memcached_stats.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_string.c  -KPIC -DPIC -o .libs/memcached_string.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_stats.c  -KPIC -DPIC -o .libs/memcached_stats.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_string.c -o memcached_string.o >/dev/null 2>&1
+source='memcached_stats.c' object='memcached_stats.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_stats.lo memcached_stats.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_stats.c -o memcached_stats.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_stats.c  -KPIC -DPIC -o .libs/memcached_stats.o
+source='memcached_strerror.c' object='memcached_strerror.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_strerror.lo memcached_strerror.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_stats.c -o memcached_stats.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_strerror.c  -KPIC -DPIC -o .libs/memcached_strerror.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_strerror.c -o memcached_strerror.o >/dev/null 2>&1
+source='memcached_verbosity.c' object='memcached_verbosity.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_verbosity.lo memcached_verbosity.c
+source='memcached_strerror.c' object='memcached_strerror.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_strerror.lo memcached_strerror.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_verbosity.c  -KPIC -DPIC -o .libs/memcached_verbosity.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_verbosity.c -o memcached_verbosity.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_strerror.c  -KPIC -DPIC -o .libs/memcached_strerror.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_strerror.c -o memcached_strerror.o >/dev/null 2>&1
+source='memcached_version.c' object='memcached_version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o memcached_version.lo memcached_version.c
+source='memcached_verbosity.c' object='memcached_verbosity.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_verbosity.lo memcached_verbosity.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_version.c  -KPIC -DPIC -o .libs/memcached_version.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_verbosity.c  -KPIC -DPIC -o .libs/memcached_verbosity.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c memcached_version.c -o memcached_version.o >/dev/null 2>&1
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_verbosity.c -o memcached_verbosity.o >/dev/null 2>&1
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -version-info 2:0:0 -lsocket -lnsl -o libmemcached.la -rpath /usr/lib crc.lo hsieh_hash.lo memcached.lo memcached_auto.lo memcached_behavior.lo memcached_callback.lo memcached_connect.lo memcached_delete.lo memcached_do.lo memcached_fetch.lo memcached_fetch_execute.lo memcached_flush.lo memcached_get.lo memcached_hash.lo memcached_hosts.lo memcached_io.lo md5.lo memcached_key.lo memcached_quit.lo memcached_parse.lo memcached_response.lo memcached_result.lo memcached_storage.lo memcached_string.lo memcached_stats.lo memcached_strerror.lo memcached_verbosity.lo memcached_version.lo  
+source='memcached_version.c' object='memcached_version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I..    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o memcached_version.lo memcached_version.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_version.c  -KPIC -DPIC -o .libs/memcached_version.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/lib -I../include -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c memcached_version.c -o memcached_version.o >/dev/null 2>&1
+/usr/bin/ld -G -h libmemcached.so.2 -o .libs/libmemcached.so.2.0.0  .libs/crc.o .libs/hsieh_hash.o .libs/memcached.o .libs/memcached_auto.o .libs/memcached_behavior.o .libs/memcached_callback.o .libs/memcached_connect.o .libs/memcached_delete.o .libs/memcached_do.o .libs/memcached_fetch.o .libs/memcached_fetch_execute.o .libs/memcached_flush.o .libs/memcached_get.o .libs/memcached_hash.o .libs/memcached_hosts.o .libs/memcached_io.o .libs/md5.o .libs/memcached_key.o .libs/memcached_quit.o .libs/memcached_parse.o .libs/memcached_response.o .libs/memcached_result.o .libs/memcached_storage.o .libs/memcached_string.o .libs/memcached_stats.o .libs/memcached_strerror.o .libs/memcached_verbosity.o .libs/memcached_version.o  -lsocket -lnsl -lc 
+(cd .libs && rm -f libmemcached.so.2 && ln -s libmemcached.so.2.0.0 libmemcached.so.2)
+(cd .libs && rm -f libmemcached.so && ln -s libmemcached.so.2.0.0 libmemcached.so)
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -version-info 2:0:0 -lsocket -lnsl -o libmemcached.la -rpath /usr/lib/amd64 crc.lo hsieh_hash.lo memcached.lo memcached_auto.lo memcached_behavior.lo memcached_callback.lo memcached_connect.lo memcached_delete.lo memcached_do.lo memcached_fetch.lo memcached_fetch_execute.lo memcached_flush.lo memcached_get.lo memcached_hash.lo memcached_hosts.lo memcached_io.lo md5.lo memcached_key.lo memcached_quit.lo memcached_parse.lo memcached_response.lo memcached_result.lo memcached_storage.lo memcached_string.lo memcached_stats.lo memcached_strerror.lo memcached_verbosity.lo memcached_version.lo  
+ar cru .libs/libmemcached.a  crc.o hsieh_hash.o memcached.o memcached_auto.o memcached_behavior.o memcached_callback.o memcached_connect.o memcached_delete.o memcached_do.o memcached_fetch.o memcached_fetch_execute.o memcached_flush.o memcached_get.o memcached_hash.o memcached_hosts.o memcached_io.o md5.o memcached_key.o memcached_quit.o memcached_parse.o memcached_response.o memcached_result.o memcached_storage.o memcached_string.o memcached_stats.o memcached_strerror.o memcached_verbosity.o memcached_version.o
+ranlib .libs/libmemcached.a
+creating libmemcached.la
+(cd .libs && rm -f libmemcached.la && ln -s ../libmemcached.la libmemcached.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/lib'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/src'
+source='memcat.c' object='memcat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memcat.c
+source='utilities.c' object='utilities.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c utilities.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memcat memcat.o utilities.o ../lib/libmemcached.la 
+/usr/bin/ld -G -h libmemcached.so.2 -o .libs/libmemcached.so.2.0.0  .libs/crc.o .libs/hsieh_hash.o .libs/memcached.o .libs/memcached_auto.o .libs/memcached_behavior.o .libs/memcached_callback.o .libs/memcached_connect.o .libs/memcached_delete.o .libs/memcached_do.o .libs/memcached_fetch.o .libs/memcached_fetch_execute.o .libs/memcached_flush.o .libs/memcached_get.o .libs/memcached_hash.o .libs/memcached_hosts.o .libs/memcached_io.o .libs/md5.o .libs/memcached_key.o .libs/memcached_quit.o .libs/memcached_parse.o .libs/memcached_response.o .libs/memcached_result.o .libs/memcached_storage.o .libs/memcached_string.o .libs/memcached_stats.o .libs/memcached_strerror.o .libs/memcached_verbosity.o .libs/memcached_version.o  -lsocket -lnsl -lc 
+(cd .libs && rm -f libmemcached.so.2 && ln -s libmemcached.so.2.0.0 libmemcached.so.2)
+(cd .libs && rm -f libmemcached.so && ln -s libmemcached.so.2.0.0 libmemcached.so)
+mkdir .libs
+ar cru .libs/libmemcached.a  crc.o hsieh_hash.o memcached.o memcached_auto.o memcached_behavior.o memcached_callback.o memcached_connect.o memcached_delete.o memcached_do.o memcached_fetch.o memcached_fetch_execute.o memcached_flush.o memcached_get.o memcached_hash.o memcached_hosts.o memcached_io.o md5.o memcached_key.o memcached_quit.o memcached_parse.o memcached_response.o memcached_result.o memcached_storage.o memcached_string.o memcached_stats.o memcached_strerror.o memcached_verbosity.o memcached_version.o
+ranlib .libs/libmemcached.a
+creating libmemcached.la
+(cd .libs && rm -f libmemcached.la && ln -s ../libmemcached.la libmemcached.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/lib'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/src'
+source='memcat.c' object='memcat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memcat.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memcat memcat.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memcat
+source='memcp.c' object='memcp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memcp.c
+source='utilities.c' object='utilities.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c utilities.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memcp memcp.o utilities.o ../lib/libmemcached.la 
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memcat memcat.o utilities.o ../lib/libmemcached.la 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memcp memcp.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memcp
+source='memstat.c' object='memstat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memstat.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memcat memcat.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memcat
+source='memcp.c' object='memcp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memcp.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memstat memstat.o utilities.o ../lib/libmemcached.la 
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memcp memcp.o utilities.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memstat memstat.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memstat
+source='memrm.c' object='memrm.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memrm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memcp memcp.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memcp
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memrm memrm.o utilities.o ../lib/libmemcached.la 
+source='memstat.c' object='memstat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memstat.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memstat memstat.o utilities.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memrm memrm.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memrm
+source='memflush.c' object='memflush.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memflush.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memstat memstat.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memstat
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memflush memflush.o utilities.o ../lib/libmemcached.la 
+source='memrm.c' object='memrm.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memrm.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memrm memrm.o utilities.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memflush memflush.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memflush
+source='memslap.c' object='memslap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memslap.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memrm memrm.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memrm
+source='memflush.c' object='memflush.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memflush.c
+source='generator.c' object='generator.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c generator.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memflush memflush.o utilities.o ../lib/libmemcached.la 
+source='execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c execute.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memslap memslap.o utilities.o generator.o execute.o ../lib/libmemcached.la -lpthread 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memflush memflush.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memflush
+source='memslap.c' object='memslap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memslap.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memslap memslap.o utilities.o generator.o execute.o  ../lib/.libs/libmemcached.so -lsocket -lnsl -lpthread  -R/usr/lib
+creating memslap
+source='memerror.c' object='memerror.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c memerror.c
+source='generator.c' object='generator.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c generator.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memerror memerror.o utilities.o ../lib/libmemcached.la 
+source='execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c execute.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/memerror memerror.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib
+creating memerror
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/src'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/tests'
+source='test.c' object='test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c test.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memslap memslap.o utilities.o generator.o execute.o ../lib/libmemcached.la -lpthread 
+source='function.c' object='function.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c function.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memslap memslap.o utilities.o generator.o execute.o  ../lib/.libs/libmemcached.so -lsocket -lnsl -lpthread  -R/usr/lib/amd64 -R/usr/lib
+creating memslap
+source='memerror.c' object='memerror.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/src -I../include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c memerror.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -rpath /usr/lib -lsocket -lnsl -o memerror memerror.o utilities.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/memerror memerror.o utilities.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64 -R/usr/lib
+creating memerror
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/src'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/tests'
+source='test.c' object='test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c test.c
+source='function.c' object='function.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c function.c
+source='../src/generator.c' object='generator.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o generator.o `test -f '../src/generator.c' || echo '/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests/'`../src/generator.c
+source='../src/execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o execute.o `test -f '../src/execute.c' || echo '/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests/'`../src/execute.c
+source='server.c' object='server.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c server.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o testapp test.o function.o generator.o execute.o server.o ../lib/libmemcached.la 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/testapp test.o function.o generator.o execute.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl 
+creating testapp
+source='plus.cpp' object='plus.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -norunpath -m32 -c -o plus.o plus.cpp
+/bin/bash ../libtool --preserve-dup-deps --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m32  -lsocket -lnsl -o testplus test.o plus.o server.o ../lib/libmemcached.la 
+source='../src/generator.c' object='generator.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o generator.o `test -f '../src/generator.c' || echo '/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests/'`../src/generator.c
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -o .libs/testplus test.o plus.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl 
+creating testplus
+source='udp.c' object='udp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c udp.c
+source='../src/execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o execute.o `test -f '../src/execute.c' || echo '/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests/'`../src/execute.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o udptest test.o udp.o server.o ../lib/libmemcached.la 
+source='server.c' object='server.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c server.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o testapp test.o function.o generator.o execute.o server.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/udptest test.o udp.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl 
+creating udptest
+source='atomsmasher.c' object='atomsmasher.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c atomsmasher.c
+mkdir .libs
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o atomsmasher test.o atomsmasher.o server.o generator.o execute.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/testapp test.o function.o generator.o execute.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64
+creating testapp
+source='plus.cpp' object='plus.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/CC -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -norunpath -m64 -c -o plus.o plus.cpp
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/atomsmasher test.o atomsmasher.o server.o generator.o execute.o  ../lib/.libs/libmemcached.so -lsocket -lnsl 
+/bin/bash ../libtool --preserve-dup-deps --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC  -norunpath -m64  -lsocket -lnsl -o testplus test.o plus.o server.o ../lib/libmemcached.la 
+creating atomsmasher
+source='start.c' object='start.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c start.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o startservers start.o server.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m64 -o .libs/testplus test.o plus.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64
+creating testplus
+source='udp.c' object='udp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c udp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/startservers start.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl 
+creating startservers
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o udptest test.o udp.o server.o ../lib/libmemcached.la 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/tests'
+Making all in support
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/support'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/support'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+Making all in docs
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/docs'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/docs'
+Making all in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/include'
+Making all in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/lib'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/lib'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/src'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/src'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/tests'
+Making all in support
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/support'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/support'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+cd tests; make test; cd ..
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/tests'
+./testapp > output.cmp
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/udptest test.o udp.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64
+creating udptest
+source='atomsmasher.c' object='atomsmasher.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c atomsmasher.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o atomsmasher test.o atomsmasher.o server.o generator.o execute.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/atomsmasher test.o atomsmasher.o server.o generator.o execute.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64
+creating atomsmasher
+source='start.c' object='start.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I../include -I/export/home/drlou/illumos-userland-1248/components/libmemcached/libmemcached-0.16/tests -I../include -I../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c start.c
+/bin/bash ../libtool --preserve-dup-deps --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst  -lsocket -lnsl -o startservers start.o server.o ../lib/libmemcached.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/startservers start.o server.o  ../lib/.libs/libmemcached.so -lsocket -lnsl  -R/usr/lib/amd64
+creating startservers
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/tests'
+Making all in support
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/support'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/support'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+Making all in docs
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/docs'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/docs'
+Making all in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/include'
+Making all in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/lib'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/lib'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/src'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/src'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/tests'
+Making all in support
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/support'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/support'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+cd tests; make test; cd ..
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/tests'
+./testapp > output.cmp
+*** Error code 134
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/i86/.tested
+*** Error code 139
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmemcached/build/amd64/.tested

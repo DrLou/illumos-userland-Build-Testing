@@ -1,0 +1,658 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" LD="/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC" CPPFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS" CPP="/opt/SUNWspro/solarisstudio12.3/bin/cc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -E" LDFLAGS="-lpthread -lposix4 -lrt" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --localstatedir=/var --with-pic)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" LD="/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt" CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC" CPPFLAGS="-D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS" CPP="/opt/SUNWspro/solarisstudio12.3/bin/cc -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -E" LDFLAGS="-lpthread -lposix4 -lrt" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --localstatedir=/var --with-pic)
+Configuring [1mGNU Pth[m (Portable Threads), Version [1m2.0.7 (08-Jun-2006)[m
+Copyright (c) 1999-2006 Ralf S. Engelschall <rse@engelschall.com>
+Configuring [1mGNU Pth[m (Portable Threads), Version [1m2.0.7 (08-Jun-2006)[m
+Copyright (c) 1999-2006 Ralf S. Engelschall <rse@engelschall.com>
+Platform: [1mi386-pc-solaris2.11[m
+
+[1mBuild Tools:[m
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... Platform: [1mi386-pc-solaris2.11[m
+
+[1mBuild Tools:[m
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... checking for C compiler default output file name... 
+checking for suffix of object files... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... o
+checking whether we are using the GNU C compiler... 
+checking for suffix of object files... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... none needed
+yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -E
+checking for egrep... egrep
+checking whether make sets $(MAKE)... none needed
+yes
+checking for compilation debug mode... disabled
+checking for compilation profile mode... disabled
+checking for compilation optimization mode... disabled
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -E
+checking for egrep... egrep
+checking whether make sets $(MAKE)... yes
+checking for compilation debug mode... disabled
+checking for compilation profile mode... disabled
+checking for compilation optimization mode... disabled
+checking build system type... i386-pc-solaris2.11
+checking host system type... checking build system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for non-GNU ld... /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt
+checking if the linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) is GNU ld... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking for ANSI C header files... /usr/bin/gsed
+checking for non-GNU ld... /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt
+checking if the linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) is GNU ld... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+yes
+checking dlfcn.h presence... checking whether we are using the GNU C++ compiler... yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking how to run the C++ preprocessor... checking how to run the C++ preprocessor... /lib/cpp
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... /lib/cpp
+no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... checking for g77... no
+checking whether  accepts -g... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+no
+checking the maximum length of command line arguments... checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -lpthread -lposix4 -lrt) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+
+[1mMandatory Platform Environment:[m
+checking for ANSI C header files... (cached) yes
+checking stdio.h usability... appending configuration tag "F77" to libtool
+
+[1mMandatory Platform Environment:[m
+checking for ANSI C header files... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+yes
+checking stdio.h presence... checking stdarg.h usability... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+checking signal.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+yes
+checking signal.h presence... checking signal.h usability... yes
+checking for signal.h... yes
+checking for unistd.h... (cached) yes
+checking setjmp.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking for unistd.h... (cached) yes
+yes
+checking setjmp.h presence... checking setjmp.h usability... yes
+checking for setjmp.h... yes
+checking fcntl.h usability... yes
+checking setjmp.h presence... yes
+checking fcntl.h presence... yes
+checking for setjmp.h... yes
+checking fcntl.h usability... yes
+checking for fcntl.h... yes
+checking errno.h usability... yes
+checking fcntl.h presence... yes
+checking errno.h presence... yes
+checking for fcntl.h... yes
+checking errno.h usability... yes
+checking for errno.h... yes
+checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+yes
+checking sys/time.h presence... checking for sys/types.h... (cached) yes
+checking sys/time.h usability... yes
+checking for sys/time.h... yes
+checking sys/wait.h usability... yes
+checking sys/time.h presence... yes
+checking sys/wait.h presence... yes
+checking for sys/time.h... yes
+checking sys/wait.h usability... yes
+checking for sys/wait.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/wait.h presence... yes
+checking sys/socket.h presence... yes
+checking for sys/wait.h... yes
+checking for sys/stat.h... (cached) yes
+checking sys/socket.h usability... yes
+checking for sys/socket.h... yes
+checking for gettimeofday... yes
+checking sys/socket.h presence... yes
+checking for select... yes
+checking for sys/socket.h... yes
+checking for gettimeofday... yes
+checking for sigaction... yes
+checking for select... yes
+checking for sigprocmask... yes
+checking for sigaction... yes
+checking for sigpending... yes
+checking for sigprocmask... yes
+checking for sigsuspend... yes
+checking for sigpending... yes
+yes
+checking for sigsuspend... yes
+decision on mandatory system headers and functions... [1mall fine[m
+
+[1mOptional Platform Environment:[m
+checking for number of signals... 73
+checking for default value of FD_SETSIZE... decision on mandatory system headers and functions... [1mall fine[m
+
+[1mOptional Platform Environment:[m
+checking for number of signals... 1024
+checking for poll... 73
+checking for default value of FD_SETSIZE... yes
+checking for define POLLIN in poll.h... 65536
+checking for poll... yes
+checking whether poll(2) facility has to be faked... no
+checking sys/uio.h usability... yes
+checking for define POLLIN in poll.h... yes
+checking sys/uio.h presence... yes
+checking whether poll(2) facility has to be faked... yes
+checking for sys/uio.h... no
+yes
+checking sys/uio.h usability... checking for readv... yes
+checking sys/uio.h presence... yes
+yes
+checking for sys/uio.h... checking for writev... yes
+checking for readv... yes
+checking whether readv(2)/writev(2) facility has to be faked... yes
+checking for writev... no
+checking for usleep... yes
+yes
+checking whether readv(2)/writev(2) facility has to be faked... checking for strerror... no
+checking for usleep... yes
+yes
+checking sys/resource.h usability... checking for strerror... yes
+checking sys/resource.h presence... yes
+checking sys/resource.h usability... yes
+checking for sys/resource.h... yes
+checking net/errno.h usability... yes
+checking sys/resource.h presence... no
+checking net/errno.h presence... yes
+checking for sys/resource.h... yes
+no
+checking for net/errno.h... no
+checking net/errno.h usability... checking paths.h usability... no
+checking net/errno.h presence... yes
+checking paths.h presence... no
+checking for net/errno.h... no
+checking paths.h usability... yes
+checking for paths.h... yes
+checking for gethostname in -lnsl... yes
+checking paths.h presence... yes
+checking for paths.h... yes
+checking for gethostname in -lnsl... yes
+checking for accept in -lsocket... yes
+yes
+checking for accept in -lsocket... checking sys/select.h usability... yes
+yes
+checking sys/select.h presence... checking sys/select.h usability... yes
+checking for sys/select.h... yes
+checking for typedef sig_atomic_t... yes
+checking sys/select.h presence... yes
+checking for typedef pid_t... yes
+yes
+checking for sys/select.h... checking for typedef size_t... yes
+checking for typedef sig_atomic_t... yes
+checking for typedef ssize_t... yes
+checking for typedef pid_t... yes
+checking for typedef off_t... yes
+checking for typedef size_t... yes
+checking for typedef stack_t... yes
+checking for typedef ssize_t... yes
+checking for attribute ss_base in struct sigaltstack from sys/signal.h... yes
+checking for typedef off_t... yes
+no
+checking for attribute ss_sp in struct sigaltstack from sys/signal.h... checking for typedef stack_t... yes
+checking for attribute ss_base in struct sigaltstack from sys/signal.h... no
+checking for attribute ss_sp in struct sigaltstack from sys/signal.h... yes
+checking for a single-argument based gettimeofday... no
+checking for struct timespec... yes
+checking for a single-argument based gettimeofday... no
+checking for struct timespec... yes
+checking for typedef socklen_t... yes
+checking for type of argument 3 for accept()... yes
+checking for typedef socklen_t... Psocklen_t
+checking for fallback socklen_t... socklen_t
+checking for typedef nfds_t... yes
+checking for type of argument 3 for accept()... yes
+checking for type of argument 2 for poll()... Psocklen_t
+checking for fallback socklen_t... socklen_t
+checking for typedef nfds_t... nfds_t
+checking for fallback nfds_t... nfds_t
+checking for built-in type long long... yes
+checking for type of argument 2 for poll()... nfds_t
+checking for fallback nfds_t... nfds_t
+checking for built-in type long long... yes
+checking for built-in type long double... yes
+checking for built-in type long double... yes
+
+[1mMachine Context Implementation:[m
+checking for ucontext.h... yes
+
+[1mMachine Context Implementation:[m
+checking for ucontext.h... yes
+checking for makecontext... yes
+checking for makecontext... yes
+checking for swapcontext... yes
+checking for swapcontext... yes
+checking for getcontext... yes
+checking for getcontext... yes
+checking for setcontext... yes
+checking for setcontext... yes
+checking for usable SVR4/SUSv2 makecontext(2)/swapcontext(2)... yes
+checking for usable SVR4/SUSv2 makecontext(2)/swapcontext(2)... yes
+checking for signal.h... (cached) yes
+checking for sigsetjmp... yes
+checking for signal.h... (cached) yes
+checking for sigsetjmp... yes
+checking for siglongjmp... yes
+checking for siglongjmp... yes
+checking for setjmp... yes
+checking for setjmp... yes
+checking for longjmp... yes
+checking for longjmp... yes
+checking for _setjmp... yes
+checking for _setjmp... yes
+checking for _longjmp... yes
+checking for _longjmp... yes
+checking for sigaltstack... yes
+checking for sigaltstack... yes
+checking for sigstack... yes
+checking for sigstack... yes
+checking for signal-mask aware setjmp(3)/longjmp(3)... yes
+checking for signal-mask aware setjmp(3)/longjmp(3)... yes: ssjlj
+checking for typedef stack_t... (cached) yes
+checking for direction of stack growth... yes: ssjlj
+checking for typedef stack_t... (cached) yes
+checking for direction of stack growth... down
+checking for makecontext... (cached) yes
+checking for stack setup via makecontext... down
+checking for makecontext... (cached) yes
+checking for stack setup via makecontext... ok
+checking for sigaltstack... (cached) yes
+checking for typedef stack_t... (cached) yes
+checking for stack setup via sigaltstack... ok
+checking for sigaltstack... (cached) yes
+checking for typedef stack_t... (cached) yes
+checking for stack setup via sigaltstack... ok
+checking for sigstack... (cached) yes
+checking for stack setup via sigstack... ok
+checking for sigstack... (cached) yes
+checking for stack setup via sigstack... ok
+decision on mctx implementation... [1mmcsc/sc/mc[m
+
+[1mSystem Call Mapping:[m
+checking sys/syscall.h usability... ok
+decision on mctx implementation... [1mmcsc/sc/mc[m
+
+[1mSystem Call Mapping:[m
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking sys/socketcall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+no
+checking sys/socketcall.h presence... checking sys/socketcall.h usability... no
+checking for sys/socketcall.h... no
+checking for syscall... no
+checking sys/socketcall.h presence... no
+checking for sys/socketcall.h... no
+checking for syscall... yes
+checking for define SYS_read in sys/syscall.h... yes
+checking for dlfcn.h... (cached) yes
+checking for dlsym in -ldl... yes
+checking for define SYS_read in sys/syscall.h... yes
+checking for dlfcn.h... (cached) yes
+yes
+checking for dlsym in -ldl... checking for dlopen... yes
+checking for dlsym... yes
+checking for dlopen... yes
+checking for dlclose... yes
+checking for dlsym... yes
+checking for define RTLD_NEXT in dlfcn.h... yes
+yes
+checking for syscall dynamic libraries... checking for dlclose... /usr/lib/libdl.so:/lib/libdl.so:/usr/lib/libsocket.so:/lib/libsocket.so:/usr/lib/libnsl.so:/lib/libnsl.so:/usr/lib/libc.so:/lib/libc.so
+checking whether soft system call mapping is used... no
+checking whether hard system call mapping is used... no
+
+[1mBuild Parameters:[m
+checking whether to activate batch build mode... no
+checking whether to activate maintainer build targets... no
+checking whether to activate test build targets... yes
+checking whether to build Pthread library... no
+checking whether to build against external OSSP ex library... no
+checking whether to build against external Sfio library... no
+checking whether to build against external Dmalloc library... no
+
+[1mOutput Substitution:[m
+configure: creating ./config.status
+yes
+checking for define RTLD_NEXT in dlfcn.h... yes
+checking for syscall dynamic libraries... /usr/lib/libdl.so:/lib/libdl.so:/usr/lib/libsocket.so:/lib/libsocket.so:/usr/lib/libnsl.so:/lib/libnsl.so:/usr/lib/libc.so:/lib/libc.so
+checking whether soft system call mapping is used... no
+checking whether hard system call mapping is used... no
+
+[1mBuild Parameters:[m
+checking whether to activate batch build mode... no
+checking whether to activate maintainer build targets... no
+checking whether to activate test build targets... yes
+checking whether to build Pthread library... no
+checking whether to build against external OSSP ex library... no
+checking whether to build against external Sfio library... no
+checking whether to build against external Dmalloc library... no
+
+[1mOutput Substitution:[m
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating pthread-config
+config.status: creating pthread.h
+config.status: creating pth-config
+config.status: creating pth.h
+config.status: creating pth_acmac.h
+config.status: creating pth_acdef.h
+config.status: creating Makefile
+config.status: creating pthread-config
+config.status: executing default commands
+config.status: creating pthread.h
+
+Now please type `[1mmake[m' to compile. Good luck.
+
+config.status: creating pth-config
+config.status: creating pth.h
+config.status: creating pth_acmac.h
+config.status: creating pth_acdef.h
+config.status: executing default commands
+
+Now please type `[1mmake[m' to compile. Good luck.
+
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/shtool scpp -o pth_p.h -t /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_p.h.in -Dcpp -Cintern -M '==#==' /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_compat.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_debug.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_syscall.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_errno.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ring.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_mctx.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_uctx.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_clean.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_time.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_tcb.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_util.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_pqueue.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_event.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sched.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_data.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_msg.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_cancel.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sync.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_attr.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_lib.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_fork.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_high.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ext.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_string.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pthread.c
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/shtool scpp -o pth_p.h -t /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_p.h.in -Dcpp -Cintern -M '==#==' /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_compat.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_debug.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_syscall.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_errno.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ring.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_mctx.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_uctx.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_clean.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_time.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_tcb.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_util.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_pqueue.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_event.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sched.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_data.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_msg.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_cancel.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sync.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_attr.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_lib.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_fork.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_high.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ext.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_string.c /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pthread.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_debug.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_debug.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ring.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ring.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_pqueue.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_pqueue.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_time.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_time.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_errno.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_errno.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_mctx.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_mctx.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_uctx.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_uctx.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_tcb.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_tcb.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sched.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sched.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_attr.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_attr.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_lib.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_lib.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_event.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_event.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_data.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_data.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_clean.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_clean.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_cancel.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_cancel.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_msg.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_msg.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sync.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_sync.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_fork.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_fork.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_util.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_util.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_high.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_high.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_syscall.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ext.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_syscall.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_compat.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_ext.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_string.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_compat.c
+./libtool --mode=compile --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_string.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -o libpth.la pth_debug.lo pth_ring.lo pth_pqueue.lo pth_time.lo pth_errno.lo pth_mctx.lo pth_uctx.lo pth_tcb.lo pth_sched.lo pth_attr.lo pth_lib.lo pth_event.lo pth_data.lo pth_clean.lo pth_cancel.lo pth_msg.lo pth_sync.lo pth_fork.lo pth_util.lo pth_high.lo pth_syscall.lo pth_ext.lo pth_compat.lo pth_string.lo \
+	-rpath /usr/lib -version-info `/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/shtool version -lc -dlibtool /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_vers.c`
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_std.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -o libpth.la pth_debug.lo pth_ring.lo pth_pqueue.lo pth_time.lo pth_errno.lo pth_mctx.lo pth_uctx.lo pth_tcb.lo pth_sched.lo pth_attr.lo pth_lib.lo pth_event.lo pth_data.lo pth_clean.lo pth_cancel.lo pth_msg.lo pth_sync.lo pth_fork.lo pth_util.lo pth_high.lo pth_syscall.lo pth_ext.lo pth_compat.lo pth_string.lo \
+	-rpath /usr/lib/amd64 -version-info `/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/shtool version -lc -dlibtool /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/pth_vers.c`
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_common.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_std test_std.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_std.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_mp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_common.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_mp test_mp.o test_common.o libpth.la -ldl -lsocket -lnsl 
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_std test_std.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_misc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_mp.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_misc test_misc.o test_common.o libpth.la -ldl -lsocket -lnsl 
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_mp test_mp.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_philo.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_misc.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_philo test_philo.o test_common.o libpth.la -ldl -lsocket -lnsl 
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_misc test_misc.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_sig.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_philo.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_sig test_sig.o test_common.o libpth.la -ldl -lsocket -lnsl 
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_philo test_philo.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_select.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_select test_select.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_sig.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_sig test_sig.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_httpd.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_select.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_httpd test_httpd.o test_common.o libpth.la -ldl -lsocket -lnsl 
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_select test_select.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_sfio.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_sfio test_sfio.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_httpd.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_httpd test_httpd.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_uctx.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_uctx test_uctx.o test_common.o libpth.la -ldl -lsocket -lnsl 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_sfio.c
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_sfio test_sfio.o test_common.o libpth.la -ldl -lsocket -lnsl 
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+
+Now please type `[1mmake test[m' to run a quick test suite. Hope it works.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -D_LARGEFILE64_SOURCE -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 /export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7/test_uctx.c
+Please send the following summary line via Email to the author
+Ralf S. Engelschall <rse@engelschall.com> for inclusion into
+the list of successfully tested platforms (see PORTING file):
+
+./libtool --mode=link --quiet /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -KPIC -DPIC -I/export/home/drlou/illumos-userland-1248/components/gnupth/pth-2.0.7 -lpthread -lposix4 -lrt -o test_uctx test_uctx.o test_common.o libpth.la -ldl -lsocket -lnsl 
+Pth: [1mOK[m: [1mi386-pc-solaris2.11[m | [1mmcsc/sc/mc[m | [1mdown[m | [1m2.0.7[m
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+
+Then please type `[1mmake install[m' to install the package.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/i86/.tested
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+
+Now please type `[1mmake test[m' to run a quick test suite. Hope it works.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+Please send the following summary line via Email to the author
+Ralf S. Engelschall <rse@engelschall.com> for inclusion into
+the list of successfully tested platforms (see PORTING file):
+
+Pth: [1mOK[m: [1mi386-pc-solaris2.11[m | [1mmcsc/sc/mc[m | [1mdown[m | [1m2.0.7[m
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+
+Then please type `[1mmake install[m' to install the package.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gnupth/build/amd64/.tested

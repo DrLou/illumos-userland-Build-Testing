@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3 -p1 --backup --version-control=numbered < patches/c-parse.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3 -p1 --backup --version-control=numbered < patches/g++spec.c.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3 -p1 --backup --version-control=numbered < patches/gcc.configure.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3 -p1 --backup --version-control=numbered < patches/gcc.makefile.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3 -p1 --backup --version-control=numbered < patches/i386.sol2-10.h.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  gcc-3.4.3.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/gcc3/gcc-3.4.3/.unpacked

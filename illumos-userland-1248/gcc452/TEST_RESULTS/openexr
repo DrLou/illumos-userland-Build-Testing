@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1 -p0 --backup --version-control=numbered < patches/000-ltmain.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1 -p0 --backup --version-control=numbered < patches/001-makePreview.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1 -p0 --backup --version-control=numbered < patches/002-configure.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1 -p0 --backup --version-control=numbered < patches/003-openexr-1.6.1-CVE-2009-1720.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1 -p0 --backup --version-control=numbered < patches/004-openexr-1.6.1-CVE-2009-1721.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  openexr-1.6.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/openexr/openexr-1.6.1/.unpacked

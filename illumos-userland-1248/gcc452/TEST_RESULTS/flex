@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/flex/flex-2.5.35
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/flex/flex-2.5.35 -p1 --backup --version-control=numbered < patches/000-flex-2.5.35.Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  flex-2.5.35.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/flex/flex-2.5.35/.unpacked

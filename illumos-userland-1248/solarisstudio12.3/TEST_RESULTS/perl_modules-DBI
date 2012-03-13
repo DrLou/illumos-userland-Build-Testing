@@ -1,0 +1,397 @@
+(/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/DBI-1.58 /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12
+symlink cloning /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/DBI-1.58 to /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12 ; MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " PERL="/usr/perl5/5.12/bin/perl" /usr/perl5/5.12/bin/perl  \
+				Makefile.PL )
+*** Note:
+    The optional PlRPC-modules (RPC::PlServer etc) are not installed.
+    If you want to use the DBD::Proxy driver and DBI::ProxyServer
+    modules, then you'll need to install the RPC::PlServer, RPC::PlClient,
+    Storable and Net::Daemon modules. The CPAN Bundle::DBI may help you.
+    You can install them any time after installing the DBI.
+    You do *not* need these modules for typical DBI usage.
+
+Optional modules are available from any CPAN mirror, in particular
+    http://search.cpan.org/
+    http://www.perl.com/CPAN/modules/by-module
+    http://www.perl.org/CPAN/modules/by-module
+    ftp://ftp.funet.fi/pub/languages/perl/CPAN/modules/by-module
+
+Creating test wrappers for DBI::PurePerl:
+t/zvp_01basics.t 
+t/zvp_02dbidrv.t 
+t/zvp_03handle.t 
+t/zvp_04mods.t 
+t/zvp_05thrclone.t 
+t/zvp_06attrs.t 
+t/zvp_07kids.t 
+t/zvp_08keeperr.t 
+t/zvp_09trace.t 
+t/zvp_10examp.t 
+t/zvp_11fetch.t 
+t/zvp_12quote.t 
+t/zvp_13taint.t 
+t/zvp_14utf8.t 
+t/zvp_15array.t 
+t/zvp_19fhtrace.t 
+t/zvp_20meta.t 
+t/zvp_30subclass.t 
+t/zvp_40profile.t 
+t/zvp_41prof_dump.t 
+t/zvp_42prof_data.t 
+t/zvp_43prof_env.t 
+t/zvp_50dbm.t 
+t/zvp_60preparse.t 
+t/zvp_65transact.t 
+t/zvp_70callbacks.t 
+t/zvp_72childhandles.t 
+t/zvp_80proxy.t 
+t/zvp_85gofer.t 
+t/zvp_86gofer_fail.t 
+Creating test wrappers for DBD::Gofer:
+t/zvg_01basics.t 
+t/zvg_02dbidrv.t 
+t/zvg_03handle.t 
+t/zvg_04mods.t 
+t/zvg_05thrclone.t 
+t/zvg_06attrs.t 
+t/zvg_07kids.t 
+t/zvg_08keeperr.t 
+t/zvg_09trace.t 
+t/zvg_10examp.t 
+t/zvg_11fetch.t 
+t/zvg_12quote.t 
+t/zvg_13taint.t 
+t/zvg_14utf8.t 
+t/zvg_15array.t 
+t/zvg_19fhtrace.t 
+t/zvg_20meta.t 
+t/zvg_30subclass.t 
+t/zvg_40profile.t 
+t/zvg_41prof_dump.t 
+t/zvg_42prof_data.t 
+t/zvg_43prof_env.t 
+t/zvg_50dbm.t 
+t/zvg_60preparse.t 
+t/zvg_65transact.t 
+t/zvg_70callbacks.t 
+t/zvg_72childhandles.t 
+t/zvg_80proxy.t 
+t/zvg_85gofer.t 
+t/zvg_86gofer_fail.t 
+Creating test wrappers for PurePerl & Gofer:
+t/zvxgp_01basics.t 
+t/zvxgp_02dbidrv.t 
+t/zvxgp_03handle.t 
+t/zvxgp_04mods.t 
+t/zvxgp_05thrclone.t 
+t/zvxgp_06attrs.t 
+t/zvxgp_07kids.t 
+t/zvxgp_08keeperr.t 
+t/zvxgp_09trace.t 
+t/zvxgp_10examp.t 
+t/zvxgp_11fetch.t 
+t/zvxgp_12quote.t 
+t/zvxgp_13taint.t 
+t/zvxgp_14utf8.t 
+t/zvxgp_15array.t 
+t/zvxgp_19fhtrace.t 
+t/zvxgp_20meta.t 
+t/zvxgp_30subclass.t 
+t/zvxgp_40profile.t 
+t/zvxgp_41prof_dump.t 
+t/zvxgp_42prof_data.t 
+t/zvxgp_43prof_env.t 
+t/zvxgp_50dbm.t 
+t/zvxgp_60preparse.t 
+t/zvxgp_65transact.t 
+t/zvxgp_70callbacks.t 
+t/zvxgp_72childhandles.t 
+t/zvxgp_80proxy.t 
+t/zvxgp_85gofer.t 
+t/zvxgp_86gofer_fail.t 
+Checking if your kit is complete...
+Looks good
+Writing Makefile for DBI
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12; /usr/gnu/bin/sed 's/^CCCDLFLAGS = -KPIC/^CCCDLFLAGS = -fPIC/' Makefile > Makefile.tmp; grep -v '^OPTIMIZE =' Makefile.tmp > Makefile)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12'
+/usr/perl5/5.12/bin/perl -MExtUtils::Command -e 'mkpath' -- blib/lib/DBI
+rm -f blib/lib/DBI/Changes.pm
+cp Changes blib/lib/DBI/Changes.pm
+/usr/perl5/5.12/bin/perl -MExtUtils::Command -e 'mkpath' -- blib/lib/DBI
+rm -f blib/lib/DBI/Roadmap.pm
+cp Roadmap.pod blib/lib/DBI/Roadmap.pm
+cp Driver_xst.h blib/arch/auto/DBI/Driver_xst.h
+cp lib/DBI/Gofer/Response.pm blib/lib/DBI/Gofer/Response.pm
+cp lib/DBD/Proxy.pm blib/lib/DBD/Proxy.pm
+cp lib/DBI/Util/_accessor.pm blib/lib/DBI/Util/_accessor.pm
+cp lib/DBI/Gofer/Transport/Base.pm blib/lib/DBI/Gofer/Transport/Base.pm
+cp lib/DBD/DBM.pm blib/lib/DBD/DBM.pm
+cp DBIXS.h blib/arch/auto/DBI/DBIXS.h
+cp dbixs_rev.pl blib/lib/dbixs_rev.pl
+cp Roadmap.pod blib/lib/Roadmap.pod
+cp lib/DBI/Const/GetInfoType.pm blib/lib/DBI/Const/GetInfoType.pm
+cp lib/DBI/DBD/Metadata.pm blib/lib/DBI/DBD/Metadata.pm
+cp lib/DBI/Const/GetInfo/ODBC.pm blib/lib/DBI/Const/GetInfo/ODBC.pm
+cp lib/DBD/Gofer/Transport/pipeone.pm blib/lib/DBD/Gofer/Transport/pipeone.pm
+cp lib/DBI/ProfileDumper/Apache.pm blib/lib/DBI/ProfileDumper/Apache.pm
+cp Driver.xst blib/arch/auto/DBI/Driver.xst
+cp lib/DBD/File.pm blib/lib/DBD/File.pm
+cp lib/DBI/ProfileSubs.pm blib/lib/DBI/ProfileSubs.pm
+cp lib/DBD/NullP.pm blib/lib/DBD/NullP.pm
+cp dbi_sql.h blib/arch/auto/DBI/dbi_sql.h
+cp lib/DBD/Gofer.pm blib/lib/DBD/Gofer.pm
+cp dbd_xsh.h blib/arch/auto/DBI/dbd_xsh.h
+cp dbivport.h blib/arch/auto/DBI/dbivport.h
+cp dbixs_rev.h blib/arch/auto/DBI/dbixs_rev.h
+cp lib/DBD/Gofer/Transport/Base.pm blib/lib/DBD/Gofer/Transport/Base.pm
+cp lib/DBI/FAQ.pm blib/lib/DBI/FAQ.pm
+cp lib/DBD/Gofer/Policy/rush.pm blib/lib/DBD/Gofer/Policy/rush.pm
+cp lib/DBI/SQL/Nano.pm blib/lib/DBI/SQL/Nano.pm
+cp lib/DBI/Const/GetInfo/ANSI.pm blib/lib/DBI/Const/GetInfo/ANSI.pm
+cp lib/DBI/Gofer/Request.pm blib/lib/DBI/Gofer/Request.pm
+cp lib/DBD/Gofer/Transport/stream.pm blib/lib/DBD/Gofer/Transport/stream.pm
+cp lib/DBD/Gofer/Policy/classic.pm blib/lib/DBD/Gofer/Policy/classic.pm
+cp goferperf.pl blib/lib/goferperf.pl
+cp lib/DBI/Gofer/Transport/stream.pm blib/lib/DBI/Gofer/Transport/stream.pm
+cp lib/DBI/Const/GetInfoReturn.pm blib/lib/DBI/Const/GetInfoReturn.pm
+cp DBI.pm blib/lib/DBI.pm
+cp lib/DBD/Gofer/Policy/Base.pm blib/lib/DBD/Gofer/Policy/Base.pm
+cp lib/DBD/Sponge.pm blib/lib/DBD/Sponge.pm
+cp lib/DBD/Gofer/Policy/pedantic.pm blib/lib/DBD/Gofer/Policy/pedantic.pm
+cp lib/DBI/Gofer/Transport/pipeone.pm blib/lib/DBI/Gofer/Transport/pipeone.pm
+cp lib/DBI/W32ODBC.pm blib/lib/DBI/W32ODBC.pm
+cp lib/DBD/Gofer/Transport/null.pm blib/lib/DBD/Gofer/Transport/null.pm
+cp lib/Bundle/DBI.pm blib/lib/Bundle/DBI.pm
+cp TASKS.pod blib/lib/TASKS.pod
+cp lib/DBI/Profile.pm blib/lib/DBI/Profile.pm
+cp lib/DBI/ProfileDumper.pm blib/lib/DBI/ProfileDumper.pm
+cp lib/DBI/ProxyServer.pm blib/lib/DBI/ProxyServer.pm
+cp dbipport.h blib/arch/auto/DBI/dbipport.h
+cp lib/DBI/Gofer/Execute.pm blib/lib/DBI/Gofer/Execute.pm
+cp lib/DBI/DBD.pm blib/lib/DBI/DBD.pm
+cp lib/Win32/DBIODBC.pm blib/lib/Win32/DBIODBC.pm
+cp lib/DBD/ExampleP.pm blib/lib/DBD/ExampleP.pm
+cp lib/DBI/PurePerl.pm blib/lib/DBI/PurePerl.pm
+cp lib/DBI/ProfileData.pm blib/lib/DBI/ProfileData.pm
+/usr/perl5/5.12/bin/perl -p -e "s/~DRIVER~/Perl/g" ./Driver.xst > Perl.xsi
+/usr/perl5/5.12/bin/perl /usr/perl5/5.12/lib/ExtUtils/xsubpp  -typemap /usr/perl5/5.12/lib/ExtUtils/typemap -typemap typemap  Perl.xs > Perl.xsc && mv Perl.xsc Perl.c
+cc -c   -DPTR_IS_LONG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DPERL_USE_SAFE_PUTENV    -DVERSION=\"1.58\" -DXS_VERSION=\"1.58\"  "-I/usr/perl5/5.12/lib/i86pc-solaris-64int/CORE"  -DDBI_NO_THREADS Perl.c
+/usr/perl5/5.12/bin/perl /usr/perl5/5.12/lib/ExtUtils/xsubpp  -typemap /usr/perl5/5.12/lib/ExtUtils/typemap -typemap typemap  DBI.xs > DBI.xsc && mv DBI.xsc DBI.c
+cc -c   -DPTR_IS_LONG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DPERL_USE_SAFE_PUTENV    -DVERSION=\"1.58\" -DXS_VERSION=\"1.58\"  "-I/usr/perl5/5.12/lib/i86pc-solaris-64int/CORE"  -DDBI_NO_THREADS DBI.c
+Running Mkbootstrap for DBI ()
+chmod 644 DBI.bs
+rm -f blib/arch/auto/DBI/DBI.so
+cc  -G -L/usr/lib -L/usr/ccs/lib -L/opt/sunstudio12.1/prod/lib -L/lib -L/usr/gnu/lib DBI.o  -o blib/arch/auto/DBI/DBI.so 	\
+	     	\
+	  
+chmod 755 blib/arch/auto/DBI/DBI.so
+cp DBI.bs blib/arch/auto/DBI/DBI.bs
+chmod 644 blib/arch/auto/DBI/DBI.bs
+/usr/perl5/5.12/bin/perl "-Iblib/arch" "-Iblib/lib" dbiprof.PL dbiprof
+Extracted dbiprof from dbiprof.PL with variable substitutions.
+cp dbiprof blib/script/dbiprof
+/usr/perl5/5.12/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbiprof
+/usr/perl5/5.12/bin/perl "-Iblib/arch" "-Iblib/lib" dbiproxy.PL dbiproxy
+Extracted dbiproxy from dbiproxy.PL with variable substitutions.
+cp dbiproxy blib/script/dbiproxy
+/usr/perl5/5.12/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbiproxy
+/usr/perl5/5.12/bin/perl "-Iblib/arch" "-Iblib/lib" dbilogstrip.PL dbilogstrip
+Extracted dbilogstrip from dbilogstrip.PL with variable substitutions.
+cp dbilogstrip blib/script/dbilogstrip
+/usr/perl5/5.12/bin/perl -MExtUtils::MY -e 'MY->fixin(shift)' -- blib/script/dbilogstrip
+Manifying blib/man1/dbiprof.1
+Manifying blib/man1/dbiproxy.1
+Manifying blib/man1/dbilogstrip.1
+Manifying blib/man3/DBD::Proxy.3
+Manifying blib/man3/DBI::Gofer::Response.3
+Manifying blib/man3/DBI::Gofer::Transport::Base.3
+Manifying blib/man3/DBD::DBM.3
+Manifying blib/man3/DBI::Const::GetInfoType.3
+Manifying blib/man3/Roadmap.3
+Manifying blib/man3/DBI::DBD::Metadata.3
+Manifying blib/man3/DBD::Gofer::Transport::pipeone.3
+Manifying blib/man3/DBI::Const::GetInfo::ODBC.3
+Manifying blib/man3/DBI::ProfileDumper::Apache.3
+Manifying blib/man3/DBD::File.3
+Manifying blib/man3/DBI::ProfileSubs.3
+Manifying blib/man3/DBD::Gofer.3
+Manifying blib/man3/DBD::Gofer::Transport::Base.3
+Manifying blib/man3/DBI::FAQ.3
+Manifying blib/man3/DBD::Gofer::Policy::rush.3
+Manifying blib/man3/DBI::SQL::Nano.3
+Manifying blib/man3/DBI::Const::GetInfo::ANSI.3
+Manifying blib/man3/DBI::Gofer::Request.3
+Manifying blib/man3/DBD::Gofer::Transport::stream.3
+Manifying blib/man3/DBD::Gofer::Policy::classic.3
+Manifying blib/man3/DBD::Gofer::Policy::Base.3
+Manifying blib/man3/DBI.3
+Manifying blib/man3/DBI::Const::GetInfoReturn.3
+Manifying blib/man3/DBI::Gofer::Transport::stream.3
+Manifying blib/man3/DBD::Sponge.3
+Manifying blib/man3/DBD::Gofer::Policy::pedantic.3
+Manifying blib/man3/DBI::W32ODBC.3
+Manifying blib/man3/DBI::Gofer::Transport::pipeone.3
+Manifying blib/man3/DBD::Gofer::Transport::null.3
+Manifying blib/man3/Bundle::DBI.3
+Manifying blib/man3/TASKS.3
+Manifying blib/man3/DBI::Profile.3
+Manifying blib/man3/DBI::ProfileDumper.3
+Manifying blib/man3/DBI::ProxyServer.3
+Manifying blib/man3/DBI::Gofer::Execute.3
+Manifying blib/man3/DBI::DBD.3
+Manifying blib/man3/Win32::DBIODBC.3
+Manifying blib/man3/DBI::PurePerl.3
+Manifying blib/man3/DBI::ProfileData.3
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12/.built
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12'
+PERL_DL_NONLAZY=1 /usr/perl5/5.12/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/01basics.t .............. ok
+t/02dbidrv.t .............. ok
+t/03handle.t .............. ok
+t/04mods.t ................ ok
+t/05thrclone.t ............ skipped: this solaris perl 5.012003 not configured to support iThreads
+t/06attrs.t ............... ok
+t/07kids.t ................ ok
+t/08keeperr.t ............. ok
+t/09trace.t ............... ok
+t/10examp.t ............... ok
+t/11fetch.t ............... ok
+t/12quote.t ............... ok
+t/13taint.t ............... ok
+t/14utf8.t ................ ok
+t/15array.t ............... ok
+t/19fhtrace.t ............. ok
+t/20meta.t ................ ok
+t/30subclass.t ............ ok
+t/40profile.t ............. ok
+t/41prof_dump.t ........... ok
+t/42prof_data.t ........... ok
+t/43prof_env.t ............ ok
+t/50dbm.t ................. ok
+t/60preparse.t ............ ok
+t/65transact.t ............ ok
+t/70callbacks.t ........... ok
+t/72childhandles.t ........ ok
+t/80proxy.t ............... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/85gofer.t ............... ok
+t/86gofer_fail.t .......... ok
+t/pod.t ................... skipped: Test::Pod 1.00 required for testing POD
+t/zvg_01basics.t .......... ok
+t/zvg_02dbidrv.t .......... ok
+t/zvg_03handle.t .......... ok
+t/zvg_04mods.t ............ ok
+t/zvg_05thrclone.t ........ skipped: this solaris perl 5.012003 not configured to support iThreads
+t/zvg_06attrs.t ........... ok
+t/zvg_07kids.t ............ ok
+t/zvg_08keeperr.t ......... ok
+t/zvg_09trace.t ........... ok
+t/zvg_10examp.t ........... ok
+t/zvg_11fetch.t ........... ok
+t/zvg_12quote.t ........... ok
+t/zvg_13taint.t ........... skipped: Taint attribute tests not functional with DBI_AUTOPROXY
+t/zvg_14utf8.t ............ ok
+t/zvg_15array.t ........... ok
+t/zvg_19fhtrace.t ......... ok
+t/zvg_20meta.t ............ ok
+t/zvg_30subclass.t ........ ok
+t/zvg_40profile.t ......... ok
+t/zvg_41prof_dump.t ....... ok
+t/zvg_42prof_data.t ....... ok
+t/zvg_43prof_env.t ........ ok
+t/zvg_50dbm.t ............. ok
+t/zvg_60preparse.t ........ ok
+t/zvg_65transact.t ........ skipped: Transactions not supported by DBD::Gofer
+t/zvg_70callbacks.t ....... ok
+t/zvg_72childhandles.t .... ok
+t/zvg_80proxy.t ........... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvg_85gofer.t ........... ok
+t/zvg_86gofer_fail.t ...... skipped: Gofer DBI_AUTOPROXY
+t/zvp_01basics.t .......... ok
+t/zvp_02dbidrv.t .......... ok
+t/zvp_03handle.t .......... ok
+t/zvp_04mods.t ............ ok
+t/zvp_05thrclone.t ........ skipped: this solaris perl 5.012003 not configured to support iThreads
+t/zvp_06attrs.t ........... ok
+t/zvp_07kids.t ............ skipped: $h->{Kids} attribute not supported for DBI::PurePerl
+t/zvp_08keeperr.t ......... ok
+t/zvp_09trace.t ........... ok
+t/zvp_10examp.t ........... ok
+t/zvp_11fetch.t ........... ok
+t/zvp_12quote.t ........... ok
+t/zvp_13taint.t ........... skipped: Taint attributes not supported with DBI::PurePerl
+t/zvp_14utf8.t ............ ok
+t/zvp_15array.t ........... ok
+t/zvp_19fhtrace.t ......... ok
+t/zvp_20meta.t ............ ok
+t/zvp_30subclass.t ........ ok
+t/zvp_40profile.t ......... skipped: profiling not supported for DBI::PurePerl
+t/zvp_41prof_dump.t ....... skipped: profiling not supported for DBI::PurePerl
+t/zvp_42prof_data.t ....... skipped: profiling not supported for DBI::PurePerl
+t/zvp_43prof_env.t ........ skipped: profiling not supported for DBI::PurePerl
+t/zvp_50dbm.t ............. ok
+t/zvp_60preparse.t ........ skipped: preparse not supported for DBI::PurePerl
+t/zvp_65transact.t ........ ok
+t/zvp_70callbacks.t ....... skipped: $h->{Callbacks} attribute not supported for DBI::PurePerl
+t/zvp_72childhandles.t .... ok
+t/zvp_80proxy.t ........... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvp_85gofer.t ........... ok
+t/zvp_86gofer_fail.t ...... skipped: requires Callbacks which are not supported with PurePerl
+t/zvxgp_01basics.t ........ ok
+t/zvxgp_02dbidrv.t ........ ok
+t/zvxgp_03handle.t ........ ok
+t/zvxgp_04mods.t .......... ok
+t/zvxgp_05thrclone.t ...... skipped: this solaris perl 5.012003 not configured to support iThreads
+t/zvxgp_06attrs.t ......... ok
+t/zvxgp_07kids.t .......... skipped: $h->{Kids} attribute not supported for DBI::PurePerl
+t/zvxgp_08keeperr.t ....... ok
+t/zvxgp_09trace.t ......... ok
+t/zvxgp_10examp.t ......... ok
+t/zvxgp_11fetch.t ......... ok
+t/zvxgp_12quote.t ......... ok
+t/zvxgp_13taint.t ......... skipped: Taint attributes not supported with DBI::PurePerl
+t/zvxgp_14utf8.t .......... ok
+t/zvxgp_15array.t ......... ok
+t/zvxgp_19fhtrace.t ....... ok
+t/zvxgp_20meta.t .......... ok
+t/zvxgp_30subclass.t ...... ok
+t/zvxgp_40profile.t ....... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_41prof_dump.t ..... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_42prof_data.t ..... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_43prof_env.t ...... skipped: profiling not supported for DBI::PurePerl
+t/zvxgp_50dbm.t ........... ok
+t/zvxgp_60preparse.t ...... skipped: preparse not supported for DBI::PurePerl
+t/zvxgp_65transact.t ...... skipped: Transactions not supported by DBD::Gofer
+t/zvxgp_70callbacks.t ..... skipped: $h->{Callbacks} attribute not supported for DBI::PurePerl
+t/zvxgp_72childhandles.t .. ok
+t/zvxgp_80proxy.t ......... skipped: modules required for proxy are probably not installed (e.g., RPC/PlClient.pm)
+t/zvxgp_85gofer.t ......... ok
+t/zvxgp_86gofer_fail.t .... skipped: requires Callbacks which are not supported with PurePerl
+All tests successful.
+Files=121, Tests=5521, 24 wallclock secs ( 0.50 usr  0.13 sys + 17.81 cusr  0.25 csys = 18.69 CPU)
+Result: PASS
+PERL_DL_NONLAZY=1 /usr/perl5/5.12/bin/perl "-Iblib/lib" "-Iblib/arch" test.pl
+test.pl 
+DBI test application $Revision: 9451 $
+Switch: DBI 1.58 by Tim Bunce, 1.58
+Available Drivers: DBM, ExampleP, File, Gofer, Proxy, Sponge
+dbi:ExampleP:: testing 3 sets of 20 connections:
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+Connecting... 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 
+Disconnecting...
+connect 20 and disconnect them, 3 times: 0.0018s / 60 = 0.0000s
+Testing handle creation speed...
+105263 NullP sth/s perl 5.012003 i86pc-solaris-64int (cc Sun -xO4 ) 0.000010s
+
+test.pl done
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/DBI/build/i86-5.12/.tested

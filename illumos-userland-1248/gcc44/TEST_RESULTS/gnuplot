@@ -1,0 +1,37 @@
+(cd /export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect "  \
+		/usr/gnu/bin/make  all info)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+Making all in config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/config'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/config'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/m4'
+Making all in term
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/term'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/term'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+Making all in wxterminal
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src/wxterminal'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src/wxterminal'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/src'
+Making all in docs
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/docs'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/docs'
+Making all in lisp
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/lisp'
+emacs -batch -q -no-site-file -l /export/home/drlou/illumos-userland-1248/components/gnuplot/gnuplot-4.4.0/lisp/dot.el -f batch-byte-compile gnuplot.el
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86/lisp'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gnuplot/build/i86'

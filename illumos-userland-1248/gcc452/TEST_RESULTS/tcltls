@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/tcltls/tls1.6
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tcltls/tls1.6 -p1 --backup --version-control=numbered < patches/tls.tcl.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  tls1.6-src.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/tcltls/tls1.6/.unpacked

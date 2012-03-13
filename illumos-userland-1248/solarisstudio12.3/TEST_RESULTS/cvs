@@ -1,0 +1,1088 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/cvs/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/cvs/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/cvs/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --with-external-zlib CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for egrep... egrep
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking for library containing strerror... none required
+checking for ranlib... ranlib
+checking whether ln -s works... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for perl... /usr/bin/perl
+checking for csh... /usr/bin/csh
+checking for mktemp... /usr/bin/mktemp
+checking for sendmail... no
+checking for pr... /usr/bin/pr
+checking for groff... /usr/bin/groff
+checking for ps2pdf... /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/missing ps2pdf
+checking for texi2dvi... /usr/bin/texi2dvi
+checking whether #! works in shell scripts... yes
+checking for BSD VPATH bug in make... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking for memory.h... (cached) yes
+checking ndbm.h usability... yes
+checking ndbm.h presence... yes
+checking for ndbm.h... yes
+checking for stdint.h... (cached) yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking sys/bsdtypes.h usability... no
+checking sys/bsdtypes.h presence... no
+checking for sys/bsdtypes.h... no
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking for unistd.h... (cached) yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking whether stat file-mode macros are broken... no
+checking for an ANSI C-conforming const... yes
+checking for uid_t in sys/types.h... yes
+checking for mode_t... yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_rdev... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for fseeko... yes
+checking for waitpid... yes
+checking for fcntl.h... (cached) yes
+checking whether select hangs on /dev/null fd when timeout is NULL... no
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for long long... yes
+checking for long double... yes
+checking for C/C++ restrict keyword... restrict
+checking for IPv4 sockets... yes
+checking for IPv6 sockets... yes
+checking for inline... inline
+checking for library containing getaddrinfo... -lsocket
+checking for getaddrinfo... yes
+checking for gai_strerror... yes
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... yes
+checking for fchdir... yes
+checking for mempcpy... no
+checking for isascii... yes
+checking for __fsetlocking... yes
+checking for tcgetattr... yes
+checking for tcsetattr... yes
+checking for gettimeofday... yes
+checking for nanotime... no
+checking for getlogin_r... yes
+checking for getpwnam_r... yes
+checking for siginterrupt... yes
+checking for posix_memalign... yes
+checking for iswprint... yes
+checking for mbsinit... yes
+checking for isblank... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for tzset... yes
+checking for unistd.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for sys/param.h... (cached) yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/cdefs.h usability... no
+checking sys/cdefs.h presence... no
+checking for sys/cdefs.h... no
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for stdint.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking whether memrchr is declared... no
+checking whether system is Windows or MSDOS... no
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for mbstate_t... yes
+checking whether getcwd (NULL, 0) allocates memory for result... no
+checking whether getcwd is declared... yes
+checking for d_ino member in directory struct... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking for struct timespec... yes
+checking whether nanosleep is declared... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for clock_settime... yes
+checking for struct tm.tm_gmtoff... no
+checking whether getdelim is declared... yes
+checking whether getlogin is declared... yes
+checking whether getlogin_r is declared... yes
+checking for ssize_t... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long_only... yes
+checking whether optreset is declared... no
+checking for working GNU getopt function... no
+checking whether getpass is declared... yes
+checking whether fflush_unlocked is declared... no
+checking whether flockfile is declared... yes
+checking whether fputs_unlocked is declared... no
+checking whether funlockfile is declared... yes
+checking whether putc_unlocked is declared... yes
+checking for d_type member in directory struct... no
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking for uint32_t... uint32_t
+checking for UINT32_MAX... yes
+checking whether byte ordering is bigendian... no
+checking whether <limits.h> defines MIN and MAX... no
+checking whether <sys/param.h> defines MIN and MAX... no
+checking whether getenv is declared... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unsigned long long... yes
+checking for stdlib.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for working mktime... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking for nl_langinfo and CODESET... yes
+checking for inttypes.h... yes
+checking whether strdup is declared... yes
+checking for strftime... yes
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking for EOVERFLOW... yes
+checking for signed... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for size_t... yes
+checking for intmax_t... yes
+checking for atexit... yes
+checking for string.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for resolvepath... yes
+checking for canonicalize_file_name... yes
+checking whether this system has a definition of PATH_MAX... yes
+checking for mempcpy... (cached) no
+checking for openat... yes
+checking for memrchr... no
+checking for dup2... yes
+checking for working POSIX fnmatch... yes
+checking for stdio_ext.h... (cached) yes
+checking for __fpending... yes
+checking whether __fpending is declared... yes
+checking for ftruncate... yes
+checking for library containing getaddrinfo... (cached) -lsocket
+checking for getaddrinfo... (cached) yes
+checking for gai_strerror... (cached) yes
+checking for struct tm.tm_zone... no
+checking for tzname... yes
+checking for getdelim... yes
+checking for gethostname... yes
+checking whether getline is declared... yes
+checking for getline... yes
+checking for working getline function... yes
+checking for getlogin_r... (cached) yes
+checking OS.h usability... no
+checking OS.h presence... no
+checking for OS.h... no
+checking for getpagesize... (cached) yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking glob.h usability... yes
+checking glob.h presence... yes
+checking for glob.h... yes
+checking for GNU glob interface version 1... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking for memchr... yes
+checking for memmove... yes
+checking for mempcpy... (cached) no
+checking for memrchr... (cached) no
+checking whether mkdir fails due to a trailing slash... no
+checking for mkstemp... yes
+checking for mkstemp limitations... no
+checking for library containing nanosleep... none required
+checking whether nanosleep works... yes
+checking for openat... (cached) yes
+checking for mbstate_t... (cached) yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for readlink... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for working re_compile_pattern... yes
+checking whether rename is broken... no
+checking for C/C++ restrict keyword... (cached) restrict
+checking for rpmatch... no
+checking for setenv... yes
+checking for unsetenv... yes
+checking for unsetenv() return type... int
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for ssize_t... (cached) yes
+checking sys/inttypes.h usability... yes
+checking sys/inttypes.h presence... yes
+checking for sys/inttypes.h... yes
+checking for stdint.h... (cached) yes
+checking whether mbrtowc and mbstate_t are properly declared... (cached) yes
+checking for strncasecmp... yes
+checking for strdup... yes
+checking for strerror... yes
+checking whether mbrtowc and mbstate_t are properly declared... (cached) yes
+checking for strtol... yes
+checking for strtoul... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking for struct timespec... (cached) yes
+checking whether nanosleep is declared... (cached) yes
+checking whether tzset clobbers localtime buffer... no
+checking for vasnprintf... no
+checking for ptrdiff_t... yes
+checking for snprintf... yes
+checking for wcslen... yes
+checking for vasprintf... yes
+checking for stdint.h... (cached) yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking whether strerror_r is declared... (cached) yes
+checking for strerror_r... (cached) yes
+checking whether strerror_r returns char *... (cached) no
+checking for glob.h... (cached) yes
+checking for GNU glob interface version 1... (cached) no
+checking for fchdir... (cached) yes
+checking for fchmod... yes
+checking for fsync... yes
+checking for ftime... yes
+checking for geteuid... yes
+checking for getgroups... yes
+checking for getpagesize... (cached) yes
+checking for gettimeofday... (cached) yes
+checking for initgroups... yes
+checking for login... no
+checking for logout... no
+checking for mknod... yes
+checking for regcomp... yes
+checking for regerror... yes
+checking for regexec... yes
+checking for regfree... yes
+checking for sigaction... yes
+checking for sigblock... no
+checking for sigprocmask... yes
+checking for sigsetmask... no
+checking for sigvec... no
+checking for timezone... yes
+checking for tzset... (cached) yes
+checking for vprintf... yes
+checking for wait3... yes
+checking for char... yes
+checking size of char... 1
+checking for uniquely sized char... yes(1)
+checking for short... yes
+checking size of short... 2
+checking for uniquely sized short... yes(2)
+checking for int... yes
+checking size of int... 4
+checking for uniquely sized int... yes(4)
+checking for long... yes
+checking size of long... 4
+checking for uniquely sized long... no
+checking for long long... (cached) yes
+checking size of long long... 8
+checking for uniquely sized long long... yes(8)
+checking for size_t... (cached) yes
+checking size of size_t... 4
+checking for uniquely sized size_t... no
+checking for ptrdiff_t... (cached) yes
+checking size of ptrdiff_t... 4
+checking for uniquely sized ptrdiff_t... no
+checking for wint_t... yes
+checking size of wint_t... 4
+checking for uniquely sized wint_t... no
+checking for intmax_t... yes
+checking size of intmax_t... 8
+checking for uniquely sized intmax_t... no
+checking for float... yes
+checking size of float... 4
+checking for uniquely sized float... yes(4)
+checking for double... yes
+checking size of double... 8
+checking for uniquely sized double... yes(8)
+checking for long double... yes
+checking size of long double... 12
+checking for uniquely sized long double... yes(12)
+checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking whether closedir returns void... no
+checking for library containing getspnam... none required
+checking whether utime accepts a null argument... yes
+checking for long file names... yes
+checking whether printf supports %p... yes
+checking for main in -lnsl... yes
+checking for library containing connect... none required
+checking for library containing gethostbyname... none required
+checking for KRB4 in /usr/kerberos... 
+checking for krb.h... 
+checking for krb_get_err_text... no
+checking for GSSAPI... 
+checking gssapi.h usability... no
+checking gssapi.h presence... no
+checking for gssapi.h... no
+checking gssapi/gssapi.h usability... yes
+checking gssapi/gssapi.h presence... yes
+checking for gssapi/gssapi.h... yes
+checking krb5.h usability... no
+checking krb5.h presence... no
+checking for krb5.h... no
+checking for GSSAPI in /usr/kerberos... 
+checking gssapi.h usability... no
+checking gssapi.h presence... no
+checking for gssapi.h... no
+checking gssapi/gssapi.h usability... yes
+checking gssapi/gssapi.h presence... yes
+checking for gssapi/gssapi.h... yes
+checking krb5.h usability... no
+checking krb5.h presence... no
+checking for krb5.h... no
+checking for GSSAPI in /usr/cygnus/kerbnet... 
+checking gssapi.h usability... no
+checking gssapi.h presence... no
+checking for gssapi.h... no
+checking gssapi/gssapi.h usability... yes
+checking gssapi/gssapi.h presence... yes
+checking for gssapi/gssapi.h... yes
+checking krb5.h usability... no
+checking krb5.h presence... no
+checking for krb5.h... no
+checking for GSSAPI... no
+checking for external ZLIB... 
+checking zlib.h usability... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for external ZLIB... yes
+checking selected ZLIB... external
+checking that ZLIB library works... yes
+checking for ssh... ssh
+checking for vim... vim
+checking for temporary directory... /tmp
+checking for library containing crypt... none required
+checking for a case sensitive file system... yes
+checking for cygwin32... no
+configure: creating ./config.status
+config.status: creating contrib/validate_repo
+config.status: creating contrib/clmerge
+config.status: creating contrib/cln_hist
+config.status: creating contrib/commit_prep
+config.status: creating contrib/cvs_acls
+config.status: creating contrib/log
+config.status: creating contrib/log_accum
+config.status: creating contrib/mfpipe
+config.status: creating contrib/pvcs2rcs
+config.status: creating contrib/rcs2log
+config.status: creating contrib/rcslock
+config.status: creating contrib/sccs2rcs
+config.status: creating doc/mkman
+config.status: creating src/cvsbug
+config.status: creating Makefile
+config.status: creating contrib/Makefile
+config.status: creating contrib/pam/Makefile
+config.status: creating cvs.spec
+config.status: creating diff/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/i18n/Makefile
+config.status: creating doc/i18n/pt_BR/Makefile
+config.status: creating emx/Makefile
+config.status: creating lib/Makefile
+config.status: creating maint-aux/Makefile
+config.status: creating man/Makefile
+config.status: creating os2/Makefile
+config.status: creating src/Makefile
+config.status: creating src/sanity.config.sh
+config.status: creating tools/Makefile
+config.status: creating vms/Makefile
+config.status: creating windows-NT/Makefile
+config.status: creating windows-NT/SCC/Makefile
+config.status: creating zlib/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/cvs/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/cvs/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getopt_.h getopt.h-t
+mv getopt.h-t getopt.h
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/glob_.h glob.h-t
+mv glob.h-t glob.h
+sed -e 's/@''HAVE__BOOL''@/1/g' \
+		< /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/stdbool_.h > stdbool.h-t
+mv stdbool.h-t stdbool.h
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/sighandle.c' object='sighandle.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/sighandle.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/allocsa.c' object='allocsa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/allocsa.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/cycle-check.c' object='cycle-check.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/cycle-check.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/basename.c' object='basename.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/basename.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/stripslash.c' object='stripslash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/stripslash.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getnline.c' object='getnline.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getnline.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strnlen1.c' object='strnlen1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strnlen1.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xalloc-die.c' object='xalloc-die.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xalloc-die.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xgethostname.c' object='xgethostname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xgethostname.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xreadlink.c' object='xreadlink.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xreadlink.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/save-cwd.c' object='save-cwd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/save-cwd.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mktime.c' object='mktime.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mktime.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strftime.c' object='strftime.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strftime.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/canon-host.c' object='canon-host.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/canon-host.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/canonicalize.c' object='canonicalize.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/canonicalize.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/chdir-long.c' object='chdir-long.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/chdir-long.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mempcpy.c' object='mempcpy.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mempcpy.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/memrchr.c' object='memrchr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/memrchr.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/closeout.c' object='closeout.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/closeout.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/dirname.c' object='dirname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/dirname.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/exitfail.c' object='exitfail.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/exitfail.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/filenamecat.c' object='filenamecat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/filenamecat.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getcwd.c' object='getcwd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getcwd.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getdate.c' object='getdate.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getdate.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getndelim2.c' object='getndelim2.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getndelim2.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getpass.c' object='getpass.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/getpass.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/gettime.c' object='gettime.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/gettime.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/glob.c' object='glob.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/glob.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mbchar.c' object='mbchar.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/mbchar.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/md5.c' object='md5.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/md5.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/pagealign_alloc.c' object='pagealign_alloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/pagealign_alloc.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/quotearg.c' object='quotearg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/quotearg.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/regex.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/rpmatch.c' object='rpmatch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/rpmatch.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strcasecmp.c' object='strcasecmp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strcasecmp.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strstr.c' object='strstr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/strstr.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/dup-safer.c' object='dup-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/dup-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/fd-safer.c' object='fd-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/fd-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/pipe-safer.c' object='pipe-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/pipe-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/vasnprintf.c' object='vasnprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/vasnprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/printf-args.c' object='printf-args.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/printf-args.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/printf-parse.c' object='printf-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/printf-parse.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/asnprintf.c' object='asnprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/asnprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xmalloc.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xgetcwd.c' object='xgetcwd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/xgetcwd.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/yesno.c' object='yesno.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/yesno.c
+rm -f libcvs.a
+ar cru libcvs.a sighandle.o allocsa.o cycle-check.o basename.o stripslash.o getnline.o strnlen1.o xalloc-die.o xgethostname.o xreadlink.o save-cwd.o mktime.o strftime.o canon-host.o canonicalize.o chdir-long.o mempcpy.o memrchr.o closeout.o dirname.o exitfail.o filenamecat.o getcwd.o getdate.o getndelim2.o getopt.o getopt1.o getpass.o gettime.o glob.o mbchar.o md5.o pagealign_alloc.o quotearg.o regex.o rpmatch.o strcasecmp.o strstr.o dup-safer.o fd-safer.o pipe-safer.o vasnprintf.o printf-args.o printf-parse.o asnprintf.o xmalloc.o xgetcwd.o yesno.o 
+ranlib libcvs.a
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+Making all in diff
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/diff'
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/diff.c' object='diff.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/diff.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/diff3.c' object='diff3.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/diff3.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/analyze.c' object='analyze.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/analyze.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/cmpbuf.c' object='cmpbuf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/cmpbuf.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/io.c' object='io.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/io.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/context.c' object='context.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/context.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/ed.c' object='ed.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/ed.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/normal.c' object='normal.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/normal.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/ifdef.c' object='ifdef.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/ifdef.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/util.c' object='util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/util.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/dir.c' object='dir.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/dir.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/version.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/side.c' object='side.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff -I.. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff/side.c
+rm -f libdiff.a
+ar cru libdiff.a diff.o diff3.o analyze.o cmpbuf.o io.o context.o ed.o normal.o ifdef.o util.o dir.o version.o side.o 
+ranlib libdiff.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/diff'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/add.c' object='add.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/add.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/admin.c' object='admin.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/admin.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/annotate.c' object='annotate.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/annotate.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/buffer.c' object='buffer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/buffer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/checkin.c' object='checkin.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/checkin.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/checkout.c' object='checkout.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/checkout.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/classify.c' object='classify.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/classify.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/client.c' object='client.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/client.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/commit.c' object='commit.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/commit.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/create_adm.c' object='create_adm.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/create_adm.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/cvsrc.c' object='cvsrc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/cvsrc.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/diff.c' object='diff.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/diff.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/edit.c' object='edit.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/edit.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/entries.c' object='entries.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/entries.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/error.c' object='error.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/error.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/exithandle.c' object='exithandle.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/exithandle.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/expand_path.c' object='expand_path.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/expand_path.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/fileattr.c' object='fileattr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/fileattr.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/filesubr.c' object='filesubr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/filesubr.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/find_names.c' object='find_names.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/find_names.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/hardlink.c' object='hardlink.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/hardlink.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/hash.c' object='hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/hash.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/history.c' object='history.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/history.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ignore.c' object='ignore.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ignore.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/import.c' object='import.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/import.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/lock.c' object='lock.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/lock.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/log.c' object='log.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/log.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/log-buffer.c' object='log-buffer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/log-buffer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/login.c' object='login.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/login.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/logmsg.c' object='logmsg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/logmsg.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ls.c' object='ls.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ls.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/main.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/mkmodules.c' object='mkmodules.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/mkmodules.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/modules.c' object='modules.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/modules.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ms-buffer.c' object='ms-buffer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/ms-buffer.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/myndbm.c' object='myndbm.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/myndbm.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/no_diff.c' object='no_diff.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/no_diff.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/parseinfo.c' object='parseinfo.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/parseinfo.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/patch.c' object='patch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/patch.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rcs.c' object='rcs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rcs.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rcscmds.c' object='rcscmds.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rcscmds.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/recurse.c' object='recurse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/recurse.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/release.c' object='release.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/release.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/remove.c' object='remove.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/remove.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/repos.c' object='repos.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/repos.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/root.c' object='root.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/root.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rsh-client.c' object='rsh-client.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/rsh-client.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/run.c' object='run.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/run.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/scramble.c' object='scramble.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/scramble.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/server.c' object='server.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/server.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/stack.c' object='stack.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/stack.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/status.c' object='status.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/status.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/subr.c' object='subr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/subr.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/tag.c' object='tag.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/tag.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/update.c' object='update.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/update.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/version.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/vers_ts.c' object='vers_ts.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/vers_ts.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/watch.c' object='watch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/watch.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/wrapper.c' object='wrapper.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/wrapper.c
+source='/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/zlib.c' object='zlib.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src -I..  -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib -I../lib -I/export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/diff    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/zlib.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o cvs  add.o admin.o annotate.o buffer.o checkin.o checkout.o classify.o client.o commit.o create_adm.o cvsrc.o diff.o edit.o entries.o error.o exithandle.o expand_path.o fileattr.o filesubr.o find_names.o hardlink.o hash.o history.o ignore.o import.o lock.o log.o log-buffer.o login.o logmsg.o ls.o main.o mkmodules.o modules.o ms-buffer.o myndbm.o no_diff.o parseinfo.o patch.o rcs.o rcscmds.o recurse.o release.o remove.o repos.o root.o rsh-client.o run.o scramble.o server.o stack.o status.o subr.o tag.o update.o version.o vers_ts.o watch.o wrapper.o zlib.o  ../diff/libdiff.a ../lib/libcvs.a     -lnsl -lsocket -lsocket  -lz
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+Making all in man
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/man'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/man'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+Making all in i18n
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+Making all in pt_BR
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n/pt_BR'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n/pt_BR'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+sed -e "s/^@chapter /@appendixsec /" \
+	    -e "s/^@section /@appendixsubsec /" \
+	  </export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/doc/getdate.texi >>getdate-cvs.tmp
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+Making all in contrib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+Making all in pam
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib/pam'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib/pam'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+rm -f cvs2vendor
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/contrib/cvs2vendor.sh cvs2vendor
+chmod +x cvs2vendor
+rm -f debug_check_log
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/contrib/debug_check_log.sh debug_check_log
+chmod +x debug_check_log
+rm -f newcvsroot
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/contrib/newcvsroot.sh newcvsroot
+chmod +x newcvsroot
+rm -f rcs-to-cvs
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/contrib/rcs-to-cvs.sh rcs-to-cvs
+chmod +x rcs-to-cvs
+rm -f sandbox_status
+cp /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/contrib/sandbox_status.sh sandbox_status
+chmod +x sandbox_status
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+Making all in tools
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/tools'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/tools'
+Making all in windows-NT
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+Making all in SCC
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT/SCC'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT/SCC'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+sed -e "s/%PACKAGE_STRING%/Concurrent Versions System (CVS) 1.12.13/" \
+	    -e "s/%PACKAGE_BUGREPORT%/bug-cvs@nongnu.org/" \
+	    </export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/windows-NT/config.h.in >>config.tmp
+sed 's/@''HAVE__BOOL''@/0/' </export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/stdbool_.h \
+	  >>stdbool.tmp
+sed 's/@''HAVE_LONG_64BIT''@/0/g;s/@''HAVE_LONG_LONG_64BIT@/0/g' \
+	  </export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/lib/stdint_.h >>stdint.tmp
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+Making all in os2
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/os2'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/os2'
+Making all in emx
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/emx'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/emx'
+Making all in vms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/vms'
+sed "s/%PACKAGE_VERSION%/1.12.13/" </export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/vms/config.h.in \
+	  >>config.tmp
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/vms'
+Making all in maint-aux
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/maint-aux'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/maint-aux'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/cvs/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/cvs/build/i86 ; /usr/bin/env PATH=/usr/gnu/bin:/usr/bin:/usr/gnu/bin /usr/gnu/bin/make \
+			 localcheck)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/lib'
+Making all in diff
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/diff'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/diff'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+Making all in man
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/man'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/man'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+Making all in i18n
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+Making all in pt_BR
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n/pt_BR'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n/pt_BR'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc/i18n'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/doc'
+Making all in contrib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+Making all in pam
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib/pam'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib/pam'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/contrib'
+Making all in tools
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/tools'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/tools'
+Making all in windows-NT
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+Making all in SCC
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT/SCC'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT/SCC'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/windows-NT'
+Making all in os2
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/os2'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/os2'
+Making all in emx
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/emx'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/emx'
+Making all in vms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/vms'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/vms'
+Making all in maint-aux
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/maint-aux'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/maint-aux'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+cd src && /usr/gnu/bin/make  "localcheck"
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+/bin/sh /export/home/drlou/illumos-userland-1248/components/cvs/cvs-1.12.13/src/sanity.sh `pwd`/cvs
+This test should produce no other output than this message, and a final "OK".
+(Note that the test can take an hour or more to run and periodically stops
+for as long as one minute.  Do not assume there is a problem just because
+nothing seems to happen for a long time.  If you cannot live without
+running status, try the command: `tail -f check.log' from another window.)
+OK, all 3578 tests passed (11 test groups skipped).
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/cvs/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/cvs/build/i86/.tested

@@ -1,0 +1,91 @@
+(cd mercurial-1.8.4/tests ; \
+	 PYTHONPATH=/export/home/drlou/illumos-userland/components/mercurial/build/prototype/i386//usr/lib/python2.6/vendor-packages /usr/bin/python2.6 ./run-tests.py)
+.................................s..s...................sssssss.ssssss......ssss.sssssss.s..........................................................s....s........................s......
+ERROR: /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-hup.t output changed
+--- /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-hup.t 
++++ /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-hup.t.err 
+@@ -12,9 +12,9 @@
+   0
+   adding changesets
+   $ kill -HUP $P
+-  $ wait
+   transaction abort!
+   rollback completed
+   killed!
++  $ wait
+   $ echo .hg/* .hg/store/*
+   .hg/00changelog.i .hg/journal.bookmarks .hg/journal.branch .hg/journal.desc .hg/journal.dirstate .hg/requires .hg/store .hg/store/00changelog.i .hg/store/00changelog.i.a
+!.s........ssssssss............................................................................s........s..........................................................
+ERROR: /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-repair-strip output changed
+--- /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-repair-strip.out 
++++ /export/home/drlou/illumos-userland/components/mercurial/mercurial-1.8.4/tests/test-repair-strip.err 
+@@ -24,10 +24,7 @@
+ 2 warnings encountered!
+ 2 integrity errors encountered!
+ % journal contents
+-00changelog.i
+-00manifest.i
+-data/b.i
+-data/c.i
++00changelog.inifest.idata/b.idata/c.i
+ rolling back interrupted transaction
+ checking changesets
+ checking manifests
+@@ -80,10 +77,7 @@
+ 7 integrity errors encountered!
+ (first damaged changeset appears to be 3)
+ % journal contents
+-00changelog.i
+-00manifest.i
+-data/b.i
+-data/c.i
++00changelog.inifest.idata/b.idata/c.i
+ rolling back interrupted transaction
+ checking changesets
+ checking manifests
+!.................................s........................
+Skipped test-casefolding.t: missing feature: case insensitive file system
+Skipped test-check-code-hg.py: cannot check code on non-repository sources
+Skipped test-convert-baz: missing feature: GNU Arch baz client
+Skipped test-convert-bzr-114.t: missing feature: Canonical's Bazaar client >= 1.14
+Skipped test-convert-bzr-directories.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-ghosts.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-merges.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-treeroot.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-cvs-branch.t: missing feature: cvs client/server
+Skipped test-convert-cvs-detectmerge.t: missing feature: cvs client/server
+Skipped test-convert-cvs-synthetic.t: missing feature: cvs client/server
+Skipped test-convert-cvs.t: missing feature: cvs client/server
+Skipped test-convert-cvsnt-mergepoints.t: missing feature: cvs client/server
+Skipped test-convert-darcs.t: missing feature: darcs client
+Skipped test-convert-hg-svn.t: missing feature: subversion python bindings
+Skipped test-convert-mtn.t: missing feature: monotone client (> 0.31)
+Skipped test-convert-p4: missing feature: Perforce server and client
+Skipped test-convert-p4-filetypes: missing feature: Perforce server and client
+Skipped test-convert-svn-branches.t: missing feature: subversion python bindings
+Skipped test-convert-svn-encoding.t: missing feature: subversion python bindings
+Skipped test-convert-svn-move.t: missing feature: subversion python bindings
+Skipped test-convert-svn-sink.t: missing feature: subversion python bindings
+Skipped test-convert-svn-source.t: missing feature: subversion python bindings
+Skipped test-convert-svn-startrev.t: missing feature: subversion python bindings
+Skipped test-convert-svn-tags.t: missing feature: subversion python bindings
+Skipped test-convert-tla.t: missing feature: GNU Arch tla client
+Skipped test-gendoc.t: missing feature: Docutils text processing library
+Skipped test-gpg.t: missing feature: gpg client
+Skipped test-highlight.t: missing feature: Pygments source highlighting library
+Skipped test-i18n.t: missing feature: GNU Gettext (msgfmt)
+Skipped test-inotify-debuginotify.t: missing feature: inotify extension support
+Skipped test-inotify-dirty-dirstate.t: missing feature: inotify extension support
+Skipped test-inotify-issue1208.t: missing feature: inotify extension support
+Skipped test-inotify-issue1371.t: missing feature: inotify extension support
+Skipped test-inotify-issue1542.t: missing feature: inotify extension support
+Skipped test-inotify-issue1556.t: missing feature: inotify extension support
+Skipped test-inotify-lookup.t: missing feature: inotify extension support
+Skipped test-inotify.t: missing feature: inotify extension support
+Skipped test-mq-subrepo-svn.t: missing feature: subversion client and admin tools
+Skipped test-no-symlinks.t: system supports symbolic links
+Skipped test-subrepo-svn.t: missing feature: subversion client and admin tools
+Failed test-hup.t: output changed
+Failed test-repair-strip: output changed
+# Ran 407 tests, 42 skipped, 2 failed.

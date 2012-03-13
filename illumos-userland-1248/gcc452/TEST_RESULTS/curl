@@ -1,0 +1,1366 @@
+(cd /export/home/drlou/illumos-userland/components/curl/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+(cd /export/home/drlou/illumos-userland/components/curl/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64'
+Making check in lib
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/lib'
+Making check in src
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/src'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/src'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64'
+Making all in data
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/data'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/data'
+Making all in server
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests'
+Making all in data
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/data'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/data'
+Making all in server
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/server'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/server'
+Making all in libtest
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/server'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/server'
+Making all in libtest
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/libtest'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests/libtest'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests'
+srcdir=/export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests /usr/bin/perl -I/export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests /export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests/runtests.pl -a -s
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/libtest'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests/libtest'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests'
+srcdir=/export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests /usr/bin/perl -I/export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests /export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests/runtests.pl -a -s
+********* System characteristics ******** 
+* curl 7.21.2 (i386-pc-solaris2.11) 
+* libcurl/7.21.2 OpenSSL/1.0.0d zlib/1.2.3
+* Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz 
+* Host: build
+* System: SunOS build 5.11 oi_151a2 i86pc i386 i86pc
+* Server SSL:        OFF  libcurl SSL:  ON 
+* debug build:       OFF  track memory: OFF
+* valgrind:          OFF  HTTP IPv6     ON 
+* FTP IPv6           ON   Libtool lib:  OFF
+* Shared build:      yes
+* SSL library:       OpenSSL
+* Ports:
+*   HTTP/8990 FTP/8992 FTP2/8995 RTSP/9007 
+*   TFTP/8997 HTTP-IPv6/8994 RTSP-IPv6/9008 FTP-IPv6/8996 
+*   GOPHER/9009 GOPHER-IPv6/9009
+*   SSH/8999 SOCKS/9000 POP3/9001 IMAP/9003 SMTP/9005
+*   POP3-IPv6/9002 IMAP-IPv6/9004 SMTP-IPv6/9006
+***************************************** 
+********* System characteristics ******** 
+* curl 7.21.2 (i386-pc-solaris2.11) 
+* libcurl/7.21.2 OpenSSL/1.0.0d zlib/1.2.3
+* Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz 
+* Host: build
+* System: SunOS build 5.11 oi_151a2 i86pc i386 i86pc
+* Server SSL:        OFF  libcurl SSL:  ON 
+* debug build:       OFF  track memory: OFF
+* valgrind:          OFF  HTTP IPv6     ON 
+* FTP IPv6           ON   Libtool lib:  OFF
+* Shared build:      yes
+* SSL library:       OpenSSL
+* Ports:
+*   HTTP/8990 FTP/8992 FTP2/8995 RTSP/9007 
+*   TFTP/8997 HTTP-IPv6/8994 RTSP-IPv6/9008 FTP-IPv6/8996 
+*   GOPHER/9009 GOPHER-IPv6/9009
+*   SSH/8999 SOCKS/9000 POP3/9001 IMAP/9003 SMTP/9005
+*   POP3-IPv6/9002 IMAP-IPv6/9004 SMTP-IPv6/9006
+***************************************** 
+test 001...OK (1   out of 582, remaining: 19:45)
+test 002...OK (2   out of 582, remaining: 09:57)
+test 003...OK (3   out of 582, remaining: 06:42)
+test 004...OK (4   out of 582, remaining: 05:04)
+test 005...OK (5   out of 582, remaining: 04:05)
+test 006...OK (6   out of 582, remaining: 03:25)
+test 007...OK (7   out of 582, remaining: 02:57)
+test 008...OK (8   out of 582, remaining: 02:36)
+test 009...OK (9   out of 582, remaining: 04:27)
+test 010...RUN: failed to start the HTTP server
+== Contents of files in the log/ dir after test 1
+=== Start of file curlverout.log
+ curl 7.21.2 (i386-pc-solaris2.11) libcurl/7.21.2 OpenSSL/1.0.0d zlib/1.2.3
+ Protocols: dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp 
+ Features: GSS-Negotiate IPv6 Largefile NTLM SSL libz 
+=== End of file curlverout.log
+=== Start of file http_server.log
+ 00:46:07.571093 Error binding socket on port 8990: (125) Address already in use
+ 00:46:07.571262 ========> sws quits
+=== End of file http_server.log
+test 019...OK (19  out of 582, remaining: 02:29)
+test 020...OK (20  out of 582, remaining: 02:33)
+test 075...OK (75  out of 582, remaining: 00:37)
+test 076...OK (76  out of 582, remaining: 00:36)
+test 087...OK (87  out of 582, remaining: 00:31)
+OK (10  out of 582, remaining: 05:56)
+test 011...OK (11  out of 582, remaining: 05:24)
+test 012...OK (12  out of 582, remaining: 04:57)
+test 013...OK (13  out of 582, remaining: 04:35)
+test 014...OK (14  out of 582, remaining: 04:16)
+test 015...OK (15  out of 582, remaining: 03:59)
+test 016...OK (16  out of 582, remaining: 03:44)
+test 017...OK (17  out of 582, remaining: 03:31)
+test 018...OK (18  out of 582, remaining: 03:20)
+test 019...OK (19  out of 582, remaining: 03:10)
+test 020...OK (20  out of 582, remaining: 03:00)
+test 021...test 100...OK (21  out of 582, remaining: 03:22)
+test 022...OK (99  out of 582, remaining: 00:36)
+test 101...OK (22  out of 582, remaining: 03:13)
+test 023...OK (23  out of 582, remaining: 03:05)
+test 024...OK (100 out of 582, remaining: 00:36)
+test 102...OK (24  out of 582, remaining: 02:57)
+test 025...OK (101 out of 582, remaining: 00:36)
+test 103...OK (25  out of 582, remaining: 02:51)
+test 026...OK (102 out of 582, remaining: 00:36)
+test 104...OK (26  out of 582, remaining: 02:44)
+test 027...OK (103 out of 582, remaining: 00:35)
+test 105...OK (27  out of 582, remaining: 02:38)
+test 028...OK (104 out of 582, remaining: 00:35)
+test 106...OK (28  out of 582, remaining: 02:55)
+test 029...OK (105 out of 582, remaining: 00:40)
+test 107...OK (106 out of 582, remaining: 00:39)
+test 108...OK (107 out of 582, remaining: 00:39)
+test 109...OK (108 out of 582, remaining: 00:39)
+test 110...OK (109 out of 582, remaining: 00:38)
+test 111...OK (110 out of 582, remaining: 00:38)
+test 112...OK (111 out of 582, remaining: 00:38)
+test 113...OK (112 out of 582, remaining: 00:37)
+test 114...OK (113 out of 582, remaining: 00:37)
+test 115...OK (114 out of 582, remaining: 00:37)
+test 116...OK (115 out of 582, remaining: 00:36)
+test 117...OK (116 out of 582, remaining: 00:41)
+test 118...OK (117 out of 582, remaining: 00:40)
+test 119...OK (118 out of 582, remaining: 00:40)
+test 120...OK (119 out of 582, remaining: 00:40)
+test 121...OK (120 out of 582, remaining: 00:39)
+test 122...OK (121 out of 582, remaining: 00:39)
+test 123...OK (122 out of 582, remaining: 00:39)
+test 124...OK (123 out of 582, remaining: 00:38)
+test 125...OK (124 out of 582, remaining: 00:38)
+test 126...OK (125 out of 582, remaining: 00:38)
+test 127...OK (126 out of 582, remaining: 00:38)
+test 128...OK (127 out of 582, remaining: 00:37)
+test 129...OK (128 out of 582, remaining: 00:37)
+test 135...OK (134 out of 582, remaining: 00:35)
+test 136...OK (135 out of 582, remaining: 00:38)
+test 137...OK (136 out of 582, remaining: 00:38)
+test 138...OK (137 out of 582, remaining: 00:38)
+test 139...OK (138 out of 582, remaining: 00:38)
+test 140...OK (139 out of 582, remaining: 00:37)
+test 141...OK (140 out of 582, remaining: 00:37)
+test 142...OK (141 out of 582, remaining: 00:37)
+test 143...OK (142 out of 582, remaining: 00:36)
+test 144...OK (143 out of 582, remaining: 00:36)
+test 145...OK (144 out of 582, remaining: 00:36)
+test 146...OK (145 out of 582, remaining: 00:36)
+test 147...OK (146 out of 582, remaining: 00:35)
+test 148...OK (147 out of 582, remaining: 00:35)
+test 149...OK (148 out of 582, remaining: 00:38)
+test 161...OK (160 out of 582, remaining: 00:34)
+test 182...OK (181 out of 582, remaining: 00:29)
+test 190...OK (29  out of 582, remaining: 06:00)
+test 030...OK (30  out of 582, remaining: 05:48)
+test 031...OK (31  out of 582, remaining: 05:37)
+test 032...OK (32  out of 582, remaining: 05:26)
+test 033...OK (33  out of 582, remaining: 05:49)
+test 034...OK (34  out of 582, remaining: 05:39)
+test 035...OK (35  out of 582, remaining: 05:29)
+test 036...OK (36  out of 582, remaining: 05:19)
+test 037...OK (37  out of 582, remaining: 05:10)
+test 038...OK (38  out of 582, remaining: 05:02)
+test 039...OK (189 out of 582, remaining: 00:44)
+OK (39  out of 582, remaining: 05:22)
+test 040...OK (40  out of 582, remaining: 05:14)
+test 041...OK (41  out of 582, remaining: 05:06)
+test 042...OK (42  out of 582, remaining: 04:58)
+test 043...OK (43  out of 582, remaining: 04:51)
+test 044...OK (44  out of 582, remaining: 04:44)
+test 045...OK (45  out of 582, remaining: 04:38)
+test 046...OK (46  out of 582, remaining: 04:31)
+test 047...OK (47  out of 582, remaining: 04:25)
+test 048...test 191...OK (48  out of 582, remaining: 04:20)
+test 049...OK (190 out of 582, remaining: 00:48)
+test 195...OK (49  out of 582, remaining: 04:14)
+test 050...OK (194 out of 582, remaining: 00:46)
+test 196...OK (50  out of 582, remaining: 04:09)
+test 051...OK (51  out of 582, remaining: 04:04)
+test 052...OK (52  out of 582, remaining: 03:59)
+test 053...OK (53  out of 582, remaining: 03:54)
+test 054...OK (54  out of 582, remaining: 03:49)
+test 055...OK (55  out of 582, remaining: 03:45)
+test 056...OK (56  out of 582, remaining: 03:41)
+test 057...OK (195 out of 582, remaining: 00:48)
+test 200...OK (199 out of 582, remaining: 00:46)
+test 201...OK (200 out of 582, remaining: 00:46)
+test 202...OK (201 out of 582, remaining: 00:46)
+test 203...OK (202 out of 582, remaining: 00:46)
+test 204...OK (203 out of 582, remaining: 00:45)
+test 205...OK (204 out of 582, remaining: 00:45)
+test 210...OK (209 out of 582, remaining: 00:43)
+test 211...OK (210 out of 582, remaining: 00:43)
+test 212...OK (211 out of 582, remaining: 00:43)
+test 215...OK (214 out of 582, remaining: 00:42)
+test 216...OK (215 out of 582, remaining: 00:42)
+test 225...OK (57  out of 582, remaining: 03:47)
+test 058...OK (223 out of 582, remaining: 00:39)
+test 226...OK (224 out of 582, remaining: 00:41)
+test 227...OK (225 out of 582, remaining: 00:41)
+test 228...OK (226 out of 582, remaining: 00:40)
+test 229...OK (227 out of 582, remaining: 00:40)
+test 231...OK (228 out of 582, remaining: 00:40)
+test 235...OK (231 out of 582, remaining: 00:39)
+test 236...OK (232 out of 582, remaining: 00:39)
+test 237...OK (233 out of 582, remaining: 00:39)
+test 238...OK (234 out of 582, remaining: 00:39)
+OK (58  out of 582, remaining: 04:11)
+test 059...OK (59  out of 582, remaining: 04:07)
+test 060...test 240...OK (236 out of 582, remaining: 00:41)
+test 242...OK (238 out of 582, remaining: 00:41)
+test 247...OK (242 out of 582, remaining: 00:39)
+test 248...OK (243 out of 582, remaining: 00:39)
+test 250...OK (60  out of 582, remaining: 04:20)
+test 061...OK (61  out of 582, remaining: 04:15)
+test 062...OK (62  out of 582, remaining: 04:11)
+test 063...OK (63  out of 582, remaining: 04:06)
+test 064...OK (64  out of 582, remaining: 04:02)
+test 065...OK (65  out of 582, remaining: 03:58)
+test 066...OK (66  out of 582, remaining: 03:54)
+test 070...OK (70  out of 582, remaining: 03:40)
+test 071...OK (71  out of 582, remaining: 03:51)
+test 072...OK (72  out of 582, remaining: 03:48)
+test 073...OK (73  out of 582, remaining: 03:44)
+test 074...OK (74  out of 582, remaining: 03:41)
+test 075...OK (75  out of 582, remaining: 03:38)
+test 076...OK (76  out of 582, remaining: 03:35)
+test 077...OK (77  out of 582, remaining: 03:32)
+test 078...OK (78  out of 582, remaining: 03:29)
+test 079...OK (79  out of 582, remaining: 03:26)
+test 080...OK (80  out of 582, remaining: 03:23)
+test 082...OK (82  out of 582, remaining: 03:17)
+test 083...OK (83  out of 582, remaining: 03:14)
+test 084...OK (84  out of 582, remaining: 03:12)
+test 085...OK (85  out of 582, remaining: 03:09)
+test 086...OK (86  out of 582, remaining: 03:13)
+test 087...OK (87  out of 582, remaining: 03:11)
+test 088...OK (88  out of 582, remaining: 03:20)
+test 092...OK (92  out of 582, remaining: 03:10)
+test 093...OK (93  out of 582, remaining: 03:07)
+test 094...OK (94  out of 582, remaining: 03:05)
+test 095...OK (95  out of 582, remaining: 03:03)
+test 097...OK (96  out of 582, remaining: 03:01)
+test 098...OK (97  out of 582, remaining: 03:08)
+test 099...OK (98  out of 582, remaining: 03:06)
+OK (245 out of 582, remaining: 00:53)
+test 251...RUN: failed to start the FTP server
+== Contents of files in the log/ dir after test 100
+=== Start of file ftp_server.log
+ 00:46:44.896182 Failed to read input
+ 00:46:44.896341 Error: FTP server, read zero
+ 00:46:44.896367 Exited from sysread_or_die() at /export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests/ftpserver.pl line 262. FTP server, read zero
+=== End of file ftp_server.log
+=== Start of file ftp_sockctrl.log
+ 00:46:44.375940 Error binding socket on port 8992: (125) Address already in use
+ 00:46:44.376131 ============> sockfilt quits
+=== End of file ftp_sockctrl.log
+test 151...OK (150 out of 582, remaining: 02:03)
+test 152...OK (151 out of 582, remaining: 02:02)
+test 153...OK (152 out of 582, remaining: 02:01)
+test 154...OK (153 out of 582, remaining: 02:05)
+test 156...OK (155 out of 582, remaining: 02:09)
+test 157...OK (156 out of 582, remaining: 02:08)
+test 158...OK (157 out of 582, remaining: 02:12)
+test 160...OK (246 out of 582, remaining: 01:07)
+OK (159 out of 582, remaining: 02:15)
+test 162...OK (161 out of 582, remaining: 02:13)
+test 163...test 252...OK (247 out of 582, remaining: 01:09)
+test 253...OK (248 out of 582, remaining: 01:09)
+test 254...OK (249 out of 582, remaining: 01:08)
+test 255...OK (250 out of 582, remaining: 01:08)
+test 261...OK (256 out of 582, remaining: 01:05)
+test 263...OK (258 out of 582, remaining: 01:04)
+test 270...OK (265 out of 582, remaining: 01:01)
+OK (162 out of 582, remaining: 02:17)
+test 164...OK (163 out of 582, remaining: 02:16)
+test 166...test 271...OK (266 out of 582, remaining: 01:03)
+test 272...OK (267 out of 582, remaining: 01:03)
+test 280...OK (275 out of 582, remaining: 00:59)
+test 283...OK (278 out of 582, remaining: 00:58)
+test 284...OK (279 out of 582, remaining: 00:58)
+test 285...OK (165 out of 582, remaining: 02:19)
+test 167...OK (166 out of 582, remaining: 02:18)
+test 168...OK (167 out of 582, remaining: 02:17)
+test 170...OK (169 out of 582, remaining: 02:14)
+test 171...OK (170 out of 582, remaining: 02:13)
+test 172...OK (171 out of 582, remaining: 02:12)
+test 173...OK (172 out of 582, remaining: 02:16)
+test 174...OK (173 out of 582, remaining: 02:15)
+test 175...OK (174 out of 582, remaining: 02:14)
+test 176...OK (175 out of 582, remaining: 02:13)
+test 177...OK (176 out of 582, remaining: 02:12)
+test 178...OK (177 out of 582, remaining: 02:11)
+test 179...OK (178 out of 582, remaining: 02:10)
+test 180...OK (179 out of 582, remaining: 02:09)
+test 181...OK (180 out of 582, remaining: 02:08)
+test 183...OK (182 out of 582, remaining: 02:06)
+test 184...OK (183 out of 582, remaining: 02:05)
+test 185...OK (184 out of 582, remaining: 02:04)
+test 186...OK (280 out of 582, remaining: 01:03)
+test 286...OK (185 out of 582, remaining: 02:07)
+test 187...OK (186 out of 582, remaining: 02:06)
+test 188...OK (187 out of 582, remaining: 02:05)
+test 189...OK (188 out of 582, remaining: 02:04)
+test 192...OK (191 out of 582, remaining: 02:02)
+test 193...OK (192 out of 582, remaining: 02:01)
+test 194...OK (193 out of 582, remaining: 02:00)
+test 197...OK (196 out of 582, remaining: 01:59)
+test 198...OK (197 out of 582, remaining: 02:00)
+test 199...OK (198 out of 582, remaining: 01:59)
+test 200...OK (199 out of 582, remaining: 01:58)
+test 201...OK (200 out of 582, remaining: 01:57)
+test 202...OK (201 out of 582, remaining: 01:57)
+test 203...OK (202 out of 582, remaining: 01:56)
+test 204...OK (203 out of 582, remaining: 01:55)
+test 205...OK (204 out of 582, remaining: 01:54)
+test 206...OK (205 out of 582, remaining: 01:53)
+test 207...OK (206 out of 582, remaining: 01:52)
+test 208...OK (281 out of 582, remaining: 01:08)
+test 288...OK (283 out of 582, remaining: 01:07)
+test 289...OK (284 out of 582, remaining: 01:06)
+test 290...OK (285 out of 582, remaining: 01:06)
+test 291...OK (286 out of 582, remaining: 01:05)
+test 294...OK (289 out of 582, remaining: 01:04)
+test 295...OK (290 out of 582, remaining: 01:04)
+test 296...OK (291 out of 582, remaining: 01:03)
+test 297...OK (292 out of 582, remaining: 01:03)
+test 298...OK (293 out of 582, remaining: 01:02)
+test 350...OK (309 out of 582, remaining: 00:56)
+test 351...OK (310 out of 582, remaining: 00:56)
+test 352...OK (311 out of 582, remaining: 00:55)
+test 353...OK (207 out of 582, remaining: 01:55)
+test 214...OK (312 out of 582, remaining: 00:55)
+test 354...OK (213 out of 582, remaining: 01:52)
+test 217...OK (313 out of 582, remaining: 00:55)
+test 402...OK (216 out of 582, remaining: 01:50)
+test 218...OK (316 out of 582, remaining: 00:54)
+test 405...OK (319 out of 582, remaining: 00:53)
+test 501...OK (325 out of 582, remaining: 00:51)
+test 502...OK (326 out of 582, remaining: 00:51)
+test 504...OK (328 out of 582, remaining: 00:50)
+test 505...OK (329 out of 582, remaining: 00:50)
+test 511...OK (334 out of 582, remaining: 00:48)
+test 517...OK (340 out of 582, remaining: 00:46)
+test 520...OK (343 out of 582, remaining: 00:45)
+test 521...OK (344 out of 582, remaining: 00:45)
+test 524...OK (347 out of 582, remaining: 00:45)
+test 525...OK (217 out of 582, remaining: 01:52)
+test 220...OK (218 out of 582, remaining: 01:52)
+test 221...OK (219 out of 582, remaining: 01:51)
+test 222...OK (220 out of 582, remaining: 01:50)
+test 223...OK (221 out of 582, remaining: 01:49)
+test 224...OK (222 out of 582, remaining: 01:48)
+test 231...OK (228 out of 582, remaining: 01:44)
+test 233...OK (229 out of 582, remaining: 01:43)
+test 234...OK (230 out of 582, remaining: 01:42)
+OK (348 out of 582, remaining: 00:46)
+test 526...RUN: failed to start the HTTP-IPv6 server
+== Contents of files in the log/ dir after test 240
+=== Start of file http_ipv6_server.log
+ 00:47:14.817528 Error binding socket on port 8994: (125) Address already in use
+ 00:47:14.817726 ========> sws quits
+=== End of file http_ipv6_server.log
+test 245...OK (240 out of 582, remaining: 01:43)
+test 246...OK (241 out of 582, remaining: 01:42)
+test 249...OK (244 out of 582, remaining: 01:40)
+OK (349 out of 582, remaining: 00:48)
+test 527...OK (350 out of 582, remaining: 00:50)
+test 529...RUN: failed to start the FTP-IPv6 server
+== Contents of files in the log/ dir after test 252
+=== Start of file ftp_ipv6_server.log
+ 00:47:19.425585 Failed to read input
+ 00:47:19.425745 Error: FTP-IPv6 server, read zero
+ 00:47:19.425772 Exited from sysread_or_die() at /export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests/ftpserver.pl line 262. FTP-IPv6 server, read zero
+=== End of file ftp_ipv6_server.log
+=== Start of file ftp_ipv6_sockctrl.log
+ 00:47:19.905338 Error binding socket on port 8996: (125) Address already in use
+ 00:47:19.905534 ============> sockfilt quits
+=== End of file ftp_ipv6_sockctrl.log
+test 256...OK (251 out of 582, remaining: 01:42)
+test 258...OK (253 out of 582, remaining: 01:40)
+test 259...OK (352 out of 582, remaining: 00:51)
+test 531...OK (354 out of 582, remaining: 00:51)
+test 532...OK (254 out of 582, remaining: 01:45)
+test 260...OK (255 out of 582, remaining: 01:44)
+test 262...OK (257 out of 582, remaining: 01:43)
+test 264...OK (259 out of 582, remaining: 01:41)
+test 266...OK (261 out of 582, remaining: 01:40)
+test 268...OK (263 out of 582, remaining: 01:38)
+test 269...OK (264 out of 582, remaining: 01:38)
+test 271...FAILED
+test 273...OK (268 out of 582, remaining: 01:37)
+test 274...OK (269 out of 582, remaining: 01:37)
+test 275...OK (270 out of 582, remaining: 01:36)
+test 276...OK (271 out of 582, remaining: 01:36)
+test 277...FAILED
+test 533...OK (272 out of 582, remaining: 01:37)
+test 278...OK (273 out of 582, remaining: 01:37)
+test 279...OK (274 out of 582, remaining: 01:36)
+test 281...OK (356 out of 582, remaining: 00:55)
+test 534...OK (276 out of 582, remaining: 01:37)
+test 282...OK (277 out of 582, remaining: 01:36)
+test 283...FAILED
+test 284...FAILED
+test 285...FAILED
+test 286...FAILED
+test 538...OK (361 out of 582, remaining: 00:54)
+test 539...OK (362 out of 582, remaining: 00:54)
+test 541...OK (364 out of 582, remaining: 00:53)
+test 542...OK (365 out of 582, remaining: 00:53)
+test 543...OK (366 out of 582, remaining: 00:52)
+test 546...OK (369 out of 582, remaining: 00:52)
+test 557...OK (380 out of 582, remaining: 00:48)
+test 558...OK (381 out of 582, remaining: 00:48)
+test 559...OK (382 out of 582, remaining: 00:47)
+test 562...OK (385 out of 582, remaining: 00:46)
+FAILED
+test 287...OK (282 out of 582, remaining: 01:38)
+test 288...OK (283 out of 582, remaining: 01:38)
+test 292...OK (287 out of 582, remaining: 01:35)
+test 293...OK (288 out of 582, remaining: 01:34)
+test 299...OK (294 out of 582, remaining: 01:31)
+test 500...OK (324 out of 582, remaining: 01:14)
+test 501...OK (325 out of 582, remaining: 01:13)
+test 502...OK (326 out of 582, remaining: 01:13)
+test 503...test 567...OK (389 out of 582, remaining: 00:46)
+test 568...OK (390 out of 582, remaining: 00:46)
+test 569...OK (391 out of 582, remaining: 00:45)
+test 570...OK (392 out of 582, remaining: 00:45)
+test 571...OK (393 out of 582, remaining: 00:45)
+test 572...OK (394 out of 582, remaining: 00:44)
+test 574...OK (396 out of 582, remaining: 00:44)
+test 575...OK (397 out of 582, remaining: 00:43)
+test 576...OK (398 out of 582, remaining: 00:43)
+test 577...OK (399 out of 582, remaining: 00:43)
+OK (327 out of 582, remaining: 01:13)
+test 504...OK (328 out of 582, remaining: 01:12)
+test 506...OK (330 out of 582, remaining: 01:11)
+test 507...OK (331 out of 582, remaining: 01:11)
+test 508...OK (332 out of 582, remaining: 01:11)
+test 510...RUN: SFTP server failed verification
+=== Start of file log/sftp_server.log
+debug1: Rhosts Authentication disabled, originating port will not be trusted.
+debug1: ssh_connect: needpriv 0
+debug1: Connecting to 127.0.0.1 [127.0.0.1] port 8999.
+debug1: fd 7 setting O_NONBLOCK
+debug1: fd 7 clearing O_NONBLOCK
+debug1: Connection established.
+debug2: key_type_from_name: unknown key type '-----BEGIN'
+debug2: key_type_from_name: unknown key type '-----END'
+debug1: identity file /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key type 2
+debug1: Remote protocol version 2.0, remote software version Sun_SSH_1.5
+debug1: match: Sun_SSH_1.5 pat Sun_SSH_1.5*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-Sun_SSH_1.5
+debug1: use_engine is 'yes'
+debug1: pkcs11 engine initialized, now setting it as default for RSA, DSA, and symmetric ciphers
+debug1: pkcs11 engine initialization complete
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug1: Peer sent proposed langtags, ctos: i-default
+debug1: Peer sent proposed langtags, stoc: i-default
+debug1: We proposed langtags, ctos: i-default
+debug1: We proposed langtags, stoc: i-default
+debug1: Negotiated lang: i-default
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST sent
+debug1: expecting SSH2_MSG_KEX_DH_GEX_GROUP
+debug1: Remote: Negotiated main locale: C
+debug1: Remote: Negotiated messages locale: C
+debug1: dh_gen_key: priv key bits set: 128/256
+debug1: bits set: 1585/3191
+debug1: SSH2_MSG_KEX_DH_GEX_INIT sent
+debug1: expecting SSH2_MSG_KEX_DH_GEX_REPLY
+debug1: Host '127.0.0.1' is known and matches the DSA host key.
+debug1: Found key in /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_knownhosts:1
+debug1: bits set: 1649/3191
+debug1: ssh_dss_verify: signature correct
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: set_newkeys: setting new keys for 'out' mode
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug2: set_newkeys: mode 0
+debug1: set_newkeys: setting new keys for 'in' mode
+debug1: SSH2_MSG_NEWKEYS received
+debug1: done: ssh_kex2.
+debug1: send SSH2_MSG_SERVICE_REQUEST
+debug2: service_accept: ssh-userauth
+debug1: got SSH2_MSG_SERVICE_ACCEPT
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Trying public key: /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key
+debug2: we sent a publickey packet, wait for reply
+debug1: Server accepts key: pkalg ssh-dss blen 435 lastkey 80b9140 hint 0
+debug2: input_userauth_pk_ok: fp 82:a0:af:7a:ab:d3:de:a6:3a:32:32:18:8b:e1:d7:69
+debug1: read PEM private key done: type DSA
+debug1: Authentications that can continue: publickey
+debug2: we did not send a packet, disable method
+debug1: No more authentication methods to try.
+Permission denied (publickey).
+debug1: Calling cleanup 0x8079dc4(0x0)
+Couldn't read packet: Bad file number
+=== End of file log/sftp_server.log
+=== Start of file curl_sftp_config
+# This is a generated file.  Do not edit.
+# SunSSH 1.5.0 sftp client configuration file for curl testing
+#
+Host *
+#
+Port 8999
+HostName 127.0.0.1
+User drlou
+Protocol 2
+#
+BindAddress 127.0.0.1
+#
+IdentityFile /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key
+UserKnownHostsFile /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_knownhosts
+#
+BatchMode yes
+ChallengeResponseAuthentication no
+CheckHostIP no
+ClearAllForwardings yes
+Compression no
+ConnectionAttempts 3
+ForwardAgent no
+ForwardX11 no
+GatewayPorts no
+GlobalKnownHostsFile /dev/null
+HostbasedAuthentication no
+KbdInteractiveAuthentication no
+LogLevel DEBUG2
+NumberOfPasswordPrompts 0
+PasswordAuthentication no
+PreferredAuthentications publickey
+PubkeyAuthentication yes
+RhostsRSAAuthentication no
+RSAAuthentication no
+StrictHostKeyChecking yes
+UsePrivilegedPort no
+#
+ConnectTimeout 30
+DisableBanner yes
+ForwardX11Trusted no
+GSSAPIAuthentication no
+GSSAPIDelegateCredentials no
+GSSAPIKeyExchange no
+HashKnownHosts no
+IgnoreIfUnknown no
+KeepAlive no
+NoHostAuthenticationForLocalhost no
+RekeyLimit 1G
+ServerAliveCountMax 3
+ServerAliveInterval 0
+#
+=== End of file curl_sftp_config
+=== Start of file log/ssh_server.log
+curl_sshd_config line 44: ignoring UseLogin option value. This option is always off.
+curl_sshd_config line 57: PAMAuthenticationViaKbdInt has been deprecated. You should use KbdInteractiveAuthentication instead (which defaults to "yes").
+ChallengeResponseAuthentication has been deprecated for the SSH Protocol 2. You should use KbdInteractiveAuthentication instead (which defaults to "yes").
+debug1: Bind to port 8999 on 127.0.0.1.
+Server listening on 127.0.0.1 port 8999.
+debug1: Forked child 5610.
+Connection from 127.0.0.1 port 39419
+debug1: Client protocol version 2.0; client software version Sun_SSH_1.5
+debug1: match: Sun_SSH_1.5 pat Sun_SSH_1.5*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-Sun_SSH_1.5
+monitor debug1: list_hostkey_types: ssh-dss
+debug2: Waiting for monitor
+monitor debug2: Monitor pid 5610, unprivileged child pid 5611
+debug2: Monitor signalled readiness
+monitor debug1: reading the context from the child
+debug1: use_engine is 'yes'
+debug1: pkcs11 engine initialized, now setting it as default for RSA, DSA, and symmetric ciphers
+debug1: pkcs11 engine initialization complete
+debug1: list_hostkey_types: ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug1: Peer sent proposed langtags, ctos: i-default
+debug1: Peer sent proposed langtags, stoc: i-default
+debug1: We proposed langtags, ctos: i-default
+debug1: We proposed langtags, stoc: i-default
+debug1: Negotiated main locale: C
+debug1: Negotiated messages locale: C
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST received
+debug1: SSH2_MSG_KEX_DH_GEX_GROUP sent
+debug1: dh_gen_key: priv key bits set: 137/256
+debug1: bits set: 1649/3191
+debug1: expecting SSH2_MSG_KEX_DH_GEX_INIT
+debug1: bits set: 1585/3191
+debug1: SSH2_MSG_KEX_DH_GEX_REPLY sent
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: set_newkeys: setting new keys for 'out' mode
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug2: set_newkeys: mode 0
+debug1: set_newkeys: setting new keys for 'in' mode
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug1: userauth-request for user drlou service ssh-connection method none
+debug1: attempt 0 initial attempt 0 failures 0 initial failures 0
+debug2: parse_server_config: config reprocess config len 1440
+debug2: input_userauth_request: setting up authctxt for drlou
+debug2: input_userauth_request: try method none
+Failed none for drlou from 127.0.0.1 port 39419 ssh2
+debug1: userauth-request for user drlou service ssh-connection method publickey
+debug1: attempt 1 initial attempt 0 failures 1 initial failures 0
+debug2: input_userauth_request: try method publickey
+debug1: test whether pkalg/pkblob are acceptable
+debug1: temporarily_use_uid: 100/1 (e=100/1)
+debug1: trying public key file /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub
+debug1: matching key found: file /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub, line 1
+Found matching DSA key: 82:a0:af:7a:ab:d3:de:a6:3a:32:32:18:8b:e1:d7:69
+debug1: restore_uid: (unprivileged)
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-dss
+debug1: userauth-request for user drlou service ssh-connection method publickey
+debug1: attempt 2 initial attempt 0 failures 1 initial failures 0
+debug2: input_userauth_request: try method publickey
+debug1: temporarily_use_uid: 100/1 (e=100/1)
+debug1: trying public key file /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub
+debug1: matching key found: file /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub, line 1
+Found matching DSA key: 82:a0:af:7a:ab:d3:de:a6:3a:32:32:18:8b:e1:d7:69
+debug1: restore_uid: (unprivileged)
+debug1: ssh_dss_verify: signature correct
+debug2: Starting PAM service sshd-pubkey for method publickey
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-dss
+Failed publickey for drlou from 127.0.0.1 port 39419 ssh2
+Connection closed by 127.0.0.1
+debug1: Calling cleanup 0x806ac84(0x80ea318)
+debug1: Calling cleanup 0x80645b0(0x80eb740)
+debug1: Calling cleanup 0x808bc04(0x0)
+monitor debug1: child closed the communication pipe before user auth was finished
+monitor debug1: Calling cleanup 0x808bc04(0x0)
+monitor debug1: Calling cleanup 0x808bc04(0x0)
+=== End of file log/ssh_server.log
+=== Start of file curl_sshd_config
+# This is a generated file.  Do not edit.
+# SunSSH 1.5.0 sshd configuration file for curl testing
+#
+DenyUsers !drlou
+AllowUsers drlou
+DenyGroups
+AllowGroOK (333 out of 582, remaining: 01:12)
+test 512...OK (335 out of 582, remaining: 01:11)
+test 513...OK (336 out of 582, remaining: 01:12)
+test 514...OK (337 out of 582, remaining: 01:12)
+test 515...OK (338 out of 582, remaining: 01:11)
+test 516...OK (339 out of 582, remaining: 01:11)
+test 517...OK (340 out of 582, remaining: 01:10)
+test 519...OK (342 out of 582, remaining: 01:09)
+test 522...OK (345 out of 582, remaining: 01:08)
+test 523...OK (346 out of 582, remaining: 01:08)
+test 528...ups
+#
+AuthorizedKeysFile /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub
+AuthorizedKeysFile2 /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_client_key.pub
+HostKey /export/home/drlou/illumos-userland/components/curl/build/i86/tests/curl_host_dsa_key
+PidFile /export/home/drlou/illumos-userland/components/curl/build/i86/tests/.ssh_server.pid
+#
+Port 8999
+ListenAddress 127.0.0.1
+Protocol 2
+#
+AllowTcpForwarding yes
+Banner none
+ChallengeResponseAuthentication no
+ClientAliveCountMax 3
+ClientAliveInterval 0
+GatewayPorts no
+HostbasedAuthentication no
+HostbasedUsesNameFromPacketOnly no
+IgnoreRhosts yes
+IgnoreUserKnownHosts yes
+KeyRegenerationInterval 0
+LoginGraceTime 30
+LogLevel DEBUG2
+MaxStartups 5
+PasswordAuthentication no
+PermitEmptyPasswords no
+PermitRootLogin no
+PrintLastLog no
+PrintMotd no
+PubkeyAuthentication yes
+RhostsRSAAuthentication no
+RSAAuthentication no
+ServerKeyBits 768
+StrictModes no
+Subsystem sftp /usr/lib/ssh/sftp-server
+SyslogFacility AUTH
+UseLogin no
+X11Forwarding no
+#
+SkeyAuthentication no
+GSSAPIAuthentication no
+GSSAPIKeyExchange no
+GSSAPIStoreDelegatedCredentials no
+#
+Compression no
+KbdInteractiveAuthentication no
+KeepAlive no
+LookupClientHostnames no
+MaxAuthTries 10
+PAMAuthenticationViaKbdInt no
+PermitUserEnvironment no
+RhostsAuthentication no
+VerifyReverseMapping no
+X11UseLocalhost yes
+#
+=== End of file curl_sshd_config
+test 800...OK (448 out of 582, remaining: 00:30)
+OK (351 out of 582, remaining: 01:08)
+test 530...test 801...OK (449 out of 582, remaining: 00:30)
+OK (353 out of 582, remaining: 01:07)
+test 535...test 802...OK (450 out of 582, remaining: 00:31)
+test 803...OK (451 out of 582, remaining: 00:30)
+test 804...OK (452 out of 582, remaining: 00:30)
+test 805...OK (453 out of 582, remaining: 00:30)
+test 806...OK (454 out of 582, remaining: 00:30)
+test 807...OK (455 out of 582, remaining: 00:29)
+test 1000...OK (456 out of 582, remaining: 00:29)
+test 1003...OK (459 out of 582, remaining: 00:28)
+test 1005...OK (358 out of 582, remaining: 01:06)
+test 536...OK (461 out of 582, remaining: 00:28)
+test 1006...OK (359 out of 582, remaining: 01:06)
+OK (462 out of 582, remaining: 00:27)
+test 1007...test 537...OK (463 out of 582, remaining: 00:27)
+test 1009...OK (465 out of 582, remaining: 00:26)
+test 1010...OK (360 out of 582, remaining: 01:06)
+test 540...OK (466 out of 582, remaining: 00:26)
+test 1013...OK (363 out of 582, remaining: 01:05)
+test 543...OK (366 out of 582, remaining: 01:03)
+test 544...Mismatch in protocols lists:
+curl:        dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
+curl-config: dict file ftp ftps gopher http https imap imaps ldap pop3 pop3s rtsp smtp smtps telnet tftp
+ postcheck FAILED
+test 1014...OK (367 out of 582, remaining: 01:03)
+test 545...Mismatch in features lists:
+curl:        ipv6 libz ntlm ssl
+curl-config: idn ipv6 libz ntlm ssl
+ postcheck FAILED
+test 1016...OK (368 out of 582, remaining: 01:02)
+test 549...OK (472 out of 582, remaining: 00:25)
+test 1017...OK (372 out of 582, remaining: 01:01)
+test 550...OK (473 out of 582, remaining: 00:24)
+test 1018...OK (373 out of 582, remaining: 01:00)
+test 551...OK (474 out of 582, remaining: 00:24)
+test 1019...OK (475 out of 582, remaining: 00:24)
+test 1020...OK (374 out of 582, remaining: 01:00)
+test 552...OK (476 out of 582, remaining: 00:24)
+test 1022...OK (478 out of 582, remaining: 00:23)
+test 1023...OK (479 out of 582, remaining: 00:23)
+test 1026...OK (482 out of 582, remaining: 00:22)
+test 1027...OK (483 out of 582, remaining: 00:22)
+test 1036...OK (492 out of 582, remaining: 00:20)
+test 1037...OK (493 out of 582, remaining: 00:19)
+test 1038...OK (494 out of 582, remaining: 00:19)
+test 1039...OK (495 out of 582, remaining: 00:19)
+test 1044...OK (500 out of 582, remaining: 00:17)
+test 1046...OK (502 out of 582, remaining: 00:17)
+test 1047...OK (503 out of 582, remaining: 00:17)
+test 1048...OK (504 out of 582, remaining: 00:17)
+test 1049...OK (505 out of 582, remaining: 00:16)
+test 1050...OK (506 out of 582, remaining: 00:16)
+test 1057...OK (513 out of 582, remaining: 00:14)
+test 1062...OK (518 out of 582, remaining: 00:13)
+test 1063...OK (519 out of 582, remaining: 00:13)
+test 1084...OK (540 out of 582, remaining: 00:08)
+test 1085...OK (541 out of 582, remaining: 00:08)
+test 1086...OK (375 out of 582, remaining: 01:02)
+test 553...OK (376 out of 582, remaining: 01:01)
+test 554...OK (377 out of 582, remaining: 01:02)
+test 556...OK (379 out of 582, remaining: 01:01)
+test 557...OK (380 out of 582, remaining: 01:01)
+test 558...OK (381 out of 582, remaining: 01:00)
+test 559...OK (382 out of 582, remaining: 01:00)
+test 561...OK (384 out of 582, remaining: 00:59)
+test 565...OK (387 out of 582, remaining: 00:58)
+test 566...OK (388 out of 582, remaining: 00:58)
+RUN: failed to start the RTSP server
+== Contents of files in the log/ dir after test 567
+=== Start of file rtsp_server.log
+ 00:48:04.622723 Error binding socket on port 9007: (125) Address already in use
+ 00:48:04.622916 ========> rtspd quits
+=== End of file rtsp_server.log
+test 573...OK (395 out of 582, remaining: 00:57)
+test 577...OK (399 out of 582, remaining: 00:56)
+test 578...OK (400 out of 582, remaining: 00:55)
+test 579...OK (401 out of 582, remaining: 00:56)
+RUN: SFTP server failed verification
+=== Start of file log/sftp_server.log
+debug1: Rhosts Authentication disabled, originating port will not be trusted.
+debug1: ssh_connect: needpriv 0
+debug1: Connecting to 127.0.0.1 [127.0.0.1] port 8999.
+debug1: fd 7 setting O_NONBLOCK
+debug1: fd 7 clearing O_NONBLOCK
+debug1: Connection established.
+debug2: key_type_from_name: unknown key type '-----BEGIN'
+debug2: key_type_from_name: unknown key type '-----END'
+debug1: identity file /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key type 2
+debug1: Remote protocol version 2.0, remote software version Sun_SSH_1.5
+debug1: match: Sun_SSH_1.5 pat Sun_SSH_1.5*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-Sun_SSH_1.5
+debug1: use_engine is 'yes'
+debug1: pkcs11 engine initialized, now setting it as default for RSA, DSA, and symmetric ciphers
+debug1: pkcs11 engine initialization complete
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug1: Peer sent proposed langtags, ctos: i-default
+debug1: Peer sent proposed langtags, stoc: i-default
+debug1: We proposed langtags, ctos: i-default
+debug1: We proposed langtags, stoc: i-default
+debug1: Negotiated lang: i-default
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST sent
+debug1: expecting SSH2_MSG_KEX_DH_GEX_GROUP
+debug1: Remote: Negotiated main locale: C
+debug1: Remote: Negotiated messages locale: C
+debug1: dh_gen_key: priv key bits set: 128/256
+debug1: bits set: 1547/3191
+debug1: SSH2_MSG_KEX_DH_GEX_INIT sent
+debug1: expecting SSH2_MSG_KEX_DH_GEX_REPLY
+debug1: Host '127.0.0.1' is known and matches the DSA host key.
+debug1: Found key in /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_knownhosts:1
+debug1: bits set: 1596/3191
+debug1: ssh_dss_verify: signature correct
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: set_newkeys: setting new keys for 'out' mode
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug2: set_newkeys: mode 0
+debug1: set_newkeys: setting new keys for 'in' mode
+debug1: SSH2_MSG_NEWKEYS received
+debug1: done: ssh_kex2.
+debug1: send SSH2_MSG_SERVICE_REQUEST
+debug2: service_accept: ssh-userauth
+debug1: got SSH2_MSG_SERVICE_ACCEPT
+debug1: Authentications that can continue: publickey
+debug1: Next authentication method: publickey
+debug1: Trying public key: /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key
+debug2: we sent a publickey packet, wait for reply
+debug1: Server accepts key: pkalg ssh-dss blen 434 lastkey 80b9140 hint 0
+debug2: input_userauth_pk_ok: fp c5:3e:72:c9:82:91:ca:7b:f4:6b:e7:a4:de:53:10:5e
+debug1: read PEM private key done: type DSA
+debug1: Authentications that can continue: publickey
+debug2: we did not send a packet, disable method
+debug1: No more authentication methods to try.
+Permission denied (publickey).
+debug1: Calling cleanup 0x8079dc4(0x0)
+Couldn't read packet: Bad file number
+=== End of file log/sftp_server.log
+=== Start of file curl_sftp_config
+# This is a generated file.  Do not edit.
+# SunSSH 1.5.0 sftp client configuration file for curl testing
+#
+Host *
+#
+Port 8999
+HostName 127.0.0.1
+User drlou
+Protocol 2
+#
+BindAddress 127.0.0.1
+#
+IdentityFile /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key
+UserKnownHostsFile /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_knownhosts
+#
+BatchMode yes
+ChallengeResponseAuthentication no
+CheckHostIP no
+ClearAllForwardings yes
+Compression no
+ConnectionAttempts 3
+ForwardAgent no
+ForwardX11 no
+GatewayPorts no
+GlobalKnownHostsFile /dev/null
+HostbasedAuthentication no
+KbdInteractiveAuthentication no
+LogLevel DEBUG2
+NumberOfPasswordPrompts 0
+PasswordAuthentication no
+PreferredAuthentications publickey
+PubkeyAuthentication yes
+RhostsRSAAuthentication no
+RSAAuthentication no
+StrictHostKeyChecking yes
+UsePrivilegedPort no
+#
+ConnectTimeout 30
+DisableBanner yes
+ForwardX11Trusted no
+GSSAPIAuthentication no
+GSSAPIDelegateCredentials no
+GSSAPIKeyExchange no
+HashKnownHosts no
+IgnoreIfUnknown no
+KeepAlive no
+NoHostAuthenticationForLocalhost no
+RekeyLimit 1G
+ServerAliveCountMax 3
+ServerAliveInterval 0
+#
+=== End of file curl_sftp_config
+=== Start of file log/ssh_server.log
+curl_sshd_config line 44: ignoring UseLogin option value. This option is always off.
+curl_sshd_config line 57: PAMAuthenticationViaKbdInt has been deprecated. You should use KbdInteractiveAuthentication instead (which defaults to "yes").
+ChallengeResponseAuthentication has been deprecated for the SSH Protocol 2. You should use KbdInteractiveAuthentication instead (which defaults to "yes").
+debug1: Bind to port 8999 on 127.0.0.1.
+Server listening on 127.0.0.1 port 8999.
+debug1: Forked child 7053.
+Connection from 127.0.0.1 port 49429
+debug1: Client protocol version 2.0; client software version Sun_SSH_1.5
+debug1: match: Sun_SSH_1.5 pat Sun_SSH_1.5*
+debug1: Enabling compatibility mode for protocol 2.0
+debug1: Local version string SSH-2.0-Sun_SSH_1.5
+monitor debug1: list_hostkey_types: ssh-dss
+debug2: Waiting for monitor
+monitor debug2: Monitor pid 7053, unprivileged child pid 7054
+debug2: Monitor signalled readiness
+monitor debug1: reading the context from the child
+debug1: use_engine is 'yes'
+debug1: pkcs11 engine initialized, now setting it as default for RSA, DSA, and symmetric ciphers
+debug1: pkcs11 engine initialization complete
+debug1: list_hostkey_types: ssh-dss
+debug1: SSH2_MSG_KEXINIT sent
+debug1: SSH2_MSG_KEXINIT received
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: none
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: kex_parse_kexinit: diffie-hellman-group-exchange-sha1,diffie-hellman-group1-sha1
+debug2: kex_parse_kexinit: ssh-rsa,ssh-dss
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: aes128-ctr,aes192-ctr,aes256-ctr,arcfour128,arcfour256,arcfour,aes128-cbc,aes192-cbc,aes256-cbc,blowfish-cbc,3des-cbc
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: hmac-md5,hmac-sha1,hmac-sha1-96,hmac-md5-96
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: none,zlib
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: i-default
+debug2: kex_parse_kexinit: first_kex_follows 0 
+debug2: kex_parse_kexinit: reserved 0 
+debug2: mac_setup: found hmac-md5
+debug1: kex: client->server aes128-ctr hmac-md5 none
+debug2: mac_setup: found hmac-md5
+debug1: kex: server->client aes128-ctr hmac-md5 none
+debug1: Peer sent proposed langtags, ctos: i-default
+debug1: Peer sent proposed langtags, stoc: i-default
+debug1: We proposed langtags, ctos: i-default
+debug1: We proposed langtags, stoc: i-default
+debug1: Negotiated main locale: C
+debug1: Negotiated messages locale: C
+debug1: SSH2_MSG_KEX_DH_GEX_REQUEST received
+debug1: SSH2_MSG_KEX_DH_GEX_GROUP sent
+debug1: dh_gen_key: priv key bits set: 126/256
+debug1: bits set: 1596/3191
+debug1: expecting SSH2_MSG_KEX_DH_GEX_INIT
+debug1: bits set: 1547/3191
+debug1: SSH2_MSG_KEX_DH_GEX_REPLY sent
+debug2: kex_derive_keys
+debug2: set_newkeys: mode 1
+debug1: set_newkeys: setting new keys for 'out' mode
+debug1: SSH2_MSG_NEWKEYS sent
+debug1: expecting SSH2_MSG_NEWKEYS
+debug2: set_newkeys: mode 0
+debug1: set_newkeys: setting new keys for 'in' mode
+debug1: SSH2_MSG_NEWKEYS received
+debug1: KEX done
+debug1: userauth-request for user drlou service ssh-connection method none
+debug1: attempt 0 initial attempt 0 failures 0 initial failures 0
+debug2: parse_server_config: config reprocess config len 1448
+debug2: input_userauth_request: setting up authctxt for drlou
+debug2: input_userauth_request: try method none
+Failed none for drlou from 127.0.0.1 port 49429 ssh2
+debug1: userauth-request for user drlou service sshOK (542 out of 582, remaining: 00:09)
+test 1091...OK (547 out of 582, remaining: 00:08)
+test 1093...OK (549 out of 582, remaining: 00:07)
+test 1094...OK (550 out of 582, remaining: 00:07)
+test 1096...OK (552 out of 582, remaining: 00:06)
+test 1099...OK (555 out of 582, remaining: 00:06)
+test 1102...OK (558 out of 582, remaining: 00:05)
+test 1103...OK (559 out of 582, remaining: 00:05)
+test 1107...OK (563 out of 582, remaining: 00:04)
+test 1108...OK (564 out of 582, remaining: 00:04)
+test 1113...OK (569 out of 582, remaining: 00:02)
+test 1114...OK (570 out of 582, remaining: 00:02)
+test 1200...OK (574 out of 582, remaining: 00:01)
+test 1201...OK (575 out of 582, remaining: 00:01)
+test 1202...OK (576 out of 582, remaining: 00:01)
+-connection method publickey
+debug1: attempt 1 initial attempt 0 failures 1 initial failures 0
+debug2: input_userauth_request: try method publickey
+debug1: test whether pkalg/pkblob are acceptable
+debug1: temporarily_use_uid: 100/1 (e=100/1)
+debug1: trying public key file /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub
+debug1: matching key found: file /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub, line 1
+Found matching DSA key: c5:3e:72:c9:82:91:ca:7b:f4:6b:e7:a4:de:53:10:5e
+debug1: restore_uid: (unprivileged)
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-dss
+debug1: userauth-request for user drlou service ssh-connection method publickey
+debug1: attempt 2 initial attempt 0 failures 1 initial failures 0
+debug2: input_userauth_request: try method publickey
+debug1: temporarily_use_uid: 100/1 (e=100/1)
+debug1: trying public key file /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub
+debug1: matching key found: file /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub, line 1
+Found matching DSA key: c5:3e:72:c9:82:91:ca:7b:f4:6b:e7:a4:de:53:10:5e
+debug1: restore_uid: (unprivileged)
+debug1: ssh_dss_verify: signature correct
+debug2: Starting PAM service sshd-pubkey for method publickey
+debug2: userauth_pubkey: authenticated 0 pkalg ssh-dss
+Failed publickey for drlou from 127.0.0.1 port 49429 ssh2
+Connection closed by 127.0.0.1
+debug1: Calling cleanup 0x806ac84(0x80ea360)
+debug1: Calling cleanup 0x80645b0(0x80c7f98)
+debug1: Calling cleanup 0x808bc04(0x0)
+monitor debug1: child closed the communication pipe before user auth was finished
+monitor debug1: Calling cleanup 0x808bc04(0x0)
+monitor debug1: Calling cleanup 0x808bc04(0x0)
+=== End of file log/ssh_server.log
+=== Start of file curl_sshd_config
+# This is a generated file.  Do not edit.
+# SunSSH 1.5.0 sshd configuration file for curl testing
+#
+DenyUsers !drlou
+AllowUsers drlou
+DenyGroups
+AllowGroups
+#
+AuthorizedKeysFile /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub
+AuthorizedKeysFile2 /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_client_key.pub
+HostKey /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/curl_host_dsa_key
+PidFile /export/home/drlou/illumos-userland/components/curl/build/amd64/tests/.ssh_server.pid
+#
+Port 8999
+ListenAddress 127.0.0.1
+Protocol 2
+#
+AllowTcpForwarding yes
+Banner none
+ChallengeResponseAuthentication no
+ClientAliveCountMax 3
+ClientAliveInterval 0
+GatewayPorts no
+HostbasedAuthentication no
+HostbasedUsesNameFromPacketOnly no
+IgnoreRhosts yes
+IgnoreUserKnownHosts yes
+KeyRegenerationInterval 0
+LoginGraceTime 30
+LogLevel DEBUG2
+MaxStartups 5
+PasswordAuthentication no
+PermitEmptyPasswords no
+PermitRootLogin no
+PrintLastLog no
+PrintMotd no
+PubkeyAuthentication yes
+RhostsRSAAuthentication no
+RSAAuthentication no
+ServerKeyBits 768
+StrictModes no
+Subsystem sftp /usr/lib/ssh/sftp-server
+SyslogFacility AUTH
+UseLogin no
+X11Forwarding no
+#
+SkeyAuthentication no
+GSSAPIAuthentication no
+GSSAPIKeyExchange no
+GSSAPIStoreDelegatedCredentials no
+#
+Compression no
+KbdInteractiveAuthentication no
+KeepAlive no
+LookupClientHostnames no
+MaxAuthTries 10
+PAMAuthenticationViaKbdInt no
+PermitUserEnvironment no
+RhostsAuthentication no
+VerifyReverseMapping no
+X11UseLocalhost yes
+#
+=== End of file curl_sshd_config
+test 704...OK (444 out of 582, remaining: 00:40)
+test 705...OK (445 out of 582, remaining: 00:40)
+test 1203...OK (577 out of 582, remaining: 00:01)
+test 2000...RUN: failed to start the POP3 server
+== Contents of files in the log/ dir after test 800
+=== Start of file pop3_server.log
+ 00:48:17.388400 Failed to read input
+ 00:48:17.388561 Error: POP3 server, read zero
+ 00:48:17.388588 Exited from sysread_or_die() at /export/home/drlou/illumos-userland/components/curl/curl-7.21.2/tests/ftpserver.pl line 262. POP3 server, read zero
+=== End of file pop3_server.log
+=== Start of file pop3_sockfilt.log
+ 00:48:17.868154 Error binding socket on port 9001: (125) Address already in use
+ 00:48:17.868348 ============> sockfilt quits
+=== End of file pop3_sockfilt.log
+OK (578 out of 582, remaining: 00:00)
+TESTDONE: 204 tests out of 208 reported OK: 98%
+TESTFAIL: These test cases failed: 532 534 1013 1014 
+TESTDONE: 583 tests were considered during 132 seconds.
+TESTINFO: 375 tests were skipped due to these restraints:
+TESTINFO: "failed starting HTTP server" 296 times (1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 88, 89, 90, 91, 92, 93, 94, 95, 97, 98, 99, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 162, 163, 164, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 183, 184, 185, 186, 187, 188, 189, 192, 193, 194, 197, 198, 199, 206, 207, 208, 209, 213, 214, 217, 218, 220, 221, 222, 223, 224, 233, 234, 239, 243, 245, 246, 249, 256, 258, 259, 260, 262, 264, 265, 266, 267, 268, 269, 273, 274, 275, 276, 277, 278, 279, 281, 282, 287, 292, 293, 299, 309, 500, 503, 506, 507, 508, 510, 512, 513, 514, 515, 516, 518, 519, 522, 523, 528, 530, 535, 536, 537, 540, 544, 545, 547, 548, 549, 550, 551, 552, 553, 554, 555, 556, 561, 563, 565, 566, 573, 578, 579, 700, 701, 704, 705, 1001, 1002, 1004, 1008, 1011, 1012, 1015, 1021, 1024, 1025, 1028, 1029, 1030, 1031, 1032, 1033, 1040, 1041, 1042, 1043, 1045, 1051, 1052, 1053, 1054, 1055, 1056, 1058, 1059, 1060, 1061, 1064, 1065, 1066, 1067, 1068, 1069, 1070, 1071, 1072, 1073, 1074, 1075, 1076, 1077, 1078, 1079, 1080, 1081, 1082, 1087, 1088, 1089, 1090, 1092, 1095, 1098, 1100, 1101, 1104, 1105, 1106, 1109, 1110, 1111, 1115, 1116, 1117, 2001, 2002, 2003)
+TESTINFO: "curl lacks scp support" 10 times (601, 603, 605, 607, 617, 619, 621, 623, 629, 631)
+TESTINFO: "curl lacks netrc_debug support" 6 times (130, 131, 132, 133, 134, 257)
+TESTINFO: "no stunnel" 24 times (300, 301, 302, 303, 304, 305, 306, 307, 308, 310, 311, 312, 313, 400, 401, 403, 404, 406, 407, 408, 409, 560, 1097, 1112)
+TESTINFO: "failed starting SSH server" 4 times (702, 703, 706, 707)
+TESTINFO: "configured as DISABLED" 1 times (564)
+TESTINFO: "Resolving IPv6 'ip6-localhost' didn't work" 2 times (241, 1083)
+TESTINFO: "curl lacks idn support" 3 times (165, 1034, 1035)
+TESTINFO: "curl lacks sftp support" 29 times (600, 602, 604, 606, 608, 609, 610, 611, 612, 613, 614, 615, 616, 618, 620, 622, 624, 625, 626, 627, 628, 630, 632, 633, 634, 635, 636, 637, 2004)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/i86'
+test 801...OK (449 out of 582, remaining: 00:40)
+test 802...OK (450 out of 582, remaining: 00:40)
+test 803...OK (451 out of 582, remaining: 00:40)
+test 804...OK (452 out of 582, remaining: 00:40)
+test 805...OK (453 out of 582, remaining: 00:39)
+test 806...OK (454 out of 582, remaining: 00:39)
+test 807...OK (455 out of 582, remaining: 00:38)
+test 1001...OK (457 out of 582, remaining: 00:38)
+test 1002...OK (458 out of 582, remaining: 00:39)
+test 1004...OK (460 out of 582, remaining: 00:38)
+test 1007...OK (463 out of 582, remaining: 00:37)
+test 1009...OK (465 out of 582, remaining: 00:36)
+test 1011...OK (467 out of 582, remaining: 00:35)
+test 1012...OK (468 out of 582, remaining: 00:35)
+test 1013...Mismatch in protocols lists:
+curl:        dict file ftp ftps gopher http https imap imaps ldap ldaps pop3 pop3s rtsp smtp smtps telnet tftp
+curl-config: dict file ftp ftps gopher http https imap imaps ldap pop3 pop3s rtsp smtp smtps telnet tftp
+ postcheck FAILED
+test 1014...Mismatch in features lists:
+curl:        ipv6 libz ntlm ssl
+curl-config: idn ipv6 libz ntlm ssl
+ postcheck FAILED
+test 1015...OK (471 out of 582, remaining: 00:34)
+test 1016...OK (472 out of 582, remaining: 00:33)
+test 1017...OK (473 out of 582, remaining: 00:33)
+test 1018...OK (474 out of 582, remaining: 00:33)
+test 1019...OK (475 out of 582, remaining: 00:32)
+test 1020...OK (476 out of 582, remaining: 00:32)
+test 1022...OK (478 out of 582, remaining: 00:31)
+test 1023...OK (479 out of 582, remaining: 00:31)
+test 1024...OK (480 out of 582, remaining: 00:31)
+test 1025...OK (481 out of 582, remaining: 00:30)
+test 1026...OK (482 out of 582, remaining: 00:30)
+test 1027...OK (483 out of 582, remaining: 00:30)
+test 1029...OK (485 out of 582, remaining: 00:29)
+test 1030...OK (486 out of 582, remaining: 00:29)
+test 1031...OK (487 out of 582, remaining: 00:29)
+test 1032...OK (488 out of 582, remaining: 00:29)
+test 1033...OK (489 out of 582, remaining: 00:28)
+test 1040...OK (496 out of 582, remaining: 00:26)
+test 1041...OK (497 out of 582, remaining: 00:26)
+test 1042...OK (498 out of 582, remaining: 00:25)
+test 1043...OK (499 out of 582, remaining: 00:25)
+test 1045...OK (501 out of 582, remaining: 00:24)
+test 1049...OK (505 out of 582, remaining: 00:23)
+test 1051...OK (507 out of 582, remaining: 00:23)
+test 1052...OK (508 out of 582, remaining: 00:22)
+test 1053...OK (509 out of 582, remaining: 00:23)
+test 1054...OK (510 out of 582, remaining: 00:22)
+test 1058...OK (514 out of 582, remaining: 00:21)
+test 1059...OK (515 out of 582, remaining: 00:21)
+test 1060...OK (516 out of 582, remaining: 00:20)
+test 1061...OK (517 out of 582, remaining: 00:20)
+test 1063...OK (519 out of 582, remaining: 00:19)
+test 1064...OK (520 out of 582, remaining: 00:19)
+test 1065...OK (521 out of 582, remaining: 00:18)
+test 1066...OK (522 out of 582, remaining: 00:18)
+test 1067...OK (523 out of 582, remaining: 00:18)
+test 1068...OK (524 out of 582, remaining: 00:18)
+test 1069...OK (525 out of 582, remaining: 00:17)
+test 1070...OK (526 out of 582, remaining: 00:17)
+test 1071...OK (527 out of 582, remaining: 00:17)
+test 1072...OK (528 out of 582, remaining: 00:17)
+test 1073...OK (529 out of 582, remaining: 00:17)
+test 1074...OK (530 out of 582, remaining: 00:17)
+test 1075...OK (531 out of 582, remaining: 00:17)
+test 1076...OK (532 out of 582, remaining: 00:16)
+test 1077...OK (533 out of 582, remaining: 00:16)
+test 1078...OK (534 out of 582, remaining: 00:15)
+test 1079...OK (535 out of 582, remaining: 00:15)
+test 1080...OK (536 out of 582, remaining: 00:15)
+test 1081...OK (537 out of 582, remaining: 00:14)
+test 1082...OK (538 out of 582, remaining: 00:14)
+test 1084...OK (540 out of 582, remaining: 00:13)
+test 1085...OK (541 out of 582, remaining: 00:13)
+test 1087...OK (543 out of 582, remaining: 00:12)
+test 1088...OK (544 out of 582, remaining: 00:12)
+test 1089...OK (545 out of 582, remaining: 00:12)
+test 1090...OK (546 out of 582, remaining: 00:11)
+test 1092...OK (548 out of 582, remaining: 00:11)
+test 1093...OK (549 out of 582, remaining: 00:10)
+test 1094...OK (550 out of 582, remaining: 00:10)
+test 1095...OK (551 out of 582, remaining: 00:10)
+test 1098...OK (554 out of 582, remaining: 00:09)
+test 1099...OK (555 out of 582, remaining: 00:08)
+test 1101...OK (557 out of 582, remaining: 00:08)
+test 1104...OK (560 out of 582, remaining: 00:07)
+test 1105...OK (561 out of 582, remaining: 00:06)
+test 1106...OK (562 out of 582, remaining: 00:06)
+test 1109...OK (565 out of 582, remaining: 00:05)
+test 1110...OK (566 out of 582, remaining: 00:05)
+test 1111...OK (567 out of 582, remaining: 00:04)
+test 1115...OK (571 out of 582, remaining: 00:03)
+test 1116...OK (572 out of 582, remaining: 00:03)
+test 1117...OK (573 out of 582, remaining: 00:02)
+test 1200...OK (574 out of 582, remaining: 00:02)
+test 1201...OK (575 out of 582, remaining: 00:02)
+test 1202...OK (576 out of 582, remaining: 00:01)
+test 1203...OK (577 out of 582, remaining: 00:01)
+TESTDONE: 313 tests out of 320 reported OK: 97%
+TESTFAIL: These test cases failed: 271 283 284 285 286 1013 1014 
+TESTDONE: 583 tests were considered during 188 seconds.
+TESTINFO: 263 tests were skipped due to these restraints:
+TESTINFO: "failed starting FTP server" 141 times (100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 161, 182, 190, 191, 195, 196, 210, 211, 212, 215, 216, 225, 226, 227, 228, 229, 235, 236, 237, 238, 247, 248, 250, 251, 261, 270, 272, 280, 289, 290, 291, 294, 295, 296, 297, 298, 350, 351, 352, 353, 354, 402, 405, 505, 511, 520, 521, 524, 525, 526, 527, 529, 531, 532, 533, 534, 538, 539, 541, 542, 546, 562, 563, 574, 575, 576, 706, 707, 1000, 1003, 1005, 1006, 1010, 1028, 1036, 1037, 1038, 1039, 1044, 1047, 1055, 1057, 1062, 1086, 1091, 1096, 1102, 1103, 1107, 1108, 1113, 1114, 2000, 2001, 2002, 2003)
+TESTINFO: "failed starting POP3 server" 1 times (800)
+TESTINFO: "failed starting FTP-IPv6 server" 6 times (252, 253, 254, 255, 1048, 1050)
+TESTINFO: "curl lacks scp support" 10 times (601, 603, 605, 607, 617, 619, 621, 623, 629, 631)
+TESTINFO: "curl lacks netrc_debug support" 6 times (130, 131, 132, 133, 134, 257)
+TESTINFO: "failed starting HTTP-IPv6 server" 7 times (240, 241, 242, 263, 1046, 1056, 1083)
+TESTINFO: "no stunnel" 25 times (300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 400, 401, 403, 404, 406, 407, 408, 409, 560, 1097, 1112)
+TESTINFO: "failed starting SSH server" 4 times (700, 701, 702, 703)
+TESTINFO: "rlimit problem: fds needed 65562 > system limit 65536" 1 times (518)
+TESTINFO: "configured as DISABLED" 1 times (564)
+TESTINFO: "failed starting RTSP server" 6 times (567, 568, 569, 570, 571, 572)
+TESTINFO: "curl lacks idn support" 3 times (165, 1034, 1035)
+TESTINFO: "curl lacks sftp support" 29 times (600, 602, 604, 606, 608, 609, 610, 611, 612, 613, 614, 615, 616, 618, 620, 622, 624, 625, 626, 627, 628, 630, 632, 633, 634, 635, 636, 637, 2004)
+TESTINFO: "precheck command error" 23 times (67, 68, 69, 81, 89, 90, 91, 150, 155, 159, 169, 209, 213, 239, 243, 265, 267, 547, 548, 555, 1008, 1021, 1100)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/curl/build/amd64'

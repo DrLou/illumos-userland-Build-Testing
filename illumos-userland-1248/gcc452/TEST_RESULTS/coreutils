@@ -1,0 +1,16 @@
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/coreutils/coreutils-8.5 -p1 --backup --version-control=numbered < patches/coreutils-8_5.patch
+patching file configure
+/usr/bin/touch /export/home/drlou/illumos-userland/components/coreutils/coreutils-8.5/.coreutils-8_5.patched
+/usr/bin/touch /export/home/drlou/illumos-userland/components/coreutils/coreutils-8.5/.patched
+/usr/bin/touch /export/home/drlou/illumos-userland/components/coreutils/coreutils-8.5/.prep
+(/bin/rm -f -rf /export/home/drlou/illumos-userland/components/coreutils/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland/components/coreutils/build/i86)
+(cd /export/home/drlou/illumos-userland/components/coreutils/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland/components/coreutils/coreutils-8.5/configure CC="/usr/gcc/4.5/bin/gcc" CXX="/usr/gcc/4.5/bin/g++" --prefix=/usr/gnu --mandir=/usr/gnu/share/man --bindir=/usr/gnu/bin --libdir=/usr/gnu/lib --sbindir=/usr/gnu/sbin  --libdir=/usr/lib --infodir=/usr/share/info CPPFLAGS=-I/usr/include/gmp CFLAGS="-m32 -02 -flto=jobserver")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... /usr/gcc/4.5/bin/gcc
+checking whether the C compiler works... no

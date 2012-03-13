@@ -1,0 +1,409 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/openusb/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/openusb/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1 /export/home/drlou/illumos-userland-1248/components/openusb/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1 to /export/home/drlou/illumos-userland-1248/components/openusb/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1 /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1 to /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/openusb/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -O2" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/configure CC="/usr/sfw/bin/gcc" CXX="/usr/sfw/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin )
+(cd /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -O2" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/configure CC="/usr/sfw/bin/gcc" CXX="/usr/sfw/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64 )
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... yes
+/usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for a thread-safe mkdir -p... yes
+/usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for style of include used by make... GNU
+checking for gcc... /usr/sfw/bin/gcc
+i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for style of include used by make... GNU
+checking for gcc... /usr/sfw/bin/gcc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... yes
+checking whether /usr/sfw/bin/gcc accepts -g... yes
+checking whether /usr/sfw/bin/gcc accepts -g... yes
+checking for /usr/sfw/bin/gcc option to accept ISO C89... yes
+checking for /usr/sfw/bin/gcc option to accept ISO C89... none needed
+checking dependency style of /usr/sfw/bin/gcc... none needed
+checking dependency style of /usr/sfw/bin/gcc... gcc3
+checking for a sed that does not truncate output... gcc3
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ld used by /usr/sfw/bin/gcc... /usr/bin/ggrep -E
+checking for ld used by /usr/sfw/bin/gcc... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+/usr/bin/nm -p
+checking how to recognize dependent libraries... checking whether ln -s works... yes
+checking how to recognize dependent libraries... pass_all
+pass_all
+checking how to run the C preprocessor... checking how to run the C preprocessor... /usr/sfw/bin/gcc -E
+/usr/sfw/bin/gcc -E
+checking for ANSI C header files... checking for ANSI C header files... yes
+yes
+checking for sys/types.h... checking for sys/types.h... yes
+yes
+checking for sys/stat.h... checking for sys/stat.h... yes
+yes
+checking for stdlib.h... checking for stdlib.h... yes
+yes
+checking for string.h... checking for string.h... yes
+yes
+checking for memory.h... checking for memory.h... yes
+yes
+checking for strings.h... checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for unistd.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+yes
+checking for dlfcn.h... yes
+checking whether we are using the GNU C++ compiler... checking whether we are using the GNU C++ compiler... yes
+yes
+checking whether /usr/sfw/bin/g++ accepts -g... checking whether /usr/sfw/bin/g++ accepts -g... yes
+yes
+checking dependency style of /usr/sfw/bin/g++... checking dependency style of /usr/sfw/bin/g++... gcc3
+gcc3
+checking how to run the C++ preprocessor... checking how to run the C++ preprocessor... /usr/sfw/bin/g++ -E
+/usr/sfw/bin/g++ -E
+checking for g77... no
+checking for xlf... no
+checking for f77... checking for g77... no
+no
+checking for frt... checking for xlf... no
+no
+checking for pgf77... checking for f77... no
+no
+checking for cf77... checking for frt... no
+checking for fort77... checking for pgf77... no
+checking for cf77... checking for fl32... no
+no
+checking for fort77... checking for af77... no
+no
+checking for fl32... checking for xlf90... no
+checking for af77... checking for f90... no
+no
+checking for xlf90... checking for pgf90... no
+no
+checking for pghpf... no
+checking for pgf90... no
+checking for epcf90... no
+checking for pghpf... no
+checking for gfortran... no
+checking for epcf90... no
+checking for g95... no
+checking for gfortran... no
+no
+checking for xlf95... checking for g95... no
+no
+checking for f95... checking for xlf95... no
+no
+checking for fort... checking for f95... no
+no
+checking for ifort... checking for fort... no
+no
+checking for ifc... checking for ifort... no
+no
+checking for efc... checking for ifc... no
+no
+checking for pgf95... checking for efc... no
+no
+checking for lf95... checking for pgf95... no
+no
+checking for ftn... checking for lf95... no
+no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+no
+checking whether  accepts -g... checking whether  accepts -g... no
+no
+checking the maximum length of command line arguments... checking the maximum length of command line arguments... 786240
+checking command to parse /usr/bin/nm -p output from /usr/sfw/bin/gcc object... 786240
+checking command to parse /usr/bin/nm -p output from /usr/sfw/bin/gcc object... ok
+checking for objdir... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+.libs
+checking for strip... strip
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking if /usr/sfw/bin/gcc supports -fno-rtti -fno-exceptions... checking if /usr/sfw/bin/gcc supports -fno-rtti -fno-exceptions... no
+checking for /usr/sfw/bin/gcc option to produce PIC... -fPIC
+checking if /usr/sfw/bin/gcc PIC flag -fPIC works... no
+checking for /usr/sfw/bin/gcc option to produce PIC... -fPIC
+checking if /usr/sfw/bin/gcc PIC flag -fPIC works... yes
+checking if /usr/sfw/bin/gcc static flag -static works... yes
+checking if /usr/sfw/bin/gcc static flag -static works... no
+checking if /usr/sfw/bin/gcc supports -c -o file.o... no
+checking if /usr/sfw/bin/gcc supports -c -o file.o... yes
+checking whether the /usr/sfw/bin/gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking whether the /usr/sfw/bin/gcc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking for ld used by /usr/sfw/bin/g++... checking for ld used by /usr/sfw/bin/g++... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking whether the /usr/sfw/bin/g++ linker (/usr/bin/ld) supports shared libraries... no
+checking whether the /usr/sfw/bin/g++ linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking for /usr/sfw/bin/g++ option to produce PIC... -fPIC
+checking if /usr/sfw/bin/g++ PIC flag -fPIC works... checking for /usr/sfw/bin/g++ option to produce PIC... -fPIC
+checking if /usr/sfw/bin/g++ PIC flag -fPIC works... yes
+checking if /usr/sfw/bin/g++ static flag -static works... yes
+checking if /usr/sfw/bin/g++ static flag -static works... no
+no
+checking if /usr/sfw/bin/g++ supports -c -o file.o... checking if /usr/sfw/bin/g++ supports -c -o file.o... yes
+checking whether the /usr/sfw/bin/g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+yes
+checking how to hardcode library paths into programs... checking whether the /usr/sfw/bin/g++ linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+appending configuration tag "F77" to libtool
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for what USB OS support... checking whether to enable maintainer-specific portions of Makefiles... no
+checking for what USB OS support... Solaris
+checking for gcc... (cached) /usr/sfw/bin/gcc
+Solaris
+checking for gcc... (cached) /usr/sfw/bin/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /usr/sfw/bin/gcc accepts -g... (cached) yes
+checking for /usr/sfw/bin/gcc option to accept ISO C89... (cached) none needed
+checking whether /usr/sfw/bin/gcc accepts -g... checking dependency style of /usr/sfw/bin/gcc... (cached) gcc3
+yes
+checking for /usr/sfw/bin/gcc option to accept ISO C89... (cached) checking for gcc... none needed
+(cached) /usr/sfw/bin/gcc
+checking dependency style of /usr/sfw/bin/gcc... (cached) gcc3
+checking for gcc... (cached) /usr/sfw/bin/gcc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether /usr/sfw/bin/gcc accepts -g... (cached) yes
+checking for /usr/sfw/bin/gcc option to accept ISO C89... (cached) none needed
+checking whether /usr/sfw/bin/gcc accepts -g... checking dependency style of /usr/sfw/bin/gcc... (cached) (cached) gcc3
+checking for /usr/sfw/bin/gcc option to accept ISO C89... checking for a BSD-compatible install... (cached) /usr/bin/ginstall -c
+none needed
+checking for ANSI C header files... (cached) gcc3
+yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ANSI C header files... (cached) yes
+checking for vprintf... checking for vprintf... yes
+yes
+checking for _doprnt... checking for _doprnt... yes
+checking for char... yes
+checking for char... yes
+checking size of char... yes
+checking size of char... 1
+checking for short... 1
+checking for short... yes
+checking size of short... yes
+checking size of short... 2
+checking for long... 2
+checking for long... yes
+checking size of long... yes
+checking size of long... 4
+checking for int... 8
+checking for int... yes
+checking size of int... yes
+checking size of int... 4
+checking for void *... 4
+checking for void *... yes
+checking size of void *... yes
+checking size of void *... 4
+checking for long long... 8
+checking for long long... yes
+checking size of long long... yes
+checking size of long long... 8
+checking for an ANSI C-conforming const... 8
+checking for an ANSI C-conforming const... yes
+checking limits.h usability... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+yes
+checking for limits.h... yes
+checking values.h usability... checking for unistd.h... (cached) yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking for values.h... yes
+yes
+checking for memmove... checking for memmove... yes
+yes
+checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... checking for pkg-config... /usr/bin/pkg-config
+checking pkg-config is at least version 0.9.0... yes
+checking for GLIB... yes
+checking for GLIB... yes
+checking for GTHREADS... yes
+checking for GTHREADS... yes
+checking for DBUS... yes
+checking for DBUS... yes
+yes
+checking for DBUSGLIB... yes
+checking for HAL... yes
+checking for HAL... yes
+yes
+checking if we should build the documentation... auto
+checking if we should build the documentation... auto
+checking for jade... checking for jade... jade
+jade
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/Makefile
+config.status: creating examples/Makefile
+config.status: creating examples/Makefile
+config.status: creating src/openusb.h
+config.status: creating src/openusb.h
+config.status: creating openusb.spec
+config.status: creating openusb.spec
+config.status: creating openusb-config
+config.status: creating openusb-config
+config.status: creating README
+config.status: creating README
+config.status: creating INSTALL.openusb
+config.status: creating INSTALL.openusb
+config.status: creating config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+config.status: executing default commands
+config.status: executing default commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/openusb/build/i86/.configured
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/openusb/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+(cd /export/home/drlou/illumos-userland-1248/components/openusb/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86'
+/usr/gnu/bin/make  all-recursive
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86/src'
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c -o libopenusb_la-usb.lo `test -f 'usb.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`usb.c
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64/src'
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c -o libopenusb_la-usb.lo `test -f 'usb.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`usb.c
+mkdir .libs
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c usb.c  -fPIC -DPIC -o .libs/libopenusb_la-usb.o
+mkdir .libs
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c usb.c  -fPIC -DPIC -o .libs/libopenusb_la-usb.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c usb.c -o libopenusb_la-usb.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-usb.lo -MD -MP -MF .deps/libopenusb_la-usb.Tpo -c usb.c -o libopenusb_la-usb.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-usb.Tpo .deps/libopenusb_la-usb.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c -o libopenusb_la-devices.lo `test -f 'devices.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`devices.c
+mv -f .deps/libopenusb_la-usb.Tpo .deps/libopenusb_la-usb.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c -o libopenusb_la-devices.lo `test -f 'devices.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`devices.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c devices.c  -fPIC -DPIC -o .libs/libopenusb_la-devices.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c devices.c  -fPIC -DPIC -o .libs/libopenusb_la-devices.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c devices.c -o libopenusb_la-devices.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-devices.lo -MD -MP -MF .deps/libopenusb_la-devices.Tpo -c devices.c -o libopenusb_la-devices.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-devices.Tpo .deps/libopenusb_la-devices.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c -o libopenusb_la-list.lo `test -f 'list.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`list.c
+mv -f .deps/libopenusb_la-devices.Tpo .deps/libopenusb_la-devices.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c -o libopenusb_la-list.lo `test -f 'list.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`list.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c list.c  -fPIC -DPIC -o .libs/libopenusb_la-list.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c list.c -o libopenusb_la-list.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-list.Tpo .deps/libopenusb_la-list.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c -o libopenusb_la-descriptors.lo `test -f 'descriptors.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`descriptors.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c list.c  -fPIC -DPIC -o .libs/libopenusb_la-list.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-list.lo -MD -MP -MF .deps/libopenusb_la-list.Tpo -c list.c -o libopenusb_la-list.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-list.Tpo .deps/libopenusb_la-list.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c -o libopenusb_la-descriptors.lo `test -f 'descriptors.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`descriptors.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c descriptors.c  -fPIC -DPIC -o .libs/libopenusb_la-descriptors.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c descriptors.c  -fPIC -DPIC -o .libs/libopenusb_la-descriptors.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c descriptors.c -o libopenusb_la-descriptors.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-descriptors.lo -MD -MP -MF .deps/libopenusb_la-descriptors.Tpo -c descriptors.c -o libopenusb_la-descriptors.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-descriptors.Tpo .deps/libopenusb_la-descriptors.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c -o libopenusb_la-api.lo `test -f 'api.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`api.c
+mv -f .deps/libopenusb_la-descriptors.Tpo .deps/libopenusb_la-descriptors.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c -o libopenusb_la-api.lo `test -f 'api.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`api.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c api.c  -fPIC -DPIC -o .libs/libopenusb_la-api.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c api.c  -fPIC -DPIC -o .libs/libopenusb_la-api.o
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c api.c -o libopenusb_la-api.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-api.lo -MD -MP -MF .deps/libopenusb_la-api.Tpo -c api.c -o libopenusb_la-api.o >/dev/null 2>&1
+mv -f .deps/libopenusb_la-api.Tpo .deps/libopenusb_la-api.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c -o libopenusb_la-io.lo `test -f 'io.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`io.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c io.c  -fPIC -DPIC -o .libs/libopenusb_la-io.o
+mv -f .deps/libopenusb_la-api.Tpo .deps/libopenusb_la-api.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c -o libopenusb_la-io.lo `test -f 'io.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`io.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c io.c -o libopenusb_la-io.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c io.c  -fPIC -DPIC -o .libs/libopenusb_la-io.o
+mv -f .deps/libopenusb_la-io.Tpo .deps/libopenusb_la-io.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-emulation.lo -MD -MP -MF .deps/libopenusb_la-emulation.Tpo -c -o libopenusb_la-emulation.lo `test -f 'emulation.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`emulation.c
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-io.lo -MD -MP -MF .deps/libopenusb_la-io.Tpo -c io.c -o libopenusb_la-io.o >/dev/null 2>&1
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/amd64/openusb_backend\" -m64 -O2 -Wall -MT libopenusb_la-emulation.lo -MD -MP -MF .deps/libopenusb_la-emulation.Tpo -c emulation.c  -fPIC -DPIC -o .libs/libopenusb_la-emulation.o
+mv -f .deps/libopenusb_la-io.Tpo .deps/libopenusb_la-io.Plo
+/bin/bash ../libtool --tag=CC   --mode=compile /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src    -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-emulation.lo -MD -MP -MF .deps/libopenusb_la-emulation.Tpo -c -o libopenusb_la-emulation.lo `test -f 'emulation.c' || echo '/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src/'`emulation.c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/amd64'
+ /usr/sfw/bin/gcc -DHAVE_CONFIG_H -I. -I.. -I/export/home/drlou/illumos-userland-1248/components/openusb/libopenusb-1.0.1/src -I/usr/sfw/include -DDRIVER_PATH=\"/usr/lib/openusb_backend\" -m32 -O2 -Wall -MT libopenusb_la-emulation.lo -MD -MP -MF .deps/libopenusb_la-emulation.Tpo -c emulation.c  -fPIC -DPIC -o .libs/libopenusb_la-emulation.o
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/openusb/build/i86'

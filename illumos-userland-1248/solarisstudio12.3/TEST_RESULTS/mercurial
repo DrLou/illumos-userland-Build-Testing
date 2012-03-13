@@ -1,0 +1,1017 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/mercurial/build/i86-2.6 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/mercurial/build/i86-2.6
+(cd /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4 ; /usr/bin/env CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		/usr/bin/python2.6 ./setup.py build \
+			--build-temp i86-2.6)
+running build
+running build_mo
+creating mercurial/locale
+creating mercurial/locale/sv
+creating mercurial/locale/sv/LC_MESSAGES
+generating mercurial/locale/sv/LC_MESSAGES/hg.mo from i18n/sv.po
+msgfmt -v -o mercurial/locale/sv/LC_MESSAGES/hg.mo i18n/sv.po
+creating mercurial/locale/el
+creating mercurial/locale/el/LC_MESSAGES
+generating mercurial/locale/el/LC_MESSAGES/hg.mo from i18n/el.po
+msgfmt -v -o mercurial/locale/el/LC_MESSAGES/hg.mo i18n/el.po
+creating mercurial/locale/fr
+creating mercurial/locale/fr/LC_MESSAGES
+generating mercurial/locale/fr/LC_MESSAGES/hg.mo from i18n/fr.po
+msgfmt -v -o mercurial/locale/fr/LC_MESSAGES/hg.mo i18n/fr.po
+creating mercurial/locale/it
+creating mercurial/locale/it/LC_MESSAGES
+generating mercurial/locale/it/LC_MESSAGES/hg.mo from i18n/it.po
+msgfmt -v -o mercurial/locale/it/LC_MESSAGES/hg.mo i18n/it.po
+creating mercurial/locale/zh_CN
+creating mercurial/locale/zh_CN/LC_MESSAGES
+generating mercurial/locale/zh_CN/LC_MESSAGES/hg.mo from i18n/zh_CN.po
+msgfmt -v -o mercurial/locale/zh_CN/LC_MESSAGES/hg.mo i18n/zh_CN.po
+creating mercurial/locale/zh_TW
+creating mercurial/locale/zh_TW/LC_MESSAGES
+generating mercurial/locale/zh_TW/LC_MESSAGES/hg.mo from i18n/zh_TW.po
+msgfmt -v -o mercurial/locale/zh_TW/LC_MESSAGES/hg.mo i18n/zh_TW.po
+creating mercurial/locale/ja
+creating mercurial/locale/ja/LC_MESSAGES
+generating mercurial/locale/ja/LC_MESSAGES/hg.mo from i18n/ja.po
+msgfmt -v -o mercurial/locale/ja/LC_MESSAGES/hg.mo i18n/ja.po
+creating mercurial/locale/da
+creating mercurial/locale/da/LC_MESSAGES
+generating mercurial/locale/da/LC_MESSAGES/hg.mo from i18n/da.po
+msgfmt -v -o mercurial/locale/da/LC_MESSAGES/hg.mo i18n/da.po
+creating mercurial/locale/pt_BR
+creating mercurial/locale/pt_BR/LC_MESSAGES
+generating mercurial/locale/pt_BR/LC_MESSAGES/hg.mo from i18n/pt_BR.po
+msgfmt -v -o mercurial/locale/pt_BR/LC_MESSAGES/hg.mo i18n/pt_BR.po
+creating mercurial/locale/ro
+creating mercurial/locale/ro/LC_MESSAGES
+generating mercurial/locale/ro/LC_MESSAGES/hg.mo from i18n/ro.po
+msgfmt -v -o mercurial/locale/ro/LC_MESSAGES/hg.mo i18n/ro.po
+creating mercurial/locale/de
+creating mercurial/locale/de/LC_MESSAGES
+generating mercurial/locale/de/LC_MESSAGES/hg.mo from i18n/de.po
+msgfmt -v -o mercurial/locale/de/LC_MESSAGES/hg.mo i18n/de.po
+running build_py
+creating build
+creating build/lib.solaris-2.11-i86pc-2.6
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/py3kcompat.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/templater.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/posix.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/context.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/dagparser.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/copies.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/lsprofcalltree.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/__version__.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/sshrepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/demandimport.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/encoding.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/statichttprepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/localrepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/store.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/manifest.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/templatefilters.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/keepalive.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/windows.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/node.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/cmdutil.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/win32.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/bundlerepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/mdiff.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/subrepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/patch.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/fancyopts.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/extensions.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/changegroup.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/repair.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/filelog.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/archival.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/pushkey.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/help.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/error.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/commands.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/hg.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/minirst.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/i18n.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/dispatch.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/bookmarks.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/similar.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/tags.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/transaction.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/util.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/url.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/wireproto.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/httprepo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/ui.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/templatekw.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/verify.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/revlog.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/ancestor.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/graphmod.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/parser.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/simplemerge.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/mail.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/sshserver.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/strutil.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/lsprof.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/config.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/merge.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/byterange.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/dirstate.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/changelog.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/repo.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/lock.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/filemerge.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/hook.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/ignore.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/hbisect.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/discovery.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/match.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+copying mercurial/revset.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/hgweb_mod.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/hgwebdir_mod.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/webcommands.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/server.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/webutil.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/request.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/protocol.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/wsgicgi.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+copying mercurial/hgweb/common.py -> build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb
+creating build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/rebase.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/hgk.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/notify.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/keyword.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/progress.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/purge.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/win32mbcs.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/eol.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/children.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/schemes.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/graphlog.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/extdiff.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/relink.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/win32text.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/hgcia.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/record.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/bugzilla.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/share.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/pager.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/patchbomb.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/gpg.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/mq.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/churn.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/interhg.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/parentrevspec.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/color.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/fetch.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/acl.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+copying hgext/transplant.py -> build/lib.solaris-2.11-i86pc-2.6/hgext
+creating build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/darcs.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/gnuarch.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/cvs.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/common.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/monotone.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/filemap.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/subversion.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/convcmd.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/git.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/transport.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/p4.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/hg.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/bzr.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+copying hgext/convert/cvsps.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/convert
+creating build/lib.solaris-2.11-i86pc-2.6/hgext/highlight
+copying hgext/highlight/highlight.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/highlight
+copying hgext/highlight/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/highlight
+creating build/lib.solaris-2.11-i86pc-2.6/hgext/zeroconf
+copying hgext/zeroconf/Zeroconf.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/zeroconf
+copying hgext/zeroconf/__init__.py -> build/lib.solaris-2.11-i86pc-2.6/hgext/zeroconf
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/el
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/el/LC_MESSAGES
+copying mercurial/locale/el/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/el/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/de
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/de/LC_MESSAGES
+copying mercurial/locale/de/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/de/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ja
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ja/LC_MESSAGES
+copying mercurial/locale/ja/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ja/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/pt_BR
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/pt_BR/LC_MESSAGES
+copying mercurial/locale/pt_BR/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/pt_BR/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/sv
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/sv/LC_MESSAGES
+copying mercurial/locale/sv/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/sv/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/it
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/it/LC_MESSAGES
+copying mercurial/locale/it/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/it/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ro
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ro/LC_MESSAGES
+copying mercurial/locale/ro/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ro/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/da
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/da/LC_MESSAGES
+copying mercurial/locale/da/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/da/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_TW
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_TW/LC_MESSAGES
+copying mercurial/locale/zh_TW/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_TW/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_CN
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_CN/LC_MESSAGES
+copying mercurial/locale/zh_CN/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_CN/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/fr
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/fr/LC_MESSAGES
+copying mercurial/locale/fr/LC_MESSAGES/hg.mo -> build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/fr/LC_MESSAGES
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/patterns.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/diffs.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/hgweb.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/glossary.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/revisions.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/merge-tools.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/templates.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/environment.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/multirevs.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/revsets.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/urls.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/subrepos.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/config.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/extensions.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+copying mercurial/help/dates.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/help
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+copying mercurial/templates/map-cmdline.xml -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+copying mercurial/templates/map-cmdline.default -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+copying mercurial/templates/map-cmdline.changelog -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+copying mercurial/templates/map-cmdline.compact -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+copying mercurial/templates/template-vars.txt -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/helptopics.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/branches.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/bookmarks.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/changelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/filediff.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/search.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/summary.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/index.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/changeset.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/filerevision.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/manifest.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/footer.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/shortlog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/changelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/fileannotate.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/help.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/graph.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+copying mercurial/templates/gitweb/notfound.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/coal-folder.png -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/coal-file.png -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/style-monoblue.css -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/style-coal.css -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/style.css -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/excanvas.js -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/hgicon.png -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/style-paper.css -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/graph.js -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/hglogo.png -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/background.png -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+copying mercurial/templates/static/style-gitweb.css -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/fileannotate.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/changeset.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/index.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/filediff.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/notfound.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+copying mercurial/templates/raw/manifest.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/bookmarks.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/branches.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/search.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/graph.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/help.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/filediff.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/shortlogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/helptopics.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/changeset.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/manifest.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/filerevision.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/filelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/index.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/shortlog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/footer.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/fileannotate.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+copying mercurial/templates/paper/notfound.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/coal
+copying mercurial/templates/coal/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/coal
+copying mercurial/templates/coal/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/coal
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/changelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/changelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/tagentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/bookmarkentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+copying mercurial/templates/atom/bookmarks.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/search.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/changelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/filediff.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/filerevision.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/filelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/branches.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/changeset.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/index.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/fileannotate.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/shortlogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/shortlog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/manifest.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/notfound.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/footer.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/changelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+copying mercurial/templates/spartan/graph.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/changelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/branches.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/fileannotate.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/filediff.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/graph.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/summary.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/footer.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/filerevision.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/search.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/helptopics.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/changelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/manifest.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/shortlog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/changeset.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/notfound.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/help.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/index.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/bookmarks.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+copying mercurial/templates/monoblue/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue
+creating build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/changelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/header.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/tags.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/changelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/bookmarkentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/filelog.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/filelogentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/map -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/tagentry.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/bookmarks.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+copying mercurial/templates/rss/error.tmpl -> build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss
+running build_ext
+building 'mercurial.base85' extension
+creating i86-2.6
+creating i86-2.6/mercurial
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/base85.c -o i86-2.6/mercurial/base85.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/base85.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/base85.so
+building 'mercurial.bdiff' extension
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/bdiff.c -o i86-2.6/mercurial/bdiff.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/bdiff.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/bdiff.so
+building 'mercurial.diffhelpers' extension
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/diffhelpers.c -o i86-2.6/mercurial/diffhelpers.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/diffhelpers.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/diffhelpers.so
+building 'mercurial.mpatch' extension
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/mpatch.c -o i86-2.6/mercurial/mpatch.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/mpatch.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/mpatch.so
+building 'mercurial.parsers' extension
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/parsers.c -o i86-2.6/mercurial/parsers.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/parsers.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/parsers.so
+building 'mercurial.osutil' extension
+/usr/lib/python2.6/pycc -DNDEBUG -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -KPIC -I/usr/include/python2.6 -c mercurial/osutil.c -o i86-2.6/mercurial/osutil.o
+/usr/lib/python2.6/pycc -G -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt i86-2.6/mercurial/osutil.o -L/usr/lib -lpython2.6 -o build/lib.solaris-2.11-i86pc-2.6/mercurial/osutil.so
+running build_scripts
+creating build/scripts-2.6
+copying and adjusting hg -> build/scripts-2.6
+changing mode of build/scripts-2.6/hg from 644 to 755
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/mercurial/build/i86-2.6/.built
+(cd /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/bin/python2.6 ./setup.py install  --root /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386  --install-lib=/usr/lib/python2.6/vendor-packages)
+running install
+running build
+running build_mo
+running build_py
+running build_ext
+running build_scripts
+running install_lib
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/keyword.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/graphlog.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/transplant.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/rebase.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/hgk.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/color.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/fetch.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/notify.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/children.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/progress.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/eol.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/hgcia.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/patchbomb.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/share.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/mq.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/pager.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/extdiff.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/schemes.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/zeroconf
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/zeroconf/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/zeroconf
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/zeroconf/Zeroconf.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/zeroconf
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/parentrevspec.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/win32text.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/churn.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/record.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/relink.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/highlight
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/highlight/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/highlight
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/highlight/highlight.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/highlight
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/interhg.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/gpg.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/win32mbcs.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/transport.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/darcs.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/gnuarch.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/cvs.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/common.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/filemap.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/convcmd.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/git.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/subversion.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/p4.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/monotone.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/bzr.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/cvsps.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/convert/hg.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/acl.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/purge.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+copying build/lib.solaris-2.11-i86pc-2.6/hgext/bugzilla.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/error.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/minirst.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/bdiff.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/bundlerepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/osutil.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/similar.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/ui.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/pushkey.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/node.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/extensions.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/mdiff.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/revlog.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/win32.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/dirstate.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/subrepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/parser.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/filelog.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/wireproto.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/revsets.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/multirevs.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/glossary.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/config.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/patterns.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/dates.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/urls.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/revisions.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/hgweb.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/diffs.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/subrepos.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/environment.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/templates.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/extensions.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help/merge-tools.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/parsers.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/verify.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/patch.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/ancestor.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/graphmod.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/discovery.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/cmdutil.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/py3kcompat.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/help.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/windows.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/transaction.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/i18n.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/template-vars.txt -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/coal
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/coal/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/coal
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/coal/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/coal
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/map-cmdline.xml -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/map-cmdline.default -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/changelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/bookmarks.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/bookmarkentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/tagentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/atom/changelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/atom
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/changeset.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/branches.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/filediff.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/bookmarks.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/index.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/footer.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/manifest.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/summary.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/helptopics.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/filerevision.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/shortlog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/changelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/search.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/help.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/fileannotate.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/changelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/graph.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/monoblue/notfound.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/monoblue
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/notfound.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/manifest.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/fileannotate.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/index.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/changeset.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/raw/filediff.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/raw
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/map-cmdline.changelog -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/bookmarkentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/bookmarks.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/changelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/changelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/tagentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/rss/filelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/rss
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/manifest.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/help.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/filelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/filerevision.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/shortlog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/changeset.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/graph.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/footer.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/notfound.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/fileannotate.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/bookmarks.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/branches.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/helptopics.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/filediff.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/search.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/index.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/paper/shortlogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/paper
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/map-cmdline.compact -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/excanvas.js -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/hglogo.png -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/graph.js -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/background.png -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/coal-file.png -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/style-coal.css -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/style-paper.css -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/hgicon.png -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/style-gitweb.css -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/style.css -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/style-monoblue.css -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/static/coal-folder.png -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/static
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/footer.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/bookmarks.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/help.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/index.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/filediff.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/changeset.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/branches.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/helptopics.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/notfound.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/graph.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/summary.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/filerevision.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/changelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/shortlog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/changelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/fileannotate.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/search.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/gitweb/manifest.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/gitweb
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/changelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/changeset.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/index.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/error.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/header.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/search.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/filediff.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/filelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/branches.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/fileannotate.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/notfound.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/graph.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/map -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/footer.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/shortlogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/changelog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/filelogentry.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/shortlog.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/tags.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/filerevision.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templates/spartan/manifest.tmpl -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templates/spartan
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/sshrepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/lsprof.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/tags.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/config.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/store.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/ignore.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/posix.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/filemerge.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/httprepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/changelog.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/revset.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/byterange.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/simplemerge.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/context.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/sshserver.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/common.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/protocol.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/__init__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/request.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/server.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/webutil.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/wsgicgi.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/webcommands.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/hgwebdir_mod.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hgweb/hgweb_mod.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/dispatch.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/keepalive.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hbisect.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/url.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templatefilters.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/localrepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/archival.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/changegroup.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/match.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/mail.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/commands.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/copies.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/util.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/merge.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/strutil.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/dagparser.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/mpatch.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templater.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/bookmarks.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hook.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/manifest.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_TW
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_TW/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_TW/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_TW/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/fr
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/fr/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/fr/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/fr/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_CN
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_CN/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/zh_CN/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/zh_CN/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/el
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/el/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/el/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/el/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/de
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/de/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/de/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/de/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ja
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ja/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ja/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ja/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/sv
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/sv/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/sv/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/sv/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ro
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ro/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/ro/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/ro/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/it
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/it/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/it/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/it/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/pt_BR
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/pt_BR/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/pt_BR/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/pt_BR/LC_MESSAGES
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/da
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/da/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/locale/da/LC_MESSAGES/hg.mo -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/locale/da/LC_MESSAGES
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/repair.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/__version__.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/encoding.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/lsprofcalltree.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/statichttprepo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/fancyopts.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/templatekw.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/base85.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/hg.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/diffhelpers.so -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/lock.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/repo.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+copying build/lib.solaris-2.11-i86pc-2.6/mercurial/demandimport.py -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/keyword.py to keyword.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/graphlog.py to graphlog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/transplant.py to transplant.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/rebase.py to rebase.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/hgk.py to hgk.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/color.py to color.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/fetch.py to fetch.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/notify.py to notify.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/children.py to children.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/progress.py to progress.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/eol.py to eol.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/hgcia.py to hgcia.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/patchbomb.py to patchbomb.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/share.py to share.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/mq.py to mq.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/pager.py to pager.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/extdiff.py to extdiff.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/schemes.py to schemes.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/zeroconf/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/zeroconf/Zeroconf.py to Zeroconf.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/parentrevspec.py to parentrevspec.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/win32text.py to win32text.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/churn.py to churn.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/record.py to record.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/relink.py to relink.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/highlight/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/highlight/highlight.py to highlight.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/interhg.py to interhg.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/gpg.py to gpg.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/win32mbcs.py to win32mbcs.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/transport.py to transport.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/darcs.py to darcs.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/gnuarch.py to gnuarch.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/cvs.py to cvs.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/common.py to common.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/filemap.py to filemap.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/convcmd.py to convcmd.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/git.py to git.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/subversion.py to subversion.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/p4.py to p4.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/monotone.py to monotone.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/bzr.py to bzr.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/cvsps.py to cvsps.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/convert/hg.py to hg.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/acl.py to acl.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/purge.py to purge.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/hgext/bugzilla.py to bugzilla.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/error.py to error.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/minirst.py to minirst.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/bundlerepo.py to bundlerepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/similar.py to similar.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/ui.py to ui.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/pushkey.py to pushkey.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/node.py to node.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/extensions.py to extensions.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/mdiff.py to mdiff.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/revlog.py to revlog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/win32.py to win32.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/dirstate.py to dirstate.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/subrepo.py to subrepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/parser.py to parser.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/filelog.py to filelog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/wireproto.py to wireproto.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/verify.py to verify.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/patch.py to patch.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/ancestor.py to ancestor.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/graphmod.py to graphmod.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/discovery.py to discovery.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/cmdutil.py to cmdutil.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/py3kcompat.py to py3kcompat.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/help.py to help.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/windows.py to windows.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/transaction.py to transaction.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/i18n.py to i18n.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/sshrepo.py to sshrepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/lsprof.py to lsprof.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/tags.py to tags.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/config.py to config.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/store.py to store.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/ignore.py to ignore.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/posix.py to posix.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/filemerge.py to filemerge.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/httprepo.py to httprepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/changelog.py to changelog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/revset.py to revset.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/byterange.py to byterange.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/simplemerge.py to simplemerge.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/context.py to context.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/sshserver.py to sshserver.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/common.py to common.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/protocol.py to protocol.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/request.py to request.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/server.py to server.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/webutil.py to webutil.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/wsgicgi.py to wsgicgi.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/webcommands.py to webcommands.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/hgwebdir_mod.py to hgwebdir_mod.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hgweb/hgweb_mod.py to hgweb_mod.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/dispatch.py to dispatch.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/keepalive.py to keepalive.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hbisect.py to hbisect.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/url.py to url.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templatefilters.py to templatefilters.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/localrepo.py to localrepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/archival.py to archival.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/changegroup.py to changegroup.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/match.py to match.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/mail.py to mail.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/commands.py to commands.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/copies.py to copies.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/util.py to util.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/merge.py to merge.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/strutil.py to strutil.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/dagparser.py to dagparser.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templater.py to templater.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/bookmarks.py to bookmarks.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hook.py to hook.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/manifest.py to manifest.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/repair.py to repair.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/__version__.py to __version__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/encoding.py to encoding.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/lsprofcalltree.py to lsprofcalltree.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/statichttprepo.py to statichttprepo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/fancyopts.py to fancyopts.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/templatekw.py to templatekw.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/hg.py to hg.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/lock.py to lock.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/repo.py to repo.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial/demandimport.py to demandimport.pyc
+running install_scripts
+creating /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/bin
+copying build/scripts-2.6/hg -> /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/bin
+changing mode of /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/bin/hg to 755
+running install_egg_info
+Writing /export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386/usr/lib/python2.6/vendor-packages/mercurial-1.8.4-py2.6.egg-info
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/mercurial/build/i86-2.6/.installed
+(cd mercurial-1.8.4/tests ; \
+	 PYTHONPATH=/export/home/drlou/illumos-userland-1248/components/mercurial/build/prototype/i386//usr/lib/python2.6/vendor-packages /usr/bin/python2.6 ./run-tests.py)
+..............................
+ERROR: /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-bundle-type.t output changed
+--- /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-bundle-type.t 
++++ /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-bundle-type.t.err 
+@@ -45,6 +45,7 @@
+   searching for changes
+   1 changesets found
+   HG10UN
++  cut: write error [Broken pipe]
+   pulling from ../bNone
+   requesting all changes
+   adding changesets
+!..s..s...................sssssss.ssssss......ssss.sssssss.s..........................................................s....s........................s......
+ERROR: /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-hup.t output changed
+--- /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-hup.t 
++++ /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-hup.t.err 
+@@ -12,9 +12,9 @@
+   0
+   adding changesets
+   $ kill -HUP $P
+-  $ wait
+   transaction abort!
+   rollback completed
+   killed!
++  $ wait
+   $ echo .hg/* .hg/store/*
+   .hg/00changelog.i .hg/journal.bookmarks .hg/journal.branch .hg/journal.desc .hg/journal.dirstate .hg/requires .hg/store .hg/store/00changelog.i .hg/store/00changelog.i.a
+!.s........ssssssss............................................................................s........s..........................................................
+ERROR: /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-repair-strip output changed
+--- /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-repair-strip.out 
++++ /export/home/drlou/illumos-userland-1248/components/mercurial/mercurial-1.8.4/tests/test-repair-strip.err 
+@@ -24,10 +24,7 @@
+ 2 warnings encountered!
+ 2 integrity errors encountered!
+ % journal contents
+-00changelog.i
+-00manifest.i
+-data/b.i
+-data/c.i
++00changelog.inifest.idata/b.idata/c.i
+ rolling back interrupted transaction
+ checking changesets
+ checking manifests
+@@ -80,10 +77,7 @@
+ 7 integrity errors encountered!
+ (first damaged changeset appears to be 3)
+ % journal contents
+-00changelog.i
+-00manifest.i
+-data/b.i
+-data/c.i
++00changelog.inifest.idata/b.idata/c.i
+ rolling back interrupted transaction
+ checking changesets
+ checking manifests
+!.................................s........................
+Skipped test-casefolding.t: missing feature: case insensitive file system
+Skipped test-check-code-hg.py: cannot check code on non-repository sources
+Skipped test-convert-baz: missing feature: GNU Arch baz client
+Skipped test-convert-bzr-114.t: missing feature: Canonical's Bazaar client >= 1.14
+Skipped test-convert-bzr-directories.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-ghosts.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-merges.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr-treeroot.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-bzr.t: missing feature: Canonical's Bazaar client
+Skipped test-convert-cvs-branch.t: missing feature: cvs client/server
+Skipped test-convert-cvs-detectmerge.t: missing feature: cvs client/server
+Skipped test-convert-cvs-synthetic.t: missing feature: cvs client/server
+Skipped test-convert-cvs.t: missing feature: cvs client/server
+Skipped test-convert-cvsnt-mergepoints.t: missing feature: cvs client/server
+Skipped test-convert-darcs.t: missing feature: darcs client
+Skipped test-convert-hg-svn.t: missing feature: subversion python bindings
+Skipped test-convert-mtn.t: missing feature: monotone client (> 0.31)
+Skipped test-convert-p4: missing feature: Perforce server and client
+Skipped test-convert-p4-filetypes: missing feature: Perforce server and client
+Skipped test-convert-svn-branches.t: missing feature: subversion python bindings
+Skipped test-convert-svn-encoding.t: missing feature: subversion python bindings
+Skipped test-convert-svn-move.t: missing feature: subversion python bindings
+Skipped test-convert-svn-sink.t: missing feature: subversion python bindings
+Skipped test-convert-svn-source.t: missing feature: subversion python bindings
+Skipped test-convert-svn-startrev.t: missing feature: subversion python bindings
+Skipped test-convert-svn-tags.t: missing feature: subversion python bindings
+Skipped test-convert-tla.t: missing feature: GNU Arch tla client
+Skipped test-gendoc.t: missing feature: Docutils text processing library
+Skipped test-gpg.t: missing feature: gpg client
+Skipped test-highlight.t: missing feature: Pygments source highlighting library
+Skipped test-i18n.t: missing feature: GNU Gettext (msgfmt)
+Skipped test-inotify-debuginotify.t: missing feature: inotify extension support
+Skipped test-inotify-dirty-dirstate.t: missing feature: inotify extension support
+Skipped test-inotify-issue1208.t: missing feature: inotify extension support
+Skipped test-inotify-issue1371.t: missing feature: inotify extension support
+Skipped test-inotify-issue1542.t: missing feature: inotify extension support
+Skipped test-inotify-issue1556.t: missing feature: inotify extension support
+Skipped test-inotify-lookup.t: missing feature: inotify extension support
+Skipped test-inotify.t: missing feature: inotify extension support
+Skipped test-mq-subrepo-svn.t: missing feature: subversion client and admin tools
+Skipped test-no-symlinks.t: system supports symbolic links
+Skipped test-subrepo-svn.t: missing feature: subversion client and admin tools
+Failed test-bundle-type.t: output changed
+Failed test-hup.t: output changed
+Failed test-repair-strip: output changed
+# Ran 407 tests, 42 skipped, 3 failed.

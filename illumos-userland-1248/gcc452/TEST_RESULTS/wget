@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/wget/wget-1.12
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/wget/wget-1.12 -p1 --backup --version-control=numbered < patches/CVE-2010-2252.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/wget/wget-1.12 -p1 --backup --version-control=numbered < patches/sysdep.h.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/wget/wget-1.12 -p1 --backup --version-control=numbered < patches/wgetrc.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  wget-1.12.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/wget/wget-1.12/.unpacked

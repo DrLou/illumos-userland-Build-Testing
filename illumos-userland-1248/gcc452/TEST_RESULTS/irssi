@@ -1,0 +1,93 @@
+(cd /export/home/drlou/illumos-userland/components/irssi/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86'
+/export/home/drlou/illumos-userland/components/irssi/irssi-0.8.15/irssi-version.sh /export/home/drlou/illumos-userland/components/irssi/irssi-0.8.15 | cmp -s - irssi-version.h || /export/home/drlou/illumos-userland/components/irssi/irssi-0.8.15/irssi-version.sh /export/home/drlou/illumos-userland/components/irssi/irssi-0.8.15 >irssi-version.h
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src'
+Making all in lib-config
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/lib-config'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/lib-config'
+Making all in core
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/core'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/core'
+Making all in irc
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc'
+Making all in core
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/core'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/core'
+Making all in dcc
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/dcc'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/dcc'
+Making all in flood
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/flood'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/flood'
+Making all in notifylist
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/notifylist'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/notifylist'
+Making all in proxy
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/proxy'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc/proxy'
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/irc'
+Making all in fe-common
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common'
+Making all in core
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/core'
+make[5]: Nothing to be done for `all'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/core'
+Making all in irc
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc'
+Making all in dcc
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc/dcc'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc/dcc'
+Making all in notifylist
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc/notifylist'
+make[6]: Nothing to be done for `all'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc/notifylist'
+make[6]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc'
+make[6]: Nothing to be done for `all-am'.
+make[6]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common/irc'
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/fe-common'
+Making all in perl
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl'
+for dir in common irc ui textui; do \
+	  cd $dir && \
+	  if [ ! -f Makefile ]; then \
+	    /usr/bin/perl Makefile.PL INSTALLDIRS=perl LIB=/usr/perl5/vendor_perl/5.12; \
+	  fi && \
+	  (/usr/gnu/bin/make CC="/opt/SUNWspro/sunstudio12.1/bin/cc" CCFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_TS_ERRNO -DPERL_USE_SAFE_PUTENV  -I/usr/perl5/5.10.0/lib/i86pc-solaris-64int/CORE  -g  "  || \
+	   /usr/gnu/bin/make CC="/opt/SUNWspro/sunstudio12.1/bin/cc" CCFLAGS="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -D_TS_ERRNO -DPERL_USE_SAFE_PUTENV  -I/usr/perl5/5.10.0/lib/i86pc-solaris-64int/CORE  -g  " ) && \
+	  cd ..; \
+	done
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl/common'
+rm -f blib/arch/auto/Irssi/Irssi.so
+cc  -G Channel.o Core.o Expando.o Ignore.o Irssi.o Log.o Masks.o Query.o Rawlog.o Server.o Settings.o  -o blib/arch/auto/Irssi/Irssi.so 	\
+	     	\
+	  
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl/common'
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl/common'
+rm -f blib/arch/auto/Irssi/Irssi.so
+cc  -G Channel.o Core.o Expando.o Ignore.o Irssi.o Log.o Masks.o Query.o Rawlog.o Server.o Settings.o  -o blib/arch/auto/Irssi/Irssi.so 	\
+	     	\
+	  
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl/common'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src/perl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/irssi/build/i86'

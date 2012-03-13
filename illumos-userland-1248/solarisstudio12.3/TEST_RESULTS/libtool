@@ -1,0 +1,891 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libtool/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libtool/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info --disable-static CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" PERL="/usr/perl5/5.12/bin/perl")
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --infodir=/usr/share/info --disable-static CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" PERL="/usr/perl5/5.12/bin/perl")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+o
+checking whether we are using the GNU C compiler... checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... none needed
+GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a sed that does not truncate output... checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a sed that does not truncate output... /usr/bin/gsed
+/usr/bin/gsed
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for grep that handles long lines and -e... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD-compatible nm... no
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking whether we are using the GNU C++ compiler... checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... checking for g77... none
+no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifort... no
+checking for g77... checking for ifc... no
+no
+checking for f77... checking for efc... no
+no
+checking for xlf... checking for pgf95... no
+no
+checking for frt... checking for lf95... no
+no
+checking for pgf77... checking for ftn... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking whether  accepts -g... no
+checking for gcj... no
+checking for windres... no
+checking for /usr/bin/ld option to reload object files... -r
+checking how to recognise dependent libraries... pass_all
+checking for gcj... no
+checking for windres... no
+checking for /usr/bin/ld option to reload object files... -r
+checking how to run the C preprocessor... checking how to recognise dependent libraries... pass_all
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ANSI C header files... checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+yes
+checking for sys/stat.h... checking for sys/stat.h... yes
+yes
+checking for stdlib.h... checking for stdlib.h... yes
+yes
+checking for string.h... checking for string.h... yes
+yes
+checking for memory.h... checking for memory.h... yes
+yes
+checking for strings.h... checking for strings.h... yes
+yes
+checking for inttypes.h... checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for stdint.h... yes
+yes
+checking for unistd.h... checking for unistd.h... yes
+yes
+checking dlfcn.h usability... checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking the maximum length of command line arguments... checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+ok
+checking for objdir... checking for objdir... .libs
+.libs
+checking for ar... checking for ar... ar
+ar
+checking for ranlib... checking for ranlib... ranlib
+checking for strip... checking for strip... strip
+strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+yes
+checking dynamic linker characteristics... checking for shl_load... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen... yes
+checking whether a program can dlopen itself... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+appending configuration tag "GCJ" to libtool
+appending configuration tag "F77" to libtool
+appending configuration tag "GCJ" to libtool
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Makefile
+config.status: creating tests/Makefile
+config.status: creating tests/Makefile
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+=== configuring in libltdl (/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl)
+configure: running /bin/bash '/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/configure' --prefix=/usr  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--prefix=/usr' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--infodir=/usr/share/info' '--disable-static' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt' 'PERL=/usr/perl5/5.12/bin/perl' --enable-ltdl-install --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl
+=== configuring in libltdl (/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl)
+configure: running /bin/bash '/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/configure' --prefix=/usr  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--prefix=/usr' '--mandir=/usr/share/man' '--bindir=/usr/bin/amd64' '--libdir=/usr/lib/amd64' '--sbindir=/usr/sbin/amd64' '--infodir=/usr/share/info' '--disable-static' 'CFLAGS=-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt' 'PERL=/usr/perl5/5.12/bin/perl' --enable-ltdl-install --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+
+checking for suffix of object files... checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+none needed
+checking for style of include used by make... checking for style of include used by make... GNU
+GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for an ANSI C-conforming const... checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for an ANSI C-conforming const... yes
+checking for inline... yes
+checking for inline... inline
+inline
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependent libraries... pass_all
+pass_all
+checking how to run the C preprocessor... checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ANSI C header files... checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+yes
+checking for stdlib.h... checking for stdlib.h... yes
+yes
+checking for string.h... checking for string.h... yes
+yes
+checking for memory.h... checking for memory.h... yes
+yes
+checking for strings.h... checking for strings.h... yes
+yes
+checking for inttypes.h... checking for inttypes.h... yes
+yes
+checking for stdint.h... checking for stdint.h... yes
+yes
+checking for unistd.h... checking for unistd.h... yes
+yes
+checking dlfcn.h usability... checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking dlfcn.h presence... yes
+yes
+checking for dlfcn.h... checking for dlfcn.h... yes
+yes
+checking whether we are using the GNU C++ compiler... checking whether we are using the GNU C++ compiler... no
+no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking how to run the C++ preprocessor... checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... checking for g77... no
+checking for xlf90... checking for f77... no
+checking for pgf90... no
+checking for xlf... no
+checking for pghpf... no
+checking for frt... no
+checking for epcf90... no
+checking for pgf77... no
+checking for gfortran... no
+checking for cf77... no
+checking for g95... no
+checking for fort77... no
+checking for f95... no
+checking for fl32... no
+checking for fort... no
+checking for af77... no
+checking for xlf95... no
+checking for f90... no
+checking for ifort... no
+checking for xlf90... no
+checking for ifc... no
+checking for pgf90... no
+checking for efc... no
+checking for pghpf... no
+checking for pgf95... no
+checking for epcf90... no
+checking for lf95... no
+checking for gfortran... no
+checking for ftn... no
+checking for g95... no
+no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+ok
+checking for objdir... checking for ranlib... ranlib
+checking for strip... strip
+.libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+yes
+checking dynamic linker characteristics... checking dynamic linker characteristics... solaris2.11 ld.so
+solaris2.11 ld.so
+checking how to hardcode library paths into programs... checking how to hardcode library paths into programs... immediate
+immediate
+checking whether stripping libraries is possible... checking whether stripping libraries is possible... no
+no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... checking if libtool supports shared libraries... yes
+yes
+checking whether to build shared libraries... checking whether to build static libraries... no
+yes
+checking whether to build static libraries... no
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+appending configuration tag "F77" to libtool
+checking for dirent.h that defines DIR... checking for dirent.h that defines DIR... yes
+yes
+checking for library containing opendir... checking for library containing opendir... none required
+checking which extension is used for loadable modules... .so
+checking which variable specifies run-time library path... LD_LIBRARY_PATH
+none required
+checking which extension is used for loadable modules... .so
+checking for the default library search path... /lib /usr/lib
+checking which variable specifies run-time library path... LD_LIBRARY_PATH
+checking for objdir... .libs
+checking for the default library search path... /lib /usr/lib
+checking whether libtool supports -dlopen/-dlpreopen... yes
+checking for objdir... .libs
+checking for shl_load... checking whether libtool supports -dlopen/-dlpreopen... yes
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for shl_load in -ldld... no
+checking for dlopen in -ldl... no
+checking for dlopen in -ldl... yes
+checking for dlerror... yes
+checking for dlerror... yes
+checking for _ prefix in compiled symbols... yes
+checking for _ prefix in compiled symbols... no
+checking whether deplibs are loaded by dlopen... yes
+checking argz.h usability... no
+checking whether deplibs are loaded by dlopen... yes
+checking argz.h usability... no
+checking argz.h presence... no
+checking argz.h presence... no
+checking for argz.h... no
+checking for error_t... no
+checking for argz.h... no
+checking for error_t... no
+checking for argz_append... no
+checking for argz_append... no
+checking for argz_create_sep... no
+checking for argz_create_sep... no
+checking for argz_insert... no
+checking for argz_insert... no
+checking for argz_next... no
+checking for argz_next... no
+checking for argz_stringify... no
+checking for argz_stringify... no
+checking assert.h usability... no
+checking assert.h usability... yes
+checking assert.h presence... yes
+checking for assert.h... yes
+yes
+checking assert.h presence... checking ctype.h usability... yes
+checking for assert.h... yes
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking for ctype.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+yes
+checking errno.h presence... checking malloc.h usability... yes
+checking for errno.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+yes
+checking for malloc.h... checking for memory.h... (cached) yes
+yes
+checking for memory.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking stdio.h usability... checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+yes
+checking for stdio.h... yes
+checking for unistd.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking dl.h usability... checking dl.h usability... no
+checking dl.h presence... no
+checking dl.h presence... no
+checking for dl.h... no
+checking sys/dl.h usability... no
+checking for dl.h... no
+checking sys/dl.h usability... yes
+checking sys/dl.h presence... yes
+checking sys/dl.h presence... yes
+checking for sys/dl.h... yes
+checking for sys/dl.h... yes
+yes
+checking dld.h usability... checking dld.h usability... no
+checking dld.h presence... no
+checking dld.h presence... no
+checking for dld.h... no
+no
+checking for dld.h... no
+checking mach-o/dyld.h usability... checking mach-o/dyld.h usability... no
+checking mach-o/dyld.h presence... no
+checking mach-o/dyld.h presence... no
+checking for mach-o/dyld.h... no
+no
+checking for mach-o/dyld.h... no
+checking for string.h... (cached) yes
+checking for string.h... (cached) yes
+checking for strchr... checking for strchr... yes
+yes
+checking for strrchr... checking for strrchr... yes
+yes
+checking for memcpy... checking for memcpy... yes
+yes
+checking for memmove... checking for memmove... yes
+yes
+checking for strcmp... checking for strcmp... yes
+checking for closedir... yes
+checking for closedir... yes
+yes
+checking for opendir... checking for opendir... yes
+yes
+checking for readdir... checking for readdir... yes
+yes
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating config.h
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/.configured
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+Making all in .
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+CONFIG_FILES=libtoolize CONFIG_HEADERS= /bin/bash ./config.status
+config.status: creating libtoolize
+config.status: executing depfiles commands
+chmod +x libtoolize
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+Making all in libltdl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl -I.     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c -o ltdl.lo /export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/ltdl.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl -I. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/ltdl.c  -KPIC -DPIC -o .libs/ltdl.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -no-undefined -version-info 4:4:1  -o libltdl.la -rpath /usr/lib/amd64 ltdl.lo -ldl 
+/usr/bin/ld -G -z text -h libltdl.so.3 -o .libs/libltdl.so.3.1.4  .libs/ltdl.o  -ldl -lc 
+(cd .libs && rm -f libltdl.so.3 && ln -s libltdl.so.3.1.4 libltdl.so.3)
+(cd .libs && rm -f libltdl.so && ln -s libltdl.so.3.1.4 libltdl.so)
+creating libltdl.la
+(cd .libs && rm -f libltdl.la && ln -s ../libltdl.la libltdl.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+Making all in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/doc'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+Making all in .
+Making check in .
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+CONFIG_FILES=libtoolize CONFIG_HEADERS= /bin/bash ./config.status
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+Making check in libltdl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/libltdl'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/doc'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+config.status: creating libtoolize
+config.status: executing depfiles commands
+chmod +x libtoolize
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+Making all in libltdl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+/bin/bash ./libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c -o ltdl.lo /export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/ltdl.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl -I. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -c /export/home/drlou/illumos-userland-1248/components/libtool/libtool-1.5.22/libltdl/ltdl.c  -KPIC -DPIC -o .libs/ltdl.o
+/bin/bash ./libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -no-undefined -version-info 4:4:1  -o libltdl.la -rpath /usr/lib ltdl.lo -ldl 
+/usr/bin/ld -G -z text -h libltdl.so.3 -o .libs/libltdl.so.3.1.4  .libs/ltdl.o  -ldl -lc 
+(cd .libs && rm -f libltdl.so.3 && ln -s libltdl.so.3.1.4 libltdl.so.3)
+(cd .libs && rm -f libltdl.so && ln -s libltdl.so.3.1.4 libltdl.so)
+creating libltdl.la
+(cd .libs && rm -f libltdl.la && ln -s ../libltdl.la libltdl.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+Making all in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/doc'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libtool/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+Making check in .
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+Making check in libltdl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/libltdl'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/doc'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+PASS: cdemo-static.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: cdemo-static.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-static.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-static.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: depdemo-static.test
+PASS: depdemo-static.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-unst.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: mdemo-static.test
+PASS: mdemo-static.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-make.test
+PASS: mdemo-inst.test
+PASS: mdemo-exec.test
+PASS: mdemo-unst.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: cdemo-conf.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: cdemo-conf.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-conf.test
+PASS: demo-conf.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-make.test
+PASS: demo-unst.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: deplibs.test
+PASS: deplibs.test
+PASS: depdemo-conf.test
+PASS: depdemo-conf.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: mdemo-conf.test
+PASS: mdemo-conf.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: dryrun.test
+PASS: dryrun.test
+PASS: demo-nofast.test
+PASS: demo-nofast.test
+PASS: demo-make.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-inst.test
+PASS: demo-unst.test
+PASS: demo-unst.test
+PASS: demo-pic.test
+PASS: demo-pic.test
+PASS: demo-make.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-exec.test
+SKIP: demo-nopic.test
+SKIP: demo-nopic.test
+PASS: demo-make.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-exec.test
+PASS: depdemo-nofast.test
+PASS: depdemo-nofast.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: depdemo-unst.test
+PASS: cdemo-shared.test
+PASS: cdemo-shared.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: cdemo-make.test
+PASS: cdemo-exec.test
+PASS: demo-shared.test
+PASS: demo-shared.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-make.test
+PASS: demo-exec.test
+PASS: demo-inst.test
+PASS: demo-inst.test
+PASS: hardcode.test
+PASS: hardcode.test
+PASS: build-relink.test
+PASS: build-relink.test
+PASS: noinst-link.test
+PASS: demo-unst.test
+PASS: noinst-link.test
+PASS: demo-unst.test
+PASS: depdemo-shared.test
+PASS: depdemo-shared.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-make.test
+PASS: depdemo-exec.test
+PASS: depdemo-inst.test
+PASS: build-relink2.test
+PASS: depdemo-inst.test
+PASS: depdemo-unst.test
+PASS: build-relink2.test
+PASS: depdemo-unst.test
+PASS: mdemo-shared.test
+PASS: mdemo-shared.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-make.test
+PASS: mdemo-exec.test
+PASS: mdemo-inst.test
+PASS: mdemo-unst.test
+PASS: assign.test
+PASS: link.test
+PASS: mdemo-inst.test
+PASS: link-2.test
+PASS: nomode.test
+PASS: mdemo-unst.test
+PASS: assign.test
+PASS: link.test
+PASS: link-2.test
+PASS: nomode.test
+PASS: quote.test
+PASS: sh.test
+PASS: quote.test
+PASS: sh.test
+PASS: suffix.test
+PASS: suffix.test
+PASS: pdemo-conf.test
+PASS: pdemo-conf.test
+PASS: pdemo-make.test
+PASS: pdemo-exec.test
+PASS: pdemo-make.test
+PASS: pdemo-inst.test
+PASS: pdemo-exec.test
+PASS: pdemo-inst.test
+PASS: mdemo-conf.test
+PASS: mdemo-conf.test
+PASS: mdemo-make.test
+PASS: mdemo-make.test
+PASS: mdemo2-conf.test
+PASS: mdemo2-make.test
+PASS: mdemo2-conf.test
+PASS: mdemo2-exec.test
+PASS: mdemo2-make.test
+PASS: mdemo2-exec.test
+PASS: duplicate_members.test
+PASS: duplicate_members.test
+PASS: link-order.test
+PASS: link-order.test
+PASS: tagdemo-static.test
+PASS: tagdemo-static.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-conf.test
+PASS: tagdemo-conf.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+PASS: tagdemo-shared.test
+PASS: tagdemo-shared.test
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+======================
+All 102 tests passed
+(1 tests were not run)
+======================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/i86/.tested
+PASS: tagdemo-make.test
+PASS: tagdemo-exec.test
+======================
+All 102 tests passed
+(1 tests were not run)
+======================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/tests'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libtool/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libtool/build/amd64/.tested

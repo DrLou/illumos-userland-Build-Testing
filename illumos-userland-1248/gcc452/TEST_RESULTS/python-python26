@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4 -p1 --backup --version-control=numbered < patches/Python26-00-filemagic.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4 -p1 --backup --version-control=numbered < patches/Python26-01-solaris-lib-dirs.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4 -p1 --backup --version-control=numbered < patches/Python26-02-pycc.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4 -p1 --backup --version-control=numbered < patches/Python26-03-distutils-pycc.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4 -p1 --backup --version-control=numbered < patches/Python26-04-distutils-log.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  Python-2.6.4.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/python/python26/Python-2.6.4/.unpacked

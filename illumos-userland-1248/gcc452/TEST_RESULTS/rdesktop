@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/rdesktop/rdesktop-1.7.0
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/rdesktop/rdesktop-1.7.0 -p1 --backup --version-control=numbered < patches/g11n-i18n-title.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/rdesktop/rdesktop-1.7.0 -p1 --backup --version-control=numbered < patches/makefile-in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/rdesktop/rdesktop-1.7.0 -p1 --backup --version-control=numbered < patches/sun-keymap.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  rdesktop-1.7.0.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/rdesktop/rdesktop-1.7.0/.unpacked

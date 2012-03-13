@@ -1,0 +1,405 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/tomcat/apache-tomcat-6.0.32-src /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86
+symlink cloning /export/home/drlou/illumos-userland-1248/components/tomcat/apache-tomcat-6.0.32-src to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  JAVA_HOME="/usr/jdk/instances/jdk1.6.0" \
+		/usr/bin/ant -Dbase.path=/export/home/drlou/illumos-userland-1248/components/tomcat/build/i86 -Dtomcat.build=/export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386 download deploy)
+Buildfile: build.xml
+
+build-manifests:
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/manifests
+     [copy] Copying 8 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/manifests
+
+download:
+
+proxyflags:
+
+setproxy:
+
+testexist:
+     [echo] Testing  for /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/commons-pool-1.5.5-src/build.xml
+
+downloadgz:
+      [get] Getting: file:/export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/../..//commons-pool-1.5.5-src.tar.gz
+      [get] To: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz
+   [gunzip] Expanding /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar
+    [untar] Expanding: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar into /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86
+   [delete] Deleting: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar
+   [delete] Deleting: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz
+
+proxyflags:
+
+setproxy:
+
+testexist:
+     [echo] Testing  for /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/commons-dbcp-1.4-src/build.xml
+
+downloadgz:
+      [get] Getting: file:/export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/../..//commons-dbcp-1.4-src.tar.gz
+      [get] To: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz
+   [gunzip] Expanding /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar
+    [untar] Expanding: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar into /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86
+   [delete] Deleting: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar
+   [delete] Deleting: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/file.tar.gz
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp
+
+build-manifests:
+     [copy] Copying 8 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/manifests
+
+build-tomcat-dbcp:
+     [copy] Copying 68 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp/src/java/org/apache/tomcat/dbcp
+     [move] Moving 64 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp/src/java/org/apache/tomcat/dbcp
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp/classes
+    [javac] Compiling 64 source files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/tomcat6-deps/dbcp/tomcat-dbcp.jar
+
+testexist:
+     [echo] Testing  for /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/ecj-3.3.1/ecj-3.3.1.jar
+
+downloadfile-2:
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/ecj-3.3.1
+
+proxyflags:
+
+setproxy:
+
+trydownload.check:
+
+trydownload:
+      [get] Getting: file:/export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/../..//ecj.jar
+      [get] To: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/ecj-3.3.1/ecj-3.3.1.jar
+
+proxyflags:
+
+setproxy:
+
+trydownload.check:
+
+trydownload:
+
+build-prepare:
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/classes
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/bin
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/conf
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/logs
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/temp
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps
+
+compile:
+    [javac] Compiling 1067 source files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/classes
+    [javac] Note: Some input files use or override a deprecated API.
+    [javac] Note: Recompile with -Xlint:deprecation for details.
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+     [copy] Copying 175 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/classes
+
+build-manifests:
+     [copy] Copying 8 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/output/manifests
+
+package:
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/annotations-api.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/servlet-api.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/jsp-api.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/el-api.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/bin/bootstrap.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/bin/tomcat-juli.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/catalina.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/catalina-tribes.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/catalina-ha.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/catalina-ant.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/tomcat-coyote.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/jasper.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/jasper-el.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/tomcat-i18n-es.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/tomcat-i18n-fr.jar
+      [jar] Building jar: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib/tomcat-i18n-ja.jar
+
+build-only:
+
+build-docs:
+     [copy] Copying 27 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps
+     [copy] Copying 2 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/sample
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/aio.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/aio.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/apr.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/apr.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/balancer-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/balancer-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/building.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/building.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/cgi-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/cgi-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/changelog.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/changelog.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/class-loader-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/class-loader-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/cluster-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/cluster-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/connectors.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/connectors.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/default-servlet.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/default-servlet.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/deployer-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/deployer-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/developers.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/developers.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/extras.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/extras.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/html-manager-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/html-manager-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/index.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/index.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/introduction.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/introduction.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/jasper-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/jasper-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/jndi-datasource-examples-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/jndi-datasource-examples-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/jndi-resources-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/jndi-resources-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/logging.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/logging.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/manager-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/manager-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/maven-jars.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/maven-jars.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/mbeans-descriptor-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/mbeans-descriptor-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/monitoring.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/monitoring.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/proxy-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/proxy-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/realm-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/realm-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/security-manager-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/security-manager-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/setup.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/setup.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/ssi-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/ssi-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/ssl-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/ssl-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/virtual-hosting-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/virtual-hosting-howto.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/windows-service-howto.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/windows-service-howto.html
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/deployment.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/deployment.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/index.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/index.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/installation.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/installation.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/introduction.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/introduction.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/processes.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/processes.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/appdev/source.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/appdev/source.html
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-admin-apps.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-admin-apps.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-admin-objects.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-admin-objects.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-admin-opers.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-admin-opers.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-default.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-default.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-invoker.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-invoker.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-jdbc-realm.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-jdbc-realm.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-jndi-realm.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-jndi-realm.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/fs-memory-realm.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/fs-memory-realm.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/index.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/index.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/funcspecs/mbean-names.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/funcspecs/mbean-names.html
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/ajp.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/ajp.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-channel.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-channel.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-deployer.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-deployer.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-interceptor.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-interceptor.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-listener.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-listener.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-manager.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-manager.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-membership.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-membership.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-receiver.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-receiver.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-sender.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-sender.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster-valve.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster-valve.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/cluster.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/cluster.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/context.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/context.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/engine.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/engine.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/executor.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/executor.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/filter.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/filter.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/globalresources.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/globalresources.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/host.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/host.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/http.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/http.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/index.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/index.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/listeners.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/listeners.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/loader.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/loader.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/manager.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/manager.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/realm.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/realm.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/resources.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/resources.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/server.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/server.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/service.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/service.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/systemprops.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/systemprops.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/config/valve.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/config/valve.html
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/architecture
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/architecture/index.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/architecture/index.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/architecture/overview.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/architecture/overview.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/architecture/requestProcess.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/architecture/requestProcess.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/architecture/startup.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/architecture/startup.html
+     [xslt] Transforming into /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/developers.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/developers.html
+     [xslt] Loading stylesheet /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tomcat-docs.xsl
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/faq.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/faq.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/interceptors.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/interceptors.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/introduction.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/introduction.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/membership.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/membership.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/setup.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/setup.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/status.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/status.html
+     [xslt] Processing /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/webapps/docs/tribes/transport.xml to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/docs/tribes/transport.html
+
+warn.dbcp:
+     [echo] WARNING: tomcat-dbcp.jar not included, this build can't be used
+     [echo]     in a release. Please run 'ant download' with JDK1.5 if you are 
+     [echo]     building a tomcat release.
+
+deploy:
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/bin
+     [copy] Copying 16 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/bin
+     [copy] Copying 7 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/conf
+     [copy] Copying 208 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps
+     [copy] Copying 2 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/ROOT
+    [javac] Compiling 43 source files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/WEB-INF/classes
+    [javac] Note: Some input files use unchecked or unsafe operations.
+    [javac] Note: Recompile with -Xlint:unchecked for details.
+    [javac] Compiling 1 source file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/plugin/applet
+ [txt2html] Converted 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/simpletag
+ [txt2html] Converted 4 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/simpletag
+ [txt2html] Converted 5 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/simpletag
+ [txt2html] Converted 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/jspattribute
+ [txt2html] Converted 4 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/jspattribute
+ [txt2html] Converted 4 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/cal
+ [txt2html] Converted 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsptoserv
+ [txt2html] Converted 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/el
+ [txt2html] Converted 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/misc
+ [txt2html] Converted 4 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples/jsp/jsp2/tagfiles
+ [txt2html] Converted 47 files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/webapps/examples
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib
+     [copy] Copying 1 file to /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386/lib
+
+BUILD SUCCESSFUL
+Total time: 7 seconds
+(cd /export/home/drlou/illumos-userland-1248/components/tomcat/build/prototype/i386 ; /bin/rm -f conf/CONF.tar.gz ; gtar cfz conf/CONF.tar.gz conf/* )
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/.built
+Buildfile: build.xml
+
+compile:
+    [mkdir] Created dir: /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/test/output/classes
+    [javac] Compiling 2 source files to /export/home/drlou/illumos-userland-1248/components/tomcat/build/i86/test/output/classes
+
+all:
+     [java] .Processing [foo=bar; a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=bar;a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=bar;a=b;]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=bar;a=b; ]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=bar;a=b; ;]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=;a=b; ;]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo;a=b; ;]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [$Version=1; foo=bar;a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo=bar;a=b; ; ]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo=;a=b; ; ]
+     [java] 1 - Cookie: Cookie foo= ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo= ;a=b; ; ]
+     [java] 1 - Cookie: Cookie foo= ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo;a=b; ; ]
+     [java] 1 - Cookie: Cookie foo= ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="bar";a=b; ; ]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="bar";$Domain=apache.org;a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="bar";$Domain=apache.org;a=b;$Domain=yahoo.com]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null yahoo.com
+     [java] Processing [$Version=1;foo="bar";$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="b"ar";$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=b ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="b\"ar";$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=b"ar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="b'ar";$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=b'ar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo=b'ar;$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=b'ar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [foo=bar;a="b"]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [foo=bar;a="b";]
+     [java] 1 - Cookie: Cookie foo=bar ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] Processing [$Version=1;foo=b'ar;$Domain="apache.org";$Port=8080;a="b\"]
+     [java] One Cookie: Cookie foo=b'ar ; 1 null apache.org
+     [java] Processing [$Version=1;foo=b'ar;$Domain="apache.org";$Port=8080;a="b\]
+     [java] One Cookie: Cookie foo=b'ar ; 1 null apache.org
+     [java] Processing [$Version="1"; foo='bar'; $Path=/path; $Domain="localhost"]
+     [java] One Cookie: Cookie foo='bar' ; 1 /path localhost
+     [java] Processing [$Version=1;foo="bar";$Path=/examples;a=b; ; ]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 /examples null
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [$Version=1;foo="bar";$Domain=apache.org;$Port=8080;a=b]
+     [java] 1 - Cookie: Cookie foo=bar ; 1 null apache.org
+     [java] 2 - Cookie: Cookie a=b ; 1 null null
+     [java] Processing [foo;a=b;bar]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b;bar;]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b;bar ]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b;bar ;]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b; ;bar]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b;;bar]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar= ; 0 null null
+     [java] Processing [foo;a=b; ;;bar=rab]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar=rab ; 0 null null
+     [java] Processing [foo;a=b;; ;bar=rab]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar=rab ; 0 null null
+     [java] Processing [foo;a=b;;#;bar=rab]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie #= ; 0 null null
+     [java] 4 - Cookie: Cookie bar=rab ; 0 null null
+     [java] Processing [foo;a=b;;\;bar=rab]
+     [java] 1 - Cookie: Cookie foo= ; 0 null null
+     [java] 2 - Cookie: Cookie a=b ; 0 null null
+     [java] 3 - Cookie: Cookie bar=rab ; 0 null null
+     [java] Processing [a=()<>@:\"/[]?={}	; foo=bar]
+     [java] One Cookie: Cookie foo=bar ; 0 null null
+     [java] Processing [$Version=1;foo=bar]
+     [java] One Cookie: Cookie foo=bar ; 1 null null
+     [java] Processing [$Version=0;foo=bar]
+     [java] One Cookie: Cookie foo=bar ; 0 null null
+     [java] 
+     [java] Time: 0.037
+     [java] 
+     [java] OK (1 test)
+     [java] 
+
+BUILD SUCCESSFUL
+Total time: 0 seconds

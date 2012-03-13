@@ -1,0 +1,1168 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/slang/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/slang/build/i86)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/slang/slang-2.2.4 /export/home/drlou/illumos-userland-1248/components/slang/build/i86
+symlink cloning /export/home/drlou/illumos-userland-1248/components/slang/slang-2.2.4 to /export/home/drlou/illumos-userland-1248/components/slang/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/slang/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/slang/build/amd64)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/slang/slang-2.2.4 /export/home/drlou/illumos-userland-1248/components/slang/build/amd64
+symlink cloning /export/home/drlou/illumos-userland-1248/components/slang/slang-2.2.4 to /export/home/drlou/illumos-userland-1248/components/slang/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/slang/build/i86/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" LDFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" --sysconfdir=/etc/slsh)
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" LDFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt" --sysconfdir=/etc/slsh)
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the C compiler works... checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... checking whether we are cross compiling... 
+checking whether we are cross compiling... no
+checking for suffix of object files... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+yes
+checking for string.h... checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+yes
+checking for strings.h... checking for inttypes.h... yes
+yes
+checking for inttypes.h... checking for stdint.h... yes
+yes
+checking for stdint.h... checking for unistd.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... yes
+checking minix/config.h usability... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for library containing strerror... yes
+checking for library containing strerror... none required
+checking C compiler that understands ANSI prototypes... /opt/SUNWspro/solarisstudio12.3/bin/cc looks ok.  Good.
+checking whether make sets $(MAKE)... none required
+yes
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking terminfo layout... default
+checking type of readline support for slsh... slang
+checking for X... /opt/SUNWspro/solarisstudio12.3/bin/cc looks ok.  Good.
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking terminfo layout... default
+checking type of readline support for slsh... slang
+checking for X... libraries , headers 
+checking for gethostbyname... libraries , headers 
+no
+checking for gethostbyname in -lnsl... checking for gethostbyname... yes
+checking for connect... no
+checking for gethostbyname in -lnsl... no
+checking for connect in -lsocket... yes
+checking for connect... yes
+checking for remove... no
+checking for connect in -lsocket... yes
+checking for shmat... yes
+checking for remove... yes
+checking for IceConnectionNumber in -lICE... yes
+checking for shmat... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for memory.h... (cached) yes
+checking termios.h usability... yes
+checking for IceConnectionNumber in -lICE... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for stdlib.h... (cached) yes
+yes
+checking for malloc.h... yes
+checking for unistd.h... (cached) yes
+checking locale.h usability... checking for memory.h... (cached) yes
+checking termios.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+yes
+checking termios.h presence... checking langinfo.h usability... yes
+checking for termios.h... yes
+checking malloc.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+yes
+checking malloc.h presence... checking fcntl.h usability... yes
+checking for malloc.h... yes
+checking locale.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+yes
+checking locale.h presence... checking sys/fcntl.h usability... yes
+checking for locale.h... yes
+checking langinfo.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+yes
+checking langinfo.h presence... checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking for langinfo.h... yes
+checking fcntl.h usability... yes
+checking sys/wait.h presence... yes
+checking fcntl.h presence... yes
+checking for sys/wait.h... yes
+yes
+checking for fcntl.h... yes
+checking sys/utsname.h usability... checking sys/fcntl.h usability... yes
+checking sys/utsname.h presence... yes
+checking sys/fcntl.h presence... yes
+checking for sys/utsname.h... yes
+yes
+checking for sys/fcntl.h... yes
+checking sys/times.h usability... checking for sys/types.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+yes
+checking sys/wait.h presence... checking sys/time.h usability... yes
+checking for sys/wait.h... yes
+checking sys/utsname.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+yes
+checking sys/utsname.h presence... checking utime.h usability... yes
+checking for sys/utsname.h... yes
+checking sys/times.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+yes
+checking sys/times.h presence... checking floatingpoint.h usability... yes
+checking for sys/times.h... yes
+checking sys/time.h usability... yes
+checking floatingpoint.h presence... yes
+checking for floatingpoint.h... yes
+yes
+checking sys/time.h presence... checking ieeefp.h usability... yes
+checking for sys/time.h... yes
+checking utime.h usability... yes
+checking ieeefp.h presence... yes
+checking for ieeefp.h... yes
+checking nan.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking floatingpoint.h usability... yes
+checking nan.h presence... yes
+checking floatingpoint.h presence... yes
+checking for nan.h... yes
+yes
+checking fenv.h usability... checking for floatingpoint.h... yes
+checking ieeefp.h usability... yes
+checking ieeefp.h presence... yes
+checking for ieeefp.h... yes
+checking nan.h usability... yes
+checking nan.h presence... yes
+checking for nan.h... yes
+checking fenv.h usability... yes
+checking fenv.h presence... yes
+checking for fenv.h... yes
+checking sys/mman.h usability... yes
+checking fenv.h presence... yes
+checking for fenv.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/socket.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking netinet/in.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking arpa/inet.h usability... yes
+checking netinet/in.h presence... yes
+checking arpa/inet.h presence... yes
+checking for netinet/in.h... yes
+checking arpa/inet.h usability... yes
+checking for arpa/inet.h... yes
+checking sys/un.h usability... yes
+checking arpa/inet.h presence... yes
+checking sys/un.h presence... yes
+checking for sys/un.h... yes
+yes
+checking for arpa/inet.h... yes
+checking sys/resource.h usability... checking sys/un.h usability... yes
+checking sys/resource.h presence... yes
+checking sys/un.h presence... yes
+checking for sys/resource.h... yes
+checking for mode_t... yes
+checking for sys/un.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+yes
+checking for pid_t... checking for mode_t... yes
+checking for pid_t... yes
+checking for uid_t in sys/types.h... yes
+checking for socklen_t... yes
+checking for dirent.h that defines DIR... yes
+yes
+checking for uid_t in sys/types.h... checking for library containing opendir... yes
+checking for socklen_t... yes
+checking for dirent.h that defines DIR... none required
+checking for memset... yes
+checking for library containing opendir... yes
+checking for memcpy... none required
+checking for memset... yes
+checking for putenv... yes
+checking for memcpy... yes
+checking for getcwd... yes
+checking for putenv... yes
+checking for setlocale... yes
+checking for getcwd... yes
+checking for tcgetattr... yes
+checking for setlocale... yes
+checking for tcsetattr... yes
+checking for tcgetattr... yes
+checking for cfgetospeed... yes
+checking for tcsetattr... yes
+checking for sigaction... yes
+checking for cfgetospeed... yes
+checking for sigemptyset... yes
+checking for sigaction... yes
+checking for sigprocmask... yes
+checking for sigemptyset... yes
+checking for sigaddset... yes
+checking for sigprocmask... yes
+checking for alarm... yes
+checking for sigaddset... yes
+checking for pause... yes
+checking for alarm... yes
+checking for vfscanf... yes
+checking for pause... yes
+checking for lstat... yes
+checking for vfscanf... yes
+checking for readlink... yes
+checking for lstat... yes
+checking for symlink... yes
+checking for readlink... yes
+checking for link... yes
+checking for symlink... yes
+checking for kill... yes
+checking for link... yes
+checking for killpg... yes
+checking for kill... yes
+checking for snprintf... yes
+checking for killpg... yes
+checking for vsnprintf... yes
+checking for snprintf... yes
+checking for getppid... yes
+checking for vsnprintf... yes
+checking for getegid... yes
+checking for getppid... yes
+checking for geteuid... yes
+checking for getegid... yes
+checking for getuid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for setgid... yes
+checking for getgid... yes
+checking for setuid... yes
+checking for setgid... yes
+checking for setpgid... yes
+checking for setuid... yes
+checking for getpgid... yes
+yes
+checking for setpgid... checking for setpgrp... yes
+yes
+checking for getpgrp... checking for getpgid... yes
+yes
+checking for setsid... checking for setpgrp... yes
+checking for getsid... yes
+checking for getpgrp... yes
+checking for mmap... yes
+checking for setsid... yes
+checking for chown... yes
+checking for getsid... yes
+checking for popen... yes
+checking for mmap... yes
+checking for mkfifo... yes
+checking for chown... yes
+checking for atexit... yes
+checking for popen... yes
+checking for on_exit... yes
+checking for mkfifo... no
+checking for umask... yes
+checking for atexit... yes
+checking for uname... yes
+checking for on_exit... yes
+checking for times... no
+checking for umask... yes
+checking for gmtime... yes
+checking for uname... yes
+checking for mktime... yes
+checking for times... yes
+checking for gettimeofday... yes
+checking for gmtime... yes
+checking for gmtime_r... yes
+checking for mktime... yes
+checking for ctime_r... yes
+checking for gettimeofday... yes
+checking for localtime_r... yes
+checking for gmtime_r... yes
+checking for strtod... yes
+checking for ctime_r... yes
+checking for atoll... yes
+checking for localtime_r... yes
+checking for strtoll... yes
+checking for strtod... yes
+checking for issetugid... yes
+checking for atoll... yes
+checking for isnan... yes
+checking for strtoll... yes
+checking for finite... yes
+yes
+checking for issetugid... checking for isinf... yes
+checking for isnan... no
+checking for round... yes
+checking for finite... no
+checking for siglongjmp... yes
+yes
+checking for isinf... checking for fork... yes
+no
+checking for round... checking for waitpid... yes
+no
+checking for siglongjmp... checking for socket... yes
+checking for fork... no
+checking for socketpair... yes
+no
+checking for confstr... checking for waitpid... yes
+yes
+checking for socket... checking for pathconf... no
+yes
+checking for socketpair... checking for getpriority... no
+checking for confstr... yes
+checking for setpriority... yes
+checking for pathconf... yes
+checking for setvbuf... yes
+checking for getpriority... yes
+checking for utime... yes
+checking for setpriority... yes
+checking for utimes... yes
+checking for setvbuf... yes
+checking for ttyname... yes
+checking for utime... yes
+checking for ttyname_r... yes
+checking for utimes... yes
+checking for socketpair in -lsocket... yes
+checking for ttyname... yes
+checking for socket in -lsocket... yes
+yes
+checking for nl_langinfo and CODESET... checking for ttyname_r... yes
+checking for acosh in -lm... yes
+checking for socketpair in -lsocket... yes
+checking for asinh in -lm... yes
+checking for socket in -lsocket... yes
+checking for atanh in -lm... yes
+checking for nl_langinfo and CODESET... yes
+checking for hypot in -lm... yes
+checking for acosh in -lm... yes
+checking for atan2 in -lm... yes
+checking for asinh in -lm... yes
+checking for frexp in -lm... yes
+checking for atanh in -lm... yes
+checking for frexpf in -lm... yes
+checking for hypot in -lm... yes
+checking for ldexp in -lm... yes
+checking for atan2 in -lm... yes
+checking for ldexpf in -lm... yes
+checking for frexp in -lm... yes
+checking for feclearexcept in -lm... yes
+checking for frexpf in -lm... yes
+checking for fpsetsticky in -lm... yes
+checking for ldexp in -lm... yes
+checking dlfcn.h usability... yes
+checking for ldexpf in -lm... yes
+checking dlfcn.h presence... yes
+checking for feclearexcept in -lm... yes
+checking for dlfcn.h... yes
+checking for dlopen in -ldl... yes
+checking for fpsetsticky in -lm... yes
+checking size of short... yes
+checking dlfcn.h usability... 2
+checking size of int... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for dlopen in -ldl... 4
+checking size of long... yes
+checking size of short... 4
+checking size of float... 2
+checking size of int... 4
+checking size of double... 4
+checking size of long... 8
+checking for size_t... 8
+checking size of float... yes
+checking size of size_t... 4
+checking size of double... 4
+checking for long long... 8
+checking for size_t... yes
+checking size of long long... yes
+checking size of size_t... 8
+checking for special C compiler options needed for large files... 8
+checking for long long... no
+checking for _FILE_OFFSET_BITS value needed for large files... yes
+checking size of long long... 64
+checking for _LARGEFILE_SOURCE value needed for large files... 8
+checking for special C compiler options needed for large files... no
+checking for off_t... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking for _LARGEFILE_SOURCE value needed for large files... yes
+checking size of off_t... no
+checking for off_t... 8
+checking for ncurses5-config... /usr/gnu/bin/ncurses5-config
+checking for terminfo... yes
+checking for the pcre library and header files ... yes
+checking size of off_t... 8
+checking for ncurses5-config... /usr/gnu/bin/ncurses5-config
+checking for terminfo... yes
+yes: /usr/lib and /usr/include/pcre
+checking for the pcre library and header files ... checking for the onig library and header files oniguruma.h... yes: /usr/lib and /usr/include/pcre
+checking for the onig library and header files oniguruma.h... no
+checking for the png library and header files ... no
+checking for the png library and header files ... yes: /usr/lib and /usr/include
+yes: /usr/lib/amd64 and /usr/include
+checking for the z library and header files zlib.h... checking for the z library and header files zlib.h... yes: /usr/lib and /usr/include
+yes: /usr/lib/amd64 and /usr/include
+checking for the iconv library and header files ... checking for the iconv library and header files ... no
+checking for iconv... no
+checking for iconv... yes
+checking for iconv declaration... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for sysconf... checking for sysconf... yes
+yes
+checking SLANG_VERSION... checking SLANG_VERSION... 2.2.4
+2.2.4
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating src/Makefile
+config.status: creating slsh/Makefile
+config.status: creating slsh/Makefile
+config.status: creating modules/Makefile
+config.status: creating modules/Makefile
+config.status: creating demo/Makefile
+config.status: creating demo/Makefile
+config.status: creating slang.pc
+config.status: creating slang.pc
+config.status: creating src/sysconf.h
+config.status: creating src/sysconf.h
+
+Configuration complete.  You may need to edit src/Makefile.
+You are compiling SLANG with the following compiler configuration:
+       CC = /opt/SUNWspro/solarisstudio12.3/bin/cc
+   CFLAGS = -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt 
+  LDFLAGS = -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt 
+
+   ELF_CC = $(CC)
+ ELF_LINK = $(CC) $(LDFLAGS) -G -h$(ELFLIB_MAJOR)
+ELF_CFLAGS= $(CFLAGS) -K PIC 
+
+                  prefix: /usr
+             exec_prefix: ${prefix}
+    Installation Lib Dir: /usr/lib/amd64
+Installation Include Dir: ${prefix}/include
+
+See also src/sl-feat.h for various features.
+
+The following modules that depend upon external libraries will be built:
+   pcre png z iconv
+
+
+While not required, it is recommended that you install the following
+libraries and reconfigure so that the corresponding modules can be built:
+   oniguruma
+
+Type 'make' to build a shared version of the library.
+Type 'make help' for more options
+
+
+Configuration complete.  You may need to edit src/Makefile.
+You are compiling SLANG with the following compiler configuration:
+       CC = /opt/SUNWspro/solarisstudio12.3/bin/cc
+   CFLAGS = -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt 
+  LDFLAGS = -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt 
+
+   ELF_CC = $(CC)
+ ELF_LINK = $(CC) $(LDFLAGS) -G -h$(ELFLIB_MAJOR)
+ELF_CFLAGS= $(CFLAGS) -K PIC 
+
+                  prefix: /usr
+             exec_prefix: ${prefix}
+    Installation Lib Dir: /usr/lib
+Installation Include Dir: ${prefix}/include
+
+See also src/sl-feat.h for various features.
+
+The following modules that depend upon external libraries will be built:
+   pcre png z iconv
+
+
+While not required, it is recommended that you install the following
+libraries and reconfigure so that the corresponding modules can be built:
+   oniguruma
+
+Type 'make' to build a shared version of the library.
+Type 'make help' for more options
+
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/i86/.configured
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64'
+cd src; /usr/gnu/bin/make elf
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/autoconf/mkinsdir.sh /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs
+cd src; /usr/gnu/bin/make elf
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+/export/home/drlou/illumos-userland-1248/components/slang/build/i86/autoconf/mkinsdir.sh /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs
+mkdir /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs
+cp sysconf.h config.h
+cp terminfo/default.inc terminfo.inc
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DMISC_TERMINFO_DIRS='"/usr/gnu/share/terminfo"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltermin.c
+mkdir /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs
+cp sysconf.h config.h
+cp terminfo/default.inc terminfo.inc
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DMISC_TERMINFO_DIRS='"/usr/gnu/share/terminfo"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltermin.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sldisply.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sldisply.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slutty.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slutty.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slang.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slang.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarray.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarray.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slclass.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slclass.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcmd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slerr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcmd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slgetkey.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slkeymap.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slerr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmalloc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slgetkey.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slkeymap.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmalloc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemchr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemcmp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemcpy.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemset.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmisc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slparse.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemchr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemcmp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemcpy.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slprepr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemset.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmisc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slregexp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slparse.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slrline.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slprepr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsearch.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slregexp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsmg.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slrline.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsearch.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsmg.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DSLANG_DOC_DIR='"/usr/share/doc/slang/v2"' -DSLANG_INSTALL_PREFIX='"/usr"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltoken.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltypes.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DSLANG_DOC_DIR='"/usr/share/doc/slang/v2"' -DSLANG_INSTALL_PREFIX='"/usr"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slxstrng.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcurses.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltoken.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slscroll.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsignal.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slkeypad.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slerrno.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstring.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltypes.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstruct.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slxstrng.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcurses.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcmplex.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slscroll.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsignal.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slkeypad.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slerrno.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstring.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarrfun.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstruct.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcmplex.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DMODULE_INSTALL_DIR='"/usr/lib/slang/v2/modules"' -DMODULE_PATH_ENV_NAME='"SLANG_MODULE_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slimport.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slpath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarith.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarrfun.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG -DMODULE_INSTALL_DIR='"/usr/lib/amd64/slang/v2/modules"' -DMODULE_PATH_ENV_NAME='"SLANG_MODULE_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slimport.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slpath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarith.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slassoc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcompat.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slposdir.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstdio.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slproc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltime.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstrops.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slbstr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slassoc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slpack.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcompat.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slposdir.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slintall.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slistruc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstdio.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slposio.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slnspace.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slproc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltime.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarrmis.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slospath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstrops.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slscanf.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sllower.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slupper.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slischar.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slutf8.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slwcwidth.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slwclut.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcommon.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sllist.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slbstr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slexcept.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slfpu.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slpack.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsig.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slboseos.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slintall.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slistruc.c
+rm -f /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs/libslang.so.2.2.4
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -G -hlibslang.so.2 -o libslang.so.2.2.4 sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -ldl -lm -lc
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slposio.c
+if [ libslang.so.2 != libslang.so.2.2.4 ]; then \
+	  cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && rm -f libslang.so.2 && /bin/ln -sf libslang.so.2.2.4 libslang.so.2; \
+	fi
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs && rm -f libslang.so && /bin/ln -sf libslang.so.2.2.4 libslang.so
+
+libslang.so.2.2.4 created in /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs.
+The link libslang.so to libslang.so.2.2.4 was also created.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+cd slsh; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/slsh'
+/export/home/drlou/illumos-userland-1248/components/slang/build/i86/autoconf/mkinsdir.sh objs
+mkdir objs
+cp ../src/config.h .
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src -DSLSH_CONF_DIR='"/etc/slsh"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/slsh/slsh.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src -DSLSH_CONF_DIR='"/etc/slsh"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' -DUSE_GNU_READLINE=0 /export/home/drlou/illumos-userland-1248/components/slang/build/i86/slsh/readline.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slnspace.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   objs/slsh.o objs/readline.o -o objs/slsh_exe -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -L/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/elfobjs -lslang  -ldl  -lm
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/slsh'
+cd modules; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules'
+/export/home/drlou/illumos-userland-1248/components/slang/build/i86/autoconf/mkinsdir.sh objs
+mkdir objs
+cp ../src/config.h .
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/slsmg-module.c -o slsmg-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarrmis.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/termios-module.c -o termios-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slospath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slscanf.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/select-module.c -o select-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/fcntl-module.c -o fcntl-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sllower.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/varray-module.c -o varray-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slupper.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/socket-module.c -o socket-module.so -lsocket  -lnsl -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slischar.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slutf8.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/rand-module.c -o rand-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slwcwidth.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slwclut.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/fork-module.c -o fork-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/csv-module.c -o csv-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcommon.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src -I/usr/include/pcre /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/pcre-module.c -o pcre-module.so -lpcre -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sllist.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/png-module.c -o png-module.so -lpng -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slexcept.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/iconv-module.c -o iconv-module.so  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slfpu.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsig.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/zlib-module.c -o zlib-module.so -lz -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src /export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules/sysconf-module.c -o sysconf-module.so -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -R/usr/lib   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -K PIC  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slboseos.c
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/modules'
+Use make install to install it.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86'
+cd src; /usr/gnu/bin/make static
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+/export/home/drlou/illumos-userland-1248/components/slang/build/i86/autoconf/mkinsdir.sh /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs
+mkdir /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG -DMISC_TERMINFO_DIRS='"/usr/gnu/share/terminfo"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltermin.c
+rm -f /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs/libslang.so.2.2.4
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -G -hlibslang.so.2 -o libslang.so.2.2.4 sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -ldl -lm -lc
+if [ libslang.so.2 != libslang.so.2.2.4 ]; then \
+	  cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && rm -f libslang.so.2 && /bin/ln -sf libslang.so.2.2.4 libslang.so.2; \
+	fi
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs && rm -f libslang.so && /bin/ln -sf libslang.so.2.2.4 libslang.so
+
+libslang.so.2.2.4 created in /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs.
+The link libslang.so to libslang.so.2.2.4 was also created.
+
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+cd slsh; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/slsh'
+/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/autoconf/mkinsdir.sh objs
+mkdir objs
+cp ../src/config.h .
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src -DSLSH_CONF_DIR='"/etc/slsh"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/slsh/slsh.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sldisply.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src -DSLSH_CONF_DIR='"/etc/slsh"' -DSLSH_PATH='"/usr/share/slsh"' -DSLSH_CONF_DIR_ENV='"SLSH_CONF_DIR"' -DSLSH_LIB_DIR_ENV='"SLSH_LIB_DIR"' -DSLSH_PATH_ENV='"SLSH_PATH"' -DUSE_GNU_READLINE=0 /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/slsh/readline.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   objs/slsh.o objs/readline.o -o objs/slsh_exe -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -L/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/elfobjs -lslang  -ldl  -lm
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/slsh'
+cd modules; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules'
+/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/autoconf/mkinsdir.sh objs
+mkdir objs
+cp ../src/config.h .
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/slsmg-module.c -o slsmg-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/termios-module.c -o termios-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/select-module.c -o select-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/fcntl-module.c -o fcntl-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/varray-module.c -o varray-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/socket-module.c -o socket-module.so -lsocket  -lnsl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slutty.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slang.c
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/rand-module.c -o rand-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/fork-module.c -o fork-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/csv-module.c -o csv-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src -I/usr/include/pcre /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/pcre-module.c -o pcre-module.so -lpcre -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/png-module.c -o png-module.so -L/usr/lib/amd64 -lpng -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/iconv-module.c -o iconv-module.so  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/zlib-module.c -o zlib-module.so -L/usr/lib/amd64 -lz -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+cd objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   -G -K PIC -I/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules/sysconf-module.c -o sysconf-module.so -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -R/usr/lib/amd64:/usr/lib/amd64:/usr/lib/amd64   -lm
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/modules'
+Use make install to install it.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64'
+cd src; /usr/gnu/bin/make static
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/autoconf/mkinsdir.sh /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs
+mkdir /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG -DMISC_TERMINFO_DIRS='"/usr/gnu/share/terminfo"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltermin.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sldisply.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarray.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slutty.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slang.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slclass.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcmd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slerr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slgetkey.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slkeymap.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmalloc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarray.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemchr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemcmp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemcpy.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmemset.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slmisc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slparse.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slclass.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slprepr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slregexp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcmd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slrline.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slerr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slgetkey.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slkeymap.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsearch.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmalloc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsmg.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG -DSLANG_DOC_DIR='"/usr/share/doc/slang/v2"' -DSLANG_INSTALL_PREFIX='"/usr"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemchr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemcmp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltoken.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemcpy.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmemset.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slmisc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slparse.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltypes.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slxstrng.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcurses.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slprepr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slregexp.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slscroll.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsignal.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slkeypad.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slerrno.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slrline.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstring.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstruct.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsearch.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcmplex.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsmg.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarrfun.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG -DSLANG_DOC_DIR='"/usr/share/doc/slang/v2"' -DSLANG_INSTALL_PREFIX='"/usr"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstd.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG -DMODULE_INSTALL_DIR='"/usr/lib/slang/v2/modules"' -DMODULE_PATH_ENV_NAME='"SLANG_MODULE_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slimport.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slpath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarith.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltoken.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltypes.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slxstrng.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcurses.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slscroll.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsignal.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slkeypad.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slerrno.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstring.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstruct.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcmplex.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarrfun.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG -DMODULE_INSTALL_DIR='"/usr/lib/amd64/slang/v2/modules"' -DMODULE_PATH_ENV_NAME='"SLANG_MODULE_PATH"' /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slimport.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slpath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarith.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slassoc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcompat.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slposdir.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstdio.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slproc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sltime.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slstrops.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slbstr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slpack.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slintall.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slistruc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slposio.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slnspace.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slarrmis.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slospath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slscanf.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sllower.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slupper.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slischar.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slutf8.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slwcwidth.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slwclut.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slcommon.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/sllist.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slexcept.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slfpu.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slsig.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/slboseos.c
+rm -f /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs/libslang.a
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs && ar cr libslang.a sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o
+ranlib /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs/libslang.a
+
+libslang.a created in /export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+cd src; /usr/gnu/bin/make runtests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+cd test; /usr/gnu/bin/make CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt " OTHERLIBS="-lm" SLANGLIB="/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs"
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/test'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   sltest.c -o sltest -I.. -L/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/objs -lslang -lm
+
+Running tests:
+
+Testing argv processing ...Ok
+Testing argv processing [UTF-8 mode] ...Ok
+Testing syntax ...Ok
+Testing syntax [UTF-8 mode] ...Ok
+Testing Short Ciruit Operators ...Ok
+Testing Short Ciruit Operators [UTF-8 mode] ...Ok
+Testing _eqs ...Ok
+Testing _eqs [UTF-8 mode] ...Ok
+Testing sscanf ...Ok
+Testing sscanf [UTF-8 mode] ...Ok
+Testing looping constructs ...Ok
+Testing looping constructs [UTF-8 mode] ...Ok
+Testing Arithmetic ...cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slassoc.c
+Ok
+Testing Arithmetic [UTF-8 mode] ...Ok
+Testing array functions ...Ok
+Testing array functions [UTF-8 mode] ...Ok
+Testing string functions ...Ok
+Testing string functions [UTF-8 mode] ...Ok
+Testing Binary Strings ...Ok
+Testing Binary Strings [UTF-8 mode] ...Ok
+Testing pack and unpack functions ...Ok
+Testing pack and unpack functions [UTF-8 mode] ...Ok
+Testing stdio routines ...Ok
+Testing stdio routines [UTF-8 mode] ...Ok
+Testing Associative Arrays ...Ok
+Testing Associative Arrays [UTF-8 mode] ...Ok
+Testing recursive function modifications ...Ok
+Testing recursive function modifications [UTF-8 mode] ...Ok
+Testing structures ...Ok
+Testing structures [UTF-8 mode] ...Ok
+Testing NameSpace routines ...Ok
+Testing NameSpace routines [UTF-8 mode] ...Ok
+Testing path ...Ok
+Testing path [UTF-8 mode] ...Ok
+Testing #ifeval ...Ok
+Testing #ifeval [UTF-8 mode] ...Ok
+Testing Any_Type ...Ok
+Testing Any_Type [UTF-8 mode] ...Ok
+Testing Matrix Multiplications ...Ok
+Testing Matrix Multiplications [UTF-8 mode] ...Ok
+Testing time functions ...Ok
+Testing time functions [UTF-8 mode] ...Ok
+Testing utf8 ...Ok
+Testing utf8 [UTF-8 mode] ...Ok
+Testing exceptions ...Ok
+Testing exceptions [UTF-8 mode] ...Ok
+Known Bugs or not yet implemented features:
+	Range arrays of Short, Long, LongLong types converted to Int_Type
+Known Bugs or not yet implemented features:
+	Range arrays of Short, Long, LongLong types converted to Int_Type
+Testing lists ...cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcompat.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slposdir.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstdio.c
+Ok
+Testing lists [UTF-8 mode] ...cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slproc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sltime.c
+Ok
+Testing regexp ...Ok
+Testing regexp [UTF-8 mode] ...Ok
+Testing method calls ...Ok
+Testing method calls [UTF-8 mode] ...Ok
+Testing dereferences ...Ok
+Testing dereferences [UTF-8 mode] ...Ok
+Testing NaN and Inf ...Ok
+Testing NaN and Inf [UTF-8 mode] ...Ok
+Testing literal integer overflow ...Ok
+Testing literal integer overflow [UTF-8 mode] ...Ok
+Testing sorting ...cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slstrops.c
+Ok
+Testing sorting [UTF-8 mode] ...cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slbstr.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slpack.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slintall.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slistruc.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slposio.c
+Ok
+Testing long long ...Ok
+Testing long long [UTF-8 mode] ...Ok
+Testing signals ...
+	Pausing for 3 seconds for alarm testcd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slnspace.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slarrmis.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slospath.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slscanf.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sllower.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slupper.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slischar.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slutf8.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slwcwidth.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slwclut.c
+.cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slcommon.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/sllist.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slexcept.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slfpu.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slsig.c
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && /opt/SUNWspro/solarisstudio12.3/bin/cc -c -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -Dunix -DSLANG  /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/slboseos.c
+rm -f /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs/libslang.a
+cd /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs && ar cr libslang.a sltermin.o sldisply.o slutty.o slang.o slarray.o slclass.o slcmd.o slerr.o slgetkey.o slkeymap.o slmalloc.o slmath.o slmemchr.o slmemcmp.o slmemcpy.o slmemset.o slmisc.o slparse.o slprepr.o slregexp.o slrline.o slsearch.o slsmg.o slstd.o sltoken.o sltypes.o slxstrng.o slcurses.o slscroll.o slsignal.o slkeypad.o slerrno.o slstring.o slstruct.o slcmplex.o slarrfun.o slimport.o slpath.o slarith.o slassoc.o slcompat.o slposdir.o slstdio.o slproc.o sltime.o slstrops.o slbstr.o slpack.o slintall.o slistruc.o slposio.o slnspace.o slarrmis.o slospath.o slscanf.o sllower.o slupper.o slischar.o slutf8.o slwcwidth.o slwclut.o slcommon.o sllist.o slexcept.o slfpu.o slsig.o slboseos.o
+ranlib /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs/libslang.a
+
+libslang.a created in /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+cd src; /usr/gnu/bin/make runtests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+cd test; /usr/gnu/bin/make CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt " OTHERLIBS="-lm" SLANGLIB="/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs"
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/test'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt   sltest.c -o sltest -I.. -L/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/objs -lslang -lm
+.
+Running tests:
+
+Testing argv processing ...Ok
+Testing argv processing [UTF-8 mode] ...Ok
+Testing syntax ...Ok
+Testing syntax [UTF-8 mode] ...Ok
+Testing Short Ciruit Operators ...Ok
+Testing Short Ciruit Operators [UTF-8 mode] ...Ok
+Testing _eqs ...Ok
+Testing _eqs [UTF-8 mode] ...Ok
+Testing sscanf ...Ok
+Testing sscanf [UTF-8 mode] ...Ok
+Testing looping constructs ...Ok
+Testing looping constructs [UTF-8 mode] ...Ok
+Testing Arithmetic ...Ok
+Testing Arithmetic [UTF-8 mode] ...Ok
+Testing array functions ...Ok
+Testing array functions [UTF-8 mode] ...Ok
+Testing string functions ...Ok
+Testing string functions [UTF-8 mode] ...Ok
+Testing Binary Strings ...Ok
+Testing Binary Strings [UTF-8 mode] ...Ok
+Testing pack and unpack functions ...Ok
+Testing pack and unpack functions [UTF-8 mode] ...Ok
+Testing stdio routines ...Ok
+Testing stdio routines [UTF-8 mode] ...Ok
+Testing Associative Arrays ...Ok
+Testing Associative Arrays [UTF-8 mode] ...Ok
+Testing recursive function modifications ...Ok
+Testing recursive function modifications [UTF-8 mode] ...Ok
+Testing structures ...Ok
+Testing structures [UTF-8 mode] ...Ok
+Testing NameSpace routines ...Ok
+Testing NameSpace routines [UTF-8 mode] ...Ok
+Testing path ...Ok
+Testing path [UTF-8 mode] ...Ok
+Testing #ifeval ...Ok
+Testing #ifeval [UTF-8 mode] ...Ok
+Testing Any_Type ...Ok
+Testing Any_Type [UTF-8 mode] ...Ok
+Testing Matrix Multiplications ...Ok
+Testing Matrix Multiplications [UTF-8 mode] ...Ok
+Testing time functions ...Ok
+Testing time functions [UTF-8 mode] ...Ok
+Testing utf8 ...Ok
+Testing utf8 [UTF-8 mode] ...Ok
+Testing exceptions ...Ok
+Testing exceptions [UTF-8 mode] ...Ok
+Known Bugs or not yet implemented features:
+	Range arrays of Short, Long, LongLong types converted to Int_Type
+Known Bugs or not yet implemented features:
+	Range arrays of Short, Long, LongLong types converted to Int_Type
+Testing lists ...Ok
+Testing lists [UTF-8 mode] ...Ok
+Testing regexp ...Ok
+Testing regexp [UTF-8 mode] ...Ok
+Testing method calls ...Ok
+Testing method calls [UTF-8 mode] ...Ok
+Testing dereferences ...Ok
+Testing dereferences [UTF-8 mode] ...Ok
+Testing NaN and Inf ...Ok
+Testing NaN and Inf [UTF-8 mode] ...Ok
+Testing literal integer overflow ...Ok
+Testing literal integer overflow [UTF-8 mode] ...Ok
+Testing sorting ...
+	Now try pressing ^C in next 5 seconds...Ok
+Testing sorting [UTF-8 mode] ...Ok
+Testing long long ...Ok
+Testing long long [UTF-8 mode] ...Ok
+Testing signals ...
+	Pausing for 3 seconds for alarm test..
+	Now try pressing ^C in next 5 seconds...
+Ok
+Testing signals [UTF-8 mode] ...
+	Pausing for 3 seconds for alarm test..
+	Now try pressing ^C in next 5 seconds...
+Ok
+Testing signals [UTF-8 mode] ...
+	Pausing for 3 seconds for alarm test..
+	Now try pressing ^C in next 5 seconds...
+Ok
+Testing dollar strings ...Ok
+Testing dollar strings [UTF-8 mode] ...Ok
+Testing provide and require ...Ok
+Testing provide and require [UTF-8 mode] ...Ok
+Testing doc functions ...Ok
+Testing doc functions [UTF-8 mode] ...Ok
+Testing debugger support ...Ok
+Testing debugger support [UTF-8 mode] ...Ok
+Testing qualifiers ...Ok
+Testing qualifiers [UTF-8 mode] ...Ok
+Testing Comparison Operators ...Ok
+Testing Comparison Operators [UTF-8 mode] ...Ok
+Testing break and continue N ...Ok
+Testing break and continue N [UTF-8 mode] ...Ok
+Testing Multiline strings ...Ok
+Testing Multiline strings [UTF-8 mode] ...Ok
+Testing autoload ...Ok
+Testing autoload [UTF-8 mode] ...Ok
+Testing more NameSpace routines ...Ok
+Testing more NameSpace routines [UTF-8 mode] ...Ok
+Testing slprep ...Ok
+Testing slprep [UTF-8 mode] ...Ok
+touch sltest.c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src/test'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/i86/.tested
+
+Ok
+Testing dollar strings ...Ok
+Testing dollar strings [UTF-8 mode] ...Ok
+Testing provide and require ...Ok
+Testing provide and require [UTF-8 mode] ...Ok
+Testing doc functions ...Ok
+Testing doc functions [UTF-8 mode] ...Ok
+Testing debugger support ...Ok
+Testing debugger support [UTF-8 mode] ...Ok
+Testing qualifiers ...Ok
+Testing qualifiers [UTF-8 mode] ...Ok
+Testing Comparison Operators ...Ok
+Testing Comparison Operators [UTF-8 mode] ...Ok
+Testing break and continue N ...Ok
+Testing break and continue N [UTF-8 mode] ...Ok
+Testing Multiline strings ...Ok
+Testing Multiline strings [UTF-8 mode] ...Ok
+Testing autoload ...Ok
+Testing autoload [UTF-8 mode] ...Ok
+Testing more NameSpace routines ...Ok
+Testing more NameSpace routines [UTF-8 mode] ...Ok
+Testing slprep ...Ok
+Testing slprep [UTF-8 mode] ...Ok
+touch sltest.c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src/test'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64/src'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/slang/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/slang/build/amd64/.tested

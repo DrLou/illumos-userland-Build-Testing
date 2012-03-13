@@ -1,0 +1,161 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/pylint/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/pylint/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/pylint/pylint-0.18.0 ; /usr/bin/env CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		/usr/bin/python2.6 ./setup.py build \
+			--build-temp i86)
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/pylint
+copying ./__init__.py -> build/lib/pylint
+copying ./utils.py -> build/lib/pylint
+copying ./interfaces.py -> build/lib/pylint
+copying ./gui.py -> build/lib/pylint
+copying ./epylint.py -> build/lib/pylint
+copying ./config.py -> build/lib/pylint
+copying ./lint.py -> build/lib/pylint
+copying ./__pkginfo__.py -> build/lib/pylint
+creating build/lib/pylint/checkers
+copying ./checkers/raw_metrics.py -> build/lib/pylint/checkers
+copying ./checkers/format.py -> build/lib/pylint/checkers
+copying ./checkers/utils.py -> build/lib/pylint/checkers
+copying ./checkers/imports.py -> build/lib/pylint/checkers
+copying ./checkers/similar.py -> build/lib/pylint/checkers
+copying ./checkers/__init__.py -> build/lib/pylint/checkers
+copying ./checkers/typecheck.py -> build/lib/pylint/checkers
+copying ./checkers/design_analysis.py -> build/lib/pylint/checkers
+copying ./checkers/newstyle.py -> build/lib/pylint/checkers
+copying ./checkers/exceptions.py -> build/lib/pylint/checkers
+copying ./checkers/misc.py -> build/lib/pylint/checkers
+copying ./checkers/variables.py -> build/lib/pylint/checkers
+copying ./checkers/classes.py -> build/lib/pylint/checkers
+copying ./checkers/base.py -> build/lib/pylint/checkers
+creating build/lib/pylint/reporters
+copying ./reporters/text.py -> build/lib/pylint/reporters
+copying ./reporters/html.py -> build/lib/pylint/reporters
+copying ./reporters/__init__.py -> build/lib/pylint/reporters
+creating build/lib/pylint/pyreverse
+copying ./pyreverse/main.py -> build/lib/pylint/pyreverse
+copying ./pyreverse/diagrams.py -> build/lib/pylint/pyreverse
+copying ./pyreverse/utils.py -> build/lib/pylint/pyreverse
+copying ./pyreverse/__init__.py -> build/lib/pylint/pyreverse
+copying ./pyreverse/writer.py -> build/lib/pylint/pyreverse
+copying ./pyreverse/diadefslib.py -> build/lib/pylint/pyreverse
+running build_scripts
+creating build/scripts-2.6
+copying and adjusting bin/pylint -> build/scripts-2.6
+copying and adjusting bin/pylint-gui -> build/scripts-2.6
+copying and adjusting bin/symilar -> build/scripts-2.6
+copying and adjusting bin/epylint -> build/scripts-2.6
+copying and adjusting bin/pyreverse -> build/scripts-2.6
+changing mode of build/scripts-2.6/pylint from 644 to 755
+changing mode of build/scripts-2.6/pylint-gui from 644 to 755
+changing mode of build/scripts-2.6/symilar from 644 to 755
+changing mode of build/scripts-2.6/epylint from 644 to 755
+changing mode of build/scripts-2.6/pyreverse from 644 to 755
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pylint/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/pylint/pylint-0.18.0 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/bin/python2.6 ./setup.py install  --root /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386  --install-lib=/usr/lib/python2.6/vendor-packages)
+running install
+running build
+running build_py
+running build_scripts
+running install_lib
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/__pkginfo__.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/config.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/epylint.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/gui.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/__init__.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/utils.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/diagrams.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/writer.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/main.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+copying build/lib/pylint/pyreverse/diadefslib.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/similar.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/imports.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/base.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/typecheck.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/misc.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/newstyle.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/variables.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/raw_metrics.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/__init__.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/exceptions.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/classes.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/format.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/utils.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/checkers/design_analysis.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers
+copying build/lib/pylint/interfaces.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/__init__.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters
+copying build/lib/pylint/reporters/html.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters
+copying build/lib/pylint/reporters/text.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters
+copying build/lib/pylint/reporters/__init__.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters
+copying build/lib/pylint/lint.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+copying build/lib/pylint/utils.py -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/__pkginfo__.py to __pkginfo__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/config.py to config.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/epylint.py to epylint.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/gui.py to gui.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/utils.py to utils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/diagrams.py to diagrams.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/writer.py to writer.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/main.py to main.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/pyreverse/diadefslib.py to diadefslib.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/similar.py to similar.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/imports.py to imports.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/base.py to base.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/typecheck.py to typecheck.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/misc.py to misc.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/newstyle.py to newstyle.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/variables.py to variables.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/raw_metrics.py to raw_metrics.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/exceptions.py to exceptions.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/classes.py to classes.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/format.py to format.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/utils.py to utils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/checkers/design_analysis.py to design_analysis.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/interfaces.py to interfaces.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters/html.py to html.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters/text.py to text.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/reporters/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/lint.py to lint.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint/utils.py to utils.pyc
+running install_egg_info
+running egg_info
+writing requirements to pylint.egg-info/requires.txt
+writing pylint.egg-info/PKG-INFO
+writing top-level names to pylint.egg-info/top_level.txt
+writing dependency_links to pylint.egg-info/dependency_links.txt
+reading manifest file 'pylint.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+writing manifest file 'pylint.egg-info/SOURCES.txt'
+Copying pylint.egg-info to /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages/pylint-0.18.0-py2.6.egg-info
+running install_scripts
+creating /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+copying build/scripts-2.6/pylint -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+copying build/scripts-2.6/epylint -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+copying build/scripts-2.6/pylint-gui -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+copying build/scripts-2.6/symilar -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+copying build/scripts-2.6/pyreverse -> /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin
+changing mode of /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin/pylint to 755
+changing mode of /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin/epylint to 755
+changing mode of /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin/pylint-gui to 755
+changing mode of /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin/symilar to 755
+changing mode of /export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/bin/pyreverse to 755
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/pylint/build/i86/.installed
+(cd pylint-0.18.0/test; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland-1248/components/pylint/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		/usr/bin/python2.6 ./runtests.py )

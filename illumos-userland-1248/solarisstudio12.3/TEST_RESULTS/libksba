@@ -1,0 +1,954 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libksba/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libksba/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --localstatedir=/var --infodir=/usr/share/info --enable-shared --disable-static --with-gpg-error-prefix=/usr --with-pic)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC" INSTALL="/usr/bin/ginstall" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --localstatedir=/var --infodir=/usr/share/info --enable-shared --disable-static --with-gpg-error-prefix=/usr --with-pic)
+checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... checking for a BSD-compatible install... /usr/bin/ginstall
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+configure: autobuild project... libksba
+configure: autobuild revision... 1.1.0
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120304-135941
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+configure: autobuild project... libksba
+configure: autobuild revision... 1.1.0
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120304-135941
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+yes
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+yes
+checking for inttypes.h... checking for inttypes.h... yes
+yes
+checking for stdint.h... checking for stdint.h... yes
+yes
+checking for unistd.h... checking for unistd.h... yes
+yes
+checking minix/config.h usability... checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for a sed that does not truncate output... yes
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking for fgrep... /usr/bin/ggrep -F
+checking for non-GNU ld... /usr/bin/gsed
+checking for fgrep... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/bin/ggrep -F
+checking for non-GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for BSD- or MS-compatible name lister (nm)... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... /usr/bin/nm -p
+checking the name lister (/usr/bin/nm -p) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 786240
+checking whether the shell understands some XSI constructs... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... yes
+checking whether the shell understands "+="... yes
+786240
+checking whether the shell understands some XSI constructs... checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... yes
+checking whether the shell understands "+="... pass_all
+checking for ar... ar
+yes
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... checking for /usr/bin/ld option to reload object files... -r
+checking for objdump... objdump
+checking how to recognize dependent libraries... pass_all
+checking for ar... ar
+checking for strip... strip
+checking for ranlib... ranlib
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for dlfcn.h... ok
+checking for dlfcn.h... yes
+checking for objdir... yes
+.libs
+checking for objdir... .libs
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC -DPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC -DPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... (cached) yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking whether stripping libraries is possible... checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for windres... no
+checking for windres... no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gawk... (cached) gawk
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for gawk... (cached) gawk
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+yes
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for bison... bison -y
+checking for inline... (cached) yes
+checking for bison... bison -y
+checking for inline... inline
+checking for cc for build... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the visibility attribute is supported... inline
+checking for cc for build... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the visibility attribute is supported... no
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.8... no
+checking for gpg-error-config... /usr/bin/gpg-error-config
+checking for GPG Error - version >= 1.8... yes
+checking for ANSI C header files... checking for ANSI C header files... (cached) yes
+yes
+checking for string.h... (cached) (cached) yes
+checking for an ANSI C-conforming const... checking for an ANSI C-conforming const... yes
+checking whether byte ordering is bigendian... yes
+checking whether byte ordering is bigendian... no
+checking size of unsigned int... no
+checking size of unsigned int... 4
+checking size of unsigned long... 4
+checking size of unsigned long... 4
+checking for u32 typedef... 8
+checking for u32 typedef... no
+checking for memmove... no
+checking for memmove... yes
+yes
+checking for strchr... checking for strchr... yes
+yes
+checking for strtol... checking for strtol... yes
+yes
+checking for strtoul... checking for strtoul... yes
+yes
+checking for stpcpy... checking for stpcpy... yes
+checking for gmtime_r... yes
+checking for gmtime_r... yes
+checking for getenv... yes
+checking for getenv... yes
+checking for working alloca.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for alloca... yes
+yes
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating m4/Makefile
+config.status: creating Makefile
+config.status: creating gl/Makefile
+config.status: creating m4/Makefile
+config.status: creating src/Makefile
+config.status: creating gl/Makefile
+config.status: creating src/ksba-config
+config.status: creating src/Makefile
+config.status: creating src/versioninfo.rc
+config.status: creating src/ksba-config
+config.status: creating tests/Makefile
+config.status: creating src/versioninfo.rc
+config.status: creating doc/Makefile
+config.status: creating tests/Makefile
+config.status: creating config.h
+config.status: creating doc/Makefile
+config.status: executing depfiles commands
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+
+        Libksba v1.1.0 has been configured as follows:
+
+        Platform:  i386-pc-solaris2.11
+
+
+config.status: executing libtool commands
+
+        Libksba v1.1.0 has been configured as follows:
+
+        Platform:  i386-pc-solaris2.11
+
+
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/m4'
+Making all in gl
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o dummyobj.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl/dummyobj.c
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/m4'
+Making all in gl
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -I.. -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl/dummyobj.c  -KPIC -DPIC -o .libs/dummyobj.o
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o dummyobj.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl/dummyobj.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -I.. -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl/dummyobj.c  -KPIC -DPIC -o .libs/dummyobj.o
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o libgnu.la  dummyobj.lo  
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o libgnu.la  dummyobj.lo  
+libtool: link: ar cru .libs/libgnu.a .libs/dummyobj.o 
+libtool: link: ranlib .libs/libgnu.a
+libtool: link: ( cd ".libs" && rm -f "libgnu.la" && ln -s "../libgnu.la" "libgnu.la" )
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+Making all in src
+libtool: link: ar cru .libs/libgnu.a .libs/dummyobj.o 
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -DBUILD_GENTOOLS -o asn1-gentables \
+		/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-gentables.c \
+                `test -f 'asn1-parse.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-parse.c  \
+                /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c      \
+                /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/gen-help.c
+libtool: link: ranlib .libs/libgnu.a
+libtool: link: ( cd ".libs" && rm -f "libgnu.la" && ln -s "../libgnu.la" "libgnu.la" )
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -DBUILD_GENTOOLS -o asn1-gentables \
+		/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-gentables.c \
+                `test -f 'asn1-parse.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-parse.c  \
+                /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c      \
+                /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/gen-help.c
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c' object='visibility.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o visibility.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c' object='visibility.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o visibility.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c  -KPIC -DPIC -o .libs/visibility.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/visibility.c  -KPIC -DPIC -o .libs/visibility.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c' object='reader.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o reader.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c  -KPIC -DPIC -o .libs/reader.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c' object='reader.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o reader.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/reader.c  -KPIC -DPIC -o .libs/reader.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c' object='writer.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o writer.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c  -KPIC -DPIC -o .libs/writer.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c' object='writer.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o writer.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/writer.c  -KPIC -DPIC -o .libs/writer.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c' object='asn1-parse.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-parse.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c  -KPIC -DPIC -o .libs/asn1-parse.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c' object='asn1-parse.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-parse.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-parse.c  -KPIC -DPIC -o .libs/asn1-parse.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c' object='asn1-func.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-func.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c  -KPIC -DPIC -o .libs/asn1-func.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c' object='asn1-func.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-func.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func.c  -KPIC -DPIC -o .libs/asn1-func.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c' object='asn1-func2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-func2.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c  -KPIC -DPIC -o .libs/asn1-func2.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c' object='asn1-func2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-func2.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c' object='ber-help.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber-help.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/asn1-func2.c  -KPIC -DPIC -o .libs/asn1-func2.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c  -KPIC -DPIC -o .libs/ber-help.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c' object='ber-help.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber-help.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-help.c  -KPIC -DPIC -o .libs/ber-help.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c' object='ber-decoder.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber-decoder.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c  -KPIC -DPIC -o .libs/ber-decoder.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c' object='ber-decoder.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber-decoder.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ber-decoder.c  -KPIC -DPIC -o .libs/ber-decoder.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c' object='der-encoder.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o der-encoder.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c  -KPIC -DPIC -o .libs/der-encoder.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c' object='der-encoder.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o der-encoder.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/der-encoder.c  -KPIC -DPIC -o .libs/der-encoder.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c' object='cert.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cert.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c  -KPIC -DPIC -o .libs/cert.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c' object='cert.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cert.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cert.c  -KPIC -DPIC -o .libs/cert.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c' object='cms.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cms.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c  -KPIC -DPIC -o .libs/cms.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c' object='cms.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cms.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms.c  -KPIC -DPIC -o .libs/cms.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c' object='cms-parser.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cms-parser.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c  -KPIC -DPIC -o .libs/cms-parser.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c' object='cms-parser.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o cms-parser.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/cms-parser.c  -KPIC -DPIC -o .libs/cms-parser.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c' object='crl.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o crl.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c  -KPIC -DPIC -o .libs/crl.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c' object='crl.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o crl.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/crl.c  -KPIC -DPIC -o .libs/crl.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c' object='certreq.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o certreq.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c  -KPIC -DPIC -o .libs/certreq.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c' object='certreq.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o certreq.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/certreq.c  -KPIC -DPIC -o .libs/certreq.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c' object='ocsp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ocsp.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c  -KPIC -DPIC -o .libs/ocsp.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c' object='ocsp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ocsp.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/ocsp.c  -KPIC -DPIC -o .libs/ocsp.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c' object='keyinfo.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o keyinfo.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c  -KPIC -DPIC -o .libs/keyinfo.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c' object='keyinfo.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o keyinfo.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/keyinfo.c  -KPIC -DPIC -o .libs/keyinfo.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c' object='oid.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o oid.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c  -KPIC -DPIC -o .libs/oid.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c' object='name.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o name.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c  -KPIC -DPIC -o .libs/name.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c' object='oid.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o oid.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/oid.c  -KPIC -DPIC -o .libs/oid.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c' object='dn.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o dn.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c  -KPIC -DPIC -o .libs/dn.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c' object='name.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o name.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/name.c  -KPIC -DPIC -o .libs/name.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c' object='dn.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o dn.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/dn.c  -KPIC -DPIC -o .libs/dn.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c' object='time.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o time.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c  -KPIC -DPIC -o .libs/time.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c' object='version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o version.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c  -KPIC -DPIC -o .libs/version.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c' object='util.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o util.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c' object='time.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o time.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c  -KPIC -DPIC -o .libs/util.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/time.c  -KPIC -DPIC -o .libs/time.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c' object='version.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o version.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c
+source='asn1-tables.c' object='asn1-tables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-tables.lo asn1-tables.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/version.c  -KPIC -DPIC -o .libs/version.o
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c asn1-tables.c  -KPIC -DPIC -o .libs/asn1-tables.o
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c' object='util.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o util.lo /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/util.c  -KPIC -DPIC -o .libs/util.o
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC    -version-info 18:0:10  -o libksba.la -rpath /usr/lib visibility.lo reader.lo writer.lo asn1-parse.lo asn1-func.lo asn1-func2.lo ber-help.lo ber-decoder.lo der-encoder.lo cert.lo cms.lo cms-parser.lo crl.lo certreq.lo ocsp.lo keyinfo.lo oid.lo name.lo dn.lo time.lo version.lo util.lo asn1-tables.lo   -lgpg-error 
+source='asn1-tables.c' object='asn1-tables.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o asn1-tables.lo asn1-tables.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -h libksba.so.8 -o .libs/libksba.so.8.10.0  .libs/visibility.o .libs/reader.o .libs/writer.o .libs/asn1-parse.o .libs/asn1-func.o .libs/asn1-func2.o .libs/ber-help.o .libs/ber-decoder.o .libs/der-encoder.o .libs/cert.o .libs/cms.o .libs/cms-parser.o .libs/crl.o .libs/certreq.o .libs/ocsp.o .libs/keyinfo.o .libs/oid.o .libs/name.o .libs/dn.o .libs/time.o .libs/version.o .libs/util.o .libs/asn1-tables.o   -lgpg-error -lc  -m32 -mt   -mt
+libtool: link: (cd ".libs" && rm -f "libksba.so.8" && ln -s "libksba.so.8.10.0" "libksba.so.8")
+libtool: link: (cd ".libs" && rm -f "libksba.so" && ln -s "libksba.so.8.10.0" "libksba.so")
+libtool: compile:  /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I.. -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c asn1-tables.c  -KPIC -DPIC -o .libs/asn1-tables.o
+libtool: link: ( cd ".libs" && rm -f "libksba.la" && ln -s "../libksba.la" "libksba.la" )
+source='ber-dump.c' object='ber_dump-ber-dump.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-dump.o `test -f 'ber-dump.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-dump.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC    -version-info 18:0:10  -o libksba.la -rpath /usr/lib/amd64 visibility.lo reader.lo writer.lo asn1-parse.lo asn1-func.lo asn1-func2.lo ber-help.lo ber-decoder.lo der-encoder.lo cert.lo cms.lo cms-parser.lo crl.lo certreq.lo ocsp.lo keyinfo.lo oid.lo name.lo dn.lo time.lo version.lo util.lo asn1-tables.lo   -lgpg-error 
+source='ber-decoder.c' object='ber_dump-ber-decoder.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-decoder.o `test -f 'ber-decoder.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-decoder.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -G -h libksba.so.8 -o .libs/libksba.so.8.10.0  .libs/visibility.o .libs/reader.o .libs/writer.o .libs/asn1-parse.o .libs/asn1-func.o .libs/asn1-func2.o .libs/ber-help.o .libs/ber-decoder.o .libs/der-encoder.o .libs/cert.o .libs/cms.o .libs/cms-parser.o .libs/crl.o .libs/certreq.o .libs/ocsp.o .libs/keyinfo.o .libs/oid.o .libs/name.o .libs/dn.o .libs/time.o .libs/version.o .libs/util.o .libs/asn1-tables.o   -lgpg-error -lc  -m64 -mt   -mt
+libtool: link: (cd ".libs" && rm -f "libksba.so.8" && ln -s "libksba.so.8.10.0" "libksba.so.8")
+libtool: link: (cd ".libs" && rm -f "libksba.so" && ln -s "libksba.so.8.10.0" "libksba.so")
+libtool: link: ( cd ".libs" && rm -f "libksba.la" && ln -s "../libksba.la" "libksba.la" )
+source='ber-dump.c' object='ber_dump-ber-dump.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-dump.o `test -f 'ber-dump.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-dump.c
+source='ber-decoder.c' object='ber_dump-ber-decoder.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-decoder.o `test -f 'ber-decoder.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-decoder.c
+source='ber-help.c' object='ber_dump-ber-help.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-help.o `test -f 'ber-help.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-help.c
+source='reader.c' object='ber_dump-reader.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-reader.o `test -f 'reader.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`reader.c
+source='ber-help.c' object='ber_dump-ber-help.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-ber-help.o `test -f 'ber-help.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`ber-help.c
+source='writer.c' object='ber_dump-writer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-writer.o `test -f 'writer.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`writer.c
+source='reader.c' object='ber_dump-reader.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-reader.o `test -f 'reader.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`reader.c
+source='asn1-parse.c' object='ber_dump-asn1-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-asn1-parse.o `test -f 'asn1-parse.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-parse.c
+source='writer.c' object='ber_dump-writer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-writer.o `test -f 'writer.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`writer.c
+source='asn1-parse.c' object='ber_dump-asn1-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-asn1-parse.o `test -f 'asn1-parse.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-parse.c
+source='asn1-func.c' object='ber_dump-asn1-func.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-asn1-func.o `test -f 'asn1-func.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-func.c
+source='asn1-func.c' object='ber_dump-asn1-func.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-asn1-func.o `test -f 'asn1-func.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`asn1-func.c
+source='oid.c' object='ber_dump-oid.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-oid.o `test -f 'oid.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`oid.c
+source='util.c' object='ber_dump-util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-util.o `test -f 'util.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`util.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+source='oid.c' object='ber_dump-oid.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-oid.o `test -f 'oid.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`oid.c
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a -mt
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+set -e; f="/dev/null"; \
+        for i in /etc/dumpasn1 /usr/local/bin /usr/local/share /usr/bin \
+                 /usr/share ; do \
+          if test -f $i/dumpasn1.cfg; then f=$i/dumpasn1.cfg; break; fi; \
+        done; gawk -f /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/mkoidtbl.awk $f >oidtranstbl.h
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert-basic.c' object='cert-basic.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert-basic.c
+source='util.c' object='ber_dump-util.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src -I..  -I../gl -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/gl   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c -o ber_dump-util.o `test -f 'util.c' || echo '/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/src/'`util.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o -lgpg-error ../gl/libgnu.la 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o ber-dump ber_dump-ber-dump.o ber_dump-ber-decoder.o ber_dump-ber-help.o ber_dump-reader.o ber_dump-writer.o ber_dump-asn1-parse.o ber_dump-asn1-func.o ber_dump-oid.o ber_dump-util.o  -lgpg-error ../gl/.libs/libgnu.a -mt
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+set -e; f="/dev/null"; \
+        for i in /etc/dumpasn1 /usr/local/bin /usr/local/share /usr/bin \
+                 /usr/share ; do \
+          if test -f $i/dumpasn1.cfg; then f=$i/dumpasn1.cfg; break; fi; \
+        done; gawk -f /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/mkoidtbl.awk $f >oidtranstbl.h
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert-basic.c' object='cert-basic.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert-basic.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o cert-basic cert-basic.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/cert-basic cert-basic.o  ../src/.libs/libksba.so -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-crl-parser.c' object='t-crl-parser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-crl-parser.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o cert-basic cert-basic.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/cert-basic cert-basic.o  ../src/.libs/libksba.so -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-crl-parser.c' object='t-crl-parser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-crl-parser.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-crl-parser t-crl-parser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-crl-parser t-crl-parser.o  ../src/.libs/libksba.so -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-dnparser.c' object='t-dnparser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-dnparser.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-dnparser t-dnparser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-dnparser t-dnparser.o  ../src/.libs/libksba.so -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-cms-parser.c' object='t-cms-parser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-cms-parser.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-crl-parser t-crl-parser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-crl-parser t-crl-parser.o  ../src/.libs/libksba.so -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-dnparser.c' object='t-dnparser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-dnparser.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-cms-parser t-cms-parser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-cms-parser t-cms-parser.o  ../src/.libs/libksba.so -lgpg-error -mt
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-ocsp.c' object='t-ocsp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-ocsp.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-dnparser t-dnparser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-dnparser t-dnparser.o  ../src/.libs/libksba.so -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-cms-parser.c' object='t-cms-parser.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-cms-parser.c
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/sha1.c' object='sha1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/sha1.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-cms-parser t-cms-parser.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-cms-parser t-cms-parser.o  ../src/.libs/libksba.so -lgpg-error -mt -R/usr/lib/amd64
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-ocsp.c' object='t-ocsp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/t-ocsp.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-ocsp t-ocsp.o sha1.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-ocsp t-ocsp.o sha1.o  ../src/.libs/libksba.so -lgpg-error -mt
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/m4'
+Making check in gl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/gl'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/src'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_dfn_pca01.der':
+  serial....: (#01# )
+  issuer....: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  subject...: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  notBefore.: 1998-10-29 18:03:10
+  notAfter..: 2001-12-31 18:03:10
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.16.840.1.113730.1.1 at 684 with length 4 
+Extn: 2.16.840.1.113730.1.2 at 703 with length 28 
+Extn: 2.16.840.1.113730.1.8 at 746 with length 52 
+Extn: 2.16.840.1.113730.1.13 at 813 with length 43 
+Extn: 2.16.840.1.113730.1.3 at 871 with length 20 
+Extn: 2.16.840.1.113730.1.4 at 906 with length 12 
+Extn: 2.5.29.19 at 930 with length 5 (critical)
+Extn: 2.5.29.15 at 944 with length 4 
+SubjectKeyIdentifier: none
+AuthorityKeyIdentifier: none
+This is a CA certificate with a path length of -1
+KeyUsage: certSign crlSign
+ExtKeyUsages: none
+CertificatePolicies: none
+
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_dfn_pca15.der':
+  serial....: (#15# )
+  issuer....: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  subject...: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Server Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  notBefore.: 2000-11-02 16:47:24
+  notAfter..: 2001-12-30 18:00:00
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.5.29.19 at 678 with length 5 (critical)
+Extn: 2.5.29.15 at 692 with length 4 
+Extn: 2.5.29.14 at 705 with length 22 
+Extn: 2.5.29.31 at 736 with length 120 
+Extn: 2.16.840.1.113730.1.1 at 871 with length 4 
+Extn: 2.16.840.1.113730.1.2 at 890 with length 28 
+Extn: 2.16.840.1.113730.1.8 at 933 with length 52 
+Extn: 2.16.840.1.113730.1.13 at 1003 with length 246 
+Extn: 2.16.840.1.113730.1.3 at 1264 with length 20 
+SubjectKeyIdentifier: (#F77B75D0707AA42A44035C08D3AC99D11DD30976# )
+AuthorityKeyIdentifier: none
+This is a CA certificate with a path length of -1
+KeyUsage: certSign crlSign
+ExtKeyUsages: none
+CertificatePolicies: none
+CRLDistPoint: http://www.pca.dfn.de/dfnpca/certify/ssl/dfnpca.crx
+     reasons: none
+      issuer: none
+CRLDistPoint: http://www.pca.dfn.de/dfnpca/certify/ssl/dfnpca.crl
+     reasons: none
+      issuer: none
+
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_g10code_test1.der':
+  serial....: (#00# )
+  issuer....: `CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE'
+  subject...: `CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE'
+  notBefore.: 2001-12-03 09:36:38
+  notAfter..: 2002-12-03 09:36:38
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.5.29.14 at 458 with length 22 
+Extn: 2.5.29.35 at 491 with length 141 
+Extn: 2.5.29.19 at 641 with length 5 
+SubjectKeyIdentifier: (#33378D1291C0547183385F0865BFA94BF98E34F3# )
+AuthorityKeyIdentifier: CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE
+                serial: (#00# )
+         keyIdentifier: (#33378D1291C0547183385F0865BFA94BF98E34F3# )
+This is a CA certificate with a path length of -1
+KeyUsage: Not specified
+ExtKeyUsages: none
+CertificatePolicies: none
+
+PASS: cert-basic
+*** checking `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/crl_testpki_testpca.der' ***
+digest algo: 1.2.840.113549.1.1.5
+issuer: `CN=TEST_PCA,O=TEST_PKI,C=DE'
+thisUpdate: 2002-01-14 07:00:28
+nextUpdate: 2002-02-14 07:00:28
+CRL entry 1: s=(#3A9CDB0B#), t=2001-02-28 14:55:19, r=8
+CRL entry 2: s=(#3AFBCFD4#), t=2001-05-14 11:16:43, r=8
+CRL entry 3: s=(#3B0A6AB9#), t=2001-05-29 13:15:53, r=8
+CRL entry 4: s=(#3B13A064#), t=2001-06-29 07:07:30, r=8
+CRL entry 5: s=(#3B3C287E#), t=2001-06-29 07:10:41, r=8
+CRL entry 6: s=(#3BC6BE08#), t=2001-10-30 08:20:07, r=1
+CRL entry 7: s=(#3BDE632A#), t=2001-11-07 12:17:16, r=1
+CRL entry 8: s=(#3BE92700#), t=2001-11-07 14:11:00, r=8
+CRL entry 9: s=(#3C187A6E#), t=2001-12-13 10:03:51, r=8
+CRL entry 10: s=(#3C187C8A#), t=2001-12-13 10:12:17, r=8
+AuthorityKeyIdentifier: CN=TEST_PCA,O=TEST_PKI,C=DE
+                serial: (#3A8D07C1#)
+crlNumber: (#0150#)
+Extn: 2.5.29.28   (2 octets)
+Extn: 2.5.29.35   (65 octets)
+Extn: 2.5.29.20   (4 octets)
+(sig-val(rsa(s#824C12A28BA3786D7EEC1FA7777EAEB215B9F65EBE710DB0E4A631D84AF1E10677C49C50103A33AC9FD6ABAA4F0D0D4093E23E00583FFF8BFF65E586EF63EDF6FC4477DAF6793C3B52CA167FA4720E698532D2169FDA9C034977FB11264A50CE5A3BC50E5419578678829676A464723ACFBAFB31DE71209E42D96F0968B52CC22C9CBF2320DFB78CE9AF9DF89F999455D064D3BFF5C7CD22D7120816918145A6E0B35D4C996535E67D1CC04E277A604BBCAD6B858D422DA636047309C249B959B9AA65E8FFDBFB84C2E62FEA5B6143E74087F28D89892B479AFBC2AC2AC8082AD894F31B5EA93C4F43754905B1FB0A170EE123143EAE722F7A2D199BB9CCEA10#)))
+PASS: t-crl-parser
+string ->C=de,O=foo,OU=,CN=joe<-  error at 14.10 (,CN=joe)
+string ->C=de,O=foo,OU= ,CN=joe<-  error at 15.11 (,CN=joe)
+string ->C=de,O=foo,OU="" ,CN=joe<-  error at 14.13 ("" ,CN=joe)
+string ->C=de,O=foo,OU=<-  error at 14.3 ()
+string ->C=de,O=foo,OU= <-  error at 15.4 ()
+string ->C=,O=foo,OU=bar <-  error at 2.16 (,O=foo,OU=bar )
+string ->C = ,O=foo,OU=bar <-  error at 4.18 (,O=foo,OU=bar )
+string ->C=<-  error at 2.2 ()
+string ->C=de,FOO=something,O=bar<-  error at 5.3 (FOO)
+string ->Y=foo, C=baz<-  error at 0.1 (Y)
+PASS: t-dnparser
+==================
+All 3 tests passed
+==================
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/tests'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/i86/.tested
+source='/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/sha1.c' object='sha1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -c /export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/sha1.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr  -Xc -xc99=all  -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC   -o t-ocsp t-ocsp.o sha1.o ../src/libksba.la -lgpg-error 
+libtool: link: /opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -Xc -xc99=all -mt -xinline=%auto -xbuiltin=%none -D_LARGEFILE64_SOURCE -Xc -xc99=all -D_XOPEN_SOURCE=600 -D__EXTENSIONS__=1 -D_XPG6 -D_POSIX_C_SOURCE=200112L -D_POSIX_PTHREAD_SEMANTICS -D_STDC_99 -KPIC -DPIC -o .libs/t-ocsp t-ocsp.o sha1.o  ../src/.libs/libksba.so -lgpg-error -mt -R/usr/lib/amd64
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/m4'
+Making check in gl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/gl'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/src'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+/usr/gnu/bin/make  check-TESTS
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_dfn_pca01.der':
+  serial....: (#01# )
+  issuer....: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  subject...: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  notBefore.: 1998-10-29 18:03:10
+  notAfter..: 2001-12-31 18:03:10
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.16.840.1.113730.1.1 at 684 with length 4 
+Extn: 2.16.840.1.113730.1.2 at 703 with length 28 
+Extn: 2.16.840.1.113730.1.8 at 746 with length 52 
+Extn: 2.16.840.1.113730.1.13 at 813 with length 43 
+Extn: 2.16.840.1.113730.1.3 at 871 with length 20 
+Extn: 2.16.840.1.113730.1.4 at 906 with length 12 
+Extn: 2.5.29.19 at 930 with length 5 (critical)
+Extn: 2.5.29.15 at 944 with length 4 
+SubjectKeyIdentifier: none
+AuthorityKeyIdentifier: none
+This is a CA certificate with a path length of -1
+KeyUsage: certSign crlSign
+ExtKeyUsages: none
+CertificatePolicies: none
+
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_dfn_pca15.der':
+  serial....: (#15# )
+  issuer....: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Top Level Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  subject...: `1.2.840.113549.1.9.1=#63657274696679407063612E64666E2E6465,CN=DFN Server Certification Authority,OU=DFN-PCA,O=Deutsches Forschungsnetz,C=DE'
+  notBefore.: 2000-11-02 16:47:24
+  notAfter..: 2001-12-30 18:00:00
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.5.29.19 at 678 with length 5 (critical)
+Extn: 2.5.29.15 at 692 with length 4 
+Extn: 2.5.29.14 at 705 with length 22 
+Extn: 2.5.29.31 at 736 with length 120 
+Extn: 2.16.840.1.113730.1.1 at 871 with length 4 
+Extn: 2.16.840.1.113730.1.2 at 890 with length 28 
+Extn: 2.16.840.1.113730.1.8 at 933 with length 52 
+Extn: 2.16.840.1.113730.1.13 at 1003 with length 246 
+Extn: 2.16.840.1.113730.1.3 at 1264 with length 20 
+SubjectKeyIdentifier: (#F77B75D0707AA42A44035C08D3AC99D11DD30976# )
+AuthorityKeyIdentifier: none
+This is a CA certificate with a path length of -1
+KeyUsage: certSign crlSign
+ExtKeyUsages: none
+CertificatePolicies: none
+CRLDistPoint: http://www.pca.dfn.de/dfnpca/certify/ssl/dfnpca.crx
+     reasons: none
+      issuer: none
+CRLDistPoint: http://www.pca.dfn.de/dfnpca/certify/ssl/dfnpca.crl
+     reasons: none
+      issuer: none
+
+Certificate in `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/cert_g10code_test1.der':
+  serial....: (#00# )
+  issuer....: `CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE'
+  subject...: `CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE'
+  notBefore.: 2001-12-03 09:36:38
+  notAfter..: 2002-12-03 09:36:38
+  hash algo.: 1.2.840.113549.1.1.4
+Extn: 2.5.29.14 at 458 with length 22 
+Extn: 2.5.29.35 at 491 with length 141 
+Extn: 2.5.29.19 at 641 with length 5 
+SubjectKeyIdentifier: (#33378D1291C0547183385F0865BFA94BF98E34F3# )
+AuthorityKeyIdentifier: CN=test cert 1,OU=Aegypten Project,O=g10 Code GmbH,L=Düsseldorf,C=DE
+                serial: (#00# )
+         keyIdentifier: (#33378D1291C0547183385F0865BFA94BF98E34F3# )
+This is a CA certificate with a path length of -1
+KeyUsage: Not specified
+ExtKeyUsages: none
+CertificatePolicies: none
+
+PASS: cert-basic
+*** checking `/export/home/drlou/illumos-userland-1248/components/libksba/libksba-1.1.0/tests/crl_testpki_testpca.der' ***
+digest algo: 1.2.840.113549.1.1.5
+issuer: `CN=TEST_PCA,O=TEST_PKI,C=DE'
+thisUpdate: 2002-01-14 07:00:28
+nextUpdate: 2002-02-14 07:00:28
+CRL entry 1: s=(#3A9CDB0B#), t=2001-02-28 14:55:19, r=8
+CRL entry 2: s=(#3AFBCFD4#), t=2001-05-14 11:16:43, r=8
+CRL entry 3: s=(#3B0A6AB9#), t=2001-05-29 13:15:53, r=8
+CRL entry 4: s=(#3B13A064#), t=2001-06-29 07:07:30, r=8
+CRL entry 5: s=(#3B3C287E#), t=2001-06-29 07:10:41, r=8
+CRL entry 6: s=(#3BC6BE08#), t=2001-10-30 08:20:07, r=1
+CRL entry 7: s=(#3BDE632A#), t=2001-11-07 12:17:16, r=1
+CRL entry 8: s=(#3BE92700#), t=2001-11-07 14:11:00, r=8
+CRL entry 9: s=(#3C187A6E#), t=2001-12-13 10:03:51, r=8
+CRL entry 10: s=(#3C187C8A#), t=2001-12-13 10:12:17, r=8
+AuthorityKeyIdentifier: CN=TEST_PCA,O=TEST_PKI,C=DE
+                serial: (#3A8D07C1#)
+crlNumber: (#0150#)
+Extn: 2.5.29.28   (2 octets)
+Extn: 2.5.29.35   (65 octets)
+Extn: 2.5.29.20   (4 octets)
+(sig-val(rsa(s#824C12A28BA3786D7EEC1FA7777EAEB215B9F65EBE710DB0E4A631D84AF1E10677C49C50103A33AC9FD6ABAA4F0D0D4093E23E00583FFF8BFF65E586EF63EDF6FC4477DAF6793C3B52CA167FA4720E698532D2169FDA9C034977FB11264A50CE5A3BC50E5419578678829676A464723ACFBAFB31DE71209E42D96F0968B52CC22C9CBF2320DFB78CE9AF9DF89F999455D064D3BFF5C7CD22D7120816918145A6E0B35D4C996535E67D1CC04E277A604BBCAD6B858D422DA636047309C249B959B9AA65E8FFDBFB84C2E62FEA5B6143E74087F28D89892B479AFBC2AC2AC8082AD894F31B5EA93C4F43754905B1FB0A170EE123143EAE722F7A2D199BB9CCEA10#)))
+PASS: t-crl-parser
+string ->C=de,O=foo,OU=,CN=joe<-  error at 14.10 (,CN=joe)
+string ->C=de,O=foo,OU= ,CN=joe<-  error at 15.11 (,CN=joe)
+string ->C=de,O=foo,OU="" ,CN=joe<-  error at 14.13 ("" ,CN=joe)
+string ->C=de,O=foo,OU=<-  error at 14.3 ()
+string ->C=de,O=foo,OU= <-  error at 15.4 ()
+string ->C=,O=foo,OU=bar <-  error at 2.16 (,O=foo,OU=bar )
+string ->C = ,O=foo,OU=bar <-  error at 4.18 (,O=foo,OU=bar )
+string ->C=<-  error at 2.2 ()
+string ->C=de,FOO=something,O=bar<-  error at 5.3 (FOO)
+string ->Y=foo, C=baz<-  error at 0.1 (Y)
+PASS: t-dnparser
+==================
+All 3 tests passed
+==================
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/tests'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libksba/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libksba/build/amd64/.tested

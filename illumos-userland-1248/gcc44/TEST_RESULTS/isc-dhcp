@@ -1,0 +1,206 @@
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making check in includes
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+Making check in tests
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake  libt_api.a
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: `libt_api.a' is up to date.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+Making check in common
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making check in tests
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake  test_alloc
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: `test_alloc' is up to date.
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake  check-TESTS
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+S:./test_alloc:Monday 05 March 00:41:28 2012
+T:buffer_allocate:1:A
+A:buffer_allocate basic test
+R:PASS
+T:buffer_reference:1:A
+A:buffer_reference basic test
+R:PASS
+T:buffer_dereference:1:A
+A:buffer_dereference basic test
+R:PASS
+T:data_string_forget:1:A
+A:data_string_forget basic test
+R:PASS
+T:data_string_forget, no buffer:1:A
+A:data_string_forget test, data_string without buffer
+R:PASS
+T:data_string_copy:1:A
+A:data_string_copy basic test
+R:PASS
+T:data_string_copy, no buffer:1:A
+A:data_string_copy test, data_string without buffer
+R:PASS
+E:./test_alloc:Monday 05 March 00:41:28 2012
+PASS: test_alloc
+==================
+All 1 tests passed
+==================
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Nothing to be done for `check-am'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+Making check in minires
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+Making check in dst
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+Making check in omapip
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+Making check in client
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+Making check in dhcpctl
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+Making check in relay
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+Making check in server
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check-am'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'

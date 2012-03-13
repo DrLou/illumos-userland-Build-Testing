@@ -1,0 +1,3 @@
+(cd Markdown-2.0.3/test; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland/components/python/markdown/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		/usr/bin/python2.6 ./runtests.py )

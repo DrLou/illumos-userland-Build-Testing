@@ -1,0 +1,790 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1 /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1 to /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --sysconfdir=/etc/inet --sbindir=/usr/lib/inet --bindir=/usr/sbin CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for ranlib... ranlib
+checking whether byte ordering is bigendian... no
+-n checking for dhcpd.leases location...
+/var/lib/dhcpd.leases
+-n checking for dhcpd6.leases location...
+/var/lib/dhcpd6.leases
+-n checking for dhclient.leases location...
+/var/lib/dhclient.leases
+-n checking for dhclient6.leases location...
+/var/lib/dhclient6.leases
+checking for int8_t... yes
+checking for int16_t... yes
+checking for int32_t... yes
+checking for int64_t... yes
+checking for u_int8_t... no
+checking for uint8_t... yes
+checking for u_int16_t... no
+checking for uint16_t... yes
+checking for u_int32_t... no
+checking for uint32_t... yes
+checking for u_int64_t... no
+checking for uint64_t... yes
+checking ifaddrs.h usability... yes
+checking ifaddrs.h presence... yes
+checking for ifaddrs.h... yes
+checking linux/types.h usability... no
+checking linux/types.h presence... no
+checking for linux/types.h... no
+checking for linux/filter.h... no
+checking sys/dlpi.h usability... yes
+checking sys/dlpi.h presence... yes
+checking for sys/dlpi.h... yes
+checking for struct lifnum... yes
+checking for struct if_laddrconf... no
+checking for struct if_laddrreq... no
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking net/if_dl.h usability... yes
+checking net/if_dl.h presence... yes
+checking for net/if_dl.h... yes
+checking net/if6.h usability... no
+checking net/if6.h presence... no
+checking for net/if6.h... no
+checking regex.h usability... yes
+checking regex.h presence... yes
+checking for regex.h... yes
+checking for library containing socket... -lsocket
+checking for library containing inet_ntoa... -lnsl
+checking for library containing inet_aton... none required
+checking for library containing regcomp... none required
+checking for library containing if_nametoindex... none required
+checking for /dev/random... yes
+checking for struct sockaddr.sa_len... no
+checking for struct iaddr *... yes
+checking size of struct iaddr *... 4
+checking for struct msghdr.msg_control... no
+checking for struct msghdr.msg_control... yes
+checking for flexible array members... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating client/Makefile
+config.status: creating common/Makefile
+config.status: creating common/tests/Makefile
+config.status: creating dhcpctl/Makefile
+config.status: creating dst/Makefile
+config.status: creating includes/Makefile
+config.status: creating minires/Makefile
+config.status: creating omapip/Makefile
+config.status: creating relay/Makefile
+config.status: creating server/Makefile
+config.status: creating tests/Makefile
+config.status: creating includes/config.h
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making all in includes
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+Making all in common
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='alloc.c' object='alloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c alloc.c
+source='bpf.c' object='bpf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c bpf.c
+source='comapi.c' object='comapi.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c comapi.c
+source='conflex.c' object='conflex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c conflex.c
+source='ctrace.c' object='ctrace.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ctrace.c
+source='discover.c' object='discover.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c discover.c
+source='dispatch.c' object='dispatch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dispatch.c
+source='dlpi.c' object='dlpi.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dlpi.c
+source='dns.c' object='dns.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dns.c
+source='ethernet.c' object='ethernet.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ethernet.c
+source='execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c execute.c
+source='fddi.c' object='fddi.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c fddi.c
+source='icmp.c' object='icmp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c icmp.c
+source='inet.c' object='inet.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c inet.c
+source='lpf.c' object='lpf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c lpf.c
+source='memory.c' object='memory.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c memory.c
+source='nit.c' object='nit.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c nit.c
+source='options.c' object='options.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c options.c
+source='packet.c' object='packet.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c packet.c
+source='parse.c' object='parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c parse.c
+source='print.c' object='print.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c print.c
+source='raw.c' object='raw.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c raw.c
+source='resolv.c' object='resolv.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c resolv.c
+source='socket.c' object='socket.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c socket.c
+source='tables.c' object='tables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c tables.c
+source='tr.c' object='tr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c tr.c
+source='tree.c' object='tree.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c tree.c
+source='upf.c' object='upf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c upf.c
+source='heap.c' object='heap.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c heap.c
+rm -f libdhcp.a
+ar cru libdhcp.a alloc.o bpf.o comapi.o conflex.o ctrace.o discover.o dispatch.o dlpi.o dns.o ethernet.o execute.o fddi.o icmp.o inet.o lpf.o memory.o nit.o options.o packet.o parse.o print.o raw.o resolv.o socket.o tables.o tr.o tree.o upf.o heap.o 
+ranlib libdhcp.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+Making all in minires
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='res_mkupdate.c' object='res_mkupdate.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_mkupdate.c
+source='res_init.c' object='res_init.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_init.c
+source='res_update.c' object='res_update.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_update.c
+source='res_send.c' object='res_send.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_send.c
+source='res_comp.c' object='res_comp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_comp.c
+source='res_sendsigned.c' object='res_sendsigned.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_sendsigned.c
+source='res_findzonecut.c' object='res_findzonecut.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_findzonecut.c
+source='res_query.c' object='res_query.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_query.c
+source='res_mkquery.c' object='res_mkquery.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c res_mkquery.c
+source='ns_date.c' object='ns_date.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_date.c
+source='ns_parse.c' object='ns_parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_parse.c
+source='ns_sign.c' object='ns_sign.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_sign.c
+source='ns_name.c' object='ns_name.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_name.c
+source='ns_samedomain.c' object='ns_samedomain.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_samedomain.c
+source='ns_verify.c' object='ns_verify.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/minires -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ns_verify.c
+rm -f libres.a
+ar cru libres.a res_mkupdate.o res_init.o res_update.o res_send.o res_comp.o res_sendsigned.o res_findzonecut.o res_query.o res_mkquery.o ns_date.o ns_parse.o ns_sign.o ns_name.o ns_samedomain.o ns_verify.o 
+ranlib libres.a
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+Making all in dst
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='dst_support.c' object='dst_support.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dst_support.c
+source='dst_api.c' object='dst_api.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dst_api.c
+source='hmac_link.c' object='hmac_link.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c hmac_link.c
+source='md5_dgst.c' object='md5_dgst.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c md5_dgst.c
+source='base64.c' object='base64.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c base64.c
+source='prandom.c' object='prandom.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dst -I../includes  -DMINIRES_LIB -DHMAC_MD5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c prandom.c
+rm -f libdst.a
+ar cru libdst.a dst_support.o dst_api.o hmac_link.o md5_dgst.o base64.o prandom.o 
+ranlib libdst.a
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+Making all in omapip
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='protocol.c' object='protocol.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c protocol.c
+source='buffer.c' object='buffer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c buffer.c
+source='alloc.c' object='alloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c alloc.c
+source='result.c' object='result.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c result.c
+source='connection.c' object='connection.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c connection.c
+source='errwarn.c' object='errwarn.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c errwarn.c
+source='listener.c' object='listener.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c listener.c
+source='dispatch.c' object='dispatch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dispatch.c
+source='generic.c' object='generic.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c generic.c
+source='support.c' object='support.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c support.c
+source='handle.c' object='handle.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c handle.c
+source='message.c' object='message.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c message.c
+source='convert.c' object='convert.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c convert.c
+source='hash.c' object='hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c hash.c
+source='auth.c' object='auth.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c auth.c
+source='inet_addr.c' object='inet_addr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c inet_addr.c
+source='array.c' object='array.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c array.c
+source='trace.c' object='trace.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c trace.c
+source='mrtrace.c' object='mrtrace.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c mrtrace.c
+source='toisc.c' object='toisc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c toisc.c
+source='iscprint.c' object='iscprint.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c iscprint.c
+rm -f libomapi.a
+ar cru libomapi.a protocol.o buffer.o alloc.o result.o connection.o errwarn.o listener.o dispatch.o generic.o support.o handle.o message.o convert.o hash.o auth.o inet_addr.o array.o trace.o mrtrace.o toisc.o iscprint.o 
+ranlib libomapi.a
+source='test.c' object='test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/omapip -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c test.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o svtest test.o libomapi.a ../dst/libdst.a -lnsl -lsocket 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+Making all in client
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='clparse.c' object='clparse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/client -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c clparse.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/client -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -DCLIENT_PATH='"PATH=/usr/lib/inet:/sbin:/bin:/usr/sbin:/usr/bin"' \
+		   -DLOCALSTATEDIR='"/var"' -c dhclient.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/client -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -DCLIENT_PATH='"PATH=/usr/lib/inet:/sbin:/bin:/usr/sbin:/usr/bin"' \
+		   -DLOCALSTATEDIR='"/var"' -c dhc6.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o dhclient clparse.o dhclient.o dhc6.o ../common/libdhcp.a ../minires/libres.a ../omapip/libomapi.a ../dst/libdst.a -lnsl -lsocket 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+Making all in dhcpctl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='dhcpctl.c' object='dhcpctl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dhcpctl -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcpctl.c
+source='callback.c' object='callback.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dhcpctl -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c callback.c
+source='remote.c' object='remote.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dhcpctl -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c remote.c
+rm -f libdhcpctl.a
+ar cru libdhcpctl.a dhcpctl.o callback.o remote.o 
+ranlib libdhcpctl.a
+source='omshell.c' object='omshell.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dhcpctl -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c omshell.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o omshell omshell.o libdhcpctl.a ../common/libdhcp.a ../minires/libres.a ../omapip/libomapi.a ../dst/libdst.a -lnsl -lsocket 
+source='cltest.c' object='cltest.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/dhcpctl -I../includes     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c cltest.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o cltest cltest.o libdhcpctl.a ../common/libdhcp.a ../minires/libres.a ../omapip/libomapi.a ../dst/libdst.a -lnsl -lsocket 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+Making all in relay
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='dhcrelay.c' object='dhcrelay.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/relay -I../includes  -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcrelay.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o dhcrelay dhcrelay.o ../common/libdhcp.a ../omapip/libomapi.a ../dst/libdst.a ../minires/libres.a -lnsl -lsocket 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+Making all in server
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && /usr/gnu/bin/make  am--refresh
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='dhcpd.c' object='dhcpd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcpd.c
+source='dhcp.c' object='dhcp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcp.c
+source='bootp.c' object='bootp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c bootp.c
+source='confpars.c' object='confpars.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c confpars.c
+source='db.c' object='db.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c db.c
+source='class.c' object='class.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c class.c
+source='failover.c' object='failover.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c failover.c
+source='omapi.c' object='omapi.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c omapi.c
+source='mdb.c' object='mdb.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c mdb.c
+source='stables.c' object='stables.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c stables.c
+source='salloc.c' object='salloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c salloc.c
+source='ddns.c' object='ddns.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c ddns.c
+source='dhcpleasequery.c' object='dhcpleasequery.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcpleasequery.c
+source='dhcpv6.c' object='dhcpv6.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c dhcpv6.c
+source='mdb6.c' object='mdb6.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/server -I../includes  -I.. -DLOCALSTATEDIR='"/var"'   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c mdb6.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o dhcpd dhcpd.o dhcp.o bootp.o confpars.o db.o class.o failover.o omapi.o mdb.o stables.o salloc.o ddns.o dhcpleasequery.o dhcpv6.o mdb6.o ../common/libdhcp.a ../omapip/libomapi.a ../dst/libdst.a ../dhcpctl/libdhcpctl.a ../minires/libres.a ../omapip/libomapi.a -lnsl -lsocket 
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/.built
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making check in includes
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/includes'
+Making check in tests
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake  libt_api.a
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='t_api.c' object='t_api.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/tests -I../includes  -I..   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c t_api.c
+source='t_api_dhcp.c' object='t_api_dhcp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/tests -I../includes  -I..   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c t_api_dhcp.c
+rm -f libt_api.a
+ar cru libt_api.a t_api.o t_api_dhcp.o 
+ranlib libt_api.a
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/tests'
+Making check in common
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+Making check in tests
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake  test_alloc
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+source='test_alloc.c' object='test_alloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/isc-dhcp/dhcp-4.1-ESV-R1/common/tests -I../../includes  -I../..   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__  -c test_alloc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -DUSE_SOCKETS -D_XOPEN_SOURCE -D_XOPEN_SOURCE_EXTENDED=1 -D__EXTENSIONS__    -o test_alloc test_alloc.o ../libdhcp.a ../../tests/libt_api.a ../../omapip/libomapi.a ../../dst/libdst.a ../../minires/libres.a -lnsl -lsocket 
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake  check-TESTS
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd ../.. && gmake  am--refresh
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+S:./test_alloc:Sunday 04 March 13:57:43 2012
+T:buffer_allocate:1:A
+A:buffer_allocate basic test
+R:PASS
+T:buffer_reference:1:A
+A:buffer_reference basic test
+R:PASS
+T:buffer_dereference:1:A
+A:buffer_dereference basic test
+R:PASS
+T:data_string_forget:1:A
+A:data_string_forget basic test
+R:PASS
+T:data_string_forget, no buffer:1:A
+A:data_string_forget test, data_string without buffer
+R:PASS
+T:data_string_copy:1:A
+A:data_string_copy basic test
+R:PASS
+T:data_string_copy, no buffer:1:A
+A:data_string_copy test, data_string without buffer
+R:PASS
+E:./test_alloc:Sunday 04 March 13:57:43 2012
+PASS: test_alloc
+==================
+All 1 tests passed
+==================
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common/tests'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Nothing to be done for `check-am'.
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/common'
+Making check in minires
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/minires'
+Making check in dst
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dst'
+Making check in omapip
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/omapip'
+Making check in client
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/client'
+Making check in dhcpctl
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/dhcpctl'
+Making check in relay
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/relay'
+Making check in server
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+cd .. && gmake  am--refresh
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86/server'
+gmake[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[2]: Nothing to be done for `check-am'.
+gmake[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/isc-dhcp/build/i86'

@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/subversion/subversion-1.6.16
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/subversion/subversion-1.6.16 -p0 --backup --version-control=numbered < patches/000-Makefile.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  subversion-1.6.16.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/subversion/subversion-1.6.16/.unpacked

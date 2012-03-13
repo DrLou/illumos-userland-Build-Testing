@@ -1,0 +1,1347 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/ruby/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/ruby/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/ruby/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr/ruby/1.8 --mandir=/usr/ruby/1.8/share/man --bindir=/usr/ruby/1.8/bin --libdir=/usr/ruby/1.8/lib --sbindir=/usr/ruby/1.8/sbin  --enable-dtrace --enable-shared --enable-install-doc --disable-option-checking --with-openssl --with-tk-dir=/usr --with-curses-dir=/usr CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking whether the linker is GNU ld... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc -E accepts -o... yes
+checking for bison... bison -y
+checking for ranlib... ranlib
+checking for ar... ar
+checking for as... as
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for minix/config.h... (cached) no
+checking whether it is safe to define __EXTENSIONS__... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for long long... yes
+checking for off_t... yes
+checking size of int... 4
+checking size of short... 2
+checking size of long... 4
+checking size of long long... 8
+checking size of __int64... 0
+checking size of off_t... 8
+checking size of void*... 4
+checking size of float... 4
+checking size of double... 8
+checking size of time_t... 4
+checking for pid_t... yes
+checking for gid_t... yes
+checking for uid_t... yes
+checking for prototypes... yes
+checking token paste string... ansi
+checking for variable length prototypes and stdarg.h... yes
+checking for noreturn function attribute... __attribute__ ((noreturn)) x
+checking for noinline function attribute... __attribute__ ((noinline)) x
+checking for RUBY_EXTERN... no
+checking whether sys_nerr is declared... no
+checking for crypt in -lcrypt... yes
+checking for dlopen in -ldl... yes
+checking for shl_load in -ldld... no
+checking for clock_gettime in -lrt... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/syscall.h usability... yes
+checking sys/syscall.h presence... yes
+checking for sys/syscall.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking sys/fcntl.h usability... yes
+checking sys/fcntl.h presence... yes
+checking for sys/fcntl.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking syscall.h usability... no
+checking syscall.h presence... no
+checking for syscall.h... no
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking a.out.h usability... no
+checking a.out.h presence... no
+checking for a.out.h... no
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking for memory.h... (cached) yes
+checking direct.h usability... no
+checking direct.h presence... no
+checking for direct.h... no
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/mkdev.h usability... yes
+checking sys/mkdev.h presence... yes
+checking for sys/mkdev.h... yes
+checking sys/utime.h usability... yes
+checking sys/utime.h presence... yes
+checking for sys/utime.h... yes
+checking netinet/in_systm.h usability... yes
+checking netinet/in_systm.h presence... yes
+checking for netinet/in_systm.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking ieeefp.h usability... yes
+checking ieeefp.h presence... yes
+checking for ieeefp.h... yes
+checking pthread.h usability... yes
+checking pthread.h presence... yes
+checking for pthread.h... yes
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking intrinsics.h usability... no
+checking intrinsics.h presence... no
+checking for intrinsics.h... no
+checking time.h usability... yes
+checking time.h presence... yes
+checking for time.h... yes
+checking sys/sdt.h usability... yes
+checking sys/sdt.h presence... yes
+checking for sys/sdt.h... yes
+checking size of rlim_t... 8
+checking for size_t... yes
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_blocks... yes
+checking for struct stat.st_rdev... yes
+checking for int8_t... yes
+checking size of int8_t... 1
+checking for uint8_t... yes
+checking size of uint8_t... 1
+checking for int16_t... yes
+checking size of int16_t... 2
+checking for uint16_t... yes
+checking size of uint16_t... 2
+checking for int32_t... yes
+checking size of int32_t... 4
+checking for uint32_t... yes
+checking size of uint32_t... 4
+checking for int64_t... yes
+checking size of int64_t... 8
+checking for uint64_t... yes
+checking size of uint64_t... 8
+checking for int128_t... no
+checking for uint128_t... no
+checking for struct timezone... yes
+checking for uid_t in sys/types.h... (cached) yes
+checking type of array argument to getgroups... gid_t
+checking return type of signal handlers... void
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for working memcmp... yes
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for ftello... yes
+checking for broken erfc of glibc-2.3.6 on IA64... no
+checking for dup2... yes
+checking for memmove... yes
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for strchr... yes
+checking for strstr... yes
+checking for strtoul... yes
+checking for crypt... yes
+checking for flock... no
+checking for vsnprintf... yes
+checking for isnan... yes
+checking for finite... yes
+checking for isinf... (cached) yes
+checking for hypot... yes
+checking for acosh... yes
+checking for erf... yes
+checking for fmod... yes
+checking for killpg... yes
+checking for wait4... yes
+checking for waitpid... yes
+checking for syscall... yes
+checking for chroot... yes
+checking for fsync... yes
+checking for getcwd... yes
+checking for eaccess... no
+checking for truncate... yes
+checking for ftruncate... yes
+checking for chsize... no
+checking for times... yes
+checking for utimes... yes
+checking for fcntl... yes
+checking for lockf... yes
+checking for lstat... yes
+checking for symlink... yes
+checking for link... yes
+checking for readlink... yes
+checking for setitimer... yes
+checking for setruid... no
+checking for seteuid... yes
+checking for setreuid... yes
+checking for setresuid... no
+checking for setproctitle... no
+checking for setrgid... no
+checking for setegid... yes
+checking for setregid... yes
+checking for setresgid... no
+checking for issetugid... yes
+checking for pause... yes
+checking for lchown... yes
+checking for lchmod... no
+checking for getpgrp... yes
+checking for setpgrp... yes
+checking for getpgid... yes
+checking for setpgid... yes
+checking for initgroups... yes
+checking for getgroups... yes
+checking for setgroups... yes
+checking for getpriority... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for sysconf... yes
+checking for group_member... no
+checking for dlopen... yes
+checking for sigprocmask... yes
+checking for sigaction... yes
+checking for sigsetjmp... yes
+checking for _setjmp... yes
+checking for _longjmp... yes
+checking for setsid... yes
+checking for telldir... yes
+checking for seekdir... yes
+checking for fchmod... yes
+checking for mktime... yes
+checking for timegm... yes
+checking for gettimeofday... yes
+checking for cosh... yes
+checking for sinh... yes
+checking for tanh... yes
+checking for round... yes
+checking for setuid... yes
+checking for setgid... yes
+checking for setenv... yes
+checking for unsetenv... yes
+checking for __builtin_setjmp... yes
+checking for setjmp type... __builtin_setjmp
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... no
+checking whether tzname is declared... yes
+checking for tzname... yes
+checking for struct tm.tm_gmtoff... no
+checking for external int daylight... yes
+checking for external timezone... long
+checking for external altzone... long
+checking for negative time_t for gmtime(3)... yes
+checking whether getpgrp requires zero arguments... yes
+checking whether setpgrp takes no argument... yes
+checking whether byte ordering is bigendian... no
+checking for an ANSI C-conforming const... yes
+checking whether char is unsigned... no
+checking for inline... inline
+checking for working volatile... yes
+checking whether right shift preserve sign bit... yes
+checking read count field in FILE structures... _cnt
+checking read buffer ptr field in FILE structures... _ptr
+checking whether need to seek between R/W... yes
+checking whether st_ino is huge... yes
+checking whether _SC_CLK_TCK is supported... yes
+checking stack growing direction... (cached) -1
+checking whether ELF binaries are produced... yes
+checking whether OS depend dynamic link works... yes
+checking for nroff... /usr/bin/nroff
+creating config.h
+configure: creating ./config.status
+config.status: creating Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ruby/build/i86/.configured
+/bin/cp -f /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/dtrace.d /export/home/drlou/illumos-userland-1248/components/ruby/build/i86 
+(cd /export/home/drlou/illumos-userland-1248/components/ruby/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign  "  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/array.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/bignum.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/class.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/compar.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/dir.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/dln.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/enum.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/enumerator.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/error.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/eval.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/file.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/gc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/hash.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/inits.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/io.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/marshal.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/math.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/numeric.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/object.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/pack.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/parse.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/process.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/prec.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/random.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/range.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/re.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/regex.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ruby.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/signal.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/sprintf.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/st.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/string.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/struct.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/time.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/tracer.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/util.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/variable.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/version.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/missing/flock.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/dmyext.c
+/usr/sbin/dtrace -G -o dtrace.o -s dtrace.d array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o tracer.o util.o variable.o version.o flock.o 
+ar rcu libruby-static.a array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o tracer.o util.o variable.o version.o flock.o  dmyext.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/main.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -L.  -R/usr/ruby/1.8/lib   main.o  libruby-static.a dtrace.o -lrt -ldl -lcrypt -lm   -o miniruby
+rbconfig.rb updated
+ld -G   array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o tracer.o util.o variable.o version.o flock.o  dmyext.o dtrace.o -lrt -ldl -lcrypt -lm   -o libruby.so.1
+Extension gdbm has been disabled by the build
+compiling readline
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/readline'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/readline -DHAVE_READLINE_READLINE_H -DHAVE_READLINE_HISTORY_H -DHAVE_RL_FILENAME_COMPLETION_FUNCTION -DHAVE_RL_USERNAME_COMPLETION_FUNCTION -DHAVE_RL_COMPLETION_MATCHES -DHAVE_RL_DEPREP_TERM_FUNCTION -DHAVE_RL_COMPLETION_APPEND_CHARACTER -DHAVE_RL_BASIC_WORD_BREAK_CHARACTERS -DHAVE_RL_COMPLETER_WORD_BREAK_CHARACTERS -DHAVE_RL_BASIC_QUOTE_CHARACTERS -DHAVE_RL_COMPLETER_QUOTE_CHARACTERS -DHAVE_RL_FILENAME_QUOTE_CHARACTERS -DHAVE_RL_ATTEMPTED_COMPLETION_OVER -DHAVE_RL_LIBRARY_VERSION -DHAVE_RL_EVENT_HOOK -DHAVE_RL_CLEANUP_AFTER_SIGNAL -DHAVE_RL_CLEAR_SIGNALS -DHAVE_RL_VI_EDITING_MODE -DHAVE_RL_EMACS_EDITING_MODE -DHAVE_REPLACE_HISTORY_ENTRY -DHAVE_REMOVE_HISTORY -I/usr/include  -D_FILE_OFFSET_BITS=64  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/readline/readline.c
+ar cru readline.a readline.o
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/readline'
+compiling Win32API
+compiling bigdecimal
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/bigdecimal'
+mkdir -p ../../.ext/i386-solaris2.11
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal -DBASE=10000UL -DBASE_FIG=4  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/bigdecimal.c
+ld -G -o ../../.ext/i386-solaris2.11/bigdecimal.so bigdecimal.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../.ext/common/bigdecimal
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/lib/bigdecimal/jacobian.rb ../../.ext/common/bigdecimal
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/lib/bigdecimal/newton.rb ../../.ext/common/bigdecimal
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/lib/bigdecimal/ludcmp.rb ../../.ext/common/bigdecimal
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/lib/bigdecimal/util.rb ../../.ext/common/bigdecimal
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/bigdecimal/lib/bigdecimal/math.rb ../../.ext/common/bigdecimal
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/bigdecimal'
+compiling curses
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/curses'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/curses -DHAVE_NCURSES_CURSES_H -DHAVE_CURSES_H -DHAVE_BEEP -DHAVE_BKGD -DHAVE_BKGDSET -DHAVE_CURS_SET -DHAVE_DELETELN -DHAVE_DOUPDATE -DHAVE_FLASH -DHAVE_GETBKGD -DHAVE_ISENDWIN -DHAVE_KEYNAME -DHAVE_KEYPAD -DHAVE_SCRL -DHAVE_SETSCRREG -DHAVE_UNGETCH -DHAVE_WATTROFF -DHAVE_WATTRON -DHAVE_WATTRSET -DHAVE_WBKGD -DHAVE_WBKGDSET -DHAVE_WDELETELN -DHAVE_WGETNSTR -DHAVE_WSCRL -DHAVE_WSETSCRREG -DHAVE_DEF_PROG_MODE -DHAVE_RESET_PROG_MODE -DHAVE_TIMEOUT -DHAVE_WTIMEOUT -DHAVE_NODELAY -DHAVE_INIT_COLOR -I/usr/include  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/curses/curses.c
+ld -G -o ../../.ext/i386-solaris2.11/curses.so curses.o -L. -L../.. -L/usr/lib -R/usr/lib -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lcurses -ltermcap  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/curses'
+compiling dbm
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/dbm'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dbm -DHAVE_DBM_OPEN -DHAVE_TYPE_DBM -DHAVE_DBM_CLEARERR -DDBM_HDR="<ndbm.h>"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dbm/dbm.c
+ld -G -o ../../.ext/i386-solaris2.11/dbm.so dbm.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/dbm'
+compiling digest
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/digest.c
+ld -G -o ../../.ext/i386-solaris2.11/digest.so digest.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/lib/digest.rb ../../.ext/common
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/lib/sha1.rb ../../.ext/common
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/lib/md5.rb ../../.ext/common
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/digest.h ../../.ext/i386-solaris2.11
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest'
+compiling digest/bubblebabble
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/bubblebabble'
+mkdir -p ../../../.ext/i386-solaris2.11/digest
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/bubblebabble -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/bubblebabble/.. -DHAVE_CONFIG_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/bubblebabble/bubblebabble.c
+ld -G -o ../../../.ext/i386-solaris2.11/digest/bubblebabble.so bubblebabble.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/bubblebabble'
+compiling digest/md5
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/md5'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_MD5_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5/md5init.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_MD5_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/md5/md5ossl.c
+ld -G -o ../../../.ext/i386-solaris2.11/digest/md5.so md5init.o md5ossl.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lcrypto  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/md5'
+compiling digest/rmd160
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/rmd160'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_OPENSSL_RIPEMD_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160/rmd160init.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160/.. -DNDEBUG -DHAVE_CONFIG_H -DHAVE_OPENSSL_RIPEMD_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/rmd160/rmd160ossl.c
+ld -G -o ../../../.ext/i386-solaris2.11/digest/rmd160.so rmd160init.o rmd160ossl.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lcrypto  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/rmd160'
+compiling digest/sha1
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/sha1'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_SHA_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1/sha1init.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1/.. -DHAVE_CONFIG_H -DHAVE_OPENSSL_SHA_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha1/sha1ossl.c
+ld -G -o ../../../.ext/i386-solaris2.11/digest/sha1.so sha1init.o sha1ossl.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lcrypto  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/sha1'
+compiling digest/sha2
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/sha2'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2/sha2.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2/.. -DHAVE_CONFIG_H -DHAVE_INTTYPES_H -DHAVE_UNISTD_H -DHAVE_TYPE_UINT64_T  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2/sha2init.c
+ld -G -o ../../../.ext/i386-solaris2.11/digest/sha2.so sha2.o sha2init.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../../.ext/common/digest
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/digest/sha2/lib/sha2.rb ../../../.ext/common/digest
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/digest/sha2'
+compiling dl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/dl'
+Generating call.func
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_FILE_OFFSET_BITS=64  -I. -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/sym.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_FILE_OFFSET_BITS=64  -I. -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/handle.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_FILE_OFFSET_BITS=64  -I. -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/ptr.c
+Generating callback.func
+Generating cbtable.func
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl -DHAVE_DLFCN_H -DHAVE_DLOPEN -DHAVE_DLCLOSE -DHAVE_DLSYM -DHAVE_DLERROR  -D_FILE_OFFSET_BITS=64  -I. -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/dl.c
+ld -G -o ../../.ext/i386-solaris2.11/dl.so sym.o handle.o ptr.o dl.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -ldl  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../.ext/common/dl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/lib/dl/import.rb ../../.ext/common/dl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/lib/dl/struct.rb ../../.ext/common/dl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/lib/dl/types.rb ../../.ext/common/dl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/lib/dl/win32.rb ../../.ext/common/dl
+cp dlconfig.h ../../.ext/i386-solaris2.11
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/dl/dl.h ../../.ext/i386-solaris2.11
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/dl'
+compiling etc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/etc'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/etc -DHAVE_GETLOGIN -DHAVE_GETPWENT -DHAVE_GETGRENT -DHAVE_ST_PW_GECOS -DHAVE_ST_PW_AGE -DPW_AGE2VAL=safe_setup_str -DHAVE_ST_PW_COMMENT -DHAVE_ST_PW_PASSWD -DHAVE_ST_GR_PASSWD -DHAVE_TYPE_UID_T -DPW_UID2VAL=UINT2NUM -DPW_VAL2UID=NUM2UINT -DHAVE_TYPE_GID_T -DPW_GID2VAL=UINT2NUM -DPW_VAL2GID=NUM2UINT  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/etc/etc.c
+ld -G -o ../../.ext/i386-solaris2.11/etc.so etc.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/etc'
+compiling fcntl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/fcntl'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/fcntl -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/fcntl/fcntl.c
+ld -G -o ../../.ext/i386-solaris2.11/fcntl.so fcntl.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/fcntl'
+compiling iconv
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/iconv'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/iconv -DHAVE_ICONV -DICONV_INPTR_CONST  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/iconv/iconv.c
+ld -G -o ../../.ext/i386-solaris2.11/iconv.so iconv.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/iconv'
+compiling io/wait
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/io/wait'
+mkdir -p ../../../.ext/i386-solaris2.11/io
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/io/wait -DFIONREAD_HEADER="<sys/filio.h>"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/io/wait/wait.c
+ld -G -o ../../../.ext/i386-solaris2.11/io/wait.so wait.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../../.ext/common/io
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/io/wait/lib/nonblock.rb ../../../.ext/common/io
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/io/wait'
+compiling nkf
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/nkf'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/nkf -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/nkf/nkf.c
+ld -G -o ../../.ext/i386-solaris2.11/nkf.so nkf.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/nkf/lib/kconv.rb ../../.ext/common
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/nkf'
+compiling openssl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/openssl'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509crl.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_bn.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_asn1.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509ext.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509cert.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkey.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/openssl_missing.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkey_dh.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_bio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_digest.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_cipher.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkey_rsa.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkey_ec.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_ssl.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkcs12.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509revoked.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_config.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkcs5.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509store.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509req.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkey_dsa.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509name.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_rand.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_ssl_session.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_hmac.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_ns_spki.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_x509attr.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_pkcs7.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_ocsp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl -DRUBY_EXTCONF_H=\"extconf.h\"  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/ossl_engine.c
+ld -G -o ../../.ext/i386-solaris2.11/openssl.so ossl_x509crl.o ossl_bn.o ossl_asn1.o ossl_x509ext.o ossl_x509cert.o ossl_pkey.o openssl_missing.o ossl_pkey_dh.o ossl_x509.o ossl_bio.o ossl_digest.o ossl.o ossl_cipher.o ossl_pkey_rsa.o ossl_pkey_ec.o ossl_ssl.o ossl_pkcs12.o ossl_x509revoked.o ossl_config.o ossl_pkcs5.o ossl_x509store.o ossl_x509req.o ossl_pkey_dsa.o ossl_x509name.o ossl_rand.o ossl_ssl_session.o ossl_hmac.o ossl_ns_spki.o ossl_x509attr.o ossl_pkcs7.o ossl_ocsp.o ossl_engine.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lssl -lcrypto -lsocket -lnsl  -lrt -ldl -lcrypt -lm   -lc
+mkdir -p ../../.ext/common/openssl
+mkdir -p ../../.ext/common/net
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl.rb ../../.ext/common
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/x509.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/ssl-internal.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/pkcs7.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/bn.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/cipher.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/ssl.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/digest.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/config.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/x509-internal.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/openssl/buffering.rb ../../.ext/common/openssl
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/net/ftptls.rb ../../.ext/common/net
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/openssl/lib/net/telnets.rb ../../.ext/common/net
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/openssl'
+compiling pty
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/pty'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/pty -DHAVE_SYS_STROPTS_H -DHAVE_PTSNAME  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/pty/pty.c
+ld -G -o ../../.ext/i386-solaris2.11/pty.so pty.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/pty/lib/expect.rb ../../.ext/common
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/pty'
+compiling racc/cparse
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/racc/cparse'
+mkdir -p ../../../.ext/i386-solaris2.11/racc
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/racc/cparse -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/racc/cparse/cparse.c
+ld -G -o ../../../.ext/i386-solaris2.11/racc/cparse.so cparse.o -L. -L../../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/racc/cparse'
+compiling sdbm
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/sdbm'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/sdbm -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/sdbm/_sdbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/sdbm -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/sdbm/init.c
+ld -G -o ../../.ext/i386-solaris2.11/sdbm.so _sdbm.o init.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/sdbm'
+compiling socket
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/socket'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/socket -DHAVE_ARPA_INET_H -DENABLE_IPV6 -DINET6 -DHAVE_SOCKADDR_STORAGE -DHAVE_NETINET_TCP_H -DHAVE_NETINET_UDP_H -DHAVE_SENDMSG -DHAVE_RECVMSG -DHAVE_ST_MSG_ACCRIGHTS -DHAVE_TYPE_STRUCT_ADDRINFO -DHAVE_FREEHOSTENT -DHAVE_FREEADDRINFO -DHAVE_GAI_STRERROR -DGAI_STRERROR_CONST -DHAVE_GETNAMEINFO -DHAVE_GETADDRINFO -DHAVE_TYPE_SOCKLEN_T -DHAVE_SYS_UN_H -DHAVE_SYS_UIO_H -DHAVE_SOCKET -DHAVE_GETIPNODEBYNAME -DHAVE_SOCKETPAIR -DHAVE_GETHOSTNAME  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/socket/socket.c
+ld -G -o ../../.ext/i386-solaris2.11/socket.so socket.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lsocket -lnsl  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/socket'
+compiling stringio
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/stringio'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/stringio -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/stringio/stringio.c
+ld -G -o ../../.ext/i386-solaris2.11/stringio.so stringio.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/stringio'
+compiling strscan
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/strscan'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/strscan -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/strscan/strscan.c
+ld -G -o ../../.ext/i386-solaris2.11/strscan.so strscan.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/strscan'
+compiling syck
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/syck'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/emitter.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/syck.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/token.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/implicit.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/bytecode.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/node.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/gram.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/yaml2byte.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/rubyext.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck -DHAVE_ST_H  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syck/handler.c
+ld -G -o ../../.ext/i386-solaris2.11/syck.so emitter.o syck.o token.o implicit.o bytecode.o node.o gram.o yaml2byte.o rubyext.o handler.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/syck'
+compiling syslog
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/syslog'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syslog -DHAVE_SYSLOG_H -DHAVE_OPENLOG -DHAVE_SETLOGMASK  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/syslog/syslog.c
+ld -G -o ../../.ext/i386-solaris2.11/syslog.so syslog.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/syslog'
+compiling thread
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/thread'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/thread -D_FILE_OFFSET_BITS=64  -DUSE_MEM_POOLS -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/thread/thread.c
+ld -G -o ../../.ext/i386-solaris2.11/thread.so thread.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby  -lrt -ldl -lcrypt -lm   -lc
+cp /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/thread/lib/thread.rb ../../.ext/common
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/thread'
+compiling tk
+*****************************************************************************
+**
+** PTHREAD SUPPORT MODE ERROR: 
+**
+**   Ruby is not compiled with --enable-pthread, but your Tcl/Tk 
+**   library seems to be compiled with pthread support. This
+**   combination may cause frequent hang or segmentation fault
+**   errors when Ruby/Tk is working. We recommend that you NEVER
+**   create the library with such a combination of pthread support.
+**
+**   Please recompile Ruby with the "--enable-pthread" configure option
+**   or recompile Tcl/Tk with the "--disable-threads" configure option.
+**
+*****************************************************************************
+compiling tk/tkutil
+compiling win32ole
+compiling zlib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/zlib'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -I. -I../.. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334 -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/zlib -DHAVE_ZLIB_H  -DOS_CODE=OS_UNIX  -D_FILE_OFFSET_BITS=64  -KPIC -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC   -c /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/zlib/zlib.c
+ld -G -o ../../.ext/i386-solaris2.11/zlib.so zlib.o -L. -L../.. -L.     -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lz  -lrt -ldl -lcrypt -lm   -lc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86/ext/zlib'
+LIBRUBY_SO_UPDATE=$(LIBRUBY_EXTS)
+SETUP=/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/Setup
+DLDOBJS=ext/extinit.o ext/readline/readline.a
+EXTLIBS=-lreadline -ltermcap
+EXTLDFLAGS=-L/usr/lib -R/usr/lib -L.
+making ruby
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT   -I. -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334    -o ext/extinit.o -c ext/extinit.c
+ld -G -L/usr/lib -R/usr/lib -L.  array.o bignum.o class.o compar.o dir.o dln.o enum.o enumerator.o error.o eval.o file.o gc.o hash.o inits.o io.o marshal.o math.o numeric.o object.o pack.o parse.o process.o prec.o random.o range.o re.o regex.o ruby.o signal.o sprintf.o st.o string.o struct.o time.o tracer.o util.o variable.o version.o flock.o  ext/extinit.o ext/readline/readline.a dtrace.o -lrt -ldl -lcrypt -lm  -lreadline -ltermcap -o libruby.so.1
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -KPIC    -DRUBY_EXPORT  -L.  -R/usr/ruby/1.8/lib -L/usr/lib -R/usr/lib -L.  main.o  dtrace.o gc.o eval.o tracer.o -R /usr/ruby/1.8/lib -L/usr/ruby/1.8/lib -lruby -lrt -ldl -lcrypt -lm  -lreadline -ltermcap -o ruby
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ruby/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/ruby/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'
+test succeeded
+./miniruby -I/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib -I.ext/common -I./- -r/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/ext/purelib.rb  /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/runruby.rb --extout=.ext  -- "/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/runner.rb" --basedir="/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test" --runner=console 
+Loaded suite .
+Started
+.........................................................................................................................................................................................................................................................................................EEEE..E............................................................F.......................................................................................................................................................................................................................................................................................................................................................F.......................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................E......FEEEEEEE............................................................EEEEEEEEEEEEEE..........................................................................................................................................................................................F.......................................F........EEEEEEEEEEEEEEEEEE..EE.EEEEEE.EE....................................................................................................................................................................................
+Finished in 178.248624 seconds.
+
+  1) Error:
+test_close(TestIconv::Basic):
+Iconv::InvalidEncoding: invalid encoding ("Shift_JIS", "EUC-JP")
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:13:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:13:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:13:in `test_close'
+
+  2) Error:
+test_euc2sjis(TestIconv::Basic):
+Iconv::InvalidEncoding: invalid encoding ("SHIFT_JIS", "EUC-JP")
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:5:in `open'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:5:in `test_euc2sjis'
+
+  3) Error:
+test_open_with_block(TestIconv::Basic):
+Iconv::InvalidEncoding: invalid encoding ("Shift_JIS", "EUC-JP")
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:37:in `open'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:37:in `test_open_with_block'
+
+  4) Error:
+test_open_without_block(TestIconv::Basic):
+Iconv::InvalidEncoding: invalid encoding ("SHIFT_JIS", "EUC-JP")
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:27:in `open'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_basic.rb:27:in `test_open_without_block'
+
+  5) Error:
+test_partial_euc2sjis(TestIconv::Partial):
+NoMethodError: undefined method `close' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/iconv/test_partial.rb:39:in `test_partial_euc2sjis'
+
+  6) Failure:
+test_connection_refused_in_request(TestHTTP::HTTPConnectionTest) [/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/net/http/test_connection.rb:20]:
+[ruby-core:28028].
+<EOFError> exception expected but was
+Class: <Errno::EINVAL>
+Message: <"Invalid argument - connect(2)">
+---Backtrace---
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:560:in `initialize'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:560:in `open'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:560:in `connect'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/timeout.rb:53:in `timeout'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/timeout.rb:101:in `timeout'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:560:in `connect'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:553:in `do_start'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:542:in `start'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1035:in `request'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:948:in `request_get'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/net/http/test_connection.rb:22:in `test_connection_refused_in_request'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/net/http/test_connection.rb:20:in `test_connection_refused_in_request'
+---------------
+
+  7) Failure:
+test_readline(TestReadline) [/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/readline/test_readline.rb:25]:
+<"> "> expected but was
+<"\e[">.
+
+  8) Error:
+test_calc_cgi(SOAP::Calc::TestCalcCGI):
+REXML::ParseException: Missing end tag for 'HR' (got "BODY")
+Line: 
+Position: 
+Last 80 unconsumed characters:
+ </HTML> 
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/baseparser.rb:330:in `pull'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/streamparser.rb:16:in `parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/document.rb:201:in `parse_stream'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/xsd/xmlparser/rexmlparser.rb:27:in `do_parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/parser.rb:92:in `parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/processor.rb:39:in `unmarshal'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:236:in `unmarshal'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:175:in `route'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:141:in `call'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:178:in `call'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:232:in `add'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/calc/test_calc_cgi.rb:55:in `test_calc_cgi'
+
+  9) Failure:
+test_authfailure(SOAP::Header::TestAuthHeaderCGI) [/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:113]:
+<RuntimeError> exception expected but was
+Class: <REXML::ParseException>
+Message: <"Missing end tag for 'HR' (got \"BODY\")\nLine: \nPosition: \nLast 80 unconsumed characters:\n </HTML> ">
+---Backtrace---
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/baseparser.rb:330:in `pull'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/streamparser.rb:16:in `parse'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/document.rb:201:in `parse_stream'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/xsd/xmlparser/rexmlparser.rb:27:in `do_parse'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/parser.rb:92:in `parse'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/processor.rb:39:in `unmarshal'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:236:in `unmarshal'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:175:in `route'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:141:in `call'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:178:in `call'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:232:in `deposit'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:114:in `test_authfailure'
+/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:113:in `test_authfailure'
+---------------
+
+ 10) Error:
+test_authfailure(SOAP::Header::TestAuthHeaderCGI):
+REXML::ParseException: Missing end tag for 'HR' (got "BODY")
+Line: 
+Position: 
+Last 80 unconsumed characters:
+ </HTML> 
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/baseparser.rb:330:in `pull'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/parsers/streamparser.rb:16:in `parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/rexml/document.rb:201:in `parse_stream'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/xsd/xmlparser/rexmlparser.rb:27:in `do_parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/parser.rb:92:in `parse'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/processor.rb:39:in `unmarshal'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:236:in `unmarshal'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:175:in `route'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/proxy.rb:141:in `call'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:178:in `call'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/driver.rb:232:in `delete_sessiondb'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:87:in `teardown'
+
+ 11) Error:
+test_success(SOAP::Header::TestAuthHeaderCGI):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:62:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:62:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:54:in `setup'
+
+ 12) Error:
+test_success(SOAP::Header::TestAuthHeaderCGI):
+NoMethodError: undefined method `delete_sessiondb' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_authheader_cgi.rb:87:in `teardown'
+
+ 13) Error:
+test_string(SOAP::Header::TestSimpleHandler):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:27:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:78:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:78:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:73:in `setup'
+
+ 14) Error:
+test_string(SOAP::Header::TestSimpleHandler):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:97:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/header/test_simplehandler.rb:92:in `teardown'
+
+ 15) Error:
+test_hello_world(SOAP::HelloWorld::TestHelloWorld):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/helloworld/test_helloworld.rb:14:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/helloworld/test_helloworld.rb:14:in `setup'
+
+ 16) Error:
+test_hello_world(SOAP::HelloWorld::TestHelloWorld):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/helloworld/test_helloworld.rb:26:in `teardown'
+
+ 17) Error:
+test_struct(SOAP::Struct::TestStruct):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/struct/test_struct.rb:31:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/struct/test_struct.rb:31:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/struct/test_struct.rb:26:in `setup'
+
+ 18) Error:
+test_struct(SOAP::Struct::TestStruct):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/struct/test_struct.rb:53:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/struct/test_struct.rb:48:in `teardown'
+
+ 19) Error:
+test_get_file(SOAP::SWA::TestFile):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:29:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:29:in `setup'
+
+ 20) Error:
+test_get_file(SOAP::SWA::TestFile):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:44:in `teardown'
+
+ 21) Error:
+test_put_file(SOAP::SWA::TestFile):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:29:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:29:in `setup'
+
+ 22) Error:
+test_put_file(SOAP::SWA::TestFile):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/swa/test_file.rb:44:in `teardown'
+
+ 23) Error:
+test_old_driver(SOAP::TestCalc):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:29:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:29:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:24:in `setup'
+
+ 24) Error:
+test_old_driver(SOAP::TestCalc):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:49:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:44:in `teardown'
+
+ 25) Error:
+test_rpc_driver(SOAP::TestCalc):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:29:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:29:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:24:in `setup'
+
+ 26) Error:
+test_rpc_driver(SOAP::TestCalc):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:49:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_calc.rb:44:in `teardown'
+
+ 27) Error:
+test_document(SOAP::TestDocument):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_document.rb:32:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_document.rb:32:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_document.rb:27:in `setup'
+
+ 28) Error:
+test_document(SOAP::TestDocument):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_document.rb:50:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_document.rb:45:in `teardown'
+
+ 29) Error:
+test_ping(SOAP::TestSimpleType):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_simpletype.rb:32:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_simpletype.rb:32:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_simpletype.rb:27:in `setup'
+
+ 30) Error:
+test_ping(SOAP::TestSimpleType):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_simpletype.rb:56:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/soap/wsdlDriver/test_simpletype.rb:51:in `teardown'
+
+ 31) Failure:
+test_cgi(TestWEBrickCGI)
+    [/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_cgi.rb:20:in `test_cgi'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1054:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:2144:in `reading_body'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1053:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1037:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:543:in `start'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1035:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_cgi.rb:20:in `test_cgi'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:44:in `call'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:44:in `start_server'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:52:in `start_httpserver'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_cgi.rb:17:in `test_cgi']:
+<"/webrick.cgi"> expected but was
+<"<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\">\n<HTML>\n  <HEAD><TITLE>Internal Server Error</TITLE></HEAD>\n  <BODY>\n    <H1>Internal Server Error</H1>\n    Premature end of script headers: /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/webrick.cgi\n    <HR>\n    <ADDRESS>\n     WEBrick/1.3.1 (Ruby/1.8.7/2011-02-18) OpenSSL/1.0.0d at\n     127.0.0.1:64002\n    </ADDRESS>\n  </BODY>\n</HTML>\n">.
+
+ 32) Failure:
+test_script_disclosure(WEBrick::TestFileHandler)
+    [/export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_filehandler.rb:246:in `test_script_disclosure'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1054:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:2144:in `reading_body'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1053:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1037:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:543:in `start'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/net/http.rb:1035:in `request'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_filehandler.rb:245:in `test_script_disclosure'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:44:in `call'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:44:in `start_server'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/utils.rb:52:in `start_httpserver'
+     /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/webrick/test_filehandler.rb:241:in `test_script_disclosure']:
+<"200"> expected but was
+<"500">.
+
+ 33) Error:
+test_datetime(WSDL::Datetime::TestDatetime):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/DatetimeService.rb:23:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:21:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:21:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:16:in `setup'
+
+ 34) Error:
+test_datetime(WSDL::Datetime::TestDatetime):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:43:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:38:in `teardown'
+
+ 35) Error:
+test_time(WSDL::Datetime::TestDatetime):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/DatetimeService.rb:23:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:21:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:21:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:16:in `setup'
+
+ 36) Error:
+test_time(WSDL::Datetime::TestDatetime):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:43:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/datetime/test_datetime.rb:38:in `teardown'
+
+ 37) Error:
+test_with_soapaction(WSDL::Document::TestNoSOAPAction):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:62:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:62:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:52:in `setup'
+
+ 38) Error:
+test_with_soapaction(WSDL::Document::TestNoSOAPAction):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:68:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:57:in `teardown'
+
+ 39) Error:
+test_without_soapaction(WSDL::Document::TestNoSOAPAction):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:62:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:62:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:52:in `setup'
+
+ 40) Error:
+test_without_soapaction(WSDL::Document::TestNoSOAPAction):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:68:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_nosoapaction.rb:57:in `teardown'
+
+ 41) Error:
+test_wsdl(WSDL::Document::TestNumber):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_number.rb:46:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_number.rb:46:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_number.rb:34:in `setup'
+
+ 42) Error:
+test_wsdl(WSDL::Document::TestNumber):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_number.rb:63:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_number.rb:40:in `teardown'
+
+ 43) Error:
+test_naive(WSDL::Document::TestRPC):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:59:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:59:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:47:in `setup'
+
+ 44) Error:
+test_naive(WSDL::Document::TestRPC):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:76:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:53:in `teardown'
+
+ 45) Error:
+test_wsdl(WSDL::Document::TestRPC):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:59:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:59:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:47:in `setup'
+
+ 46) Error:
+test_wsdl(WSDL::Document::TestRPC):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:76:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/document/test_rpc.rb:53:in `teardown'
+
+ 47) Error:
+test_by_wsdl(WSDL::TestMap):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:34:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:34:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:29:in `setup'
+
+ 48) Error:
+test_by_wsdl(WSDL::TestMap):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:61:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:56:in `teardown'
+
+ 49) Error:
+test_wsdldriver(WSDL::TestMap):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:34:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:34:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:29:in `setup'
+
+ 50) Error:
+test_wsdldriver(WSDL::TestMap):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:61:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/map/test_map.rb:56:in `teardown'
+
+ 51) Error:
+test_raa(WSDL::RAA::TestRAA):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/RAAService.rb:85:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/test_raa.rb:23:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/test_raa.rb:23:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/test_raa.rb:18:in `setup'
+
+ 52) Error:
+test_raa(WSDL::RAA::TestRAA):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/test_raa.rb:43:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/raa/test_raa.rb:38:in `teardown'
+
+ 53) Error:
+test_wsdl(WSDL::RPC::TestRPC):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/rpc/test_rpc.rb:57:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/rpc/test_rpc.rb:57:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/rpc/test_rpc.rb:45:in `setup'
+
+ 54) Error:
+test_wsdl(WSDL::RPC::TestRPC):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/rpc/test_rpc.rb:74:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/rpc/test_rpc.rb:51:in `teardown'
+
+ 55) Error:
+test_ping(WSDL::SimpleType::TestSimpleType):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:42:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:42:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:37:in `setup'
+
+ 56) Error:
+test_ping(WSDL::SimpleType::TestSimpleType):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:61:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:56:in `teardown'
+
+ 57) Error:
+test_ping_id(WSDL::SimpleType::TestSimpleType):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:42:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:42:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:37:in `setup'
+
+ 58) Error:
+test_ping_id(WSDL::SimpleType::TestSimpleType):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:61:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/simpletype/test_simpletype.rb:56:in `teardown'
+
+ 59) Error:
+test_soapbodyparts(WSDL::SOAP::TestSOAPBodyParts):
+Errno::EADDRINUSE: Address already in use - bind(2)
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:73:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `each'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/utils.rb:70:in `create_listeners'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/ssl.rb:87:in `listen'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/server.rb:63:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/webrick/httpserver.rb:24:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/httpserver.rb:33:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/lib/soap/rpc/standaloneServer.rb:22:in `initialize'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/soap/test_soapbodyparts.rb:39:in `new'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/soap/test_soapbodyparts.rb:39:in `setup_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/soap/test_soapbodyparts.rb:34:in `setup'
+
+ 60) Error:
+test_soapbodyparts(WSDL::SOAP::TestSOAPBodyParts):
+NoMethodError: undefined method `shutdown' for nil:NilClass
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/soap/test_soapbodyparts.rb:60:in `teardown_server'
+    /export/home/drlou/illumos-userland-1248/components/ruby/ruby-1.8.7-p334/test/wsdl/soap/test_soapbodyparts.rb:55:in `teardown'
+
+2235 tests, 1347822 assertions, 5 failures, 55 errors
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ruby/build/i86'

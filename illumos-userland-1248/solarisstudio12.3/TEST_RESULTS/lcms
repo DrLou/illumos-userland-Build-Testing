@@ -1,0 +1,954 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/lcms/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/lcms/build/i86)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19 /export/home/drlou/illumos-userland-1248/components/lcms/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19 to /export/home/drlou/illumos-userland-1248/components/lcms/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64)
+(/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19 /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19 to /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" CXXFLAGS="-norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs" PYTHON="/usr/bin/python2.6" PYTHONMODULEDIR="/usr/lib/python2.6/vendor-packages" PKG_CONFIG_PATH="PKG_CONFIG_PATH.32" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --includedir=/usr/include/lcms --enable-shared --disable-static --with-jpeg --with-tiff --with-zlib --with-python --with-pic)
+(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE" CXXFLAGS="-norunpath -m64 -D_LARGEFILE64_SOURCE -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs" PYTHON="/usr/bin/amd64/python2.6" PYTHONMODULEDIR="/usr/lib/python2.6/vendor-packages/64" PKG_CONFIG_PATH="PKG_CONFIG_PATH.64" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --includedir=/usr/include/lcms --enable-shared --disable-static --with-jpeg --with-tiff --with-zlib --with-python --with-pic)
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking whether build environment is sane... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking whether build environment is sane... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... checking for C compiler default output file name... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C99... none
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C99... none needed
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... none needed
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO Standard C... (cached) none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for a sed that does not truncate output... checking for a sed that does not truncate output... /usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+/usr/bin/gsed
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... checking whether we are using the GNU C++ compiler... /usr/bin/ggrep -E
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether make sets $(MAKE)... (cached) yes
+checking whether ln -s works... yes
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath accepts -g... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath... yes
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath... none
+checking whether /usr/bin/python2.6 version >= 2.2... yes
+checking for /usr/bin/python2.6 version... none
+checking whether /usr/bin/amd64/python2.6 version >= 2.2... 2.6
+checking for /usr/bin/python2.6 platform... sunos5
+checking for /usr/bin/python2.6 script directory... /usr/lib/python2.6/vendor-packages
+checking for /usr/bin/python2.6 extension module directory... /usr/lib/python2.6/vendor-packages
+checking for /usr/include/python2.6/Python.h... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking how to recognize dependent libraries... pass_all
+checking for ANSI C header files... yes
+checking for /usr/bin/amd64/python2.6 version... 2.6
+checking for /usr/bin/amd64/python2.6 platform... sunos5
+checking for /usr/bin/amd64/python2.6 script directory... /usr/lib/python2.6/vendor-packages/64
+checking for /usr/bin/amd64/python2.6 extension module directory... /usr/lib/python2.6/vendor-packages/64
+yes
+checking for sys/types.h... checking for /usr/include/python2.6/Python.h... yes
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking how to recognize dependent libraries... pass_all
+checking for ANSI C header files... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for sys/types.h... yes
+checking for memory.h... yes
+checking for sys/stat.h... yes
+checking for strings.h... yes
+checking for stdlib.h... yes
+checking for inttypes.h... yes
+checking for string.h... yes
+checking for stdint.h... yes
+checking for memory.h... yes
+checking for unistd.h... yes
+checking for strings.h... yes
+checking dlfcn.h usability... yes
+checking for inttypes.h... yes
+checking dlfcn.h presence... yes
+yes
+checking for dlfcn.h... yes
+checking for stdint.h... checking how to run the C++ preprocessor... yes
+checking for unistd.h... /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -E
+yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... yes
+checking for dlfcn.h... yes
+checking how to run the C++ preprocessor... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -E
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... 262144
+checking command to parse /usr/bin/nm -p output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... unsupported
+checking whether stripping libraries is possible... no
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath PIC flag -KPIC works... configure: creating libtool
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath static flag -Bstatic works... appending configuration tag "CXX" to libtool
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for inline... inline
+checking whether byte ordering is bigendian... no
+checking for int... appending configuration tag "F77" to libtool
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for inline... yes
+checking size of int... inline
+checking whether byte ordering is bigendian... 4
+checking for unsigned int... no
+checking for int... yes
+checking size of unsigned int... yes
+checking size of int... 4
+checking for long... 4
+checking for unsigned int... yes
+checking size of long... yes
+checking size of unsigned int... 4
+checking for unsigned long... 4
+checking for long... yes
+checking size of unsigned long... yes
+checking size of long... 4
+checking for long long... 8
+checking for unsigned long... yes
+checking size of long long... yes
+checking size of unsigned long... 8
+checking for unsigned long long... 8
+checking for long long... yes
+checking size of unsigned long long... yes
+checking size of long long... 8
+checking for signed 8-bit type... char
+checking for unsigned 8-bit type... unsigned char
+checking for signed 16-bit type... short
+checking for unsigned 16-bit type... unsigned short
+checking for signed 32-bit type... int
+checking for unsigned 32-bit type... unsigned int
+checking for signed 64-bit type... long long
+checking for unsigned 64-bit type... unsigned long long
+checking for sqrt in -lm... 8
+checking for unsigned long long... yes
+checking for JPEG support ... 
+checking jconfig.h usability... yes
+checking jconfig.h presence... yes
+checking size of unsigned long long... yes
+checking for jconfig.h... yes
+checking jerror.h usability... yes
+checking jerror.h presence... 8
+checking for signed 8-bit type... char
+checking for unsigned 8-bit type... unsigned char
+checking for signed 16-bit type... short
+checking for unsigned 16-bit type... unsigned short
+checking for signed 32-bit type... int
+checking for unsigned 32-bit type... unsigned int
+checking for signed 64-bit type... long
+checking for unsigned 64-bit type... unsigned long
+checking for sqrt in -lm... yes
+checking for jerror.h... yes
+checking jmorecfg.h usability... yes
+checking for JPEG support ... 
+checking jconfig.h usability... yes
+checking jmorecfg.h presence... yes
+checking for jmorecfg.h... yes
+checking jpeglib.h usability... yes
+checking jconfig.h presence... yes
+checking for jconfig.h... yes
+checking jerror.h usability... yes
+checking jpeglib.h presence... yes
+checking for jpeglib.h... yes
+checking for jpeg_read_header in -ljpeg... yes
+checking jerror.h presence... yes
+checking for jerror.h... yes
+checking jmorecfg.h usability... yes
+checking for JPEG library is version 6b or later... yes
+checking jmorecfg.h presence... yes
+yes
+checking if JPEG package is complete... yes
+checking for ZLIB support ... 
+checking zconf.h usability... yes
+checking for jmorecfg.h... yes
+checking jpeglib.h usability... yes
+checking zconf.h presence... yes
+checking jpeglib.h presence... yes
+checking for zconf.h... yes
+checking zlib.h usability... yes
+checking for jpeglib.h... yes
+checking for jpeg_read_header in -ljpeg... yes
+checking zlib.h presence... yes
+checking for zlib.h... yes
+checking for compress in -lz... yes
+checking for uncompress in -lz... yes
+checking for JPEG library is version 6b or later... yes
+checking for deflate in -lz... yes
+yes
+checking if JPEG package is complete... yes
+checking for ZLIB support ... 
+checking zconf.h usability... yes
+checking for inflate in -lz... yes
+checking zconf.h presence... yes
+checking for zconf.h... yes
+checking zlib.h usability... yes
+checking for gzseek in -lz... yes
+checking zlib.h presence... yes
+checking for gztell in -lz... yes
+checking for zlib.h... yes
+checking for compress in -lz... yes
+checking if ZLIB package is complete... yes
+yes
+checking for TIFF support ... 
+checking tiff.h usability... checking for uncompress in -lz... yes
+checking tiff.h presence... yes
+checking for deflate in -lz... yes
+checking for tiff.h... yes
+checking tiffio.h usability... yes
+checking for inflate in -lz... yes
+checking tiffio.h presence... yes
+checking for tiffio.h... yes
+checking for TIFFOpen in -ltiff... yes
+checking for gzseek in -lz... yes
+checking for TIFFClientOpen in -ltiff... yes
+checking for gztell in -lz... yes
+checking for TIFFIsByteSwapped in -ltiff... yes
+checking if ZLIB package is complete... yes
+checking for TIFF support ... 
+checking tiff.h usability... yes
+checking if TIFF package is complete... yes
+checking tiffconf.h usability... yes
+checking tiff.h presence... yes
+checking for tiff.h... yes
+checking tiffio.h usability... yes
+checking tiffconf.h presence... yes
+checking for tiffconf.h... yes
+yes
+checking tiffio.h presence... yes
+checking for tiffio.h... yes
+checking for TIFFOpen in -ltiff... configure: creating ./config.status
+yes
+checking for TIFFClientOpen in -ltiff... yes
+checking for TIFFIsByteSwapped in -ltiff... config.status: creating Makefile
+config.status: creating lcms.pc
+yes
+checking if TIFF package is complete... yes
+checking tiffconf.h usability... config.status: creating include/icc34.h
+config.status: creating include/Makefile
+config.status: creating jpegicc/Makefile
+yes
+checking tiffconf.h presence... config.status: creating python/Makefile
+yes
+checking for tiffconf.h... yes
+config.status: creating samples/Makefile
+config.status: creating testbed/Makefile
+config.status: creating tifficc/Makefile
+config.status: creating src/Makefile
+config.status: executing depfiles commands
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lcms.pc
+config.status: creating include/icc34.h
+config.status: creating include/Makefile
+config.status: creating jpegicc/Makefile
+config.status: creating python/Makefile
+config.status: creating samples/Makefile
+config.status: creating testbed/Makefile
+config.status: creating tifficc/Makefile
+( cd /export/home/drlou/illumos-userland-1248/components/lcms/build/i86; /bin/cp -f -p /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/lcms.h ./include/ ; /bin/rm -f -f /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/icc34.h ; /bin/cp -f -p include/icc34.h /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/ )
+config.status: creating src/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+Making all in src
+config.status: executing depfiles commands
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/src'
+source='cmscnvrt.c' object='cmscnvrt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmscnvrt.lo cmscnvrt.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmscnvrt.c  -KPIC -DPIC -o .libs/cmscnvrt.o
+source='cmserr.c' object='cmserr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmserr.lo cmserr.c
+( cd /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64; /bin/cp -f -p /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/lcms.h ./include/ ; /bin/rm -f -f /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/icc34.h ; /bin/cp -f -p include/icc34.h /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include/ )
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/src'
+source='cmscnvrt.c' object='cmscnvrt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmscnvrt.lo cmscnvrt.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmserr.c  -KPIC -DPIC -o .libs/cmserr.o
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmscnvrt.c  -KPIC -DPIC -o .libs/cmscnvrt.o
+source='cmsgamma.c' object='cmsgamma.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsgamma.lo cmsgamma.c
+source='cmserr.c' object='cmserr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmserr.lo cmserr.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsgamma.c  -KPIC -DPIC -o .libs/cmsgamma.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmserr.c  -KPIC -DPIC -o .libs/cmserr.o
+source='cmsgamma.c' object='cmsgamma.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsgamma.lo cmsgamma.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsgamma.c  -KPIC -DPIC -o .libs/cmsgamma.o
+source='cmsgmt.c' object='cmsgmt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsgmt.lo cmsgmt.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsgmt.c  -KPIC -DPIC -o .libs/cmsgmt.o
+source='cmsgmt.c' object='cmsgmt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsgmt.lo cmsgmt.c
+source='cmsintrp.c' object='cmsintrp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsintrp.lo cmsintrp.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsgmt.c  -KPIC -DPIC -o .libs/cmsgmt.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsintrp.c  -KPIC -DPIC -o .libs/cmsintrp.o
+source='cmsintrp.c' object='cmsintrp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsintrp.lo cmsintrp.c
+source='cmsio0.c' object='cmsio0.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsio0.lo cmsio0.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsintrp.c  -KPIC -DPIC -o .libs/cmsintrp.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsio0.c  -KPIC -DPIC -o .libs/cmsio0.o
+source='cmsio1.c' object='cmsio1.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsio1.lo cmsio1.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsio1.c  -KPIC -DPIC -o .libs/cmsio1.o
+source='cmsio0.c' object='cmsio0.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsio0.lo cmsio0.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsio0.c  -KPIC -DPIC -o .libs/cmsio0.o
+source='cmsio1.c' object='cmsio1.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsio1.lo cmsio1.c
+source='cmslut.c' object='cmslut.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmslut.lo cmslut.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsio1.c  -KPIC -DPIC -o .libs/cmsio1.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmslut.c  -KPIC -DPIC -o .libs/cmslut.o
+source='cmsmatsh.c' object='cmsmatsh.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsmatsh.lo cmsmatsh.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsmatsh.c  -KPIC -DPIC -o .libs/cmsmatsh.o
+source='cmsmtrx.c' object='cmsmtrx.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsmtrx.lo cmsmtrx.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsmtrx.c  -KPIC -DPIC -o .libs/cmsmtrx.o
+source='cmspack.c' object='cmspack.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmspack.lo cmspack.c
+source='cmslut.c' object='cmslut.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmslut.lo cmslut.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmspack.c  -KPIC -DPIC -o .libs/cmspack.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmslut.c  -KPIC -DPIC -o .libs/cmslut.o
+source='cmsmatsh.c' object='cmsmatsh.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsmatsh.lo cmsmatsh.c
+source='cmspcs.c' object='cmspcs.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmspcs.lo cmspcs.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsmatsh.c  -KPIC -DPIC -o .libs/cmsmatsh.o
+source='cmsmtrx.c' object='cmsmtrx.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsmtrx.lo cmsmtrx.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmspcs.c  -KPIC -DPIC -o .libs/cmspcs.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsmtrx.c  -KPIC -DPIC -o .libs/cmsmtrx.o
+source='cmswtpnt.c' object='cmswtpnt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmswtpnt.lo cmswtpnt.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmswtpnt.c  -KPIC -DPIC -o .libs/cmswtpnt.o
+source='cmspack.c' object='cmspack.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmspack.lo cmspack.c
+source='cmsxform.c' object='cmsxform.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsxform.lo cmsxform.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmspack.c  -KPIC -DPIC -o .libs/cmspack.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsxform.c  -KPIC -DPIC -o .libs/cmsxform.o
+source='cmssamp.c' object='cmssamp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmssamp.lo cmssamp.c
+source='cmspcs.c' object='cmspcs.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmspcs.lo cmspcs.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmssamp.c  -KPIC -DPIC -o .libs/cmssamp.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmspcs.c  -KPIC -DPIC -o .libs/cmspcs.o
+source='cmswtpnt.c' object='cmswtpnt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmswtpnt.lo cmswtpnt.c
+source='cmscam97.c' object='cmscam97.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmscam97.lo cmscam97.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmswtpnt.c  -KPIC -DPIC -o .libs/cmswtpnt.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmscam97.c  -KPIC -DPIC -o .libs/cmscam97.o
+source='cmsxform.c' object='cmsxform.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsxform.lo cmsxform.c
+source='cmsnamed.c' object='cmsnamed.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsnamed.lo cmsnamed.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsxform.c  -KPIC -DPIC -o .libs/cmsxform.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsnamed.c  -KPIC -DPIC -o .libs/cmsnamed.o
+source='cmsps2.c' object='cmsps2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsps2.lo cmsps2.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsps2.c  -KPIC -DPIC -o .libs/cmsps2.o
+source='cmssamp.c' object='cmssamp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmssamp.lo cmssamp.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmssamp.c  -KPIC -DPIC -o .libs/cmssamp.o
+source='cmscam02.c' object='cmscam02.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmscam02.lo cmscam02.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmscam02.c  -KPIC -DPIC -o .libs/cmscam02.o
+source='cmsvirt.c' object='cmsvirt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmsvirt.lo cmsvirt.c
+source='cmscam97.c' object='cmscam97.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmscam97.lo cmscam97.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmsvirt.c  -KPIC -DPIC -o .libs/cmsvirt.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmscam97.c  -KPIC -DPIC -o .libs/cmscam97.o
+source='cmscgats.c' object='cmscgats.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o cmscgats.lo cmscgats.c
+source='cmsnamed.c' object='cmsnamed.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsnamed.lo cmsnamed.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c cmscgats.c  -KPIC -DPIC -o .libs/cmscgats.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsnamed.c  -KPIC -DPIC -o .libs/cmsnamed.o
+source='cmsps2.c' object='cmsps2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsps2.lo cmsps2.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsps2.c  -KPIC -DPIC -o .libs/cmsps2.o
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -no-undefined -version-info 1:19:0  -o liblcms.la -rpath /usr/lib cmscnvrt.lo cmserr.lo cmsgamma.lo cmsgmt.lo cmsintrp.lo cmsio0.lo cmsio1.lo cmslut.lo cmsmatsh.lo cmsmtrx.lo cmspack.lo cmspcs.lo cmswtpnt.lo cmsxform.lo cmssamp.lo cmscam97.lo cmsnamed.lo cmsps2.lo cmscam02.lo cmsvirt.lo cmscgats.lo -lm 
+source='cmscam02.c' object='cmscam02.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmscam02.lo cmscam02.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64  -G  -z text -z defs -h liblcms.so.1 -o .libs/liblcms.so.1.0.19  .libs/cmscnvrt.o .libs/cmserr.o .libs/cmsgamma.o .libs/cmsgmt.o .libs/cmsintrp.o .libs/cmsio0.o .libs/cmsio1.o .libs/cmslut.o .libs/cmsmatsh.o .libs/cmsmtrx.o .libs/cmspack.o .libs/cmspcs.o .libs/cmswtpnt.o .libs/cmsxform.o .libs/cmssamp.o .libs/cmscam97.o .libs/cmsnamed.o .libs/cmsps2.o .libs/cmscam02.o .libs/cmsvirt.o .libs/cmscgats.o  -lm -lc 
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmscam02.c  -KPIC -DPIC -o .libs/cmscam02.o
+(cd .libs && rm -f liblcms.so.1 && ln -s liblcms.so.1.0.19 liblcms.so.1)
+(cd .libs && rm -f liblcms.so && ln -s liblcms.so.1.0.19 liblcms.so)
+creating liblcms.la
+(cd .libs && rm -f liblcms.la && ln -s ../liblcms.la liblcms.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/src'
+Making all in jpegicc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/jpegicc'
+source='jpegicc.c' object='jpegicc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c jpegicc.c
+source='cmsvirt.c' object='cmsvirt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmsvirt.lo cmsvirt.c
+source='iccjpeg.c' object='iccjpeg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c iccjpeg.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmsvirt.c  -KPIC -DPIC -o .libs/cmsvirt.o
+source='../samples/xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o xgetopt.o `test -f '../samples/xgetopt.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc/'`../samples/xgetopt.c
+source='../samples/vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o vprf.o `test -f '../samples/vprf.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc/'`../samples/vprf.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o jpegicc jpegicc.o iccjpeg.o xgetopt.o vprf.o ../src/liblcms.la -ljpeg -lm 
+source='cmscgats.c' object='cmscgats.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CC   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o cmscgats.lo cmscgats.c
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/jpegicc jpegicc.o iccjpeg.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -ljpeg -lm 
+creating jpegicc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/jpegicc'
+Making all in tifficc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/tifficc'
+source='tifficc.c' object='tifficc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c tifficc.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/src -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -c cmscgats.c  -KPIC -DPIC -o .libs/cmscgats.o
+source='../samples/xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o xgetopt.o `test -f '../samples/xgetopt.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc/'`../samples/xgetopt.c
+source='../samples/vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c -o vprf.o `test -f '../samples/vprf.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc/'`../samples/vprf.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o tifficc tifficc.o xgetopt.o vprf.o ../src/liblcms.la -ltiff -ljpeg -lz -lm 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/tifficc tifficc.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -ltiff -ljpeg -lz -lm 
+creating tifficc
+source='tiffdiff.c' object='tiffdiff.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c tiffdiff.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -no-undefined -version-info 1:19:0  -o liblcms.la -rpath /usr/lib/amd64 cmscnvrt.lo cmserr.lo cmsgamma.lo cmsgmt.lo cmsintrp.lo cmsio0.lo cmsio1.lo cmslut.lo cmsmatsh.lo cmsmtrx.lo cmspack.lo cmspcs.lo cmswtpnt.lo cmsxform.lo cmssamp.lo cmscam97.lo cmsnamed.lo cmsps2.lo cmscam02.lo cmsvirt.lo cmscgats.lo -lm 
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o tiffdiff tiffdiff.o xgetopt.o ../src/liblcms.la -ltiff -ljpeg -lz -lm 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE  -G  -z text -z defs -h liblcms.so.1 -o .libs/liblcms.so.1.0.19  .libs/cmscnvrt.o .libs/cmserr.o .libs/cmsgamma.o .libs/cmsgmt.o .libs/cmsintrp.o .libs/cmsio0.o .libs/cmsio1.o .libs/cmslut.o .libs/cmsmatsh.o .libs/cmsmtrx.o .libs/cmspack.o .libs/cmspcs.o .libs/cmswtpnt.o .libs/cmsxform.o .libs/cmssamp.o .libs/cmscam97.o .libs/cmsnamed.o .libs/cmsps2.o .libs/cmscam02.o .libs/cmsvirt.o .libs/cmscgats.o  -lm -lc 
+(cd .libs && rm -f liblcms.so.1 && ln -s liblcms.so.1.0.19 liblcms.so.1)
+(cd .libs && rm -f liblcms.so && ln -s liblcms.so.1.0.19 liblcms.so)
+creating liblcms.la
+(cd .libs && rm -f liblcms.la && ln -s ../liblcms.la liblcms.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/src'
+Making all in jpegicc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/jpegicc'
+source='jpegicc.c' object='jpegicc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c jpegicc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/tiffdiff tiffdiff.o xgetopt.o  ../src/.libs/liblcms.so -ltiff -ljpeg -lz -lm 
+creating tiffdiff
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/tifficc'
+Making all in python
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/python'
+source='lcms_wrap.cxx' object='_lcms_la-lcms_wrap.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python  -I/usr/include/python2.6 -I/usr/include/python2.6 -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -c -o _lcms_la-lcms_wrap.lo `test -f 'lcms_wrap.cxx' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python/'`lcms_wrap.cxx
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python -I/usr/include/python2.6 -I/usr/include/python2.6 -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -c lcms_wrap.cxx  -KPIC -DPIC -o .libs/_lcms_la-lcms_wrap.o
+source='iccjpeg.c' object='iccjpeg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c iccjpeg.c
+source='../samples/xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o xgetopt.o `test -f '../samples/xgetopt.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc/'`../samples/xgetopt.c
+source='../samples/vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o vprf.o `test -f '../samples/vprf.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/jpegicc/'`../samples/vprf.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o jpegicc jpegicc.o iccjpeg.o xgetopt.o vprf.o ../src/liblcms.la -ljpeg -lm 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/jpegicc jpegicc.o iccjpeg.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -ljpeg -lm 
+creating jpegicc
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/jpegicc'
+Making all in tifficc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/tifficc'
+source='tifficc.c' object='tifficc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c tifficc.c
+source='../samples/xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o xgetopt.o `test -f '../samples/xgetopt.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc/'`../samples/xgetopt.c
+source='../samples/vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c -o vprf.o `test -f '../samples/vprf.c' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc/'`../samples/vprf.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o tifficc tifficc.o xgetopt.o vprf.o ../src/liblcms.la -ltiff -ljpeg -lz -lm 
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/tifficc tifficc.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -ltiff -ljpeg -lz -lm 
+creating tifficc
+source='tiffdiff.c' object='tiffdiff.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/tifficc  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c tiffdiff.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o tiffdiff tiffdiff.o xgetopt.o ../src/liblcms.la -ltiff -ljpeg -lz -lm 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/tiffdiff tiffdiff.o xgetopt.o  ../src/.libs/liblcms.so -ltiff -ljpeg -lz -lm 
+creating tiffdiff
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/tifficc'
+Making all in python
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/python'
+source='lcms_wrap.cxx' object='_lcms_la-lcms_wrap.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/bin/bash ../libtool --tag=CXX   --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python  -I/usr/include/python2.6 -I/usr/include/python2.6 -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -norunpath -m64 -D_LARGEFILE64_SOURCE -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -c -o _lcms_la-lcms_wrap.lo `test -f 'lcms_wrap.cxx' || echo '/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python/'`lcms_wrap.cxx
+/bin/bash ../libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs   -norunpath -m32 -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -no-undefined -module -avoid-version -L/usr/lib/python2.6/config   -o _lcms.la -rpath /usr/lib _lcms_la-lcms_wrap.lo ../src/liblcms.la -lpython2.6 
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" "-DPACKAGE_STRING=\"lcms 1.19\"" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/python -I/usr/include/python2.6 -I/usr/include/python2.6 -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include -norunpath -m64 -D_LARGEFILE64_SOURCE -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -c lcms_wrap.cxx  -KPIC -DPIC -o .libs/_lcms_la-lcms_wrap.o
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -G -zdefs -h_lcms.so -o .libs/_lcms.so   .libs/_lcms_la-lcms_wrap.o  -R/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/src/.libs -L/usr/lib/python2.6/config ../src/.libs/liblcms.so -lpython2.6 -library=Cstd -library=Crun -lc   -m32 -m32
+creating _lcms.la
+(cd .libs && rm -f _lcms.la && ln -s ../_lcms.la _lcms.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/python'
+Making all in samples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/samples'
+source='icctrans.c' object='icctrans.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c icctrans.c
+source='xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c xgetopt.c
+source='vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c vprf.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o icctrans icctrans.o xgetopt.o vprf.o ../src/liblcms.la  
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/icctrans icctrans.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -lm 
+creating icctrans
+source='wtpt.c' object='wtpt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c wtpt.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o wtpt wtpt.o xgetopt.o ../src/liblcms.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/wtpt wtpt.o xgetopt.o  ../src/.libs/liblcms.so -lm 
+creating wtpt
+source='icc2ps.c' object='icc2ps.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c icc2ps.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o icc2ps icc2ps.o xgetopt.o ../src/liblcms.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/icc2ps icc2ps.o xgetopt.o  ../src/.libs/liblcms.so -lm 
+creating icc2ps
+source='icclink.c' object='icclink.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c icclink.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o icclink icclink.o xgetopt.o vprf.o ../src/liblcms.la  
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/icclink icclink.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -lm 
+creating icclink
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/samples'
+Making all in testbed
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+Making all in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/include'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/include'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/src'
+Making check in jpegicc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/jpegicc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/jpegicc'
+Making check in tifficc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/tifficc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/tifficc'
+Making check in python
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/python'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/python'
+Making check in samples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/samples'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/samples'
+Making check in testbed
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+/usr/gnu/bin/make  testcms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+source='testcms.c' object='testcms.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=4 -DSIZEOF_UNSIGNED_LONG=4 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/testbed -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -c testcms.c
+/bin/bash ../libtool --tag=CXX   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -norunpath -m64 -D_LARGEFILE64_SOURCE -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs   -norunpath -m64 -D_LARGEFILE64_SOURCE -features=extensions,nestedaccess,tmplrefstatic -template=geninlinefuncs -no-undefined -module -avoid-version -L/usr/lib/python2.6/config   -o _lcms.la -rpath /usr/lib/amd64 _lcms_la-lcms_wrap.lo ../src/liblcms.la -lpython2.6 
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -G -zdefs -h_lcms.so -o .libs/_lcms.so   .libs/_lcms_la-lcms_wrap.o  -R/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/src/.libs -R/usr/lib/amd64 -L/usr/lib/python2.6/config ../src/.libs/liblcms.so -lpython2.6 -library=Cstd -library=Crun -lc   -m64 -m64
+creating _lcms.la
+(cd .libs && rm -f _lcms.la && ln -s ../_lcms.la _lcms.la)
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/python'
+Making all in samples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/samples'
+source='icctrans.c' object='icctrans.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c icctrans.c
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64   -o testcms testcms.o ../src/liblcms.la  
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -o .libs/testcms testcms.o  ../src/.libs/liblcms.so -lm 
+creating testcms
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+./testcms
+source='xgetopt.c' object='xgetopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c xgetopt.c
+source='vprf.c' object='vprf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c vprf.c
+little cms testbed. Ver 1.19 [build Mar  4 2012 13:58:08]
+
+Testing fixed point:	2.884667 = 2.884672
+Testing fixed scaling...pass.
+Testing curves join ...pass.
+Testing reversing of curves ... pass.
+Testing linear interpolation ...pass. (30000 tics)
+Testing descending tables (linear interpolation)...pass.
+Testing reverse linear interpolation
+	on normal monotonic curve...pass.
+	on degenerated curve ...pass.
+Testing 3D interpolation on LUT...pass.
+Testing virtual profiles (Emulating sRGB)...pass.
+Testing profile decoding (sRGB).....pass.
+Testing sRGB built-in space../bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o icctrans icctrans.o xgetopt.o vprf.o ../src/liblcms.la  
+....mkdir .libs
+../opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/icctrans icctrans.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -lm 
+.creating icctrans
+
+dE: mean=0.0165645, SD=0.00939704, max=0.0519131  pass.
+Using  two real profiles.source='wtpt.c' object='wtpt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c wtpt.c
+.../bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o wtpt wtpt.o xgetopt.o ../src/liblcms.la  
+..../opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/wtpt wtpt.o xgetopt.o  ../src/.libs/liblcms.so -lm 
+creating wtpt
+.source='icc2ps.c' object='icc2ps.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c icc2ps.c
+pass
+Error Induced by the CMM due to roundoff (dE) ........./bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o icc2ps icc2ps.o xgetopt.o ../src/liblcms.la  
+
+dE: mean=0.000545515, SD=0.00136301, max=0.0067395 [40000 tics, 0.04 sec.]
+Testing preview........./opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/icc2ps icc2ps.o xgetopt.o  ../src/.libs/liblcms.so -lm 
+creating icc2ps
+source='icclink.c' object='icclink.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/samples  -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include   -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c icclink.c
+
+dE: mean=0.000545515, SD=0.00136301, max=0.0067395 [40000 tics, 0.04 sec.]
+Testing multiprofile transforms (6 profiles)........./bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o icclink icclink.o xgetopt.o vprf.o ../src/liblcms.la  
+
+dE: mean=0.123784, SD=0.171842, max=1.21645 [40000 tics, 0.04 sec.]
+Testing linearization devicelink.........
+dE: mean=0.00405109, SD=0.00261746, max=0.0169607 [30000 tics, 0.03 sec.]
+Testing devicelink generation....../opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/icclink icclink.o xgetopt.o vprf.o  ../src/.libs/liblcms.so -lm 
+..creating icclink
+.
+dE: mean=0.00689702, SD=0.00518751, max=0.0350195 [40000 tics, 0.04 sec.]
+Testing saved linearization devicelink..make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/samples'
+.Making all in testbed
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+Making all in include
+.make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/include'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/include'
+.make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/.built
+.(cd /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+.make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+.Making check in src
+.make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/src'
+Making check in jpegicc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/jpegicc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/jpegicc'
+Making check in tifficc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/tifficc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/tifficc'
+Making check in python
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/python'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/python'
+Making check in samples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/samples'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/samples'
+Making check in testbed
+
+dE: mean=0, SD=0, max=0 [30000 tics, 0.03 sec.]
+Testing ink limiting .make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+/usr/gnu/bin/make  testcms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+source='testcms.c' object='testcms.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"lcms\" -DPACKAGE_TARNAME=\"lcms\" -DPACKAGE_VERSION=\"1.19\" -DPACKAGE_STRING=\"lcms\ 1.19\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_DLFCN_H=1 -DSIZEOF_INT=4 -DSIZEOF_UNSIGNED_INT=4 -DSIZEOF_LONG=8 -DSIZEOF_UNSIGNED_LONG=8 -DSIZEOF_LONG_LONG=8 -DSIZEOF_UNSIGNED_LONG_LONG=8 -DHasJPEG=1 -DHasZLIB=1 -DHasTIFF=1 -DHAVE_TIFFCONF_H=1 -I. -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/testbed -I../include -I/export/home/drlou/illumos-userland-1248/components/lcms/lcms-1.19/include    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE -c testcms.c
+............................... pass.
+Testing save to memory: pass.
+Testing Named color profiles:  pass.
+Testing CGATS parser: pass.
+
+Success.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/testbed'
+Making check in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/include'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86/include'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/i86/.tested
+/bin/bash ../libtool --tag=CC   --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -D_LARGEFILE64_SOURCE   -o testcms testcms.o ../src/liblcms.la  
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -D_LARGEFILE64_SOURCE -o .libs/testcms testcms.o  ../src/.libs/liblcms.so -lm 
+creating testcms
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+./testcms
+little cms testbed. Ver 1.19 [build Mar  4 2012 13:58:09]
+
+Testing fixed point:	2.884667 = 2.884672
+Testing fixed scaling...pass.
+Testing curves join ...pass.
+Testing reversing of curves ... pass.
+Testing linear interpolation ...pass. (20000 tics)
+Testing descending tables (linear interpolation)...pass.
+Testing reverse linear interpolation
+	on normal monotonic curve...pass.
+	on degenerated curve ...pass.
+Testing 3D interpolation on LUT...pass.
+Testing virtual profiles (Emulating sRGB)...pass.
+Testing profile decoding (sRGB).....pass.
+Testing sRGB built-in space.........
+dE: mean=0.0165645, SD=0.00939704, max=0.0519131  pass.
+Using  two real profiles.........pass
+Error Induced by the CMM due to roundoff (dE) .........
+dE: mean=0.000545515, SD=0.00136301, max=0.0067395 [30000 tics, 0.03 sec.]
+Testing preview.........
+dE: mean=0.000545515, SD=0.00136301, max=0.0067395 [30000 tics, 0.03 sec.]
+Testing multiprofile transforms (6 profiles).........
+dE: mean=0.123784, SD=0.171842, max=1.21645 [30000 tics, 0.03 sec.]
+Testing linearization devicelink.........
+dE: mean=0.00405109, SD=0.00261746, max=0.0169607 [30000 tics, 0.03 sec.]
+Testing devicelink generation.........
+dE: mean=0.00689702, SD=0.00518751, max=0.0350195 [30000 tics, 0.03 sec.]
+Testing saved linearization devicelink.........
+dE: mean=0, SD=0, max=0 [20000 tics, 0.02 sec.]
+Testing ink limiting ................................ pass.
+Testing save to memory: pass.
+Testing Named color profiles:  pass.
+Testing CGATS parser: pass.
+
+Success.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/testbed'
+Making check in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/include'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/include'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/lcms/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/lcms/build/amd64/.tested

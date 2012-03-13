@@ -1,0 +1,1548 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/zsh/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/zsh/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/zsh/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  -n --enable-cppflags="-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" --enable-dynamic --enable-etcdir=/etc --enable-function-subdirs --enable-ldflags="-zignore" --enable-libs="-lnsl" --enable-maildir-support --enable-multibyte --enable-pcre --with-tcsetpgrp --disable-gdbm)
+configuring for zsh 4.3.12
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... no
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... no
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for an ANSI C-conforming const... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... 
+checking whether to use prototypes... yes
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking if the compiler supports union initialisation... yes
+checking if signed to unsigned casting is broken... no
+checking if the compiler supports variable-length arrays... yes
+checking whether make sets $(MAKE)... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for gawk... gawk
+checking whether ln works... yes
+checking for egrep... (cached) /usr/bin/ggrep -E
+checking for yodl... no
+checking for pdfetex... no
+checking for texi2pdf... no
+checking for texi2html... texi2html
+checking for ansi2knr... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for ANSI C header files... (cached) yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether stat file-mode macros are broken... no
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for pcre-config... pcre-config
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/times.h usability... yes
+checking sys/times.h presence... yes
+checking for sys/times.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking termcap.h usability... yes
+checking termcap.h presence... yes
+checking for termcap.h... yes
+checking termio.h usability... yes
+checking termio.h presence... yes
+checking for termio.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/filio.h usability... yes
+checking sys/filio.h presence... yes
+checking for sys/filio.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking libc.h usability... no
+checking libc.h presence... no
+checking for libc.h... no
+checking sys/utsname.h usability... yes
+checking sys/utsname.h presence... yes
+checking for sys/utsname.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking varargs.h usability... yes
+checking varargs.h presence... yes
+checking for varargs.h... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking sys/capability.h usability... no
+checking sys/capability.h presence... no
+checking for sys/capability.h... no
+checking utmp.h usability... yes
+checking utmp.h presence... yes
+checking for utmp.h... yes
+checking utmpx.h usability... yes
+checking utmpx.h presence... yes
+checking for utmpx.h... yes
+checking for sys/types.h... (cached) yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking grp.h usability... yes
+checking grp.h presence... yes
+checking for grp.h... yes
+checking poll.h usability... yes
+checking poll.h presence... yes
+checking for poll.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking netinet/in_systm.h usability... yes
+checking netinet/in_systm.h presence... yes
+checking for netinet/in_systm.h... yes
+checking pcre.h usability... yes
+checking pcre.h presence... yes
+checking for pcre.h... yes
+checking langinfo.h usability... yes
+checking langinfo.h presence... yes
+checking for langinfo.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking sys/stropts.h usability... yes
+checking sys/stropts.h presence... yes
+checking for sys/stropts.h... yes
+checking iconv.h usability... yes
+checking iconv.h presence... yes
+checking for iconv.h... yes
+checking ncurses.h usability... no
+checking ncurses.h presence... no
+checking for ncurses.h... no
+checking ncursesw/ncurses.h usability... no
+checking ncursesw/ncurses.h presence... no
+checking for ncursesw/ncurses.h... no
+checking ncurses/ncurses.h usability... yes
+checking ncurses/ncurses.h presence... yes
+checking for ncurses/ncurses.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking dl.h usability... no
+checking dl.h presence... no
+checking for dl.h... no
+checking for conflicts in sys/time.h and sys/select.h... no
+checking TIOCGWINSZ in termios.h... yes
+checking for streams headers including struct winsize... yes
+checking for printf in -lc... yes
+checking for pow in -lm... yes
+checking if _XOPEN_SOURCE_EXTENDED should not be defined... no
+checking for library containing tigetflag... -lcurses
+checking for library containing tgetent... none required
+checking curses.h usability... yes
+checking curses.h presence... yes
+checking for curses.h... yes
+checking if we need to ignore ncurses... yes
+checking for library containing getpwnam... none required
+checking for dlopen in -ldl... yes
+checking for socket in -lsocket... yes
+checking for library containing gethostbyname2... no
+checking for iconv... yes
+checking whether _libiconv_version is declared... no
+checking for iconv declaration... const
+checking if an include file defines ospeed... yes
+checking sys/xattr.h usability... no
+checking sys/xattr.h presence... no
+checking for sys/xattr.h... no
+checking return type of signal handlers... void
+checking for pid_t... yes
+checking for off_t... yes
+checking for ino_t... yes
+checking for mode_t... yes
+checking for uid_t in sys/types.h... yes
+checking for size_t... yes
+checking if long is 64 bits... no
+checking if off_t is 64 bit... yes
+checking if ino_t is 64 bit... yes
+checking if compiler has a 64 bit type... long long
+checking for a corresponding unsigned 64 bit type... unsigned long long
+checking for sigset_t... yes
+checking for struct stat.st_atim.tv_nsec... yes
+checking for struct stat.st_atimespec.tv_nsec... no
+checking for struct stat.st_atimensec... no
+checking for struct stat.st_mtim.tv_nsec... yes
+checking for struct stat.st_mtimespec.tv_nsec... no
+checking for struct stat.st_mtimensec... no
+checking for struct stat.st_ctim.tv_nsec... yes
+checking for struct stat.st_ctimespec.tv_nsec... no
+checking for struct stat.st_ctimensec... no
+checking for struct timezone... yes
+checking for struct utmp... yes
+checking for struct utmpx... yes
+checking for ut_host in struct utmp... no
+checking for ut_host in struct utmpx... yes
+checking for ut_xtime in struct utmpx... yes
+checking for ut_tv in struct utmpx... yes
+checking for d_ino in struct dirent... yes
+checking for d_stat in struct dirent... no
+checking for d_ino in struct direct... no
+checking for d_stat in struct direct... no
+checking for sin6_scope_id in struct sockaddr_in6... yes
+checking if we need our own h_errno... no
+checking for strftime... yes
+checking for strptime... yes
+checking for mktime... yes
+checking for timelocal... no
+checking for difftime... yes
+checking for gettimeofday... yes
+checking for select... yes
+checking for poll... yes
+checking for readlink... yes
+checking for faccessx... no
+checking for fchdir... yes
+checking for ftruncate... yes
+checking for fstat... yes
+checking for lstat... yes
+checking for lchown... yes
+checking for fchown... yes
+checking for fchmod... yes
+checking for fseeko... yes
+checking for ftello... yes
+checking for mkfifo... yes
+checking for _mktemp... yes
+checking for mkstemp... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for sigaction... yes
+checking for sigblock... no
+checking for sighold... yes
+checking for sigrelse... yes
+checking for sigsetmask... no
+checking for sigprocmask... yes
+checking for killpg... yes
+checking for setpgid... yes
+checking for setpgrp... yes
+checking for tcsetpgrp... yes
+checking for tcgetattr... yes
+checking for nice... yes
+checking for gethostname... yes
+checking for gethostbyname2... no
+checking for getipnodebyname... yes
+checking for inet_aton... yes
+checking for inet_pton... yes
+checking for inet_ntop... yes
+checking for getlogin... yes
+checking for getpwent... yes
+checking for getpwnam... yes
+checking for getpwuid... yes
+checking for getgrgid... yes
+checking for getgrnam... yes
+checking for initgroups... yes
+checking for nis_list... no
+checking for setuid... yes
+checking for seteuid... yes
+checking for setreuid... yes
+checking for setresuid... no
+checking for setsid... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strstr... yes
+checking for strerror... yes
+checking for strtoul... yes
+checking for getrlimit... yes
+checking for getrusage... yes
+checking for setlocale... yes
+checking for uname... yes
+checking for signgam... yes
+checking for putenv... yes
+checking for getenv... yes
+checking for setenv... yes
+checking for unsetenv... yes
+checking for xw... no
+checking for brk... yes
+checking for sbrk... yes
+checking for pathconf... yes
+checking for sysconf... yes
+checking for tgetent... yes
+checking for tigetflag... yes
+checking for tigetnum... yes
+checking for tigetstr... yes
+checking for setupterm... yes
+checking for initscr... yes
+checking for getcchar... no
+checking for setcchar... no
+checking for waddwstr... yes
+checking for wget_wch... no
+checking for win_wch... no
+checking for use_default_colors... no
+checking for pcre_compile... yes
+checking for pcre_study... yes
+checking for pcre_exec... yes
+checking for nl_langinfo... yes
+checking for erand48... yes
+checking for open_memstream... no
+checking for wctomb... yes
+checking for iconv... (cached) yes
+checking for grantpt... yes
+checking for unlockpt... yes
+checking for ptsname... yes
+checking for htons... yes
+checking for ntohs... yes
+checking for regcomp... yes
+checking for regexec... yes
+checking for regerror... yes
+checking for regfree... yes
+checking for gdbm_open... no
+checking for getxattr... no
+checking for realpath... yes
+checking for canonicalize_file_name... yes
+checking for symlink... yes
+checking for getcwd... yes
+checking for working strcoll... yes
+checking if tgetent accepts NULL... yes
+checking if tgetent returns 0 on success... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for munmap... yes
+checking for msync... yes
+checking whether getpgrp requires zero arguments... yes
+checking for dlopen... yes
+checking for dlerror... yes
+checking for dlsym... yes
+checking for dlclose... yes
+checking for load... no
+checking for loadquery... no
+checking for loadbind... no
+checking for unload... no
+checking for shl_load... no
+checking for shl_unload... no
+checking for shl_findsym... no
+checking if getxattr etc. are usable... no
+checking what style of signals to use... POSIX_SIGNALS
+checking where signal.h is located... /usr/include/sys/iso/signal_iso.h
+checking where error names are located...  /usr/include/sys/errno.h
+checking location of curses header... curses.h
+checking where curses key definitions are located... /usr/include/curses.h
+checking for ncursesw/term.h... no
+checking for ncurses/term.h... yes
+checking for term.h... yes
+checking where term.h is located... term.h
+checking if boolcodes is available... yes
+checking if numcodes is available... yes
+checking if strcodes is available... yes
+checking if boolnames is available... yes
+checking if numnames is available... yes
+checking if strnames is available... yes
+checking where the RLIMIT macros are located... /usr/include/sys/resource.h
+checking if rlim_t is longer than a long... yes
+checking if rlim_t is a quad... no
+checking for rlim_t... yes
+checking for limit RLIMIT_AIO_MEM... no
+checking for limit RLIMIT_AIO_OPS... no
+checking for limit RLIMIT_AS... yes
+checking for limit RLIMIT_LOCKS... no
+checking for limit RLIMIT_MEMLOCK... no
+checking for limit RLIMIT_NPROC... no
+checking for limit RLIMIT_NOFILE... yes
+checking for limit RLIMIT_PTHREAD... no
+checking for limit RLIMIT_RSS... no
+checking for limit RLIMIT_SBSIZE... no
+checking for limit RLIMIT_TCACHE... no
+checking for limit RLIMIT_VMEM... yes
+checking for limit RLIMIT_SIGPENDING... no
+checking for limit RLIMIT_MSGQUEUE... no
+checking for limit RLIMIT_NICE... no
+checking for limit RLIMIT_RTPRIO... no
+checking if RLIMIT_VMEM and RLIMIT_RSS are the same... no
+checking if RLIMIT_VMEM and RLIMIT_AS are the same... yes
+checking if RLIMIT_RSS and RLIMIT_AS are the same... no
+checking for struct rusage.ru_maxrss... yes
+checking for struct rusage.ru_ixrss... yes
+checking for struct rusage.ru_idrss... yes
+checking for struct rusage.ru_isrss... yes
+checking for struct rusage.ru_minflt... yes
+checking for struct rusage.ru_majflt... yes
+checking for struct rusage.ru_nswap... yes
+checking for struct rusage.ru_inblock... yes
+checking for struct rusage.ru_oublock... yes
+checking for struct rusage.ru_msgsnd... yes
+checking for struct rusage.ru_msgrcv... yes
+checking for struct rusage.ru_nsignals... yes
+checking for struct rusage.ru_nvcsw... yes
+checking for struct rusage.ru_nivcsw... yes
+checking for /dev/fd filesystem... /dev/fd
+checking for RFS superroot directory... no
+checking whether we should use the native getcwd... no
+checking whether getcwd calls malloc to allocate memory... no
+checking for setproctitle... no
+checking for library containing setproctitle... no
+checking for NIS... no
+checking for NIS+... no
+checking for utmp file... no
+checking for wtmp file... no
+checking for utmpx file... /etc/utmpx
+checking for wtmpx file... /etc/wtmpx
+checking for brk() prototype in <unistd.h>... yes
+checking for sbrk() prototype in <unistd.h>... yes
+checking for mknod prototype in <sys/stat.h>... yes
+checking for ioctl prototype in <unistd.h> or <termios.h>... yes
+checking if named FIFOs work... yes
+checking if echo in /bin/sh interprets escape sequences... yes
+checking if link() works... yes
+checking if kill(pid, 0) returns ESRCH correctly... yes
+checking if POSIX sigsuspend() works... yes
+checking if getpwnam() is faked... no
+checking base type of the third argument to accept... int
+checking if your system has /dev/ptmx... yes
+checking if /dev/ptmx is usable... yes
+checking if the wcwidth() function is broken... no
+checking if your system uses ELF binaries... yes
+checking if we can use -rdynamic... 
+checking if your dlsym() needs a leading underscore... no
+checking if environ is available in shared libraries... yes
+checking if tgetent is available in shared libraries... yes
+checking if tigetstr is available in shared libraries... yes
+checking if name clashes in shared objects are OK... yes
+checking for working RTLD_GLOBAL... yes
+checking whether symbols in the executable are available... yes
+checking whether executables can be stripped... yes
+checking whether libraries can be stripped... yes
+configure: creating ./config.status
+
+zsh configuration
+-----------------
+zsh version               : 4.3.12
+host operating system     : i386-pc-solaris2.11
+source code location      : /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12
+compiler                  : /opt/SUNWspro/solarisstudio12.3/bin/cc
+preprocessor flags        : -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre
+executable compiler flags :  -O
+module compiler flags     :  -O -KPIC
+executable linker flags   : -zignore  
+module linker flags       : -zignore  -G
+library flags             : -L/usr/lib -R/usr/lib -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc
+installation basename     : zsh
+binary install path       : /usr/bin
+man page install path     : /usr/share/man
+info install path         : ${prefix}/share/info
+functions install path    : ${prefix}/share/zsh/4.3.12/functions
+See config.modules for installed modules and functions.
+
+(cd /export/home/drlou/illumos-userland-1248/components/zsh/build/i86; sed -e 's,-L/usr/lib -R/usr/lib,,' config.status > config.status.new; mv config.status.new config.status; chmod 755 config.status; ./config.status)
+config.status: creating Config/defs.mk
+config.status: creating Makefile
+config.status: creating Doc/Makefile
+config.status: creating Etc/Makefile
+config.status: creating Src/Makefile
+config.status: creating Test/Makefile
+config.status: creating config.h
+config.status: executing config.modules commands
+creating ./config.modules
+config.status: executing stamp-h commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/zsh/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/zsh/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  LANG=C \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+cd .. && /bin/sh $top_srcdir/Src/mkmakemod.sh Src Makemod
+creating Src/Makemod.in
+config.status: creating Src/Makemod
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/signames1.awk /usr/include/sys/iso/signal_iso.h >sigtmp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E sigtmp.c >sigtmp.out
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/signames2.awk sigtmp.out > signames.c
+rm -f sigtmp.c sigtmp.out
+grep 'define.*SIGCOUNT' signames.c > sigcount.h
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+Updated `zsh.mdh'.
+echo 'timestamp for zsh.mdh against zsh.mdd' > zsh.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/builtin.c Src > builtin.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < builtin.syms) \
+		> builtin.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < builtin.syms) \
+		> `echo builtin.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/compat.c Src > compat.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < compat.syms) \
+		> compat.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < compat.syms) \
+		> `echo compat.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/cond.c Src > cond.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < cond.syms) \
+		> cond.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < cond.syms) \
+		> `echo cond.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/exec.c Src > exec.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < exec.syms) \
+		> exec.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < exec.syms) \
+		> `echo exec.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/glob.c Src > glob.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < glob.syms) \
+		> glob.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < glob.syms) \
+		> `echo glob.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hashtable.c Src > hashtable.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < hashtable.syms) \
+		> hashtable.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < hashtable.syms) \
+		> `echo hashtable.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hashnameddir.c Src > hashnameddir.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < hashnameddir.syms) \
+		> hashnameddir.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < hashnameddir.syms) \
+		> `echo hashnameddir.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hist.c Src > hist.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < hist.syms) \
+		> hist.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < hist.syms) \
+		> `echo hist.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/init.c Src > init.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < init.syms) \
+		> init.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < init.syms) \
+		> `echo init.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/input.c Src > input.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < input.syms) \
+		> input.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < input.syms) \
+		> `echo input.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/jobs.c Src > jobs.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < jobs.syms) \
+		> jobs.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < jobs.syms) \
+		> `echo jobs.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/lex.c Src > lex.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < lex.syms) \
+		> lex.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < lex.syms) \
+		> `echo lex.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/linklist.c Src > linklist.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < linklist.syms) \
+		> linklist.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < linklist.syms) \
+		> `echo linklist.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/loop.c Src > loop.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < loop.syms) \
+		> loop.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < loop.syms) \
+		> `echo loop.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/math.c Src > math.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < math.syms) \
+		> math.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < math.syms) \
+		> `echo math.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/mem.c Src > mem.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < mem.syms) \
+		> mem.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < mem.syms) \
+		> `echo mem.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/module.c Src > module.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < module.syms) \
+		> module.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < module.syms) \
+		> `echo module.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/options.c Src > options.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < options.syms) \
+		> options.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < options.syms) \
+		> `echo options.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/params.c Src > params.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < params.syms) \
+		> params.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < params.syms) \
+		> `echo params.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/parse.c Src > parse.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < parse.syms) \
+		> parse.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < parse.syms) \
+		> `echo parse.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/pattern.c Src > pattern.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < pattern.syms) \
+		> pattern.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < pattern.syms) \
+		> `echo pattern.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/prompt.c Src > prompt.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < prompt.syms) \
+		> prompt.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < prompt.syms) \
+		> `echo prompt.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/signals.c Src > signals.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < signals.syms) \
+		> signals.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < signals.syms) \
+		> `echo signals.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk signames.c Src > signames.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < signames.syms) \
+		> signames.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < signames.syms) \
+		> `echo signames.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/sort.c Src > sort.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < sort.syms) \
+		> sort.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < sort.syms) \
+		> `echo sort.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/string.c Src > string.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < string.syms) \
+		> string.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < string.syms) \
+		> `echo string.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/subst.c Src > subst.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < subst.syms) \
+		> subst.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < subst.syms) \
+		> `echo subst.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/text.c Src > text.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < text.syms) \
+		> text.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < text.syms) \
+		> `echo text.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/utils.c Src > utils.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < utils.syms) \
+		> utils.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < utils.syms) \
+		> `echo utils.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/watch.c Src > watch.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < watch.syms) \
+		> watch.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < watch.syms) \
+		> `echo watch.epro | sed 's/\.epro$/.pro/'`
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+Updated `zsh.mdh'.
+/usr/gnu/bin/make -f Makemod prefix='/usr' exec_prefix='/usr' bindir='/usr/bin' libdir='/usr/lib' MODDIR='/usr/lib/zsh/4.3.12' infodir='/usr/share/info' mandir='/usr/share/man' datadir='/usr/share' fndir='/usr/share/zsh/4.3.12/functions' htmldir='/usr/share/zsh/htmldoc' CC='/opt/SUNWspro/solarisstudio12.3/bin/cc' CPPFLAGS='-D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre' DEFS='-DHAVE_CONFIG_H' CFLAGS='-O' LDFLAGS='-zignore' EXTRA_LDFLAGS='' DLCFLAGS='-KPIC' DLLDFLAGS='-G' LIBLDFLAGS='' EXELDFLAGS='' LIBS='-lpcre -lsocket -ldl -lcurses -lm -lnsl -lc' DL_EXT='so' DLLD='/opt/SUNWspro/solarisstudio12.3/bin/cc' AWK='gawk' ANSI2KNR=': ansi2knr' YODL=': yodl ' YODL2TXT=': yodl2txt' YODL2HTML=': yodl2html' FUNCTIONS_INSTALL='' tzsh='zsh' prep
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+creating Src/Builtins/Makefile.in
+config.status: creating Src/Builtins/Makefile
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+creating Src/Modules/Makefile.in
+config.status: creating Src/Modules/Makefile
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+creating Src/Zle/Makefile.in
+config.status: creating Src/Zle/Makefile
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+echo 'timestamp for *.mdd files' > ../Src/modules.stamp
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+Updated `rlimits.mdh'.
+echo 'timestamp for rlimits.mdh against rlimits.mdd' > rlimits.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins/rlimits.c Src/Builtins > rlimits.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < rlimits.syms) \
+		> rlimits.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < rlimits.syms) \
+		> `echo rlimits.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+Updated `rlimits.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+Updated `sched.mdh'.
+echo 'timestamp for sched.mdh against sched.mdd' > sched.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins/sched.c Src/Builtins > sched.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < sched.syms) \
+		> sched.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < sched.syms) \
+		> `echo sched.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+Updated `sched.mdh'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `cap.mdh'.
+echo 'timestamp for cap.mdh against cap.mdd' > cap.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/cap.c Src/Modules > cap.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < cap.syms) \
+		> cap.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < cap.syms) \
+		> `echo cap.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `cap.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `clone.mdh'.
+echo 'timestamp for clone.mdh against clone.mdd' > clone.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/clone.c Src/Modules > clone.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < clone.syms) \
+		> clone.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < clone.syms) \
+		> `echo clone.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `clone.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `curses.mdh'.
+echo 'timestamp for curses.mdh against curses.mdd' > curses.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/curses.c Src/Modules > curses.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < curses.syms) \
+		> curses.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < curses.syms) \
+		> `echo curses.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `curses.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `datetime.mdh'.
+echo 'timestamp for datetime.mdh against datetime.mdd' > datetime.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/datetime.c Src/Modules > datetime.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < datetime.syms) \
+		> datetime.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < datetime.syms) \
+		> `echo datetime.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `datetime.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `example.mdh'.
+echo 'timestamp for example.mdh against example.mdd' > example.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/example.c Src/Modules > example.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < example.syms) \
+		> example.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < example.syms) \
+		> `echo example.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `example.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `files.mdh'.
+echo 'timestamp for files.mdh against files.mdd' > files.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/files.c Src/Modules > files.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < files.syms) \
+		> files.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < files.syms) \
+		> `echo files.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `files.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `langinfo.mdh'.
+echo 'timestamp for langinfo.mdh against langinfo.mdd' > langinfo.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/langinfo.c Src/Modules > langinfo.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < langinfo.syms) \
+		> langinfo.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < langinfo.syms) \
+		> `echo langinfo.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `langinfo.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `mapfile.mdh'.
+echo 'timestamp for mapfile.mdh against mapfile.mdd' > mapfile.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/mapfile.c Src/Modules > mapfile.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < mapfile.syms) \
+		> mapfile.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < mapfile.syms) \
+		> `echo mapfile.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `mapfile.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `mathfunc.mdh'.
+echo 'timestamp for mathfunc.mdh against mathfunc.mdd' > mathfunc.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/mathfunc.c Src/Modules > mathfunc.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < mathfunc.syms) \
+		> mathfunc.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < mathfunc.syms) \
+		> `echo mathfunc.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `mathfunc.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `newuser.mdh'.
+echo 'timestamp for newuser.mdh against newuser.mdd' > newuser.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/newuser.c Src/Modules > newuser.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < newuser.syms) \
+		> newuser.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < newuser.syms) \
+		> `echo newuser.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `newuser.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `parameter.mdh'.
+echo 'timestamp for parameter.mdh against parameter.mdd' > parameter.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/parameter.c Src/Modules > parameter.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < parameter.syms) \
+		> parameter.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < parameter.syms) \
+		> `echo parameter.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `parameter.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `pcre.mdh'.
+echo 'timestamp for pcre.mdh against pcre.mdd' > pcre.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/pcre.c Src/Modules > pcre.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < pcre.syms) \
+		> pcre.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < pcre.syms) \
+		> `echo pcre.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `pcre.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `regex.mdh'.
+echo 'timestamp for regex.mdh against regex.mdd' > regex.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/regex.c Src/Modules > regex.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < regex.syms) \
+		> regex.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < regex.syms) \
+		> `echo regex.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `regex.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `socket.mdh'.
+echo 'timestamp for socket.mdh against socket.mdd' > socket.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/socket.c Src/Modules > socket.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < socket.syms) \
+		> socket.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < socket.syms) \
+		> `echo socket.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `socket.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `stat.mdh'.
+echo 'timestamp for stat.mdh against stat.mdd' > stat.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/stat.c Src/Modules > stat.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < stat.syms) \
+		> stat.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < stat.syms) \
+		> `echo stat.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `stat.mdh'.
+if [ x" /usr/include/sys/errno.h" = x ]; then \
+		touch errtmp.out; \
+	   else \
+		gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/errnames1.awk  /usr/include/sys/errno.h >errtmp.c; \
+		/opt/SUNWspro/solarisstudio12.3/bin/cc -E errtmp.c >errtmp.out; \
+	   fi
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/errnames2.awk errtmp.out > errnames.c
+rm -f errtmp.c errtmp.out
+grep 'define.*ERRCOUNT' errnames.c > errcount.h
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `system.mdh'.
+echo 'timestamp for system.mdh against system.mdd' > system.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/system.c Src/Modules > system.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < system.syms) \
+		> system.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < system.syms) \
+		> `echo system.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk errnames.c Src/Modules > errnames.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < errnames.syms) \
+		> errnames.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < errnames.syms) \
+		> `echo errnames.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `system.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `tcp.mdh'.
+echo 'timestamp for tcp.mdh against tcp.mdd' > tcp.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/tcp.c Src/Modules > tcp.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < tcp.syms) \
+		> tcp.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < tcp.syms) \
+		> `echo tcp.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `tcp.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `termcap.mdh'.
+echo 'timestamp for termcap.mdh against termcap.mdd' > termcap.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/termcap.c Src/Modules > termcap.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < termcap.syms) \
+		> termcap.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < termcap.syms) \
+		> `echo termcap.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `termcap.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `terminfo.mdh'.
+echo 'timestamp for terminfo.mdh against terminfo.mdd' > terminfo.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/terminfo.c Src/Modules > terminfo.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < terminfo.syms) \
+		> terminfo.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < terminfo.syms) \
+		> `echo terminfo.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `terminfo.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zftp.mdh'.
+echo 'timestamp for zftp.mdh against zftp.mdd' > zftp.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zftp.c Src/Modules > zftp.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zftp.syms) \
+		> zftp.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zftp.syms) \
+		> `echo zftp.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zftp.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zprof.mdh'.
+echo 'timestamp for zprof.mdh against zprof.mdd' > zprof.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zprof.c Src/Modules > zprof.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zprof.syms) \
+		> zprof.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zprof.syms) \
+		> `echo zprof.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zprof.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zpty.mdh'.
+echo 'timestamp for zpty.mdh against zpty.mdd' > zpty.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zpty.c Src/Modules > zpty.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zpty.syms) \
+		> zpty.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zpty.syms) \
+		> `echo zpty.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zpty.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zselect.mdh'.
+echo 'timestamp for zselect.mdh against zselect.mdd' > zselect.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zselect.c Src/Modules > zselect.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zselect.syms) \
+		> zselect.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zselect.syms) \
+		> `echo zselect.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zselect.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zutil.mdh'.
+echo 'timestamp for zutil.mdh against zutil.mdd' > zutil.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zutil.c Src/Modules > zutil.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zutil.syms) \
+		> zutil.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zutil.syms) \
+		> `echo zutil.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+Updated `zutil.mdh'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+( \
+	    echo '/** thingies.list                            **/'; \
+	    echo '/** thingy structures for the known thingies **/'; \
+	    echo; \
+	    echo '/* format: T("name", TH_FLAGS, w_widget, t_nextthingy) */'; \
+	    echo; \
+	    sed -e 's/#.*//; /^$/d; s/" *,.*/"/' \
+		-e 's/^"/T("/; s/$/, 0,/; h' \
+		-e 's/-//g; s/^.*"\(.*\)".*/w_\1, t_D\1)/' \
+		-e 'H; g; s/\n/ /' \
+		< /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/iwidgets.list; \
+	    sed -e 's/#.*//; /^$/d; s/" *,.*/"/' \
+		-e 's/^"/T("./; s/$/, TH_IMMORTAL,/; h' \
+		-e 's/-//g; s/^.*"\.\(.*\)".*/w_\1, t_\1)/' \
+		-e 'H; g; s/\n/ /' \
+		< /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/iwidgets.list; \
+	) > thingies.list
+( \
+	    echo '/** zle_things.h                              **/'; \
+	    echo '/** indices of and pointers to known thingies **/'; \
+	    echo; \
+	    echo 'enum {'; \
+	    sed -n -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_things.sed < thingies.list; \
+	    echo '    ZLE_BUILTIN_THINGY_COUNT'; \
+	    echo '};'; \
+	) > zle_things.h
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `zle.mdh'.
+echo 'timestamp for zle.mdh against zle.mdd' > zle.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_bindings.c Src/Zle > zle_bindings.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_bindings.syms) \
+		> zle_bindings.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_bindings.syms) \
+		> `echo zle_bindings.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_hist.c Src/Zle > zle_hist.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_hist.syms) \
+		> zle_hist.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_hist.syms) \
+		> `echo zle_hist.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_keymap.c Src/Zle > zle_keymap.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_keymap.syms) \
+		> zle_keymap.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_keymap.syms) \
+		> `echo zle_keymap.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_main.c Src/Zle > zle_main.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_main.syms) \
+		> zle_main.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_main.syms) \
+		> `echo zle_main.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_misc.c Src/Zle > zle_misc.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_misc.syms) \
+		> zle_misc.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_misc.syms) \
+		> `echo zle_misc.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_move.c Src/Zle > zle_move.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_move.syms) \
+		> zle_move.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_move.syms) \
+		> `echo zle_move.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_params.c Src/Zle > zle_params.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_params.syms) \
+		> zle_params.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_params.syms) \
+		> `echo zle_params.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_refresh.c Src/Zle > zle_refresh.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_refresh.syms) \
+		> zle_refresh.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_refresh.syms) \
+		> `echo zle_refresh.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_thingy.c Src/Zle > zle_thingy.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_thingy.syms) \
+		> zle_thingy.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_thingy.syms) \
+		> `echo zle_thingy.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_tricky.c Src/Zle > zle_tricky.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_tricky.syms) \
+		> zle_tricky.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_tricky.syms) \
+		> `echo zle_tricky.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_utils.c Src/Zle > zle_utils.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_utils.syms) \
+		> zle_utils.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_utils.syms) \
+		> `echo zle_utils.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_vi.c Src/Zle > zle_vi.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_vi.syms) \
+		> zle_vi.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_vi.syms) \
+		> `echo zle_vi.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_word.c Src/Zle > zle_word.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zle_word.syms) \
+		> zle_word.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zle_word.syms) \
+		> `echo zle_word.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `zle.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `complete.mdh'.
+echo 'timestamp for complete.mdh against complete.mdd' > complete.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/complete.c Src/Zle > complete.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < complete.syms) \
+		> complete.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < complete.syms) \
+		> `echo complete.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compcore.c Src/Zle > compcore.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < compcore.syms) \
+		> compcore.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < compcore.syms) \
+		> `echo compcore.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compmatch.c Src/Zle > compmatch.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < compmatch.syms) \
+		> compmatch.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < compmatch.syms) \
+		> `echo compmatch.epro | sed 's/\.epro$/.pro/'`
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compresult.c Src/Zle > compresult.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < compresult.syms) \
+		> compresult.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < compresult.syms) \
+		> `echo compresult.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `complete.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `compctl.mdh'.
+echo 'timestamp for compctl.mdh against compctl.mdd' > compctl.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compctl.c Src/Zle > compctl.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < compctl.syms) \
+		> compctl.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < compctl.syms) \
+		> `echo compctl.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `compctl.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `complist.mdh'.
+echo 'timestamp for complist.mdh against complist.mdd' > complist.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/complist.c Src/Zle > complist.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < complist.syms) \
+		> complist.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < complist.syms) \
+		> `echo complist.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `complist.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `computil.mdh'.
+echo 'timestamp for computil.mdh against computil.mdd' > computil.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/computil.c Src/Zle > computil.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < computil.syms) \
+		> computil.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < computil.syms) \
+		> `echo computil.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `computil.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `deltochar.mdh'.
+echo 'timestamp for deltochar.mdh against deltochar.mdd' > deltochar.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/deltochar.c Src/Zle > deltochar.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < deltochar.syms) \
+		> deltochar.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < deltochar.syms) \
+		> `echo deltochar.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `deltochar.mdh'.
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `zleparameter.mdh'.
+echo 'timestamp for zleparameter.mdh against zleparameter.mdd' > zleparameter.mdhs
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zleparameter.c Src/Zle > zleparameter.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < zleparameter.syms) \
+		> zleparameter.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < zleparameter.syms) \
+		> `echo zleparameter.epro | sed 's/\.epro$/.pro/'`
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+Updated `zleparameter.mdh'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+rm -f stamp-modobjs.tmp
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o builtin.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/builtin.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o compat.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/compat.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o cond.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/cond.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o exec.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/exec.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o glob.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/glob.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o hashtable.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hashtable.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o hashnameddir.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hashnameddir.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o hist.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/hist.c
+srcdir='/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src' CFMOD='../config.modules' \
+	  /bin/sh /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/mkbltnmlst.sh bltinmods.list
+Updated `zshpaths.h'.
+Creating `zshxmods.h'.
+echo '#define ZSH_VERSION "'4.3.12'"' > version.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o init.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/init.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o input.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/input.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o jobs.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/jobs.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o lex.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/lex.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o linklist.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/linklist.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o loop.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/loop.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o math.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/math.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o mem.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/mem.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o module.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/module.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o options.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/options.c
+sed -ne \
+	's/^\* *\$''Revision: \(.*\) ''\$/#define ZSH_PATCHLEVEL "\1"/p' \
+	/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/ChangeLog >patchlevel.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o params.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/params.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o parse.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/parse.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o pattern.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/pattern.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o prompt.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/prompt.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o signals.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/signals.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o signames.o signames.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o sort.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/sort.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o string.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/string.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o subst.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/subst.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o text.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/text.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o utils.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/utils.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O  -o watch.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/watch.c
+echo '' builtin.o compat.o cond.o exec.o glob.o hashtable.o hashnameddir.o hist.o init.o input.o jobs.o lex.o linklist.o loop.o math.o mem.o module.o options.o params.o parse.o pattern.o prompt.o signals.o signames.o sort.o string.o subst.o text.o utils.o watch.o >> ../Src/stamp-modobjs.tmp
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+Updated `stamp-modobjs'.
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/makepro.awk /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/main.c Src > main.syms
+(echo '/* Generated automatically */'; sed -n '/^E/{s/^E//;p;}' < main.syms) \
+		> main.epro
+(echo '/* Generated automatically */'; sed -n '/^L/{s/^L//;p;}' < main.syms) \
+		> `echo main.epro | sed 's/\.epro$/.pro/'`
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -O -o main.o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/main.c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+( echo '#!'; cat builtin.syms compat.syms cond.syms exec.syms glob.syms hashtable.syms hashnameddir.syms hist.syms init.syms input.syms jobs.syms lex.syms linklist.syms loop.syms math.syms mem.syms module.syms options.syms params.syms parse.syms pattern.syms prompt.syms signals.syms signames.syms sort.syms string.syms subst.syms text.syms utils.syms watch.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zsh.export
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+rm -f zsh
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore   -o zsh main.o  `cat stamp-modobjs`   -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins/rlimits.awk /usr/include/sys/resource.h /dev/null > rlimits.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o rlimits..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins/rlimits.c
+( echo '#!'; cat rlimits.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > rlimits.export
+rm -f rlimits.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o rlimits.so   rlimits..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o sched..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Builtins/sched.c
+( echo '#!'; cat sched.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > sched.export
+rm -f sched.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o sched.so   sched..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Builtins'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o cap..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/cap.c
+( echo '#!'; cat cap.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > cap.export
+rm -f cap.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o cap.so   cap..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o clone..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/clone.c
+( echo '#!'; cat clone.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > clone.export
+rm -f clone.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o clone.so   clone..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+gawk -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/curses_keys.awk /usr/include/curses.h /dev/null >curses_keys.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o curses..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/curses.c
+( echo '#!'; cat curses.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > curses.export
+rm -f curses.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o curses.so   curses..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o datetime..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/datetime.c
+( echo '#!'; cat datetime.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > datetime.export
+rm -f datetime.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o datetime.so   datetime..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o example..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/example.c
+( echo '#!'; cat example.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > example.export
+rm -f example.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o example.so   example..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o files..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/files.c
+( echo '#!'; cat files.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > files.export
+rm -f files.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o files.so   files..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o langinfo..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/langinfo.c
+( echo '#!'; cat langinfo.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > langinfo.export
+rm -f langinfo.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o langinfo.so   langinfo..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o mapfile..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/mapfile.c
+( echo '#!'; cat mapfile.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > mapfile.export
+rm -f mapfile.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o mapfile.so   mapfile..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o mathfunc..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/mathfunc.c
+( echo '#!'; cat mathfunc.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > mathfunc.export
+rm -f mathfunc.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o mathfunc.so   mathfunc..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o newuser..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/newuser.c
+( echo '#!'; cat newuser.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > newuser.export
+rm -f newuser.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o newuser.so   newuser..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o parameter..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/parameter.c
+( echo '#!'; cat parameter.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > parameter.export
+rm -f parameter.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o parameter.so   parameter..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o pcre..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/pcre.c
+( echo '#!'; cat pcre.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > pcre.export
+rm -f pcre.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o pcre.so   pcre..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o regex..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/regex.c
+( echo '#!'; cat regex.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > regex.export
+rm -f regex.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o regex.so   regex..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o socket..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/socket.c
+( echo '#!'; cat socket.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > socket.export
+rm -f socket.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o socket.so   socket..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o stat..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/stat.c
+( echo '#!'; cat stat.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > stat.export
+rm -f stat.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o stat.so   stat..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o system..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/system.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o errnames..o errnames.c
+( echo '#!'; cat system.syms errnames.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > system.export
+rm -f system.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o system.so   system..o errnames..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o tcp..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/tcp.c
+( echo '#!'; cat tcp.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > tcp.export
+rm -f tcp.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o tcp.so   tcp..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o termcap..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/termcap.c
+( echo '#!'; cat termcap.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > termcap.export
+rm -f termcap.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o termcap.so   termcap..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o terminfo..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/terminfo.c
+( echo '#!'; cat terminfo.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > terminfo.export
+rm -f terminfo.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o terminfo.so   terminfo..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zftp..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zftp.c
+( echo '#!'; cat zftp.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zftp.export
+rm -f zftp.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zftp.so   zftp..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zprof..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zprof.c
+( echo '#!'; cat zprof.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zprof.export
+rm -f zprof.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zprof.so   zprof..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zpty..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zpty.c
+( echo '#!'; cat zpty.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zpty.export
+rm -f zpty.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zpty.so   zpty..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zselect..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zselect.c
+( echo '#!'; cat zselect.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zselect.export
+rm -f zselect.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zselect.so   zselect..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zutil..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Modules/zutil.c
+( echo '#!'; cat zutil.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zutil.export
+rm -f zutil.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zutil.so   zutil..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Modules'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o compctl..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compctl.c
+( echo '#!'; cat compctl.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > compctl.export
+( echo '#!'; cat complete.syms compcore.syms compmatch.syms compresult.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > complete.export
+( echo '#!'; cat zle_bindings.syms zle_hist.syms zle_keymap.syms zle_main.syms zle_misc.syms zle_move.syms zle_params.syms zle_refresh.syms zle_thingy.syms zle_tricky.syms zle_utils.syms zle_vi.syms zle_word.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zle.export
+rm -f compctl.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o compctl.so   compctl..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o complete..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/complete.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o compcore..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compcore.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o compmatch..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compmatch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o compresult..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/compresult.c
+rm -f complete.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o complete.so   complete..o compcore..o compmatch..o compresult..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o complist..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/complist.c
+( echo '#!'; cat complist.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > complist.export
+rm -f complist.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o complist.so   complist..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o computil..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/computil.c
+( echo '#!'; cat computil.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > computil.export
+rm -f computil.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o computil.so   computil..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o deltochar..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/deltochar.c
+( echo '#!'; cat deltochar.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > deltochar.export
+rm -f deltochar.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o deltochar.so   deltochar..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+( \
+	    echo '/** widgets.list                               **/'; \
+	    echo '/** widget structures for the internal widgets **/'; \
+	    echo; \
+	    echo '/* format: W(ZLE_FLAGS, t_firstname, functionname) */'; \
+	    echo; \
+	    sed -e 's/#.*//; /^$/d; s/-//g' \
+		-e 's/^"\(.*\)" *, *\([^ ]*\) *, *\(.*\)/W(\3, t_\1, \2)/' \
+		< /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/iwidgets.list; \
+	) > widgets.list
+( \
+	    echo '/** zle_widget.h                                **/'; \
+	    echo '/** indices of and pointers to internal widgets **/'; \
+	    echo; \
+	    echo 'enum {'; \
+	    sed -n -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_widget.sed < widgets.list; \
+	    echo '    ZLE_BUILTIN_WIDGET_COUNT'; \
+	    echo '};'; \
+	) > zle_widget.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_bindings..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_bindings.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_hist..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_hist.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_keymap..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_keymap.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_main..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_main.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_misc..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_misc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_move..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_move.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_params..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_params.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_refresh..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_refresh.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_thingy..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_thingy.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_tricky..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_tricky.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_utils..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_utils.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_vi..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_vi.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zle_word..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zle_word.c
+rm -f zle.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zle.so   zle_bindings..o zle_hist..o zle_keymap..o zle_main..o zle_misc..o zle_move..o zle_params..o zle_refresh..o zle_thingy..o zle_tricky..o zle_utils..o zle_vi..o zle_word..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I../../Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -I/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -I/usr/include/pcre -DHAVE_CONFIG_H -DMODULE -O -KPIC -o zleparameter..o /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Src/Zle/zleparameter.c
+( echo '#!'; cat zleparameter.syms  | sed -n '/^X/{s/^X//;p;}' | sort -u ) > zleparameter.export
+rm -f zleparameter.so
+/opt/SUNWspro/solarisstudio12.3/bin/cc -zignore  -G -o zleparameter.so   zleparameter..o    -lpcre -lsocket -ldl -lcurses -lm -lnsl -lc 
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src/Zle'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Src'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Doc'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/zsh/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/zsh/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86'
+cd Test ; /usr/gnu/bin/make check
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Test'
+if test -n "/opt/SUNWspro/solarisstudio12.3/bin/cc"; then \
+	  cd .. && DESTDIR= \
+	  /usr/gnu/bin/make MODDIR=`pwd`/Test/Modules install.modules > /dev/null; \
+	fi
+if ZTST_testlist="`for f in /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/*.ztst; \
+           do echo $f; done`" \
+	 ZTST_srcdir="/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test" \
+	 ZTST_exe=../Src/zsh \
+	 ../Src/zsh +Z -f /export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/runtests.zsh; then \
+	 stat=0; \
+	else \
+	 stat=1; \
+	fi; \
+	sleep 1; \
+	rm -rf Modules .zcompdump; \
+	exit $stat
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A01grammar.ztst: starting.
+This test hangs the shell when it fails...
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A01grammar.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A02alias.ztst: starting.
+This test hangs the shell when it fails...
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A02alias.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A03quoting.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A03quoting.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A04redirect.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A04redirect.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A05execution.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A05execution.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A06assign.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A06assign.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A07control.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/A07control.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B01cd.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B01cd.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B02typeset.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B02typeset.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B03print.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B03print.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B04read.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B04read.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B05eval.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B05eval.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B06fc.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B06fc.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B07emulate.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/B07emulate.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C01arith.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C01arith.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C02cond.ztst: starting.
+Warning: Not testing [[ -b blockdevice ]] (no devices found)
+Warning: Not testing [[ -f blockdevice ]] (no devices found)
+This test takes two seconds...
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C02cond.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C03traps.ztst: starting.
+This test takes at least three seconds...
+This test, too, takes at least three seconds...
+Another test that takes three seconds
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C03traps.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C04funcdef.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C04funcdef.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C05debug.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/C05debug.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D01prompt.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D01prompt.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D02glob.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D02glob.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D03procsubst.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D03procsubst.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D04parameter.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D04parameter.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D05array.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D05array.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D06subscript.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D06subscript.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D07multibyte.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D07multibyte.ztst: skipped (no UTF-8 locale or multibyte mode is not implemented)
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D08cmdsubst.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D08cmdsubst.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D09brace.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/D09brace.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/E01options.ztst: starting.
+This test hangs the shell when it fails...
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/E01options.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/E02xtrace.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/E02xtrace.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V01zmodload.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V01zmodload.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V02zregexparse.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V02zregexparse.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V03mathfunc.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V03mathfunc.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V04features.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V04features.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V05styles.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V05styles.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V06parameter.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/V06parameter.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y01completion.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y01completion.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y02compmatch.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y02compmatch.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y03arguments.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y03arguments.ztst: all tests successful.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y04compgen.ztst: starting.
+/export/home/drlou/illumos-userland-1248/components/zsh/zsh-4.3.12/Test/Y04compgen.ztst: all tests successful.
+**************************************
+39 successful test scripts, 0 failures, 1 skipped
+**************************************
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86/Test'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zsh/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/zsh/build/i86/.tested

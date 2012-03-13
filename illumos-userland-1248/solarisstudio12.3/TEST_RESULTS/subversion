@@ -1,0 +1,50 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/subversion/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/subversion/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/subversion/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -xustr=ascii_utf16_ushort -xcsi `pkg-config --cflags neon` -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64" CXXFLAGS="-norunpath -m32 -features=nestedaccess,tmplife,tmplrefstatic -template=geninlinefuncs -verbose=template -xustr=ascii_utf16_ushort -KPIC -DPIC -mt -D_REENTRANT -DNDEBUG -DSOLARIS" PKG_CONFIG_PATH="PKG_CONFIG_PATH.32" PYTHON="/usr/bin/python2.6" PYMODS="client core delta fs ra repos wc" PYTHONPATH="/usr/lib/python2.6/vendor-packages" JAVA_ROOT="/usr/jdk/instances/jdk1.6.0" PERL="/usr/perl5/5.12/bin/perl" PLMODS="Fs Core Wc Client Repos Ra Delta" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/subversion/subversion-1.6.16/configure --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --sbindir=/usr/sbin --libdir=/usr/lib/svn --localstatedir=/var --enable-shared  --disable-static --disable-libtool-lock  --disable-neon-version-check --disable-experimental-libtool --with-apxs=/usr/apache2/2.2/bin/apxs --with-ssl  --with-zlib=/usr --with-jdk=/usr/jdk/instances/jdk1.6.0 --with-apr=/usr/apr/1.3 --with-apr-util=/usr/apr-util/1.3 --enable-nls --disable-mod-activation --enable-javahl --with-swig --with-neon=/usr)
+configure: Configuring Subversion 1.6.16
+configure: creating config.nice
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath accepts -g... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for a sed that does not truncate output... /usr/bin/gsed
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking whether ln -s works... yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+configure: Apache Portable Runtime (APR) library configuration
+checking for APR... yes
+checking APR version... 1.3.9
+configure: Apache Portable Runtime Utility (APRUTIL) library configuration
+checking for APR-util... yes
+checking APR-UTIL version... 1.3.9
+checking for pkg-config... /usr/bin/pkg-config
+configure: checking neon library
+checking neon library version... 0.29.0
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+configure: looking for apr_memcache as part of apr-util
+checking apr_memcache.h usability... yes
+checking apr_memcache.h presence... yes
+checking for apr_memcache.h... yes
+checking for apr_memcache_create in -laprutil-1... yes
+checking for Apache module support via DSO through APXS... 

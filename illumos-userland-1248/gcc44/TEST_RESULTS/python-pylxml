@@ -1,0 +1,1 @@
+cd /export/home/drlou/illumos-userland-1248/components/python/pylxml/lxml-2.1.2 && /usr/bin/python2.6 selftest.py

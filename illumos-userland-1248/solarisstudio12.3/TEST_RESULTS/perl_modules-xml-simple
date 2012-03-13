@@ -1,0 +1,139 @@
+(/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12)
+(cd ../xml-parser ; /usr/gnu/bin/make install)
+(cd ../xml-parser ; /usr/gnu/bin/make install)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/XML-Simple-2.18 /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12
+symlink cloning /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/XML-Simple-2.18 to /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12 ; MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " PERL="/usr/perl5/5.12/bin/perl" /usr/perl5/5.12/bin/perl -I/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/../xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int \
+				Makefile.PL )
+Checking installed modules ...
+You don't have either XML::SAX or XML::Parser installed!
+Checking if your kit is complete...
+Looks good
+Writing Makefile for XML::Simple
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12; /usr/gnu/bin/sed 's/^CCCDLFLAGS = -KPIC/^CCCDLFLAGS = -fPIC/' Makefile > Makefile.tmp; grep -v '^OPTIMIZE =' Makefile.tmp > Makefile)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12/.configured
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser'
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " INSTALLVENDORMAN3DIR=/usr/share/man/man3 /usr/gnu/bin/make \
+			 DESTDIR="/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386" install_vendor)
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " INSTALLVENDORMAN3DIR=/usr/share/man/man3 /usr/gnu/bin/make \
+			 DESTDIR="/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386" install_vendor)
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/Expat'
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Files found in blib/arch: installing files in blib/lib into architecture dependent library tree
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/auto/XML/Parser/Expat/Expat.so
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/auto/XML/Parser/Expat/Expat.bs
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/LWPExternEnt.pl
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Expat.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Style/Subs.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Style/Objects.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Style/Tree.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Style/Debug.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Style/Stream.pm
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-5.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-2.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-sjis-unicode.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/big5.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-3.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-4.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-euc-jp-jisx0221.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/windows-1250.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-sjis-jisx0221.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-euc-jp-unicode.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-sjis-jdk117.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/euc-kr.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-7.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-9.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/windows-1252.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/Japanese_Encodings.msg
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/iso-8859-8.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/README
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/vendor_perl/5.12/i86pc-solaris-64int/XML/Parser/Encodings/x-sjis-cp932.enc
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Style::Tree.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Expat.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Style::Debug.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Style::Stream.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Style::Objects.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser::Style::Subs.3
+Installing /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/man/man3/XML::Parser.3
+Appending installation info ins/export/hoinfo to /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/prototype/i386/usr/perl5/5.12/lib/i86pc-solaris-64int/perllocal.pod
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser/build/i86-5.12/.installed
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-parser'
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12'
+cp lib/XML/Simple/FAQ.pod blib/lib/XML/Simple/FAQ.pod
+cp lib/XML/Simple.pm blib/lib/XML/Simple.pm
+Manifying blib/man3/XML::Simple::FAQ.3
+Manifying blib/man3/XML::Simple.3
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12/.built
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12'
+PERL_DL_NONLAZY=1 /usr/perl5/5.12/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/0_Config.t ...... ok
+t/1_XMLin.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 130/131 subtests 
+t/2_XMLout.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 197/201 subtests 
+t/3_Storable.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 21/23 subtests 
+t/4_MemShare.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/8 subtests 
+t/5_MemCopy.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/7 subtests 
+t/6_ObjIntf.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 31/37 subtests 
+t/7_SaxStuff.t .... skipped: no XML::SAX
+t/8_Namespaces.t .. skipped: no XML::SAX
+t/9_Strict.t ...... 
+Dubious, test returned 9 (wstat 2304, 0x900)
+Failed 9/40 subtests 
+t/A_XMLParser.t ... skipped: no XML::Parser
+t/B_Hooks.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/12 subtests 
+	(less 3 skipped subtests: 5 okay)
+
+Test Summary Report
+-------------------
+t/1_XMLin.t     (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 131 tests but ran 1.
+t/2_XMLout.t    (Wstat: 512 Tests: 4 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 201 tests but ran 4.
+t/3_Storable.t  (Wstat: 512 Tests: 2 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 23 tests but ran 2.
+t/4_MemShare.t  (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 1.
+t/5_MemCopy.t   (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 1.
+t/6_ObjIntf.t   (Wstat: 512 Tests: 6 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 37 tests but ran 6.
+t/9_Strict.t    (Wstat: 2304 Tests: 40 Failed: 9)
+  Failed tests:  2-3, 13, 15, 17, 23-24, 34, 36
+  Non-zero exit status: 9
+t/B_Hooks.t     (Wstat: 512 Tests: 8 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 8.
+Files=12, Tests=64,  1 wallclock secs ( 0.03 usr  0.01 sys +  0.21 cusr  0.00 csys =  0.25 CPU)
+Result: FAIL
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/xml-simple/build/i86-5.12'

@@ -1,0 +1,64 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/zlib/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/zlib/build/i86)
+( /export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3 /export/home/drlou/illumos-userland-1248/components/zlib/build/i86; /bin/rm -f /export/home/drlou/illumos-userland-1248/components/zlib/build/i86/Makefile /export/home/drlou/illumos-userland-1248/components/zlib/build/i86/zconf.h; /bin/cp -f /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3/zconf.h /export/home/drlou/illumos-userland-1248/components/zlib/build/i86 )
+symlink cloning /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3 to /export/home/drlou/illumos-userland-1248/components/zlib/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64)
+( /export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3 /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64; /bin/rm -f /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64/Makefile /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64/zconf.h; /bin/cp -f /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3/zconf.h /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64 )
+symlink cloning /export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3 to /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/zlib/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC " LDSHARED="/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -G" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3/configure --shared --prefix=/usr )
+Checking for shared library support...
+(cd /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC " LDSHARED="/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -G" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/zlib/zlib-1.2.3/configure --shared --prefix=/usr --libdir=/usr/lib/amd64)
+Checking for shared library support...
+Building shared library libz.so.1.2.3 with /opt/SUNWspro/solarisstudio12.3/bin/cc.
+Building shared library libz.so.1.2.3 with /opt/SUNWspro/solarisstudio12.3/bin/cc.
+Checking for unistd.h... Yes.
+Checking for unistd.h... Yes.
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf()
+Checking whether to use vs[n]printf() or s[n]printf()... using vs[n]printf()
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for vsnprintf() in stdio.h... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for return value of vsnprintf()... Yes.
+Checking for errno.h... Yes.
+Checking for errno.h... Yes.
+Checking for mmap support... Yes.
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/zlib/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/zlib/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make LDSHARED="/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -G -h libz.so.1 -z direct -z defs -M ../../mapfile -L." )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zlib/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o example.o example.c
+Checking for mmap support... Yes.
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/zlib/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make LDSHARED="/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -G -h libz.so.1 -z direct -z defs -M ../../mapfile -L." )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/zlib/build/amd64'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o example.o example.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o adler32.o adler32.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o adler32.o adler32.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o compress.o compress.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o crc32.o crc32.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o compress.o compress.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o crc32.o crc32.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o gzio.o gzio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o gzio.o gzio.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o uncompr.o uncompr.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o deflate.o deflate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o uncompr.o uncompr.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o deflate.o deflate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o trees.o trees.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o trees.o trees.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o zutil.o zutil.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inflate.o inflate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o zutil.o zutil.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inflate.o inflate.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o infback.o infback.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o infback.o infback.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inftrees.o inftrees.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inffast.o inffast.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inftrees.o inftrees.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC  -G -h libz.so.1 -z direct -z defs -M ../../mapfile -L. -o libz.so.1.2.3 adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o zutil.o inflate.o infback.o inftrees.o inffast.o
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zlib/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -DUSE_MMAP   -c -o inffast.o inffast.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -DPIC  -G -h libz.so.1 -z direct -z defs -M ../../mapfile -L. -o libz.so.1.2.3 adler32.o compress.o crc32.o gzio.o uncompr.o deflate.o trees.o zutil.o inflate.o infback.o inftrees.o inffast.o
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/zlib/build/amd64'

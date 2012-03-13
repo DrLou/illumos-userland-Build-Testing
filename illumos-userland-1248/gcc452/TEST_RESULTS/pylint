@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/pylint/pylint-0.18.0
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/pylint/pylint-0.18.0 -p1 --backup --version-control=numbered < patches/pylint.1.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  pylint-0.18.0.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/pylint/pylint-0.18.0/.unpacked

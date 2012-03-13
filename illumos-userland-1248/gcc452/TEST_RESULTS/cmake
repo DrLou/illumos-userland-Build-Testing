@@ -1,0 +1,1802 @@
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5 -p1 --backup --version-control=numbered < patches/cmake-2.8.5.patch
+patching file Modules/CMakeDetermineJavaCompiler.cmake
+patching file Modules/CMakeDetermineSystem.cmake
+patching file Modules/FindAVIFile.cmake
+patching file Modules/FindBLAS.cmake
+patching file Modules/FindFLTK.cmake
+patching file Modules/FindFLTK2.cmake
+patching file Modules/FindFreetype.cmake
+patching file Modules/FindGIF.cmake
+patching file Modules/FindGTK.cmake
+patching file Modules/FindGTK2.cmake
+patching file Modules/FindJNI.cmake
+patching file Modules/FindJava.cmake
+patching file Modules/FindKDE3.cmake
+patching file Modules/FindLAPACK.cmake
+patching file Modules/FindLua50.cmake
+patching file Modules/FindLua51.cmake
+patching file Modules/FindMPEG.cmake
+patching file Modules/FindMatlab.cmake
+patching file Modules/FindOpenAL.cmake
+patching file Modules/FindOpenThreads.cmake
+patching file Modules/FindPHP4.cmake
+patching file Modules/FindPNG.cmake
+patching file Modules/FindPhysFS.cmake
+patching file Modules/FindPike.cmake
+patching file Modules/FindProducer.cmake
+patching file Modules/FindQt.cmake
+patching file Modules/FindQt3.cmake
+patching file Modules/FindSDL.cmake
+patching file Modules/FindSDL_image.cmake
+patching file Modules/FindSDL_mixer.cmake
+patching file Modules/FindSDL_net.cmake
+patching file Modules/FindSDL_sound.cmake
+patching file Modules/FindSDL_ttf.cmake
+patching file Modules/FindSelfPackers.cmake
+patching file Modules/FindTCL.cmake
+patching file Modules/FindTclStub.cmake
+patching file Modules/FindUnixCommands.cmake
+patching file Modules/GetPrerequisites.cmake
+patching file Source/cmDocumentation.cxx
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/.cmake-2.8.5.patched
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/.patched
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/.prep
+(/bin/rm -f -rf /export/home/drlou/illumos-userland/components/cmake/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland/components/cmake/build/i86)
+(cd /export/home/drlou/illumos-userland/components/cmake/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CC="/usr/gcc/4.5/bin/gcc"	 CXX="/usr/gcc/4.5/bin/g++"	 LDFLAGS=""	 MAKE="/usr/gnu/bin/make"	 /bin/bash \
+		/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/configure CC="/usr/gcc/4.5/bin/gcc" CXX="/usr/gcc/4.5/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin )
+---------------------------------------------
+CMake 2.8.5, Copyright 2000-2009 Kitware, Inc.
+C compiler on this system is: /usr/gcc/4.5/bin/gcc 
+C++ compiler on this system is: /usr/gcc/4.5/bin/g++ 
+Makefile processor on this system is: /usr/gnu/bin/make
+/usr/gcc/4.5/bin/g++ is GNU compiler
+/usr/gcc/4.5/bin/g++ has STL in std:: namespace
+/usr/gcc/4.5/bin/g++ has ANSI streams
+/usr/gcc/4.5/bin/g++ has streams in std:: namespace
+/usr/gcc/4.5/bin/g++ has sstream
+/usr/gcc/4.5/bin/g++ has operator!=(string, char*)
+/usr/gcc/4.5/bin/g++ has stl iterator_traits
+/usr/gcc/4.5/bin/g++ has standard template allocator
+/usr/gcc/4.5/bin/g++ has allocator<>::rebind<>
+/usr/gcc/4.5/bin/g++ does not have non-standard allocator<>::max_size argument
+/usr/gcc/4.5/bin/g++ has stl containers supporting allocator objects
+/usr/gcc/4.5/bin/g++ has header cstddef
+/usr/gcc/4.5/bin/g++ requires template friends to use <>
+/usr/gcc/4.5/bin/g++ supports member templates
+/usr/gcc/4.5/bin/g++ has standard template specialization syntax
+/usr/gcc/4.5/bin/g++ has argument dependent lookup
+/usr/gcc/4.5/bin/g++ has struct stat with st_mtim member
+/usr/gcc/4.5/bin/g++ has ios::binary openmode
+/usr/gcc/4.5/bin/g++ has ANSI for scoping
+---------------------------------------------
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk'
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmStandardIncludes.cxx -o cmStandardIncludes.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmake.cxx -o cmake.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmakemain.cxx -o cmakemain.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmakewizard.cxx -o cmakewizard.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCommandArgumentLexer.cxx -o cmCommandArgumentLexer.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCommandArgumentParser.cxx -o cmCommandArgumentParser.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCommandArgumentParserHelper.cxx -o cmCommandArgumentParserHelper.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDefinitions.cxx -o cmDefinitions.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDepends.cxx -o cmDepends.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDependsC.cxx -o cmDependsC.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDocumentationFormatter.cxx -o cmDocumentationFormatter.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDocumentationFormatterText.cxx -o cmDocumentationFormatterText.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmPolicies.cxx -o cmPolicies.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmProperty.cxx -o cmProperty.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmPropertyMap.cxx -o cmPropertyMap.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmPropertyDefinition.cxx -o cmPropertyDefinition.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmPropertyDefinitionMap.cxx -o cmPropertyDefinitionMap.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakeDepend.cxx -o cmMakeDepend.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakefile.cxx -o cmMakefile.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmExportFileGenerator.cxx -o cmExportFileGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmExportInstallFileGenerator.cxx -o cmExportInstallFileGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallDirectoryGenerator.cxx -o cmInstallDirectoryGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmGeneratedFileStream.cxx -o cmGeneratedFileStream.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmGeneratorExpression.cxx -o cmGeneratorExpression.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmGlobalGenerator.cxx -o cmGlobalGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmLocalGenerator.cxx -o cmLocalGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallGenerator.cxx -o cmInstallGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallExportGenerator.cxx -o cmInstallExportGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallFilesGenerator.cxx -o cmInstallFilesGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallScriptGenerator.cxx -o cmInstallScriptGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmInstallTargetGenerator.cxx -o cmInstallTargetGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmScriptGenerator.cxx -o cmScriptGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmSourceFile.cxx -o cmSourceFile.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmSourceFileLocation.cxx -o cmSourceFileLocation.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmSystemTools.cxx -o cmSystemTools.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmTestGenerator.cxx -o cmTestGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmVersion.cxx -o cmVersion.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmFileTimeComparison.cxx -o cmFileTimeComparison.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmGlobalUnixMakefileGenerator3.cxx -o cmGlobalUnixMakefileGenerator3.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmLocalUnixMakefileGenerator3.cxx -o cmLocalUnixMakefileGenerator3.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakefileExecutableTargetGenerator.cxx -o cmMakefileExecutableTargetGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakefileLibraryTargetGenerator.cxx -o cmMakefileLibraryTargetGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakefileTargetGenerator.cxx -o cmMakefileTargetGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmMakefileUtilityTargetGenerator.cxx -o cmMakefileUtilityTargetGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmBootstrapCommands.cxx -o cmBootstrapCommands.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCommands.cxx -o cmCommands.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmTarget.cxx -o cmTarget.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmTest.cxx -o cmTest.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCustomCommand.cxx -o cmCustomCommand.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCustomCommandGenerator.cxx -o cmCustomCommandGenerator.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmDocumentVariables.cxx -o cmDocumentVariables.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmCacheManager.cxx -o cmCacheManager.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmListFileCache.cxx -o cmListFileCache.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmComputeLinkDepends.cxx -o cmComputeLinkDepends.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmComputeLinkInformation.cxx -o cmComputeLinkInformation.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmOrderDirectories.cxx -o cmOrderDirectories.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmComputeTargetDepends.cxx -o cmComputeTargetDepends.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmComputeComponentGraph.cxx -o cmComputeComponentGraph.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmExprLexer.cxx -o cmExprLexer.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmExprParser.cxx -o cmExprParser.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmExprParserHelper.cxx -o cmExprParserHelper.o
+/usr/gcc/4.5/bin/gcc -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/cmListFileLexer.c -o cmListFileLexer.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/Directory.cxx -o Directory.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/Glob.cxx -o Glob.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/RegularExpression.cxx -o RegularExpression.o
+/usr/gcc/4.5/bin/g++  -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/SystemTools.cxx -o SystemTools.o
+/usr/gcc/4.5/bin/gcc -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/ProcessUNIX.c -o ProcessUNIX.o
+/usr/gcc/4.5/bin/gcc -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys -DKWSYS_STRING_C -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/String.c -o String.o
+/usr/gcc/4.5/bin/gcc -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -DKWSYS_NAMESPACE=cmsys  -c /export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source/kwsys/System.c -o System.o
+/usr/gcc/4.5/bin/g++   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk -I/export/home/drlou/illumos-userland/components/cmake/cmake-2.8.5/Source   -I/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk  cmStandardIncludes.o cmake.o cmakemain.o cmakewizard.o cmCommandArgumentLexer.o cmCommandArgumentParser.o cmCommandArgumentParserHelper.o cmDefinitions.o cmDepends.o cmDependsC.o cmDocumentationFormatter.o cmDocumentationFormatterText.o cmPolicies.o cmProperty.o cmPropertyMap.o cmPropertyDefinition.o cmPropertyDefinitionMap.o cmMakeDepend.o cmMakefile.o cmExportFileGenerator.o cmExportInstallFileGenerator.o cmInstallDirectoryGenerator.o cmGeneratedFileStream.o cmGeneratorExpression.o cmGlobalGenerator.o cmLocalGenerator.o cmInstallGenerator.o cmInstallExportGenerator.o cmInstallFilesGenerator.o cmInstallScriptGenerator.o cmInstallTargetGenerator.o cmScriptGenerator.o cmSourceFile.o cmSourceFileLocation.o cmSystemTools.o cmTestGenerator.o cmVersion.o cmFileTimeComparison.o cmGlobalUnixMakefileGenerator3.o cmLocalUnixMakefileGenerator3.o cmMakefileExecutableTargetGenerator.o cmMakefileLibraryTargetGenerator.o cmMakefileTargetGenerator.o cmMakefileUtilityTargetGenerator.o cmBootstrapCommands.o cmCommands.o cmTarget.o cmTest.o cmCustomCommand.o cmCustomCommandGenerator.o cmDocumentVariables.o cmCacheManager.o cmListFileCache.o cmComputeLinkDepends.o cmComputeLinkInformation.o cmOrderDirectories.o cmComputeTargetDepends.o cmComputeComponentGraph.o cmExprLexer.o cmExprParser.o cmExprParserHelper.o cmListFileLexer.o Directory.o Glob.o RegularExpression.o SystemTools.o ProcessUNIX.o String.o System.o -o cmake
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86/Bootstrap.cmk'
+-- The C compiler identification is GNU
+-- The CXX compiler identification is GNU
+-- Check for working C compiler: /usr/gcc/4.5/bin/gcc
+-- Check for working C compiler: /usr/gcc/4.5/bin/gcc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working CXX compiler: /usr/gcc/4.5/bin/g++
+-- Check for working CXX compiler: /usr/gcc/4.5/bin/g++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Looking for C++ include iostream
+-- Looking for C++ include iostream - found
+-- Check for STD namespace
+-- Check for STD namespace - found
+-- Check for ANSI scope
+-- Check for ANSI scope - found
+-- Check for sstream
+-- Check for sstream - found
+-- Looking for unsetenv
+-- Looking for unsetenv - found
+-- Looking for environ
+-- Looking for environ - not found.
+-- Checking whether header cstdio is available
+-- Checking whether header cstdio is available - yes
+-- Checking for Large File Support
+-- Checking for Large File Support - yes
+-- Checking whether STL classes are in std namespace
+-- Checking whether STL classes are in std namespace - yes
+-- Checking whether ANSI stream headers are available
+-- Checking whether ANSI stream headers are available - yes
+-- Checking whether ANSI streams are in std namespace
+-- Checking whether ANSI streams are in std namespace - yes
+-- Checking whether ANSI string stream is available
+-- Checking whether ANSI string stream is available - yes
+-- Checking whether header cstddef is available
+-- Checking whether header cstddef is available - yes
+-- Checking whether stl string has operator!= for char*
+-- Checking whether stl string has operator!= for char* - yes
+-- Checking whether stl has iterator_traits
+-- Checking whether stl has iterator_traits - yes
+-- Checking whether stl has standard template allocator
+-- Checking whether stl has standard template allocator - yes
+-- Checking for rebind member of stl allocator
+-- Checking for rebind member of stl allocator - yes
+-- Checking for non-standard argument to stl allocator<>::max_size
+-- Checking for non-standard argument to stl allocator<>::max_size - no
+-- Checking whether stl containers support allocator objects.
+-- Checking whether stl containers support allocator objects. - yes
+-- Checking whether ios has binary openmode
+-- Checking whether ios has binary openmode - yes
+-- Checking whether "<>" is needed for template friends
+-- Checking whether "<>" is needed for template friends - yes
+-- Checking for member template support
+-- Checking for member template support - yes
+-- Checking for standard template specialization syntax
+-- Checking for standard template specialization syntax - yes
+-- Checking whether argument dependent lookup is supported
+-- Checking whether argument dependent lookup is supported - yes
+-- Checking whether struct stat has st_mtim member
+-- Checking whether struct stat has st_mtim member - yes
+-- Checking for C type size macros
+-- Checking for C type size macros - compiled
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of char
+-- Check size of char - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Checking whether char is signed
+-- Checking whether char is signed - yes
+-- Checking whether C++ compiler has 'long long'
+-- Checking whether C++ compiler has 'long long' - yes
+-- Checking if istream supports long long
+-- Checking if istream supports long long - yes
+-- Checking if ostream supports long long
+-- Checking if ostream supports long long - yes
+-- Checking whether C compiler has ptrdiff_t in stddef.h
+-- Checking whether C compiler has ptrdiff_t in stddef.h - yes
+-- Checking whether C compiler has ssize_t in unistd.h
+-- Checking whether C compiler has ssize_t in unistd.h - yes
+-- Looking for connect in socket;dl
+-- Looking for connect in socket;dl - found
+-- Looking for gethostbyname in c
+-- Looking for gethostbyname in c - not found
+-- Looking for recv in network;dl;socket
+-- Looking for recv in network;dl;socket - not found
+-- Looking for gethostbyname in nsl;dl;socket
+-- Looking for gethostbyname in nsl;dl;socket - found
+-- Looking for getch in ws2_32;dl;socket;nsl
+-- Looking for getch in ws2_32;dl;socket;nsl - not found
+-- Looking for getch in winmm;dl;socket;nsl
+-- Looking for getch in winmm;dl;socket;nsl - not found
+-- Looking for idna_to_ascii_lz in idn;dl;socket;nsl
+-- Looking for idna_to_ascii_lz in idn;dl;socket;nsl - found
+-- Looking for dlopen in dl;socket;nsl;idn
+-- Looking for dlopen in dl;socket;nsl;idn - found
+-- Looking for process.h
+-- Looking for process.h - not found
+-- Looking for features.h
+-- Looking for features.h - not found
+-- Looking for include files HAVE_STDIO_H
+-- Looking for include files HAVE_STDIO_H - found
+-- Looking for include files HAVE_INTTYPES_H
+-- Looking for include files HAVE_INTTYPES_H - found
+-- Looking for include files HAVE_ALLOCA_H
+-- Looking for include files HAVE_ALLOCA_H - found
+-- Looking for include files HAVE_ARPA_INET_H
+-- Looking for include files HAVE_ARPA_INET_H - found
+-- Looking for include files HAVE_DLFCN_H
+-- Looking for include files HAVE_DLFCN_H - found
+-- Looking for include files HAVE_FCNTL_H
+-- Looking for include files HAVE_FCNTL_H - found
+-- Looking for include files HAVE_MALLOC_H
+-- Looking for include files HAVE_MALLOC_H - found
+-- Looking for include files HAVE_MEMORY_H
+-- Looking for include files HAVE_MEMORY_H - found
+-- Looking for include files HAVE_NETDB_H
+-- Looking for include files HAVE_NETDB_H - found
+-- Looking for include files HAVE_SYS_POLL_H
+-- Looking for include files HAVE_SYS_POLL_H - found
+-- Looking for include files HAVE_ASSERT_H
+-- Looking for include files HAVE_ASSERT_H - found
+-- Looking for include files HAVE_LIMITS_H
+-- Looking for include files HAVE_LIMITS_H - found
+-- Looking for include files HAVE_SYS_SOCKET_H
+-- Looking for include files HAVE_SYS_SOCKET_H - found
+-- Looking for include files HAVE_NETINET_IN_H
+-- Looking for include files HAVE_NETINET_IN_H - found
+-- Looking for include files HAVE_NET_IF_H
+-- Looking for include files HAVE_NET_IF_H - found
+-- Looking for include files HAVE_NETINET_IF_ETHER_H
+-- Looking for include files HAVE_NETINET_IF_ETHER_H - found
+-- Looking for include files HAVE_NETINET_TCP_H
+-- Looking for include files HAVE_NETINET_TCP_H - found
+-- Looking for include files HAVE_SYS_SELECT_H
+-- Looking for include files HAVE_SYS_SELECT_H - found
+-- Looking for include files HAVE_UTIME_H
+-- Looking for include files HAVE_UTIME_H - found
+-- Looking for include files HAVE_PWD_H
+-- Looking for include files HAVE_PWD_H - found
+-- Looking for include files HAVE_SGTTY_H
+-- Looking for include files HAVE_SGTTY_H - found
+-- Looking for include files HAVE_STDLIB_H
+-- Looking for include files HAVE_STDLIB_H - found
+-- Looking for include files HAVE_STRING_H
+-- Looking for include files HAVE_STRING_H - found
+-- Looking for include files HAVE_STRINGS_H
+-- Looking for include files HAVE_STRINGS_H - found
+-- Looking for include files HAVE_SYS_PARAM_H
+-- Looking for include files HAVE_SYS_PARAM_H - found
+-- Looking for include files HAVE_SYS_STAT_H
+-- Looking for include files HAVE_SYS_STAT_H - found
+-- Looking for include files HAVE_SYS_TIME_H
+-- Looking for include files HAVE_SYS_TIME_H - found
+-- Looking for include files HAVE_SYS_RESOURCE_H
+-- Looking for include files HAVE_SYS_RESOURCE_H - found
+-- Looking for include files HAVE_TERMIOS_H
+-- Looking for include files HAVE_TERMIOS_H - found
+-- Looking for include files HAVE_TERMIO_H
+-- Looking for include files HAVE_TERMIO_H - found
+-- Looking for include files HAVE_IO_H
+-- Looking for include files HAVE_IO_H - not found.
+-- Looking for include files HAVE_TIME_H
+-- Looking for include files HAVE_TIME_H - found
+-- Looking for include files HAVE_UNISTD_H
+-- Looking for include files HAVE_UNISTD_H - found
+-- Looking for include files HAVE_SYS_UTIME_H
+-- Looking for include files HAVE_SYS_UTIME_H - found
+-- Looking for include files HAVE_SOCKIO_H
+-- Looking for include files HAVE_SOCKIO_H - not found.
+-- Looking for include files HAVE_SYS_SOCKIO_H
+-- Looking for include files HAVE_SYS_SOCKIO_H - found
+-- Looking for include files HAVE_X509_H
+-- Looking for include files HAVE_X509_H - not found.
+-- Looking for include files HAVE_LOCALE_H
+-- Looking for include files HAVE_LOCALE_H - found
+-- Looking for include files HAVE_SETJMP_H
+-- Looking for include files HAVE_SETJMP_H - found
+-- Looking for include files HAVE_SIGNAL_H
+-- Looking for include files HAVE_SIGNAL_H - found
+-- Looking for include files HAVE_SYS_IOCTL_H
+-- Looking for include files HAVE_SYS_IOCTL_H - found
+-- Looking for include files HAVE_SYS_UTSNAME_H
+-- Looking for include files HAVE_SYS_UTSNAME_H - found
+-- Looking for include files HAVE_IDN_FREE_H
+-- Looking for include files HAVE_IDN_FREE_H - not found.
+-- Looking for include files HAVE_IDNA_H
+-- Looking for include files HAVE_IDNA_H - not found.
+-- Looking for include files HAVE_TLD_H
+-- Looking for include files HAVE_TLD_H - not found.
+-- Looking for include files HAVE_ARPA_TFTP_H
+-- Looking for include files HAVE_ARPA_TFTP_H - found
+-- Looking for include files HAVE_ERRNO_H
+-- Looking for include files HAVE_ERRNO_H - found
+-- Looking for include files HAVE_LIBGEN_H
+-- Looking for include files HAVE_LIBGEN_H - found
+-- Looking for include files HAVE_SYS_FILIO_H
+-- Looking for include files HAVE_SYS_FILIO_H - found
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of long long
+-- Check size of long long - done
+-- Check size of long
+-- Check size of long - done
+-- Check size of __int64
+-- Check size of __int64 - failed
+-- Check size of time_t
+-- Check size of time_t - done
+-- Looking for basename
+-- Looking for basename - found
+-- Looking for socket
+-- Looking for socket - found
+-- Looking for poll
+-- Looking for poll - found
+-- Looking for select
+-- Looking for select - found
+-- Looking for strdup
+-- Looking for strdup - found
+-- Looking for strstr
+-- Looking for strstr - found
+-- Looking for strtok_r
+-- Looking for strtok_r - found
+-- Looking for strftime
+-- Looking for strftime - found
+-- Looking for uname
+-- Looking for uname - found
+-- Looking for strcasecmp
+-- Looking for strcasecmp - found
+-- Looking for stricmp
+-- Looking for stricmp - not found.
+-- Looking for strcmpi
+-- Looking for strcmpi - not found.
+-- Looking for strncmpi
+-- Looking for strncmpi - not found.
+-- Looking for gethostbyaddr
+-- Looking for gethostbyaddr - found
+-- Looking for gettimeofday
+-- Looking for gettimeofday - found
+-- Looking for inet_addr
+-- Looking for inet_addr - found
+-- Looking for inet_pton
+-- Looking for inet_pton - found
+-- Looking for inet_ntoa
+-- Looking for inet_ntoa - found
+-- Looking for inet_ntoa_r
+-- Looking for inet_ntoa_r - not found.
+-- Looking for tcsetattr
+-- Looking for tcsetattr - found
+-- Looking for tcgetattr
+-- Looking for tcgetattr - found
+-- Looking for perror
+-- Looking for perror - found
+-- Looking for closesocket
+-- Looking for closesocket - not found.
+-- Looking for setvbuf
+-- Looking for setvbuf - found
+-- Looking for sigsetjmp
+-- Looking for sigsetjmp - found
+-- Looking for getpass_r
+-- Looking for getpass_r - not found.
+-- Looking for strlcat
+-- Looking for strlcat - found
+-- Looking for getpwuid
+-- Looking for getpwuid - found
+-- Looking for geteuid
+-- Looking for geteuid - found
+-- Looking for utime
+-- Looking for utime - found
+-- Looking for gmtime_r
+-- Looking for gmtime_r - found
+-- Looking for localtime_r
+-- Looking for localtime_r - found
+-- Looking for gethostbyname
+-- Looking for gethostbyname - found
+-- Looking for gethostbyname_r
+-- Looking for gethostbyname_r - found
+-- Looking for gethostbyaddr_r
+-- Looking for gethostbyaddr_r - found
+-- Looking for signal
+-- Looking for signal - found
+-- Looking for SIGALRM
+-- Looking for SIGALRM - found
+-- Looking for strtoll
+-- Looking for strtoll - found
+-- Looking for _strtoi64
+-- Looking for _strtoi64 - not found.
+-- Looking for strerror_r
+-- Looking for strerror_r - found
+-- Looking for siginterrupt
+-- Looking for siginterrupt - found
+-- Looking for fork
+-- Looking for fork - found
+-- Looking for pipe
+-- Looking for pipe - found
+-- Looking for ftruncate
+-- Looking for ftruncate - found
+-- Looking for getprotobyname
+-- Looking for getprotobyname - found
+-- Looking for getrlimit
+-- Looking for getrlimit - found
+-- Looking for idn_free
+-- Looking for idn_free - not found.
+-- Looking for idna_strerror
+-- Looking for idna_strerror - not found.
+-- Looking for tld_strerror
+-- Looking for tld_strerror - not found.
+-- Looking for setlocale
+-- Looking for setlocale - found
+-- Looking for setrlimit
+-- Looking for setrlimit - found
+-- Looking for sigaction
+-- Looking for sigaction - found
+-- Performing Curl Test HAVE_FIONBIO
+-- Performing Curl Test HAVE_FIONBIO - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET
+-- Performing Curl Test HAVE_IOCTLSOCKET - Failed
+-- Performing Curl Test HAVE_IOCTLSOCKET_CASE
+-- Performing Curl Test HAVE_IOCTLSOCKET_CASE - Failed
+-- Performing Curl Test HAVE_O_NONBLOCK
+-- Performing Curl Test HAVE_O_NONBLOCK - Success
+-- Performing Curl Test HAVE_SO_NONBLOCK
+-- Performing Curl Test HAVE_SO_NONBLOCK - Failed
+-- Performing Curl Test TIME_WITH_SYS_TIME
+-- Performing Curl Test TIME_WITH_SYS_TIME - Success
+-- Performing Curl Test HAVE_O_NONBLOCKHAVE_GETHOSTBYADDR_R_5
+-- Performing Curl Test HAVE_O_NONBLOCKHAVE_GETHOSTBYADDR_R_5 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7 - Success
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_5_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_7_REENTRANT - Success
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYADDR_R_8_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5 - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6 - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_3_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_5_REENTRANT - Success
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT
+-- Performing Curl Test HAVE_GETHOSTBYNAME_R_6_REENTRANT - Failed
+-- Performing Curl Test HAVE_SOCKLEN_T
+-- Performing Curl Test HAVE_SOCKLEN_T - Success
+-- Performing Curl Test HAVE_IN_ADDR_T
+-- Performing Curl Test HAVE_IN_ADDR_T - Success
+-- Performing Curl Test STDC_HEADERS
+-- Performing Curl Test STDC_HEADERS - Success
+-- Performing Curl Test RETSIGTYPE_TEST
+-- Performing Curl Test RETSIGTYPE_TEST - Success
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL - Failed
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT
+-- Performing Curl Test HAVE_INET_NTOA_R_DECL_REENTRANT - Failed
+-- Performing Curl Test HAVE_GETADDRINFO
+-- Performing Curl Test HAVE_GETADDRINFO - Success
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS
+-- Performing Curl Test HAVE_FILE_OFFSET_BITS - Success
+-- Check size of curl_off_t
+-- Check size of curl_off_t - done
+-- Performing Test curl_cv_recv
+-- Performing Test curl_cv_recv - Success
+-- Performing Test int recv(int, void *, size_t, int) (curl_cv_func_recv_test)
+-- Performing Test int recv(int, void *, size_t, int) (curl_cv_func_recv_test) - Success
+-- Performing Test curl_cv_send
+-- Performing Test curl_cv_send - Success
+-- Performing Test int send(int, const void *, size_t, int) (curl_cv_func_send_test)
+-- Performing Test int send(int, const void *, size_t, int) (curl_cv_func_send_test) - Success
+-- Performing Test HAVE_MSG_NOSIGNAL
+-- Performing Test HAVE_MSG_NOSIGNAL - Failed
+-- Performing Test HAVE_STRUCT_TIMEVAL
+-- Performing Test HAVE_STRUCT_TIMEVAL - Success
+-- Check size of sig_atomic_t
+-- Check size of sig_atomic_t - done
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE
+-- Performing Test HAVE_SIG_ATOMIC_T_NOT_VOLATILE - Success
+-- Check size of struct sockaddr_storage
+-- Check size of struct sockaddr_storage - done
+-- Found ZLIB: cmzlib (found version "1.2.3")
+-- Found BZip2: cmbzip2 
+-- Looking for BZ2_bzCompressInit in cmbzip2
+-- Looking for BZ2_bzCompressInit in cmbzip2 - not found
+-- Performing Test HAVE_DIRENT_H
+-- Performing Test HAVE_DIRENT_H - Success
+-- Looking for include files HAVE_ACL_LIBACL_H
+-- Looking for include files HAVE_ACL_LIBACL_H - not found.
+-- Looking for include files HAVE_ATTR_XATTR_H
+-- Looking for include files HAVE_ATTR_XATTR_H - not found.
+-- Looking for include files HAVE_CTYPE_H
+-- Looking for include files HAVE_CTYPE_H - found
+-- Looking for include files HAVE_DIRECT_H
+-- Looking for include files HAVE_DIRECT_H - not found.
+-- Looking for include files HAVE_EXT2FS_EXT2_FS_H
+-- Looking for include files HAVE_EXT2FS_EXT2_FS_H - not found.
+-- Looking for include files HAVE_GRP_H
+-- Looking for include files HAVE_GRP_H - found
+-- Looking for include files HAVE_LANGINFO_H
+-- Looking for include files HAVE_LANGINFO_H - found
+-- Looking for include files HAVE_LINUX_FS_H
+-- Looking for include files HAVE_LINUX_FS_H - not found.
+-- Looking for include files HAVE_PATHS_H
+-- Looking for include files HAVE_PATHS_H - found
+-- Looking for include files HAVE_POLL_H
+-- Looking for include files HAVE_POLL_H - found
+-- Looking for include files HAVE_REGEX_H
+-- Looking for include files HAVE_REGEX_H - found
+-- Looking for include files HAVE_STDARG_H
+-- Looking for include files HAVE_STDARG_H - found
+-- Looking for include files HAVE_SYS_ACL_H
+-- Looking for include files HAVE_SYS_ACL_H - found
+-- Looking for include files HAVE_SYS_EXTATTR_H
+-- Looking for include files HAVE_SYS_EXTATTR_H - not found.
+-- Looking for include files HAVE_SYS_MKDEV_H
+-- Looking for include files HAVE_SYS_MKDEV_H - found
+-- Looking for include files HAVE_SYS_WAIT_H
+-- Looking for include files HAVE_SYS_WAIT_H - found
+-- Looking for include files HAVE_WCHAR_H
+-- Looking for include files HAVE_WCHAR_H - found
+-- Looking for include files HAVE_WCTYPE_H
+-- Looking for include files HAVE_WCTYPE_H - found
+-- Looking for include files HAVE_WINDOWS_H
+-- Looking for include files HAVE_WINDOWS_H - not found.
+-- Looking for include files HAVE_MD5_H
+-- Looking for include files HAVE_MD5_H - found
+-- Looking for include files HAVE_OPENSSL_MD5_H
+-- Looking for include files HAVE_OPENSSL_MD5_H - not found.
+-- Looking for include files HAVE_OPENSSL_RIPEMD_H
+-- Looking for include files HAVE_OPENSSL_RIPEMD_H - found
+-- Looking for include files HAVE_OPENSSL_SHA_H
+-- Looking for include files HAVE_OPENSSL_SHA_H - found
+-- Looking for include files HAVE_RIPEMD_H
+-- Looking for include files HAVE_RIPEMD_H - not found.
+-- Looking for include files HAVE_RMD160_H
+-- Looking for include files HAVE_RMD160_H - not found.
+-- Looking for include files HAVE_SHA_H
+-- Looking for include files HAVE_SHA_H - not found.
+-- Looking for include files HAVE_SHA1_H
+-- Looking for include files HAVE_SHA1_H - found
+-- Looking for include files HAVE_SHA2_H
+-- Looking for include files HAVE_SHA2_H - not found.
+-- Looking for include files HAVE_SHA256_H
+-- Looking for include files HAVE_SHA256_H - not found.
+-- Looking for MD5_Init
+-- Looking for MD5_Init - not found
+-- Looking for MD5Init
+-- Looking for MD5Init - found
+-- Looking for RIPEMD160_Init
+-- Looking for RIPEMD160_Init - not found
+-- Looking for RMD160Init
+-- Looking for RMD160Init - not found
+-- Looking for SHA1_Init
+-- Looking for SHA1_Init - not found
+-- Looking for SHA1Init
+-- Looking for SHA1Init - found
+-- Looking for SHA256_Init
+-- Looking for SHA256_Init - not found
+-- Looking for SHA384_Init
+-- Looking for SHA384_Init - not found
+-- Looking for SHA512_Init
+-- Looking for SHA512_Init - not found
+-- Looking for CreateHardLinkA
+-- Looking for CreateHardLinkA - not found.
+-- Looking for CreateHardLinkW
+-- Looking for CreateHardLinkW - not found.
+-- Looking for chflags
+-- Looking for chflags - not found
+-- Looking for chown
+-- Looking for chown - found
+-- Looking for chroot
+-- Looking for chroot - found
+-- Looking for fchdir
+-- Looking for fchdir - found
+-- Looking for fchflags
+-- Looking for fchflags - not found
+-- Looking for fchmod
+-- Looking for fchmod - found
+-- Looking for fchown
+-- Looking for fchown - found
+-- Looking for fcntl
+-- Looking for fcntl - found
+-- Looking for fstat
+-- Looking for fstat - found
+-- Looking for futimes
+-- Looking for futimes - not found
+-- Looking for getpid
+-- Looking for getpid - found
+-- Looking for lchflags
+-- Looking for lchflags - not found
+-- Looking for lchmod
+-- Looking for lchmod - not found
+-- Looking for lchown
+-- Looking for lchown - found
+-- Looking for link
+-- Looking for link - found
+-- Looking for lstat
+-- Looking for lstat - found
+-- Looking for lutimes
+-- Looking for lutimes - not found
+-- Looking for memmove
+-- Looking for memmove - found
+-- Looking for mkdir
+-- Looking for mkdir - found
+-- Looking for mkfifo
+-- Looking for mkfifo - found
+-- Looking for mknod
+-- Looking for mknod - found
+-- Looking for nl_langinfo
+-- Looking for nl_langinfo - found
+-- Looking for readlink
+-- Looking for readlink - found
+-- Looking for setenv
+-- Looking for setenv - found
+-- Looking for strchr
+-- Looking for strchr - found
+-- Looking for strerror
+-- Looking for strerror - found
+-- Looking for strncpy_s
+-- Looking for strncpy_s - not found
+-- Looking for strrchr
+-- Looking for strrchr - found
+-- Looking for symlink
+-- Looking for symlink - found
+-- Looking for timegm
+-- Looking for timegm - found
+-- Looking for tzset
+-- Looking for tzset - found
+-- Looking for utimes
+-- Looking for utimes - found
+-- Looking for vfork
+-- Looking for vfork - found
+-- Looking for wcrtomb
+-- Looking for wcrtomb - found
+-- Looking for wcscpy
+-- Looking for wcscpy - found
+-- Looking for wcslen
+-- Looking for wcslen - found
+-- Looking for wctomb
+-- Looking for wctomb - found
+-- Looking for wmemcmp
+-- Looking for wmemcmp - found
+-- Looking for wmemcpy
+-- Looking for wmemcpy - found
+-- Looking for fseeko
+-- Looking for fseeko - found
+-- Looking for vprintf
+-- Looking for vprintf - found
+-- Performing Test MAJOR_IN_MKDEV
+-- Performing Test MAJOR_IN_MKDEV - Success
+-- Performing Test MAJOR_IN_SYSMACROS
+-- Performing Test MAJOR_IN_SYSMACROS - Success
+-- Looking for EFTYPE
+-- Looking for EFTYPE - not found.
+-- Looking for EILSEQ
+-- Looking for EILSEQ - found
+-- Looking for D_MD_ORDER
+-- Looking for D_MD_ORDER - not found.
+-- Looking for optarg
+-- Looking for optarg - not found.
+-- Looking for optind
+-- Looking for optind - not found.
+-- Looking for INT64_MAX
+-- Looking for INT64_MAX - found
+-- Looking for INT64_MIN
+-- Looking for INT64_MIN - found
+-- Looking for UINT32_MAX
+-- Looking for UINT32_MAX - found
+-- Looking for UINT64_MAX
+-- Looking for UINT64_MAX - found
+-- Looking for SIZE_MAX
+-- Looking for SIZE_MAX - found
+-- Looking for SSIZE_MAX
+-- Looking for SSIZE_MAX - found
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_BIRTHTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIMESPEC_TV_NSEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIM_TV_NSEC - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_N - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME
+-- Performing Test HAVE_STRUCT_STAT_ST_UMTIME - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC
+-- Performing Test HAVE_STRUCT_STAT_ST_MTIME_USEC - Failed
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE
+-- Performing Test HAVE_STRUCT_STAT_ST_BLKSIZE - Success
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS
+-- Performing Test HAVE_STRUCT_STAT_ST_FLAGS - Failed
+-- Check size of long long int
+-- Check size of long long int - done
+-- Check size of unsigned long long
+-- Check size of unsigned long long - done
+-- Check size of unsigned long long int
+-- Check size of unsigned long long int - done
+-- Check size of dev_t
+-- Check size of dev_t - done
+-- Check size of gid_t
+-- Check size of gid_t - done
+-- Check size of id_t
+-- Check size of id_t - done
+-- Check size of int64_t
+-- Check size of int64_t - done
+-- Check size of intmax_t
+-- Check size of intmax_t - done
+-- Check size of mode_t
+-- Check size of mode_t - done
+-- Check size of off_t
+-- Check size of off_t - done
+-- Check size of size_t
+-- Check size of size_t - done
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Check size of uid_t
+-- Check size of uid_t - done
+-- Check size of uint16_t
+-- Check size of uint16_t - done
+-- Check size of uint32_t
+-- Check size of uint32_t - done
+-- Check size of int32_t
+-- Check size of int32_t - done
+-- Check size of uint64_t
+-- Check size of uint64_t - done
+-- Check size of uintmax_t
+-- Check size of uintmax_t - done
+-- Check size of intptr_t
+-- Check size of intptr_t - done
+-- Check size of uintptr_t
+-- Check size of uintptr_t - done
+-- Check size of wchar_t
+-- Check size of wchar_t - done
+-- Cheking _FILE_OFFSET_BITS for large files
+-- Cheking _FILE_OFFSET_BITS for large files - needed
+-- Looking for include files HAVE_SYS_XATTR_H
+-- Looking for include files HAVE_SYS_XATTR_H - not found.
+-- Looking for setxattr in attr
+-- Looking for setxattr in attr - not found
+-- Looking for extattr_get_file
+-- Looking for extattr_get_file - not found
+-- Looking for extattr_list_file
+-- Looking for extattr_list_file - not found
+-- Looking for extattr_set_fd
+-- Looking for extattr_set_fd - not found
+-- Looking for extattr_set_file
+-- Looking for extattr_set_file - not found
+-- Looking for fsetxattr
+-- Looking for fsetxattr - not found
+-- Looking for getxattr
+-- Looking for getxattr - not found
+-- Looking for lgetxattr
+-- Looking for lgetxattr - not found
+-- Looking for listxattr
+-- Looking for listxattr - not found
+-- Looking for llistxattr
+-- Looking for llistxattr - not found
+-- Looking for lsetxattr
+-- Looking for lsetxattr - not found
+-- Check if the system is big endian
+-- Searching 16 bit integer
+-- Check size of unsigned short
+-- Check size of unsigned short - done
+-- Using unsigned short
+-- Check if the system is big endian - little endian
+-- Looking for wsyncup in /usr/lib/libcurses.so
+-- Looking for wsyncup in /usr/lib/libcurses.so - found
+-- Looking for elf.h
+-- Looking for elf.h - found
+-- Looking for a Fortran compiler
+-- Looking for a Fortran compiler - /usr/bin/gfortran
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /export/home/drlou/illumos-userland/components/cmake/build/i86
+---------------------------------------------
+CMake has bootstrapped.  Now run /usr/gnu/bin/make.
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/build/i86/.configured
+(cd /export/home/drlou/illumos-userland/components/cmake/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  CC="/usr/gcc/4.5/bin/gcc"	 CXX="/usr/gcc/4.5/bin/g++"	 LDFLAGS=""	 MAKE="/usr/gnu/bin/make"	 \
+		/usr/gnu/bin/make  all)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsys
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  0%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/ProcessUNIX.c.o
+[  0%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/Base64.c.o
+[  1%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/MD5.c.o
+[  1%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/Terminal.c.o
+[  1%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/System.c.o
+[  1%] Building C object Source/kwsys/CMakeFiles/cmsys.dir/String.c.o
+[  2%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/Directory.cxx.o
+[  2%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/DynamicLoader.cxx.o
+[  2%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/Glob.cxx.o
+[  2%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/RegularExpression.cxx.o
+[  3%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/SystemTools.cxx.o
+[  3%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/CommandLineArguments.cxx.o
+[  3%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/Registry.cxx.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/IOStream.cxx.o
+[  4%] Building CXX object Source/kwsys/CMakeFiles/cmsys.dir/SystemInformation.cxx.o
+Linking CXX static library libcmsys.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  4%] Built target cmsys
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsysTestDynload
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  4%] Building C object Source/kwsys/CMakeFiles/cmsysTestDynload.dir/testDynload.c.o
+Linking C shared module libcmsysTestDynload.so
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  4%] Built target cmsysTestDynload
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsys_c
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  4%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/ProcessUNIX.c.o
+[  4%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Base64.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/MD5.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/Terminal.c.o
+[  5%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/System.c.o
+[  6%] Building C object Source/kwsys/CMakeFiles/cmsys_c.dir/String.c.o
+Linking C static library libcmsys_c.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  6%] Built target cmsys_c
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsysTestProcess
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  6%] Building C object Source/kwsys/CMakeFiles/cmsysTestProcess.dir/testProcess.c.o
+Linking C executable cmsysTestProcess
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  6%] Built target cmsysTestProcess
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsysTestSharedForward
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestSharedForward.dir/testSharedForward.c.o
+Linking C executable cmsysTestSharedForward
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  7%] Built target cmsysTestSharedForward
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsysTestsC
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/cmsysTestsC.c.o
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/testEncode.c.o
+[  7%] Building C object Source/kwsys/CMakeFiles/cmsysTestsC.dir/testTerminal.c.o
+Linking C executable cmsysTestsC
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  7%] Built target cmsysTestsC
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmsysTestsCxx
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/cmsysTestsCxx.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testAutoPtr.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testHashSTL.cxx.o
+[  8%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testRegistry.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testIOS.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testSystemTools.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testCommandLineArguments.cxx.o
+[  9%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testCommandLineArguments1.cxx.o
+[ 10%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testSystemInformation.cxx.o
+[ 10%] Building CXX object Source/kwsys/CMakeFiles/cmsysTestsCxx.dir/testDynamicLoader.cxx.o
+Linking CXX executable cmsysTestsCxx
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 10%] Built target cmsysTestsCxx
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmzlib
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/adler32.c.o
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/compress.c.o
+[ 10%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/crc32.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/deflate.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/gzio.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inffast.c.o
+[ 11%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inflate.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/inftrees.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/trees.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/uncompr.c.o
+[ 12%] Building C object Utilities/cmzlib/CMakeFiles/cmzlib.dir/zutil.c.o
+Linking C static library libcmzlib.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 12%] Built target cmzlib
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmcurl
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 12%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/base64.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/connect.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/content_encoding.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/cookie.c.o
+[ 13%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/dict.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/easy.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/escape.c.o
+[ 14%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/file.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/formdata.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ftp.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/getenv.c.o
+[ 15%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/getinfo.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/gtls.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hash.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostares.c.o
+[ 16%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostasyn.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip4.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip6.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostip.c.o
+[ 17%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostsyn.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/hostthre.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_chunks.c.o
+[ 18%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_digest.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_negotiate.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/http_ntlm.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/if2ip.c.o
+[ 19%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/inet_ntop.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/inet_pton.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/krb4.c.o
+[ 20%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ldap.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/llist.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/md5.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/mprintf.c.o
+[ 21%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/multi.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/netrc.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/parsedate.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/progress.c.o
+[ 22%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/security.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/select.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/sendf.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/share.c.o
+[ 23%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/socks.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/speedcheck.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/splay.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ssh.c.o
+[ 24%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/sslgen.c.o
+[ 25%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/ssluse.c.o
+[ 25%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strdup.c.o
+[ 25%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strequal.c.o
+[ 26%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/strerror.c.o
+[ 26%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/telnet.c.o
+[ 26%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/tftp.c.o
+[ 26%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/timeval.c.o
+[ 27%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/transfer.c.o
+[ 27%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/url.c.o
+[ 27%] Building C object Utilities/cmcurl/CMakeFiles/cmcurl.dir/version.c.o
+Linking C static library libcmcurl.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Built target cmcurl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target LIBCURL
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Building C object Utilities/cmcurl/CMakeFiles/LIBCURL.dir/Testing/curltest.c.o
+Linking C executable LIBCURL
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Built target LIBCURL
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmcompress
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Building C object Utilities/cmcompress/CMakeFiles/cmcompress.dir/cmcompress.c.o
+Linking C static library libcmcompress.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Built target cmcompress
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmbzip2
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 27%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/blocksort.c.o
+[ 28%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/huffman.c.o
+[ 28%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/crctable.c.o
+[ 28%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/randtable.c.o
+[ 28%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/compress.c.o
+[ 29%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/decompress.c.o
+[ 29%] Building C object Utilities/cmbzip2/CMakeFiles/cmbzip2.dir/bzlib.c.o
+Linking C static library libcmbzip2.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 29%] Built target cmbzip2
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmlibarchive
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_check_magic.c.o
+[ 29%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_copy_stat.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_link_resolver.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_stat.c.o
+[ 30%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_strmode.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_entry_xattr.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_data_into_fd.c.o
+[ 31%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk_entry_from_file.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_disk_set_standard_lookup.c.o
+[ 32%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_extract.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_fd.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_file.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_filename.c.o
+[ 33%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_open_memory.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_all.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_bzip2.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_compress.c.o
+[ 34%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_gzip.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_none.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_program.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_compression_xz.c.o
+[ 35%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_all.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_ar.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_cpio.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_empty.c.o
+[ 36%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_iso9660.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_mtree.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_raw.c.o
+[ 37%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_tar.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_read_support_format_zip.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_string_sprintf.c.o
+[ 38%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_util.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_virtual.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk.c.o
+[ 39%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_disk_set_standard_lookup.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_fd.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_file.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_filename.c.o
+[ 40%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_open_memory.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_bzip2.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_compress.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_gzip.c.o
+[ 41%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_none.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_program.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_compression_xz.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format.c.o
+[ 42%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ar.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_by_name.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio.c.o
+[ 43%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_cpio_newc.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_mtree.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_pax.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_shar.c.o
+[ 44%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_ustar.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/archive_write_set_format_zip.c.o
+[ 45%] Building C object Utilities/cmlibarchive/libarchive/CMakeFiles/cmlibarchive.dir/filter_fork.c.o
+Linking C static library libcmlibarchive.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 45%] Built target cmlibarchive
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmexpat
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 45%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmlparse.c.o
+[ 46%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmltok.c.o
+[ 46%] Building C object Utilities/cmexpat/CMakeFiles/cmexpat.dir/xmlrole.c.o
+Linking C static library libcmexpat.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 46%] Built target cmexpat
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmForm
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 46%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_arg.c.o
+[ 46%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_attr.c.o
+[ 46%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_current.c.o
+[ 47%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_def.c.o
+[ 47%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_dup.c.o
+[ 47%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_ftchoice.c.o
+[ 47%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_ftlink.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_info.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_just.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_link.c.o
+[ 48%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_max.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_move.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_newftyp.c.o
+[ 49%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_opts.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_pad.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_page.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_stat.c.o
+[ 50%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_type.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fld_user.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_cursor.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_data.c.o
+[ 51%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_def.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_driver.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_hook.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_opts.c.o
+[ 52%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_page.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_post.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_req_name.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_scale.c.o
+[ 53%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_sub.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_user.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/frm_win.c.o
+[ 54%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_alnum.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_alpha.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_enum.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_int.c.o
+[ 55%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_ipv4.c.o
+[ 56%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_num.c.o
+[ 56%] Building C object Source/CursesDialog/form/CMakeFiles/cmForm.dir/fty_regex.c.o
+Linking C static library libcmForm.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 56%] Built target cmForm
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target CMakeLib
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmStandardIncludes.cxx.o
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmArchiveWrite.cxx.o
+[ 56%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmBootstrapCommands.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCacheManager.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommands.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentLexer.cxx.o
+[ 57%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentParser.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCommandArgumentParserHelper.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeComponentGraph.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeLinkDepends.cxx.o
+[ 58%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeLinkInformation.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmComputeTargetDepends.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCustomCommand.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmCustomCommandGenerator.cxx.o
+[ 59%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDefinitions.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDepends.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsC.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortran.cxx.o
+[ 60%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortranLexer.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsFortranParser.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJava.cxx.o
+[ 61%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaLexer.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaParser.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDependsJavaParserHelper.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentation.cxx.o
+[ 62%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatter.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterHTML.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterDocbook.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterMan.cxx.o
+[ 63%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterText.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationFormatterUsage.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentationSection.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDocumentVariables.cxx.o
+[ 64%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmDynamicLoader.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmELF.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprLexer.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprParser.cxx.o
+[ 65%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExprParserHelper.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportBuildFileGenerator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportFileGenerator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExportInstallFileGenerator.cxx.o
+[ 66%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExtraCodeBlocksGenerator.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmExtraEclipseCDT4Generator.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmFileTimeComparison.cxx.o
+[ 67%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratedFileStream.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGeneratorExpression.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalGenerator.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalUnixMakefileGenerator3.cxx.o
+[ 68%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGraphVizWriter.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallExportGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallFilesGenerator.cxx.o
+[ 69%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallScriptGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallTargetGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmInstallDirectoryGenerator.cxx.o
+[ 70%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmListFileCache.cxx.o
+[ 70%] Building C object Source/CMakeFiles/CMakeLib.dir/cmListFileLexer.c.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmLocalGenerator.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmLocalUnixMakefileGenerator3.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakeDepend.cxx.o
+[ 71%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefile.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileExecutableTargetGenerator.cxx.o
+[ 72%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileLibraryTargetGenerator.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmMakefileUtilityTargetGenerator.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmOrderDirectories.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPolicies.cxx.o
+[ 73%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmProcessTools.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmProperty.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyDefinition.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyDefinitionMap.cxx.o
+[ 74%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmPropertyMap.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmScriptGenerator.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceFile.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceFileLocation.cxx.o
+[ 75%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSourceGroup.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmSystemTools.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTarget.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTest.cxx.o
+[ 76%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmTestGenerator.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmVariableWatch.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmVersion.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmXMLParser.cxx.o
+[ 77%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmXMLSafe.cxx.o
+[ 78%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmake.cxx.o
+[ 78%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmakewizard.cxx.o
+[ 78%] Building C object Source/CMakeFiles/CMakeLib.dir/cm_utf8.c.o
+[ 79%] Building CXX object Source/CMakeFiles/CMakeLib.dir/cmGlobalKdevelopGenerator.cxx.o
+Linking CXX static library libCMakeLib.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 79%] Built target CMakeLib
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target CPackLib
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 79%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackArchiveGenerator.cxx.o
+[ 79%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackComponentGroup.cxx.o
+[ 79%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackGeneratorFactory.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackGenerator.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackLog.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackNSISGenerator.cxx.o
+[ 80%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackSTGZGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTGZGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTarBZip2Generator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackTarCompressGenerator.cxx.o
+[ 81%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackZIPGenerator.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackDebGenerator.cxx.o
+[ 82%] Building CXX object Source/CMakeFiles/CPackLib.dir/CPack/cmCPackRPMGenerator.cxx.o
+Linking CXX static library libCPackLib.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 82%] Built target CPackLib
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target CTestLib
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 82%] Building CXX object Source/CMakeFiles/CTestLib.dir/cmCTest.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmProcess.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBatchTestHandler.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildAndTestHandler.cxx.o
+[ 83%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildCommand.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBuildHandler.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestConfigureCommand.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestConfigureHandler.cxx.o
+[ 84%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCoverageCommand.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCoverageHandler.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmParsePHPCoverage.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestEmptyBinaryDirectoryCommand.cxx.o
+[ 85%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGenericHandler.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestHandlerCommand.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestLaunch.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMemCheckCommand.cxx.o
+[ 86%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMemCheckHandler.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestMultiProcessHandler.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestReadCustomFilesCommand.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestRunScriptCommand.cxx.o
+[ 87%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestRunTest.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestScriptHandler.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSleepCommand.cxx.o
+[ 88%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestStartCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSubmitCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSubmitHandler.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestTestCommand.cxx.o
+[ 89%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestTestHandler.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUpdateCommand.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUpdateHandler.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUploadCommand.cxx.o
+[ 90%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestUploadHandler.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestVC.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGlobalVC.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestCVS.cxx.o
+[ 91%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestSVN.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestBZR.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestGIT.cxx.o
+[ 92%] Building CXX object Source/CMakeFiles/CTestLib.dir/CTest/cmCTestHG.cxx.o
+Linking CXX static library libCTestLib.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 92%] Built target CTestLib
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target ccmake
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesBoolWidget.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesCacheEntryComposite.cxx.o
+[ 93%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesDummyWidget.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesFilePathWidget.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesForm.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesLabelWidget.cxx.o
+[ 94%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesLongMessageForm.cxx.o
+[ 95%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesMainForm.cxx.o
+[ 95%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesPathWidget.cxx.o
+[ 95%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesStringWidget.cxx.o
+[ 95%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/cmCursesWidget.cxx.o
+[ 96%] Building CXX object Source/CMakeFiles/ccmake.dir/CursesDialog/ccmake.cxx.o
+Linking CXX executable ../bin/ccmake
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 96%] Built target ccmake
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cmake
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 96%] Building CXX object Source/CMakeFiles/cmake.dir/cmakemain.cxx.o
+Linking CXX executable ../bin/cmake
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 96%] Built target cmake
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target cpack
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 97%] Building CXX object Source/CMakeFiles/cpack.dir/CPack/cpack.cxx.o
+Linking CXX executable ../bin/cpack
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 97%] Built target cpack
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target ctest
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 97%] Building CXX object Source/CMakeFiles/ctest.dir/ctest.cxx.o
+Linking CXX executable ../bin/ctest
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 97%] Built target ctest
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target documentation
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 97%] Generating ../Docs/ctest.txt
+[ 97%] Generating ../Docs/cpack.txt
+[ 97%] Generating ../Docs/ccmake.txt
+[ 97%] Generating ../Docs/cmake.txt
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 98%] Built target documentation
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target CMakeLibTests
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/CMakeLibTests.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testUTF8.cxx.o
+[ 98%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLParser.cxx.o
+[100%] Building CXX object Tests/CMakeLib/CMakeFiles/CMakeLibTests.dir/testXMLSafe.cxx.o
+Linking CXX executable CMakeLibTests
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[100%] Built target CMakeLibTests
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Scanning dependencies of target runcompilecommands
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[100%] Building CXX object Tests/CMakeLib/CMakeFiles/runcompilecommands.dir/run_compile_commands.cxx.o
+Linking CXX executable runcompilecommands
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+[100%] Built target runcompilecommands
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/build/i86/.built
+(cd /export/home/drlou/illumos-userland/components/cmake/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+Running tests...
+Test project /export/home/drlou/illumos-userland/components/cmake/build/i86
+        Start 164: BootstrapTest
+  1/197 Test #164: BootstrapTest ...............................   Passed   44.00 sec
+        Start   1: SystemInformationNew
+  2/197 Test   #1: SystemInformationNew ........................   Passed    0.00 sec
+        Start   2: kwsys.testEncode
+  3/197 Test   #2: kwsys.testEncode ............................   Passed    0.00 sec
+        Start   3: kwsys.testTerminal
+  4/197 Test   #3: kwsys.testTerminal ..........................   Passed    0.00 sec
+        Start   4: kwsys.testAutoPtr
+  5/197 Test   #4: kwsys.testAutoPtr ...........................   Passed    0.00 sec
+        Start   5: kwsys.testHashSTL
+  6/197 Test   #5: kwsys.testHashSTL ...........................   Passed    0.00 sec
+        Start   6: kwsys.testRegistry
+  7/197 Test   #6: kwsys.testRegistry ..........................   Passed    0.00 sec
+        Start   7: kwsys.testIOS
+  8/197 Test   #7: kwsys.testIOS ...............................   Passed    0.00 sec
+        Start   8: kwsys.testSystemTools
+  9/197 Test   #8: kwsys.testSystemTools .......................   Passed    0.00 sec
+        Start   9: kwsys.testCommandLineArguments
+ 10/197 Test   #9: kwsys.testCommandLineArguments ..............   Passed    0.00 sec
+        Start  10: kwsys.testCommandLineArguments1
+ 11/197 Test  #10: kwsys.testCommandLineArguments1 .............   Passed    0.00 sec
+        Start  11: kwsys.testSystemInformation
+ 12/197 Test  #11: kwsys.testSystemInformation .................   Passed    1.00 sec
+        Start  12: kwsys.testDynamicLoader
+ 13/197 Test  #12: kwsys.testDynamicLoader .....................   Passed    0.00 sec
+        Start  13: kwsys.testProcess-1
+ 14/197 Test  #13: kwsys.testProcess-1 .........................   Passed    0.00 sec
+        Start  14: kwsys.testProcess-2
+ 15/197 Test  #14: kwsys.testProcess-2 .........................   Passed    0.00 sec
+        Start  15: kwsys.testProcess-3
+ 16/197 Test  #15: kwsys.testProcess-3 .........................   Passed   10.00 sec
+        Start  16: kwsys.testProcess-4
+ 17/197 Test  #16: kwsys.testProcess-4 .........................   Passed    0.00 sec
+        Start  17: kwsys.testProcess-5
+ 18/197 Test  #17: kwsys.testProcess-5 .........................   Passed    0.00 sec
+        Start  18: kwsys.testProcess-6
+ 19/197 Test  #18: kwsys.testProcess-6 .........................   Passed   10.00 sec
+        Start  19: kwsys.testProcess-7
+ 20/197 Test  #19: kwsys.testProcess-7 .........................   Passed    2.00 sec
+        Start  20: kwsys.testSharedForward
+ 21/197 Test  #20: kwsys.testSharedForward .....................   Passed    0.00 sec
+        Start  21: curl
+ 22/197 Test  #21: curl ........................................   Passed    0.00 sec
+        Start  22: CMake.HTML
+ 23/197 Test  #22: CMake.HTML ..................................   Passed    0.00 sec
+        Start  23: CommandLineTest
+ 24/197 Test  #23: CommandLineTest .............................   Passed    1.00 sec
+        Start  24: FindPackageTest
+ 25/197 Test  #24: FindPackageTest .............................   Passed    1.00 sec
+        Start  25: FindModulesExecuteAll
+ 26/197 Test  #25: FindModulesExecuteAll .......................   Passed    4.00 sec
+        Start  26: StringFileTest
+ 27/197 Test  #26: StringFileTest ..............................   Passed    1.00 sec
+        Start  27: TryCompile
+ 28/197 Test  #27: TryCompile ..................................   Passed    1.00 sec
+        Start  28: TarTest
+ 29/197 Test  #28: TarTest .....................................   Passed    1.00 sec
+        Start  29: SystemInformation
+ 30/197 Test  #29: SystemInformation ...........................   Passed    0.00 sec
+        Start  30: MathTest
+ 31/197 Test  #30: MathTest ....................................   Passed    0.00 sec
+        Start  31: Simple
+ 32/197 Test  #31: Simple ......................................   Passed    1.00 sec
+        Start  32: PreOrder
+ 33/197 Test  #32: PreOrder ....................................   Passed    0.00 sec
+        Start  33: MissingSourceFile
+ 34/197 Test  #33: MissingSourceFile ...........................   Passed    0.00 sec
+        Start  34: COnly
+ 35/197 Test  #34: COnly .......................................   Passed    1.00 sec
+        Start  35: CxxOnly
+ 36/197 Test  #35: CxxOnly .....................................   Passed    0.00 sec
+        Start  36: IPO
+ 37/197 Test  #36: IPO .........................................   Passed    1.00 sec
+        Start  37: OutDir
+ 38/197 Test  #37: OutDir ......................................   Passed    0.00 sec
+        Start  38: NewlineArgs
+ 39/197 Test  #38: NewlineArgs .................................   Passed    0.00 sec
+        Start  39: SetLang
+ 40/197 Test  #39: SetLang .....................................   Passed    1.00 sec
+        Start  40: ExternalOBJ
+ 41/197 Test  #40: ExternalOBJ .................................   Passed    0.00 sec
+        Start  41: LoadCommand
+ 42/197 Test  #41: LoadCommand .................................   Passed    1.00 sec
+        Start  42: LinkDirectory
+ 43/197 Test  #42: LinkDirectory ...............................   Passed    1.00 sec
+        Start  43: LinkLanguage
+ 44/197 Test  #43: LinkLanguage ................................   Passed    0.00 sec
+        Start  44: LinkLine
+ 45/197 Test  #44: LinkLine ....................................   Passed    1.00 sec
+        Start  45: MacroTest
+ 46/197 Test  #45: MacroTest ...................................   Passed    0.00 sec
+        Start  46: FunctionTest
+ 47/197 Test  #46: FunctionTest ................................   Passed    0.00 sec
+        Start  47: ReturnTest
+ 48/197 Test  #47: ReturnTest ..................................   Passed    1.00 sec
+        Start  48: Properties
+ 49/197 Test  #48: Properties ..................................   Passed    0.00 sec
+        Start  49: Assembler
+ 50/197 Test  #49: Assembler ...................................   Passed    0.00 sec
+        Start  50: SourceGroups
+ 51/197 Test  #50: SourceGroups ................................   Passed    1.00 sec
+        Start  51: Preprocess
+ 52/197 Test  #51: Preprocess ..................................   Passed    0.00 sec
+        Start  52: ExportImport
+ 53/197 Test  #52: ExportImport ................................   Passed    2.00 sec
+        Start  53: Unset
+ 54/197 Test  #53: Unset .......................................   Passed    0.00 sec
+        Start  54: PolicyScope
+ 55/197 Test  #54: PolicyScope .................................   Passed    1.00 sec
+        Start  55: EmptyLibrary
+ 56/197 Test  #55: EmptyLibrary ................................   Passed    0.00 sec
+        Start  56: CrossCompile
+ 57/197 Test  #56: CrossCompile ................................   Passed    0.00 sec
+        Start  57: Policy0002
+ 58/197 Test  #57: Policy0002 ..................................   Passed    1.00 sec
+        Start  58: CMakeBuildTest
+ 59/197 Test  #58: CMakeBuildTest ..............................   Passed    0.00 sec
+        Start  59: Module.CheckTypeSize
+ 60/197 Test  #59: Module.CheckTypeSize ........................   Passed    1.00 sec
+        Start  60: LinkFlags-prepare
+ 61/197 Test  #60: LinkFlags-prepare ...........................   Passed    0.00 sec
+        Start  61: LinkFlags-lib
+ 62/197 Test  #61: LinkFlags-lib ...............................   Passed    0.00 sec
+        Start  62: LinkFlags-dll
+ 63/197 Test  #62: LinkFlags-dll ...............................   Passed    0.00 sec
+        Start  63: LinkFlags-exe
+ 64/197 Test  #63: LinkFlags-exe ...............................   Passed    0.00 sec
+        Start  64: LinkFlags-lib_config
+ 65/197 Test  #64: LinkFlags-lib_config ........................   Passed    0.00 sec
+        Start  65: LinkFlags-dll_config
+ 66/197 Test  #65: LinkFlags-dll_config ........................   Passed    0.00 sec
+        Start  66: LinkFlags-exe_config
+ 67/197 Test  #66: LinkFlags-exe_config ........................   Passed    0.00 sec
+        Start  67: SubProject
+ 68/197 Test  #67: SubProject ..................................   Passed    1.00 sec
+        Start  68: SubProject-Stage2
+ 69/197 Test  #68: SubProject-Stage2 ...........................   Passed    0.00 sec
+        Start  69: Framework
+ 70/197 Test  #69: Framework ...................................   Passed    0.00 sec
+        Start  70: TargetName
+ 71/197 Test  #70: TargetName ..................................   Passed    1.00 sec
+        Start  71: LibName
+ 72/197 Test  #71: LibName .....................................   Passed    0.00 sec
+        Start  72: CustComDepend
+ 73/197 Test  #72: CustComDepend ...............................   Passed    1.00 sec
+        Start  73: ArgumentExpansion
+ 74/197 Test  #73: ArgumentExpansion ...........................   Passed    0.00 sec
+        Start  74: CustomCommand
+ 75/197 Test  #74: CustomCommand ...............................   Passed    1.00 sec
+        Start  75: CustomCommandWorkingDirectory
+ 76/197 Test  #75: CustomCommandWorkingDirectory ...............   Passed    1.00 sec
+        Start  76: OutOfSource
+ 77/197 Test  #76: OutOfSource .................................   Passed    0.00 sec
+        Start  77: BuildDepends
+ 78/197 Test  #77: BuildDepends ................................   Passed    4.00 sec
+        Start  78: SimpleInstall
+ 79/197 Test  #78: SimpleInstall ...............................   Passed    2.00 sec
+        Start  79: SimpleInstall-Stage2
+ 80/197 Test  #79: SimpleInstall-Stage2 ........................   Passed    0.00 sec
+        Start  80: CPackComponents
+ 81/197 Test  #80: CPackComponents .............................   Passed    1.00 sec
+        Start  81: CPackComponentsForAll-ZIP-default
+ 82/197 Test  #81: CPackComponentsForAll-ZIP-default ...........   Passed    1.00 sec
+        Start  82: CPackComponentsForAll-ZIP-OnePackPerGroup
+ 83/197 Test  #82: CPackComponentsForAll-ZIP-OnePackPerGroup ...   Passed    0.00 sec
+        Start  83: CPackComponentsForAll-ZIP-IgnoreGroup
+ 84/197 Test  #83: CPackComponentsForAll-ZIP-IgnoreGroup .......   Passed    1.00 sec
+        Start  84: CPackComponentsForAll-ZIP-AllInOne
+ 85/197 Test  #84: CPackComponentsForAll-ZIP-AllInOne ..........   Passed    0.00 sec
+        Start  85: CPackTestAllGenerators
+ 86/197 Test  #85: CPackTestAllGenerators ......................   Passed    1.00 sec
+        Start  86: X11
+ 87/197 Test  #86: X11 .........................................   Passed    2.00 sec
+        Start  87: CMakeTestAllGenerators
+ 88/197 Test  #87: CMakeTestAllGenerators ......................   Passed    1.00 sec
+        Start  88: CMakeTestBadCommandLines
+ 89/197 Test  #88: CMakeTestBadCommandLines ....................   Passed    1.00 sec
+        Start  89: CMakeTestMultipleConfigures
+ 90/197 Test  #89: CMakeTestMultipleConfigures .................   Passed    1.00 sec
+        Start  90: LoadedCommandOneConfig
+ 91/197 Test  #90: LoadedCommandOneConfig ......................   Passed    1.00 sec
+        Start  92: complexOneConfig
+ 92/197 Test  #92: complexOneConfig ............................   Passed    3.00 sec
+        Start  91: complex
+ 93/197 Test  #91: complex .....................................   Passed    3.00 sec
+        Start  93: Example
+ 94/197 Test  #93: Example .....................................   Passed    0.00 sec
+        Start  94: Environment
+ 95/197 Test  #94: Environment .................................   Passed    1.00 sec
+        Start  95: ExternalProject
+ 96/197 Test  #95: ExternalProject .............................   Passed    5.00 sec
+        Start  96: TutorialStep1
+ 97/197 Test  #96: TutorialStep1 ...............................   Passed    1.00 sec
+        Start  97: TutorialStep2
+ 98/197 Test  #97: TutorialStep2 ...............................   Passed    0.00 sec
+        Start  98: TutorialStep3
+ 99/197 Test  #98: TutorialStep3 ...............................   Passed    0.00 sec
+        Start  99: TutorialStep4
+100/197 Test  #99: TutorialStep4 ...............................   Passed    1.00 sec
+        Start 100: TutorialStep5
+101/197 Test #100: TutorialStep5 ...............................   Passed    1.00 sec
+        Start 101: TutorialStep6
+102/197 Test #101: TutorialStep6 ...............................   Passed    0.00 sec
+        Start 102: TutorialStep7
+103/197 Test #102: TutorialStep7 ...............................   Passed    1.00 sec
+        Start 103: testing
+104/197 Test #103: testing .....................................   Passed    1.00 sec
+        Start 104: wrapping
+105/197 Test #104: wrapping ....................................   Passed    1.00 sec
+        Start 105: qtwrapping
+106/197 Test #105: qtwrapping ..................................   Passed    0.00 sec
+        Start 106: testdriver1
+107/197 Test #106: testdriver1 .................................   Passed    1.00 sec
+        Start 107: testdriver2
+108/197 Test #107: testdriver2 .................................   Passed    0.00 sec
+        Start 108: testdriver3
+109/197 Test #108: testdriver3 .................................   Passed    0.00 sec
+        Start 109: Dependency
+110/197 Test #109: Dependency ..................................   Passed    2.00 sec
+        Start 110: JumpWithLibOut
+111/197 Test #110: JumpWithLibOut ..............................   Passed    1.00 sec
+        Start 111: JumpNoLibOut
+112/197 Test #111: JumpNoLibOut ................................   Passed    0.00 sec
+        Start 112: Plugin
+113/197 Test #112: Plugin ......................................   Passed    2.00 sec
+        Start 113: RuntimePath
+114/197 Test #113: RuntimePath .................................   Passed    1.00 sec
+        Start 114: linkorder1
+115/197 Test #114: linkorder1 ..................................   Passed    0.00 sec
+        Start 115: linkorder2
+116/197 Test #115: linkorder2 ..................................   Passed    1.00 sec
+        Start 116: kwsys
+117/197 Test #116: kwsys .......................................   Passed    6.00 sec
+        Start 117: SubDirSpaces
+118/197 Test #117: SubDirSpaces ................................   Passed    1.00 sec
+        Start 118: SubDir
+119/197 Test #118: SubDir ......................................   Passed    0.00 sec
+        Start 119: CheckCompilerRelatedVariables
+120/197 Test #119: CheckCompilerRelatedVariables ...............   Passed    1.00 sec
+        Start 120: MakeClean
+121/197 Test #120: MakeClean ...................................   Passed    0.00 sec
+        Start 121: WarnUnusedUnusedViaSet
+122/197 Test #121: WarnUnusedUnusedViaSet ......................   Passed    1.00 sec
+        Start 122: WarnUnusedUnusedViaUnset
+123/197 Test #122: WarnUnusedUnusedViaUnset ....................   Passed    0.00 sec
+        Start 123: WarnUnusedCliUnused
+124/197 Test #123: WarnUnusedCliUnused .........................   Passed    0.00 sec
+        Start 124: WarnUnusedCliUsed
+125/197 Test #124: WarnUnusedCliUsed ...........................   Passed    1.00 sec
+        Start 125: WarnUninitialized
+126/197 Test #125: WarnUninitialized ...........................   Passed    0.00 sec
+        Start 126: TestsWorkingDirectory
+127/197 Test #126: TestsWorkingDirectory .......................   Passed    0.00 sec
+        Start 127: CTest.NoNewline
+128/197 Test #127: CTest.NoNewline .............................   Passed    0.00 sec
+        Start 128: CTest.UpdateGIT
+129/197 Test #128: CTest.UpdateGIT .............................   Passed   10.00 sec
+        Start 129: CTest.UpdateHG
+130/197 Test #129: CTest.UpdateHG ..............................   Passed    3.00 sec
+        Start 130: CTestTestNoBuild
+131/197 Test #130: CTestTestNoBuild ............................   Passed    2.00 sec
+        Start 131: CTestTestNoExe
+132/197 Test #131: CTestTestNoExe ..............................   Passed    1.00 sec
+        Start 132: CTestTestUpload
+133/197 Test #132: CTestTestUpload .............................   Passed    3.00 sec
+        Start 133: CTestConfig.Script.Debug
+134/197 Test #133: CTestConfig.Script.Debug ....................   Passed    3.00 sec
+        Start 134: CTestConfig.Dashboard.Debug
+135/197 Test #134: CTestConfig.Dashboard.Debug .................   Passed    3.00 sec
+        Start 135: CTestConfig.Script.MinSizeRel
+136/197 Test #135: CTestConfig.Script.MinSizeRel ...............   Passed    2.00 sec
+        Start 136: CTestConfig.Dashboard.MinSizeRel
+137/197 Test #136: CTestConfig.Dashboard.MinSizeRel ............   Passed    3.00 sec
+        Start 137: CTestConfig.Script.Release
+138/197 Test #137: CTestConfig.Script.Release ..................   Passed    3.00 sec
+        Start 138: CTestConfig.Dashboard.Release
+139/197 Test #138: CTestConfig.Dashboard.Release ...............   Passed    2.00 sec
+        Start 139: CTestConfig.Script.RelWithDebInfo
+140/197 Test #139: CTestConfig.Script.RelWithDebInfo ...........   Passed    3.00 sec
+        Start 140: CTestConfig.Dashboard.RelWithDebInfo
+141/197 Test #140: CTestConfig.Dashboard.RelWithDebInfo ........   Passed    2.00 sec
+        Start 141: CMakeCommands.build_command
+142/197 Test #141: CMakeCommands.build_command .................   Passed    1.00 sec
+        Start 142: CTestTestCrash
+143/197 Test #142: CTestTestCrash ..............................   Passed    3.00 sec
+        Start 143: CTestTestBadExe
+144/197 Test #143: CTestTestBadExe .............................   Passed    2.00 sec
+        Start 144: CTestTestParallel
+145/197 Test #144: CTestTestParallel ...........................   Passed    3.00 sec
+        Start 145: CTestTestPrintLabels
+146/197 Test #145: CTestTestPrintLabels ........................   Passed    0.00 sec
+        Start 146: CTestTestResourceLock
+147/197 Test #146: CTestTestResourceLock .......................   Passed    2.00 sec
+        Start 147: CTestTestScheduler
+148/197 Test #147: CTestTestScheduler ..........................   Passed   36.00 sec
+        Start 148: CTestTestCostSerial
+149/197 Test #148: CTestTestCostSerial .........................   Passed    9.00 sec
+        Start 149: CTestTestStopTime
+150/197 Test #149: CTestTestStopTime ...........................   Passed   18.00 sec
+        Start 150: CTestTestSubdir
+151/197 Test #150: CTestTestSubdir .............................   Passed    2.00 sec
+        Start 151: CTestTestTimeout
+152/197 Test #151: CTestTestTimeout ............................   Passed    9.00 sec
+        Start 152: CTestTestZeroTimeout
+153/197 Test #152: CTestTestZeroTimeout ........................   Passed    8.00 sec
+        Start 153: CTestTestDepends
+154/197 Test #153: CTestTestDepends ............................   Passed    2.00 sec
+        Start 154: CTestTestCycle
+155/197 Test #154: CTestTestCycle ..............................   Passed    3.00 sec
+        Start 155: CTestTestRunScript
+156/197 Test #155: CTestTestRunScript ..........................   Passed    0.00 sec
+        Start 156: CTestTestShowOnly
+157/197 Test #156: CTestTestShowOnly ...........................   Passed    0.00 sec
+        Start 157: CTestBatchTest
+158/197 Test #157: CTestBatchTest ..............................   Passed    0.00 sec
+        Start 158: CTestTestFailedSubmit-cp
+159/197 Test #158: CTestTestFailedSubmit-cp ....................   Passed    3.00 sec
+        Start 159: CTestTestFailedSubmit-ftp
+160/197 Test #159: CTestTestFailedSubmit-ftp ...................   Passed    2.00 sec
+        Start 160: CTestTestFailedSubmit-http
+161/197 Test #160: CTestTestFailedSubmit-http ..................   Passed    3.00 sec
+        Start 161: CTestTestFailedSubmit-https
+162/197 Test #161: CTestTestFailedSubmit-https .................   Passed    2.00 sec
+        Start 162: CTestTestFailedSubmit-scp
+163/197 Test #162: CTestTestFailedSubmit-scp ...................   Passed    3.00 sec
+        Start 163: CTestTestFailedSubmit-xmlrpc
+164/197 Test #163: CTestTestFailedSubmit-xmlrpc ................   Passed    3.00 sec
+        Start 165: Fortran
+165/197 Test #165: Fortran .....................................   Passed    3.00 sec
+        Start 166: FortranC.Flags
+166/197 Test #166: FortranC.Flags ..............................   Passed    2.00 sec
+        Start 167: CMakeWizardTest
+167/197 Test #167: CMakeWizardTest .............................   Passed    0.00 sec
+        Start 168: CompileCommandOutput
+168/197 Test #168: CompileCommandOutput ........................   Passed    1.00 sec
+        Start 169: IncludeDirectories
+169/197 Test #169: IncludeDirectories ..........................   Passed    0.00 sec
+        Start 170: CMakeLib.testUTF8
+170/197 Test #170: CMakeLib.testUTF8 ...........................   Passed    0.00 sec
+        Start 171: CMakeLib.testXMLParser
+171/197 Test #171: CMakeLib.testXMLParser ......................   Passed    0.00 sec
+        Start 172: CMakeLib.testXMLSafe
+172/197 Test #172: CMakeLib.testXMLSafe ........................   Passed    0.00 sec
+        Start 173: CMake.List
+173/197 Test #173: CMake.List ..................................   Passed    0.00 sec
+        Start 174: CMake.VariableWatch
+174/197 Test #174: CMake.VariableWatch .........................   Passed    0.00 sec
+        Start 175: CMake.Include
+175/197 Test #175: CMake.Include ...............................   Passed    0.00 sec
+        Start 176: CMake.FindBase
+176/197 Test #176: CMake.FindBase ..............................   Passed    0.00 sec
+        Start 177: CMake.Toolchain
+177/197 Test #177: CMake.Toolchain .............................   Passed    0.00 sec
+        Start 178: CMake.GetFilenameComponentRealpath
+178/197 Test #178: CMake.GetFilenameComponentRealpath ..........   Passed    0.00 sec
+        Start 179: CMake.Version
+179/197 Test #179: CMake.Version ...............................   Passed    0.00 sec
+        Start 180: CMake.Message
+180/197 Test #180: CMake.Message ...............................   Passed    0.00 sec
+        Start 181: CMake.File
+181/197 Test #181: CMake.File ..................................   Passed    1.00 sec
+        Start 182: CMake.ConfigureFile
+182/197 Test #182: CMake.ConfigureFile .........................   Passed    0.00 sec
+        Start 183: CMake.SeparateArguments
+183/197 Test #183: CMake.SeparateArguments .....................   Passed    0.00 sec
+        Start 184: CMake.ImplicitLinkInfo
+184/197 Test #184: CMake.ImplicitLinkInfo ......................   Passed    0.00 sec
+        Start 185: CMake.ModuleNotices
+185/197 Test #185: CMake.ModuleNotices .........................   Passed    0.00 sec
+        Start 186: CMake.If
+186/197 Test #186: CMake.If ....................................   Passed    0.00 sec
+        Start 187: CMake.String
+187/197 Test #187: CMake.String ................................   Passed    1.00 sec
+        Start 188: CMake.Math
+188/197 Test #188: CMake.Math ..................................   Passed    0.00 sec
+        Start 189: CMake.CMakeMinimumRequired
+189/197 Test #189: CMake.CMakeMinimumRequired ..................   Passed    0.00 sec
+        Start 190: CMake.CompilerIdVendor
+190/197 Test #190: CMake.CompilerIdVendor ......................   Passed    0.00 sec
+        Start 191: CMake.ProcessorCount
+191/197 Test #191: CMake.ProcessorCount ........................   Passed    1.00 sec
+        Start 192: CMake.FileDownload
+192/197 Test #192: CMake.FileDownload ..........................   Passed    0.00 sec
+        Start 193: CMake.FileUpload
+193/197 Test #193: CMake.FileUpload ............................   Passed    0.00 sec
+        Start 194: CMake.ELF
+194/197 Test #194: CMake.ELF ...................................   Passed    0.00 sec
+        Start 195: CMake.EndStuff
+195/197 Test #195: CMake.EndStuff ..............................   Passed    0.00 sec
+        Start 196: CMake.GetPrerequisites
+196/197 Test #196: CMake.GetPrerequisites ......................   Passed    0.00 sec
+        Start 197: CMake.CheckSourceTree
+197/197 Test #197: CMake.CheckSourceTree .......................   Passed    0.00 sec
+
+100% tests passed, 0 tests failed out of 197
+
+Label Time Summary:
+Label1    =   0.00 sec
+Label2    =   0.00 sec
+
+Total Test time (real) = 311.00 sec
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/cmake/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland/components/cmake/build/i86/.tested

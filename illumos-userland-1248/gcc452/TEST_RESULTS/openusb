@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/openusb/libopenusb-1.0.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openusb/libopenusb-1.0.1 -p1 --backup --version-control=numbered < patches/Makefile.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/openusb/libopenusb-1.0.1 -p1 --backup --version-control=numbered < patches/testopenusb.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  libopenusb-1.0.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/openusb/libopenusb-1.0.1/.unpacked

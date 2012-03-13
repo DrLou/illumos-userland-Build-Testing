@@ -1,0 +1,63 @@
+(cd /export/home/drlou/illumos-userland/components/perl_modules/xml-simple/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/usr/gcc/4.5/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/usr/gcc/4.5/bin/gcc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/perl_modules/xml-simple/build/i86-5.12'
+PERL_DL_NONLAZY=1 /usr/perl5/5.12/bin/perl "-MExtUtils::Command::MM" "-e" "test_harness(0, 'blib/lib', 'blib/arch')" t/*.t
+t/0_Config.t ...... ok
+t/1_XMLin.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 130/131 subtests 
+t/2_XMLout.t ...... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 197/201 subtests 
+t/3_Storable.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 21/23 subtests 
+t/4_MemShare.t .... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 7/8 subtests 
+t/5_MemCopy.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 6/7 subtests 
+t/6_ObjIntf.t ..... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 31/37 subtests 
+t/7_SaxStuff.t .... skipped: no XML::SAX
+t/8_Namespaces.t .. skipped: no XML::SAX
+t/9_Strict.t ...... 
+Dubious, test returned 9 (wstat 2304, 0x900)
+Failed 9/40 subtests 
+t/A_XMLParser.t ... skipped: no XML::Parser
+t/B_Hooks.t ....... 
+Dubious, test returned 2 (wstat 512, 0x200)
+Failed 4/12 subtests 
+	(less 3 skipped subtests: 5 okay)
+
+Test Summary Report
+-------------------
+t/1_XMLin.t     (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 131 tests but ran 1.
+t/2_XMLout.t    (Wstat: 512 Tests: 4 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 201 tests but ran 4.
+t/3_Storable.t  (Wstat: 512 Tests: 2 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 23 tests but ran 2.
+t/4_MemShare.t  (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 8 tests but ran 1.
+t/5_MemCopy.t   (Wstat: 512 Tests: 1 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 7 tests but ran 1.
+t/6_ObjIntf.t   (Wstat: 512 Tests: 6 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 37 tests but ran 6.
+t/9_Strict.t    (Wstat: 2304 Tests: 40 Failed: 9)
+  Failed tests:  2-3, 13, 15, 17, 23-24, 34, 36
+  Non-zero exit status: 9
+t/B_Hooks.t     (Wstat: 512 Tests: 8 Failed: 0)
+  Non-zero exit status: 2
+  Parse errors: Bad plan.  You planned 12 tests but ran 8.
+Files=12, Tests=64,  1 wallclock secs ( 0.03 usr  0.01 sys +  0.21 cusr  0.00 csys =  0.25 CPU)
+Result: FAIL
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/perl_modules/xml-simple/build/i86-5.12'

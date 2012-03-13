@@ -1,0 +1,664 @@
+(cd /export/home/drlou/illumos-userland-1248/components/guile/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+(cd /export/home/drlou/illumos-userland-1248/components/guile/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+Making check in oop
+Making check in oop
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop'
+Making check in goops
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop'
+Making check in goops
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop/goops'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop/goops'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop/goops'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop/goops'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/oop'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop'
+Making check in libguile
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/oop'
+Making check in libguile
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/libguile'
+'
+/usr/gnu/bin/make  check-am
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/libguile'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/libguile'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/libguile'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/libguile'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/libguile'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/libguile'
+Making check in ice-9
+Making check in ice-9
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9'
+Making check in debugger
+Making check in debugger
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9/debugger'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9/debugger'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9/debugger'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9/debugger'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/ice-9'
+Making check in guile-config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/ice-9'
+Making check in guile-config
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-config'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-config'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-config'
+make[2]: Nothing to be done for `check'.
+Making check in guile-readline
+Making check in guile-readline
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+/usr/gnu/bin/make  check-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+Making check in ice-9
+Making check in ice-9
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline/ice-9mamake[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline/ice-9'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline/ice-9'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/guile-readline'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/guile-readline'
+Making check in scripts
+Making check in scripts
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/scripts'
+'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/scripts'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/scripts'
+Making check in srfi
+Making check in srfi
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/srfi'
+/usr/gnu/bin/make  check-am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/srfi'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/srfimamake[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/srfi'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/srfi'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/srfi'
+Making check in doc
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc'
+Making check in ref
+Making check in ref
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/ref'
+'
+make[3]: Nothing to be done for `check'.
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc/ref'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/ref'
+Making check in tutorial
+Making check in tutorial
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/tutorial'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc/tutorial'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/tutorial'
+Making check in goops
+Making check in goops
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/goops'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc/goops'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/goops'
+Making check in r5rs
+Making check in r5rs
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/r5rs'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc/r5rs'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc/r5rs'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/doc'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/doc'
+Making check in examples
+Making check in examples
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples'
+Making check in scripts
+Making check in scripts
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/scripts'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/scripts'
+Making check in box
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box'
+Making check in box-module
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/scripts'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/scripts'
+Making check in box
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-module'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-module'
+Making check in box-dynamic
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box'
+Making check in box-module
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-dynamic'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-dynamic'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-module'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-module'
+Making check in box-dynamic-module
+Making check in box-dynamic
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-dynamic'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-dynamic'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-dynamic-module'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/box-dynamic-module'
+Making check in box-dynamic-module
+Making check in modules
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-dynamic-module'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/box-dynamic-module'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/modules'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/modules'
+Making check in modules
+Making check in safe
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/modules'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/modules'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/safe'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples/safe'
+Making check in safe
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/safe'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples/safe'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/examples'
+Making check in test-suite
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/examples'
+Making check in test-suite
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite'
+Making check in standalone
+Making check in standalone
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+/usr/gnu/bin/make  check-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+cd /export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone && chmod u+x test-system-cmds test-require-extension test-bad-identifiers test-asmobs test-use-srfi
+/usr/gnu/bin/make  test-num2integral test-round test-gh test-list test-unwind test-conversion test-with-guile-module test-system-cmds test-require-extension test-bad-identifiers test-asmobs test-use-srfi
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+cd /export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone && chmod u+x test-system-cmds test-require-extension test-bad-identifiers test-asmobs test-use-srfi
+/usr/gnu/bin/make  test-num2integral test-round test-gh test-list test-unwind test-conversion test-with-guile-module test-system-cmds test-require-extension test-bad-identifiers test-asmobs test-use-srfi
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+make[5]: `test-num2integral' is up to date.
+make[5]: `test-round' is up to date.
+make[5]: `test-gh' is up to date.
+make[5]: `test-list' is up to date.
+make[5]: `test-unwind' is up to date.
+make[5]: `test-conversion' is up to date.
+make[5]: `test-with-guile-module' is up to date.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-system-cmds'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-require-extension'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-bad-identifiers'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-asmobs'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-use-srfi'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+/usr/gnu/bin/make  check-TESTS
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+make[5]: `test-num2integral' is up to date.
+make[5]: `test-round' is up to date.
+make[5]: `test-gh' is up to date.
+make[5]: `test-list' is up to date.
+make[5]: `test-unwind' is up to date.
+make[5]: `test-conversion' is up to date.
+make[5]: `test-with-guile-module' is up to date.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-system-cmds'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-require-extension'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-bad-identifiers'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-asmobs'.
+make[5]: Nothing to be done for `/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite/standalone/test-use-srfi'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+/usr/gnu/bin/make  check-TESTS
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+PASS: test-system-cmds
+PASS: test-system-cmds
+PASS: test-require-extension
+PASS: test-bad-identifiers
+PASS: test-num2integral
+PASS: test-require-extension
+PASS: test-round
+PASS: test-gh
+PASS: test-bad-identifiers
+PASS: test-asmobs
+PASS: test-num2integral
+PASS: test-list
+PASS: test-round
+PASS: test-unwind
+PASS: test-gh
+PASS: test-conversion
+PASS: test-asmobs
+PASS: test-list
+PASS: test-unwind
+PASS: test-conversion
+PASS: test-use-srfi
+PASS: test-with-guile-module
+===================
+All 12 tests passed
+===================
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite/standalone'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/test-suite'
+Making check in benchmark-suite
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/benchmark-suite'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/benchmark-suite'
+Making check in lang
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang'
+Making check in elisp
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp'
+Making check in internals
+PASS: test-use-srfi
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp/internals'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp/internals'
+Making check in primitives
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp/primitives'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp/primitives'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang/elisp'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/lang'
+Making check in am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/am'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86/am'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'
+PASS: test-with-guile-module
+/usr/gnu/bin/make  check-TESTS
+===================
+All 12 tests passed
+===================
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite/standalone'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/test-suite'
+Making check in benchmark-suite
+Testing /export/home/drlou/illumos-userland-1248/components/guile/build/i86/pre-inst-guile ...
+with GUILE_LOAD_PATH=/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/benchmark-suite'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/benchmark-suite'
+Making check in lang
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang'
+Making check in elisp
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp'
+Making check in internals
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp/internals'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp/internals'
+Making check in primitives
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp/primitives'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp/primitives'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang/elisp'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/lang'
+Making check in am
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/am'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64/am'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+Testing /export/home/drlou/illumos-userland-1248/components/guile/build/amd64/pre-inst-guile ...
+with GUILE_LOAD_PATH=/export/home/drlou/illumos-userland-1248/components/guile/guile-1.8.4/test-suite
+Running alist.test
+Running and-let-star.test
+Running arbiters.test
+Running bit-operations.test
+Running c-api.test
+Running chars.test
+Running common-list.test
+Running continuations.test
+Running elisp.test
+Running environments.test
+Running eval.test
+
+;;; (foo-pws)
+Running exceptions.test
+Running filesys.test
+Running format.test
+Running fractions.test
+Running ftw.test
+Running gc.test
+Running getopt-long.test
+Running goops.test
+Running guardians.test
+Running hash.test
+Running hooks.test
+Running import.test
+Running interp.test
+Running list.test
+Running load.test
+Running modules.test
+Running numbers.test
+Running optargs.test
+Running options.test
+Running poe.test
+Running popen.test
+Running ports.test
+UNRESOLVED: ports.test: port-for-each: passing freed cell
+Running posix.test
+Running q.test
+Running r4rs.test
+Running r5rs_pitfall.test
+Running ramap.test
+Running reader.test
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched vector opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+Running receive.test
+Running regexp.test
+Running socket.test
+Running alist.test
+Running and-let-star.test
+Running arbiters.test
+Running bit-operations.test
+Running c-api.test
+Running chars.test
+Running common-list.test
+Running continuations.test
+Running elisp.test
+Running environments.test
+Running eval.test
+
+;;; (foo-pws)
+Running exceptions.test
+Running filesys.test
+Running format.test
+Running fractions.test
+Running ftw.test
+Running gc.test
+Running getopt-long.test
+Running goops.test
+Running guardians.test
+Running hash.test
+Running hooks.test
+Running import.test
+Running interp.test
+Running list.test
+Running load.test
+Running modules.test
+Running numbers.test
+Running optargs.test
+Running options.test
+Running poe.test
+Running popen.test
+Running ports.test
+UNRESOLVED: ports.test: port-for-each: passing freed cell
+Running posix.test
+Running q.test
+Running r4rs.test
+Running r5rs_pitfall.test
+Running ramap.test
+Running reader.test
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched vector opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+Running receive.test
+Running regexp.test
+Running socket.test
+Running alist.test
+Running and-let-star.test
+Running arbiters.test
+Running bit-operations.test
+Running c-api.test
+Running chars.test
+Running common-list.test
+Running continuations.test
+Running elisp.test
+Running environments.test
+Running eval.test
+
+;;; (foo-pws)
+Running exceptions.test
+Running filesys.test
+Running format.test
+Running fractions.test
+Running ftw.test
+Running gc.test
+Running getopt-long.test
+Running goops.test
+Running guardians.test
+Running hash.test
+Running hooks.test
+Running import.test
+Running interp.test
+Running list.test
+Running load.test
+Running modules.test
+Running numbers.test
+Running optargs.test
+Running options.test
+Running poe.test
+Running popen.test
+Running ports.test
+UNRESOLVED: ports.test: port-for-each: passing freed cell
+Running posix.test
+Running q.test
+Running r4rs.test
+Running r5rs_pitfall.test
+Running ramap.test
+Running reader.test
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched vector opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+Running receive.test
+Running regexp.test
+Running socket.test
+Running srcprop.test
+Running srfi-1.test
+Running srfi-10.test
+Running srfi-11.test
+Running srfi-13.test
+Running srfi-14.test
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:letter (membership)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:letter (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:lower-case (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:upper-case (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:punctuation (membership)
+Running srfi-19.test
+Running srfi-26.test
+Running srfi-31.test
+Running srfi-34.test
+Running srfi-35.test
+Running srfi-37.test
+Running srfi-39.test
+Running srfi-4.test
+Running srfi-6.test
+Running srfi-60.test
+Running srfi-69.test
+Running srfi-9.test
+Running strings.test
+Running structs.test
+Running symbols.test
+Running syncase.test
+Running syntax.test
+UNRESOLVED: syntax.test: while: in empty environment: empty body
+UNRESOLVED: syntax.test: while: in empty environment: initially false
+UNRESOLVED: syntax.test: while: in empty environment: iterating
+Running threads.test
+Running time.test
+FAIL: time.test: strptime: GNU %s format: gmtoff on EST+5
+Running unif.test
+Running version.test
+Running weaks.test
+
+Totals for this test run:
+passes:                 11878
+failures:               1
+unexpected passes:      0
+expected failures:      25
+unresolved test cases:  9
+untested test cases:    0
+unsupported test cases: 9
+errors:                 2
+
+FAIL: check-guile
+==================================
+1 of 1 tests failed
+Please report to bug-guile@gnu.org
+==================================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/amd64'
+Running alist.test
+Running and-let-star.test
+Running arbiters.test
+Running bit-operations.test
+Running c-api.test
+Running chars.test
+Running common-list.test
+Running continuations.test
+Running elisp.test
+Running environments.test
+Running eval.test
+
+;;; (foo-pws)
+Running exceptions.test
+Running filesys.test
+Running format.test
+Running fractions.test
+Running ftw.test
+Running gc.test
+Running getopt-long.test
+Running goops.test
+Running guardians.test
+Running hash.test
+Running hooks.test
+Running import.test
+Running interp.test
+Running list.test
+Running load.test
+Running modules.test
+Running numbers.test
+Running optargs.test
+Running options.test
+Running poe.test
+Running popen.test
+Running ports.test
+UNRESOLVED: ports.test: port-for-each: passing freed cell
+Running posix.test
+Running q.test
+Running r4rs.test
+Running r5rs_pitfall.test
+Running ramap.test
+Running reader.test
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+ERROR: reader.test: mismatching parentheses: closing parenthesis following mismatched vector opening - arguments: ((regular-expression-syntax "make-regexp" "parentheses not balanced" #f ("unexpected \")\"$")))
+Running receive.test
+Running regexp.test
+Running socket.test
+Running srcprop.test
+Running srfi-1.test
+Running srfi-10.test
+Running srfi-11.test
+Running srfi-13.test
+Running srfi-14.test
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:letter (membership)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:letter (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:lower-case (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:upper-case (size)
+UNRESOLVED: srfi-14.test: Latin-1 (8-bit charset): char-set:punctuation (membership)
+Running srfi-19.test
+Running srfi-26.test
+Running srfi-31.test
+Running srfi-34.test
+Running srfi-35.test
+Running srfi-37.test
+Running srfi-39.test
+Running srfi-4.test
+Running srfi-6.test
+Running srfi-60.test
+Running srfi-69.test
+Running srfi-9.test
+Running strings.test
+Running structs.test
+Running symbols.test
+Running syncase.test
+Running syntax.test
+UNRESOLVED: syntax.test: while: in empty environment: empty body
+UNRESOLVED: syntax.test: while: in empty environment: initially false
+UNRESOLVED: syntax.test: while: in empty environment: iterating
+Running threads.test
+Running time.test
+FAIL: time.test: strptime: GNU %s format: gmtoff on EST+5
+Running unif.test
+Running version.test
+Running weaks.test
+
+Totals for this test run:
+passes:                 11878
+failures:               1
+unexpected passes:      0
+expected failures:      25
+unresolved test cases:  9
+untested test cases:    0
+unsupported test cases: 9
+errors:                 2
+
+FAIL: check-guile
+==================================
+1 of 1 tests failed
+Please report to bug-guile@gnu.org
+==================================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/guile/build/i86'

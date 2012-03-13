@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/gettext/gettext-0.16.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gettext/gettext-0.16.1 -p1 --backup --version-control=numbered < patches/fr.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gettext/gettext-0.16.1 -p1 --backup --version-control=numbered < patches/recode.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/gettext/gettext-0.16.1 -p1 --backup --version-control=numbered < patches/xgettext-java-2.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  gettext-0.16.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/gettext/gettext-0.16.1/.unpacked

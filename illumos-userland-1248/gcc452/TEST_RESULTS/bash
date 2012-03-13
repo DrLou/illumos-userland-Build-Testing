@@ -1,0 +1,47 @@
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-003.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-004.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-005.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-006.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-007.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/bash/bash-4.1 -p0 --backup --version-control=numbered < patches/bash41-008.patch
+patching file builtins/read.def
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+patching file print_cmd.c
+2 out of 2 hunks ignoredReversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+2 out of 2 hunks ignored -- saving rejects to file print_cmd.c.rej
+
+patching file patchlevel.h
+patching file patchlevel.h
+Hunk #1 FAILED at 26.
+Hunk #1 FAILED at 26.
+patching file bashline.c
+patching file variables.c
+Reversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1 out of 1 hunk FAILED1 out of 1 hunk ignored -- saving rejects to file bashline.c.rejReversed (or previously applied) patch detected!  Assume -R? [n] 
+Apply anyway? [n] 
+Skipping patch.
+1
+ -- saving rejects to file variables.c.rejpatching file patchlevel.h
+
+patching file builtins/printf.def
+patching file builtins/declare.def
+patching file patchlevel.h
+Hunk #1 FAILED at 26.
+can't find file to patch at input line 37
+1 out of 1 hunk FAILEDrong -p or --strip option?
+The text leading up to this was:
+--------------------------
+|*** ../bash-4.1-patched/patchlevel.h	2009-10-01 16:39:22.000000000 -0400
+|--- patchlevel.h	2010-01-14 09:38:08.000000000 -0500
+--------------------------
+File to patch: 
+Skip this patch? [y] 
+Skipping patch.
+
+ out of 1 hunk ignored

@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/librsync/librsync-0.9.7
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/librsync/librsync-0.9.7 -p1 --backup --version-control=numbered < patches/librsync.3.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  librsync-0.9.7.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/librsync/librsync-0.9.7/.unpacked

@@ -1,0 +1,590 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gawk/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gawk/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/gawk/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info --libexecdir=/usr/lib CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/install-sh -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for egrep... egrep
+checking for bison... bison -y
+checking whether ln -s works... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ranlib... ranlib
+checking for a BSD-compatible install... /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/install-sh -c
+checking whether make sets $(MAKE)... (cached) yes
+checking for special development options... no
+checking for AIX... no
+checking for library containing strerror... none required
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for AIX compilation hacks... no
+checking for Linux/Alpha compilation hacks... no
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking for function prototypes... yes
+checking for string.h... (cached) yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking mcheck.h usability... no
+checking mcheck.h presence... no
+checking for mcheck.h... no
+checking netdb.h usability... yes
+checking netdb.h presence... yes
+checking for netdb.h... yes
+checking netinet/in.h usability... yes
+checking netinet/in.h presence... yes
+checking for netinet/in.h... yes
+checking signum.h usability... no
+checking signum.h presence... no
+checking for signum.h... no
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for string.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking stropts.h usability... yes
+checking stropts.h presence... yes
+checking for stropts.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for memory.h... (cached) yes
+checking for pid_t... yes
+checking return type of signal handlers... void
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking type of array argument to getgroups... gid_t
+checking for long long... yes
+checking for unsigned long long... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for ssize_t... yes
+checking for unsigned int... yes
+checking size of unsigned int... 4
+checking for unsigned long... yes
+checking size of unsigned long... 4
+checking for socklen_t... yes
+checking for vprintf... yes
+checking for _doprnt... yes
+checking for stdlib.h... (cached) yes
+checking for strtod... yes
+checking for strtod with C89 semantics... yes
+checking for stdlib.h... (cached) yes
+checking for sys/time.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for alarm... yes
+checking for working mktime... no
+checking for fmod in -lm... yes
+checking for fmod... yes
+checking for getgrent... yes
+checking for getgroups... yes
+checking for grantpt... yes
+checking for iswctype... yes
+checking for mbrlen... yes
+checking for memcmp... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for memset... yes
+checking for setlocale... yes
+checking for snprintf... yes
+checking for strchr... yes
+checking for strerror... yes
+checking for strftime... yes
+checking for strncasecmp... yes
+checking for strtod... (cached) yes
+checking for strtoul... yes
+checking for system... yes
+checking for tzset... yes
+checking for isascii... yes
+checking for btowc... yes
+checking for iswlower... yes
+checking for iswupper... yes
+checking for towlower... yes
+checking for towupper... yes
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for wcscoll... (cached) yes
+checking for wctype... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking for dlopen in -ldl... yes
+checking whether getpgrp requires zero arguments... yes
+checking for printf %F format... yes
+checking for gethostbyname... no
+checking for gethostbyname in -lnsl... yes
+checking for connect... no
+checking for connect in -lsocket... yes
+checking where to find the socket library calls... -lsocket  -lnsl
+checking for struct stat.st_blksize... yes
+checking whether time.h and sys/time.h may both be included... (cached) yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_zone... no
+checking for tzname... yes
+checking whether char is unsigned... no
+checking for an ANSI C-conforming const... yes
+checking for C/C++ restrict keyword... restrict
+checking for inline... inline
+checking for preprocessor stringizing operator... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating awklib/Makefile
+config.status: creating doc/Makefile
+config.status: creating po/Makefile.in
+config.status: creating test/Makefile
+config.status: creating version.c
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: fixing Makefile to keep version.c
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gawk/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gawk/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+/usr/gnu/bin/make 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'LDFLAGS=' all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/array.c' object='array.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/array.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awkgram.c' object='awkgram.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awkgram.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/builtin.c' object='builtin.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/builtin.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/dfa.c' object='dfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/dfa.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/ext.c' object='ext.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/ext.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/field.c' object='field.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/field.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/gawkmisc.c' object='gawkmisc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/gawkmisc.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/io.c' object='io.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/io.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/main.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/msg.c' object='msg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/msg.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/node.c' object='node.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/node.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/random.c' object='random.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/random.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/re.c' object='re.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/re.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/regex.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/replace.c' object='replace.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/replace.c
+source='version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c version.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/eval.c' object='eval.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/eval.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/profile.c' object='profile.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/profile.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o gawk  array.o awkgram.o builtin.o dfa.o ext.o field.o gawkmisc.o getopt.o getopt1.o io.o main.o msg.o node.o random.o re.o regex.o replace.o version.o eval.o profile.o  -lsocket  -lnsl -ldl -lm 
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/eval_p.c' object='eval_p.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/eval_p.c
+source='/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/profile_p.c' object='profile_p.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DDEFPATH="\".:/usr/share/awk\"" -DHAVE_CONFIG_H -DGAWK -DLOCALEDIR="\"/usr/share/locale\"" -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/profile_p.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o pgawk  array.o awkgram.o builtin.o dfa.o ext.o field.o gawkmisc.o getopt.o getopt1.o io.o main.o msg.o node.o random.o re.o regex.o replace.o version.o eval_p.o profile_p.o  -lsocket  -lnsl -ldl -lm 
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+Making all in awklib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/awklib'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib -I..  -I.. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib/eg/lib/pwcat.c  -o pwcat
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib -I..  -I.. -I/export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib/eg/lib/grcat.c  -o grcat
+cp /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib/eg/prog/igawk.sh igawk ; chmod 755 igawk
+sed 's;/usr/local/libexec/awk;/usr/lib/awk;' < /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib/eg/lib/passwdawk.in > passwd.awk
+sed 's;/usr/local/libexec/awk;/usr/lib/awk;' < /export/home/drlou/illumos-userland-1248/components/gawk/gawk-3.1.5/awklib/eg/lib/groupawk.in > group.awk
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/awklib'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/doc'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/po'
+Making all in test
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gawk/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/gawk/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+Making check in .
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+/usr/gnu/bin/make 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'LDFLAGS=' check-local
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+make[3]: Nothing to be done for `check-local'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+Making check in awklib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/awklib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/awklib'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/doc'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/po'
+Making check in test
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+
+Any output from "cmp" is bad news, although some differences
+in floating point values are probably benign -- in particular,
+some systems may omit a leading zero and the floating point
+precision may lead to slightly different output in a few cases.
+
+Locale environment:
+	LC_ALL="C" LANG="C"
+
+======== Starting basic tests ========
+addcomma
+anchgsub
+argarray
+arrayparm
+arrayref
+arrymem1
+arrayprm2
+arrayprm3
+arryref2
+arryref3
+arryref4
+arryref5
+arynasty
+arynocls
+aryprm1
+aryprm2
+aryprm3
+aryprm4
+aryprm5
+aryprm6
+aryprm7
+aryprm8
+arysubnm
+asgext
+awkpath
+back89
+backgsub
+childin
+clobber
+clsflnam
+compare
+compare2
+concat1
+concat2
+concat3
+convfmt
+datanonl
+defref
+delarprm
+delarpm2
+delfunc
+dynlj
+eofsplit
+exitval1
+exitval2
+fldchg
+fldchgnf
+fmttest
+fnamedat
+fnarray
+fnarray2
+fnarydel
+fnaryscl
+fnasgnm
+fnmisc
+fnparydl
+fordel
+forsimp
+fsbs
+fsspcoln
+fsrs
+fstabplus
+funsemnl
+funsmnam
+funstack
+getline
+getline2
+getline3
+getlnbuf
+getnr2tb
+getnr2tm
+gsubasgn
+gsubtest
+gsubtst2
+gsubtst3
+gsubtst4
+gsubtst5
+hex
+hsprint
+inputred
+intest
+intprec
+iobug1
+leaddig
+leadnl
+litoct
+longsub
+longwrds
+manglprm
+math
+membug1
+messages
+minusstr
+mmap8k
+nasty
+nasty2
+negexp
+nested
+nfldstr
+nfneg
+nfset
+nlfldsep
+nlinstr
+nlstrina
+noeffect
+nofmtch
+noloop1
+noloop2
+nonl
+noparms
+nors
+nulrsend
+numindex
+numsubstr
+octsub
+ofmt
+ofmtbig
+ofmtfidl
+ofmts
+onlynl
+opasnidx
+opasnslf
+paramdup
+paramtyp
+parseme
+pcntplus
+prdupval
+prec
+printf0
+printf1
+prmarscl
+prmreuse
+prt1eval
+prtoeval
+psx96sub
+rand
+rebt8b1
+rebt8b2
+redfilnm
+regeq
+reindops
+reparse
+resplit
+rs
+rsnul1nl
+rsnulbig
+rsnulbig2
+rstest1
+rstest2
+rstest3
+rstest4
+rstest5
+rswhite
+scalar
+sclforin
+sclifin
+sortempty
+splitargv
+splitarr
+splitdef
+splitvar
+splitwht
+sprintfc
+strcat1
+strtod
+subamp
+subsepnm
+subslash
+substr
+swaplns
+synerr1
+tradanch
+tweakfld
+uninit2
+uninit3
+uninit4
+uninitialized
+unterm
+wjposer1
+zeroe0
+zeroflag
+======== Done with basic tests ========
+======== Starting Unix tests ========
+fflush
+getlnhd
+pid
+pipeio1
+pipeio2
+poundbang
+space
+strftlng
+======== Done with Unix tests ========
+======== Starting gawk extension tests ========
+argtest
+asort
+asorti
+backw
+badargs
+clos1way
+fieldwdth
+fsfwfs
+gensub
+gensub2
+gnuops2
+gnuops3
+gnureops
+icasefs
+icasers
+igncdym
+igncfs
+ignrcase
+ignrcas2
+lint
+match1
+match2
+manyfiles
+nondec
+nondec2
+posix
+procinfs
+printfbad1
+regx8bit
+rebuf
+reint
+rsstart1
+rsstart2
+rsstart3
+rstest6
+shadow
+sort1
+strtonum
+This test could fail on slow machines or on a minute boundary,
+so if it does, double check the actual results:
+strftime
+whiny
+======== Done with gawk extension tests ========
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+ALL TESTS PASSED
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86/test'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gawk/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gawk/build/i86/.tested

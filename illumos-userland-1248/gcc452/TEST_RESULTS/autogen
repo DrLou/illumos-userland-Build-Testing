@@ -1,0 +1,22 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland/components/autogen/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland/components/autogen/build/i86)
+(/export/home/drlou/illumos-userland/tools/cloney /export/home/drlou/illumos-userland/components/autogen/autogen-5.9 /export/home/drlou/illumos-userland/components/autogen/build/i86)
+symlink cloning /export/home/drlou/illumos-userland/components/autogen/autogen-5.9 to /export/home/drlou/illumos-userland/components/autogen/build/i86
+(cd /export/home/drlou/illumos-userland/components/autogen/build/i86 ; /usr/bin/env -i CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland/components/autogen/autogen-5.9/configure CC="/usr/gcc/4.5/bin/gcc" CXX="/usr/gcc/4.5/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -02 -flto=jobserver")
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking target system type... i386-pc-solaris2.11
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+
+                 A      U      T      O      G      E      N
+
+GNU AutoGen-5.9                                             libopts.la-28:0:3
+*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*-*
+checking for a BSD-compatible install... /bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... /usr/gcc/4.5/bin/gcc
+checking for C compiler default output file name... 

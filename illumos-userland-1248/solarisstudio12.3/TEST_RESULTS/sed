@@ -1,0 +1,1039 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/sed/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/sed/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/sed/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --program-prefix=g --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for ranlib... ranlib
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for inline... inline
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for btowc... yes
+checking for gettimeofday... yes
+checking for lstat... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for mbrlen... yes
+checking for mprotect... yes
+checking for pathconf... yes
+checking for isblank... yes
+checking for iswctype... yes
+checking for wcscoll... yes
+checking for wcrtomb... yes
+checking for wctob... yes
+checking for iswcntrl... yes
+checking for isatty... yes
+checking for bcopy... yes
+checking for bzero... yes
+checking for isascii... yes
+checking for memcpy... yes
+checking for memset... yes
+checking for strchr... yes
+checking for strtoul... yes
+checking for popen... yes
+checking for fchown... yes
+checking for fchmod... yes
+checking for setlocale... yes
+checking for nl_langinfo and CODESET... yes
+checking for a traditional french locale... none
+checking whether system is Windows or MSDOS... no
+checking whether // is distinct from /... no
+checking whether the preprocessor supports include_next... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for stdint.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for string.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking io.h usability... no
+checking io.h presence... no
+checking for io.h... no
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking alloca.h usability... yes
+checking alloca.h presence... yes
+checking for alloca.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking mcheck.h usability... no
+checking mcheck.h presence... no
+checking for mcheck.h... no
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking whether getdelim is declared... yes
+checking whether getline is declared... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long_only... yes
+checking whether optreset is declared... no
+checking for working GNU getopt function... no
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict__
+checking for struct timeval... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for mbstate_t... yes
+checking for a traditional japanese locale... none
+checking for a transitional chinese locale... none
+checking for a french Unicode locale... none
+checking whether mbrtowc handles incomplete characters... guessing yes
+checking whether mbrtowc works as well as mbtowc... guessing yes
+checking whether mbrtowc handles a NULL string argument... guessing yes
+checking whether mbrtowc has a correct return value... guessing no
+checking whether mbrtowc returns 0 when parsing a NUL character... guessing yes
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking for memchr... yes
+checking whether memchr works... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for library containing setfilecon... no
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for long long int... yes
+checking for unsigned long long int... yes
+checking for working strerror function... yes
+checking whether strndup is declared... yes
+checking whether strnlen is declared... yes
+checking whether stat file-mode macros are broken... no
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fflush_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fputs_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking for wint_t... yes
+checking sys/acl.h usability... yes
+checking sys/acl.h presence... yes
+checking for sys/acl.h... yes
+checking for library containing acl_get_file... no
+checking for acl... yes
+checking for library containing acl_trivial... -lsec
+checking for acl_trivial... yes
+checking for getacl... no
+checking for alloca as a compiler built-in... no
+checking whether btowc(EOF) is correct... guessing yes
+checking whether // is distinct from /... (cached) no
+checking for error_at_line... no
+checking for getdelim... yes
+checking for getline... yes
+checking for working getline function... yes
+checking for getpagesize... yes
+checking for gettimeofday with POSIX signature... yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking whether the compiler generally respects inline... yes
+checking whether lstat dereferences a symlink specified with a trailing slash... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking for working mkstemp... yes
+checking for obstacks... no
+checking for working re_compile_pattern... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking whether isblank is declared... yes
+checking whether rename is broken with a trailing slash... no
+checking whether rename is broken when the destination exists... no
+checking selinux/selinux.h usability... no
+checking selinux/selinux.h presence... no
+checking for selinux/selinux.h... no
+checking selinux/context.h usability... no
+checking selinux/context.h presence... no
+checking for selinux/context.h... no
+checking for ssize_t... yes
+checking whether stdint.h conforms to C99... no
+checking sys/inttypes.h usability... yes
+checking sys/inttypes.h presence... yes
+checking for sys/inttypes.h... yes
+checking sys/bitypes.h usability... no
+checking sys/bitypes.h presence... no
+checking for sys/bitypes.h... no
+checking for bit size of ptrdiff_t... 32
+checking for bit size of size_t... 32
+checking for bit size of sig_atomic_t... 32
+checking for bit size of wchar_t... 32
+checking for bit size of wint_t... 32
+checking whether sig_atomic_t is signed... yes
+checking whether wchar_t is signed... yes
+checking whether wint_t is signed... yes
+checking for ptrdiff_t integer literal suffix... 
+checking for size_t integer literal suffix... u
+checking for sig_atomic_t integer literal suffix... 
+checking for wchar_t integer literal suffix... l
+checking for wint_t integer literal suffix... l
+checking for random.h... no
+checking for struct random_data... no
+checking for working strndup... yes
+checking for working strnlen... yes
+checking for strverscmp... no
+checking for nlink_t... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking whether <wchar.h> is standalone... yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether wcrtomb return value is correct... guessing no
+checking whether wctob works... guessing yes
+checking whether wctob is declared... yes
+checking whether iswcntrl works... yes
+checking for long file names... yes
+checking whether -lcP is needed... no
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for vprintf... yes
+checking for _doprnt... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for 64-bit host... no
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for lstat... (cached) yes
+checking for readlink... yes
+checking whether UTF-8 case folding tests should pass... no
+configure: creating ./config.status
+config.status: creating bootstrap.sh
+config.status: creating testsuite/version.good
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating sed/Makefile
+config.status: creating testsuite/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/sed/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/sed/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+rm -f configmake.h-t
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  echo '#define PREFIX "/usr"'; \
+	  echo '#define EXEC_PREFIX "/usr"'; \
+	  echo '#define BINDIR "/usr/bin"'; \
+	  echo '#define SBINDIR "/usr/sbin"'; \
+	  echo '#define LIBEXECDIR "/usr/libexec"'; \
+	  echo '#define DATAROOTDIR "/usr/share"'; \
+	  echo '#define DATADIR "/usr/share"'; \
+	  echo '#define SYSCONFDIR "/usr/etc"'; \
+	  echo '#define SHAREDSTATEDIR "/usr/com"'; \
+	  echo '#define LOCALSTATEDIR "/usr/var"'; \
+	  echo '#define INCLUDEDIR "/usr/include"'; \
+	  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+	  echo '#define DOCDIR "/usr/share/doc/sed"'; \
+	  echo '#define INFODIR "/usr/share/info"'; \
+	  echo '#define HTMLDIR "/usr/share/doc/sed"'; \
+	  echo '#define DVIDIR "/usr/share/doc/sed"'; \
+	  echo '#define PDFDIR "/usr/share/doc/sed"'; \
+	  echo '#define PSDIR "/usr/share/doc/sed"'; \
+	  echo '#define LIBDIR "/usr/lib"'; \
+	  echo '#define LISPDIR ""'; \
+	  echo '#define LOCALEDIR "/usr/share/locale"'; \
+	  echo '#define MANDIR "/usr/share/man"'; \
+	  echo '#define MANEXT ""'; \
+	  echo '#define PKGDATADIR "/usr/share/sed"'; \
+	  echo '#define PKGINCLUDEDIR "/usr/include/sed"'; \
+	  echo '#define PKGLIBDIR "/usr/lib/sed"'; \
+	  echo '#define PKGLIBEXECDIR ""'; \
+	} | sed '/""/d' > configmake.h-t
+if test -f configmake.h && cmp configmake.h-t configmake.h > /dev/null; then \
+	  rm -f configmake.h-t; \
+	else \
+	  rm -f configmake.h; mv configmake.h-t configmake.h; \
+	fi
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/getopt.in.h; \
+	} > getopt.h-t
+mv -f getopt.h-t getopt.h
+rm -f selinux/selinux.h-t selinux/selinux.h
+/usr/gnu/bin/mkdir -p selinux
+cp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/se-selinux.in.h selinux/selinux.h-t
+chmod a-x selinux/selinux.h-t
+mv selinux/selinux.h-t selinux/selinux.h
+rm -f selinux/context.h-t selinux/context.h
+/usr/gnu/bin/mkdir -p selinux
+cp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/se-context.in.h selinux/context.h-t
+chmod a-x selinux/context.h-t
+mv selinux/context.h-t selinux/context.h
+rm -f stdint.h-t stdint.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's/@''HAVE_STDINT_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDINT_H''@|<stdint.h>|g' \
+	      -e 's/@''HAVE_SYS_TYPES_H''@/1/g' \
+	      -e 's/@''HAVE_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_BITYPES_H''@/0/g' \
+	      -e 's/@''HAVE_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''APPLE_UNIVERSAL_BUILD''@/0/g' \
+	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/32/g' \
+	      -e 's/@''PTRDIFF_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/1/g' \
+	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIZE_T''@/32/g' \
+	      -e 's/@''SIZE_T_SUFFIX''@/u/g' \
+	      -e 's/@''BITSIZEOF_WCHAR_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/1/g' \
+	      -e 's/@''WCHAR_T_SUFFIX''@/l/g' \
+	      -e 's/@''BITSIZEOF_WINT_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WINT_T''@/1/g' \
+	      -e 's/@''WINT_T_SUFFIX''@/l/g' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/stdint.in.h; \
+	} > stdint.h-t
+mv stdint.h-t stdint.h
+rm -f stdio.h-t stdio.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+	      -e 's|@''GNULIB_FPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_FPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_PRINTF''@|1|g' \
+	      -e 's|@''GNULIB_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_SNPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_SPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VFPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VFPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VSNPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VSPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_DPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VDPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VASPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_FOPEN''@|0|g' \
+	      -e 's|@''GNULIB_FREOPEN''@|0|g' \
+	      -e 's|@''GNULIB_FSEEK''@|0|g' \
+	      -e 's|@''GNULIB_FSEEKO''@|0|g' \
+	      -e 's|@''GNULIB_FTELL''@|0|g' \
+	      -e 's|@''GNULIB_FTELLO''@|0|g' \
+	      -e 's|@''GNULIB_FFLUSH''@|0|g' \
+	      -e 's|@''GNULIB_FPURGE''@|0|g' \
+	      -e 's|@''GNULIB_FCLOSE''@|0|g' \
+	      -e 's|@''GNULIB_FPUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTCHAR''@|1|g' \
+	      -e 's|@''GNULIB_FPUTS''@|1|g' \
+	      -e 's|@''GNULIB_PUTS''@|1|g' \
+	      -e 's|@''GNULIB_FWRITE''@|1|g' \
+	      -e 's|@''GNULIB_GETDELIM''@|1|g' \
+	      -e 's|@''GNULIB_GETLINE''@|1|g' \
+	      -e 's|@''GNULIB_PERROR''@|0|g' \
+	      -e 's|@''GNULIB_STDIO_H_SIGPIPE''@|0|g' \
+	      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+	      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_DPRINTF''@|0|g' \
+	      -e 's|@''HAVE_VDPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VDPRINTF''@|0|g' \
+	      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VASPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+	      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_FOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+	      -e 's|@''REPLACE_FSEEK''@|0|g' \
+	      -e 's|@''REPLACE_FTELLO''@|0|g' \
+	      -e 's|@''REPLACE_FTELL''@|0|g' \
+	      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+	      -e 's|@''REPLACE_FPURGE''@|0|g' \
+	      -e 's|@''HAVE_DECL_FPURGE''@|1|g' \
+	      -e 's|@''REPLACE_FCLOSE''@|0|g' \
+	      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+	      -e 's|@''REPLACE_GETLINE''@|0|g' \
+	      -e 's|@''REPLACE_PERROR''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/stdio.in.h; \
+	} > stdio.h-t
+mv stdio.h-t stdio.h
+rm -f stdlib.h-t stdlib.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+	      -e 's|@''HAVE_RANDOM_H''@|0|g' \
+	      -e 's|@''GNULIB_MALLOC_POSIX''@|1|g' \
+	      -e 's|@''GNULIB_REALLOC_POSIX''@|1|g' \
+	      -e 's|@''GNULIB_CALLOC_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_ATOLL''@|0|g' \
+	      -e 's|@''GNULIB_GETLOADAVG''@|0|g' \
+	      -e 's|@''GNULIB_GETSUBOPT''@|0|g' \
+	      -e 's|@''GNULIB_MKDTEMP''@|0|g' \
+	      -e 's|@''GNULIB_MKSTEMP''@|1|g' \
+	      -e 's|@''GNULIB_PUTENV''@|0|g' \
+	      -e 's|@''GNULIB_RANDOM_R''@|0|g' \
+	      -e 's|@''GNULIB_RPMATCH''@|0|g' \
+	      -e 's|@''GNULIB_SETENV''@|0|g' \
+	      -e 's|@''GNULIB_STRTOD''@|0|g' \
+	      -e 's|@''GNULIB_STRTOLL''@|0|g' \
+	      -e 's|@''GNULIB_STRTOULL''@|0|g' \
+	      -e 's|@''GNULIB_UNSETENV''@|0|g' \
+	      -e 's|@''HAVE_ATOLL''@|1|g' \
+	      -e 's|@''HAVE_CALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+	      -e 's|@''HAVE_MALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+	      -e 's|@''HAVE_REALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+	      -e 's|@''HAVE_RPMATCH''@|1|g' \
+	      -e 's|@''HAVE_SETENV''@|1|g' \
+	      -e 's|@''HAVE_STRTOD''@|1|g' \
+	      -e 's|@''HAVE_STRTOLL''@|1|g' \
+	      -e 's|@''HAVE_STRTOULL''@|1|g' \
+	      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|0|g' \
+	      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+	      -e 's|@''HAVE_UNSETENV''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+	      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+	      -e 's|@''REPLACE_PUTENV''@|0|g' \
+	      -e 's|@''REPLACE_STRTOD''@|0|g' \
+	      -e 's|@''VOID_UNSETENV''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/stdlib.in.h; \
+	} > stdlib.h-t
+mv stdlib.h-t stdlib.h
+rm -f string.h-t string.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+	      -e 's|@''GNULIB_MBSLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSNLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSRCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSSTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSNCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSPCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASESTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSPBRK''@|0|g' \
+	      -e 's|@''GNULIB_MBSSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSSEP''@|0|g' \
+	      -e 's|@''GNULIB_MBSTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_MEMCHR''@|1|g' \
+	      -e 's|@''GNULIB_MEMMEM''@|0|g' \
+	      -e 's|@''GNULIB_MEMPCPY''@|0|g' \
+	      -e 's|@''GNULIB_MEMRCHR''@|0|g' \
+	      -e 's|@''GNULIB_RAWMEMCHR''@|0|g' \
+	      -e 's|@''GNULIB_STPCPY''@|0|g' \
+	      -e 's|@''GNULIB_STPNCPY''@|0|g' \
+	      -e 's|@''GNULIB_STRCHRNUL''@|0|g' \
+	      -e 's|@''GNULIB_STRDUP''@|0|g' \
+	      -e 's|@''GNULIB_STRNDUP''@|1|g' \
+	      -e 's|@''GNULIB_STRNLEN''@|1|g' \
+	      -e 's|@''GNULIB_STRPBRK''@|0|g' \
+	      -e 's|@''GNULIB_STRSEP''@|0|g' \
+	      -e 's|@''GNULIB_STRSTR''@|0|g' \
+	      -e 's|@''GNULIB_STRCASESTR''@|0|g' \
+	      -e 's|@''GNULIB_STRTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_STRERROR''@|1|g' \
+	      -e 's|@''GNULIB_STRSIGNAL''@|0|g' \
+	      -e 's|@''GNULIB_STRVERSCMP''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+	      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+	      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+	      -e 's|@''HAVE_STPCPY''@|1|g' \
+	      -e 's|@''HAVE_STPNCPY''@|1|g' \
+	      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+	      -e 's|@''HAVE_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+	      -e 's|@''HAVE_STRPBRK''@|1|g' \
+	      -e 's|@''HAVE_STRSEP''@|1|g' \
+	      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRERROR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+	      -e 's|@''HAVE_STRVERSCMP''@|0|g' \
+	      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+	      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+	      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+	      -e 's|@''REPLACE_STRDUP''@|0|g' \
+	      -e 's|@''REPLACE_STRSTR''@|0|g' \
+	      -e 's|@''REPLACE_STRERROR''@|0|g' \
+	      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/string.in.h; \
+	} > string.h-t
+mv string.h-t string.h
+/usr/gnu/bin/mkdir -p sys
+rm -f sys/stat.h-t sys/stat.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_SYS_STAT_H''@|<sys/stat.h>|g' \
+	      -e 's|@''GNULIB_LCHMOD''@|0|g' \
+	      -e 's|@''GNULIB_LSTAT''@|1|g' \
+	      -e 's|@''HAVE_LCHMOD''@|1|g' \
+	      -e 's|@''HAVE_LSTAT''@|1|g' \
+	      -e 's|@''REPLACE_LSTAT''@|0|g' \
+	      -e 's|@''REPLACE_MKDIR''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/sys_stat.in.h; \
+	} > sys/stat.h-t
+mv sys/stat.h-t sys/stat.h
+rm -f unistd.h-t unistd.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''HAVE_UNISTD_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+	      -e 's|@''GNULIB_CHOWN''@|0|g' \
+	      -e 's|@''GNULIB_CLOSE''@|0|g' \
+	      -e 's|@''GNULIB_DUP2''@|0|g' \
+	      -e 's|@''GNULIB_ENVIRON''@|0|g' \
+	      -e 's|@''GNULIB_EUIDACCESS''@|0|g' \
+	      -e 's|@''GNULIB_FCHDIR''@|0|g' \
+	      -e 's|@''GNULIB_FSYNC''@|0|g' \
+	      -e 's|@''GNULIB_FTRUNCATE''@|0|g' \
+	      -e 's|@''GNULIB_GETCWD''@|0|g' \
+	      -e 's|@''GNULIB_GETDOMAINNAME''@|0|g' \
+	      -e 's|@''GNULIB_GETDTABLESIZE''@|0|g' \
+	      -e 's|@''GNULIB_GETHOSTNAME''@|0|g' \
+	      -e 's|@''GNULIB_GETLOGIN_R''@|0|g' \
+	      -e 's|@''GNULIB_GETPAGESIZE''@|1|g' \
+	      -e 's|@''GNULIB_GETUSERSHELL''@|0|g' \
+	      -e 's|@''GNULIB_LCHOWN''@|0|g' \
+	      -e 's|@''GNULIB_LINK''@|0|g' \
+	      -e 's|@''GNULIB_LSEEK''@|0|g' \
+	      -e 's|@''GNULIB_READLINK''@|0|g' \
+	      -e 's|@''GNULIB_SLEEP''@|0|g' \
+	      -e 's|@''GNULIB_UNISTD_H_SIGPIPE''@|0|g' \
+	      -e 's|@''GNULIB_WRITE''@|0|g' \
+	      -e 's|@''HAVE_DUP2''@|1|g' \
+	      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+	      -e 's|@''HAVE_FSYNC''@|1|g' \
+	      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+	      -e 's|@''HAVE_GETDOMAINNAME''@|1|g' \
+	      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+	      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETUSERSHELL''@|1|g' \
+	      -e 's|@''HAVE_LINK''@|1|g' \
+	      -e 's|@''HAVE_READLINK''@|1|g' \
+	      -e 's|@''HAVE_SLEEP''@|1|g' \
+	      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+	      -e 's|@''HAVE_OS_H''@|0|g' \
+	      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+	      -e 's|@''REPLACE_CHOWN''@|0|g' \
+	      -e 's|@''REPLACE_CLOSE''@|0|g' \
+	      -e 's|@''REPLACE_FCHDIR''@|0|g' \
+	      -e 's|@''REPLACE_GETCWD''@|0|g' \
+	      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+	      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+	      -e 's|@''REPLACE_LSEEK''@|0|g' \
+	      -e 's|@''REPLACE_WRITE''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/unistd.in.h; \
+	} > unistd.h-t
+mv unistd.h-t unistd.h
+rm -f wchar.h-t wchar.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+	      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+	      -e 's|@''GNULIB_BTOWC''@|1|g' \
+	      -e 's|@''GNULIB_WCTOB''@|1|g' \
+	      -e 's|@''GNULIB_MBSINIT''@|1|g' \
+	      -e 's|@''GNULIB_MBRTOWC''@|1|g' \
+	      -e 's|@''GNULIB_MBRLEN''@|1|g' \
+	      -e 's|@''GNULIB_MBSRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_WCRTOMB''@|1|g' \
+	      -e 's|@''GNULIB_WCSRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCWIDTH''@|0|g' \
+	      -e 's|@''HAVE_WINT_T''@|1|g' \
+	      -e 's|@''HAVE_BTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBSINIT''@|1|g' \
+	      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBRLEN''@|1|g' \
+	      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+	      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+	      -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+	      -e 's|@''REPLACE_BTOWC''@|0|g' \
+	      -e 's|@''REPLACE_WCTOB''@|0|g' \
+	      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+	      -e 's|@''REPLACE_MBRTOWC''@|1|g' \
+	      -e 's|@''REPLACE_MBRLEN''@|1|g' \
+	      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_WCRTOMB''@|1|g' \
+	      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/link-warning.h' \
+	    < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/wchar.in.h; \
+	} > wchar.h-t
+mv wchar.h-t wchar.h
+/usr/gnu/bin/make  all-recursive
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/set-mode-acl.c' object='set-mode-acl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/set-mode-acl.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/copy-acl.c' object='copy-acl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/copy-acl.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/file-has-acl.c' object='file-has-acl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/file-has-acl.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/c-ctype.c' object='c-ctype.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/c-ctype.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/localcharset.c' object='localcharset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/localcharset.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xalloc-die.c' object='xalloc-die.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xalloc-die.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xstrndup.c' object='xstrndup.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xstrndup.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/basename.c' object='basename.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/basename.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/dirname.c' object='dirname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/dirname.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/error.c' object='error.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/error.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/exitfail.c' object='exitfail.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/exitfail.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/mbrlen.c' object='mbrlen.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/mbrlen.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/mbrtowc.c' object='mbrtowc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/mbrtowc.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/obstack.c' object='obstack.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/obstack.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/quote.c' object='quote.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/quote.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/quotearg.c' object='quotearg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/quotearg.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/regex.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/stripslash.c' object='stripslash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/stripslash.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/strverscmp.c' object='strverscmp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/strverscmp.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/tempname.c' object='tempname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/tempname.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/wcrtomb.c' object='wcrtomb.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/wcrtomb.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/xmalloc.c
+rm -f libsed.a
+ar cru libsed.a set-mode-acl.o copy-acl.o file-has-acl.o c-ctype.o localcharset.o xalloc-die.o xstrndup.o basename.o dirname.o error.o exitfail.o getopt.o getopt1.o mbrlen.o mbrtowc.o obstack.o quote.o quotearg.o regex.o stripslash.o strverscmp.o tempname.o wcrtomb.o xmalloc.o 
+ranlib libsed.a
+rm -f t-charset.alias charset.alias
+/bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/config.charset 'i386-pc-solaris2.11' > t-charset.alias
+mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/sed/g' /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+rm -f t-ref-del.sed ref-del.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/sed/g' /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib/ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/po'
+Making all in sed
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/sed'
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/sed.c' object='sed.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/sed.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/compile.c' object='compile.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/compile.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/execute.c' object='execute.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/execute.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/regexp.c' object='regexp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/regexp.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/fmt.c' object='fmt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/fmt.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/mbcs.c' object='mbcs.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/mbcs.c
+source='/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/utils.c' object='utils.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed -I..  -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/lib -I/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1 -I../lib -DLOCALEDIR=\"/usr/share/locale\"   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/sed/utils.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o sed sed.o compile.o execute.o regexp.o fmt.o mbcs.o utils.o ../lib/libsed.a  -lsec  
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/sed'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/doc'
+Making all in testsuite
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/sed/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/sed/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+/usr/gnu/bin/make  check-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/lib'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/po'
+Making check in sed
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/sed'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/sed'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/doc'
+Making check in testsuite
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+/usr/gnu/bin/make  
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+PASS: appquit
+PASS: enable
+PASS: sep
+PASS: inclib
+PASS: 8bit
+PASS: newjis
+PASS: xabcx
+PASS: dollar
+PASS: noeol
+PASS: noeolw
+PASS: modulo
+PASS: numsub
+PASS: numsub2
+PASS: numsub3
+PASS: numsub4
+PASS: numsub5
+PASS: 0range
+PASS: bkslashes
+PASS: head
+PASS: madding
+PASS: mac-mf
+PASS: empty
+PASS: xbxcx
+PASS: xbxcx3
+PASS: recall
+PASS: recall2
+PASS: xemacs
+PASS: fasts
+PASS: uniq
+PASS: manis
+PASS: khadafy
+PASS: linecnt
+PASS: eval
+PASS: distrib
+PASS: 8to7
+PASS: y-bracket
+PASS: y-newline
+PASS: allsub
+PASS: cv-vars
+PASS: classes
+PASS: middle
+PASS: bsd
+PASS: stdin
+PASS: flipcase
+PASS: insens
+PASS: subwrite
+PASS: writeout
+PASS: readin
+PASS: insert
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+echo "LANG=ru_RU.UTF-8" \
+	  " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.sed" \
+	  "< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out"; \
+	LANG=ru_RU.UTF-8 \
+	   ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.good utf8-1.out && exit 0; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp utf8-1.out || exit 1; \
+	locale > utf8-1.info 2>/dev/null || { rm utf8-1.info; :>utf8-1.skip; exit 77; }; \
+	. utf8-1.info; rm utf8-1.info; \
+	case "$LC_CTYPE" in \
+	  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+	    echo " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.sed" \
+	      " < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out"; \
+	     ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp | LC_ALL=C tr -d \\r > utf8-1.out; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.good utf8-1.out && exit 0; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp utf8-1.out || exit 1 ;; \
+	  *) ;; \
+	esac; \
+	:>utf8-1.skip; exit 77
+LANG=ru_RU.UTF-8  ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.sed < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.inp | LC_ALL=C tr -d  > utf8-1.out
+/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-1.good utf8-1.out differ: char 2, line 1
+/bin/sh[9]: .: utf8-1.info: cannot open [No such file or directory]
+make[4]: *** [utf8-1] Error 1
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+XFAIL: utf8-1
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+echo "LANG=ru_RU.UTF-8" \
+	  " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.sed" \
+	  "< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out"; \
+	LANG=ru_RU.UTF-8 \
+	   ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.good utf8-2.out && exit 0; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp utf8-2.out || exit 1; \
+	locale > utf8-2.info 2>/dev/null || { rm utf8-2.info; :>utf8-2.skip; exit 77; }; \
+	. utf8-2.info; rm utf8-2.info; \
+	case "$LC_CTYPE" in \
+	  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+	    echo " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.sed" \
+	      " < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out"; \
+	     ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp | LC_ALL=C tr -d \\r > utf8-2.out; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.good utf8-2.out && exit 0; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp utf8-2.out || exit 1 ;; \
+	  *) ;; \
+	esac; \
+	:>utf8-2.skip; exit 77
+LANG=ru_RU.UTF-8  ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.sed < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.inp | LC_ALL=C tr -d  > utf8-2.out
+/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-2.good utf8-2.out differ: char 2, line 1
+/bin/sh[9]: .: utf8-2.info: cannot open [No such file or directory]
+make[4]: *** [utf8-2] Error 1
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+XFAIL: utf8-2
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+echo "LANG=ru_RU.UTF-8" \
+	  " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.sed" \
+	  "< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out"; \
+	LANG=ru_RU.UTF-8 \
+	   ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.good utf8-3.out && exit 0; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp utf8-3.out || exit 1; \
+	locale > utf8-3.info 2>/dev/null || { rm utf8-3.info; :>utf8-3.skip; exit 77; }; \
+	. utf8-3.info; rm utf8-3.info; \
+	case "$LC_CTYPE" in \
+	  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+	    echo " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.sed" \
+	      " < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out"; \
+	     ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp | LC_ALL=C tr -d \\r > utf8-3.out; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.good utf8-3.out && exit 0; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp utf8-3.out || exit 1 ;; \
+	  *) ;; \
+	esac; \
+	:>utf8-3.skip; exit 77
+LANG=ru_RU.UTF-8  ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.sed < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.inp | LC_ALL=C tr -d  > utf8-3.out
+/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-3.good utf8-3.out differ: char 2, line 1
+/bin/sh[9]: .: utf8-3.info: cannot open [No such file or directory]
+make[4]: *** [utf8-3] Error 1
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+XFAIL: utf8-3
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+echo "LANG=ru_RU.UTF-8" \
+	  " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.sed" \
+	  "< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out"; \
+	LANG=ru_RU.UTF-8 \
+	   ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.good utf8-4.out && exit 0; \
+	cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp utf8-4.out || exit 1; \
+	locale > utf8-4.info 2>/dev/null || { rm utf8-4.info; :>utf8-4.skip; exit 77; }; \
+	. utf8-4.info; rm utf8-4.info; \
+	case "$LC_CTYPE" in \
+	  *UTF-8 | *UTF8 | *utf8 | *utf-8) \
+	    echo " ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.sed" \
+	      " < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out"; \
+	     ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.sed \
+		< /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp | LC_ALL=C tr -d \\r > utf8-4.out; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.good utf8-4.out && exit 0; \
+	    cmp /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp utf8-4.out || exit 1 ;; \
+	  *) ;; \
+	esac; \
+	:>utf8-4.skip; exit 77
+LANG=ru_RU.UTF-8  ../sed/sed -f /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.sed < /export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.inp | LC_ALL=C tr -d  > utf8-4.out
+/export/home/drlou/illumos-userland-1248/components/sed/sed-4.2.1/testsuite/utf8-4.good utf8-4.out differ: char 2, line 1
+/bin/sh[9]: .: utf8-4.info: cannot open [No such file or directory]
+make[4]: *** [utf8-4] Error 1
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+XFAIL: utf8-4
+PASS: badenc
+PASS: inplace-hold
+PASS: brackets
+PASS: help
+PASS: version
+PASS: file
+PASS: quiet
+PASS: factor
+PASS: binary3
+PASS: binary2
+PASS: binary
+PASS: dc
+======================================================
+All 65 tests behaved as expected (4 expected failures)
+======================================================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86/testsuite'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/sed/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/sed/build/i86/.tested

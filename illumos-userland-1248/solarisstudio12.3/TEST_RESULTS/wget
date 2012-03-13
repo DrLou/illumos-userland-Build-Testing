@@ -1,0 +1,1430 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/wget/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/wget/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/wget/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --sysconfdir=/etc --with-ssl --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt"  PATH="/usr/bin:/usr/gnu/bin:/usr/perl5/bin")
+configure: configuring for GNU Wget 1.12
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for ranlib... ranlib
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for CFPreferencesCopyAppValue... no
+checking for CFLocaleCopyCurrent... no
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for ranlib... (cached) ranlib
+checking for flex... flex
+checking lex output file root... lex.yy
+checking lex library... -ll
+checking whether yytext is a pointer... yes
+checking for an ANSI C-conforming const... yes
+checking for inline... inline
+checking for working volatile... yes
+checking for ANSI C header files... (cached) yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking size of off_t... 8
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for unistd.h... (cached) yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking termios.h usability... yes
+checking termios.h presence... yes
+checking for termios.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/select.h usability... yes
+checking sys/select.h presence... yes
+checking for sys/select.h... yes
+checking utime.h usability... yes
+checking utime.h presence... yes
+checking for utime.h... yes
+checking sys/utime.h usability... yes
+checking sys/utime.h presence... yes
+checking for sys/utime.h... yes
+checking for stdint.h... (cached) yes
+checking for inttypes.h... (cached) yes
+checking pwd.h usability... yes
+checking pwd.h presence... yes
+checking for pwd.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking whether h_errno is declared... yes
+checking size of short... 2
+checking size of int... 4
+checking size of long... 4
+checking size of long long... 8
+checking size of void *... 4
+checking for size_t... yes
+checking for pid_t... yes
+checking for uint32_t... yes
+checking for uintptr_t... yes
+checking for intptr_t... yes
+checking for int64_t... yes
+checking for sig_atomic_t... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether the preprocessor supports include_next... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking for termios.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdint.h... (cached) yes
+checking for wchar.h... (cached) yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for string.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking whether stdin defaults to large file offsets... yes
+checking whether getdelim is declared... yes
+checking whether getline is declared... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long_only... yes
+checking whether getopt is POSIX compatible... yes
+checking for working GNU getopt function... no
+checking whether getenv is declared... yes
+checking whether getpass is declared... yes
+checking for __fsetlocking... yes
+checking for tcgetattr... yes
+checking for tcsetattr... yes
+checking for mbsinit... yes
+checking for mbrtowc... yes
+checking for mprotect... yes
+checking for iswcntrl... yes
+checking whether fflush_unlocked is declared... no
+checking whether flockfile is declared... yes
+checking whether fputs_unlocked is declared... no
+checking whether funlockfile is declared... yes
+checking whether putc_unlocked is declared... yes
+checking for nl_langinfo and CODESET... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking for mbstate_t... yes
+checking for a traditional japanese locale... none
+checking for a transitional chinese locale... none
+checking for a french Unicode locale... none
+checking for mmap... yes
+checking for MAP_ANONYMOUS... yes
+checking for memchr... yes
+checking whether memchr works... yes
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for wchar_t... yes
+checking for long long int... yes
+checking for unsigned long long int... yes
+checking for strcasestr... yes
+checking for working strerror function... yes
+checking for C/C++ restrict keyword... __restrict__
+checking for wint_t... yes
+checking for alloca as a compiler built-in... no
+checking for error_at_line... no
+checking for fseeko... yes
+checking for getdelim... yes
+checking for getline... yes
+checking for working getline function... yes
+checking for getpagesize... yes
+checking whether __fsetlocking is declared... yes
+checking whether the compiler generally respects inline... yes
+checking whether lseek detects pipes... yes
+checking whether mbrtowc handles incomplete characters... guessing yes
+checking whether mbrtowc works as well as mbtowc... guessing yes
+checking whether mbrtowc handles a NULL string argument... guessing yes
+checking whether mbrtowc has a correct return value... guessing no
+checking whether mbrtowc returns 0 when parsing a NUL character... guessing yes
+checking whether mbrtowc handles incomplete characters... (cached) guessing yes
+checking whether mbrtowc works as well as mbtowc... (cached) guessing yes
+checking whether NULL can be used in arbitrary expressions... yes
+checking whether stdint.h conforms to C99... no
+checking sys/inttypes.h usability... yes
+checking sys/inttypes.h presence... yes
+checking for sys/inttypes.h... yes
+checking sys/bitypes.h usability... no
+checking sys/bitypes.h presence... no
+checking for sys/bitypes.h... no
+checking for bit size of ptrdiff_t... 32
+checking for bit size of size_t... 32
+checking for bit size of sig_atomic_t... 32
+checking for bit size of wchar_t... 32
+checking for bit size of wint_t... 32
+checking whether sig_atomic_t is signed... yes
+checking whether wchar_t is signed... yes
+checking whether wint_t is signed... yes
+checking for ptrdiff_t integer literal suffix... 
+checking for size_t integer literal suffix... u
+checking for sig_atomic_t integer literal suffix... 
+checking for wchar_t integer literal suffix... l
+checking for wint_t integer literal suffix... l
+checking for random.h... no
+checking for struct random_data... no
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking whether strncasecmp is declared... yes
+checking whether strcasestr works in linear time... no
+checking for strcasestr... (cached) yes
+checking whether <wchar.h> is standalone... yes
+checking whether iswcntrl works... yes
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... (cached) yes
+checking for working mmap... yes
+checking for _LARGEFILE_SOURCE value needed for large files... (cached) no
+checking for strptime... yes
+checking for timegm... yes
+checking for snprintf... yes
+checking for vsnprintf... yes
+checking for vasprintf... yes
+checking for drand48... yes
+checking for strtoll... yes
+checking for usleep... yes
+checking for ftello... yes
+checking for sigblock... no
+checking for sigsetjmp... yes
+checking for memrchr... no
+checking for wcwidth... yes
+checking for mbtowc... yes
+checking for struct utimbuf... yes
+checking for socklen_t... socklen_t
+checking for working fnmatch.h... yes
+checking for nanosleep... yes
+checking for clock_gettime... yes
+checking for gethostbyname... no
+checking for inet_ntoa... no
+checking for inet_ntoa in -lnsl... yes
+checking for socket in -lsocket... yes
+checking for dlopen in -ldl... yes
+checking for libssl... yes
+checking how to link with libssl... /usr/lib/libssl.so /usr/lib/libcrypto.so
+configure: compiling in support for SSL via OpenSSL
+checking for md5_calc in -lmd5... yes
+checking for working md5.h... yes
+configure: using the Solaris MD5 implementation
+checking for getaddrinfo... yes
+checking for INET6 protocol support... yes
+checking for struct sockaddr_in6... yes
+checking for struct sockaddr_storage... yes
+checking for struct sockaddr_in6.sin6_scope_id... yes
+configure: Enabling support for IPv6.
+checking for makeinfo... ${SHELL} /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/missing --run makeinfo
+checking for perl5... no
+checking for perl... /usr/bin/perl
+checking for pod2man... /usr/perl5/bin/pod2man
+checking for iconv... yes
+checking for working iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking idna.h usability... no
+checking idna.h presence... no
+checking for idna.h... no
+checking idn/idn-int.h usability... yes
+checking idn/idn-int.h presence... yes
+checking for idn/idn-int.h... yes
+checking for stringprep_check_version in -lidn... yes
+configure: Enabling support for IRI.
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating doc/Makefile
+config.status: creating util/Makefile
+config.status: creating po/Makefile.in
+config.status: creating tests/Makefile
+config.status: creating tests/WgetTest.pm
+config.status: creating lib/Makefile
+config.status: creating md5/Makefile
+config.status: creating windows/Makefile
+config.status: creating src/config.h
+config.status: linking /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/GNUmakefile to GNUmakefile
+config.status: executing depfiles commands
+config.status: executing po-directories commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/wget/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/wget/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+Making all in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+rm -f configmake.h-t && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  echo '#define PREFIX "/usr"'; \
+	  echo '#define EXEC_PREFIX "/usr"'; \
+	  echo '#define BINDIR "/usr/bin"'; \
+	  echo '#define SBINDIR "/usr/sbin"'; \
+	  echo '#define LIBEXECDIR "/usr/libexec"'; \
+	  echo '#define DATAROOTDIR "/usr/share"'; \
+	  echo '#define DATADIR "/usr/share"'; \
+	  echo '#define SYSCONFDIR "/etc"'; \
+	  echo '#define SHAREDSTATEDIR "/usr/com"'; \
+	  echo '#define LOCALSTATEDIR "/usr/var"'; \
+	  echo '#define INCLUDEDIR "/usr/include"'; \
+	  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+	  echo '#define DOCDIR "/usr/share/doc/wget"'; \
+	  echo '#define INFODIR "/usr/share/info"'; \
+	  echo '#define HTMLDIR "/usr/share/doc/wget"'; \
+	  echo '#define DVIDIR "/usr/share/doc/wget"'; \
+	  echo '#define PDFDIR "/usr/share/doc/wget"'; \
+	  echo '#define PSDIR "/usr/share/doc/wget"'; \
+	  echo '#define LIBDIR "/usr/lib"'; \
+	  echo '#define LISPDIR ""'; \
+	  echo '#define LOCALEDIR "/usr/share/locale"'; \
+	  echo '#define MANDIR "/usr/share/man"'; \
+	  echo '#define MANEXT ""'; \
+	  echo '#define PKGDATADIR "/usr/share/wget"'; \
+	  echo '#define PKGINCLUDEDIR "/usr/include/wget"'; \
+	  echo '#define PKGLIBDIR "/usr/lib/wget"'; \
+	  echo '#define PKGLIBEXECDIR ""'; \
+	} | sed '/""/d' > configmake.h-t && \
+	if test -f configmake.h && cmp configmake.h-t configmake.h > /dev/null; then \
+	  rm -f configmake.h-t; \
+	else \
+	  rm -f configmake.h; mv configmake.h-t configmake.h; \
+	fi
+rm -f getopt.h-t getopt.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getopt.in.h; \
+	} > getopt.h-t && \
+	mv -f getopt.h-t getopt.h
+rm -f stdint.h-t stdint.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's/@''HAVE_STDINT_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDINT_H''@|<stdint.h>|g' \
+	      -e 's/@''HAVE_SYS_TYPES_H''@/1/g' \
+	      -e 's/@''HAVE_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_BITYPES_H''@/0/g' \
+	      -e 's/@''HAVE_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''APPLE_UNIVERSAL_BUILD''@/0/g' \
+	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/32/g' \
+	      -e 's/@''PTRDIFF_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/1/g' \
+	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIZE_T''@/32/g' \
+	      -e 's/@''SIZE_T_SUFFIX''@/u/g' \
+	      -e 's/@''BITSIZEOF_WCHAR_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/1/g' \
+	      -e 's/@''WCHAR_T_SUFFIX''@/l/g' \
+	      -e 's/@''BITSIZEOF_WINT_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WINT_T''@/1/g' \
+	      -e 's/@''WINT_T_SUFFIX''@/l/g' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/stdint.in.h; \
+	} > stdint.h-t && \
+	mv stdint.h-t stdint.h
+rm -f stdio.h-t stdio.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+	      -e 's|@''GNULIB_FPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_FPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_PRINTF''@|1|g' \
+	      -e 's|@''GNULIB_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_SNPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_SPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VFPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VFPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VSNPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VSPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_DPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VDPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VASPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_FOPEN''@|0|g' \
+	      -e 's|@''GNULIB_FREOPEN''@|0|g' \
+	      -e 's|@''GNULIB_FSEEK''@|0|g' \
+	      -e 's|@''GNULIB_FSEEKO''@|1|g' \
+	      -e 's|@''GNULIB_FTELL''@|0|g' \
+	      -e 's|@''GNULIB_FTELLO''@|0|g' \
+	      -e 's|@''GNULIB_FFLUSH''@|0|g' \
+	      -e 's|@''GNULIB_FPURGE''@|0|g' \
+	      -e 's|@''GNULIB_FCLOSE''@|0|g' \
+	      -e 's|@''GNULIB_FPUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTCHAR''@|1|g' \
+	      -e 's|@''GNULIB_FPUTS''@|1|g' \
+	      -e 's|@''GNULIB_PUTS''@|1|g' \
+	      -e 's|@''GNULIB_FWRITE''@|1|g' \
+	      -e 's|@''GNULIB_POPEN''@|0|g' \
+	      -e 's|@''GNULIB_GETDELIM''@|1|g' \
+	      -e 's|@''GNULIB_GETLINE''@|1|g' \
+	      -e 's|@''GNULIB_PERROR''@|0|g' \
+	      -e 's|@''GNULIB_STDIO_H_SIGPIPE''@|0|g' \
+	      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+	      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_DPRINTF''@|0|g' \
+	      -e 's|@''HAVE_VDPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VDPRINTF''@|0|g' \
+	      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VASPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+	      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_FOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+	      -e 's|@''REPLACE_FSEEK''@|0|g' \
+	      -e 's|@''REPLACE_FTELLO''@|0|g' \
+	      -e 's|@''REPLACE_FTELL''@|0|g' \
+	      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+	      -e 's|@''REPLACE_FPURGE''@|0|g' \
+	      -e 's|@''HAVE_DECL_FPURGE''@|1|g' \
+	      -e 's|@''REPLACE_FCLOSE''@|0|g' \
+	      -e 's|@''REPLACE_POPEN''@|0|g' \
+	      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+	      -e 's|@''REPLACE_GETLINE''@|0|g' \
+	      -e 's|@''REPLACE_PERROR''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/stdio.in.h; \
+	} > stdio.h-t && \
+	mv stdio.h-t stdio.h
+rm -f stdlib.h-t stdlib.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+	      -e 's|@''HAVE_RANDOM_H''@|0|g' \
+	      -e 's|@''GNULIB_MALLOC_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_REALLOC_POSIX''@|1|g' \
+	      -e 's|@''GNULIB_CALLOC_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_ATOLL''@|0|g' \
+	      -e 's|@''GNULIB_GETLOADAVG''@|0|g' \
+	      -e 's|@''GNULIB_GETSUBOPT''@|0|g' \
+	      -e 's|@''GNULIB_MKDTEMP''@|0|g' \
+	      -e 's|@''GNULIB_MKOSTEMP''@|0|g' \
+	      -e 's|@''GNULIB_MKSTEMP''@|0|g' \
+	      -e 's|@''GNULIB_PUTENV''@|0|g' \
+	      -e 's|@''GNULIB_RANDOM_R''@|0|g' \
+	      -e 's|@''GNULIB_RPMATCH''@|0|g' \
+	      -e 's|@''GNULIB_SETENV''@|0|g' \
+	      -e 's|@''GNULIB_STRTOD''@|0|g' \
+	      -e 's|@''GNULIB_STRTOLL''@|0|g' \
+	      -e 's|@''GNULIB_STRTOULL''@|0|g' \
+	      -e 's|@''GNULIB_UNSETENV''@|0|g' \
+	      -e 's|@''HAVE_ATOLL''@|1|g' \
+	      -e 's|@''HAVE_CALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+	      -e 's|@''HAVE_MALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+	      -e 's|@''HAVE_MKOSTEMP''@|1|g' \
+	      -e 's|@''HAVE_REALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_RANDOM_R''@|1|g' \
+	      -e 's|@''HAVE_RPMATCH''@|1|g' \
+	      -e 's|@''HAVE_SETENV''@|1|g' \
+	      -e 's|@''HAVE_STRTOD''@|1|g' \
+	      -e 's|@''HAVE_STRTOLL''@|1|g' \
+	      -e 's|@''HAVE_STRTOULL''@|1|g' \
+	      -e 's|@''HAVE_STRUCT_RANDOM_DATA''@|0|g' \
+	      -e 's|@''HAVE_SYS_LOADAVG_H''@|0|g' \
+	      -e 's|@''HAVE_UNSETENV''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOADAVG''@|1|g' \
+	      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+	      -e 's|@''REPLACE_PUTENV''@|0|g' \
+	      -e 's|@''REPLACE_STRTOD''@|0|g' \
+	      -e 's|@''VOID_UNSETENV''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/stdlib.in.h; \
+	} > stdlib.h-t && \
+	mv stdlib.h-t stdlib.h
+rm -f string.h-t string.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+	      -e 's|@''GNULIB_MBSLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSNLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSRCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSSTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSNCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSPCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASESTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSPBRK''@|0|g' \
+	      -e 's|@''GNULIB_MBSSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSSEP''@|0|g' \
+	      -e 's|@''GNULIB_MBSTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_MEMCHR''@|1|g' \
+	      -e 's|@''GNULIB_MEMMEM''@|0|g' \
+	      -e 's|@''GNULIB_MEMPCPY''@|0|g' \
+	      -e 's|@''GNULIB_MEMRCHR''@|0|g' \
+	      -e 's|@''GNULIB_RAWMEMCHR''@|0|g' \
+	      -e 's|@''GNULIB_STPCPY''@|0|g' \
+	      -e 's|@''GNULIB_STPNCPY''@|0|g' \
+	      -e 's|@''GNULIB_STRCHRNUL''@|0|g' \
+	      -e 's|@''GNULIB_STRDUP''@|0|g' \
+	      -e 's|@''GNULIB_STRNDUP''@|0|g' \
+	      -e 's|@''GNULIB_STRNLEN''@|0|g' \
+	      -e 's|@''GNULIB_STRPBRK''@|0|g' \
+	      -e 's|@''GNULIB_STRSEP''@|0|g' \
+	      -e 's|@''GNULIB_STRSTR''@|0|g' \
+	      -e 's|@''GNULIB_STRCASESTR''@|1|g' \
+	      -e 's|@''GNULIB_STRTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_STRERROR''@|1|g' \
+	      -e 's|@''GNULIB_STRSIGNAL''@|0|g' \
+	      -e 's|@''GNULIB_STRVERSCMP''@|0|g' \
+	      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+	      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+	      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+	      -e 's|@''HAVE_STPCPY''@|1|g' \
+	      -e 's|@''HAVE_STPNCPY''@|1|g' \
+	      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+	      -e 's|@''HAVE_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+	      -e 's|@''HAVE_STRPBRK''@|1|g' \
+	      -e 's|@''HAVE_STRSEP''@|1|g' \
+	      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRERROR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+	      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+	      -e 's|@''REPLACE_MEMCHR''@|0|g' \
+	      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+	      -e 's|@''REPLACE_STRCASESTR''@|1|g' \
+	      -e 's|@''REPLACE_STRDUP''@|0|g' \
+	      -e 's|@''REPLACE_STRSTR''@|0|g' \
+	      -e 's|@''REPLACE_STRERROR''@|0|g' \
+	      -e 's|@''REPLACE_STRSIGNAL''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/string.in.h; \
+	} > string.h-t && \
+	mv string.h-t string.h
+rm -f strings.h-t strings.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STRINGS_H''@|<strings.h>|g' \
+	      -e 's|@''HAVE_STRCASECMP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNCASECMP''@|1|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/strings.in.h; \
+	} > strings.h-t && \
+	mv strings.h-t strings.h
+rm -f unistd.h-t unistd.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''HAVE_UNISTD_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+	      -e 's|@''GNULIB_CHOWN''@|0|g' \
+	      -e 's|@''GNULIB_CLOSE''@|0|g' \
+	      -e 's|@''GNULIB_DUP2''@|0|g' \
+	      -e 's|@''GNULIB_DUP3''@|0|g' \
+	      -e 's|@''GNULIB_ENVIRON''@|0|g' \
+	      -e 's|@''GNULIB_EUIDACCESS''@|0|g' \
+	      -e 's|@''GNULIB_FCHDIR''@|0|g' \
+	      -e 's|@''GNULIB_FSYNC''@|0|g' \
+	      -e 's|@''GNULIB_FTRUNCATE''@|0|g' \
+	      -e 's|@''GNULIB_GETCWD''@|0|g' \
+	      -e 's|@''GNULIB_GETDOMAINNAME''@|0|g' \
+	      -e 's|@''GNULIB_GETDTABLESIZE''@|0|g' \
+	      -e 's|@''GNULIB_GETHOSTNAME''@|0|g' \
+	      -e 's|@''GNULIB_GETLOGIN_R''@|0|g' \
+	      -e 's|@''GNULIB_GETPAGESIZE''@|1|g' \
+	      -e 's|@''GNULIB_GETUSERSHELL''@|0|g' \
+	      -e 's|@''GNULIB_LCHOWN''@|0|g' \
+	      -e 's|@''GNULIB_LINK''@|0|g' \
+	      -e 's|@''GNULIB_LSEEK''@|1|g' \
+	      -e 's|@''GNULIB_PIPE2''@|0|g' \
+	      -e 's|@''GNULIB_READLINK''@|0|g' \
+	      -e 's|@''GNULIB_SLEEP''@|0|g' \
+	      -e 's|@''GNULIB_UNISTD_H_GETOPT''@|1|g' \
+	      -e 's|@''GNULIB_UNISTD_H_SIGPIPE''@|0|g' \
+	      -e 's|@''GNULIB_WRITE''@|0|g' \
+	      -e 's|@''HAVE_DUP2''@|1|g' \
+	      -e 's|@''HAVE_DUP3''@|1|g' \
+	      -e 's|@''HAVE_EUIDACCESS''@|1|g' \
+	      -e 's|@''HAVE_FSYNC''@|1|g' \
+	      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+	      -e 's|@''HAVE_GETDOMAINNAME''@|1|g' \
+	      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETHOSTNAME''@|1|g' \
+	      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETUSERSHELL''@|1|g' \
+	      -e 's|@''HAVE_LINK''@|1|g' \
+	      -e 's|@''HAVE_PIPE2''@|1|g' \
+	      -e 's|@''HAVE_READLINK''@|1|g' \
+	      -e 's|@''HAVE_SLEEP''@|1|g' \
+	      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+	      -e 's|@''HAVE_OS_H''@|0|g' \
+	      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+	      -e 's|@''REPLACE_CHOWN''@|0|g' \
+	      -e 's|@''REPLACE_CLOSE''@|0|g' \
+	      -e 's|@''REPLACE_DUP2''@|0|g' \
+	      -e 's|@''REPLACE_FCHDIR''@|0|g' \
+	      -e 's|@''REPLACE_GETCWD''@|0|g' \
+	      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+	      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+	      -e 's|@''REPLACE_LSEEK''@|0|g' \
+	      -e 's|@''REPLACE_WRITE''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H_AND_USE_SOCKETS''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/unistd.in.h; \
+	} > unistd.h-t && \
+	mv unistd.h-t unistd.h
+rm -f wchar.h-t wchar.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+	      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+	      -e 's|@''GNULIB_BTOWC''@|0|g' \
+	      -e 's|@''GNULIB_WCTOB''@|0|g' \
+	      -e 's|@''GNULIB_MBSINIT''@|1|g' \
+	      -e 's|@''GNULIB_MBRTOWC''@|1|g' \
+	      -e 's|@''GNULIB_MBRLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_WCRTOMB''@|0|g' \
+	      -e 's|@''GNULIB_WCSRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCWIDTH''@|0|g' \
+	      -e 's|@''HAVE_WINT_T''@|1|g' \
+	      -e 's|@''HAVE_BTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBSINIT''@|1|g' \
+	      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBRLEN''@|1|g' \
+	      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+	      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+	      -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+	      -e 's|@''REPLACE_BTOWC''@|0|g' \
+	      -e 's|@''REPLACE_WCTOB''@|0|g' \
+	      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+	      -e 's|@''REPLACE_MBRTOWC''@|1|g' \
+	      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+	      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+	      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	    < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/wchar.in.h; \
+	} > wchar.h-t && \
+	mv wchar.h-t wchar.h
+/usr/gnu/bin/make  all-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/c-ctype.c' object='c-ctype.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/c-ctype.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/localcharset.c' object='localcharset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/localcharset.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/xalloc-die.c' object='xalloc-die.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/xalloc-die.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/error.c' object='error.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/error.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/exitfail.c' object='exitfail.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/exitfail.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getpass.c' object='getpass.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/getpass.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/mbrtowc.c' object='mbrtowc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/mbrtowc.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/quote.c' object='quote.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/quote.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/quotearg.c' object='quotearg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/quotearg.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/strcasestr.c' object='strcasestr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/strcasestr.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/xmalloc.c
+rm -f libgnu.a
+ar cru libgnu.a c-ctype.o localcharset.o xalloc-die.o error.o exitfail.o getopt.o getopt1.o getpass.o mbrtowc.o quote.o quotearg.o strcasestr.o xmalloc.o 
+ranlib libgnu.a
+rm -f t-charset.alias charset.alias && \
+	/bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/config.charset 'i386-pc-solaris2.11' > t-charset.alias && \
+	mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed && \
+	sed -e '/^#/d' -e 's/@''PACKAGE''@/wget/g' /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/ref-add.sin > t-ref-add.sed && \
+	mv t-ref-add.sed ref-add.sed
+rm -f t-ref-del.sed ref-del.sed && \
+	sed -e '/^#/d' -e 's/@''PACKAGE''@/wget/g' /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib/ref-del.sin > t-ref-del.sed && \
+	mv t-ref-del.sed ref-del.sed
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+Making all in md5
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+rm -f stdint.h-t stdint.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's/@''HAVE_STDINT_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDINT_H''@|<stdint.h>|g' \
+	      -e 's/@''HAVE_SYS_TYPES_H''@/1/g' \
+	      -e 's/@''HAVE_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_BITYPES_H''@/0/g' \
+	      -e 's/@''HAVE_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''APPLE_UNIVERSAL_BUILD''@/0/g' \
+	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/32/g' \
+	      -e 's/@''PTRDIFF_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/1/g' \
+	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIZE_T''@/32/g' \
+	      -e 's/@''SIZE_T_SUFFIX''@/u/g' \
+	      -e 's/@''BITSIZEOF_WCHAR_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/1/g' \
+	      -e 's/@''WCHAR_T_SUFFIX''@/l/g' \
+	      -e 's/@''BITSIZEOF_WINT_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WINT_T''@/1/g' \
+	      -e 's/@''WINT_T_SUFFIX''@/l/g' \
+	      < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/md5/stdint.in.h; \
+	} > stdint.h-t && \
+	mv stdint.h-t stdint.h
+rm -f wchar.h-t wchar.h && \
+	{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_WCHAR_H''@|<wchar.h>|g' \
+	      -e 's|@''HAVE_WCHAR_H''@|1|g' \
+	      -e 's|@''GNULIB_BTOWC''@|0|g' \
+	      -e 's|@''GNULIB_WCTOB''@|0|g' \
+	      -e 's|@''GNULIB_MBSINIT''@|1|g' \
+	      -e 's|@''GNULIB_MBRTOWC''@|1|g' \
+	      -e 's|@''GNULIB_MBRLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''GNULIB_WCRTOMB''@|0|g' \
+	      -e 's|@''GNULIB_WCSRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''GNULIB_WCWIDTH''@|0|g' \
+	      -e 's|@''HAVE_WINT_T''@|1|g' \
+	      -e 's|@''HAVE_BTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBSINIT''@|1|g' \
+	      -e 's|@''HAVE_MBRTOWC''@|1|g' \
+	      -e 's|@''HAVE_MBRLEN''@|1|g' \
+	      -e 's|@''HAVE_MBSRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_MBSNRTOWCS''@|1|g' \
+	      -e 's|@''HAVE_WCRTOMB''@|1|g' \
+	      -e 's|@''HAVE_WCSRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_WCSNRTOMBS''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCTOB''@|1|g' \
+	      -e 's|@''HAVE_DECL_WCWIDTH''@|1|g' \
+	      -e 's|@''REPLACE_MBSTATE_T''@|0|g' \
+	      -e 's|@''REPLACE_BTOWC''@|0|g' \
+	      -e 's|@''REPLACE_WCTOB''@|0|g' \
+	      -e 's|@''REPLACE_MBSINIT''@|0|g' \
+	      -e 's|@''REPLACE_MBRTOWC''@|1|g' \
+	      -e 's|@''REPLACE_MBRLEN''@|0|g' \
+	      -e 's|@''REPLACE_MBSRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_MBSNRTOWCS''@|0|g' \
+	      -e 's|@''REPLACE_WCRTOMB''@|0|g' \
+	      -e 's|@''REPLACE_WCSRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCSNRTOMBS''@|0|g' \
+	      -e 's|@''REPLACE_WCWIDTH''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/link-warning.h' \
+	    < /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/md5/wchar.in.h; \
+	} > wchar.h-t && \
+	mv wchar.h-t wchar.h
+/usr/gnu/bin/make  all-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/md5/dummy.c' object='dummy.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/md5 -I../src   -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/md5/dummy.c
+rm -f libmd5.a
+ar cru libmd5.a dummy.o 
+ranlib libmd5.a
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+Making all in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+/usr/gnu/bin/make  all-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/cmpt.c' object='cmpt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/cmpt.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/connect.c' object='connect.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/connect.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/convert.c' object='convert.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/convert.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/cookies.c' object='cookies.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/cookies.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp.c' object='ftp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/css.c' object='css.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/css.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/css-url.c' object='css-url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/css-url.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-basic.c' object='ftp-basic.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-basic.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-ls.c' object='ftp-ls.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-ls.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/hash.c' object='hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/hash.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/host.c' object='host.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/host.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/html-parse.c' object='html-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/html-parse.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/html-url.c' object='html-url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/html-url.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/http.c' object='http.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/http.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/init.c' object='init.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/init.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/log.c' object='log.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/log.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/main.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/netrc.c' object='netrc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/netrc.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/progress.c' object='progress.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/progress.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ptimer.c' object='ptimer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ptimer.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/recur.c' object='recur.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/recur.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/res.c' object='res.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/res.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/retr.c' object='retr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/retr.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/snprintf.c' object='snprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/snprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/spider.c' object='spider.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/spider.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/url.c' object='url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/url.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/utils.c' object='utils.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/utils.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/exits.c' object='exits.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/exits.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/build_info.c' object='build_info.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/build_info.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/iri.c' object='iri.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/iri.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-opie.c' object='ftp-opie.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/ftp-opie.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/openssl.c' object='openssl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/openssl.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/http-ntlm.c' object='http-ntlm.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/http-ntlm.c
+source='/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/gen-md5.c' object='gen-md5.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/gen-md5.c
+echo '/* version.c */' > version.c
+echo '/* Autogenerated by Makefile - DO NOT EDIT */' >> version.c
+echo '' >> version.c
+echo 'const char *version_string = "1.12"' >> version.c
+echo ';' >> version.c
+echo 'const char *compilation_string = "'/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt'";' \
+	    | sed -e 's/[\\"]/\\&/g' -e 's/\\"/"/' -e 's/\\";$/";/' >> version.c
+echo 'const char *link_string = "'/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt \
+	  /usr/lib/libssl.so /usr/lib/libcrypto.so    -lmd5 -ldl -lsocket -lnsl  -lidn ftp-opie.o openssl.o http-ntlm.o gen-md5.o ../lib/libgnu.a '";' \
+	    | sed -e 's/[\\"]/\\&/g' -e 's/\\"/"/' -e 's/\\";$/";/' >> version.c
+source='version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib  -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c version.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o wget cmpt.o connect.o convert.o cookies.o ftp.o css.o css-url.o ftp-basic.o ftp-ls.o hash.o host.o html-parse.o html-url.o http.o init.o log.o main.o netrc.o progress.o ptimer.o recur.o res.o retr.o snprintf.o spider.o url.o utils.o exits.o build_info.o iri.o version.o ftp-opie.o openssl.o http-ntlm.o gen-md5.o ../lib/libgnu.a  /usr/lib/libssl.so /usr/lib/libcrypto.so    -lmd5 -ldl -lsocket -lnsl  -lidn
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+Making all in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/doc'
+Updating /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/version.texi
+sed s/@/@@/g /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/sample.wgetrc > sample.wgetrc.munged_for_texi_inclusion
+restore=: && backupdir=".am$$" && \
+	am__cwd=`pwd` && cd /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc && \
+	rm -rf $backupdir && mkdir $backupdir && \
+	if (/bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/missing --run makeinfo --version) >/dev/null 2>&1; then \
+	  for f in /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.info /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.info-[0-9] /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.info-[0-9][0-9] /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.i[0-9] /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.i[0-9][0-9]; do \
+	    if test -f $f; then mv $f $backupdir; restore=mv; else :; fi; \
+	  done; \
+	else :; fi && \
+	cd "$am__cwd"; \
+	if /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/missing --run makeinfo   -I /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc \
+	 -o /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.info /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.texi; \
+	then \
+	  rc=0; \
+	  cd /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc; \
+	else \
+	  rc=$?; \
+	  cd /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc && \
+	  $restore $backupdir/* `echo ".//export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.info" | sed 's|[^/]*$||'`; \
+	fi; \
+	rm -rf $backupdir; exit $rc
+/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/texi2pod.pl /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/doc/wget.texi wget.pod
+/usr/perl5/bin/pod2man --center="GNU Wget" --release="GNU Wget 1.12" wget.pod > wget.1
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/doc'
+Making all in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/po'
+Making all in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+Making all in util
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/util'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/util'
+Making all in windows
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/windows'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/windows'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+make[2]: Nothing to be done for `all-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/wget/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/wget/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+/usr/gnu/bin/make  check-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/lib'
+Making check in md5
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+/usr/gnu/bin/make  check-recursive
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/md5'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+/usr/gnu/bin/make  libunittest.a
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+source='cmpt.c' object='libunittest_a-cmpt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-cmpt.o `test -f 'cmpt.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`cmpt.c
+source='connect.c' object='libunittest_a-connect.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-connect.o `test -f 'connect.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`connect.c
+source='convert.c' object='libunittest_a-convert.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-convert.o `test -f 'convert.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`convert.c
+source='cookies.c' object='libunittest_a-cookies.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-cookies.o `test -f 'cookies.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`cookies.c
+source='ftp.c' object='libunittest_a-ftp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-ftp.o `test -f 'ftp.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`ftp.c
+source='css.c' object='libunittest_a-css.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-css.o `test -f 'css.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`css.c
+source='css-url.c' object='libunittest_a-css-url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-css-url.o `test -f 'css-url.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`css-url.c
+source='ftp-basic.c' object='libunittest_a-ftp-basic.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-ftp-basic.o `test -f 'ftp-basic.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`ftp-basic.c
+source='ftp-ls.c' object='libunittest_a-ftp-ls.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-ftp-ls.o `test -f 'ftp-ls.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`ftp-ls.c
+source='hash.c' object='libunittest_a-hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-hash.o `test -f 'hash.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`hash.c
+source='host.c' object='libunittest_a-host.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-host.o `test -f 'host.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`host.c
+source='html-parse.c' object='libunittest_a-html-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-html-parse.o `test -f 'html-parse.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`html-parse.c
+source='html-url.c' object='libunittest_a-html-url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-html-url.o `test -f 'html-url.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`html-url.c
+source='http.c' object='libunittest_a-http.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-http.o `test -f 'http.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`http.c
+source='init.c' object='libunittest_a-init.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-init.o `test -f 'init.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`init.c
+source='log.c' object='libunittest_a-log.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-log.o `test -f 'log.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`log.c
+source='main.c' object='libunittest_a-main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-main.o `test -f 'main.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`main.c
+source='netrc.c' object='libunittest_a-netrc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-netrc.o `test -f 'netrc.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`netrc.c
+source='progress.c' object='libunittest_a-progress.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-progress.o `test -f 'progress.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`progress.c
+source='ptimer.c' object='libunittest_a-ptimer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-ptimer.o `test -f 'ptimer.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`ptimer.c
+source='recur.c' object='libunittest_a-recur.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-recur.o `test -f 'recur.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`recur.c
+source='res.c' object='libunittest_a-res.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-res.o `test -f 'res.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`res.c
+source='retr.c' object='libunittest_a-retr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-retr.o `test -f 'retr.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`retr.c
+source='snprintf.c' object='libunittest_a-snprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-snprintf.o `test -f 'snprintf.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`snprintf.c
+source='spider.c' object='libunittest_a-spider.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-spider.o `test -f 'spider.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`spider.c
+source='url.c' object='libunittest_a-url.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-url.o `test -f 'url.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`url.c
+source='utils.c' object='libunittest_a-utils.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-utils.o `test -f 'utils.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`utils.c
+source='exits.c' object='libunittest_a-exits.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-exits.o `test -f 'exits.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`exits.c
+source='build_info.c' object='libunittest_a-build_info.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-build_info.o `test -f 'build_info.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`build_info.c
+source='iri.c' object='libunittest_a-iri.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-iri.o `test -f 'iri.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`iri.c
+source='test.c' object='libunittest_a-test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-test.o `test -f 'test.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`test.c
+source='version.c' object='libunittest_a-version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DSYSTEM_WGETRC=\"/etc/wgetrc\" -DLOCALEDIR=\"/usr/share/locale\" -I. -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src  -DTESTING -I/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/lib -I/usr/include/idn  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o libunittest_a-version.o `test -f 'version.c' || echo '/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/src/'`version.c
+rm -f libunittest.a
+ar cru libunittest.a libunittest_a-cmpt.o libunittest_a-connect.o libunittest_a-convert.o libunittest_a-cookies.o libunittest_a-ftp.o libunittest_a-css.o libunittest_a-css-url.o libunittest_a-ftp-basic.o libunittest_a-ftp-ls.o libunittest_a-hash.o libunittest_a-host.o libunittest_a-html-parse.o libunittest_a-html-url.o libunittest_a-http.o libunittest_a-init.o libunittest_a-log.o libunittest_a-main.o libunittest_a-netrc.o libunittest_a-progress.o libunittest_a-ptimer.o libunittest_a-recur.o libunittest_a-res.o libunittest_a-retr.o libunittest_a-snprintf.o libunittest_a-spider.o libunittest_a-url.o libunittest_a-utils.o libunittest_a-exits.o libunittest_a-build_info.o libunittest_a-iri.o libunittest_a-test.o libunittest_a-build_info.o libunittest_a-version.o ftp-opie.o openssl.o http-ntlm.o gen-md5.o
+ranlib libunittest.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/doc'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/po'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+/usr/gnu/bin/make  unit-tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+cd ../src && /usr/gnu/bin/make  libunittest.a
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+make[4]: `libunittest.a' is up to date.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o unit-tests  ../src/libunittest.a ../lib/libgnu.a /usr/lib/libssl.so /usr/lib/libcrypto.so  -lmd5 -ldl -lsocket -lnsl  -lidn
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+/usr/gnu/bin/make  check-local
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+cd ../src && /usr/gnu/bin/make  libunittest.a
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+make[4]: `libunittest.a' is up to date.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o unit-tests  ../src/libunittest.a ../lib/libgnu.a /usr/lib/libssl.so /usr/lib/libcrypto.so  -lmd5 -ldl -lsocket -lnsl  -lidn
+./unit-tests
+RUNNING TEST test_parse_content_disposition...
+PASSED
+
+RUNNING TEST test_subdir_p...
+PASSED
+
+RUNNING TEST test_dir_matches_p...
+PASSED
+
+RUNNING TEST test_commands_sorted...
+PASSED
+
+RUNNING TEST test_cmd_spec_restrict_file_names...
+PASSED
+
+RUNNING TEST test_path_simplify...
+PASSED
+
+RUNNING TEST test_append_uri_pathel...
+PASSED
+
+RUNNING TEST test_are_urls_equal...
+PASSED
+
+RUNNING TEST test_is_robots_txt_url...
+PASSED
+
+ALL TESTS PASSED
+Tests run: 9
+/export/home/drlou/illumos-userland-1248/components/wget/wget-1.12/tests/run-px /export/home/drlou/illumos-userland-1248/components/wget/wget-1.12
+Running Test-auth-basic.px
+
+Running Test-auth-no-challenge.px
+
+Running Test-auth-no-challenge-url.px
+
+Running Test-auth-with-content-disposition.px
+
+Running Test-cookies.px
+
+Running Test-cookies-401.px
+
+Running Test-proxy-auth-basic.px
+
+Running Test-proxied-https-auth.px
+
+Running Test-N-HTTP-Content-Disposition.px
+
+Running Test--spider.px
+
+Running Test-c-full.px
+
+Running Test-c-partial.px
+
+Running Test-c-shorter.px
+
+Running Test-c.px
+
+Running Test-E-k-K.px
+
+Running Test-E-k.px
+
+Running Test-ftp.px
+
+Running test Test-ftp
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget -S ftp://localhost:51952/afile.txt
+Test successful.
+Running Test-ftp-pasv-fail.px
+
+Running test Test-ftp-pasv-fail
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget -S ftp://localhost:43454/afile.txt
+Test successful.
+Running Test-ftp-bad-list.px
+
+Running test Test-ftp-bad-list
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget -d -nH -Nc -r ftp://localhost:39403/
+Test successful.
+Running Test-ftp-recursive.px
+
+Running test Test-ftp-recursive
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget -S -nH -r ftp://localhost:56444/
+Test successful.
+Running Test-ftp-iri.px
+
+Running test Test-ftp-iri
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget --local-encoding=iso-8859-1 -S ftp://localhost:55955/français.txt
+Test successful.
+Running Test-ftp-iri-fallback.px
+
+Running test Test-ftp-iri
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget --local-encoding=iso-8859-1 -S ftp://localhost:46209/français.txt
+Test successful.
+Running Test-ftp-iri-recursive.px
+
+Running test Test-ftp-iri-recursive
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget --local-encoding=iso-8859-1 -r -nH -S ftp://localhost:46203/
+Test successful.
+Running Test-ftp-iri-disabled.px
+
+Running test Test-ftp-iri
+Calling /export/home/drlou/illumos-userland-1248/components/wget/build/i86/src/wget --no-iri --local-encoding=iso-8859-1 -S ftp://localhost:58801/français.txt
+Test successful.
+Running Test-HTTP-Content-Disposition-1.px
+
+Running Test-HTTP-Content-Disposition-2.px
+
+Running Test-HTTP-Content-Disposition.px
+
+Running Test-idn-headers.px
+
+Running Test-idn-meta.px
+
+Running Test-idn-cmd.px
+
+Running Test-idn-robots.px
+
+Running Test-iri.px
+
+Running Test-iri-percent.px
+
+Running Test-iri-disabled.px
+
+Running Test-iri-forced-remote.px
+
+Running Test-iri-list.px
+
+Running Test-k.px
+
+Running Test-meta-robots.px
+
+Running Test-N-current.px
+
+Running Test-N-smaller.px
+
+Running Test-N-no-info.px
+
+Running Test-N--no-content-disposition.px
+
+Running Test-N--no-content-disposition-trivial.px
+
+Running Test--no-content-disposition.px
+
+Running Test--no-content-disposition-trivial.px
+
+Running Test-N-old.px
+
+Running Test-nonexisting-quiet.px
+
+Running Test-noop.px
+
+Running Test-np.px
+
+Running Test-N.px
+
+Running Test-O-HTTP-Content-Disposition.px
+
+Running Test-O--no-content-disposition.px
+
+Running Test-O--no-content-disposition-trivial.px
+
+Running Test-O-nonexisting.px
+
+Running Test-O.px
+
+Running Test-O-nc.px
+
+Running Test-restrict-ascii.px
+
+Running Test-Restrict-Lowercase.px
+
+Running Test-Restrict-Uppercase.px
+
+Running Test--spider-fail.px
+
+Running Test--spider-r-HTTP-Content-Disposition.px
+
+Running Test--spider-r--no-content-disposition.px
+
+Running Test--spider-r--no-content-disposition-trivial.px
+
+Running Test--spider-r.px
+
+
+[33mSkip:[0m Test-auth-basic.px
+[33mSkip:[0m Test-auth-no-challenge.px
+[33mSkip:[0m Test-auth-no-challenge-url.px
+[33mSkip:[0m Test-auth-with-content-disposition.px
+[33mSkip:[0m Test-cookies.px
+[33mSkip:[0m Test-cookies-401.px
+[33mSkip:[0m Test-proxy-auth-basic.px
+[33mSkip:[0m Test-proxied-https-auth.px
+[33mSkip:[0m Test-N-HTTP-Content-Disposition.px
+[33mSkip:[0m Test--spider.px
+[33mSkip:[0m Test-c-full.px
+[33mSkip:[0m Test-c-partial.px
+[33mSkip:[0m Test-c-shorter.px
+[33mSkip:[0m Test-c.px
+[33mSkip:[0m Test-E-k-K.px
+[33mSkip:[0m Test-E-k.px
+[32mpass:[0m Test-ftp.px
+[32mpass:[0m Test-ftp-pasv-fail.px
+[32mpass:[0m Test-ftp-bad-list.px
+[32mpass:[0m Test-ftp-recursive.px
+[32mpass:[0m Test-ftp-iri.px
+[32mpass:[0m Test-ftp-iri-fallback.px
+[32mpass:[0m Test-ftp-iri-recursive.px
+[32mpass:[0m Test-ftp-iri-disabled.px
+[33mSkip:[0m Test-HTTP-Content-Disposition-1.px
+[33mSkip:[0m Test-HTTP-Content-Disposition-2.px
+[33mSkip:[0m Test-HTTP-Content-Disposition.px
+[33mSkip:[0m Test-idn-headers.px
+[33mSkip:[0m Test-idn-meta.px
+[33mSkip:[0m Test-idn-cmd.px
+[33mSkip:[0m Test-idn-robots.px
+[33mSkip:[0m Test-iri.px
+[33mSkip:[0m Test-iri-percent.px
+[33mSkip:[0m Test-iri-disabled.px
+[33mSkip:[0m Test-iri-forced-remote.px
+[33mSkip:[0m Test-iri-list.px
+[33mSkip:[0m Test-k.px
+[33mSkip:[0m Test-meta-robots.px
+[33mSkip:[0m Test-N-current.px
+[33mSkip:[0m Test-N-smaller.px
+[33mSkip:[0m Test-N-no-info.px
+[33mSkip:[0m Test-N--no-content-disposition.px
+[33mSkip:[0m Test-N--no-content-disposition-trivial.px
+[33mSkip:[0m Test--no-content-disposition.px
+[33mSkip:[0m Test--no-content-disposition-trivial.px
+[33mSkip:[0m Test-N-old.px
+[33mSkip:[0m Test-nonexisting-quiet.px
+[33mSkip:[0m Test-noop.px
+[33mSkip:[0m Test-np.px
+[33mSkip:[0m Test-N.px
+[33mSkip:[0m Test-O-HTTP-Content-Disposition.px
+[33mSkip:[0m Test-O--no-content-disposition.px
+[33mSkip:[0m Test-O--no-content-disposition-trivial.px
+[33mSkip:[0m Test-O-nonexisting.px
+[33mSkip:[0m Test-O.px
+[33mSkip:[0m Test-O-nc.px
+[33mSkip:[0m Test-restrict-ascii.px
+[33mSkip:[0m Test-Restrict-Lowercase.px
+[33mSkip:[0m Test-Restrict-Uppercase.px
+[33mSkip:[0m Test--spider-fail.px
+[33mSkip:[0m Test--spider-r-HTTP-Content-Disposition.px
+[33mSkip:[0m Test--spider-r--no-content-disposition.px
+[33mSkip:[0m Test--spider-r--no-content-disposition-trivial.px
+[33mSkip:[0m Test--spider-r.px
+
+[32m==================
+64 tests were run
+8 PASS, 0 FAIL
+56 SKIP, 0 UNKNOWN
+==================[0m
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/tests'
+Making check in util
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/util'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/util'
+Making check in windows
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/windows'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86/windows'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+make[2]: Nothing to be done for `check-am'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/wget/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/wget/build/i86/.tested

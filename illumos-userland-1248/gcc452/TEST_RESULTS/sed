@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/sed/sed-4.2.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/sed/sed-4.2.1 -p1 --backup --version-control=numbered < patches/utf8.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  sed-4.2.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/sed/sed-4.2.1/.unpacked

@@ -1,0 +1,10 @@
+(cd /export/home/drlou/illumos-userland/components/libusb/wrapper/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+		 check)
+(cd /export/home/drlou/illumos-userland/components/libusb/wrapper/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+		 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/libusb/wrapper/build/amd64'
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/libusb/wrapper/build/i86'
+/usr/gcc/4.5/bin/gcc -o testlibusb testlibusb.o -lusb
+/usr/gcc/4.5/bin/gcc -o testlibusb testlibusb.o -lusb
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/libusb/wrapper/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/libusb/wrapper/build/amd64'

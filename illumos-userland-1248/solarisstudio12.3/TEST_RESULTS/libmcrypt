@@ -1,0 +1,1258 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/configure ; /bin/rm -f /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/config.status ; (/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8 /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8 to /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/configure ; /bin/rm -f /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/config.status ; (/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8 /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64)
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8 to /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst" MAKE=/usr/gnu/bin/make PATH=/usr/gnu/bin:/usr/bin:/usr/gnu/bin /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-dynamic-loading --with-included-algos=" rijndael-128,rijndael-192,rinjndael-256,enigma,arcfour,blowfish,des, tripledes,ecb,cbc,cfb,ctr,ncfb,nofb,ofb,stream" )
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst" MAKE=/usr/gnu/bin/make PATH=/usr/gnu/bin:/usr/bin:/usr/gnu/bin /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-dynamic-loading --with-included-algos=" rijndael-128,rijndael-192,rinjndael-256,enigma,arcfour,blowfish,des, tripledes,ecb,cbc,cfb,ctr,ncfb,nofb,ofb,stream" )
+checking build system type... checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+i386-pc-solaris2.11
+checking host system type... checking target system type... i386-pc-solaris2.11
+i386-pc-solaris2.11
+checking target system type... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... i386-pc-solaris2.11
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... yes
+yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether /usr/gnu/bin/make sets $(MAKE)... gawk
+checking whether /usr/gnu/bin/make sets $(MAKE)... (cached) yes
+yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking whether /usr/gnu/bin/make sets $(MAKE)... (cached) yes
+checking for C++ compiler default output file name... checking for C++ compiler default output file name... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C++ compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C++ compiler... o
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+yes
+checking for style of include used by /usr/gnu/bin/make... checking for style of include used by /usr/gnu/bin/make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/CC... none
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+none
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether /usr/gnu/bin/make sets $(MAKE)... (cached) yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether in maintanance mode... no
+checking whether in dmalloc mode... no
+checking whether to enable dynamic module loading... no
+***
+*** Dynamic loading has been disabled
+checking which algorithms to include into library...  rijndael-128,rijndael-192,rinjndael-256,enigma,arcfour,blowfish,des, tripledes,ecb,cbc,cfb,ctr,ncfb,nofb,ofb,stream
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether ln -s works... yes
+checking whether /usr/gnu/bin/make sets $(MAKE)... (cached) yes
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for dirent.h that defines DIR... checking whether ln -s works... yes
+checking whether in maintanance mode... no
+checking whether in dmalloc mode... no
+checking whether to enable dynamic module loading... no
+***
+*** Dynamic loading has been disabled
+checking which algorithms to include into library...  rijndael-128,rijndael-192,rinjndael-256,enigma,arcfour,blowfish,des, tripledes,ecb,cbc,cfb,ctr,ncfb,nofb,ofb,stream
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... yes
+checking for library containing opendir... none required
+checking for egrep... grep -E
+checking for ANSI C header files... none required
+checking for egrep... grep -E
+checking for ANSI C header files... yes
+checking for inline... yes
+checking for inline... inline
+checking for an ANSI C-conforming const... inline
+checking for an ANSI C-conforming const... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for inttypes.h... yes
+yes
+checking for stdint.h... checking for stdint.h... yes
+yes
+checking for unistd.h... checking for unistd.h... yes
+yes
+checking argz.h usability... checking argz.h usability... no
+checking argz.h presence... no
+checking argz.h presence... no
+checking for argz.h... no
+no
+checking for argz.h... checking byteswap.h usability... no
+checking byteswap.h usability... no
+checking byteswap.h presence... no
+checking byteswap.h presence... no
+checking for byteswap.h... no
+checking dirent.h usability... no
+checking for byteswap.h... no
+checking dirent.h usability... yes
+checking dirent.h presence... yes
+checking dirent.h presence... yes
+checking for dirent.h... yes
+checking dlfcn.h usability... yes
+checking for dirent.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking endian.h usability... yes
+checking for dlfcn.h... yes
+checking endian.h usability... no
+checking endian.h presence... no
+checking for endian.h... no
+no
+checking endian.h presence... checking malloc.h usability... no
+checking for endian.h... no
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking malloc.h presence... yes
+checking for memory.h... (cached) yes
+yes
+checking for malloc.h... yes
+checking for stdlib.h... (cached) yes
+checking for memory.h... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for strings.h... (cached) yes
+checking for string.h... (cached) yes
+checking sys/endian.h usability... checking for strings.h... (cached) yes
+checking sys/endian.h usability... no
+checking sys/endian.h presence... no
+checking sys/endian.h presence... no
+checking for sys/endian.h... no
+checking for sys/types.h... (cached) yes
+checking sys/mman.h usability... no
+checking for sys/endian.h... no
+checking for sys/types.h... (cached) yes
+checking sys/mman.h usability... yes
+checking sys/mman.h presence... yes
+checking sys/mman.h presence... yes
+checking for sys/mman.h... yes
+checking limits.h usability... yes
+checking for sys/mman.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking limits.h presence... yes
+checking for unistd.h... (cached) yes
+checking whether closedir returns void... yes
+checking for limits.h... yes
+checking for unistd.h... (cached) yes
+checking whether closedir returns void... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for working memcmp... yes
+checking for working memcmp... yes
+yes
+checking for stdlib.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... checking for GNU libc compatible realloc... yes
+checking for bzero... yes
+checking for bzero... yes
+yes
+checking for memmove... checking for memmove... yes
+yes
+checking for memset... checking for memset... yes
+yes
+checking for mlock... checking for mlock... yes
+yes
+checking for readdir_r... checking for readdir_r... yes
+checking for strchr... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for strdup... yes
+checking for strrchr... yes
+checking for strrchr... yes
+checking for readdir,,... yes
+checking for readdir,,... no
+checking for bcopy,,... no
+checking for bcopy,,... no
+checking whether byte ordering is bigendian... no
+checking whether byte ordering is bigendian... no
+checking for unsigned long int... no
+checking for unsigned long int... yes
+checking size of unsigned long int... yes
+checking size of unsigned long int... 4
+checking for unsigned int... 8
+checking for unsigned int... yes
+checking size of unsigned int... yes
+checking size of unsigned int... 4
+checking for unsigned short int... 4
+checking for unsigned short int... yes
+checking size of unsigned short int... yes
+checking size of unsigned short int... 2
+checking for unsigned char... 2
+checking for unsigned char... yes
+checking size of unsigned char... yes
+checking size of unsigned char... 1
+checking for a sed that does not truncate output... /usr/gnu/bin/sed
+checking for non-GNU ld... 1
+checking for a sed that does not truncate output... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... /usr/gnu/bin/sed
+checking for non-GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/gnu/bin/nm -B
+checking how to recognise dependent libraries... pass_all
+/usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... checking for dlfcn.h... (cached) /usr/gnu/bin/nm -B
+checking how to recognise dependent libraries... pass_all
+yes
+checking for dlfcn.h... (cached) yes
+checking how to run the C++ preprocessor... checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+/opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking for g77... no
+checking for f77... no
+checking for xlf... no
+checking for frt... no
+checking for pgf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for f90... no
+checking for xlf90... no
+checking for pgf90... no
+checking for epcf90... no
+checking for f95... no
+checking for fort... no
+checking for xlf95... no
+checking for ifc... no
+checking for efc... no
+checking for pgf95... no
+checking for lf95... no
+checking for gfortran... no
+checking whether we are using the GNU Fortran 77 compiler... checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking whether  accepts -g... no
+checking the maximum length of command line arguments... no
+checking the maximum length of command line arguments... 262144
+checking command to parse /usr/gnu/bin/nm -B output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... 262144
+checking command to parse /usr/gnu/bin/nm -B output from /opt/SUNWspro/solarisstudio12.3/bin/cc object... ok
+checking for objdir... ok
+checking for objdir... .libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+.libs
+checking for ar... ar
+checking for ranlib... ranlib
+checking for strip... strip
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/cc linker (/usr/bin/ld) supports shared libraries... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for shl_load... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for shl_load in -ldld... no
+checking for dlopen... no
+checking for dlopen... yes
+checking whether a program can dlopen itself... yes
+checking whether a program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking whether a statically linked program can dlopen itself... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... 
+yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... 
+configure: creating libtool
+configure: creating libtool
+appending configuration tag "CXX" to libtool
+appending configuration tag "CXX" to libtool
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... checking for /opt/SUNWspro/solarisstudio12.3/bin/CC option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/CC supports -c -o file.o... yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+yes
+checking whether the /opt/SUNWspro/solarisstudio12.3/bin/CC linker (/usr/bin/ld) supports shared libraries... yes
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking how to hardcode library paths into programs... immediate
+appending configuration tag "F77" to libtool
+appending configuration tag "F77" to libtool
+configure: creating ./config.status
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating Makefile
+config.status: creating libmcrypt.spec
+config.status: creating libmcrypt.spec
+config.status: creating lib/Makefile
+config.status: creating lib/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/Makefile
+config.status: creating src/Makefile
+config.status: creating src/Makefile
+config.status: creating include/mutils/mcrypt.h
+config.status: creating include/mutils/mcrypt.h
+config.status: creating include/Makefile
+config.status: creating include/Makefile
+config.status: creating modules/Makefile
+config.status: creating modules/Makefile
+config.status: creating modules/modes/Makefile
+config.status: creating modules/modes/Makefile
+config.status: creating modules/algorithms/Makefile
+config.status: creating modules/algorithms/Makefile
+config.status: creating lib/libmcrypt-config
+config.status: creating config.h
+config.status: creating lib/libmcrypt-config
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: executing default-1 commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/.configured
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+Making all in modules
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+/usr/gnu/bin/make  all-recursive
+Making all in algorithms
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+Making all in modules
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/algorithms'
+source='3-way.c' object='3-way.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o 3-way.lo 3-way.c
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+Making all in algorithms
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/algorithms'
+source='3-way.c' object='3-way.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o 3-way.lo 3-way.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c 3-way.c  -KPIC -DPIC -o .libs/3-way.o
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c 3-way.c  -KPIC -DPIC -o .libs/3-way.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o threeway.la  -module -avoid-version -rpath /usr/lib/libmcrypt 3-way.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o threeway.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt 3-way.lo  
+/usr/bin/ld -G -h threeway.so -o .libs/threeway.so  .libs/3-way.o  -lc 
+creating threeway.la
+(cd .libs && rm -f threeway.la && ln -s ../threeway.la threeway.la)
+source='cast-128.c' object='cast-128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o cast-128.lo cast-128.c
+/usr/bin/ld -G -h threeway.so -o .libs/threeway.so  .libs/3-way.o  -lc 
+creating threeway.la
+(cd .libs && rm -f threeway.la && ln -s ../threeway.la threeway.la)
+source='cast-128.c' object='cast-128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o cast-128.lo cast-128.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c cast-128.c  -KPIC -DPIC -o .libs/cast-128.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c cast-128.c  -KPIC -DPIC -o .libs/cast-128.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o cast-128.la  -module -avoid-version -rpath /usr/lib/libmcrypt cast-128.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o cast-128.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt cast-128.lo  
+/usr/bin/ld -G -h cast-128.so -o .libs/cast-128.so  .libs/cast-128.o  -lc 
+creating cast-128.la
+(cd .libs && rm -f cast-128.la && ln -s ../cast-128.la cast-128.la)
+source='gost.c' object='gost.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o gost.lo gost.c
+/usr/bin/ld -G -h cast-128.so -o .libs/cast-128.so  .libs/cast-128.o  -lc 
+creating cast-128.la
+(cd .libs && rm -f cast-128.la && ln -s ../cast-128.la cast-128.la)
+source='gost.c' object='gost.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o gost.lo gost.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c gost.c  -KPIC -DPIC -o .libs/gost.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c gost.c  -KPIC -DPIC -o .libs/gost.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o gost.la  -module -avoid-version -rpath /usr/lib/libmcrypt gost.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o gost.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt gost.lo  
+/usr/bin/ld -G -h gost.so -o .libs/gost.so  .libs/gost.o  -lc 
+creating gost.la
+(cd .libs && rm -f gost.la && ln -s ../gost.la gost.la)
+source='rijndael-128.c' object='rijndael-128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-128.lo rijndael-128.c
+/usr/bin/ld -G -h gost.so -o .libs/gost.so  .libs/gost.o  -lc 
+creating gost.la
+(cd .libs && rm -f gost.la && ln -s ../gost.la gost.la)
+source='rijndael-128.c' object='rijndael-128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-128.lo rijndael-128.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c rijndael-128.c  -KPIC -DPIC -o .libs/rijndael-128.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c rijndael-128.c  -KPIC -DPIC -o .libs/rijndael-128.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o rijndael-128.la  -module -avoid-version -rpath /usr/lib/libmcrypt rijndael-128.lo  
+/usr/bin/ld -G -h rijndael-128.so -o .libs/rijndael-128.so  .libs/rijndael-128.o  -lc 
+creating rijndael-128.la
+(cd .libs && rm -f rijndael-128.la && ln -s ../rijndael-128.la rijndael-128.la)
+source='safer64.c' object='safer64.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o safer64.lo safer64.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o rijndael-128.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt rijndael-128.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c safer64.c  -KPIC -DPIC -o .libs/safer64.o
+/usr/bin/ld -G -h rijndael-128.so -o .libs/rijndael-128.so  .libs/rijndael-128.o  -lc 
+creating rijndael-128.la
+(cd .libs && rm -f rijndael-128.la && ln -s ../rijndael-128.la rijndael-128.la)
+source='safer64.c' object='safer64.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o safer64.lo safer64.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c safer64.c  -KPIC -DPIC -o .libs/safer64.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o safer-sk64.la  -module -avoid-version -rpath /usr/lib/libmcrypt safer64.lo  
+/usr/bin/ld -G -h safer-sk64.so -o .libs/safer-sk64.so  .libs/safer64.o  -lc 
+creating safer-sk64.la
+(cd .libs && rm -f safer-sk64.la && ln -s ../safer-sk64.la safer-sk64.la)
+source='twofish.c' object='twofish.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o twofish.lo twofish.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c twofish.c  -KPIC -DPIC -o .libs/twofish.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o safer-sk64.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt safer64.lo  
+/usr/bin/ld -G -h safer-sk64.so -o .libs/safer-sk64.so  .libs/safer64.o  -lc 
+creating safer-sk64.la
+(cd .libs && rm -f safer-sk64.la && ln -s ../safer-sk64.la safer-sk64.la)
+source='twofish.c' object='twofish.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o twofish.lo twofish.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c twofish.c  -KPIC -DPIC -o .libs/twofish.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o twofish.la  -module -avoid-version -rpath /usr/lib/libmcrypt twofish.lo  
+/usr/bin/ld -G -h twofish.so -o .libs/twofish.so  .libs/twofish.o  -lc 
+creating twofish.la
+(cd .libs && rm -f twofish.la && ln -s ../twofish.la twofish.la)
+source='arcfour.c' object='arcfour.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o arcfour.lo arcfour.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c arcfour.c  -KPIC -DPIC -o .libs/arcfour.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o twofish.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt twofish.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o arcfour.la  -module -avoid-version -rpath /usr/lib/libmcrypt arcfour.lo  
+/usr/bin/ld -G -h twofish.so -o .libs/twofish.so  .libs/twofish.o  -lc 
+creating twofish.la
+(cd .libs && rm -f twofish.la && ln -s ../twofish.la twofish.la)
+source='arcfour.c' object='arcfour.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o arcfour.lo arcfour.c
+/usr/bin/ld -G -h arcfour.so -o .libs/arcfour.so  .libs/arcfour.o  -lc 
+creating arcfour.la
+(cd .libs && rm -f arcfour.la && ln -s ../arcfour.la arcfour.la)
+source='cast-256.c' object='cast-256.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o cast-256.lo cast-256.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c arcfour.c  -KPIC -DPIC -o .libs/arcfour.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c cast-256.c  -KPIC -DPIC -o .libs/cast-256.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o arcfour.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt arcfour.lo  
+/usr/bin/ld -G -h arcfour.so -o .libs/arcfour.so  .libs/arcfour.o  -lc 
+creating arcfour.la
+(cd .libs && rm -f arcfour.la && ln -s ../arcfour.la arcfour.la)
+source='cast-256.c' object='cast-256.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o cast-256.lo cast-256.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c cast-256.c  -KPIC -DPIC -o .libs/cast-256.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o cast-256.la  -module -avoid-version -rpath /usr/lib/libmcrypt cast-256.lo  
+/usr/bin/ld -G -h cast-256.so -o .libs/cast-256.so  .libs/cast-256.o  -lc 
+creating cast-256.la
+(cd .libs && rm -f cast-256.la && ln -s ../cast-256.la cast-256.la)
+source='loki97.c' object='loki97.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o loki97.lo loki97.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c loki97.c  -KPIC -DPIC -o .libs/loki97.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o cast-256.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt cast-256.lo  
+/usr/bin/ld -G -h cast-256.so -o .libs/cast-256.so  .libs/cast-256.o  -lc 
+creating cast-256.la
+(cd .libs && rm -f cast-256.la && ln -s ../cast-256.la cast-256.la)
+source='loki97.c' object='loki97.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o loki97.lo loki97.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o loki97.la  -module -avoid-version -rpath /usr/lib/libmcrypt loki97.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c loki97.c  -KPIC -DPIC -o .libs/loki97.o
+/usr/bin/ld -G -h loki97.so -o .libs/loki97.so  .libs/loki97.o  -lc 
+creating loki97.la
+(cd .libs && rm -f loki97.la && ln -s ../loki97.la loki97.la)
+source='rijndael-192.c' object='rijndael-192.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-192.lo rijndael-192.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c rijndael-192.c  -KPIC -DPIC -o .libs/rijndael-192.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o loki97.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt loki97.lo  
+/usr/bin/ld -G -h loki97.so -o .libs/loki97.so  .libs/loki97.o  -lc 
+creating loki97.la
+(cd .libs && rm -f loki97.la && ln -s ../loki97.la loki97.la)
+source='rijndael-192.c' object='rijndael-192.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-192.lo rijndael-192.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o rijndael-192.la  -module -avoid-version -rpath /usr/lib/libmcrypt rijndael-192.lo  
+/usr/bin/ld -G -h rijndael-192.so -o .libs/rijndael-192.so  .libs/rijndael-192.o  -lc 
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c rijndael-192.c  -KPIC -DPIC -o .libs/rijndael-192.o
+creating rijndael-192.la
+(cd .libs && rm -f rijndael-192.la && ln -s ../rijndael-192.la rijndael-192.la)
+source='saferplus.c' object='saferplus.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o saferplus.lo saferplus.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c saferplus.c  -KPIC -DPIC -o .libs/saferplus.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o saferplus.la  -module -avoid-version  -rpath /usr/lib/libmcrypt saferplus.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o rijndael-192.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt rijndael-192.lo  
+/usr/bin/ld -G -h saferplus.so -o .libs/saferplus.so  .libs/saferplus.o  -lc 
+creating saferplus.la
+(cd .libs && rm -f saferplus.la && ln -s ../saferplus.la saferplus.la)
+source='wake.c' object='wake.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o wake.lo wake.c
+/usr/bin/ld -G -h rijndael-192.so -o .libs/rijndael-192.so  .libs/rijndael-192.o  -lc 
+creating rijndael-192.la
+(cd .libs && rm -f rijndael-192.la && ln -s ../rijndael-192.la rijndael-192.la)
+source='saferplus.c' object='saferplus.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o saferplus.lo saferplus.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c wake.c  -KPIC -DPIC -o .libs/wake.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c saferplus.c  -KPIC -DPIC -o .libs/saferplus.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o wake.la  -module -avoid-version  -rpath /usr/lib/libmcrypt wake.lo  
+/usr/bin/ld -G -h wake.so -o .libs/wake.so  .libs/wake.o  -lc 
+creating wake.la
+(cd .libs && rm -f wake.la && ln -s ../wake.la wake.la)
+source='blowfish-compat.c' object='blowfish-compat.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o blowfish-compat.lo blowfish-compat.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c blowfish-compat.c  -KPIC -DPIC -o .libs/blowfish-compat.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o saferplus.la  -module -avoid-version  -rpath /usr/lib/amd64/libmcrypt saferplus.lo  
+/usr/bin/ld -G -h saferplus.so -o .libs/saferplus.so  .libs/saferplus.o  -lc 
+creating saferplus.la
+(cd .libs && rm -f saferplus.la && ln -s ../saferplus.la saferplus.la)
+source='wake.c' object='wake.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o wake.lo wake.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o blowfish-compat.la  -module -avoid-version -rpath /usr/lib/libmcrypt blowfish-compat.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c wake.c  -KPIC -DPIC -o .libs/wake.o
+/usr/bin/ld -G -h blowfish-compat.so -o .libs/blowfish-compat.so  .libs/blowfish-compat.o  -lc 
+creating blowfish-compat.la
+(cd .libs && rm -f blowfish-compat.la && ln -s ../blowfish-compat.la blowfish-compat.la)
+source='des.c' object='des.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o des.lo des.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c des.c  -KPIC -DPIC -o .libs/des.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o wake.la  -module -avoid-version  -rpath /usr/lib/amd64/libmcrypt wake.lo  
+/usr/bin/ld -G -h wake.so -o .libs/wake.so  .libs/wake.o  -lc 
+creating wake.la
+(cd .libs && rm -f wake.la && ln -s ../wake.la wake.la)
+source='blowfish-compat.c' object='blowfish-compat.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o blowfish-compat.lo blowfish-compat.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o des.la  -module -avoid-version  -rpath /usr/lib/libmcrypt des.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c blowfish-compat.c  -KPIC -DPIC -o .libs/blowfish-compat.o
+/usr/bin/ld -G -h des.so -o .libs/des.so  .libs/des.o  -lc 
+creating des.la
+(cd .libs && rm -f des.la && ln -s ../des.la des.la)
+source='rijndael-256.c' object='rijndael-256.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-256.lo rijndael-256.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o blowfish-compat.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt blowfish-compat.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c rijndael-256.c  -KPIC -DPIC -o .libs/rijndael-256.o
+/usr/bin/ld -G -h blowfish-compat.so -o .libs/blowfish-compat.so  .libs/blowfish-compat.o  -lc 
+creating blowfish-compat.la
+(cd .libs && rm -f blowfish-compat.la && ln -s ../blowfish-compat.la blowfish-compat.la)
+source='des.c' object='des.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o des.lo des.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c des.c  -KPIC -DPIC -o .libs/des.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o rijndael-256.la  -module -avoid-version -rpath /usr/lib/libmcrypt  rijndael-256.lo  
+/usr/bin/ld -G -h rijndael-256.so -o .libs/rijndael-256.so  .libs/rijndael-256.o  -lc 
+creating rijndael-256.la
+(cd .libs && rm -f rijndael-256.la && ln -s ../rijndael-256.la rijndael-256.la)
+source='serpent.c' object='serpent.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o serpent.lo serpent.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o des.la  -module -avoid-version  -rpath /usr/lib/amd64/libmcrypt des.lo  
+/usr/bin/ld -G -h des.so -o .libs/des.so  .libs/des.o  -lc 
+creating des.la
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c serpent.c  -KPIC -DPIC -o .libs/serpent.o
+(cd .libs && rm -f des.la && ln -s ../des.la des.la)
+source='rijndael-256.c' object='rijndael-256.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o rijndael-256.lo rijndael-256.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c rijndael-256.c  -KPIC -DPIC -o .libs/rijndael-256.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o serpent.la  -module -avoid-version -rpath /usr/lib/libmcrypt serpent.lo  
+/usr/bin/ld -G -h serpent.so -o .libs/serpent.so  .libs/serpent.o  -lc 
+creating serpent.la
+(cd .libs && rm -f serpent.la && ln -s ../serpent.la serpent.la)
+source='xtea.c' object='xtea.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o xtea.lo xtea.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o rijndael-256.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt  rijndael-256.lo  
+/usr/bin/ld -G -h rijndael-256.so -o .libs/rijndael-256.so  .libs/rijndael-256.o  -lc 
+creating rijndael-256.la
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c xtea.c  -KPIC -DPIC -o .libs/xtea.o
+(cd .libs && rm -f rijndael-256.la && ln -s ../rijndael-256.la rijndael-256.la)
+source='serpent.c' object='serpent.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o serpent.lo serpent.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o xtea.la  -module -avoid-version -rpath /usr/lib/libmcrypt xtea.lo  
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c serpent.c  -KPIC -DPIC -o .libs/serpent.o
+/usr/bin/ld -G -h xtea.so -o .libs/xtea.so  .libs/xtea.o  -lc 
+creating xtea.la
+(cd .libs && rm -f xtea.la && ln -s ../xtea.la xtea.la)
+source='blowfish.c' object='blowfish.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o blowfish.lo blowfish.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c blowfish.c  -KPIC -DPIC -o .libs/blowfish.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o blowfish.la  -module -avoid-version -rpath /usr/lib/libmcrypt  blowfish.lo  
+/usr/bin/ld -G -h blowfish.so -o .libs/blowfish.so  .libs/blowfish.o  -lc 
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o serpent.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt serpent.lo  
+creating blowfish.la
+(cd .libs && rm -f blowfish.la && ln -s ../blowfish.la blowfish.la)
+source='enigma.c' object='enigma.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o enigma.lo enigma.c
+/usr/bin/ld -G -h serpent.so -o .libs/serpent.so  .libs/serpent.o  -lc 
+creating serpent.la
+(cd .libs && rm -f serpent.la && ln -s ../serpent.la serpent.la)
+source='xtea.c' object='xtea.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o xtea.lo xtea.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c enigma.c  -KPIC -DPIC -o .libs/enigma.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c xtea.c  -KPIC -DPIC -o .libs/xtea.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o enigma.la  -module -avoid-version -rpath /usr/lib/libmcrypt enigma.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o xtea.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt xtea.lo  
+/usr/bin/ld -G -h enigma.so -o .libs/enigma.so  .libs/enigma.o  -lc 
+creating enigma.la
+(cd .libs && rm -f enigma.la && ln -s ../enigma.la enigma.la)
+source='rc2.c' object='rc2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o rc2.lo rc2.c
+/usr/bin/ld -G -h xtea.so -o .libs/xtea.so  .libs/xtea.o  -lc 
+creating xtea.la
+(cd .libs && rm -f xtea.la && ln -s ../xtea.la xtea.la)
+source='blowfish.c' object='blowfish.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o blowfish.lo blowfish.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c rc2.c  -KPIC -DPIC -o .libs/rc2.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c blowfish.c  -KPIC -DPIC -o .libs/blowfish.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o rc2.la  -module -avoid-version -rpath /usr/lib/libmcrypt rc2.lo  
+/usr/bin/ld -G -h rc2.so -o .libs/rc2.so  .libs/rc2.o  -lc 
+creating rc2.la
+(cd .libs && rm -f rc2.la && ln -s ../rc2.la rc2.la)
+source='safer128.c' object='safer128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o safer128.lo safer128.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o blowfish.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt  blowfish.lo  
+/usr/bin/ld -G -h blowfish.so -o .libs/blowfish.so  .libs/blowfish.o  -lc 
+creating blowfish.la
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c safer128.c  -KPIC -DPIC -o .libs/safer128.o
+(cd .libs && rm -f blowfish.la && ln -s ../blowfish.la blowfish.la)
+source='enigma.c' object='enigma.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o enigma.lo enigma.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c enigma.c  -KPIC -DPIC -o .libs/enigma.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o safer-sk128.la  -module -avoid-version -rpath /usr/lib/libmcrypt  safer128.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o enigma.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt enigma.lo  
+/usr/bin/ld -G -h safer-sk128.so -o .libs/safer-sk128.so  .libs/safer128.o  -lc 
+creating safer-sk128.la
+(cd .libs && rm -f safer-sk128.la && ln -s ../safer-sk128.la safer-sk128.la)
+source='tripledes.c' object='tripledes.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o tripledes.lo tripledes.c
+/usr/bin/ld -G -h enigma.so -o .libs/enigma.so  .libs/enigma.o  -lc 
+creating enigma.la
+(cd .libs && rm -f enigma.la && ln -s ../enigma.la enigma.la)
+source='rc2.c' object='rc2.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o rc2.lo rc2.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c tripledes.c  -KPIC -DPIC -o .libs/tripledes.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c rc2.c  -KPIC -DPIC -o .libs/rc2.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o rc2.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt rc2.lo  
+/usr/bin/ld -G -h rc2.so -o .libs/rc2.so  .libs/rc2.o  -lc 
+creating rc2.la
+(cd .libs && rm -f rc2.la && ln -s ../rc2.la rc2.la)
+source='safer128.c' object='safer128.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o safer128.lo safer128.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o tripledes.la  -module -avoid-version -rpath /usr/lib/libmcrypt tripledes.lo  
+/usr/bin/ld -G -h tripledes.so -o .libs/tripledes.so  .libs/tripledes.o  -lc 
+creating tripledes.la
+(cd .libs && rm -f tripledes.la && ln -s ../tripledes.la tripledes.la)
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/algorithms'
+Making all in modes
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/modes'
+source='cbc.c' object='cbc.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o cbc.lo cbc.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c safer128.c  -KPIC -DPIC -o .libs/safer128.o
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c cbc.c  -KPIC -DPIC -o .libs/cbc.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o cbc.la  -module -avoid-version -rpath /usr/lib/libmcrypt   cbc.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o safer-sk128.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt  safer128.lo  
+/usr/bin/ld -G -h cbc.so -o .libs/cbc.so  .libs/cbc.o  -lc 
+creating cbc.la
+(cd .libs && rm -f cbc.la && ln -s ../cbc.la cbc.la)
+source='cfb.c' object='cfb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o cfb.lo cfb.c
+/usr/bin/ld -G -h safer-sk128.so -o .libs/safer-sk128.so  .libs/safer128.o  -lc 
+creating safer-sk128.la
+(cd .libs && rm -f safer-sk128.la && ln -s ../safer-sk128.la safer-sk128.la)
+source='tripledes.c' object='tripledes.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o tripledes.lo tripledes.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c cfb.c  -KPIC -DPIC -o .libs/cfb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/algorithms -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c tripledes.c  -KPIC -DPIC -o .libs/tripledes.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o cfb.la  -module -avoid-version -rpath /usr/lib/libmcrypt  cfb.lo  
+/usr/bin/ld -G -h cfb.so -o .libs/cfb.so  .libs/cfb.o  -lc 
+creating cfb.la
+(cd .libs && rm -f cfb.la && ln -s ../cfb.la cfb.la)
+source='ctr.c' object='ctr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o ctr.lo ctr.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c ctr.c  -KPIC -DPIC -o .libs/ctr.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o tripledes.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt tripledes.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o ctr.la  -module -avoid-version -rpath /usr/lib/libmcrypt ctr.lo  
+/usr/bin/ld -G -h tripledes.so -o .libs/tripledes.so  .libs/tripledes.o  -lc 
+creating tripledes.la
+/usr/bin/ld -G -h ctr.so -o .libs/ctr.so  .libs/ctr.o  -lc 
+creating ctr.la
+(cd .libs && rm -f tripledes.la && ln -s ../tripledes.la tripledes.la)
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/algorithms'
+Making all in modes
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/modes'
+source='cbc.c' object='cbc.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o cbc.lo cbc.c
+(cd .libs && rm -f ctr.la && ln -s ../ctr.la ctr.la)
+source='ecb.c' object='ecb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o ecb.lo ecb.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c ecb.c  -KPIC -DPIC -o .libs/ecb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c cbc.c  -KPIC -DPIC -o .libs/cbc.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o ecb.la  -module -avoid-version -rpath /usr/lib/libmcrypt   ecb.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o cbc.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt   cbc.lo  
+/usr/bin/ld -G -h ecb.so -o .libs/ecb.so  .libs/ecb.o  -lc 
+creating ecb.la
+(cd .libs && rm -f ecb.la && ln -s ../ecb.la ecb.la)
+/usr/bin/ld -G -h cbc.so -o .libs/cbc.so  .libs/cbc.o  -lc 
+source='ncfb.c' object='ncfb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o ncfb.lo ncfb.c
+creating cbc.la
+(cd .libs && rm -f cbc.la && ln -s ../cbc.la cbc.la)
+source='cfb.c' object='cfb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o cfb.lo cfb.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c ncfb.c  -KPIC -DPIC -o .libs/ncfb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c cfb.c  -KPIC -DPIC -o .libs/cfb.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o cfb.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt  cfb.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o ncfb.la  -module -avoid-version -rpath /usr/lib/libmcrypt   ncfb.lo  
+/usr/bin/ld -G -h cfb.so -o .libs/cfb.so  .libs/cfb.o  -lc 
+creating cfb.la
+/usr/bin/ld -G -h ncfb.so -o .libs/ncfb.so  .libs/ncfb.o  -lc 
+(cd .libs && rm -f cfb.la && ln -s ../cfb.la cfb.la)
+source='ctr.c' object='ctr.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o ctr.lo ctr.c
+creating ncfb.la
+(cd .libs && rm -f ncfb.la && ln -s ../ncfb.la ncfb.la)
+source='nofb.c' object='nofb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o nofb.lo nofb.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c ctr.c  -KPIC -DPIC -o .libs/ctr.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c nofb.c  -KPIC -DPIC -o .libs/nofb.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o ctr.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt ctr.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o nofb.la  -module -avoid-version -rpath /usr/lib/libmcrypt   nofb.lo  
+/usr/bin/ld -G -h nofb.so -o .libs/nofb.so  .libs/nofb.o  -lc 
+/usr/bin/ld -G -h ctr.so -o .libs/ctr.so  .libs/ctr.o  -lc 
+creating nofb.la
+creating ctr.la
+(cd .libs && rm -f nofb.la && ln -s ../nofb.la nofb.la)
+source='ofb.c' object='ofb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o ofb.lo ofb.c
+(cd .libs && rm -f ctr.la && ln -s ../ctr.la ctr.la)
+source='ecb.c' object='ecb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o ecb.lo ecb.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c ofb.c  -KPIC -DPIC -o .libs/ofb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c ecb.c  -KPIC -DPIC -o .libs/ecb.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o ecb.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt   ecb.lo  
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o ofb.la  -module -avoid-version  -rpath /usr/lib/libmcrypt ofb.lo  
+/usr/bin/ld -G -h ecb.so -o .libs/ecb.so  .libs/ecb.o  -lc 
+/usr/bin/ld -G -h ofb.so -o .libs/ofb.so  .libs/ofb.o  -lc 
+creating ecb.la
+creating ofb.la
+(cd .libs && rm -f ecb.la && ln -s ../ecb.la ecb.la)
+(cd .libs && rm -f ofb.la && ln -s ../ofb.la ofb.la)
+source='ncfb.c' object='ncfb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o ncfb.lo ncfb.c
+source='stream.c' object='stream.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o stream.lo stream.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c stream.c  -KPIC -DPIC -o .libs/stream.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c ncfb.c  -KPIC -DPIC -o .libs/ncfb.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o stream.la  -module -avoid-version -rpath /usr/lib/libmcrypt stream.lo  
+/usr/bin/ld -G -h stream.so -o .libs/stream.so  .libs/stream.o  -lc 
+creating stream.la
+(cd .libs && rm -f stream.la && ln -s ../stream.la stream.la)
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/modes'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+Making all in include
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/include'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/include'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/lib'
+source='mcrypt_extra.c' object='mcrypt_extra.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_extra.lo mcrypt_extra.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o ncfb.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt   ncfb.lo  
+/usr/bin/ld -G -h ncfb.so -o .libs/ncfb.so  .libs/ncfb.o  -lc 
+creating ncfb.la
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c mcrypt_extra.c  -KPIC -DPIC -o .libs/mcrypt_extra.o
+(cd .libs && rm -f ncfb.la && ln -s ../ncfb.la ncfb.la)
+source='nofb.c' object='nofb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o nofb.lo nofb.c
+source='mcrypt.c' object='mcrypt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt.lo mcrypt.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c nofb.c  -KPIC -DPIC -o .libs/nofb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c mcrypt.c  -KPIC -DPIC -o .libs/mcrypt.o
+source='bzero.c' object='bzero.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o bzero.lo bzero.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o nofb.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt   nofb.lo  
+/usr/bin/ld -G -h nofb.so -o .libs/nofb.so  .libs/nofb.o  -lc 
+creating nofb.la
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c bzero.c  -KPIC -DPIC -o .libs/bzero.o
+(cd .libs && rm -f nofb.la && ln -s ../nofb.la nofb.la)
+source='ofb.c' object='ofb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o ofb.lo ofb.c
+source='xmemory.c' object='xmemory.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o xmemory.lo xmemory.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c ofb.c  -KPIC -DPIC -o .libs/ofb.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c xmemory.c  -KPIC -DPIC -o .libs/xmemory.o
+source='mcrypt_modules.c' object='mcrypt_modules.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_modules.lo mcrypt_modules.c
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o ofb.la  -module -avoid-version  -rpath /usr/lib/amd64/libmcrypt ofb.lo  
+/usr/bin/ld -G -h ofb.so -o .libs/ofb.so  .libs/ofb.o  -lc 
+creating ofb.la
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c mcrypt_modules.c  -KPIC -DPIC -o .libs/mcrypt_modules.o
+(cd .libs && rm -f ofb.la && ln -s ../ofb.la ofb.la)
+source='stream.c' object='stream.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../..  -I../../lib    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o stream.lo stream.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/modules/modes -I../.. -I. -I../.. -I../../lib -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c stream.c  -KPIC -DPIC -o .libs/stream.o
+/bin/bash ../../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o stream.la  -module -avoid-version -rpath /usr/lib/amd64/libmcrypt stream.lo  
+source='win32_comp.c' object='win32_comp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o win32_comp.lo win32_comp.c
+/usr/bin/ld -G -h stream.so -o .libs/stream.so  .libs/stream.o  -lc 
+creating stream.la
+(cd .libs && rm -f stream.la && ln -s ../stream.la stream.la)
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/modes'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+make[4]: Nothing to be done for `all-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+Making all in include
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/include'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/include'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/lib'
+source='mcrypt_extra.c' object='mcrypt_extra.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_extra.lo mcrypt_extra.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c win32_comp.c  -KPIC -DPIC -o .libs/win32_comp.o
+source='mcrypt_threads.c' object='mcrypt_threads.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_threads.lo mcrypt_threads.c
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c mcrypt_extra.c  -KPIC -DPIC -o .libs/mcrypt_extra.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c mcrypt_threads.c  -KPIC -DPIC -o .libs/mcrypt_threads.o
+source='mcrypt.c' object='mcrypt.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt.lo mcrypt.c
+source='mcrypt_symb.c' object='mcrypt_symb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_symb.lo mcrypt_symb.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c mcrypt.c  -KPIC -DPIC -o .libs/mcrypt.o
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -c mcrypt_symb.c  -KPIC -DPIC -o .libs/mcrypt_symb.o
+source='bzero.c' object='bzero.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o bzero.lo bzero.c
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o libmcrypt.la -rpath /usr/lib -version-info 8:8:4 -version-info 8:8:4 -export-symbols libmcrypt.sym   mcrypt_extra.lo mcrypt.lo bzero.lo xmemory.lo mcrypt_modules.lo win32_comp.lo mcrypt_threads.lo mcrypt_symb.lo ../modules/algorithms/rijndael-128.lo ../modules/algorithms/rijndael-192.lo ../modules/algorithms/enigma.lo ../modules/algorithms/arcfour.lo ../modules/algorithms/blowfish.lo ../modules/algorithms/des.lo ../modules/algorithms/tripledes.lo ../modules/modes/ecb.lo ../modules/modes/cbc.lo ../modules/modes/cfb.lo ../modules/modes/ctr.lo ../modules/modes/ncfb.lo ../modules/modes/nofb.lo ../modules/modes/ofb.lo ../modules/modes/stream.lo 
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c bzero.c  -KPIC -DPIC -o .libs/bzero.o
+source='xmemory.c' object='xmemory.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o xmemory.lo xmemory.c
+/usr/gnu/bin/echo "{ global:" > .libs/libmcrypt.so.4.4.8.exp
+cat libmcrypt.sym | /usr/gnu/bin/sed -e "s/\(.*\)/\1;/" >> .libs/libmcrypt.so.4.4.8.exp
+/usr/gnu/bin/echo "local: *; };" >> .libs/libmcrypt.so.4.4.8.exp
+ /usr/bin/ld -G -M .libs/libmcrypt.so.4.4.8.exp -h libmcrypt.so.4 -o .libs/libmcrypt.so.4.4.8  .libs/mcrypt_extra.o .libs/mcrypt.o .libs/bzero.o .libs/xmemory.o .libs/mcrypt_modules.o .libs/win32_comp.o .libs/mcrypt_threads.o .libs/mcrypt_symb.o ../modules/algorithms/.libs/rijndael-128.o ../modules/algorithms/.libs/rijndael-192.o ../modules/algorithms/.libs/enigma.o ../modules/algorithms/.libs/arcfour.o ../modules/algorithms/.libs/blowfish.o ../modules/algorithms/.libs/des.o ../modules/algorithms/.libs/tripledes.o ../modules/modes/.libs/ecb.o ../modules/modes/.libs/cbc.o ../modules/modes/.libs/cfb.o ../modules/modes/.libs/ctr.o ../modules/modes/.libs/ncfb.o ../modules/modes/.libs/nofb.o ../modules/modes/.libs/ofb.o ../modules/modes/.libs/stream.o  -lc 
+rm -f .libs/libmcrypt.so.4.4.8.exp
+(cd .libs && rm -f libmcrypt.so.4 && ln -s libmcrypt.so.4.4.8 libmcrypt.so.4)
+(cd .libs && rm -f libmcrypt.so && ln -s libmcrypt.so.4.4.8 libmcrypt.so)
+creating libmcrypt.la
+(cd .libs && rm -f libmcrypt.la && ln -s ../libmcrypt.la libmcrypt.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/lib'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+source='cipher_test.c' object='cipher_test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/src -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c cipher_test.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c xmemory.c  -KPIC -DPIC -o .libs/xmemory.o
+source='mcrypt_modules.c' object='mcrypt_modules.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_modules.lo mcrypt_modules.c
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o ciphertest  cipher_test.o ../lib/libmcrypt.la   
+mkdir .libs
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c mcrypt_modules.c  -KPIC -DPIC -o .libs/mcrypt_modules.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/ciphertest cipher_test.o  ../lib/.libs/libmcrypt.so 
+creating ciphertest
+source='aes_test.c' object='aes_test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/src -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst -c aes_test.c
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -xstrconst   -o aestest  aes_test.o ../lib/libmcrypt.la   
+source='win32_comp.c' object='win32_comp.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o win32_comp.lo win32_comp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -xstrconst -o .libs/aestest aes_test.o  ../lib/.libs/libmcrypt.so 
+creating aestest
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+Making check in modules
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+Making check in algorithms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/algorithms'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/algorithms'
+Making check in modes
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/modes'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules/modes'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/modules'
+Making check in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/include'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/include'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/lib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/lib'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+Algorithm: rijndael-128... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: rijndael-192... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: enigma... ok
+Modes:
+   stream: ok
+
+Algorithm: arcfour... ok
+Modes:
+   stream: ok
+
+Algorithm: blowfish... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: des... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: tripledes... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+PASS: ciphertest
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c win32_comp.c  -KPIC -DPIC -o .libs/win32_comp.o
+AES tests (CFB, nCFB, nOFB, CTR) were successful.
+PASS: aestest
+==================
+All 2 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/src'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/i86/.tested
+source='mcrypt_threads.c' object='mcrypt_threads.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_threads.lo mcrypt_threads.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c mcrypt_threads.c  -KPIC -DPIC -o .libs/mcrypt_threads.o
+source='mcrypt_symb.c' object='mcrypt_symb.lo' libtool=yes \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/bin/bash ../libtool --tag=CC --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\"  -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I..  -I../modules/algorithms -I../modules/modes    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c -o mcrypt_symb.lo mcrypt_symb.c
+ /opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -DLIBDIR=\"/usr/lib/amd64/libmcrypt/\" -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/lib -I.. -I. -I.. -I../modules/algorithms -I../modules/modes -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -c mcrypt_symb.c  -KPIC -DPIC -o .libs/mcrypt_symb.o
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o libmcrypt.la -rpath /usr/lib/amd64 -version-info 8:8:4 -version-info 8:8:4 -export-symbols libmcrypt.sym   mcrypt_extra.lo mcrypt.lo bzero.lo xmemory.lo mcrypt_modules.lo win32_comp.lo mcrypt_threads.lo mcrypt_symb.lo ../modules/algorithms/rijndael-128.lo ../modules/algorithms/rijndael-192.lo ../modules/algorithms/enigma.lo ../modules/algorithms/arcfour.lo ../modules/algorithms/blowfish.lo ../modules/algorithms/des.lo ../modules/algorithms/tripledes.lo ../modules/modes/ecb.lo ../modules/modes/cbc.lo ../modules/modes/cfb.lo ../modules/modes/ctr.lo ../modules/modes/ncfb.lo ../modules/modes/nofb.lo ../modules/modes/ofb.lo ../modules/modes/stream.lo 
+/usr/gnu/bin/echo "{ global:" > .libs/libmcrypt.so.4.4.8.exp
+cat libmcrypt.sym | /usr/gnu/bin/sed -e "s/\(.*\)/\1;/" >> .libs/libmcrypt.so.4.4.8.exp
+/usr/gnu/bin/echo "local: *; };" >> .libs/libmcrypt.so.4.4.8.exp
+ /usr/bin/ld -G -M .libs/libmcrypt.so.4.4.8.exp -h libmcrypt.so.4 -o .libs/libmcrypt.so.4.4.8  .libs/mcrypt_extra.o .libs/mcrypt.o .libs/bzero.o .libs/xmemory.o .libs/mcrypt_modules.o .libs/win32_comp.o .libs/mcrypt_threads.o .libs/mcrypt_symb.o ../modules/algorithms/.libs/rijndael-128.o ../modules/algorithms/.libs/rijndael-192.o ../modules/algorithms/.libs/enigma.o ../modules/algorithms/.libs/arcfour.o ../modules/algorithms/.libs/blowfish.o ../modules/algorithms/.libs/des.o ../modules/algorithms/.libs/tripledes.o ../modules/modes/.libs/ecb.o ../modules/modes/.libs/cbc.o ../modules/modes/.libs/cfb.o ../modules/modes/.libs/ctr.o ../modules/modes/.libs/ncfb.o ../modules/modes/.libs/nofb.o ../modules/modes/.libs/ofb.o ../modules/modes/.libs/stream.o  -lc 
+rm -f .libs/libmcrypt.so.4.4.8.exp
+(cd .libs && rm -f libmcrypt.so.4 && ln -s libmcrypt.so.4.4.8 libmcrypt.so.4)
+(cd .libs && rm -f libmcrypt.so && ln -s libmcrypt.so.4.4.8 libmcrypt.so)
+creating libmcrypt.la
+(cd .libs && rm -f libmcrypt.la && ln -s ../libmcrypt.la libmcrypt.la)
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/lib'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+source='cipher_test.c' object='cipher_test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/src -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c cipher_test.c
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o ciphertest  cipher_test.o ../lib/libmcrypt.la   
+mkdir .libs
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/ciphertest cipher_test.o  ../lib/.libs/libmcrypt.so  -R/usr/lib/amd64
+creating ciphertest
+source='aes_test.c' object='aes_test.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/libmcrypt/libmcrypt-2.5.8/src -I..     -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst -c aes_test.c
+/bin/bash ../libtool --tag=CC --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -xstrconst   -o aestest  aes_test.o ../lib/libmcrypt.la   
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -xstrconst -o .libs/aestest aes_test.o  ../lib/.libs/libmcrypt.so  -R/usr/lib/amd64
+creating aestest
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+Making check in modules
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+Making check in algorithms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/algorithms'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/algorithms'
+Making check in modes
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/modes'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules/modes'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/modules'
+Making check in include
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/include'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/include'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/lib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/lib'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+Algorithm: rijndael-128... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: rijndael-192... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: enigma... ok
+Modes:
+   stream: ok
+
+Algorithm: arcfour... ok
+Modes:
+   stream: ok
+
+Algorithm: blowfish... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: des... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+Algorithm: tripledes... ok
+Modes:
+   ecb: ok
+   cbc: ok
+   cfb: ok
+   ctr: ok
+   ncfb: ok
+   nofb: ok
+   ofb: ok
+
+PASS: ciphertest
+AES tests (CFB, nCFB, nOFB, CTR) were successful.
+PASS: aestest
+==================
+All 2 tests passed
+==================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/src'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libmcrypt/build/amd64/.tested

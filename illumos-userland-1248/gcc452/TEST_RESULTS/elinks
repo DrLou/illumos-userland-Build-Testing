@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/elinks/elinks-0.11.7
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/elinks/elinks-0.11.7 -p1 --backup --version-control=numbered < patches/Makefile.lib.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  elinks-0.11.7.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/elinks/elinks-0.11.7/.unpacked

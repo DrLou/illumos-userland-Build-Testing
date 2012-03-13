@@ -1,0 +1,7 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src -p1 --backup --version-control=numbered < patches/build.properties.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src -p1 --backup --version-control=numbered < patches/build.xml.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src -p1 --backup --version-control=numbered < patches/env.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src -p1 --backup --version-control=numbered < patches/tomcat_strict_servlet.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  apache-tomcat-6.0.32-src.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/tomcat/apache-tomcat-6.0.32-src/.unpacked

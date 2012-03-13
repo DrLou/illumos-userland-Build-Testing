@@ -1,0 +1,212 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gperf/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gperf/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/gperf/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info --docdir=/usr/share/doc/gperf CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" CXXFLAGS="-norunpath -m32")
+checking whether make sets $(MAKE)... yes
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in lib (/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/lib)
+configure: running /bin/bash /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib/configure '--prefix=/usr'  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--infodir=/usr/share/info' '--docdir=/usr/share/doc/gperf' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'CXXFLAGS=-norunpath -m32' --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for ranlib... ranlib
+checking for a BSD compatible install... /usr/bin/ginstall -c
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in src (/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/src)
+configure: running /bin/bash /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/configure '--prefix=/usr'  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--infodir=/usr/share/info' '--docdir=/usr/share/doc/gperf' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'CXXFLAGS=-norunpath -m32' --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+checking for a BSD compatible install... /usr/bin/ginstall -c
+checking for stack-allocated variable-size arrays... no
+checking for rand in -lm... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+=== configuring in tests (/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/tests)
+configure: running /bin/bash /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/configure '--prefix=/usr'  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--infodir=/usr/share/info' '--docdir=/usr/share/doc/gperf' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'CXXFLAGS=-norunpath -m32' --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking whether we are using the GNU C++ compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/CC accepts -g... yes
+checking how to run the C++ preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/CC -E
+configure: creating ./config.status
+config.status: creating Makefile
+=== configuring in doc (/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/doc)
+configure: running /bin/bash /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/doc/configure '--prefix=/usr'  'CC=/opt/SUNWspro/solarisstudio12.3/bin/cc' 'CXX=/opt/SUNWspro/solarisstudio12.3/bin/CC' '--mandir=/usr/share/man' '--bindir=/usr/bin' '--libdir=/usr/lib' '--sbindir=/usr/sbin' '--infodir=/usr/share/info' '--docdir=/usr/share/doc/gperf' 'CFLAGS=-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt' 'CXXFLAGS=-norunpath -m32' --cache-file=/dev/null --srcdir=/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/doc
+checking whether make sets $(MAKE)... yes
+checking for a BSD compatible install... /usr/bin/ginstall -c
+configure: creating ./config.status
+config.status: creating Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gperf/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gperf/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86'
+cd lib; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/lib'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib/getopt.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib/getopt1.c
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib/getline.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/lib/hash.cc
+rm -f libgp.a
+ar rc libgp.a getopt.o getopt1.o getline.o hash.o
+ranlib libgp.a
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/lib'
+cd src; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/src'
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/version.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/positions.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/options.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/keyword.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/keyword-list.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/input.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/bool-array.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/hash-table.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/search.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/output.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32 -I. -I/export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/../lib -c /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/src/main.cc
+/opt/SUNWspro/solarisstudio12.3/bin/CC -norunpath -m32  -o gperf version.o positions.o options.o keyword.o keyword-list.o input.o bool-array.o hash-table.o search.o output.o main.o ../lib/libgp.a -lm
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/src'
+cd tests; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/tests'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/tests'
+cd doc; /usr/gnu/bin/make all
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/doc'
+make[2]: Nothing to be done for `all'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/doc'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gperf/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/gperf/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86'
+cd lib; /usr/gnu/bin/make check
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/lib'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/lib'
+cd src; /usr/gnu/bin/make check
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/src'
+cd tests; /usr/gnu/bin/make check
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/tests'
+performing some tests of the perfect hash generator
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/test.c
+../src/gperf -c -l -S1 -I -o /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c.gperf > cinset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o cout cinset.c test.o
+testing ANSI C reserved words, all items should be found in the set
+./cout -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c.gperf | tr -d '\r' > c.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c.exp c.out
+../src/gperf -k1,4,'$' -I /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/ada.gperf > adainset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o aout adainset.c test.o
+testing Ada reserved words, all items should be found in the set
+./aout -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/ada.gperf | tr -d '\r' > ada-res.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/ada-res.exp ada-res.out
+../src/gperf -D -k1,'$' -s 2 -I -o /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/adadefs.gperf > preinset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o preout preinset.c test.o
+testing Ada predefined words, all items should be found in the set
+./preout -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/adadefs.gperf | tr -d '\r' > ada-pred.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/ada-pred.exp ada-pred.out
+../src/gperf -k1,2,'$' -I -o /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/modula3.gperf > m3inset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o m3out m3inset.c test.o
+testing Modula3 reserved words, all items should be found in the set
+./m3out -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/modula3.gperf | tr -d '\r' > modula.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/modula.exp modula.out
+../src/gperf -o -S2 -I < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/pascal.gperf > pinset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o pout pinset.c test.o
+testing Pascal reserved words, all items should be found in the set
+./pout -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/pascal.gperf | tr -d '\r' > pascal.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/pascal.exp pascal.out
+../src/gperf -k1 -t -I -K foreign_name < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-utf8.gperf > lu8inset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o lu8out lu8inset.c test.o
+testing UTF-8 encoded languages, all items should be found in the set
+sed -e '1,6d' -e 's/,.*//' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-utf8.gperf | ./lu8out -v | tr -d '\r' > lang-utf8.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-utf8.exp lang-utf8.out
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/test2.c
+../src/gperf -k4 -t -l -I -K foreign_name < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-ucs2.gperf > lu2inset.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o lu2out lu2inset.c test2.o
+testing UCS-2 encoded languages, all items should be found in the set
+./lu2out -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-ucs2.in | tr -d '\r' > lang-ucs2.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/lang-ucs2.exp lang-ucs2.out
+testing SMTP keywords, case-insensitive
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/smtp.gperf > smtp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o smtp smtp.c
+./smtp
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case --compare-strncmp /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/smtp.gperf > smtp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o smtp smtp.c
+./smtp
+../src/gperf --struct-type --readonly-table --enum --global -K field_name -N header_entry --ignore-case --compare-lengths /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/smtp.gperf > smtp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o smtp smtp.c
+./smtp
+../src/gperf -L C -F ', 0, 0' -j1 -i 1 -g -o -t -G -N is_reserved_word -k1,3,'$' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c-parse.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > c-parse.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c-parse.exp c-parse.out
+../src/gperf -j1 -i 1 -g -o -t -N is_reserved_word -k1,3,'$' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/objc.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > objc.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/objc.exp objc.out
+../src/gperf -L C -F ', 0, 0, 0' -D -E -S1 -j1 -i 1 -g -o -t -k'*' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/chill.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > chill.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/chill.exp chill.out
+../src/gperf -L C -F ', 0, 0' -j1 -g -o -t -N is_reserved_word -k1,4,7,'$' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/cplusplus.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > cplusplus.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/cplusplus.exp cplusplus.out
+../src/gperf -L C -F ', 0' -t -j1 -i 1 -g -o -N java_keyword -k1,3,'$' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/java.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > java.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/java.exp java.out
+../src/gperf -n -k1-8 -l < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/modula2.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > modula2.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/modula2.exp modula2.out
+../src/gperf -D -t -k1,'$' < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c-parse.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-4.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/test-4.exp test-4.out
+../src/gperf -g -o -j1 -t -N is_reserved_word < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/gpc.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > gpc.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/gpc.exp gpc.out
+../src/gperf -m5 < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permut2.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permut2.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permut2.exp permut2.out
+../src/gperf -m5 < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permut3.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permut3.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permut3.exp permut3.out
+../src/gperf -m5 --ignore-case < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permutc2.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > permutc2.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/permutc2.exp permutc2.out
+../src/gperf -C -E -G -I -t < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/charsets.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > charsets.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/charsets.exp charsets.out
+../src/gperf -C -E -G -I -t < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/languages.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > languages.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/languages.exp languages.out
+../src/gperf -t < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/incomplete.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > incomplete.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/incomplete.exp incomplete.out
+../src/gperf -h | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-6.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/test-6.exp test-6.out
+only if, do, for, case, goto, else, while, and return should be found 
+./aout -v < /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/c.gperf | tr -d '\r' | sed -e 's|[^ ]*[/\\][\\]*src[/\\][\\]*gperf[^ ]*|../src/gperf|' > test-7.out
+diff /export/home/drlou/illumos-userland-1248/components/gperf/gperf-3.0.3/tests/test-7.exp test-7.out
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/tests'
+cd doc; /usr/gnu/bin/make check
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86/doc'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gperf/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gperf/build/i86/.tested

@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1 -p1 --backup --version-control=numbered < patches/001.scapi.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1 -p1 --backup --version-control=numbered < patches/002.pkcs.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1 -p1 --backup --version-control=numbered < patches/003.solaris-ip-mib.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1 -p1 --backup --version-control=numbered < patches/004.16436.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1 -p1 --backup --version-control=numbered < patches/005.16736.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  net-snmp-5.4.1.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/net-snmp/net-snmp-5.4.1/.unpacked

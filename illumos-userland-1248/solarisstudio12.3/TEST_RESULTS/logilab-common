@@ -1,0 +1,372 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/logilab-common/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/logilab-common/build/i86
+(cd /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0 ; /usr/bin/env CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		/usr/bin/python2.6 ./setup.py build \
+			--build-temp i86)
+running build
+running build_py
+creating build
+creating build/lib
+creating build/lib/logilab
+creating build/lib/logilab/common
+copying ./tree.py -> build/lib/logilab/common
+copying ./graph.py -> build/lib/logilab/common
+copying ./cache.py -> build/lib/logilab/common
+copying ./shellutils.py -> build/lib/logilab/common
+copying ./logger.py -> build/lib/logilab/common
+copying ./configuration.py -> build/lib/logilab/common
+copying ./clcommands.py -> build/lib/logilab/common
+copying ./sphinxutils.py -> build/lib/logilab/common
+copying ./bind.py -> build/lib/logilab/common
+copying ./proc.py -> build/lib/logilab/common
+copying ./compat.py -> build/lib/logilab/common
+copying ./adbh.py -> build/lib/logilab/common
+copying ./__init__.py -> build/lib/logilab/common
+copying ./testlib.py -> build/lib/logilab/common
+copying ./tasksqueue.py -> build/lib/logilab/common
+copying ./decorators.py -> build/lib/logilab/common
+copying ./textutils.py -> build/lib/logilab/common
+copying ./visitor.py -> build/lib/logilab/common
+copying ./pdf_ext.py -> build/lib/logilab/common
+copying ./xmlrpcutils.py -> build/lib/logilab/common
+copying ./twisted_distutils.py -> build/lib/logilab/common
+copying ./pytest.py -> build/lib/logilab/common
+copying ./fileutils.py -> build/lib/logilab/common
+copying ./__pkginfo__.py -> build/lib/logilab/common
+copying ./contexts.py -> build/lib/logilab/common
+copying ./corbautils.py -> build/lib/logilab/common
+copying ./debugger.py -> build/lib/logilab/common
+copying ./umessage.py -> build/lib/logilab/common
+copying ./daemon.py -> build/lib/logilab/common
+copying ./modutils.py -> build/lib/logilab/common
+copying ./logservice.py -> build/lib/logilab/common
+copying ./optparser.py -> build/lib/logilab/common
+copying ./changelog.py -> build/lib/logilab/common
+copying ./db.py -> build/lib/logilab/common
+copying ./monserver.py -> build/lib/logilab/common
+copying ./table.py -> build/lib/logilab/common
+copying ./logging_ext.py -> build/lib/logilab/common
+copying ./date.py -> build/lib/logilab/common
+copying ./monclient.py -> build/lib/logilab/common
+copying ./deprecation.py -> build/lib/logilab/common
+copying ./optik_ext.py -> build/lib/logilab/common
+copying ./interface.py -> build/lib/logilab/common
+copying ./astutils.py -> build/lib/logilab/common
+copying ./cli.py -> build/lib/logilab/common
+copying ./sqlgen.py -> build/lib/logilab/common
+copying ./html.py -> build/lib/logilab/common
+copying ./vcgutils.py -> build/lib/logilab/common
+copying ./patricia.py -> build/lib/logilab/common
+creating build/lib/logilab/common/ureports
+copying ./ureports/docbook_writer.py -> build/lib/logilab/common/ureports
+copying ./ureports/text_writer.py -> build/lib/logilab/common/ureports
+copying ./ureports/nodes.py -> build/lib/logilab/common/ureports
+copying ./ureports/__init__.py -> build/lib/logilab/common/ureports
+copying ./ureports/html_writer.py -> build/lib/logilab/common/ureports
+package init file './test/__init__.py' not found (or not a regular file)
+creating build/lib/logilab/common/test
+copying ./test/unittest_pytest.py -> build/lib/logilab/common/test
+copying ./test/unittest_cache.py -> build/lib/logilab/common/test
+copying ./test/unittest_graph.py -> build/lib/logilab/common/test
+copying ./test/unittest_taskqueue.py -> build/lib/logilab/common/test
+copying ./test/unittest_logger.py -> build/lib/logilab/common/test
+copying ./test/unittest_changelog.py -> build/lib/logilab/common/test
+copying ./test/unittest_shellutils.py -> build/lib/logilab/common/test
+copying ./test/unittest_date.py -> build/lib/logilab/common/test
+copying ./test/unittest_compat.py -> build/lib/logilab/common/test
+copying ./test/unittest_patricia.py -> build/lib/logilab/common/test
+copying ./test/unittest_interface.py -> build/lib/logilab/common/test
+copying ./test/unittest_decorators.py -> build/lib/logilab/common/test
+copying ./test/unittest_table.py -> build/lib/logilab/common/test
+copying ./test/unittest_textutils.py -> build/lib/logilab/common/test
+copying ./test/utils.py -> build/lib/logilab/common/test
+copying ./test/unittest_testlib.py -> build/lib/logilab/common/test
+copying ./test/unittest_fileutils.py -> build/lib/logilab/common/test
+copying ./test/unittest_ureports_html.py -> build/lib/logilab/common/test
+copying ./test/foomod.py -> build/lib/logilab/common/test
+copying ./test/unittest_tree.py -> build/lib/logilab/common/test
+copying ./test/unittest_ureports_text.py -> build/lib/logilab/common/test
+copying ./test/unittest_db.py -> build/lib/logilab/common/test
+copying ./test/unittest_configuration.py -> build/lib/logilab/common/test
+copying ./test/unittest_umessage.py -> build/lib/logilab/common/test
+copying ./test/unittest_bind.py -> build/lib/logilab/common/test
+copying ./test/unittest_modutils.py -> build/lib/logilab/common/test
+copying ./test/unittest_adbh.py -> build/lib/logilab/common/test
+creating build/lib/logilab/common/test/data
+copying ./test/data/__init__.py -> build/lib/logilab/common/test/data
+copying ./test/data/nonregr.py -> build/lib/logilab/common/test/data
+copying ./test/data/module.py -> build/lib/logilab/common/test/data
+copying ./test/data/module2.py -> build/lib/logilab/common/test/data
+copying ./test/data/noendingnewline.py -> build/lib/logilab/common/test/data
+creating build/lib/logilab/common/test/data/find_test
+copying ./test/data/find_test/__init__.py -> build/lib/logilab/common/test/data/find_test
+copying ./test/data/find_test/module.py -> build/lib/logilab/common/test/data/find_test
+copying ./test/data/find_test/module2.py -> build/lib/logilab/common/test/data/find_test
+copying ./test/data/find_test/noendingnewline.py -> build/lib/logilab/common/test/data/find_test
+copying ./test/data/find_test/nonregr.py -> build/lib/logilab/common/test/data/find_test
+running build_scripts
+creating build/scripts-2.6
+copying and adjusting bin/pytest -> build/scripts-2.6
+changing mode of build/scripts-2.6/pytest from 644 to 755
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/logilab-common/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/bin/python2.6 ./setup.py install  --root /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386  --install-lib=/usr/lib/python2.6/vendor-packages)
+running install
+running build
+running build_py
+package init file './test/__init__.py' not found (or not a regular file)
+running build_scripts
+running install_lib
+copying logilab/common/adbh.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/logservice.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/textutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/compat.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/corbautils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/astutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/bind.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/proc.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/fileutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/logger.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/optparser.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/tree.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/db.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/decorators.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/vcgutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/daemon.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/tasksqueue.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/patricia.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/cache.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/graph.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/logging_ext.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/clcommands.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/pytest.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/deprecation.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/shellutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/cli.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/pdf_ext.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/visitor.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/xmlrpcutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/__init__.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/__pkginfo__.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/date.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/debugger.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/changelog.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/table.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/contexts.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/modutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/html.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/twisted_distutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/umessage.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/monserver.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/configuration.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/monclient.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/optik_ext.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/sqlgen.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/sphinxutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/interface.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/testlib.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common
+copying logilab/common/test/unittest_graph.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_cache.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_db.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/utils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_patricia.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_taskqueue.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_date.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_changelog.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_ureports_html.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_decorators.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_testlib.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_ureports_text.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/foomod.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_shellutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_configuration.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_interface.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_adbh.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_textutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_table.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_bind.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_fileutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_modutils.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_umessage.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_tree.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_pytest.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_compat.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/unittest_logger.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test
+copying logilab/common/test/data/module.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data
+copying logilab/common/test/data/nonregr.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data
+copying logilab/common/test/data/__init__.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data
+copying logilab/common/test/data/noendingnewline.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data
+copying logilab/common/test/data/module2.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data
+copying logilab/common/test/data/find_test/noendingnewline.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test
+copying logilab/common/test/data/find_test/__init__.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test
+copying logilab/common/test/data/find_test/nonregr.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test
+copying logilab/common/test/data/find_test/module.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test
+copying logilab/common/test/data/find_test/module2.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test
+copying logilab/common/ureports/text_writer.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports
+copying logilab/common/ureports/docbook_writer.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports
+copying logilab/common/ureports/html_writer.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports
+copying logilab/common/ureports/__init__.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports
+copying logilab/common/ureports/nodes.py -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/adbh.py to adbh.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/logservice.py to logservice.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/textutils.py to textutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/compat.py to compat.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/corbautils.py to corbautils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/astutils.py to astutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/bind.py to bind.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/proc.py to proc.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/fileutils.py to fileutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/logger.py to logger.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/optparser.py to optparser.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/tree.py to tree.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/db.py to db.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/decorators.py to decorators.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/vcgutils.py to vcgutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/daemon.py to daemon.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/tasksqueue.py to tasksqueue.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/patricia.py to patricia.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/cache.py to cache.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/graph.py to graph.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/logging_ext.py to logging_ext.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/clcommands.py to clcommands.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/pytest.py to pytest.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/deprecation.py to deprecation.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/shellutils.py to shellutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/cli.py to cli.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/pdf_ext.py to pdf_ext.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/visitor.py to visitor.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/xmlrpcutils.py to xmlrpcutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/__pkginfo__.py to __pkginfo__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/date.py to date.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/debugger.py to debugger.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/changelog.py to changelog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/table.py to table.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/contexts.py to contexts.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/modutils.py to modutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/html.py to html.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/twisted_distutils.py to twisted_distutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/umessage.py to umessage.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/monserver.py to monserver.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/configuration.py to configuration.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/monclient.py to monclient.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/optik_ext.py to optik_ext.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/sqlgen.py to sqlgen.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/sphinxutils.py to sphinxutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/interface.py to interface.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/testlib.py to testlib.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_graph.py to unittest_graph.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_cache.py to unittest_cache.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_db.py to unittest_db.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/utils.py to utils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_patricia.py to unittest_patricia.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_taskqueue.py to unittest_taskqueue.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_date.py to unittest_date.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_changelog.py to unittest_changelog.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_ureports_html.py to unittest_ureports_html.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_decorators.py to unittest_decorators.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_testlib.py to unittest_testlib.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_ureports_text.py to unittest_ureports_text.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/foomod.py to foomod.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_shellutils.py to unittest_shellutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_configuration.py to unittest_configuration.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_interface.py to unittest_interface.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_adbh.py to unittest_adbh.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_textutils.py to unittest_textutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_table.py to unittest_table.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_bind.py to unittest_bind.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_fileutils.py to unittest_fileutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_modutils.py to unittest_modutils.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_umessage.py to unittest_umessage.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_tree.py to unittest_tree.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_pytest.py to unittest_pytest.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_compat.py to unittest_compat.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/unittest_logger.py to unittest_logger.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/module.py to module.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/nonregr.py to nonregr.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/noendingnewline.py to noendingnewline.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/module2.py to module2.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test/noendingnewline.py to noendingnewline.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test/nonregr.py to nonregr.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test/module.py to module.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/test/data/find_test/module2.py to module2.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports/text_writer.py to text_writer.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports/docbook_writer.py to docbook_writer.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports/html_writer.py to html_writer.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports/__init__.py to __init__.pyc
+byte-compiling /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab/common/ureports/nodes.py to nodes.pyc
+running install_egg_info
+running egg_info
+writing logilab_common.egg-info/PKG-INFO
+writing namespace_packages to logilab_common.egg-info/namespace_packages.txt
+writing top-level names to logilab_common.egg-info/top_level.txt
+writing dependency_links to logilab_common.egg-info/dependency_links.txt
+reading manifest file 'logilab_common.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+warning: no files found matching '*' under directory 'doc/html'
+writing manifest file 'logilab_common.egg-info/SOURCES.txt'
+Copying logilab_common.egg-info to /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab_common-0.40.0-py2.6.egg-info
+Installing /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages/logilab_common-0.40.0-py2.6-nspkg.pth
+running install_scripts
+creating /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/bin
+copying build/scripts-2.6/pytest -> /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/bin
+changing mode of /export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/bin/pytest to 755
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/logilab-common/build/i86/.installed
+(cd logilab-common-0.40.0; /usr/bin/env - \
+		PYTHONPATH=/export/home/drlou/illumos-userland-1248/components/logilab-common/build/prototype/i386/usr/lib/python2.6/vendor-packages \
+		bin/pytest test )
+going into /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/test
+[]
+going into /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test
+[]
+['# test configuration',
+ '[TEST]',
+ '',
+ 'dothis=yes',
+ '',
+ '#value=',
+ '',
+ '# you can also document the option',
+ 'multiple=yop,yep',
+ '',
+ '# boom',
+ 'number=2',
+ '',
+ 'choice=yo',
+ '',
+ 'multiple-choice=yo,ye',
+ '',
+ 'named=key:val',
+ '',
+ '',
+ '[AGROUP]',
+ '',
+ 'diffgroup=pouet']
+['# test configuration',
+ '[TEST]',
+ '',
+ 'dothis=yes',
+ '',
+ "value='    '",
+ '',
+ '# you can also document the option',
+ 'multiple=yop',
+ '',
+ '# boom',
+ 'number=2',
+ '',
+ 'choice=yo',
+ '',
+ 'multiple-choice=yo,ye',
+ '',
+ 'named=key:val',
+ '',
+ '',
+ '[AGROUP]',
+ '',
+ 'diffgroup=pouet']
+*******************************************************************************
+Ran 614 test cases in 13.43s (0.24s CPU), 14 errors, 2 failures, 56 skipped
+43 modules OK (7 failed)
+failures: /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/test/unittest_shellutils [1/16], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_changelog [1/1], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_testlib [1/1], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_shellutils [1/1], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_configuration [1/12], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_fileutils [7/12], /export/home/drlou/illumos-userland-1248/components/logilab-common/logilab-common-0.40.0/build/lib/logilab/common/test/unittest_umessage [4/4]

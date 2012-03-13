@@ -1,0 +1,54 @@
+(/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12)
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/Net-SSLeay-1.36 /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12
+symlink cloning /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/Net-SSLeay-1.36 to /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12 ; MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " PERL="/usr/perl5/5.12/bin/perl" ; echo "n" | /usr/perl5/5.12/bin/perl  \
+				Makefile.PL )
+*** Found OpenSSL-1.0.0d installed in /usr
+*** That's newer than what this module was tested with
+    You should consider checking if there is a newer release of this module
+    available. Everything will probably work OK, though.
+*** Be sure to use the same compiler and options to compile your OpenSSL, perl,
+    and Net::SSLeay. Mixing and matching compilers is not supported.
+Do you want to run external tests?
+These tests *will* *fail* if you do not have network connectivity. [n] Checking if your kit is complete...
+Looks good
+Writing Makefile for Net::SSLeay
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12; /usr/gnu/bin/sed 's/^CCCDLFLAGS = -KPIC/^CCCDLFLAGS = -fPIC/' Makefile > Makefile.tmp; grep -v '^OPTIMIZE =' Makefile.tmp > Makefile)
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12'
+cp lib/Net/SSLeay.pm blib/lib/Net/SSLeay.pm
+AutoSplitting blib/lib/Net/SSLeay.pm (blib/lib/auto/Net/SSLeay)
+blib/lib/Net/SSLeay.pm: some names are not unique when truncated to 8 characters:
+ directory blib/lib/auto/Net/SSLeay:
+  do_https3.al, do_https2.al, do_https4.al, do_https.al truncate to do_https
+  do_httpx3.al, do_httpx2.al, do_httpx4.al truncate to do_httpx
+  get_https.al, get_https3.al, get_https4.al, get_http.al, get_http3.al, get_http4.al, get_httpx.al, get_httpx3.al, get_httpx4.al truncate to get_http
+  head_https.al, head_https3.al, head_https4.al, head_http.al, head_http3.al, head_http4.al, head_httpx.al, head_httpx3.al, head_httpx4.al truncate to head_htt
+  post_https.al, post_https3.al, post_https4.al, post_http.al, post_http3.al, post_http4.al, post_httpx.al, post_httpx3.al, post_httpx4.al truncate to post_htt
+  put_https.al, put_https3.al, put_https4.al, put_http.al, put_http3.al, put_http4.al, put_httpx.al, put_httpx3.al, put_httpx4.al truncate to put_http
+  ssl_read_all.al, ssl_read_until.al, ssl_read_CRLF.al truncate to ssl_read
+  ssl_write_all.al, ssl_write_CRLF.al truncate to ssl_writ
+  tcp_read_all.al, tcp_read_until.al, tcp_read_CRLF.al truncate to tcp_read
+  tcp_write_all.al, tcp_write_CRLF.al truncate to tcp_writ
+cp lib/Net/SSLeay/Handle.pm blib/lib/Net/SSLeay/Handle.pm
+/usr/perl5/5.12/bin/perl "-Iinc" /usr/perl5/5.12/lib/ExtUtils/xsubpp  -typemap /usr/perl5/5.12/lib/ExtUtils/typemap -typemap typemap  SSLeay.xs > SSLeay.xsc && mv SSLeay.xsc SSLeay.c
+cc -c  -I/usr/include -I/usr/inc32 -I/usr/kerberos/include -DPTR_IS_LONG -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64 -DPERL_USE_SAFE_PUTENV    -DVERSION=\"1.36\" -DXS_VERSION=\"1.36\"  "-I/usr/perl5/5.12/lib/i86pc-solaris-64int/CORE"   SSLeay.c
+Running Mkbootstrap for Net::SSLeay ()
+chmod 644 SSLeay.bs
+rm -f blib/arch/auto/Net/SSLeay/SSLeay.so
+LD_RUN_PATH="/usr/lib" cc  -G -L/usr/lib -L/usr/ccs/lib -L/opt/sunstudio12.1/prod/lib -L/lib -L/usr/gnu/lib SSLeay.o  -o blib/arch/auto/Net/SSLeay/SSLeay.so 	\
+	   -L/usr -L/usr/lib -lssl -lcrypto -lz  	\
+	  
+chmod 755 blib/arch/auto/Net/SSLeay/SSLeay.so
+cp SSLeay.bs blib/arch/auto/Net/SSLeay/SSLeay.bs
+chmod 644 blib/arch/auto/Net/SSLeay/SSLeay.bs
+Manifying blib/man3/Net::SSLeay.3
+Manifying blib/man3/Net::SSLeay::Handle.3
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12/.built
+(cd /export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/opt/SUNWspro/solarisstudio12.3/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/perl_modules/net-ssleay/build/i86-5.12'

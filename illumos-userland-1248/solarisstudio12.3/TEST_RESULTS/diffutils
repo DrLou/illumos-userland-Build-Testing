@@ -1,0 +1,475 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/gnu/bin --libdir=/usr/lib --sbindir=/usr/sbin  --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for egrep... egrep
+checking for AIX... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for gawk... (cached) gawk
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking for gcc... (cached) /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking whether we are using the GNU C compiler... (cached) no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... (cached) yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... (cached) none needed
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... (cached) none
+checking for ranlib... ranlib
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for variable-length arrays... yes
+checking for pr... /usr/bin/pr
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking sys/file.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+checking for unistd.h... (cached) yes
+checking for struct stat.st_blksize... yes
+checking for struct stat.st_rdev... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for long long... yes
+checking for unsigned long long... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking for nanoseconds member of struct stat.st_mtim... tv_nsec
+checking for pid_t... yes
+checking for dup2... yes
+checking for gettimeofday... yes
+checking for sigaction... yes
+checking for sigprocmask... yes
+checking for strcasecoll... no
+checking for stricoll... no
+checking for waitpid... yes
+checking whether closedir returns void... no
+checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for setrlimit... yes
+checking for working C stack overflow detection... no
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking for unistd.h... (cached) yes
+checking for locale.h... (cached) yes
+checking for fcntl.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking whether system is Windows or MSDOS... no
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for inline... inline
+checking for isascii... yes
+checking for setlocale... yes
+checking for mempcpy... no
+checking whether stat file-mode macros are broken... no
+checking for an ANSI C-conforming const... yes
+checking for mbstate_t... yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking whether time.h and sys/time.h may both be included... yes
+checking for off_t... yes
+checking whether getenv is declared... yes
+checking for desired default level of POSIX conformance... none-specified
+checking for C/C++ restrict keyword... restrict
+checking for stdbool.h that conforms to C99... no
+checking for _Bool... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for struct tm.tm_gmtoff... no
+checking whether tzset clobbers localtime buffer... no
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fflush_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fputs_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getc_unlocked is declared... yes
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking whether strtoimax is declared... yes
+checking whether strtoumax is declared... yes
+checking for getcontext... yes
+checking for sigaltstack... yes
+checking whether getcontext is declared... yes
+checking whether sigaltstack is declared... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for stack_t... yes
+checking for error_at_line... no
+checking for working GNU fnmatch... no
+checking whether getenv is declared... (cached) yes
+checking for btowc... yes
+checking for mbsrtowcs... yes
+checking for mempcpy... (cached) no
+checking for wmempcpy... no
+checking for wchar.h... (cached) yes
+checking for wctype.h... (cached) yes
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking whether gettimeofday clobbers localtime buffer... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for mkstemp... yes
+checking for mkstemp limitations... no
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible realloc... yes
+checking for working re_compile_pattern... no
+checking for btowc... (cached) yes
+checking for C/C++ restrict keyword... (cached) restrict
+checking for strcasecmp... yes
+checking for strncasecmp... yes
+checking for strftime... yes
+checking for tzset... yes
+checking for struct tm.tm_zone... no
+checking for tzname... yes
+checking for mblen... yes
+checking for mbrlen... yes
+checking for mbstate_t... (cached) yes
+checking whether <inttypes.h> defines strtoimax as a macro... no
+checking for strtoimax... yes
+checking for strtol... yes
+checking for strtoll... yes
+checking for strtoul... yes
+checking for strtoull... yes
+checking whether <inttypes.h> defines strtoumax as a macro... no
+checking for strtoumax... yes
+checking whether localtime_r is compatible with its POSIX signature... yes
+checking whether tzset clobbers localtime buffer... (cached) no
+checking for library containing clock_gettime... none required
+checking for clock_gettime... yes
+checking for fcntl.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for DOS-style setmode... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating man/Makefile
+config.status: creating m4/Makefile
+config.status: creating ms/Makefile
+config.status: creating po/Makefile.in
+config.status: creating src/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/doc'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+cp /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/fnmatch_.h fnmatch.h-t
+mv fnmatch.h-t fnmatch.h
+sed -e 's/@''HAVE__BOOL''@/1/g' < /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/stdbool_.h > stdbool.h-t
+mv stdbool.h-t stdbool.h
+/usr/gnu/bin/make  all-am
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/cmpbuf.c' object='cmpbuf.o' libtool=no \
+	depfile='.deps/cmpbuf.Po' tmpdepfile='.deps/cmpbuf.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/cmpbuf.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/prepargs.c' object='prepargs.o' libtool=no \
+	depfile='.deps/prepargs.Po' tmpdepfile='.deps/prepargs.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/prepargs.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/quotesys.c' object='quotesys.o' libtool=no \
+	depfile='.deps/quotesys.Po' tmpdepfile='.deps/quotesys.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/quotesys.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/c-stack.c' object='c-stack.o' libtool=no \
+	depfile='.deps/c-stack.Po' tmpdepfile='.deps/c-stack.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/c-stack.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/dirname.c' object='dirname.o' libtool=no \
+	depfile='.deps/dirname.Po' tmpdepfile='.deps/dirname.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/dirname.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/basename.c' object='basename.o' libtool=no \
+	depfile='.deps/basename.Po' tmpdepfile='.deps/basename.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/basename.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/stripslash.c' object='stripslash.o' libtool=no \
+	depfile='.deps/stripslash.Po' tmpdepfile='.deps/stripslash.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/stripslash.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/exclude.c' object='exclude.o' libtool=no \
+	depfile='.deps/exclude.Po' tmpdepfile='.deps/exclude.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/exclude.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/exitfail.c' object='exitfail.o' libtool=no \
+	depfile='.deps/exitfail.Po' tmpdepfile='.deps/exitfail.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/exitfail.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/file-type.c' object='file-type.o' libtool=no \
+	depfile='.deps/file-type.Po' tmpdepfile='.deps/file-type.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/file-type.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/getopt.c' object='getopt.o' libtool=no \
+	depfile='.deps/getopt.Po' tmpdepfile='.deps/getopt.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/getopt1.c' object='getopt1.o' libtool=no \
+	depfile='.deps/getopt1.Po' tmpdepfile='.deps/getopt1.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/hard-locale.c' object='hard-locale.o' libtool=no \
+	depfile='.deps/hard-locale.Po' tmpdepfile='.deps/hard-locale.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/hard-locale.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/imaxtostr.c' object='imaxtostr.o' libtool=no \
+	depfile='.deps/imaxtostr.Po' tmpdepfile='.deps/imaxtostr.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/imaxtostr.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/offtostr.c' object='offtostr.o' libtool=no \
+	depfile='.deps/offtostr.Po' tmpdepfile='.deps/offtostr.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/offtostr.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/umaxtostr.c' object='umaxtostr.o' libtool=no \
+	depfile='.deps/umaxtostr.Po' tmpdepfile='.deps/umaxtostr.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/umaxtostr.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/posixver.c' object='posixver.o' libtool=no \
+	depfile='.deps/posixver.Po' tmpdepfile='.deps/posixver.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/posixver.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/strftime.c' object='strftime.o' libtool=no \
+	depfile='.deps/strftime.Po' tmpdepfile='.deps/strftime.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/strftime.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/version-etc.c' object='version-etc.o' libtool=no \
+	depfile='.deps/version-etc.Po' tmpdepfile='.deps/version-etc.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/version-etc.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	depfile='.deps/xmalloc.Po' tmpdepfile='.deps/xmalloc.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xmalloc.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrdup.c' object='xstrdup.o' libtool=no \
+	depfile='.deps/xstrdup.Po' tmpdepfile='.deps/xstrdup.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrdup.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtol.c' object='xstrtol.o' libtool=no \
+	depfile='.deps/xstrtol.Po' tmpdepfile='.deps/xstrtol.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtol.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtoul.c' object='xstrtoul.o' libtool=no \
+	depfile='.deps/xstrtoul.Po' tmpdepfile='.deps/xstrtoul.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtoul.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtoumax.c' object='xstrtoumax.o' libtool=no \
+	depfile='.deps/xstrtoumax.Po' tmpdepfile='.deps/xstrtoumax.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/xstrtoumax.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/error.c' object='error.o' libtool=no \
+	depfile='.deps/error.Po' tmpdepfile='.deps/error.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/error.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/fnmatch.c' object='fnmatch.o' libtool=no \
+	depfile='.deps/fnmatch.Po' tmpdepfile='.deps/fnmatch.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/fnmatch.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/regex.c' object='regex.o' libtool=no \
+	depfile='.deps/regex.Po' tmpdepfile='.deps/regex.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib/regex.c
+rm -f libdiffutils.a
+ar cru libdiffutils.a cmpbuf.o prepargs.o quotesys.o c-stack.o dirname.o basename.o stripslash.o exclude.o exitfail.o file-type.o getopt.o getopt1.o hard-locale.o imaxtostr.o offtostr.o umaxtostr.o posixver.o strftime.o version-etc.o xmalloc.o xstrdup.o xstrtol.o xstrtoul.o xstrtoumax.o error.o fnmatch.o regex.o
+ranlib libdiffutils.a
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/m4'
+Making all in ms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/ms'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/ms'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/src'
+(echo '#define DEFAULT_DIFF_PROGRAM "/usr/gnu/bin/'`echo diff|sed 's,x,x,'`'"' && \
+	 echo '#define LOCALEDIR "/usr/share/locale"') >paths.ht
+mv paths.ht paths.h
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/cmp.c' object='cmp.o' libtool=no \
+	depfile='.deps/cmp.Po' tmpdepfile='.deps/cmp.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/cmp.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o cmp  cmp.o ../lib/libdiffutils.a  
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/analyze.c' object='analyze.o' libtool=no \
+	depfile='.deps/analyze.Po' tmpdepfile='.deps/analyze.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/analyze.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/context.c' object='context.o' libtool=no \
+	depfile='.deps/context.Po' tmpdepfile='.deps/context.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/context.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/diff.c' object='diff.o' libtool=no \
+	depfile='.deps/diff.Po' tmpdepfile='.deps/diff.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/diff.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/dir.c' object='dir.o' libtool=no \
+	depfile='.deps/dir.Po' tmpdepfile='.deps/dir.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/dir.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/ed.c' object='ed.o' libtool=no \
+	depfile='.deps/ed.Po' tmpdepfile='.deps/ed.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/ed.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/ifdef.c' object='ifdef.o' libtool=no \
+	depfile='.deps/ifdef.Po' tmpdepfile='.deps/ifdef.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/ifdef.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/io.c' object='io.o' libtool=no \
+	depfile='.deps/io.Po' tmpdepfile='.deps/io.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/io.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/normal.c' object='normal.o' libtool=no \
+	depfile='.deps/normal.Po' tmpdepfile='.deps/normal.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/normal.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/side.c' object='side.o' libtool=no \
+	depfile='.deps/side.Po' tmpdepfile='.deps/side.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/side.c
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/util.c' object='util.o' libtool=no \
+	depfile='.deps/util.Po' tmpdepfile='.deps/util.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/util.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o diff  analyze.o context.o diff.o dir.o ed.o ifdef.o io.o normal.o side.o util.o ../lib/libdiffutils.a   
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/diff3.c' object='diff3.o' libtool=no \
+	depfile='.deps/diff3.Po' tmpdepfile='.deps/diff3.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/diff3.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o diff3  diff3.o ../lib/libdiffutils.a  
+source='/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/sdiff.c' object='sdiff.o' libtool=no \
+	depfile='.deps/sdiff.Po' tmpdepfile='.deps/sdiff.TPo' \
+	depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src -I..  -I../lib -I/export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/diffutils/diffutils-2.8.7/src/sdiff.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o sdiff  sdiff.o ../lib/libdiffutils.a  
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/src'
+Making all in man
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/man'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/man'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/po'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/doc'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+/usr/gnu/bin/make  check-am
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/lib'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/m4'
+Making check in ms
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/ms'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/ms'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/src'
+Making check in man
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/man'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/man'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/po'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/diffutils/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/diffutils/build/i86/.tested

@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/clisp/clisp-2.47
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/clisp/clisp-2.47 -p0 --backup --version-control=numbered < patches/arilev0.d.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/clisp/clisp-2.47 -p0 --backup --version-control=numbered < patches/arisparc.d.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/clisp/clisp-2.47 -p0 --backup --version-control=numbered < patches/arisparc64.d.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/clisp/clisp-2.47 -p0 --backup --version-control=numbered < patches/lispbibl.d.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/clisp/clisp-2.47 -p0 --backup --version-control=numbered < patches/makemake.in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  clisp-2.47.tar.bz2
+/usr/bin/touch /export/home/drlou/illumos-userland/components/clisp/clisp-2.47/.unpacked

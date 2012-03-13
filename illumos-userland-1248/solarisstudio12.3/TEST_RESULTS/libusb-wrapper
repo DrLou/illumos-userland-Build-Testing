@@ -1,0 +1,33 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/src /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/src to /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86
+/bin/rm -f -r /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64
+/export/home/drlou/illumos-userland-1248/tools/cloney /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/src /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64
+symlink cloning /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/src to /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64
+(cd /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  BITS=32 )
+(cd /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  BITS=64 )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86'
+There are no tests available at this time.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64'
+There are no tests available at this time.
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64/.built
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+		 check)
+(cd /export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+		 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64'
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -I. -D_REENTRANT -D_TS_ERRNO   -c -o wr_libusb.o wr_libusb.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -I. -D_REENTRANT -D_TS_ERRNO   -c -o wr_libusb.o wr_libusb.c
+/usr/bin/ld -M libusb.mapfile -G -h libusb.so.1 -o libusb.so.1 wr_libusb.o -ldl -lc
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -I. -D_REENTRANT -D_TS_ERRNO   -c -o testlibusb.o testlibusb.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -DPIC -I. -D_REENTRANT -D_TS_ERRNO   -c -o testlibusb.o testlibusb.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -o testlibusb testlibusb.o -lusb
+/opt/SUNWspro/solarisstudio12.3/bin/cc -o testlibusb testlibusb.o -lusb
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/libusb/wrapper/build/amd64'

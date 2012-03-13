@@ -1,0 +1,5 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/tcl/tk/tk8.5.9
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tcl/tk/tk8.5.9 -p1 --backup --version-control=numbered < patches/1.man.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/tcl/tk/tk8.5.9 -p1 --backup --version-control=numbered < patches/2.makefile.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  tk8.5.9-src.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/tcl/tk/tk8.5.9/.unpacked

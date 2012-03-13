@@ -1,0 +1,4 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/libsndfile/libsndfile-1.0.23
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libsndfile/libsndfile-1.0.23 -p1 --backup --version-control=numbered < patches/test_strncpy_crlf.c.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  libsndfile-1.0.23.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/libsndfile/libsndfile-1.0.23/.unpacked

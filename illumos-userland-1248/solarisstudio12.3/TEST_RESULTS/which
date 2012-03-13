@@ -1,0 +1,101 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/which/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/which/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/which/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/which/which-2.16/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr/gnu --mandir=/usr/gnu/share/man --bindir=/usr/gnu/bin --libdir=/usr/gnu/lib --sbindir=/usr/gnu/sbin  --infodir=/usr/share/info --disable-iberty --disable-dependency-tracking CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether to enable maintainer-specific portions of Makefiles... no
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for egrep... egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for ANSI C header files... (cached) yes
+checking for strchr... yes
+checking for memcpy... yes
+checking for getopt_long... yes
+checking for unistd.h... (cached) yes
+checking for string.h... (cached) yes
+checking libiberty.h usability... no
+checking libiberty.h presence... no
+checking for libiberty.h... no
+checking whether stat file-mode macros are broken... no
+checking for an ANSI C-conforming const... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking type of array argument to getgroups... gid_t
+checking for getcwd... yes
+checking for getwd... yes
+checking for ar... ar
+checking for ranlib... ranlib
+checking for stdlib.h... (cached) yes
+checking whether programs are able to redeclare getpw functions... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating maintMakefile
+config.status: creating tilde/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/which/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/which/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+Making all in tilde
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86/tilde'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/tilde.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/tilde.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/shell.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/tilde/shell.c
+rm -f libtilde.a
+ar cru libtilde.a tilde.o shell.o 
+ranlib libtilde.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86/tilde'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/getopt.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/getopt.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/getopt1.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/getopt1.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/bash.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/bash.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/which/which-2.16 -I.     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c `test -f '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/which.c' || echo '/export/home/drlou/illumos-userland-1248/components/which/which-2.16/'`/export/home/drlou/illumos-userland-1248/components/which/which-2.16/which.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o which  getopt.o getopt1.o bash.o which.o ./tilde/libtilde.a 
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/which/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/which/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+Making check in tilde
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86/tilde'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86/tilde'
+Making check in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/which/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/which/build/i86/.tested

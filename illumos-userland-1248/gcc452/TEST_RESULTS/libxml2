@@ -1,0 +1,8 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6 -p1 --backup --version-control=numbered < patches/01.configure.in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6 -p1 --backup --version-control=numbered < patches/02.globals-fix.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6 -p1 --backup --version-control=numbered < patches/03.globals.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6 -p1 --backup --version-control=numbered < patches/04.libxml2-01-remove-static.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6 -p1 --backup --version-control=numbered < patches/05.mem-leak-fix.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  libxml2-2.7.6.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/libxml2/libxml2-2.7.6/.unpacked

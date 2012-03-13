@@ -1,0 +1,1273 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/m4/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/m4/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/m4/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr/gnu --mandir=/usr/gnu/share/man --bindir=/usr/gnu/bin --libdir=/usr/gnu/lib --sbindir=/usr/gnu/sbin  --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for ranlib... ranlib
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for _LARGEFILE_SOURCE value needed for large files... no
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C99... none needed
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO Standard C... (cached) none needed
+configure: autobuild project... GNU M4
+configure: autobuild revision... 1.4.12
+configure: autobuild hostname... build
+configure: autobuild timestamp... 20120305T014515Z
+checking for long long int... yes
+checking for unsigned long long int... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for setrlimit... yes
+checking for sigaltstack... yes
+checking for mempcpy... no
+checking for __fpending... yes
+checking for fpurge... no
+checking for __fpurge... yes
+checking for __freading... yes
+checking for gettimeofday... yes
+checking for mbsinit... yes
+checking for isblank... yes
+checking for iswctype... yes
+checking for mbrtowc... yes
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for sigaction... yes
+checking for siginterrupt... yes
+checking for lstat... yes
+checking for pipe... yes
+checking for vasnprintf... no
+checking for iswcntrl... yes
+checking ucontext.h usability... yes
+checking ucontext.h presence... yes
+checking for ucontext.h... yes
+checking for unistd.h... (cached) yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking for errno.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking float.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking stdio_ext.h usability... yes
+checking stdio_ext.h presence... yes
+checking for stdio_ext.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking math.h usability... yes
+checking math.h presence... yes
+checking for math.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking signal.h usability... yes
+checking signal.h presence... yes
+checking for signal.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking for stdint.h... (cached) yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking stdio.h usability... yes
+checking stdio.h presence... yes
+checking for stdio.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/socket.h usability... yes
+checking sys/socket.h presence... yes
+checking for sys/socket.h... yes
+checking for string.h... (cached) yes
+checking for sys/stat.h... (cached) yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking for working C stack overflow detection... yes
+checking for correct stack_t interpretation... yes
+checking for precise C stack overflow detection... yes
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking for 64-bit host... no
+checking for libsigsegv... yes
+checking how to link with libsigsegv... -lsigsegv
+checking whether system is Windows or MSDOS... no
+checking whether // is distinct from /... no
+checking whether the preprocessor supports include_next... yes
+checking for complete errno.h... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for sig_atomic_t... yes
+checking for inline... inline
+checking whether stdin defaults to large file offsets... yes
+checking getopt.h usability... yes
+checking getopt.h presence... yes
+checking for getopt.h... yes
+checking for getopt_long_only... yes
+checking whether optreset is declared... no
+checking for working GNU getopt function... no
+checking whether getenv is declared... yes
+checking for C/C++ restrict keyword... __restrict__
+checking for struct timeval... yes
+checking where to find the exponent in a 'float'... word 0 bit 23
+checking for nl_langinfo and CODESET... yes
+checking whether getc_unlocked is declared... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking for multithread API to use... none
+checking whether malloc, realloc, calloc are POSIX compliant... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... yes
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for uid_t in sys/types.h... yes
+checking whether snprintf is declared... yes
+checking for stdbool.h that conforms to C99... yes
+checking for _Bool... yes
+checking for working strerror function... yes
+checking whether strndup is declared... yes
+checking whether strnlen is declared... yes
+checking whether strsignal is declared... yes
+checking whether sys_siglist is declared... no
+checking whether stat file-mode macros are broken... no
+checking whether clearerr_unlocked is declared... no
+checking whether feof_unlocked is declared... no
+checking whether ferror_unlocked is declared... no
+checking whether fflush_unlocked is declared... no
+checking whether fgets_unlocked is declared... no
+checking whether fputc_unlocked is declared... no
+checking whether fputs_unlocked is declared... no
+checking whether fread_unlocked is declared... no
+checking whether fwrite_unlocked is declared... no
+checking whether getchar_unlocked is declared... yes
+checking whether putc_unlocked is declared... yes
+checking whether putchar_unlocked is declared... yes
+checking for wchar_t... yes
+checking for wint_t... yes
+checking for size_t... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for intmax_t... yes
+checking whether printf supports size specifiers as in C99... yes
+checking whether printf supports 'long double' arguments... yes
+checking whether printf supports infinite 'double' arguments... no
+checking whether printf supports infinite 'long double' arguments... no
+checking whether printf supports the 'a' and 'A' directives... no
+checking whether printf supports the 'F' directive... yes
+checking whether printf supports the 'n' directive... yes
+checking whether printf supports POSIX/XSI format strings with positions... yes
+checking whether printf supports the grouping flag... yes
+checking whether printf supports the left-adjust flag correctly... yes
+checking whether printf supports the zero flag correctly... no
+checking whether printf supports large precisions... yes
+checking whether printf survives out-of-memory conditions... yes
+checking whether strdup is declared... yes
+checking whether alarm is declared... yes
+checking for alloca as a compiler built-in... no
+checking whether to enable assertions... yes
+checking whether sigaltstack is declared... yes
+checking for stack_t... yes
+checking whether // is distinct from /... (cached) no
+checking for error_at_line... no
+checking for working fcntl.h... no (bad O_NOATIME)
+checking whether fflush works on input streams... yes
+checking whether fopen recognizes a trailing slash... yes
+checking whether __fpending is declared... yes
+checking whether fpurge is declared... no
+checking whether frexp() can be used without linking with libm... yes
+checking whether frexp works... yes
+checking whether frexpl() can be used without linking with libm... no
+checking for fseeko... yes
+checking for ftello... yes
+checking for gettimeofday with POSIX signature... yes
+checking whether gettimeofday clobbers localtime buffer... no
+checking whether the compiler generally respects inline... yes
+checking whether isnan(double) can be used without linking with libm... yes
+checking whether isnan(float) can be used without linking with libm... yes
+checking whether isnan(float) works... yes
+checking whether isnan(long double) can be used without linking with libm... yes
+checking whether isnanl works... no
+checking where to find the exponent in a 'long double'... word 2 bit 0
+checking for libsigsegv... (cached) yes
+checking how to link with libsigsegv... -lsigsegv
+checking whether lseek detects pipes... yes
+checking for stdlib.h... (cached) yes
+checking for GNU libc compatible malloc... (cached) yes
+checking whether NAN macro works... yes
+checking whether HUGE_VAL works... yes
+checking for memchr... yes
+checking for working memcmp... yes
+checking for memset... yes
+checking for mkdtemp... yes
+checking for working mkstemp... yes
+checking for obstacks... no
+checking whether open recognizes a trailing slash... yes
+checking whether frexp can be used without linking with libm... (cached) yes
+checking whether frexp works... (cached) yes
+checking whether ldexp can be used without linking with libm... yes
+checking whether frexpl can be used without linking with libm... (cached) no
+checking whether ldexpl can be used without linking with libm... no
+checking for mbstate_t... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for raise... yes
+checking for working re_compile_pattern... no
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking whether isblank is declared... yes
+checking for struct sigaction.sa_sigaction... yes
+checking for signbit macro... no
+checking for signbit compiler built-ins... no
+checking where to find the sign bit in a 'float'... word 0 bit 31
+checking where to find the sign bit in a 'double'... word 1 bit 31
+checking where to find the sign bit in a 'long double'... word 2 bit 15
+checking for sigprocmask... yes
+checking for stdint.h... (cached) yes
+checking for SIZE_MAX... yes
+checking for snprintf... yes
+checking whether snprintf respects a size of 1... yes
+checking for ssize_t... yes
+checking for va_copy... yes
+checking whether stdint.h conforms to C99... no
+checking sys/inttypes.h usability... yes
+checking sys/inttypes.h presence... yes
+checking for sys/inttypes.h... yes
+checking sys/bitypes.h usability... no
+checking sys/bitypes.h presence... no
+checking for sys/bitypes.h... no
+checking for bit size of ptrdiff_t... 32
+checking for bit size of sig_atomic_t... 32
+checking for bit size of size_t... 32
+checking for bit size of wchar_t... 32
+checking for bit size of wint_t... 32
+checking whether sig_atomic_t is signed... yes
+checking whether wchar_t is signed... yes
+checking whether wint_t is signed... yes
+checking for ptrdiff_t integer literal suffix... 
+checking for sig_atomic_t integer literal suffix... 
+checking for size_t integer literal suffix... u
+checking for wchar_t integer literal suffix... l
+checking for wint_t integer literal suffix... l
+checking for working strndup... yes
+checking for working strnlen... yes
+checking for strsignal... yes
+checking whether strsignal always returns a string... no
+checking whether _sys_siglist is declared... yes
+checking whether strstr works in linear time... no
+checking for working strtod... yes
+checking whether strtod obeys C99... no
+checking for pow... no
+checking for pow in -lm... yes
+checking for strtol... yes
+checking for nlink_t... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for __secure_getenv... no
+checking for ptrdiff_t... yes
+checking for snprintf... (cached) yes
+checking for wcslen... yes
+checking whether _snprintf is declared... no
+checking for vasprintf... yes
+checking for vasprintf... (cached) yes
+checking for nl_langinfo... yes
+checking for ptrdiff_t... (cached) yes
+checking for snprintf... (cached) yes
+checking for wcslen... (cached) yes
+checking whether _snprintf is declared... (cached) no
+checking whether <wchar.h> is standalone... yes
+checking whether iswcntrl works... yes
+checking for stdint.h... (cached) yes
+checking where to find the exponent in a 'double'... word 1 bit 20
+checking where to find the exponent in a 'float'... (cached) word 0 bit 23
+checking where to find the exponent in a 'long double'... (cached) word 2 bit 0
+checking for wchar_t... (cached) yes
+checking for wint_t... (cached) yes
+checking for strdup... yes
+checking if system() agrees with pclose()... yes
+checking if changeword is wanted... no
+checking if malloc debugging is wanted... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating doc/Makefile
+config.status: creating lib/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating checks/Makefile
+config.status: creating examples/Makefile
+config.status: creating lib/config.h
+config.status: linking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/GNUmakefile to GNUmakefile
+config.status: executing depfiles commands
+config.status: executing stamp-h commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/m4/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/m4/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+Making all in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+make[3]: Nothing to be done for `all-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+Making all in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/examples'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/examples'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+rm -f configmake.h-t configmake.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  echo '#define PREFIX "/usr/gnu"'; \
+	  echo '#define EXEC_PREFIX "/usr/gnu"'; \
+	  echo '#define BINDIR "/usr/gnu/bin"'; \
+	  echo '#define SBINDIR "/usr/gnu/sbin"'; \
+	  echo '#define LIBEXECDIR "/usr/gnu/libexec"'; \
+	  echo '#define DATAROOTDIR "/usr/gnu/share"'; \
+	  echo '#define DATADIR "/usr/gnu/share"'; \
+	  echo '#define SYSCONFDIR "/usr/gnu/etc"'; \
+	  echo '#define SHAREDSTATEDIR "/usr/gnu/com"'; \
+	  echo '#define LOCALSTATEDIR "/usr/gnu/var"'; \
+	  echo '#define INCLUDEDIR "/usr/gnu/include"'; \
+	  echo '#define OLDINCLUDEDIR "/usr/include"'; \
+	  echo '#define DOCDIR "/usr/gnu/share/doc/m4"'; \
+	  echo '#define INFODIR "/usr/share/info"'; \
+	  echo '#define HTMLDIR "/usr/gnu/share/doc/m4"'; \
+	  echo '#define DVIDIR "/usr/gnu/share/doc/m4"'; \
+	  echo '#define PDFDIR "/usr/gnu/share/doc/m4"'; \
+	  echo '#define PSDIR "/usr/gnu/share/doc/m4"'; \
+	  echo '#define LIBDIR "/usr/gnu/lib"'; \
+	  echo '#define LISPDIR ""'; \
+	  echo '#define LOCALEDIR "/usr/gnu/share/locale"'; \
+	  echo '#define MANDIR "/usr/gnu/share/man"'; \
+	  echo '#define MANEXT ""'; \
+	  echo '#define PKGDATADIR "/usr/gnu/share/m4"'; \
+	  echo '#define PKGINCLUDEDIR "/usr/gnu/include/m4"'; \
+	  echo '#define PKGLIBDIR "/usr/gnu/lib/m4"'; \
+	  echo '#define PKGLIBEXECDIR ""'; \
+	} | sed '/""/d' > configmake.h-t
+mv configmake.h-t configmake.h
+rm -f fcntl.h-t fcntl.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_FCNTL_H''@|<fcntl.h>|g' \
+	      -e 's|@''GNULIB_OPEN''@|1|g' \
+	      -e 's|@''REPLACE_OPEN''@|0|g' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fcntl.in.h; \
+	} > fcntl.h-t
+mv fcntl.h-t fcntl.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  cat /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/getopt.in.h; \
+	} > getopt.h-t
+mv -f getopt.h-t getopt.h
+rm -f math.h-t math.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_MATH_H''@|<math.h>|g' \
+	      -e 's|@''GNULIB_CEILF''@|0|g' \
+	      -e 's|@''GNULIB_CEILL''@|0|g' \
+	      -e 's|@''GNULIB_FLOORF''@|0|g' \
+	      -e 's|@''GNULIB_FLOORL''@|0|g' \
+	      -e 's|@''GNULIB_FREXP''@|1|g' \
+	      -e 's|@''GNULIB_FREXPL''@|1|g' \
+	      -e 's|@''GNULIB_ISFINITE''@|0|g' \
+	      -e 's|@''GNULIB_ISINF''@|0|g' \
+	      -e 's|@''GNULIB_ISNAN''@|0|g' \
+	      -e 's|@''GNULIB_LDEXPL''@|0|g' \
+	      -e 's|@''GNULIB_MATHL''@|0|g' \
+	      -e 's|@''GNULIB_ROUND''@|0|g' \
+	      -e 's|@''GNULIB_ROUNDF''@|0|g' \
+	      -e 's|@''GNULIB_ROUNDL''@|0|g' \
+	      -e 's|@''GNULIB_SIGNBIT''@|1|g' \
+	      -e 's|@''GNULIB_TRUNC''@|0|g' \
+	      -e 's|@''GNULIB_TRUNCF''@|0|g' \
+	      -e 's|@''GNULIB_TRUNCL''@|0|g' \
+	      -e 's|@''HAVE_DECL_ACOSL''@|1|g' \
+	      -e 's|@''HAVE_DECL_ASINL''@|1|g' \
+	      -e 's|@''HAVE_DECL_ATANL''@|1|g' \
+	      -e 's|@''HAVE_DECL_COSL''@|1|g' \
+	      -e 's|@''HAVE_DECL_EXPL''@|1|g' \
+	      -e 's|@''HAVE_DECL_FREXPL''@|0|g' \
+	      -e 's|@''HAVE_DECL_LDEXPL''@|1|g' \
+	      -e 's|@''HAVE_DECL_LOGL''@|1|g' \
+	      -e 's|@''HAVE_DECL_SINL''@|1|g' \
+	      -e 's|@''HAVE_DECL_SQRTL''@|1|g' \
+	      -e 's|@''HAVE_DECL_TANL''@|1|g' \
+	      -e 's|@''HAVE_DECL_TRUNC''@|1|g' \
+	      -e 's|@''HAVE_DECL_TRUNCF''@|1|g' \
+	      -e 's|@''REPLACE_CEILF''@|0|g' \
+	      -e 's|@''REPLACE_CEILL''@|0|g' \
+	      -e 's|@''REPLACE_FLOORF''@|0|g' \
+	      -e 's|@''REPLACE_FLOORL''@|0|g' \
+	      -e 's|@''REPLACE_FREXP''@|0|g' \
+	      -e 's|@''REPLACE_FREXPL''@|1|g' \
+	      -e 's|@''REPLACE_HUGE_VAL''@|0|g' \
+	      -e 's|@''REPLACE_ISFINITE''@|0|g' \
+	      -e 's|@''REPLACE_ISINF''@|0|g' \
+	      -e 's|@''REPLACE_ISNAN''@|0|g' \
+	      -e 's|@''REPLACE_LDEXPL''@|0|g' \
+	      -e 's|@''REPLACE_NAN''@|0|g' \
+	      -e 's|@''REPLACE_ROUND''@|0|g' \
+	      -e 's|@''REPLACE_ROUNDF''@|0|g' \
+	      -e 's|@''REPLACE_ROUNDL''@|0|g' \
+	      -e 's|@''REPLACE_SIGNBIT''@|1|g' \
+	      -e 's|@''REPLACE_SIGNBIT_USING_GCC''@|0|g' \
+	      -e 's|@''REPLACE_TRUNCL''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/math.in.h; \
+	} > math.h-t
+mv math.h-t math.h
+rm -f signal.h-t signal.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_SIGNAL_H''@|<signal.h>|g' \
+	      -e 's|@''GNULIB_SIGNAL_H_SIGPIPE''@|0|g' \
+	      -e 's|@''GNULIB_SIGPROCMASK''@|1|g' \
+	      -e 's|@''GNULIB_SIGACTION''@|1|g' \
+	      -e 's|@''HAVE_POSIX_SIGNALBLOCKING''@|1|g' \
+	      -e 's|@''HAVE_SIGSET_T''@|1|g' \
+	      -e 's|@''HAVE_SIGINFO_T''@|1|g' \
+	      -e 's|@''HAVE_SIGACTION''@|1|g' \
+	      -e 's|@''HAVE_STRUCT_SIGACTION_SA_SIGACTION''@|1|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signal.in.h; \
+	} > signal.h-t
+mv signal.h-t signal.h
+rm -f stdint.h-t stdint.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's/@''HAVE_STDINT_H''@/1/g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDINT_H''@|<stdint.h>|g' \
+	      -e 's/@''HAVE_SYS_TYPES_H''@/1/g' \
+	      -e 's/@''HAVE_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_INTTYPES_H''@/1/g' \
+	      -e 's/@''HAVE_SYS_BITYPES_H''@/0/g' \
+	      -e 's/@''HAVE_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''HAVE_UNSIGNED_LONG_LONG_INT''@/1/g' \
+	      -e 's/@''BITSIZEOF_PTRDIFF_T''@/32/g' \
+	      -e 's/@''PTRDIFF_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIG_ATOMIC_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_SIG_ATOMIC_T''@/1/g' \
+	      -e 's/@''SIG_ATOMIC_T_SUFFIX''@//g' \
+	      -e 's/@''BITSIZEOF_SIZE_T''@/32/g' \
+	      -e 's/@''SIZE_T_SUFFIX''@/u/g' \
+	      -e 's/@''BITSIZEOF_WCHAR_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WCHAR_T''@/1/g' \
+	      -e 's/@''WCHAR_T_SUFFIX''@/l/g' \
+	      -e 's/@''BITSIZEOF_WINT_T''@/32/g' \
+	      -e 's/@''HAVE_SIGNED_WINT_T''@/1/g' \
+	      -e 's/@''WINT_T_SUFFIX''@/l/g' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/stdint.in.h; \
+	} > stdint.h-t
+mv stdint.h-t stdint.h
+rm -f stdio.h-t stdio.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDIO_H''@|<stdio.h>|g' \
+	      -e 's|@''GNULIB_FPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_FPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_PRINTF''@|1|g' \
+	      -e 's|@''GNULIB_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_SNPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_SPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VFPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VFPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_VPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VSNPRINTF''@|0|g' \
+	      -e 's|@''GNULIB_VSPRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_VASPRINTF''@|1|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''GNULIB_OBSTACK_PRINTF_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_FOPEN''@|1|g' \
+	      -e 's|@''GNULIB_FREOPEN''@|0|g' \
+	      -e 's|@''GNULIB_FSEEK''@|0|g' \
+	      -e 's|@''GNULIB_FSEEKO''@|1|g' \
+	      -e 's|@''GNULIB_FTELL''@|0|g' \
+	      -e 's|@''GNULIB_FTELLO''@|1|g' \
+	      -e 's|@''GNULIB_FFLUSH''@|1|g' \
+	      -e 's|@''GNULIB_FPUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTC''@|1|g' \
+	      -e 's|@''GNULIB_PUTCHAR''@|1|g' \
+	      -e 's|@''GNULIB_FPUTS''@|1|g' \
+	      -e 's|@''GNULIB_PUTS''@|1|g' \
+	      -e 's|@''GNULIB_FWRITE''@|1|g' \
+	      -e 's|@''GNULIB_GETDELIM''@|0|g' \
+	      -e 's|@''GNULIB_GETLINE''@|0|g' \
+	      -e 's|@''GNULIB_PERROR''@|0|g' \
+	      -e 's|@''GNULIB_STDIO_H_SIGPIPE''@|0|g' \
+	      -e 's|@''REPLACE_STDIO_WRITE_FUNCS''@|0|g' \
+	      -e 's|@''REPLACE_FPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VFPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_SNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_SNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VSNPRINTF''@|0|g' \
+	      -e 's|@''HAVE_DECL_VSNPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_SPRINTF''@|0|g' \
+	      -e 's|@''REPLACE_VSPRINTF''@|0|g' \
+	      -e 's|@''HAVE_VASPRINTF''@|1|g' \
+	      -e 's|@''REPLACE_VASPRINTF''@|1|g' \
+	      -e 's|@''HAVE_DECL_OBSTACK_PRINTF''@|1|g' \
+	      -e 's|@''REPLACE_OBSTACK_PRINTF''@|0|g' \
+	      -e 's|@''REPLACE_FOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FREOPEN''@|0|g' \
+	      -e 's|@''REPLACE_FSEEKO''@|0|g' \
+	      -e 's|@''REPLACE_FSEEK''@|0|g' \
+	      -e 's|@''REPLACE_FTELLO''@|0|g' \
+	      -e 's|@''REPLACE_FTELL''@|0|g' \
+	      -e 's|@''REPLACE_FFLUSH''@|0|g' \
+	      -e 's|@''HAVE_DECL_GETDELIM''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLINE''@|1|g' \
+	      -e 's|@''REPLACE_GETLINE''@|0|g' \
+	      -e 's|@''REPLACE_PERROR''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/stdio.in.h; \
+	} > stdio.h-t
+mv stdio.h-t stdio.h
+rm -f stdlib.h-t stdlib.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STDLIB_H''@|<stdlib.h>|g' \
+	      -e 's|@''GNULIB_MALLOC_POSIX''@|1|g' \
+	      -e 's|@''GNULIB_REALLOC_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_CALLOC_POSIX''@|0|g' \
+	      -e 's|@''GNULIB_GETSUBOPT''@|0|g' \
+	      -e 's|@''GNULIB_MKDTEMP''@|1|g' \
+	      -e 's|@''GNULIB_MKSTEMP''@|1|g' \
+	      -e 's|@''GNULIB_PUTENV''@|0|g' \
+	      -e 's|@''GNULIB_RPMATCH''@|0|g' \
+	      -e 's|@''GNULIB_SETENV''@|0|g' \
+	      -e 's|@''GNULIB_STRTOD''@|1|g' \
+	      -e 's|@''GNULIB_UNSETENV''@|0|g' \
+	      -e 's|@''HAVE_CALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_GETSUBOPT''@|1|g' \
+	      -e 's|@''HAVE_MALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_MKDTEMP''@|1|g' \
+	      -e 's|@''HAVE_REALLOC_POSIX''@|1|g' \
+	      -e 's|@''HAVE_RPMATCH''@|1|g' \
+	      -e 's|@''HAVE_SETENV''@|1|g' \
+	      -e 's|@''HAVE_STRTOD''@|1|g' \
+	      -e 's|@''HAVE_UNSETENV''@|1|g' \
+	      -e 's|@''REPLACE_MKSTEMP''@|0|g' \
+	      -e 's|@''REPLACE_PUTENV''@|0|g' \
+	      -e 's|@''REPLACE_STRTOD''@|1|g' \
+	      -e 's|@''VOID_UNSETENV''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/stdlib.in.h; \
+	} > stdlib.h-t
+mv stdlib.h-t stdlib.h
+rm -f string.h-t string.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */' && \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_STRING_H''@|<string.h>|g' \
+	      -e 's|@''GNULIB_MBSLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSNLEN''@|0|g' \
+	      -e 's|@''GNULIB_MBSCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSRCHR''@|0|g' \
+	      -e 's|@''GNULIB_MBSSTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSNCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSPCASECMP''@|0|g' \
+	      -e 's|@''GNULIB_MBSCASESTR''@|0|g' \
+	      -e 's|@''GNULIB_MBSCSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSPBRK''@|0|g' \
+	      -e 's|@''GNULIB_MBSSPN''@|0|g' \
+	      -e 's|@''GNULIB_MBSSEP''@|0|g' \
+	      -e 's|@''GNULIB_MBSTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_MEMMEM''@|0|g' \
+	      -e 's|@''GNULIB_MEMPCPY''@|0|g' \
+	      -e 's|@''GNULIB_MEMRCHR''@|0|g' \
+	      -e 's|@''GNULIB_RAWMEMCHR''@|0|g' \
+	      -e 's|@''GNULIB_STPCPY''@|0|g' \
+	      -e 's|@''GNULIB_STPNCPY''@|0|g' \
+	      -e 's|@''GNULIB_STRCHRNUL''@|0|g' \
+	      -e 's|@''GNULIB_STRDUP''@|1|g' \
+	      -e 's|@''GNULIB_STRNDUP''@|1|g' \
+	      -e 's|@''GNULIB_STRNLEN''@|1|g' \
+	      -e 's|@''GNULIB_STRPBRK''@|0|g' \
+	      -e 's|@''GNULIB_STRSEP''@|0|g' \
+	      -e 's|@''GNULIB_STRSTR''@|1|g' \
+	      -e 's|@''GNULIB_STRCASESTR''@|0|g' \
+	      -e 's|@''GNULIB_STRTOK_R''@|0|g' \
+	      -e 's|@''GNULIB_STRERROR''@|1|g' \
+	      -e 's|@''GNULIB_STRSIGNAL''@|1|g' \
+	      -e 's|@''GNULIB_STRVERSCMP''@|0|g' \
+	      -e 's|@''HAVE_DECL_MEMMEM''@|1|g' \
+	      -e 's|@''HAVE_MEMPCPY''@|1|g' \
+	      -e 's|@''HAVE_DECL_MEMRCHR''@|1|g' \
+	      -e 's|@''HAVE_RAWMEMCHR''@|1|g' \
+	      -e 's|@''HAVE_STPCPY''@|1|g' \
+	      -e 's|@''HAVE_STPNCPY''@|1|g' \
+	      -e 's|@''HAVE_STRCHRNUL''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRDUP''@|1|g' \
+	      -e 's|@''HAVE_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNDUP''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRNLEN''@|1|g' \
+	      -e 's|@''HAVE_STRPBRK''@|1|g' \
+	      -e 's|@''HAVE_STRSEP''@|1|g' \
+	      -e 's|@''HAVE_STRCASESTR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRTOK_R''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRERROR''@|1|g' \
+	      -e 's|@''HAVE_DECL_STRSIGNAL''@|1|g' \
+	      -e 's|@''HAVE_STRVERSCMP''@|1|g' \
+	      -e 's|@''REPLACE_MEMMEM''@|0|g' \
+	      -e 's|@''REPLACE_STRCASESTR''@|0|g' \
+	      -e 's|@''REPLACE_STRDUP''@|0|g' \
+	      -e 's|@''REPLACE_STRSTR''@|1|g' \
+	      -e 's|@''REPLACE_STRERROR''@|0|g' \
+	      -e 's|@''REPLACE_STRSIGNAL''@|1|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/string.in.h; \
+	} > string.h-t
+mv string.h-t string.h
+/usr/gnu/bin/mkdir -p sys
+rm -f sys/stat.h-t sys/stat.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_SYS_STAT_H''@|<sys/stat.h>|g' \
+	      -e 's|@''HAVE_LSTAT''@|1|g' \
+	      -e 's|@''REPLACE_MKDIR''@|0|g' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/sys_stat.in.h; \
+	} > sys/stat.h-t
+mv sys/stat.h-t sys/stat.h
+rm -f unistd.h-t unistd.h
+{ echo '/* DO NOT EDIT! GENERATED AUTOMATICALLY! */'; \
+	  sed -e 's|@''HAVE_UNISTD_H''@|1|g' \
+	      -e 's|@''INCLUDE_NEXT''@|include_next|g' \
+	      -e 's|@''PRAGMA_SYSTEM_HEADER''@||g' \
+	      -e 's|@''NEXT_UNISTD_H''@|<unistd.h>|g' \
+	      -e 's|@''GNULIB_CHOWN''@|0|g' \
+	      -e 's|@''GNULIB_CLOSE''@|0|g' \
+	      -e 's|@''GNULIB_DUP2''@|0|g' \
+	      -e 's|@''GNULIB_ENVIRON''@|0|g' \
+	      -e 's|@''GNULIB_FCHDIR''@|0|g' \
+	      -e 's|@''GNULIB_FSYNC''@|0|g' \
+	      -e 's|@''GNULIB_FTRUNCATE''@|0|g' \
+	      -e 's|@''GNULIB_GETCWD''@|0|g' \
+	      -e 's|@''GNULIB_GETDTABLESIZE''@|0|g' \
+	      -e 's|@''GNULIB_GETLOGIN_R''@|0|g' \
+	      -e 's|@''GNULIB_GETPAGESIZE''@|0|g' \
+	      -e 's|@''GNULIB_LCHOWN''@|0|g' \
+	      -e 's|@''GNULIB_LSEEK''@|1|g' \
+	      -e 's|@''GNULIB_READLINK''@|0|g' \
+	      -e 's|@''GNULIB_SLEEP''@|0|g' \
+	      -e 's|@''GNULIB_UNISTD_H_SIGPIPE''@|0|g' \
+	      -e 's|@''GNULIB_WRITE''@|0|g' \
+	      -e 's|@''HAVE_DUP2''@|1|g' \
+	      -e 's|@''HAVE_FSYNC''@|1|g' \
+	      -e 's|@''HAVE_FTRUNCATE''@|1|g' \
+	      -e 's|@''HAVE_GETDTABLESIZE''@|1|g' \
+	      -e 's|@''HAVE_GETPAGESIZE''@|1|g' \
+	      -e 's|@''HAVE_READLINK''@|1|g' \
+	      -e 's|@''HAVE_SLEEP''@|1|g' \
+	      -e 's|@''HAVE_DECL_ENVIRON''@|1|g' \
+	      -e 's|@''HAVE_DECL_GETLOGIN_R''@|1|g' \
+	      -e 's|@''HAVE_OS_H''@|0|g' \
+	      -e 's|@''HAVE_SYS_PARAM_H''@|0|g' \
+	      -e 's|@''REPLACE_CHOWN''@|0|g' \
+	      -e 's|@''REPLACE_CLOSE''@|0|g' \
+	      -e 's|@''REPLACE_FCHDIR''@|0|g' \
+	      -e 's|@''REPLACE_GETCWD''@|0|g' \
+	      -e 's|@''REPLACE_GETPAGESIZE''@|0|g' \
+	      -e 's|@''REPLACE_LCHOWN''@|0|g' \
+	      -e 's|@''REPLACE_LSEEK''@|0|g' \
+	      -e 's|@''REPLACE_WRITE''@|0|g' \
+	      -e 's|@''UNISTD_H_HAVE_WINSOCK2_H''@|0|g' \
+	      -e '/definition of GL_LINK_WARNING/r /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/link-warning.h' \
+	      < /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/unistd.in.h; \
+	} > unistd.h-t
+mv unistd.h-t unistd.h
+/usr/gnu/bin/make  all-recursive
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_avltree_oset.c' object='gl_avltree_oset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gl_avltree_oset.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_avltree_oset.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/c-ctype.c' object='c-ctype.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o c-ctype.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/c-ctype.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/c-stack.c' object='c-stack.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o c-stack.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/c-stack.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/clean-temp.c' object='clean-temp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o clean-temp.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/clean-temp.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fatal-signal.c' object='fatal-signal.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o fatal-signal.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fatal-signal.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fpurge.c' object='fpurge.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o fpurge.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fpurge.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/freadahead.c' object='freadahead.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o freadahead.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/freadahead.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/freading.c' object='freading.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o freading.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/freading.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_linkedhash_list.c' object='gl_linkedhash_list.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gl_linkedhash_list.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_linkedhash_list.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_list.c' object='gl_list.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gl_list.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_list.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/localcharset.c' object='localcharset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o localcharset.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/localcharset.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/lock.c' object='glthread/lock.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o glthread/lock.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/lock.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/malloca.c' object='malloca.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o malloca.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/malloca.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_oset.c' object='gl_oset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o gl_oset.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/gl_oset.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-frexp.c' object='printf-frexp.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o printf-frexp.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-frexp.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-frexpl.c' object='printf-frexpl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o printf-frexpl.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-frexpl.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/progname.c' object='progname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o progname.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/progname.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/threadlib.c' object='glthread/threadlib.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o glthread/threadlib.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/threadlib.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/tls.c' object='glthread/tls.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o glthread/tls.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/glthread/tls.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/tmpdir.c' object='tmpdir.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o tmpdir.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/tmpdir.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/verror.c' object='verror.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o verror.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/verror.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/version-etc.c' object='version-etc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o version-etc.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/version-etc.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/version-etc-fsf.c' object='version-etc-fsf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o version-etc-fsf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/version-etc-fsf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xalloc-die.c' object='xalloc-die.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xalloc-die.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xalloc-die.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xmalloca.c' object='xmalloca.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xmalloca.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xmalloca.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xprintf.c' object='xprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xstrndup.c' object='xstrndup.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xstrndup.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xstrndup.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xvasprintf.c' object='xvasprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xvasprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xvasprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xasprintf.c' object='xasprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xasprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xasprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/asnprintf.c' object='asnprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o asnprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/asnprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/asprintf.c' object='asprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o asprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/asprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/basename.c' object='basename.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o basename.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/basename.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/cloexec.c' object='cloexec.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o cloexec.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/cloexec.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/close-stream.c' object='close-stream.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o close-stream.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/close-stream.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/closein.c' object='closein.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o closein.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/closein.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/closeout.c' object='closeout.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o closeout.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/closeout.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/dirname.c' object='dirname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o dirname.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/dirname.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/dup-safer.c' object='dup-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o dup-safer.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/dup-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/error.c' object='error.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o error.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/error.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/exitfail.c' object='exitfail.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o exitfail.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/exitfail.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fd-safer.c' object='fd-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o fd-safer.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fd-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/filenamecat.c' object='filenamecat.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o filenamecat.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/filenamecat.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fopen-safer.c' object='fopen-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o fopen-safer.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/fopen-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/frexpl.c' object='frexpl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o frexpl.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/frexpl.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o getopt.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o getopt1.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/isnanl.c' object='isnanl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o isnanl.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/isnanl.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/mkstemp-safer.c' object='mkstemp-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o mkstemp-safer.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/mkstemp-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/obstack.c' object='obstack.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o obstack.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/obstack.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/pipe-safer.c' object='pipe-safer.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o pipe-safer.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/pipe-safer.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-args.c' object='printf-args.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o printf-args.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-args.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-parse.c' object='printf-parse.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o printf-parse.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/printf-parse.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/quotearg.c' object='quotearg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o quotearg.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/quotearg.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o regex.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/regex.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitd.c' object='signbitd.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o signbitd.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitd.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitf.c' object='signbitf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o signbitf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitl.c' object='signbitl.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o signbitl.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/signbitl.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/stripslash.c' object='stripslash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o stripslash.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/stripslash.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strsignal.c' object='strsignal.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o strsignal.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strsignal.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strstr.c' object='strstr.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o strstr.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strstr.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strtod.c' object='strtod.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o strtod.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/strtod.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/tempname.c' object='tempname.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o tempname.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/tempname.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/vasnprintf.c' object='vasnprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o vasnprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/vasnprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/vasprintf.c' object='vasprintf.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o vasprintf.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/vasprintf.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc  -I. -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o xmalloc.o /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/xmalloc.c
+rm -f libm4.a
+ar cru libm4.a gl_avltree_oset.o c-ctype.o c-stack.o clean-temp.o fatal-signal.o fpurge.o freadahead.o freading.o gl_linkedhash_list.o gl_list.o localcharset.o glthread/lock.o malloca.o gl_oset.o printf-frexp.o printf-frexpl.o progname.o glthread/threadlib.o glthread/tls.o tmpdir.o verror.o version-etc.o version-etc-fsf.o xalloc-die.o xmalloca.o xprintf.o xstrndup.o xvasprintf.o xasprintf.o asnprintf.o asprintf.o basename.o cloexec.o close-stream.o closein.o closeout.o dirname.o dup-safer.o error.o exitfail.o fd-safer.o filenamecat.o fopen-safer.o frexpl.o getopt.o getopt1.o isnanl.o mkstemp-safer.o obstack.o pipe-safer.o printf-args.o printf-parse.o quotearg.o regex.o signbitd.o signbitf.o signbitl.o stripslash.o strsignal.o strstr.o strtod.o tempname.o vasnprintf.o vasprintf.o xmalloc.o 
+ranlib libm4.a
+rm -f t-charset.alias charset.alias
+/bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/config.charset 'i386-pc-solaris2.11' > t-charset.alias
+mv t-charset.alias charset.alias
+rm -f t-ref-add.sed ref-add.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/m4/g' /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/ref-add.sin > t-ref-add.sed
+mv t-ref-add.sed ref-add.sed
+rm -f t-ref-del.sed ref-del.sed
+sed -e '/^#/d' -e 's/@''PACKAGE''@/m4/g' /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib/ref-del.sin > t-ref-del.sed
+mv t-ref-del.sed ref-del.sed
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/m4.c' object='m4.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/m4.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/builtin.c' object='builtin.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/builtin.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/debug.c' object='debug.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/debug.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/eval.c' object='eval.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/eval.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/format.c' object='format.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/format.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/freeze.c' object='freeze.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/freeze.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/input.c' object='input.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/input.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/macro.c' object='macro.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/macro.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/output.c' object='output.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/output.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/path.c' object='path.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/path.c
+source='/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/symtab.c' object='symtab.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/build-aux/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc    -I/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/lib -I../lib   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/src/symtab.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o m4 m4.o builtin.o debug.o eval.o format.o freeze.o input.o macro.o output.o path.o symtab.o ../lib/libm4.a  -lm -lsigsegv 
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/src'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/doc'
+Making all in checks
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/checks'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/checks'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+/usr/gnu/bin/make  all-recursive
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+make[5]: Nothing to be done for `all-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/m4/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/m4/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+/usr/gnu/bin/make  check-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+Making check in .
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+Making check in examples
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/examples'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/examples'
+Making check in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+/usr/gnu/bin/make  check-recursive
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[5]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[5]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/lib'
+Making check in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/src'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/src'
+Making check in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/doc'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/doc'
+Making check in checks
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/checks'
+PATH=`pwd`/../src":"$PATH; export PATH; \
+	/export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/check-them -I /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/../examples /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/*[0-9][0-9][0-9].* /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/stackovf.test
+m4 (GNU M4) 1.4.12
+Copyright (C) 2008 Free Software Foundation, Inc.
+License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+This is free software: you are free to change and redistribute it.
+There is NO WARRANTY, to the extent permitted by law.
+
+Written by Rene' Seindal.
+No differences encountered
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/001.preprocess
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/002.command_li
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/003.command_li
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/004.comments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/005.comments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/006.input_proc
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/007.input_proc
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/008.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/009.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/010.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/011.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/012.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/013.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/014.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/015.inhibiting
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/016.macro_argu
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/017.macro_argu
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/018.macro_argu
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/019.macro_argu
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/020.macro_argu
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/021.quoting_ar
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/022.macro_expa
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/023.macro_expa
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/024.define
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/025.define
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/026.define
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/027.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/028.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/029.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/030.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/031.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/032.arguments
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/033.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/034.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/035.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/036.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/037.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/038.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/039.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/040.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/041.pseudo_arg
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/042.undefine
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/043.undefine
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/044.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/045.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/046.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/047.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/048.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/049.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/050.defn
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/051.pushdef
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/052.pushdef
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/053.indir
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/054.indir
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/055.indir
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/056.builtin
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/057.builtin
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/058.builtin
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/059.builtin
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/060.builtin
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/061.ifdef
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/062.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/063.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/064.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/065.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/066.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/067.ifelse
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/068.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/069.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/070.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/071.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/072.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/073.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/074.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/075.shift
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/076.forloop
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/077.forloop
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/078.forloop
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/079.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/080.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/081.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/082.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/083.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/084.foreach
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/085.dumpdef
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/086.dumpdef
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/087.trace
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/088.trace
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/089.trace
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/090.trace
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/091.trace
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/092.debug_leve
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/093.debug_leve
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/094.debug_leve
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/095.debug_outp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/096.dnl
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/097.dnl
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/098.dnl
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/099.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/100.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/101.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/102.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/103.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/104.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/105.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/106.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/107.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/108.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/109.changequot
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/110.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/111.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/112.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/113.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/114.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/115.changecom
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/116.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/117.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/118.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/119.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/120.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/121.changeword
+ skipping: no changeword support
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/122.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/123.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/124.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/125.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/126.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/127.m4wrap
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/128.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/129.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/130.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/131.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/132.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/133.include
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/134.diversions
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/135.diversions
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/136.diversions
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/137.divert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/138.divert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/139.divert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/140.divert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/141.divert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/142.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/143.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/144.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/145.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/146.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/147.undivert
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/148.divnum
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/149.cleardiver
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/150.cleardiver
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/151.len
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/152.index_macr
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/153.index_macr
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/154.regexp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/155.regexp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/156.regexp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/157.substr
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/158.substr
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/159.translit
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/160.translit
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/161.translit
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/162.patsubst
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/163.patsubst
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/164.patsubst
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/165.patsubst
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/166.patsubst
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/167.format
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/168.format
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/169.format
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/170.incr
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/171.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/172.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/173.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/174.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/175.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/176.eval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/177.platform_m
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/178.platform_m
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/179.platform_m
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/180.syscmd
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/181.syscmd
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/182.esyscmd
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/183.sysval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/184.sysval
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/185.mkstemp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/186.mkstemp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/187.mkstemp
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/188.errprint
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/189.location
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/190.location
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/191.location
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/192.m4exit
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/193.m4exit
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/194.using_froz
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/195.using_froz
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/196.using_froz
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/197.extensions
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/198.other_inco
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/199.other_inco
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/200.improved_e
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/201.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/202.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/203.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/204.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/205.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/206.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/207.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/208.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/209.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/210.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/211.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/212.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/213.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/214.improved_m
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/215.improved_m
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/216.improved_c
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/217.improved_c
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/218.improved_c
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/219.improved_f
+Checking /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/stackovf.test
+Stack soft limit set to 300K
+Failure - m4 aborted unexpectedly
+Output from m4:
+m4: internal error detected; please report this bug to <bug-m4@gnu.org>: Segmentation fault
+
+Skipped checks were:
+  /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/116.changeword /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/117.changeword /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/118.changeword /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/119.changeword /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/120.changeword /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/121.changeword
+Failed checks were:
+  /export/home/drlou/illumos-userland-1248/components/m4/m4-1.4.12/checks/stackovf.test
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86/checks'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/m4/build/i86'

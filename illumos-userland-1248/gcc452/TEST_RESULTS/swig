@@ -1,0 +1,2182 @@
+(cd /export/home/drlou/illumos-userland/components/swig/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+test -x ./swig
+./swig -version
+
+SWIG Version 1.3.35
+
+Compiled with /opt/SUNWspro/sunstudio12.1/bin/CC [i386-pc-solaris2.11]
+Please see http://www.swig.org for reporting bugs and further information
+./swig -help
+Target Language Options
+     -allegrocl      - Generate ALLEGROCL wrappers
+     -chicken        - Generate CHICKEN wrappers
+     -clisp          - Generate CLISP wrappers
+     -cffi           - Generate CFFI wrappers
+     -csharp         - Generate C# wrappers
+     -guile          - Generate Guile wrappers
+     -java           - Generate Java wrappers
+     -lua            - Generate Lua wrappers
+     -modula3        - Generate Modula 3 wrappers
+     -mzscheme       - Generate Mzscheme wrappers
+     -ocaml          - Generate Ocaml wrappers
+     -octave         - Generate Octave wrappers
+     -perl           - Generate Perl wrappers
+     -php4           - Generate PHP4 wrappers
+     -php5           - Generate PHP5 wrappers
+     -pike           - Generate Pike wrappers
+     -python         - Generate Python wrappers
+     -r              - Generate R (aka GNU S) wrappers
+     -ruby           - Generate Ruby wrappers
+     -sexp           - Generate Lisp S-Expressions wrappers
+     -tcl            - Generate Tcl wrappers
+     -uffi           - Generate Common Lisp / UFFI wrappers
+     -xml            - Generate XML wrappers
+
+General Options
+     -addextern      - Add extra extern declarations
+     -c++            - Enable C++ processing
+     -co <file>      - Check <file> out of the SWIG library
+     -copyctor       - Automatically generate copy constructors wherever possible
+     -cpperraswarn   - Treat the preprocessor #error statement as #warning (default)
+     -copyright      - Display copyright notices
+     -debug-classes  - Display information about the classes found in the interface
+     -debug-module <n>- Display module parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-tags     - Display information about the tags found in the interface
+     -debug-template - Display information for debugging templates
+     -debug-top <n>  - Display entire parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-typedef  - Display information about the types and typedefs in the interface
+     -debug-typemap  - Display information for debugging typemaps
+     -directors      - Turn on director mode for all the classes, mainly for testing
+     -dirprot        - Turn on wrapping of protected members for director classes (default)
+     -D<symbol>      - Define a symbol <symbol> (for conditional compilation)
+     -E              - Preprocess only, does not generate wrapper code
+     -external-runtime [file] - Export the SWIG runtime stack
+     -fakeversion <v>- Make SWIG fake the program version number to <v>
+     -fcompact       - Compile in compact mode
+     -features <list>- Set global features, where <list> is a comma separated list of
+                       features, eg -features directors,autodoc=1
+                       If no explicit value is given to the feature, a default of 1 is used
+     -fastdispatch   - Enable fast dispatch mode to produce faster overload dispatcher code
+     -Fmicrosoft     - Display error/warning messages in Microsoft format
+     -Fstandard      - Display error/warning messages in commonly used format
+     -fvirtual       - Compile in virtual elimination mode
+     -help           - This output
+     -I-             - Don't search the current directory
+     -I<dir>         - Look for SWIG files in directory <dir>
+     -ignoremissing  - Ignore missing include files
+     -importall      - Follow all #include statements as imports
+     -includeall     - Follow all #include statements
+     -l<ifile>       - Include SWIG library file <ifile>
+     -macroerrors    - Report errors inside macros
+     -makedefault    - Create default constructors/destructors (the default)
+     -M              - List all dependencies
+     -MD             - Is equivalent to `-M -MF <file>', except `-E' is not implied
+     -MF <file>      - Generate dependencies into <file> and continue generating wrappers
+     -MM             - List dependencies, but omit files in SWIG library
+     -MMD            - Like `-MD', but omit files in SWIG library
+     -module <name>  - Set module name to <name>
+     -nocontract     - Turn off contract checking
+     -nocpperraswarn - Do not treat the preprocessor #error statement as #warning
+     -nodefault      - Do not generate default constructors nor default destructors
+     -nodefaultctor  - Do not generate implicit default constructors
+     -nodefaultdtor  - Do not generate implicit default destructors
+     -nodirprot      - Do not wrap director protected members
+     -noexcept       - Do not wrap exception specifiers
+     -nofastdispatch - Disable fast dispatch mode (default)
+     -nopreprocess   - Skip the preprocessor step
+     -notemplatereduce - Disable reduction of the typedefs in templates
+     -O              - Enable the optimization options: 
+                        -fastdispatch -fvirtual 
+     -o <outfile>    - Set name of the output file to <outfile>
+     -oh <headfile>  - Set name of the output header file to <headfile>
+     -outdir <dir>   - Set language specific files output directory <dir>
+     -small          - Compile in virtual elimination & compact mode
+     -swiglib        - Report location of SWIG library and exit
+     -templatereduce - Reduce all the typedefs in templates
+     -v              - Run in verbose mode
+     -version        - Display SWIG version number
+     -Wall           - Remove all warning suppression, also implies -Wextra
+     -Wallkw         - Enable keyword warnings for all the supported languages
+     -Werror         - Treat warnings as errors
+     -Wextra         - Adds the following additional warnings: 202,309,403,512,321,322
+     -w<list>        - Suppress/add warning messages, eg -w401,+321 - see Warnings.html
+     -xmlout <file>  - Write XML version of the parse tree to <file> after normal processing
+
+Options can also be defined using the SWIG_FEATURES environment variable, for example:
+
+  $ SWIG_FEATURES="-Wall"
+  $ export SWIG_FEATURES
+  $ swig -python interface.i
+
+is equivalent to: 
+
+  $ swig -Wall -python interface.i 
+
+
+Tcl 8 Options (available with -tcl)
+     -itcl           - Enable ITcl support
+     -nosafe         - Leave out SafeInit module function.
+     -prefix <name>  - Set a prefix <name> to be prepended to all names
+     -namespace      - Build module into a Tcl 8 namespace
+     -pkgversion     - Set package version
+
+
+Note: 'swig -<lang> -help' displays options for a specific target language.
+
+Target Language Options
+     -allegrocl      - Generate ALLEGROCL wrappers
+     -chicken        - Generate CHICKEN wrappers
+     -clisp          - Generate CLISP wrappers
+     -cffi           - Generate CFFI wrappers
+     -csharp         - Generate C# wrappers
+     -guile          - Generate Guile wrappers
+     -java           - Generate Java wrappers
+     -lua            - Generate Lua wrappers
+     -modula3        - Generate Modula 3 wrappers
+     -mzscheme       - Generate Mzscheme wrappers
+     -ocaml          - Generate Ocaml wrappers
+     -octave         - Generate Octave wrappers
+     -perl           - Generate Perl wrappers
+     -php4           - Generate PHP4 wrappers
+     -php5           - Generate PHP5 wrappers
+     -pike           - Generate Pike wrappers
+     -python         - Generate Python wrappers
+     -r              - Generate R (aka GNU S) wrappers
+     -ruby           - Generate Ruby wrappers
+     -sexp           - Generate Lisp S-Expressions wrappers
+     -tcl            - Generate Tcl wrappers
+     -uffi           - Generate Common Lisp / UFFI wrappers
+     -xml            - Generate XML wrappers
+
+General Options
+     -addextern      - Add extra extern declarations
+     -c++            - Enable C++ processing
+     -co <file>      - Check <file> out of the SWIG library
+     -copyctor       - Automatically generate copy constructors wherever possible
+     -cpperraswarn   - Treat the preprocessor #error statement as #warning (default)
+     -copyright      - Display copyright notices
+     -debug-classes  - Display information about the classes found in the interface
+     -debug-module <n>- Display module parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-tags     - Display information about the tags found in the interface
+     -debug-template - Display information for debugging templates
+     -debug-top <n>  - Display entire parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-typedef  - Display information about the types and typedefs in the interface
+     -debug-typemap  - Display information for debugging typemaps
+     -directors      - Turn on director mode for all the classes, mainly for testing
+     -dirprot        - Turn on wrapping of protected members for director classes (default)
+     -D<symbol>      - Define a symbol <symbol> (for conditional compilation)
+     -E              - Preprocess only, does not generate wrapper code
+     -external-runtime [file] - Export the SWIG runtime stack
+     -fakeversion <v>- Make SWIG fake the program version number to <v>
+     -fcompact       - Compile in compact mode
+     -features <list>- Set global features, where <list> is a comma separated list of
+                       features, eg -features directors,autodoc=1
+                       If no explicit value is given to the feature, a default of 1 is used
+     -fastdispatch   - Enable fast dispatch mode to produce faster overload dispatcher code
+     -Fmicrosoft     - Display error/warning messages in Microsoft format
+     -Fstandard      - Display error/warning messages in commonly used format
+     -fvirtual       - Compile in virtual elimination mode
+     -help           - This output
+     -I-             - Don't search the current directory
+     -I<dir>         - Look for SWIG files in directory <dir>
+     -ignoremissing  - Ignore missing include files
+     -importall      - Follow all #include statements as imports
+     -includeall     - Follow all #include statements
+     -l<ifile>       - Include SWIG library file <ifile>
+     -macroerrors    - Report errors inside macros
+     -makedefault    - Create default constructors/destructors (the default)
+     -M              - List all dependencies
+     -MD             - Is equivalent to `-M -MF <file>', except `-E' is not implied
+     -MF <file>      - Generate dependencies into <file> and continue generating wrappers
+     -MM             - List dependencies, but omit files in SWIG library
+     -MMD            - Like `-MD', but omit files in SWIG library
+     -module <name>  - Set module name to <name>
+     -nocontract     - Turn off contract checking
+     -nocpperraswarn - Do not treat the preprocessor #error statement as #warning
+     -nodefault      - Do not generate default constructors nor default destructors
+     -nodefaultctor  - Do not generate implicit default constructors
+     -nodefaultdtor  - Do not generate implicit default destructors
+     -nodirprot      - Do not wrap director protected members
+     -noexcept       - Do not wrap exception specifiers
+     -nofastdispatch - Disable fast dispatch mode (default)
+     -nopreprocess   - Skip the preprocessor step
+     -notemplatereduce - Disable reduction of the typedefs in templates
+     -O              - Enable the optimization options: 
+                        -fastdispatch -fvirtual 
+     -o <outfile>    - Set name of the output file to <outfile>
+     -oh <headfile>  - Set name of the output header file to <headfile>
+     -outdir <dir>   - Set language specific files output directory <dir>
+     -small          - Compile in virtual elimination & compact mode
+     -swiglib        - Report location of SWIG library and exit
+     -templatereduce - Reduce all the typedefs in templates
+     -v              - Run in verbose mode
+     -version        - Display SWIG version number
+     -Wall           - Remove all warning suppression, also implies -Wextra
+     -Wallkw         - Enable keyword warnings for all the supported languages
+     -Werror         - Treat warnings as errors
+     -Wextra         - Adds the following additional warnings: 202,309,403,512,321,322
+     -w<list>        - Suppress/add warning messages, eg -w401,+321 - see Warnings.html
+     -xmlout <file>  - Write XML version of the parse tree to <file> after normal processing
+
+Options can also be defined using the SWIG_FEATURES environment variable, for example:
+
+  $ SWIG_FEATURES="-Wall"
+  $ export SWIG_FEATURES
+  $ swig -python interface.i
+
+is equivalent to: 
+
+  $ swig -Wall -python interface.i 
+
+
+Tcl 8 Options (available with -tcl)
+     -itcl           - Enable ITcl support
+     -nosafe         - Leave out SafeInit module function.
+     -prefix <name>  - Set a prefix <name> to be prepended to all names
+     -namespace      - Build module into a Tcl 8 namespace
+     -pkgversion     - Set package version
+
+
+Note: 'swig -<lang> -help' displays options for a specific target language.
+
+Target Language Options
+     -allegrocl      - Generate ALLEGROCL wrappers
+     -chicken        - Generate CHICKEN wrappers
+     -clisp          - Generate CLISP wrappers
+     -cffi           - Generate CFFI wrappers
+     -csharp         - Generate C# wrappers
+     -guile          - Generate Guile wrappers
+     -java           - Generate Java wrappers
+     -lua            - Generate Lua wrappers
+     -modula3        - Generate Modula 3 wrappers
+     -mzscheme       - Generate Mzscheme wrappers
+     -ocaml          - Generate Ocaml wrappers
+     -octave         - Generate Octave wrappers
+     -perl           - Generate Perl wrappers
+     -php4           - Generate PHP4 wrappers
+     -php5           - Generate PHP5 wrappers
+     -pike           - Generate Pike wrappers
+     -python         - Generate Python wrappers
+     -r              - Generate R (aka GNU S) wrappers
+     -ruby           - Generate Ruby wrappers
+     -sexp           - Generate Lisp S-Expressions wrappers
+     -tcl            - Generate Tcl wrappers
+     -uffi           - Generate Common Lisp / UFFI wrappers
+     -xml            - Generate XML wrappers
+
+General Options
+     -addextern      - Add extra extern declarations
+     -c++            - Enable C++ processing
+     -co <file>      - Check <file> out of the SWIG library
+     -copyctor       - Automatically generate copy constructors wherever possible
+     -cpperraswarn   - Treat the preprocessor #error statement as #warning (default)
+     -copyright      - Display copyright notices
+     -debug-classes  - Display information about the classes found in the interface
+     -debug-module <n>- Display module parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-tags     - Display information about the tags found in the interface
+     -debug-template - Display information for debugging templates
+     -debug-top <n>  - Display entire parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-typedef  - Display information about the types and typedefs in the interface
+     -debug-typemap  - Display information for debugging typemaps
+     -directors      - Turn on director mode for all the classes, mainly for testing
+     -dirprot        - Turn on wrapping of protected members for director classes (default)
+     -D<symbol>      - Define a symbol <symbol> (for conditional compilation)
+     -E              - Preprocess only, does not generate wrapper code
+     -external-runtime [file] - Export the SWIG runtime stack
+     -fakeversion <v>- Make SWIG fake the program version number to <v>
+     -fcompact       - Compile in compact mode
+     -features <list>- Set global features, where <list> is a comma separated list of
+                       features, eg -features directors,autodoc=1
+                       If no explicit value is given to the feature, a default of 1 is used
+     -fastdispatch   - Enable fast dispatch mode to produce faster overload dispatcher code
+     -Fmicrosoft     - Display error/warning messages in Microsoft format
+     -Fstandard      - Display error/warning messages in commonly used format
+     -fvirtual       - Compile in virtual elimination mode
+     -help           - This output
+     -I-             - Don't search the current directory
+     -I<dir>         - Look for SWIG files in directory <dir>
+     -ignoremissing  - Ignore missing include files
+     -importall      - Follow all #include statements as imports
+     -includeall     - Follow all #include statements
+     -l<ifile>       - Include SWIG library file <ifile>
+     -macroerrors    - Report errors inside macros
+     -makedefault    - Create default constructors/destructors (the default)
+     -M              - List all dependencies
+     -MD             - Is equivalent to `-M -MF <file>', except `-E' is not implied
+     -MF <file>      - Generate dependencies into <file> and continue generating wrappers
+     -MM             - List dependencies, but omit files in SWIG library
+     -MMD            - Like `-MD', but omit files in SWIG library
+     -module <name>  - Set module name to <name>
+     -nocontract     - Turn off contract checking
+     -nocpperraswarn - Do not treat the preprocessor #error statement as #warning
+     -nodefault      - Do not generate default constructors nor default destructors
+     -nodefaultctor  - Do not generate implicit default constructors
+     -nodefaultdtor  - Do not generate implicit default destructors
+     -nodirprot      - Do not wrap director protected members
+     -noexcept       - Do not wrap exception specifiers
+     -nofastdispatch - Disable fast dispatch mode (default)
+     -nopreprocess   - Skip the preprocessor step
+     -notemplatereduce - Disable reduction of the typedefs in templates
+     -O              - Enable the optimization options: 
+                        -fastdispatch -fvirtual 
+     -o <outfile>    - Set name of the output file to <outfile>
+     -oh <headfile>  - Set name of the output header file to <headfile>
+     -outdir <dir>   - Set language specific files output directory <dir>
+     -small          - Compile in virtual elimination & compact mode
+     -swiglib        - Report location of SWIG library and exit
+     -templatereduce - Reduce all the typedefs in templates
+     -v              - Run in verbose mode
+     -version        - Display SWIG version number
+     -Wall           - Remove all warning suppression, also implies -Wextra
+     -Wallkw         - Enable keyword warnings for all the supported languages
+     -Werror         - Treat warnings as errors
+     -Wextra         - Adds the following additional warnings: 202,309,403,512,321,322
+     -w<list>        - Suppress/add warning messages, eg -w401,+321 - see Warnings.html
+     -xmlout <file>  - Write XML version of the parse tree to <file> after normal processing
+
+Options can also be defined using the SWIG_FEATURES environment variable, for example:
+
+  $ SWIG_FEATURES="-Wall"
+  $ export SWIG_FEATURES
+  $ swig -python interface.i
+
+is equivalent to: 
+
+  $ swig -Wall -python interface.i 
+
+
+Perl5 Options (available with -perl5)
+     -static         - Omit code related to dynamic loading
+     -nopm           - Do not generate the .pm file
+     -proxy          - Create proxy classes
+     -noproxy        - Don't create proxy classes
+     -const          - Wrap constants as constants and not variables (implies -proxy)
+     -nocppcast      - Disable C++ casting operators, useful for generating bugs
+     -cppcast        - Enable C++ casting operators
+     -compat         - Compatibility mode
+
+
+Note: 'swig -<lang> -help' displays options for a specific target language.
+
+Target Language Options
+     -allegrocl      - Generate ALLEGROCL wrappers
+     -chicken        - Generate CHICKEN wrappers
+     -clisp          - Generate CLISP wrappers
+     -cffi           - Generate CFFI wrappers
+     -csharp         - Generate C# wrappers
+     -guile          - Generate Guile wrappers
+     -java           - Generate Java wrappers
+     -lua            - Generate Lua wrappers
+     -modula3        - Generate Modula 3 wrappers
+     -mzscheme       - Generate Mzscheme wrappers
+     -ocaml          - Generate Ocaml wrappers
+     -octave         - Generate Octave wrappers
+     -perl           - Generate Perl wrappers
+     -php4           - Generate PHP4 wrappers
+     -php5           - Generate PHP5 wrappers
+     -pike           - Generate Pike wrappers
+     -python         - Generate Python wrappers
+     -r              - Generate R (aka GNU S) wrappers
+     -ruby           - Generate Ruby wrappers
+     -sexp           - Generate Lisp S-Expressions wrappers
+     -tcl            - Generate Tcl wrappers
+     -uffi           - Generate Common Lisp / UFFI wrappers
+     -xml            - Generate XML wrappers
+
+General Options
+     -addextern      - Add extra extern declarations
+     -c++            - Enable C++ processing
+     -co <file>      - Check <file> out of the SWIG library
+     -copyctor       - Automatically generate copy constructors wherever possible
+     -cpperraswarn   - Treat the preprocessor #error statement as #warning (default)
+     -copyright      - Display copyright notices
+     -debug-classes  - Display information about the classes found in the interface
+     -debug-module <n>- Display module parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-tags     - Display information about the tags found in the interface
+     -debug-template - Display information for debugging templates
+     -debug-top <n>  - Display entire parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-typedef  - Display information about the types and typedefs in the interface
+     -debug-typemap  - Display information for debugging typemaps
+     -directors      - Turn on director mode for all the classes, mainly for testing
+     -dirprot        - Turn on wrapping of protected members for director classes (default)
+     -D<symbol>      - Define a symbol <symbol> (for conditional compilation)
+     -E              - Preprocess only, does not generate wrapper code
+     -external-runtime [file] - Export the SWIG runtime stack
+     -fakeversion <v>- Make SWIG fake the program version number to <v>
+     -fcompact       - Compile in compact mode
+     -features <list>- Set global features, where <list> is a comma separated list of
+                       features, eg -features directors,autodoc=1
+                       If no explicit value is given to the feature, a default of 1 is used
+     -fastdispatch   - Enable fast dispatch mode to produce faster overload dispatcher code
+     -Fmicrosoft     - Display error/warning messages in Microsoft format
+     -Fstandard      - Display error/warning messages in commonly used format
+     -fvirtual       - Compile in virtual elimination mode
+     -help           - This output
+     -I-             - Don't search the current directory
+     -I<dir>         - Look for SWIG files in directory <dir>
+     -ignoremissing  - Ignore missing include files
+     -importall      - Follow all #include statements as imports
+     -includeall     - Follow all #include statements
+     -l<ifile>       - Include SWIG library file <ifile>
+     -macroerrors    - Report errors inside macros
+     -makedefault    - Create default constructors/destructors (the default)
+     -M              - List all dependencies
+     -MD             - Is equivalent to `-M -MF <file>', except `-E' is not implied
+     -MF <file>      - Generate dependencies into <file> and continue generating wrappers
+     -MM             - List dependencies, but omit files in SWIG library
+     -MMD            - Like `-MD', but omit files in SWIG library
+     -module <name>  - Set module name to <name>
+     -nocontract     - Turn off contract checking
+     -nocpperraswarn - Do not treat the preprocessor #error statement as #warning
+     -nodefault      - Do not generate default constructors nor default destructors
+     -nodefaultctor  - Do not generate implicit default constructors
+     -nodefaultdtor  - Do not generate implicit default destructors
+     -nodirprot      - Do not wrap director protected members
+     -noexcept       - Do not wrap exception specifiers
+     -nofastdispatch - Disable fast dispatch mode (default)
+     -nopreprocess   - Skip the preprocessor step
+     -notemplatereduce - Disable reduction of the typedefs in templates
+     -O              - Enable the optimization options: 
+                        -fastdispatch -fvirtual 
+     -o <outfile>    - Set name of the output file to <outfile>
+     -oh <headfile>  - Set name of the output header file to <headfile>
+     -outdir <dir>   - Set language specific files output directory <dir>
+     -small          - Compile in virtual elimination & compact mode
+     -swiglib        - Report location of SWIG library and exit
+     -templatereduce - Reduce all the typedefs in templates
+     -v              - Run in verbose mode
+     -version        - Display SWIG version number
+     -Wall           - Remove all warning suppression, also implies -Wextra
+     -Wallkw         - Enable keyword warnings for all the supported languages
+     -Werror         - Treat warnings as errors
+     -Wextra         - Adds the following additional warnings: 202,309,403,512,321,322
+     -w<list>        - Suppress/add warning messages, eg -w401,+321 - see Warnings.html
+     -xmlout <file>  - Write XML version of the parse tree to <file> after normal processing
+
+Options can also be defined using the SWIG_FEATURES environment variable, for example:
+
+  $ SWIG_FEATURES="-Wall"
+  $ export SWIG_FEATURES
+  $ swig -python interface.i
+
+is equivalent to: 
+
+  $ swig -Wall -python interface.i 
+
+
+Python Options (available with -python)
+     -aliasobj0      - Alias obj0 when using fastunpack, needed for some old typemaps 
+     -apply          - Use apply() in proxy classes
+     -buildnone      - Use Py_BuildValue() to obtain Py_None (default in Windows)
+     -castmode       - Enable the casting mode, which allows implicit cast between types in python
+     -classic        - Use classic classes only
+     -classptr       - Generate shadow 'ClassPtr' as in older swig versions
+     -cppcast        - Enable C++ casting operators (default) 
+     -dirvtable      - Generate a pseudo virtual table for directors for faster dispatch 
+     -extranative    - Return extra native C++ wraps for std containers when possible 
+     -fastinit       - Use fast init mechanism for classes (default)
+     -fastunpack     - Use fast unpack mechanism to parse the argument functions 
+     -fastproxy      - Use fast proxy mechanism for member methods 
+     -fastquery      - Use fast query mechanism for types 
+     -globals <name> - Set <name> used to access C global variable [default: 'cvar']
+     -interface <lib>- Set the lib name to <lib>
+     -keyword        - Use keyword arguments
+     -modern         - Use modern python features only, without compatibility code
+     -modernargs     - Use "modern" args mechanism to pack/unpack the function arguments
+     -newrepr        - Use more informative version of __repr__ in proxy classes (default) 
+     -newvwm         - New value wrapper mode, use only when everything else fails 
+     -noaliasobj0    - Don't generate an obj0 alias when using fastunpack (default) 
+     -nobuildnone    - Access Py_None directly (default in non-Windows systems)
+     -nocastmode     - Disable the casting mode (default)
+     -nocppcast      - Disable C++ casting operators, useful for generating bugs
+     -nodirvtable    - Don't use the virtual table feature, resolve the python method each time (default)
+     -noexcept       - No automatic exception handling
+     -noextranative  - Don't use extra native C++ wraps for std containers when possible (default) 
+     -nofastinit     - Use traditional init mechanism for classes 
+     -nofastunpack   - Use traditional UnpackTuple method to parse the argument functions (default) 
+     -nofastproxy    - Use traditional proxy mechanism for member methods (default) 
+     -nofastquery    - Use traditional query mechanism for types (default) 
+     -noh            - Don't generate the output header file
+     -nomodern       - Don't use modern python features which are not back compatible 
+     -nomodernargs   - Use classic ParseTuple/CallFunction methods to pack/unpack the function arguments (default) 
+     -noolddefs      - Don't emit the old method definitions even when using fastproxy (default) 
+     -nooutputtuple  - Use a PyList for appending output values (default) 
+     -noproxy        - Don't generate proxy classes 
+     -noproxydel     - Don't generate the redundant __del__ method 
+     -noproxyimport  - Don't insert proxy import statements derived from the %import directive 
+     -nortti         - Disable the use of the native C++ RTTI with directors
+     -nosafecstrings - Avoid extra strings copies when possible (default)
+     -nothreads      - Disable thread support for the entire interface
+     -olddefs        - Keep the old method definitions even when using fastproxy
+     -oldrepr        - Use shorter and old version of __repr__ in proxy classes
+     -outputtuple    - Use a PyTuple for outputs instead of a PyList (use carefully with legacy interfaces) 
+     -proxydel       - Generate a __del__ method even though it is now redundant (default) 
+     -safecstrings   - Use safer (but slower) C string mapping, generating copies from Python -> C/C++
+     -threads        - Add thread support for all the interface
+     -O              - Enable all the optimization options: 
+                         -modern -fastdispatch -dirvtable -nosafecstrings -fvirtual -noproxydel 
+                         -fastproxy -fastinit -fastunpack -fastquery -modernargs -nobuildnone 
+
+
+Note: 'swig -<lang> -help' displays options for a specific target language.
+
+Target Language Options
+     -allegrocl      - Generate ALLEGROCL wrappers
+     -chicken        - Generate CHICKEN wrappers
+     -clisp          - Generate CLISP wrappers
+     -cffi           - Generate CFFI wrappers
+     -csharp         - Generate C# wrappers
+     -guile          - Generate Guile wrappers
+     -java           - Generate Java wrappers
+     -lua            - Generate Lua wrappers
+     -modula3        - Generate Modula 3 wrappers
+     -mzscheme       - Generate Mzscheme wrappers
+     -ocaml          - Generate Ocaml wrappers
+     -octave         - Generate Octave wrappers
+     -perl           - Generate Perl wrappers
+     -php4           - Generate PHP4 wrappers
+     -php5           - Generate PHP5 wrappers
+     -pike           - Generate Pike wrappers
+     -python         - Generate Python wrappers
+     -r              - Generate R (aka GNU S) wrappers
+     -ruby           - Generate Ruby wrappers
+     -sexp           - Generate Lisp S-Expressions wrappers
+     -tcl            - Generate Tcl wrappers
+     -uffi           - Generate Common Lisp / UFFI wrappers
+     -xml            - Generate XML wrappers
+
+General Options
+     -addextern      - Add extra extern declarations
+     -c++            - Enable C++ processing
+     -co <file>      - Check <file> out of the SWIG library
+     -copyctor       - Automatically generate copy constructors wherever possible
+     -cpperraswarn   - Treat the preprocessor #error statement as #warning (default)
+     -copyright      - Display copyright notices
+     -debug-classes  - Display information about the classes found in the interface
+     -debug-module <n>- Display module parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-tags     - Display information about the tags found in the interface
+     -debug-template - Display information for debugging templates
+     -debug-top <n>  - Display entire parse tree at stages 1-4, <n> is a csv list of stages
+     -debug-typedef  - Display information about the types and typedefs in the interface
+     -debug-typemap  - Display information for debugging typemaps
+     -directors      - Turn on director mode for all the classes, mainly for testing
+     -dirprot        - Turn on wrapping of protected members for director classes (default)
+     -D<symbol>      - Define a symbol <symbol> (for conditional compilation)
+     -E              - Preprocess only, does not generate wrapper code
+     -external-runtime [file] - Export the SWIG runtime stack
+     -fakeversion <v>- Make SWIG fake the program version number to <v>
+     -fcompact       - Compile in compact mode
+     -features <list>- Set global features, where <list> is a comma separated list of
+                       features, eg -features directors,autodoc=1
+                       If no explicit value is given to the feature, a default of 1 is used
+     -fastdispatch   - Enable fast dispatch mode to produce faster overload dispatcher code
+     -Fmicrosoft     - Display error/warning messages in Microsoft format
+     -Fstandard      - Display error/warning messages in commonly used format
+     -fvirtual       - Compile in virtual elimination mode
+     -help           - This output
+     -I-             - Don't search the current directory
+     -I<dir>         - Look for SWIG files in directory <dir>
+     -ignoremissing  - Ignore missing include files
+     -importall      - Follow all #include statements as imports
+     -includeall     - Follow all #include statements
+     -l<ifile>       - Include SWIG library file <ifile>
+     -macroerrors    - Report errors inside macros
+     -makedefault    - Create default constructors/destructors (the default)
+     -M              - List all dependencies
+     -MD             - Is equivalent to `-M -MF <file>', except `-E' is not implied
+     -MF <file>      - Generate dependencies into <file> and continue generating wrappers
+     -MM             - List dependencies, but omit files in SWIG library
+     -MMD            - Like `-MD', but omit files in SWIG library
+     -module <name>  - Set module name to <name>
+     -nocontract     - Turn off contract checking
+     -nocpperraswarn - Do not treat the preprocessor #error statement as #warning
+     -nodefault      - Do not generate default constructors nor default destructors
+     -nodefaultctor  - Do not generate implicit default constructors
+     -nodefaultdtor  - Do not generate implicit default destructors
+     -nodirprot      - Do not wrap director protected members
+     -noexcept       - Do not wrap exception specifiers
+     -nofastdispatch - Disable fast dispatch mode (default)
+     -nopreprocess   - Skip the preprocessor step
+     -notemplatereduce - Disable reduction of the typedefs in templates
+     -O              - Enable the optimization options: 
+                        -fastdispatch -fvirtual 
+     -o <outfile>    - Set name of the output file to <outfile>
+     -oh <headfile>  - Set name of the output header file to <headfile>
+     -outdir <dir>   - Set language specific files output directory <dir>
+     -small          - Compile in virtual elimination & compact mode
+     -swiglib        - Report location of SWIG library and exit
+     -templatereduce - Reduce all the typedefs in templates
+     -v              - Run in verbose mode
+     -version        - Display SWIG version number
+     -Wall           - Remove all warning suppression, also implies -Wextra
+     -Wallkw         - Enable keyword warnings for all the supported languages
+     -Werror         - Treat warnings as errors
+     -Wextra         - Adds the following additional warnings: 202,309,403,512,321,322
+     -w<list>        - Suppress/add warning messages, eg -w401,+321 - see Warnings.html
+     -xmlout <file>  - Write XML version of the parse tree to <file> after normal processing
+
+Options can also be defined using the SWIG_FEATURES environment variable, for example:
+
+  $ SWIG_FEATURES="-Wall"
+  $ export SWIG_FEATURES
+  $ swig -python interface.i
+
+is equivalent to: 
+
+  $ swig -Wall -python interface.i 
+
+
+Java Options (available with -java)
+     -nopgcpp        - Suppress premature garbage collection prevention parameter
+     -noproxy        - Generate the low-level functional interface instead
+                       of proxy classes
+     -oldvarnames    - old intermediary method names for variable wrappers
+     -package <name> - set name of the Java package to <name>
+
+
+
+Note: 'swig -<lang> -help' displays options for a specific target language.
+
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+checking Examples/tcl/class
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/class'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/class'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/class'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/class'
+checking Examples/tcl/constants
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/constants'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/constants'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/constants'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/constants'
+checking Examples/tcl/contract
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/contract'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/contract'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/contract'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/contract'
+checking Examples/tcl/enum
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/enum'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/enum'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/enum'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/enum'
+checking Examples/tcl/funcptr
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/funcptr'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/funcptr'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/funcptr'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/funcptr'
+checking Examples/tcl/import
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/import'
+skipping Examples/tcl/java check (gcj test)
+checking Examples/tcl/multimap
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/multimap'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/multimap'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/multimap'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/multimap'
+checking Examples/tcl/operator
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/operator'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/operator'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/operator'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/operator'
+checking Examples/tcl/pointer
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/pointer'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/pointer'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/pointer'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/pointer'
+checking Examples/tcl/reference
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/reference'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/reference'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/reference'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/reference'
+checking Examples/tcl/simple
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/simple'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/simple'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/simple'
+checking Examples/tcl/std_vector
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/std_vector'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/std_vector'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/std_vector'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/std_vector'
+checking Examples/tcl/value
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/value'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/value'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/value'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/value'
+checking Examples/tcl/variables
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/variables'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/variables'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/variables'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/tcl/variables'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+checking Examples/perl5/class
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/class'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/class'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/class'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/class'
+checking Examples/perl5/constants
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants'
+checking Examples/perl5/constants2
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants2'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants2'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants2'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/constants2'
+checking Examples/perl5/funcptr
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/funcptr'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/funcptr'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/funcptr'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/funcptr'
+checking Examples/perl5/import
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/import'
+skipping Examples/perl5/java check (gcj test)
+checking Examples/perl5/multimap
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multimap'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multimap'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multimap'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multimap'
+checking Examples/perl5/multiple_inheritance
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multiple_inheritance'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multiple_inheritance'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multiple_inheritance'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/multiple_inheritance'
+checking Examples/perl5/pointer
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/pointer'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/pointer'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/pointer'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/pointer'
+checking Examples/perl5/reference
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/reference'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/reference'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/reference'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/reference'
+checking Examples/perl5/simple
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/simple'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/simple'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/simple'
+checking Examples/perl5/value
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/value'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/value'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/value'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/value'
+checking Examples/perl5/variables
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/variables'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/variables'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/variables'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/perl5/variables'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+checking Examples/python/callback
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/callback'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/callback'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/callback'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/callback'
+checking Examples/python/class
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/class'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/class'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/class'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/class'
+checking Examples/python/constants
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/constants'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/constants'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/constants'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/constants'
+checking Examples/python/contract
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/contract'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/contract'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/contract'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/contract'
+checking Examples/python/docstrings
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/docstrings'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/docstrings'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/docstrings'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/docstrings'
+checking Examples/python/enum
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/enum'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/enum'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/enum'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/enum'
+checking Examples/python/exception
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exception'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exception'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exception'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exception'
+checking Examples/python/exceptshadow
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exceptshadow'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exceptshadow'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exceptshadow'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/exceptshadow'
+checking Examples/python/extend
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/extend'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/extend'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/extend'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/extend'
+checking Examples/python/funcptr
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr'
+checking Examples/python/funcptr2
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr2'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr2'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr2'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/funcptr2'
+checking Examples/python/functor
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/functor'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/functor'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/functor'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/functor'
+checking Examples/python/import
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import'
+checking Examples/python/import_template
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/import_template'
+skipping Examples/python/java check (gcj test)
+checking Examples/python/multimap
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/multimap'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/multimap'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/multimap'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/multimap'
+checking Examples/python/operator
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/operator'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/operator'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/operator'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/operator'
+checking Examples/python/pointer
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/pointer'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/pointer'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/pointer'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/pointer'
+checking Examples/python/reference
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/reference'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/reference'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/reference'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/reference'
+checking Examples/python/shadow
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/shadow'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/shadow'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/shadow'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/shadow'
+checking Examples/python/simple
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/simple'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/simple'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/simple'
+checking Examples/python/smartptr
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/smartptr'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/smartptr'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/smartptr'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/smartptr'
+checking Examples/python/std_vector
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_vector'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_vector'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_vector'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_vector'
+checking Examples/python/std_map
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_map'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_map'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_map'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/std_map'
+checking Examples/python/swigrun
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/swigrun'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/swigrun'
+example_wrap.cxx:
+example.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/swigrun'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/swigrun'
+checking Examples/python/template
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/template'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/template'
+checking Examples/python/varargs
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/varargs'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/varargs'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/varargs'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/varargs'
+checking Examples/python/variables
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/variables'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/variables'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/variables'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/python/variables'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+checking Examples/java/callback
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/callback'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/callback'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/callback'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/callback'
+checking Examples/java/class
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/class'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/class'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/class'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/class'
+checking Examples/java/constants
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/constants'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/constants'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/constants'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/constants'
+checking Examples/java/enum
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/enum'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/enum'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/enum'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/enum'
+checking Examples/java/extend
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/extend'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/extend'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/extend'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/extend'
+checking Examples/java/funcptr
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/funcptr'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/funcptr'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/funcptr'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/funcptr'
+checking Examples/java/multimap
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/multimap'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/multimap'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/multimap'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/multimap'
+checking Examples/java/native
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/native'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/native'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/native'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/native'
+checking Examples/java/pointer
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/pointer'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/pointer'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/pointer'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/pointer'
+checking Examples/java/reference
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/reference'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/reference'
+example.cxx:
+example_wrap.cxx:
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/reference'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/reference'
+checking Examples/java/simple
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/simple'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/simple'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/simple'
+checking Examples/java/template
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/template'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/template'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/template'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/template'
+checking Examples/java/typemap
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/typemap'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/typemap'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/typemap'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/typemap'
+checking Examples/java/variables
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/variables'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/variables'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/variables'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/java/variables'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86'
+skipping guile check
+skipping mzscheme check
+skipping ruby check
+skipping ocaml check
+skipping octave check
+skipping php4 check
+skipping pike check
+skipping chicken check
+skipping csharp check
+skipping modula3 check
+skipping lua check
+skipping allegrocl check
+skipping clisp check
+skipping uffi check
+skipping cffi check
+skipping r check
+checking Examples/GIFPlot/Lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Lib'
+checking Examples/GIFPlot/Tcl/full
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/full'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/full'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/full'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/full'
+checking Examples/GIFPlot/Tcl/mandel
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/mandel'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/mandel'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/mandel'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/mandel'
+checking Examples/GIFPlot/Tcl/simple
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/simple'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/simple'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Tcl/simple'
+checking Examples/GIFPlot/Perl5/full
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/full'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/full'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/full'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/full'
+checking Examples/GIFPlot/Perl5/shadow
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/shadow'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/shadow'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/shadow'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/shadow'
+checking Examples/GIFPlot/Perl5/simple
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/simple'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/simple'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Perl5/simple'
+checking Examples/GIFPlot/Python/full
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/full'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/full'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/full'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/full'
+checking Examples/GIFPlot/Python/shadow
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/shadow'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/shadow'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/shadow'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/shadow'
+checking Examples/GIFPlot/Python/simple
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/simple'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/simple'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Python/simple'
+checking Examples/GIFPlot/Java/full
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/full'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/full'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/full'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/full'
+checking Examples/GIFPlot/Java/shadow
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/shadow'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/shadow'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/shadow'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/shadow'
+checking Examples/GIFPlot/Java/simple
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/simple'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/simple'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/simple'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/GIFPlot/Java/simple'
+skipping Guile check
+skipping Mzscheme check
+skipping Ruby check
+skipping Ocaml check
+skipping Octave check
+skipping Php4 check
+skipping Pike check
+skipping Chicken check
+checking tcl test-suite
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase primitive_types (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cdata under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cstring under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cwstring under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_access under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_inherit_ok under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_signature under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_typedef2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase abstract_virtual under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase access_change under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase add_link under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase aggregate under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase allowexcept under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase anonymous_bitfield under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase apply_signed_char under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase apply_strings under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase argout under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase array_member under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase array_typedef_memberin under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrayref under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrays_dimensionless under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrays_global under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrays_global_twodim under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrays_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase bloody_hell under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase bools (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase casts under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cast_operator under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase char_strings under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase class_ignore under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase class_scope_weird under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase const_const_2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constant_pointers under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constover under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constructor_copy under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constructor_exception under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constructor_explicit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constructor_ignore under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase constructor_value under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase contract under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase compactdefaultargs under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase conversion under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase conversion_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase conversion_ns_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cplusplus_throw under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_basic under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_nodefault under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_static under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase cpp_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase default_constructor under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase default_args under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase defvalue_constructor under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase derived_byvalue under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase derived_nested under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase destructor_reprotected under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_abstract under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_basic under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_classes under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_classic under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_constructor under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_detect under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_default under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_exception under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_frob under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_finalizer under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_ignore under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_namespace_clash under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_nested under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_overload under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_primitives under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_protected under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_redefined under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_thread under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_unroll under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_using under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_wombat under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase disown (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase dynamic_cast under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase empty under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase enum_scope_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase enum_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase enum_thorough (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase enum_var under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase evil_diamond under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase evil_diamond_ns under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase evil_diamond_prop under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase exception_order under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extend_default under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extend_placement under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extend_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extend_template_ns under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extern_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extern_throws under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase features under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase fvirtual under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase friends under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase fragments under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase global_ns_arg under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase global_vars under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase grouping under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase ignore_parameter under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase import_nomodule (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inherit_missing under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inherit_same_name under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inherit_target_language under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inherit_void_arg under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inline_initializer under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase kind under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase langobj under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_attribute under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_boost_shared_ptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_boost_shared_ptr_bits under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_carrays under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cpointer under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_stdint under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_typemaps under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_windows under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase long_long_apply under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase member_pointer (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase member_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase minherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase minherit2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase mixed_types under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase multiple_inheritance under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase name_cxx under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase name_warnings under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_class under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_nested under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_spaces under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_typedef_class under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_typemap under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase namespace_virtual_method under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase naturalvar under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase newobject1 (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase ordering under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase operator_overload under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_copy (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_rename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_simple (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_subtype under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_template_fast under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase pointer_reference under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase primitive_ref (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase private_assign under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase protected_rename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase pure_virtual under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase redefined under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase refcount under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase reference_global_vars (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase register_par under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rename1 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rename2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rename3 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rename4 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rename_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase restrict_cplusplus under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase return_const_value under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase return_value_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase rname under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase sizet under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_const under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_const2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_member under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_multi under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_multi_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_namespace2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_not under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_overload under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_protected under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_rename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_templatemethods under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_templatevariables under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_simple under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_static under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase special_variables under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase static_array_member under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase static_const_member under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase static_const_member_2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase struct_value under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_array_numeric under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_arg_replace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_arg_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_arg_typename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_base_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_classes under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_const_ref under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_construct under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default_arg under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default_class_parms under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default_qualify under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_default_vw under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_enum_ns_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_enum_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_explicit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_extend_overload under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_extend_overload_2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_extend1 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_extend2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_forward under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_inherit_abstract under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_int_const under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_methods under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns3 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns4 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns_enum2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ns_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_partial_arg under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_qualifier under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_ref_type under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_rename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_retvalue under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_specialization under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_specialization_defarg under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_specialization_enum under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_static under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_tbase_template under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_template_parameters under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_cplx under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_cplx2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_cplx3 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_cplx4 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_cplx5 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_funcptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_ns under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_ptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_rec under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_using under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_virtual under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_whitespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase threads under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase throw_exception under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_array_member under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_class under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_funcptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_mptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_reference under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_sizet under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_struct under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_ns_using under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_numinputs under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_variables under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_various under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase types_directive under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase union_scope under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using1 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using2 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_composition under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_pointers under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_private under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase using_protected under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase valuewrapper under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase valuewrapper_base under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase valuewrapper_const under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase valuewrapper_opaque under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase varargs under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase virtual_destructor under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase virtual_poly under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase voidtest under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase wrapmacro under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase director_string under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase ignore_template_constructor under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_std_deque under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_std_except under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_std_pair under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_std_string (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_std_vector under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase smart_pointer_inherit under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_fnc under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_type_namespace under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_opaque under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cdata under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cstring under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cwstring under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase union (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase arrays under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase char_constant under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase const_const under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase empty under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase enums under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase extern_declaration under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase funcptr under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase function_typedef under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase immutable under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase inctest under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase integers under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase lextype under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_carrays under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cmalloc under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_constraints under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_cpointer under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase li_math under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase long_long under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase name under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase nested under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase newobject2 (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_extend under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase overload_extendc under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase preproc under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase ret_by_value under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase sizeof_pointer under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase sneaky1 under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase struct_rename under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typedef_struct under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase typemap_subst under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase unions (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase clientdata_prop (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase imports (with run test) under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase mod under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase template_typedef_import under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+Checking testcase multi_import under tcl
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86/Examples/test-suite/tcl'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/swig/build/i86'

@@ -1,0 +1,135 @@
+(cd /export/home/drlou/illumos-userland/components/binutils/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86'
+make[2]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd'
+Making check in doc
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd/doc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd/doc'
+Making check in po
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd/po'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd/po'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/bfd'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes'
+Making check in po
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes/po'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes/po'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes'
+make[4]: Nothing to be done for `check-am'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/opcodes'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+Making check in doc
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils/doc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils/doc'
+Making check in po
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils/po'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils/po'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+/usr/gnu/bin/make  check-DEJAGNU
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+srcdir=`cd /export/home/drlou/illumos-userland/components/binutils/binutils-2.19/binutils && pwd`; export srcdir; \
+	r=`pwd`; export r; \
+	EXPECT=expect; export EXPECT; \
+	runtest=runtest; \
+	if /bin/bash -c "$runtest --version" > /dev/null 2>&1; then \
+	  CC_FOR_TARGET="/opt/SUNWspro/sunstudio12.1/bin/cc -L/export/home/drlou/illumos-userland/components/binutils/build/i86/./ld" CFLAGS_FOR_TARGET="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		$runtest --tool binutils --srcdir ${srcdir}/testsuite \
+			; \
+	else echo "WARNING: could not find \`runtest'" 1>&2; :;\
+	fi
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/binutils'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/etc'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/etc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+Making check in doc
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas/doc'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas/doc'
+Making check in po
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas/po'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas/po'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+/usr/gnu/bin/make  check-DEJAGNU
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+if [ -d testsuite ]; then \
+	  true; \
+	else \
+	  mkdir testsuite; \
+	fi
+rm -f testsuite/site.exp
+cp site.exp testsuite/site.exp
+rootme=`pwd`; export rootme; \
+	srcdir=`cd /export/home/drlou/illumos-userland/components/binutils/binutils-2.19/gas; pwd` ; export srcdir ; \
+	EXPECT=expect ; export EXPECT ; \
+	runtest=runtest; \
+	cd testsuite; \
+	if /bin/bash -c "$runtest --version" > /dev/null 2>&1; then \
+	  $runtest --tool gas --srcdir ${srcdir}/testsuite \
+		; \
+	else echo "WARNING: could not find \`runtest'" 1>&2; :;\
+	fi
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gas'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+/usr/gnu/bin/make  check-recursive
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+Making check in po
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof/po'
+make[5]: Nothing to be done for `check'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof/po'
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+make[5]: Nothing to be done for `check-am'.
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/gprof'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/intl'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/intl'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+Making check in po
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld/po'
+make[4]: Nothing to be done for `check'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld/po'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+/usr/gnu/bin/make  check-DEJAGNU
+make[5]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+srcroot=`cd /export/home/drlou/illumos-userland/components/binutils/binutils-2.19/ld && pwd`; export srcroot; \
+	r=`pwd`; export r; \
+	LC_COLLATE=; LC_ALL=; LANG=; export LC_COLLATE LC_ALL LANG; \
+	EXPECT=expect; export EXPECT; \
+	runtest=runtest; \
+	if /bin/bash -c "$runtest --version" > /dev/null 2>&1; then \
+	  $runtest --tool ld --srcdir ${srcroot}/testsuite \
+		CC="/opt/SUNWspro/sunstudio12.1/bin/cc -L/export/home/drlou/illumos-userland/components/binutils/build/i86/./ld" CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		CXX="/opt/SUNWspro/sunstudio12.1/bin/CC -L/export/home/drlou/illumos-userland/components/binutils/build/i86/./ld" CXXFLAGS="-g" \
+		CC_FOR_HOST="/opt/SUNWspro/sunstudio12.1/bin/cc" CFLAGS_FOR_HOST="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt" \
+		OFILES="ldgram.o ldlex.o lexsup.o ldlang.o mri.o ldctor.o ldmain.o ldwrite.o ldexp.o  ldemul.o ldver.o ldmisc.o ldfile.o ldcref.o eelf_i386_ldso.o eelf_i386.o eelf_x86_64.o " BFDLIB="../bfd/.libs/libbfd.a" \
+		LIBIBERTY="../libiberty/libiberty.a " LIBS="-lz " \
+		; \
+	else echo "WARNING: could not find \`runtest'" 1>&2; :;\
+	fi
+make[5]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/ld'
+make[3]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/libiberty'
+make[4]: Entering directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/libiberty/testsuite'
+/opt/SUNWspro/sunstudio12.1/bin/cc -DHAVE_CONFIG_H -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -I.. -I/export/home/drlou/illumos-userland/components/binutils/binutils-2.19/libiberty/testsuite/../../include  -o test-demangle \
+		/export/home/drlou/illumos-userland/components/binutils/binutils-2.19/libiberty/testsuite/test-demangle.c ../libiberty.a
+make[4]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/libiberty/testsuite'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86/libiberty'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/binutils/build/i86'

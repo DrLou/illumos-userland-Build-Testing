@@ -1,0 +1,394 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions" --prefix=/usr)
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for a thread-safe mkdir -p... /usr/gnu/bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for gawk... (cached) gawk
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ISO C89... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ranlib... ranlib
+checking for getconf... getconf
+checking for CFLAGS value to request large file support... -D_LARGEFILE_SOURCE -D_FILE_OFFSET_BITS=64
+checking for LDFLAGS value to request large file support... 
+checking for LIBS value to request large file support... 
+checking for _FILE_OFFSET_BITS... 64
+checking for _LARGEFILE_SOURCE... 1
+checking for _LARGE_FILES... no
+checking for function prototypes... yes
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for grep that handles long lines and -e... /usr/bin/ggrep
+checking for egrep... /usr/bin/ggrep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for string.h... (cached) yes
+checking for size_t... yes
+checking for ssize_t... yes
+checking for an ANSI C-conforming const... yes
+checking for inttypes.h... yes
+checking for unsigned long long... yes
+checking for ANSI C header files... (cached) yes
+checking for string.h... (cached) yes
+checking for stdlib.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for memory.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking libintl.h usability... yes
+checking libintl.h presence... yes
+checking for libintl.h... yes
+checking wctype.h usability... yes
+checking wctype.h presence... yes
+checking for wctype.h... yes
+checking wchar.h usability... yes
+checking wchar.h presence... yes
+checking for wchar.h... yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether closedir returns void... no
+checking for stdlib.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for getpagesize... yes
+checking for working mmap... yes
+checking for btowc... yes
+checking for isascii... yes
+checking for iswctype... yes
+checking for mbrlen... yes
+checking for memmove... yes
+checking for setmode... no
+checking for strerror... yes
+checking for wcrtomb... yes
+checking for wcscoll... yes
+checking for wctype... yes
+checking whether mbrtowc and mbstate_t are properly declared... yes
+checking for stdlib.h... (cached) yes
+checking for mbstate_t... yes
+checking for memchr... yes
+checking for stpcpy... yes
+checking for strtoul... yes
+checking for atexit... yes
+checking for fnmatch... yes
+checking for stdlib.h... (cached) yes
+checking whether <inttypes.h> defines strtoumax as a macro... no
+checking for strtoumax... yes
+checking whether strtoul is declared... yes
+checking whether strtoull is declared... yes
+checking for strerror in -lcposix... no
+checking for inline... inline
+checking for off_t... yes
+checking whether we are using the GNU C Library 2.1 or newer... no
+checking argz.h usability... no
+checking argz.h presence... no
+checking for argz.h... no
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking nl_types.h usability... yes
+checking nl_types.h presence... yes
+checking for nl_types.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking stddef.h usability... yes
+checking stddef.h presence... yes
+checking for stddef.h... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) yes
+checking for unistd.h... (cached) yes
+checking for sys/param.h... (cached) yes
+checking for feof_unlocked... no
+checking for fgets_unlocked... no
+checking for getcwd... yes
+checking for getegid... yes
+checking for geteuid... yes
+checking for getgid... yes
+checking for getuid... yes
+checking for mempcpy... no
+checking for munmap... yes
+checking for putenv... yes
+checking for setenv... yes
+checking for setlocale... yes
+checking for stpcpy... (cached) yes
+checking for strchr... yes
+checking for strcasecmp... yes
+checking for strdup... yes
+checking for strtoul... (cached) yes
+checking for tsearch... yes
+checking for __argz_count... no
+checking for __argz_stringify... no
+checking for __argz_next... no
+checking for iconv... yes
+checking for iconv declaration... 
+         extern size_t iconv (iconv_t cd, const char * *inbuf, size_t *inbytesleft, char * *outbuf, size_t *outbytesleft);
+checking for nl_langinfo and CODESET... yes
+checking for LC_MESSAGES... yes
+checking whether NLS is requested... yes
+checking whether included gettext is requested... no
+checking for libintl.h... (cached) yes
+checking for GNU gettext in libc... yes
+checking for dcgettext... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for bison... bison
+checking version of bison... 2.3, ok
+checking for catalogs to be installed...  af be bg ca cs da de el eo es et eu fi fr ga gl he hr hu id it ja ko ky lt nb nl pl pt pt_BR ro ru rw sk sl sr sv tr uk vi zh_TW
+checking for dos file convention... no
+checking host system type... (cached) i386-pc-solaris2.11
+checking host system type... (cached) i386-pc-solaris2.11
+checking for DJGPP environment... no
+checking for environ variable separator... :
+checking for working re_compile_pattern... no
+checking for getopt_long... yes
+checking whether strerror_r is declared... yes
+checking for strerror_r... yes
+checking whether strerror_r returns char *... no
+checking for strerror... (cached) yes
+checking for strerror_r... (cached) yes
+checking for vprintf... yes
+checking for doprnt... no
+checking for ANSI C header files... (cached) yes
+checking for working malloc... yes
+checking for working realloc... yes
+checking for pcre_exec in -lpcre... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating lib/posix/Makefile
+config.status: creating src/Makefile
+config.status: creating tests/Makefile
+config.status: creating po/Makefile.in
+config.status: creating intl/Makefile
+config.status: creating doc/Makefile
+config.status: creating m4/Makefile
+config.status: creating vms/Makefile
+config.status: creating bootstrap/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: executing stamp-h commands
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+Making all in intl
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/intl'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/intl'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/po'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/po'
+Making all in lib
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+Making all in posix
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib/posix'
+make[4]: Nothing to be done for `all'.
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib/posix'
+make[4]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/closeout.c' object='closeout.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/closeout.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/error.c' object='error.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/error.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/exclude.c' object='exclude.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/exclude.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/hard-locale.c' object='hard-locale.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/hard-locale.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/isdir.c' object='isdir.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/isdir.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/obstack.c' object='obstack.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/obstack.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/quotearg.c' object='quotearg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/quotearg.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/savedir.c' object='savedir.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/savedir.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xmalloc.c' object='xmalloc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xmalloc.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xstrtol.c' object='xstrtol.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xstrtol.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xstrtoumax.c' object='xstrtoumax.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/xstrtoumax.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/regex.c' object='regex.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLIBDIR=\"/usr/lib\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I.. -I.. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -I../intl  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib/regex.c
+rm -f libgreputils.a
+ar cru libgreputils.a closeout.o error.o exclude.o hard-locale.o isdir.o obstack.o quotearg.o savedir.o xmalloc.o xstrtol.o xstrtoumax.o regex.o 
+ranlib libgreputils.a
+make[4]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/doc'
+inst=`echo "grep" | sed 's,x,x,'`.1; \
+sed -e "s%@grep@%$inst%g" /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/doc/fgrep.man > fgrep.1
+inst=`echo "grep" | sed 's,x,x,'`.1; \
+sed -e "s%@grep@%$inst%g" /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/doc/egrep.man > egrep.1
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/doc'
+Making all in src
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/src'
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/grep.c' object='grep.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/grep.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/search.c' object='search.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/search.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/kwset.c' object='kwset.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/kwset.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/dfa.c' object='dfa.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/dfa.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions   -o grep grep.o search.o kwset.o dfa.o ../lib/libgreputils.a -lpcre  -L/usr/lib -R/usr/lib -lpcre
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/egrep.c' object='egrep.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/egrep.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/esearch.c' object='esearch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/esearch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions   -o egrep egrep.o esearch.o kwset.o dfa.o ../lib/libgreputils.a -lpcre  -L/usr/lib -R/usr/lib -lpcre
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/fgrep.c' object='fgrep.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/fgrep.c
+source='/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/fsearch.c' object='fsearch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src -I.. -I../intl -I/export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/lib -DLOCALEDIR=\"/usr/share/locale\"  -I/usr/include/pcre  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions -c /export/home/drlou/illumos-userland-1248/components/ggrep/grep-2.5.4/src/fsearch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -features=extensions   -o fgrep fgrep.o fsearch.o kwset.o ../lib/libgreputils.a -lpcre  -L/usr/lib -R/usr/lib -lpcre
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/src'
+Making all in tests
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+Making all in m4
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/m4'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/m4'
+Making all in vms
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/vms'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/vms'
+Making all in bootstrap
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/bootstrap'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/bootstrap'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+Making check in intl
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/intl'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/intl'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/po'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/po'
+Making check in lib
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+Making check in posix
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib/posix'
+make[3]: Nothing to be done for `check'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib/posix'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+make[3]: Nothing to be done for `check-am'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/lib'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/doc'
+Making check in src
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/src'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/src'
+Making check in tests
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+/usr/gnu/bin/make  check-TESTS
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+
+Please, do not be alarmed if some of the tests failed.
+Report them to <bug-grep@gnu.org>,
+with the line number, the name of the file,
+and grep version number 'grep --version'.
+Thank You.
+
+PASS: warning.sh
+PASS: khadafy.sh
+PASS: spencer1.sh
+PASS: bre.sh
+PASS: ere.sh
+PASS: pcre.sh
+PASS: status.sh
+PASS: empty.sh
+PASS: options.sh
+PASS: backref.sh
+PASS: file.sh
+PASS: foad1.sh
+SKIP: fmbtest.sh
+PASS: yesno.sh
+======================
+All 13 tests passed
+(1 tests were not run)
+======================
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/tests'
+Making check in m4
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/m4'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/m4'
+Making check in vms
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/vms'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/vms'
+Making check in bootstrap
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/bootstrap'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/bootstrap'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/ggrep/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/ggrep/build/i86/.tested

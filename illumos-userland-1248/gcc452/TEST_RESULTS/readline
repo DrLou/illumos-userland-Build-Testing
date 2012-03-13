@@ -1,0 +1,6 @@
+/bin/rm -f -r /export/home/drlou/illumos-userland/components/readline/readline-5.2
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/readline/readline-5.2 -p1 --backup --version-control=numbered < patches/history.3.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/readline/readline-5.2 -p1 --backup --version-control=numbered < patches/readline_Makefile_in.patch
+/usr/gnu/bin/patch -d /export/home/drlou/illumos-userland/components/readline/readline-5.2 -p1 --backup --version-control=numbered < patches/readline_doc_Makefile_in.patch
+/export/home/drlou/illumos-userland/tools/userland-unpack  readline-5.2.tar.gz
+/usr/bin/touch /export/home/drlou/illumos-userland/components/readline/readline-5.2/.unpacked

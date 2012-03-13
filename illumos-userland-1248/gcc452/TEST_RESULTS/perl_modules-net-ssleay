@@ -1,0 +1,4 @@
+(cd /export/home/drlou/illumos-userland/components/perl_modules/net-ssleay/build/i86-5.12 ; /usr/bin/env MAKE=/usr/gnu/bin/make PATH=/usr/gcc/4.5/bin/:/usr/bin:/usr/gnu/bin LANG="" CC="/usr/gcc/4.5/bin/gcc" CFLAGS="-xO4 " /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland/components/perl_modules/net-ssleay/build/i86-5.12'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland/components/perl_modules/net-ssleay/build/i86-5.12'

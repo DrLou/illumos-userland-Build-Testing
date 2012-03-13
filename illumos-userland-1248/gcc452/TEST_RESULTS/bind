@@ -1,0 +1,10 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland/components/bind/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland/components/bind/build/i86)
+cd /export/home/drlou/illumos-userland/components/bind/build/i86 && gmake test 2>&1 | /usr/bin/tee /export/home/drlou/illumos-userland/components/bind/build/i86/.tested
+/usr/bin/nawk ' /^T:/ {name=$0;info="";} /^I:/ {info=sprintf("%s%s\n", info, $0);} /^R:/ {test++; result[$1]++;} /^R:PASS/ {next;} /^R:/ {printf("%s: %s\n%s\n", $1, name, info);} /^R:UNTESTED/ && name ~ /^T:dst:2:A/ {known++;} /^R:UNRESOLVED/ && name ~ /^T:dst:1:A/ {known++;} END{for (item in result) printf("%s=%d ", item, result[item]); printf("(known=%d) Total=%d%s\n", known, test, ((result["R:PASS"] + known) < test)? " issues!" : ""); }' /export/home/drlou/illumos-userland/components/bind/build/i86/.tested
+(cd /export/home/drlou/illumos-userland/components/bind/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland/components/bind/bind-9.6-ESV-R4-P3/configure CC="/usr/gcc/4.5/bin/gcc" CXX="/usr/gcc/4.5/bin/g++" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/sbin --libdir=/usr/lib/dns --sbindir=/usr/sbin  --with-libtool --sbindir=/usr/sbin --sysconfdir=/etc --localstatedir=/var --with-openssl --enable-threads=yes --enable-devpoll=yes --disable-openssl-version-check --enable-fixed-rrset --disable-getifaddrs --with-pkcs11 CFLAGS="-m32 -02 -flto=jobserver" CC="/usr/gcc/4.5/bin/gcc")
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking whether make sets $(MAKE)... yes
+checking for gcc... /usr/gcc/4.5/bin/gcc
+checking whether the C compiler works... no

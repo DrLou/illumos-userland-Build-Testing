@@ -1,0 +1,52 @@
+test libibverbs
+test libsdp
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibverbs'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibverbs'
+test libmlx4
+test libmthca
+test libibumad
+test rds-tools
+test librdmacm
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibumad'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibumad'
+test libibmad
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libmlx4'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libmlx4'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/rds-tools'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/rds-tools'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/librdmacm'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/librdmacm'
+test perftest
+test qperf
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libmthca'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libmthca'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibmad'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libibmad'
+test opensm
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/qperf'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/qperf'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/opensm'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/opensm'
+test ibutils
+test infiniband-diags
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/ibutils'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/ibutils'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libsdp'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/libsdp'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/perftest'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/perftest'
+gmake[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/infiniband-diags'
+There are no tests available at this time.
+gmake[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/open-fabrics/infiniband-diags'

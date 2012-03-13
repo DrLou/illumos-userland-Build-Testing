@@ -1,0 +1,484 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --disable-static --enable-shared CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64  --disable-static --enable-shared CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt")
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output... checking for C compiler default output... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking how to run the C preprocessor... none needed
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking build system type... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+i386-pc-solaris2.11
+checking host system type... checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependant libraries... pass_all
+checking command to parse /usr/bin/nm -p output... i386-pc-solaris2.11
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for /usr/bin/ld option to reload object files... -r
+checking for BSD-compatible nm... /usr/bin/nm -p
+checking whether ln -s works... yes
+checking how to recognise dependant libraries... pass_all
+checking command to parse /usr/bin/nm -p output... ok
+checking for egrep... egrep
+checking for ANSI C header files... ok
+checking for egrep... egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+yes
+checking for memory.h... checking for strings.h... yes
+yes
+checking for inttypes.h... checking for strings.h... yes
+yes
+checking for stdint.h... checking for inttypes.h... yes
+yes
+checking for unistd.h... checking for stdint.h... yes
+yes
+checking dlfcn.h usability... checking for unistd.h... yes
+checking dlfcn.h presence... yes
+checking dlfcn.h usability... yes
+checking for dlfcn.h... yes
+checking for ranlib... ranlib
+checking for strip... strip
+checking for objdir... .libs
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... checking for ranlib... ranlib
+checking for strip... strip
+checking for objdir... .libs
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to produce PIC... -KPIC
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc PIC flag -KPIC works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc static flag -Bstatic works... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.lo... yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.o... yes
+checking whether the linker (/usr/bin/ld) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+creating libtool
+yes
+checking if /opt/SUNWspro/solarisstudio12.3/bin/cc supports -c -o file.lo... yes
+checking whether the linker (/usr/bin/ld) supports shared libraries... yes
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... no
+checking dynamic linker characteristics... solaris2.11 ld.so
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+creating libtool
+checking for an ANSI C-conforming const... yes
+checking for stdlib.h... (cached) yes
+checking for string.h... (cached) checking for an ANSI C-conforming const... yes
+checking sys/file.h usability... yes
+checking for stdlib.h... (cached) yes
+yes
+checking sys/file.h presence... checking for string.h... (cached) yes
+checking sys/file.h usability... yes
+checking for sys/file.h... yes
+checking for unistd.h... (cached) yes
+checking fcntl.h usability... yes
+checking sys/file.h presence... yes
+checking for sys/file.h... yes
+yes
+checking fcntl.h presence... checking for unistd.h... (cached) yes
+checking fcntl.h usability... yes
+checking for fcntl.h... yes
+checking for sys/types.h... (cached) yes
+checking memory.y usability... yes
+checking fcntl.h presence... no
+checking memory.y presence... yes
+checking for fcntl.h... yes
+no
+checking for memory.y... checking for sys/types.h... (cached) yes
+no
+checking for main in -ldbm... checking memory.y usability... no
+checking memory.y presence... no
+checking for main in -lndbm... no
+checking for memory.y... no
+checking for main in -ldbm... no
+checking for rename... no
+checking for main in -lndbm... yes
+checking for ftruncate... no
+checking for rename... yes
+checking for flock... yes
+checking for ftruncate... no
+checking for bcopy... yes
+checking for flock... yes
+checking for fsync... no
+checking for bcopy... yes
+checking for getopt... yes
+checking for fsync... yes
+checking for off_t... yes
+checking for getopt... yes
+checking for struct stat.st_blksize... yes
+checking for off_t... yes
+configure: creating ./config.status
+yes
+checking for struct stat.st_blksize... yes
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating autoconf.h
+config.status: creating Makefile
+config.status: creating autoconf.h
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/i86'
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmopen.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmopen.c  -KPIC -DPIC -o gdbmopen.lo
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64'
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmopen.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmopen.c  -KPIC -DPIC -o gdbmopen.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmdelete.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmdelete.c  -KPIC -DPIC -o gdbmdelete.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmdelete.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfetch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmdelete.c  -KPIC -DPIC -o gdbmdelete.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfetch.c  -KPIC -DPIC -o gdbmfetch.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmstore.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfetch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmstore.c  -KPIC -DPIC -o gdbmstore.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfetch.c  -KPIC -DPIC -o gdbmfetch.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmstore.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmclose.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmstore.c  -KPIC -DPIC -o gdbmstore.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmclose.c  -KPIC -DPIC -o gdbmclose.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmreorg.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmclose.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmreorg.c  -KPIC -DPIC -o gdbmreorg.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmclose.c  -KPIC -DPIC -o gdbmclose.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmreorg.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmseq.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmseq.c  -KPIC -DPIC -o gdbmseq.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmreorg.c  -KPIC -DPIC -o gdbmreorg.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsync.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmseq.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsync.c  -KPIC -DPIC -o gdbmsync.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmseq.c  -KPIC -DPIC -o gdbmseq.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.c  -KPIC -DPIC -o gdbmerrno.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsync.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmexists.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsync.c  -KPIC -DPIC -o gdbmsync.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmexists.c  -KPIC -DPIC -o gdbmexists.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfdesc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.c  -KPIC -DPIC -o gdbmerrno.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfdesc.c  -KPIC -DPIC -o gdbmfdesc.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmexists.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsetopt.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmexists.c  -KPIC -DPIC -o gdbmexists.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsetopt.c  -KPIC -DPIC -o gdbmsetopt.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfdesc.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/bucket.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmfdesc.c  -KPIC -DPIC -o gdbmfdesc.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/bucket.c  -KPIC -DPIC -o bucket.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsetopt.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmsetopt.c  -KPIC -DPIC -o gdbmsetopt.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/bucket.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/falloc.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/bucket.c  -KPIC -DPIC -o bucket.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/falloc.c  -KPIC -DPIC -o falloc.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/falloc.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/findkey.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/findkey.c  -KPIC -DPIC -o findkey.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/falloc.c  -KPIC -DPIC -o falloc.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/global.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/global.c  -KPIC -DPIC -o global.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/hash.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/findkey.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/hash.c  -KPIC -DPIC -o hash.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/findkey.c  -KPIC -DPIC -o findkey.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/update.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/update.c  -KPIC -DPIC -o update.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/global.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/global.c  -KPIC -DPIC -o global.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/version.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/hash.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/version.c  -KPIC -DPIC -o version.lo
+rm -f gdbm.h
+cp /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbm.proto gdbm.h
+chmod +w gdbm.h
+grep _ /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.h >> gdbm.h
+cat /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbm.proto2 >> gdbm.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/hash.c  -KPIC -DPIC -o hash.lo
+chmod -w gdbm.h
+rm -f libgdbm.la
+/bin/sh ./libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc -o libgdbm.la -rpath /usr/lib \
+		-version-info 3 0 0 gdbmopen.lo gdbmdelete.lo gdbmfetch.lo  gdbmstore.lo gdbmclose.lo gdbmreorg.lo gdbmseq.lo gdbmsync.lo gdbmerrno.lo gdbmexists.lo gdbmfdesc.lo gdbmsetopt.lo bucket.lo falloc.lo findkey.lo global.lo hash.lo update.lo version.lo
+mkdir .libs
+rm -fr .libs/libgdbm.la .libs/libgdbm.* .libs/libgdbm.*
+(cd . && ln -s gdbmopen.lo gdbmopen.o)
+(cd . && ln -s gdbmdelete.lo gdbmdelete.o)
+(cd . && ln -s gdbmfetch.lo gdbmfetch.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/update.c
+(cd . && ln -s gdbmstore.lo gdbmstore.o)
+(cd . && ln -s gdbmclose.lo gdbmclose.o)
+(cd . && ln -s gdbmreorg.lo gdbmreorg.o)
+(cd . && ln -s gdbmseq.lo gdbmseq.o)
+(cd . && ln -s gdbmsync.lo gdbmsync.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/update.c  -KPIC -DPIC -o update.lo
+(cd . && ln -s gdbmerrno.lo gdbmerrno.o)
+(cd . && ln -s gdbmexists.lo gdbmexists.o)
+(cd . && ln -s gdbmfdesc.lo gdbmfdesc.o)
+(cd . && ln -s gdbmsetopt.lo gdbmsetopt.o)
+(cd . && ln -s bucket.lo bucket.o)
+(cd . && ln -s falloc.lo falloc.o)
+(cd . && ln -s findkey.lo findkey.o)
+(cd . && ln -s global.lo global.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/version.c
+(cd . && ln -s hash.lo hash.o)
+(cd . && ln -s update.lo update.o)
+(cd . && ln -s version.lo version.o)
+/usr/bin/ld -G -h libgdbm.so.3 -o .libs/libgdbm.so.3.0.0  gdbmopen.lo gdbmdelete.lo gdbmfetch.lo gdbmstore.lo gdbmclose.lo gdbmreorg.lo gdbmseq.lo gdbmsync.lo gdbmerrno.lo gdbmexists.lo gdbmfdesc.lo gdbmsetopt.lo bucket.lo falloc.lo findkey.lo global.lo hash.lo update.lo version.lo  -lc 
+(cd .libs && rm -f libgdbm.so.3 && ln -s libgdbm.so.3.0.0 libgdbm.so.3)
+(cd .libs && rm -f libgdbm.so && ln -s libgdbm.so.3.0.0 libgdbm.so)
+creating libgdbm.la
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/version.c  -KPIC -DPIC -o version.lo
+(cd .libs && rm -f libgdbm.la && ln -s ../libgdbm.la libgdbm.la)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbminit.c
+rm -f gdbm.h
+cp /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbm.proto gdbm.h
+chmod +w gdbm.h
+grep _ /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbmerrno.h >> gdbm.h
+cat /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/gdbm.proto2 >> gdbm.h
+chmod -w gdbm.h
+rm -f libgdbm.la
+/bin/sh ./libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc -o libgdbm.la -rpath /usr/lib/amd64 \
+		-version-info 3 0 0 gdbmopen.lo gdbmdelete.lo gdbmfetch.lo  gdbmstore.lo gdbmclose.lo gdbmreorg.lo gdbmseq.lo gdbmsync.lo gdbmerrno.lo gdbmexists.lo gdbmfdesc.lo gdbmsetopt.lo bucket.lo falloc.lo findkey.lo global.lo hash.lo update.lo version.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbminit.c  -KPIC -DPIC -o dbminit.lo
+mkdir .libs
+rm -fr .libs/libgdbm.la .libs/libgdbm.* .libs/libgdbm.*
+(cd . && ln -s gdbmopen.lo gdbmopen.o)
+(cd . && ln -s gdbmdelete.lo gdbmdelete.o)
+(cd . && ln -s gdbmfetch.lo gdbmfetch.o)
+(cd . && ln -s gdbmstore.lo gdbmstore.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/delete.c
+(cd . && ln -s gdbmclose.lo gdbmclose.o)
+(cd . && ln -s gdbmreorg.lo gdbmreorg.o)
+(cd . && ln -s gdbmseq.lo gdbmseq.o)
+(cd . && ln -s gdbmsync.lo gdbmsync.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/delete.c  -KPIC -DPIC -o delete.lo
+(cd . && ln -s gdbmerrno.lo gdbmerrno.o)
+(cd . && ln -s gdbmexists.lo gdbmexists.o)
+(cd . && ln -s gdbmfdesc.lo gdbmfdesc.o)
+(cd . && ln -s gdbmsetopt.lo gdbmsetopt.o)
+(cd . && ln -s bucket.lo bucket.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/fetch.c
+(cd . && ln -s falloc.lo falloc.o)
+(cd . && ln -s findkey.lo findkey.o)
+(cd . && ln -s global.lo global.o)
+(cd . && ln -s hash.lo hash.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/fetch.c  -KPIC -DPIC -o fetch.lo
+(cd . && ln -s update.lo update.o)
+(cd . && ln -s version.lo version.o)
+/usr/bin/ld -G -h libgdbm.so.3 -o .libs/libgdbm.so.3.0.0  gdbmopen.lo gdbmdelete.lo gdbmfetch.lo gdbmstore.lo gdbmclose.lo gdbmreorg.lo gdbmseq.lo gdbmsync.lo gdbmerrno.lo gdbmexists.lo gdbmfdesc.lo gdbmsetopt.lo bucket.lo falloc.lo findkey.lo global.lo hash.lo update.lo version.lo  -lc 
+(cd .libs && rm -f libgdbm.so.3 && ln -s libgdbm.so.3.0.0 libgdbm.so.3)
+(cd .libs && rm -f libgdbm.so && ln -s libgdbm.so.3.0.0 libgdbm.so)
+creating libgdbm.la
+(cd .libs && rm -f libgdbm.la && ln -s ../libgdbm.la libgdbm.la)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbminit.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/store.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/store.c  -KPIC -DPIC -o store.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbminit.c  -KPIC -DPIC -o dbminit.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/seq.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/delete.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/seq.c  -KPIC -DPIC -o seq.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/delete.c  -KPIC -DPIC -o delete.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/close.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/fetch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/close.c  -KPIC -DPIC -o close.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/fetch.c  -KPIC -DPIC -o fetch.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmopen.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/store.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmopen.c  -KPIC -DPIC -o dbmopen.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/store.c  -KPIC -DPIC -o store.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdelete.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/seq.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdelete.c  -KPIC -DPIC -o dbmdelete.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/seq.c  -KPIC -DPIC -o seq.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmfetch.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/close.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmfetch.c  -KPIC -DPIC -o dbmfetch.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/close.c  -KPIC -DPIC -o close.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmstore.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmopen.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmstore.c  -KPIC -DPIC -o dbmstore.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmopen.c  -KPIC -DPIC -o dbmopen.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmseq.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdelete.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmseq.c  -KPIC -DPIC -o dbmseq.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdelete.c  -KPIC -DPIC -o dbmdelete.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmclose.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmfetch.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmclose.c  -KPIC -DPIC -o dbmclose.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdirfno.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmfetch.c  -KPIC -DPIC -o dbmfetch.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdirfno.c  -KPIC -DPIC -o dbmdirfno.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmstore.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmpagfno.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmstore.c  -KPIC -DPIC -o dbmstore.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmpagfno.c  -KPIC -DPIC -o dbmpagfno.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmseq.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmrdonly.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmseq.c  -KPIC -DPIC -o dbmseq.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmrdonly.c  -KPIC -DPIC -o dbmrdonly.lo
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmclose.c
+rm -f libgdbm_compat.la
+/bin/sh ./libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc -o libgdbm_compat.la -rpath /usr/lib \
+		-version-info 3 0 0 dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmclose.c  -KPIC -DPIC -o dbmclose.lo
+rm -fr .libs/libgdbm_compat.la .libs/libgdbm_compat.* .libs/libgdbm_compat.*
+(cd . && ln -s dbminit.lo dbminit.o)
+(cd . && ln -s delete.lo delete.o)
+(cd . && ln -s fetch.lo fetch.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdirfno.c
+(cd . && ln -s store.lo store.o)
+(cd . && ln -s seq.lo seq.o)
+(cd . && ln -s close.lo close.o)
+(cd . && ln -s dbmopen.lo dbmopen.o)
+(cd . && ln -s dbmdelete.lo dbmdelete.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmdirfno.c  -KPIC -DPIC -o dbmdirfno.lo
+(cd . && ln -s dbmfetch.lo dbmfetch.o)
+(cd . && ln -s dbmstore.lo dbmstore.o)
+(cd . && ln -s dbmseq.lo dbmseq.o)
+(cd . && ln -s dbmclose.lo dbmclose.o)
+(cd . && ln -s dbmdirfno.lo dbmdirfno.o)
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmpagfno.c
+(cd . && ln -s dbmpagfno.lo dbmpagfno.o)
+(cd . && ln -s dbmrdonly.lo dbmrdonly.o)
+/usr/bin/ld -G -h libgdbm_compat.so.3 -o .libs/libgdbm_compat.so.3.0.0  dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo  -lc 
+(cd .libs && rm -f libgdbm_compat.so.3 && ln -s libgdbm_compat.so.3.0.0 libgdbm_compat.so.3)
+(cd .libs && rm -f libgdbm_compat.so && ln -s libgdbm_compat.so.3.0.0 libgdbm_compat.so)
+creating libgdbm_compat.la
+(cd .libs && rm -f libgdbm_compat.la && ln -s ../libgdbm_compat.la libgdbm_compat.la)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86/.built
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmpagfno.c  -KPIC -DPIC -o dbmpagfno.lo
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 progs)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/i86'
+touch gdbmdefs.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testgdbm.c
+/bin/sh ./libtool --mode=compile /opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmrdonly.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/dbmrdonly.c  -KPIC -DPIC -o dbmrdonly.lo
+rm -f libgdbm_compat.la
+/bin/sh ./libtool --mode=link /opt/SUNWspro/solarisstudio12.3/bin/cc -o libgdbm_compat.la -rpath /usr/lib/amd64 \
+		-version-info 3 0 0 dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo
+rm -fr .libs/libgdbm_compat.la .libs/libgdbm_compat.* .libs/libgdbm_compat.*
+(cd . && ln -s dbminit.lo dbminit.o)
+(cd . && ln -s delete.lo delete.o)
+(cd . && ln -s fetch.lo fetch.o)
+(cd . && ln -s store.lo store.o)
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o testgdbm testgdbm.o libgdbm.la 
+(cd . && ln -s seq.lo seq.o)
+(cd . && ln -s close.lo close.o)
+(cd . && ln -s dbmopen.lo dbmopen.o)
+(cd . && ln -s dbmdelete.lo dbmdelete.o)
+(cd . && ln -s dbmfetch.lo dbmfetch.o)
+(cd . && ln -s dbmstore.lo dbmstore.o)
+(cd . && ln -s dbmseq.lo dbmseq.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/testgdbm testgdbm.o  ./.libs/libgdbm.so
+(cd . && ln -s dbmclose.lo dbmclose.o)
+creating testgdbm
+(cd . && ln -s dbmdirfno.lo dbmdirfno.o)
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testdbm.c
+(cd . && ln -s dbmpagfno.lo dbmpagfno.o)
+(cd . && ln -s dbmrdonly.lo dbmrdonly.o)
+/usr/bin/ld -G -h libgdbm_compat.so.3 -o .libs/libgdbm_compat.so.3.0.0  dbminit.lo delete.lo fetch.lo store.lo seq.lo close.lo dbmopen.lo dbmdelete.lo dbmfetch.lo dbmstore.lo dbmseq.lo dbmclose.lo dbmdirfno.lo dbmpagfno.lo dbmrdonly.lo  -lc 
+(cd .libs && rm -f libgdbm_compat.so.3 && ln -s libgdbm_compat.so.3.0.0 libgdbm_compat.so.3)
+(cd .libs && rm -f libgdbm_compat.so && ln -s libgdbm_compat.so.3.0.0 libgdbm_compat.so)
+creating libgdbm_compat.la
+(cd .libs && rm -f libgdbm_compat.la && ln -s ../libgdbm_compat.la libgdbm_compat.la)
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 progs)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64'
+touch gdbmdefs.h
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testgdbm.c
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o testdbm testdbm.o libgdbm.la libgdbm_compat.la
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/testdbm testdbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so
+creating testdbm
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  -DGNU /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testndbm.c
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o testndbm testndbm.o libgdbm.la libgdbm_compat.la
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/testndbm testndbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o testgdbm testgdbm.o libgdbm.la 
+creating testndbm
+cp /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testndbm.c ./tndbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt  ./tndbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/testgdbm testgdbm.o  ./.libs/libgdbm.so -R/usr/lib/amd64
+creating testgdbm
+rm -f ./tndbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testdbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o tndbm tndbm.o -lc
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o tdbm testdbm.o libgdbm.la libgdbm_compat.la -lc
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o testdbm testdbm.o libgdbm.la libgdbm_compat.la
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/tdbm testdbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so -lc
+creating tdbm
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/conv2gdbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/testdbm testdbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so -R/usr/lib/amd64
+creating testdbm
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -o conv2gdbm conv2gdbm.o -lc libgdbm.la libgdbm_compat.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  -DGNU /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testndbm.c
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o testndbm testndbm.o libgdbm.la libgdbm_compat.la
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m32 -xO4 -xchip=pentium -xregs=no%frameptr -mt -o .libs/conv2gdbm conv2gdbm.o  -lc ./.libs/libgdbm.so ./.libs/libgdbm_compat.so
+creating conv2gdbm
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/i86/.tested
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/testndbm testndbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so -R/usr/lib/amd64
+creating testndbm
+cp /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/testndbm.c ./tndbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt  ./tndbm.c
+rm -f ./tndbm.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o tndbm tndbm.o -lc
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o tdbm testdbm.o libgdbm.la libgdbm_compat.la -lc
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/tdbm testdbm.o  ./.libs/libgdbm.so ./.libs/libgdbm_compat.so -lc -R/usr/lib/amd64
+creating tdbm
+/opt/SUNWspro/solarisstudio12.3/bin/cc -c   -I. -I/export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3 -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt /export/home/drlou/illumos-userland-1248/components/gdbm/gdbm-1.8.3/conv2gdbm.c
+/bin/sh ./libtool /opt/SUNWspro/solarisstudio12.3/bin/cc  -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -o conv2gdbm conv2gdbm.o -lc libgdbm.la libgdbm_compat.la 
+/opt/SUNWspro/solarisstudio12.3/bin/cc -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr -mt -o .libs/conv2gdbm conv2gdbm.o  -lc ./.libs/libgdbm.so ./.libs/libgdbm_compat.so -R/usr/lib/amd64
+creating conv2gdbm
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/gdbm/build/amd64/.tested

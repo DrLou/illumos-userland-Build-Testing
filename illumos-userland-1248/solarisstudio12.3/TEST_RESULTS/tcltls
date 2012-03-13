@@ -1,0 +1,642 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"   /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --with-tclinclude=/usr/include --enable-shared --enable-threads CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst" --with-tcl=/usr/lib)
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64)
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64 ; /usr/bin/env CONFIG_SHELL="/bin/bash" MACH64DIR="amd64" MACH64DIR="amd64" /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin/amd64 --libdir=/usr/lib/amd64 --sbindir=/usr/sbin/amd64 --enable-64bit --with-tclinclude=/usr/include --enable-shared --enable-threads CFLAGS="-m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst" --with-tcl=/usr/lib/amd64)
+checking for correct TEA configuration... ok (TEA 3.6)
+checking for Tcl configuration... found /usr/lib/tclConfig.sh
+checking for existence of /usr/lib/tclConfig.sh... loading
+configure: --exec-prefix defaulting to TCL_EXEC_PREFIX /usr
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for correct TEA configuration... ok (TEA 3.6)
+checking for C compiler default output file name... checking for Tcl configuration... found /usr/lib/amd64/tclConfig.sh
+checking for existence of /usr/lib/amd64/tclConfig.sh... loading
+configure: --exec-prefix defaulting to TCL_EXEC_PREFIX /usr
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... checking for C compiler default output file name... 
+checking for suffix of object files... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+o
+checking whether we are using the GNU C compiler... checking for suffix of object files... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... o
+checking whether we are using the GNU C compiler... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking how to run the C preprocessor... none needed
+/opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking how to run the C preprocessor... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether make sets $(MAKE)... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+yes
+checking for ranlib... ranlib
+checking for egrep... egrep
+checking for ANSI C header files... checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether make sets $(MAKE)... yes
+checking for ranlib... ranlib
+checking for egrep... egrep
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for sys/types.h... yes
+yes
+checking for stdlib.h... checking for sys/stat.h... yes
+yes
+checking for string.h... checking for stdlib.h... yes
+yes
+checking for memory.h... checking for string.h... yes
+yes
+checking for strings.h... checking for memory.h... yes
+yes
+checking for inttypes.h... checking for strings.h... yes
+yes
+checking for stdint.h... checking for inttypes.h... yes
+yes
+checking for stdint.h... checking for unistd.h... yes
+yes
+checking for unistd.h... checking whether byte ordering is bigendian... yes
+checking whether byte ordering is bigendian... no
+checking for sin... no
+checking for sin... no
+checking for main in -lieee... no
+checking for main in -linet... no
+checking for main in -lieee... no
+checking net/errno.h usability... no
+checking for main in -linet... no
+checking net/errno.h presence... no
+checking net/errno.h usability... no
+checking for net/errno.h... no
+checking for connect... no
+checking net/errno.h presence... no
+checking for setsockopt... no
+checking for net/errno.h... no
+checking for connect... no
+checking for setsockopt... no
+checking for setsockopt in -lsocket... no
+checking for setsockopt in -lsocket... yes
+checking for gethostbyname... yes
+checking for gethostbyname... no
+checking for gethostbyname in -lnsl... no
+checking for gethostbyname in -lnsl... yes
+checking dirent.h... yes
+checking dirent.h... yes
+checking errno.h usability... yes
+checking errno.h presence... yes
+checking errno.h usability... yes
+checking for errno.h... yes
+checking float.h usability... yes
+checking errno.h presence... yes
+checking float.h presence... yes
+checking for errno.h... yes
+checking float.h usability... yes
+checking for float.h... yes
+checking values.h usability... yes
+checking float.h presence... yes
+checking for float.h... yes
+checking values.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking limits.h usability... yes
+checking values.h presence... yes
+checking for values.h... yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+yes
+checking limits.h presence... checking for string.h... (cached) yes
+yes
+checking for limits.h... yes
+checking for stdlib.h... (cached) yes
+checking sys/wait.h usability... checking for string.h... (cached) yes
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking dlfcn.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking dlfcn.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking sys/param.h usability... yes
+checking dlfcn.h presence... yes
+checking for dlfcn.h... yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for Tcl public headers... /usr/include
+checking for pthread_mutex_init in -lpthread... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking for Tcl public headers... /usr/include
+checking for pthread_mutex_init in -lpthread... yes
+checking for building with threads... yes (default)
+checking how to build libraries... shared
+checking if 64bit support is requested... no
+checking if 64bit Sparc VIS support is requested... no
+checking system version... SunOS-5.11
+checking for dlopen in -ldl... yes
+checking for building with threads... yes (default)
+checking how to build libraries... shared
+checking if 64bit support is requested... yes
+checking if 64bit Sparc VIS support is requested... no
+checking system version... SunOS-5.11
+checking for dlopen in -ldl... yes
+checking for ar... ar
+checking for required early compiler flags... yes
+checking for ar... ar
+checking for required early compiler flags... none
+checking for 64-bit integer type... none
+checking for 64-bit integer type... long long
+checking for struct dirent64... using long
+checking for build with symbols... no
+checking for SSL directory... /usr
+yes
+checking if libgcc is needed to resolve openssl symbols... no
+checking for struct stat64... checking for tclsh... /usr/bin/amd64/tclsh8.4
+configure: creating ./config.status
+yes
+checking for open64... yes
+checking for lseek64... config.status: creating Makefile
+yes
+checking for off64_t... yes
+checking for build with symbols... no
+checking for SSL directory... /usr
+checking if libgcc is needed to resolve openssl symbols... no
+checking for tclsh... /usr/bin/tclsh8.4
+configure: creating ./config.status
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst -m64 -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tls.c` -o tls.o
+config.status: creating Makefile
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/i86'
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_TYPE=long\ long -DHAVE_STRUCT_DIRENT64=1 -DHAVE_STRUCT_STAT64=1 -DHAVE_OPEN64=1 -DHAVE_LSEEK64=1 -DHAVE_TYPE_OFF64_T=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tls.c` -o tls.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst -m64 -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsIO.c` -o tlsIO.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_TYPE=long\ long -DHAVE_STRUCT_DIRENT64=1 -DHAVE_STRUCT_STAT64=1 -DHAVE_OPEN64=1 -DHAVE_LSEEK64=1 -DHAVE_TYPE_OFF64_T=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsIO.c` -o tlsIO.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst -m64 -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsBIO.c` -o tlsBIO.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst -m64 -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsX509.c` -o tlsX509.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_TYPE=long\ long -DHAVE_STRUCT_DIRENT64=1 -DHAVE_STRUCT_STAT64=1 -DHAVE_OPEN64=1 -DHAVE_LSEEK64=1 -DHAVE_TYPE_OFF64_T=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsBIO.c` -o tlsBIO.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_TYPE=long\ long -DHAVE_STRUCT_DIRENT64=1 -DHAVE_STRUCT_STAT64=1 -DHAVE_OPEN64=1 -DHAVE_LSEEK64=1 -DHAVE_TYPE_OFF64_T=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tlsX509.c` -o tlsX509.o
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_IS_LONG=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m64 -xO4 -xchip=generic -Ui386 -U__i386 -xregs=no%frameptr    -mt -KPIC -xstrconst -m64 -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/fixstrtod.c` -o fixstrtod.o
+rm -f libtls1.6.so
+/usr/ccs/bin/ld -G -z text -o libtls1.6.so tls.o tlsIO.o tlsBIO.o tlsX509.o fixstrtod.o -R /usr/lib -lssl -lcrypto  -lsocket -lnsl -L/usr/lib/amd64 -ltclstub8.4 
+: libtls1.6.so
+(echo 'package ifneeded tls 1.6 \
+	    "[list source [file join $dir tls.tcl]] ; \
+	     [list tls::initlib $dir libtls1.6.so]"'\
+	) > pkgIndex.tcl
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64/.built
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64'
+echo "load libtls1.6.so; \
+	  if {![file exists tls.tcl]} { \
+	      file copy [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tls.tcl] tls.tcl \
+	  } ;\
+	  source [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tls.tcl]; \
+	  set argv ; \
+	  source [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tests all.tcl]" | TCL_LIBRARY=`echo /library` LD_LIBRARY_PATH=".:/usr/lib/amd64:" PATH=".:/usr/lib/amd64:/usr/bin:/usr/gnu/bin" TCLLIBPATH="." /usr/bin/amd64/tclsh8.4
+/opt/SUNWspro/solarisstudio12.3/bin/cc -DPACKAGE_NAME=\"tls\" -DPACKAGE_TARNAME=\"tls\" -DPACKAGE_VERSION=\"1.6\" -DPACKAGE_STRING=\"tls\ 1.6\" -DPACKAGE_BUGREPORT=\"\" -DSTDC_HEADERS=1 -DHAVE_SYS_TYPES_H=1 -DHAVE_SYS_STAT_H=1 -DHAVE_STDLIB_H=1 -DHAVE_STRING_H=1 -DHAVE_MEMORY_H=1 -DHAVE_STRINGS_H=1 -DHAVE_INTTYPES_H=1 -DHAVE_STDINT_H=1 -DHAVE_UNISTD_H=1 -DHAVE_LIMITS_H=1 -DHAVE_SYS_PARAM_H=1 -DUSE_THREAD_ALLOC=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -D_THREAD_SAFE=1 -DTCL_THREADS=1 -D_REENTRANT=1 -D_POSIX_PTHREAD_SEMANTICS=1 -DTCL_WIDE_INT_TYPE=long\ long -DHAVE_STRUCT_DIRENT64=1 -DHAVE_STRUCT_STAT64=1 -DHAVE_OPEN64=1 -DHAVE_LSEEK64=1 -DHAVE_TYPE_OFF64_T=1 -DUSE_TCL_STUBS=1 -DNO_IDEA=1 -DNO_RC5=1   -I"/usr/include" -I"/usr/include"    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -KPIC -xstrconst -O  -KPIC  -c `echo /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/fixstrtod.c` -o fixstrtod.o
+rm -f libtls1.6.so
+/usr/ccs/bin/ld -G -z text -o libtls1.6.so tls.o tlsIO.o tlsBIO.o tlsX509.o fixstrtod.o -R /usr/lib -lssl -lcrypto  -lsocket -lnsl -L/usr/lib -ltclstub8.4 
+Tests running in interp:  /usr/bin/amd64/tclsh8.4
+Tests running in working dir:  /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests
+Only running tests that match:  *
+Skipping test files that match:  l.*.test
+Only sourcing test files that match:  *.test
+Tests began at Sun Mar 04 21:49:07 EST 2012
+ciphers.test
+
+==== ciphers-1.3 Tls::ciphers for ssl3 FAILED
+==== Contents of test case:
+
+    # This will fail if you compiled against RSA bsafe or with a
+    # different set of defines than the default.
+    # Change the constraint setting above.
+    listcompare $::EXPECTEDCIPHERS(openssl) [tls::ciphers ssl3]
+
+---- Result was:
+MISSING {EXP1024-DHE-DSS-RC4-SHA EXP1024-DHE-DSS-DES-CBC-SHA IDEA-CBC-SHA EXP1024-RC4-SHA EXP1024-DES-CBC-SHA EXP1024-RC2-CBC-MD5 EXP1024-RC4-MD5 DHE-DSS-RC4-SHA} UNEXPECTED {DHE-DSS-CAMELLIA256-SHA PSK-3DES-EDE-CBC-SHA PSK-AES128-CBC-SHA DHE-RSA-CAMELLIA128-SHA CAMELLIA256-SHA DHE-DSS-CAMELLIA128-SHA CAMELLIA128-SHA PSK-RC4-SHA DHE-RSA-CAMELLIA256-SHA PSK-AES256-CBC-SHA}
+---- Result should have been (exact matching):
+
+==== ciphers-1.3 FAILED
+
+
+==== ciphers-1.4 Tls::ciphers for tls1 FAILED
+==== Contents of test case:
+
+    # This will fail if you compiled against RSA bsafe or with a
+    # different set of defines than the default.
+    # Change the constraint setting in all.tcl
+    listcompare $::EXPECTEDCIPHERS(openssl) [tls::ciphers tls1]
+
+---- Result was:
+MISSING {EXP1024-DHE-DSS-RC4-SHA EXP1024-DHE-DSS-DES-CBC-SHA IDEA-CBC-SHA EXP1024-RC4-SHA EXP1024-DES-CBC-SHA EXP1024-RC2-CBC-MD5 EXP1024-RC4-MD5 DHE-DSS-RC4-SHA} UNEXPECTED {DHE-DSS-CAMELLIA256-SHA PSK-3DES-EDE-CBC-SHA PSK-AES128-CBC-SHA DHE-RSA-CAMELLIA128-SHA CAMELLIA256-SHA DHE-DSS-CAMELLIA128-SHA CAMELLIA128-SHA PSK-RC4-SHA DHE-RSA-CAMELLIA256-SHA PSK-AES256-CBC-SHA}
+---- Result should have been (exact matching):
+
+==== ciphers-1.4 FAILED
+
+tlsIO.test
+: libtls1.6.so
+(echo 'package ifneeded tls 1.6 \
+	    "[list source [file join $dir tls.tcl]] ; \
+	     [list tls::initlib $dir libtls1.6.so]"'\
+	) > pkgIndex.tcl
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 test)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/i86'
+echo "load libtls1.6.so; \
+	  if {![file exists tls.tcl]} { \
+	      file copy [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tls.tcl] tls.tcl \
+	  } ;\
+	  source [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tls.tcl]; \
+	  set argv ; \
+	  source [file join /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6 tests all.tcl]" | TCL_LIBRARY=`echo /library` LD_LIBRARY_PATH=".:/usr/lib:" PATH=".:/usr/lib:/usr/bin:/usr/gnu/bin" TCLLIBPATH="." /usr/bin/tclsh8.4
+Tests running in interp:  /usr/bin/tclsh8.4
+Tests running in working dir:  /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests
+Only running tests that match:  *
+Skipping test files that match:  l.*.test
+Only sourcing test files that match:  *.test
+Tests began at Sun Mar 04 21:49:07 EST 2012
+ciphers.test
+
+==== ciphers-1.3 Tls::ciphers for ssl3 FAILED
+==== Contents of test case:
+
+    # This will fail if you compiled against RSA bsafe or with a
+    # different set of defines than the default.
+    # Change the constraint setting above.
+    listcompare $::EXPECTEDCIPHERS(openssl) [tls::ciphers ssl3]
+
+---- Result was:
+MISSING {EXP1024-DHE-DSS-RC4-SHA EXP1024-DHE-DSS-DES-CBC-SHA IDEA-CBC-SHA EXP1024-RC4-SHA EXP1024-DES-CBC-SHA EXP1024-RC2-CBC-MD5 EXP1024-RC4-MD5 DHE-DSS-RC4-SHA} UNEXPECTED {DHE-DSS-CAMELLIA256-SHA PSK-3DES-EDE-CBC-SHA PSK-AES128-CBC-SHA DHE-RSA-CAMELLIA128-SHA CAMELLIA256-SHA DHE-DSS-CAMELLIA128-SHA CAMELLIA128-SHA PSK-RC4-SHA DHE-RSA-CAMELLIA256-SHA PSK-AES256-CBC-SHA}
+---- Result should have been (exact matching):
+
+==== ciphers-1.3 FAILED
+
+
+==== ciphers-1.4 Tls::ciphers for tls1 FAILED
+==== Contents of test case:
+
+    # This will fail if you compiled against RSA bsafe or with a
+    # different set of defines than the default.
+    # Change the constraint setting in all.tcl
+    listcompare $::EXPECTEDCIPHERS(openssl) [tls::ciphers tls1]
+
+---- Result was:
+MISSING {EXP1024-DHE-DSS-RC4-SHA EXP1024-DHE-DSS-DES-CBC-SHA IDEA-CBC-SHA EXP1024-RC4-SHA EXP1024-DES-CBC-SHA EXP1024-RC2-CBC-MD5 EXP1024-RC4-MD5 DHE-DSS-RC4-SHA} UNEXPECTED {DHE-DSS-CAMELLIA256-SHA PSK-3DES-EDE-CBC-SHA PSK-AES128-CBC-SHA DHE-RSA-CAMELLIA128-SHA CAMELLIA256-SHA DHE-DSS-CAMELLIA128-SHA CAMELLIA128-SHA PSK-RC4-SHA DHE-RSA-CAMELLIA256-SHA PSK-AES256-CBC-SHA}
+---- Result should have been (exact matching):
+
+==== ciphers-1.4 FAILED
+
+tlsIO.test
+
+==== tlsIO-2.7 echo server, one line FAILED
+==== Contents of test case:
+
+    removeFile script
+    set f [open script w]
+    puts $f {
+	set auto_path [linsert $auto_path 0 [lindex [split $env(PATH) ";:"] 0]]
+	package require tls
+	set timer [after 2000 "set x done"]
+    }
+    puts $f "set f \[tls::socket -server accept -certfile $serverCert -cafile $caCert -keyfile $serverKey 8834 \]"
+    puts $f {
+	proc accept {s a p} {
+            fileevent $s readable [list echo $s]
+	    fconfigure $s -translation lf -buffering line
+        }
+	proc echo {s} {
+	     set l [gets $s]
+             if {[eof $s]} {
+                 global x
+                 close $s
+                 set x done
+             } else {
+                 puts $s $l
+             }
+	}
+	puts ready
+	vwait x
+	after cancel $timer
+	close $f
+	puts done
+    }
+    close $f
+    set f [open "|[list $::tcltest::tcltest script]" r]
+    gets $f
+    set s [tls::socket -certfile $clientCert -cafile $caCert  -keyfile $clientKey 127.0.0.1 8834]
+    fconfigure $s -buffering line -translation lf
+    puts $s "hello abcdefghijklmnop"
+    after 1000
+    set x [gets $s]
+    close $s
+    set y [gets $f]
+    close $f
+    list $x $y
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: address already in use
+    while executing
+"::socket -server {tls::_accept {-server 1 -certfile /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests/certs/server.pem -cafile /..."
+    ("eval" body line 1)
+    invoked from within
+"eval $socketCmd $sopts"
+    (procedure "tls::socket" line 66)
+    invoked from within
+"tls::socket -server accept -certfile /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests/certs/server.pem -cafile /export/home/drl..."
+    invoked from within
+"set f [tls::socket -server accept -certfile /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests/certs/server.pem -cafile /export/h..."
+    (file "script" line 6)
+    while executing
+"close $f"
+    ("uplevel" body line 41)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: CHILDSTATUS 29456 1
+==== tlsIO-2.7 FAILED
+
+
+==== tlsIO-2.9 socket conflict FAILED
+==== Contents of test case:
+
+    set s [tls::socket -server accept 8828]
+    removeFile script
+    set f [open script w]
+    puts -nonewline $f {
+	set auto_path [linsert $auto_path 0 [lindex [split $env(PATH) ";:"] 0]]
+	package require tls
+	tls::socket -server accept 8828
+    }
+    close $f
+    set f [open "|[list $::tcltest::tcltest script]" r]
+    gets $f
+    after 100
+    set x [list [catch {close $f} msg] [string range $msg 0 43]]
+    close $s
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: address already in use
+    while executing
+"::socket -server {tls::_accept {-server 1} accept} 8828"
+    ("eval" body line 1)
+    invoked from within
+"eval $socketCmd $sopts"
+    (procedure "tls::socket" line 66)
+    invoked from within
+"tls::socket -server accept 8828"
+    invoked from within
+"set s [tls::socket -server accept 8828]"
+    ("uplevel" body line 2)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX EADDRINUSE {address already in use}
+==== tlsIO-2.9 FAILED
+
+
+==== tlsIO-2.11 detecting new data FAILED
+==== Contents of test case:
+
+    proc accept {s a p} {
+	global sock
+	# when doing an in-process client/server test, both sides need
+	# to be non-blocking for the TLS handshake.  Also make sure
+	# to return the channel to line buffering mode.
+	fconfigure $s -blocking 0 -buffering line
+	set sock $s
+	fileevent $s readable [list do_handshake $s]
+    }
+
+    set s [tls::socket -server accept  -certfile $serverCert -cafile $caCert -keyfile $serverKey 8400]
+    set sock ""
+    set s2 [tls::socket -certfile $clientCert -cafile $caCert  -keyfile $clientKey 127.0.0.1 8400]
+    # when doing an in-process client/server test, both sides need
+    # to be non-blocking for the TLS handshake  Also make sure to
+    # return the channel to line buffering mode (TLS sets it to 'none').
+    fconfigure $s2 -blocking 0 -buffering line
+    vwait sock
+    puts $s2 one
+    flush $s2
+    # need update to complete TLS handshake in-process
+    update
+    after 500
+    fconfigure $sock -blocking 0
+    set result a:[gets $sock]
+    lappend result b:[gets $sock]
+    fconfigure $sock -blocking 1
+    puts $s2 two
+    flush $s2
+    fconfigure $sock -blocking 0
+    lappend result c:[gets $sock]
+    fconfigure $sock -blocking 1
+    close $s2
+    close $s
+    close $sock
+    set result
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: address already in use
+    while executing
+"::socket -server {tls::_accept {-server 1 -certfile /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests/certs/server.pem -cafile /..."
+    ("eval" body line 1)
+    invoked from within
+"eval $socketCmd $sopts"
+    (procedure "tls::socket" line 66)
+    invoked from within
+"tls::socket -server accept  -certfile $serverCert -cafile $caCert -keyfile $serverKey 8400"
+    invoked from within
+"set s [tls::socket -server accept  -certfile $serverCert -cafile $caCert -keyfile $serverKey 8400]"
+    ("uplevel" body line 12)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX EADDRINUSE {address already in use}
+==== tlsIO-2.11 FAILED
+
+
+==== tlsIO-9.2 testing async write, fileevents, flush on close FAILED
+==== Contents of test case:
+
+    set firstblock [string repeat a 31]
+    set secondblock [string repeat b 65535]
+    proc accept {s a p} {
+	fconfigure $s -blocking 0
+	fileevent $s readable [list do_handshake $s readable readable  -translation lf -buffersize 16384 -buffering line]
+    }
+    proc readable {s} {
+	set l [gets $s]
+	dputs "got \"[string replace $l 10 end-3 ...]\"  ([string length $l]) from $s"
+	fileevent $s readable {}
+	after 1000 respond $s
+    }
+    proc respond {s} {
+	global firstblock
+	dputs "send \"[string replace $firstblock 10 end-3 ...]\"  ([string length $firstblock]) down $s"
+	puts -nonewline $s $firstblock
+	after 1000 writedata $s
+    }
+    proc writedata {s} {
+	global secondblock
+	dputs "send \"[string replace $secondblock 10 end-3 ...]\"  ([string length $secondblock]) down $s"
+	puts -nonewline $s $secondblock
+	close $s
+    }
+    set s [tls::socket  -certfile $serverCert -cafile $caCert -keyfile $serverKey  -server accept 8832]
+    set c [tls::socket  -certfile $clientCert -cafile $caCert -keyfile $clientKey  [info hostname] 8832]
+    fconfigure $c -blocking 0 -trans lf -buffering line
+    set count 0
+    puts $c hello
+    proc readit {s} {
+	global count done
+	set data [read $s]
+	dputs "read \"[string replace $data 10 end-3 ...]\"  ([string length $data]) from $s"
+	incr count [string length $data]
+	if {[eof $s]} {
+	    close $s
+	    set done 1
+	}
+    }
+    fileevent $c readable "readit $c"
+    set done 0
+    set timer [after 10000 "set done timed_out"]
+    vwait done
+    after cancel $timer
+    close $s
+    list $count $done
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: address already in use
+    while executing
+"::socket -server {tls::_accept {-server 1 -certfile /export/home/drlou/illumos-userland-1248/components/tcltls/tls1.6/tests/certs/server.pem -cafile /..."
+    ("eval" body line 1)
+    invoked from within
+"eval $socketCmd $sopts"
+    (procedure "tls::socket" line 66)
+    invoked from within
+"tls::socket  -certfile $serverCert -cafile $caCert -keyfile $serverKey  -server accept 8832"
+    invoked from within
+"set s [tls::socket  -certfile $serverCert -cafile $caCert -keyfile $serverKey  -server accept 8832]"
+    ("uplevel" body line 26)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX EADDRINUSE {address already in use}
+==== tlsIO-9.2 FAILED
+
+
+Tests ended at Sun Mar 04 21:49:23 EST 2012
+all.tcl:	Total	68	Passed	46	Skipped	17	Failed	5
+Sourced 0 Test Files.
+Files with failing tests: ciphers.test tlsIO.test
+Number of tests skipped for each constraint:
+	12	doTestsWithRemoteServer
+	2	rsabsafe
+	1	testthread
+	2	unexplainedFailure
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/i86/.tested
+
+==== tlsIO-12.3 testing inheritance of accepted sockets FAILED
+==== Contents of test case:
+
+    makeFile {} script1
+    makeFile {} script2
+
+    set f [open script1 w]
+    puts $f {
+	after 10000 exit
+	vwait forever
+    }
+    close $f
+
+    set f [open script2 w]
+    puts $f [list set tclsh $::tcltest::tcltest]
+    puts $f {
+	set auto_path [linsert $auto_path 0 [lindex [split $env(PATH) ";:"] 0]]
+	package require tls
+    }
+    puts $f "set f \[tls::socket -server accept  -certfile $serverCert -cafile $caCert -keyfile $serverKey 8930\]"
+    puts $f {
+	proc accept { file host port } {
+	    global tclsh
+	    fconfigure $file -buffering line
+	    puts $file {test data on socket}
+	    exec $tclsh script1 &
+	    after 1000 exit
+	}
+	vwait forever
+    }
+    close $f
+
+    # Launch the script2 process and connect to it.  See how long
+    # the socket stays open
+
+    exec $::tcltest::tcltest script2 &
+
+    after 2000 set ok_to_proceed 1
+    vwait ok_to_proceed
+
+    set f [tls::socket  -certfile $clientCert -cafile $caCert -keyfile $clientKey  127.0.0.1 8930]
+    fconfigure $f -buffering full -blocking 0
+    # We need to put a byte into the read queue, otherwise the
+    # TLS handshake doesn't finish
+    puts $f a; flush $f
+    fileevent $f readable [list getdata accepted $f]
+
+    # If the socket is still open after 5 seconds, the script1 process
+    # must have inherited the accepted socket.
+
+    set failed 0
+    after 5000 set failed 1
+
+    vwait x
+    set x
+
+---- Test generated error; Return code was: 1
+---- Return code should have been one of: 0 2
+---- errorInfo: couldn't open socket: connection refused
+    while executing
+"::socket 127.0.0.1 8930"
+    ("eval" body line 1)
+    invoked from within
+"eval $socketCmd $sopts"
+    (procedure "tls::socket" line 66)
+    invoked from within
+"tls::socket  -certfile $clientCert -cafile $caCert -keyfile $clientKey  127.0.0.1 8930"
+    invoked from within
+"set f [tls::socket  -certfile $clientCert -cafile $caCert -keyfile $clientKey  127.0.0.1 8930]"
+    ("uplevel" body line 39)
+    invoked from within
+"uplevel 1 $script"
+---- errorCode: POSIX ECONNREFUSED {connection refused}
+==== tlsIO-12.3 FAILED
+
+
+Tests ended at Sun Mar 04 21:49:24 EST 2012
+all.tcl:	Total	68	Passed	47	Skipped	17	Failed	4
+Sourced 0 Test Files.
+Files with failing tests: ciphers.test tlsIO.test
+Number of tests skipped for each constraint:
+	12	doTestsWithRemoteServer
+	2	rsabsafe
+	1	testthread
+	2	unexplainedFailure
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/tcltls/build/amd64/.tested

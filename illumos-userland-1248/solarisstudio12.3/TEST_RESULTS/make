@@ -1,0 +1,437 @@
+(/bin/rm -f -rf /export/home/drlou/illumos-userland-1248/components/make/build/i86 ; /bin/mkdir -p /export/home/drlou/illumos-userland-1248/components/make/build/i86)
+(cd /export/home/drlou/illumos-userland-1248/components/make/build/i86 ; /usr/bin/env CONFIG_SHELL="/bin/bash"  /bin/bash \
+		/export/home/drlou/illumos-userland-1248/components/make/make-3.81/configure CC="/opt/SUNWspro/solarisstudio12.3/bin/cc" CXX="/opt/SUNWspro/solarisstudio12.3/bin/CC" --prefix=/usr --mandir=/usr/share/man --bindir=/usr/bin --libdir=/usr/lib --sbindir=/usr/sbin  --program-prefix=g --infodir=/usr/share/info CFLAGS="-m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt")
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking whether build environment is sane... yes
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for gcc... /opt/SUNWspro/solarisstudio12.3/bin/cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... no
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... no
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc accepts -g... yes
+checking for /opt/SUNWspro/solarisstudio12.3/bin/cc option to accept ANSI C... none needed
+checking for style of include used by make... GNU
+checking dependency style of /opt/SUNWspro/solarisstudio12.3/bin/cc... none
+checking for a BSD-compatible install... /usr/bin/ginstall -c
+checking for ranlib... ranlib
+checking how to run the C preprocessor... /opt/SUNWspro/solarisstudio12.3/bin/cc -E
+checking for ar... ar
+checking for perl... perl
+checking build system type... i386-pc-solaris2.11
+checking host system type... i386-pc-solaris2.11
+checking for egrep... egrep
+checking for AIX... no
+checking for library containing strerror... none required
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking for function prototypes... yes
+checking for string.h... (cached) yes
+checking whether NLS is requested... yes
+checking for msgfmt... /usr/gnu/bin/msgfmt
+checking for gmsgfmt... /usr/bin/gmsgfmt
+checking for xgettext... /usr/gnu/bin/xgettext
+checking for msgmerge... /usr/bin/msgmerge
+checking for non-GNU ld... /usr/bin/ld
+checking if the linker (/usr/bin/ld) is GNU ld... no
+checking for shared library run path origin... done
+checking whether NLS is requested... yes
+checking for GNU gettext in libc... yes
+checking whether to use NLS... yes
+checking where the gettext function comes from... libc
+checking for special C compiler options needed for large files... no
+checking for _FILE_OFFSET_BITS value needed for large files... 64
+checking for _LARGE_FILES value needed for large files... no
+checking for library containing getpwnam... none required
+checking for ANSI C header files... (cached) yes
+checking for dirent.h that defines DIR... yes
+checking for library containing opendir... none required
+checking whether stat file-mode macros are broken... no
+checking whether time.h and sys/time.h may both be included... yes
+checking for stdlib.h... (cached) yes
+checking locale.h usability... yes
+checking locale.h presence... yes
+checking for locale.h... yes
+checking for unistd.h... (cached) yes
+checking limits.h usability... yes
+checking limits.h presence... yes
+checking for limits.h... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking for string.h... (cached) yes
+checking for memory.h... (cached) yes
+checking sys/param.h usability... yes
+checking sys/param.h presence... yes
+checking for sys/param.h... yes
+checking sys/resource.h usability... yes
+checking sys/resource.h presence... yes
+checking for sys/resource.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking sys/timeb.h usability... yes
+checking sys/timeb.h presence... yes
+checking for sys/timeb.h... yes
+checking stdarg.h usability... yes
+checking stdarg.h presence... yes
+checking for stdarg.h... yes
+checking whether /opt/SUNWspro/solarisstudio12.3/bin/cc and cc understand -c and -o together... yes
+checking for an ANSI C-conforming const... yes
+checking return type of signal handlers... void
+checking for uid_t in sys/types.h... yes
+checking for pid_t... yes
+checking for uintmax_t... yes
+checking for nanoseconds field of struct stat.st_mtim... tv_nsec
+checking whether to use high resolution file timestamps... yes
+checking for library containing clock_gettime... none required
+checking whether system uses MSDOS-style paths... no
+checking for standard gettimeofday... yes
+checking for memcpy... yes
+checking for memmove... yes
+checking for strchr... yes
+checking for strdup... yes
+checking for mkstemp... yes
+checking for mktemp... yes
+checking for fdopen... yes
+checking for bsd_signal... yes
+checking for dup2... yes
+checking for getcwd... yes
+checking for realpath... yes
+checking for sigsetmask... no
+checking for sigaction... yes
+checking for getgroups... yes
+checking for seteuid... yes
+checking for setegid... yes
+checking for setlinebuf... yes
+checking for setreuid... yes
+checking for setregid... yes
+checking for getrlimit... yes
+checking for setrlimit... yes
+checking for setvbuf... yes
+checking for pipe... yes
+checking for strerror... yes
+checking for strsignal... yes
+checking for lstat... yes
+checking for readlink... yes
+checking for atexit... yes
+checking whether setvbuf arguments are reversed... no
+checking for working strcoll... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking for unistd.h... (cached) yes
+checking vfork.h usability... no
+checking vfork.h presence... no
+checking for vfork.h... no
+checking for fork... yes
+checking for vfork... yes
+checking for working fork... yes
+checking for working vfork... (cached) yes
+checking for vprintf... yes
+checking for _doprnt... yes
+checking whether closedir returns void... no
+checking for getloadavg... yes
+checking for pstat_getdynamic... no
+checking for kstat_open in -lkstat... yes
+checking for getloadavg... yes
+checking whether getloadavg requires setgid... no
+checking whether sys_siglist is declared... no
+checking whether _sys_siglist is declared... yes
+checking whether __sys_siglist is declared... no
+checking sys/wait.h usability... yes
+checking sys/wait.h presence... yes
+checking for sys/wait.h... yes
+checking for waitpid... yes
+checking for wait3... yes
+checking for union wait... no
+checking for SA_RESTART... yes
+checking for location of SCCS get command... get
+checking if SCCS get command understands -G... yes
+checking if system libc has GNU glob... no; using local copy
+checking if malloc debugging is wanted... no
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating glob/Makefile
+config.status: creating po/Makefile.in
+config.status: creating config/Makefile
+config.status: creating doc/Makefile
+config.status: creating w32/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing default-1 commands
+config.status: creating po/POTFILES
+config.status: creating po/Makefile
+config.status: creating build.sh
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/make/build/i86/.configured
+(cd /export/home/drlou/illumos-userland-1248/components/make/build/i86 ; /usr/bin/env LD_OPTIONS="-M /usr/lib/ld/map.noexstk -M /usr/lib/ld/map.noexdata -M /usr/lib/ld/map.pagealign -Bdirect -z ignore"  \
+		/usr/gnu/bin/make  )
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+/usr/gnu/bin/make  all-recursive
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+Making all in glob
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/glob'
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob/glob.c' object='glob.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob/glob.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob/fnmatch.c' object='fnmatch.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob -I..     -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob/fnmatch.c
+rm -f libglob.a
+ar cru libglob.a glob.o fnmatch.o 
+ranlib libglob.a
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/glob'
+Making all in config
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/config'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/config'
+Making all in po
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/po'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/po'
+Making all in doc
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/doc'
+make[3]: Nothing to be done for `all'.
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/doc'
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/ar.c' object='ar.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/ar.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/arscan.c' object='arscan.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/arscan.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/commands.c' object='commands.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/commands.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/default.c' object='default.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/default.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/dir.c' object='dir.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/dir.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/expand.c' object='expand.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/expand.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/file.c' object='file.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/file.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/function.c' object='function.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/function.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/getopt.c' object='getopt.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/getopt.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/getopt1.c' object='getopt1.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/getopt1.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/implicit.c' object='implicit.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/implicit.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/job.c' object='job.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/job.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/main.c' object='main.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/main.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/misc.c' object='misc.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/misc.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/read.c' object='read.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/read.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/remake.c' object='remake.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/remake.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/remote-stub.c' object='remote-stub.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/remote-stub.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/rule.c' object='rule.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/rule.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/signame.c' object='signame.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/signame.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/strcache.c' object='strcache.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/strcache.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/variable.c' object='variable.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/variable.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/version.c' object='version.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/version.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/vpath.c' object='vpath.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/vpath.c
+source='/export/home/drlou/illumos-userland-1248/components/make/make-3.81/hash.c' object='hash.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81/glob    -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c /export/home/drlou/illumos-userland-1248/components/make/make-3.81/hash.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o make  ar.o arscan.o commands.o default.o dir.o expand.o file.o function.o getopt.o getopt1.o implicit.o job.o main.o misc.o read.o remake.o remote-stub.o rule.o signame.o strcache.o variable.o version.o vpath.o hash.o glob/libglob.a -lkstat  
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/make/build/i86/.built
+(cd /export/home/drlou/illumos-userland-1248/components/make/build/i86 ; /usr/bin/env  /usr/gnu/bin/make \
+			 check)
+make[1]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+Making check in glob
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/glob'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/glob'
+Making check in config
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/config'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/config'
+Making check in po
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/po'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/po'
+Making check in doc
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/doc'
+make[2]: Nothing to be done for `check'.
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86/doc'
+make[2]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+/usr/gnu/bin/make  loadavg
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+source='getloadavg.c' object='loadavg-getloadavg.o' libtool=no \
+	DEPDIR=.deps depmode=none /bin/bash /export/home/drlou/illumos-userland-1248/components/make/make-3.81/config/depcomp \
+	/opt/SUNWspro/solarisstudio12.3/bin/cc -DLOCALEDIR=\"/usr/share/locale\" -DLIBDIR=\"/usr/lib\" -DINCLUDEDIR=\"/usr/include\" -DHAVE_CONFIG_H -I. -I/export/home/drlou/illumos-userland-1248/components/make/make-3.81 -I.  -DTEST   -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt -c -o loadavg-getloadavg.o `test -f 'getloadavg.c' || echo '/export/home/drlou/illumos-userland-1248/components/make/make-3.81/'`getloadavg.c
+/opt/SUNWspro/solarisstudio12.3/bin/cc  -m32 -xO4 -xchip=pentium -xregs=no%frameptr    -mt   -o loadavg  loadavg-getloadavg.o -lkstat  
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+/usr/gnu/bin/make  check-local
+make[3]: Entering directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+cd tests && perl ./run_make_tests.pl -make ../make 
+------------------------------------------------------------------------------
+             Running tests for GNU make on SunOS build 5.11 i86pc
+                                GNU Make 3.81
+------------------------------------------------------------------------------
+
+Finding tests...
+
+features/comments ....................................... ok     (1 passed)
+features/conditionals ................................... ok     (4 passed)
+features/default_names .................................. ok     (3 passed)
+features/double_colon ................................... ok     (10 passed)
+features/echoing ........................................ ok     (4 passed)
+features/errors ......................................... ok     (2 passed)
+features/escape ......................................... ok     (6 passed)
+features/export ......................................... ok     (10 passed)
+features/include ........................................ ok     (7 passed)
+features/mult_rules ..................................... ok     (2 passed)
+features/mult_targets ................................... ok     (2 passed)
+features/order_only ..................................... ok     (10 passed)
+features/override ....................................... ok     (1 passed)
+features/parallelism .................................... ok     (6 passed)
+features/patspecific_vars ............................... ok     (7 passed)
+features/patternrules ................................... ok     (5 passed)
+features/quoting ........................................ ok     (1 passed)
+features/recursion ...................................... ok     (2 passed)
+features/reinvoke ....................................... ok     (4 passed)
+features/se_explicit .................................... ok     (5 passed)
+features/se_implicit .................................... ok     (8 passed)
+features/se_statpat ..................................... ok     (4 passed)
+features/statipattrules ................................. ok     (8 passed)
+features/targetvars ..................................... ok     (20 passed)
+features/varnesting ..................................... ok     (1 passed)
+features/vpath .......................................... ok     (1 passed)
+features/vpath2 ......................................... ok     (1 passed)
+features/vpathgpath ..................................... ok     (1 passed)
+features/vpathplus ...................................... ok     (4 passed)
+functions/abspath ....................................... ok     (1 passed)
+functions/addprefix ..................................... ok     (1 passed)
+functions/addsuffix ..................................... ok     (2 passed)
+functions/andor ......................................... ok     (2 passed)
+functions/basename ...................................... ok     (1 passed)
+functions/call .......................................... ok     (2 passed)
+functions/dir ........................................... ok     (1 passed)
+functions/error ......................................... ok     (5 passed)
+functions/eval .......................................... ok     (9 passed)
+functions/filter-out .................................... ok     (1 passed)
+functions/findstring .................................... ok     (1 passed)
+functions/flavor ........................................ ok     (1 passed)
+functions/foreach ....................................... ok     (4 passed)
+functions/if ............................................ ok     (1 passed)
+functions/join .......................................... ok     (1 passed)
+functions/notdir ........................................ ok     (1 passed)
+functions/origin ........................................ ok     (1 passed)
+functions/realpath ...................................... ok     (2 passed)
+functions/shell ......................................... ok     (2 passed)
+functions/sort .......................................... ok     (1 passed)
+functions/strip ......................................... ok     (2 passed)
+functions/substitution .................................. ok     (3 passed)
+functions/suffix ........................................ ok     (1 passed)
+functions/value ......................................... ok     (1 passed)
+functions/warning ....................................... ok     (4 passed)
+functions/wildcard ...................................... ok     (3 passed)
+functions/word .......................................... ok     (16 passed)
+misc/close_stdout ....................................... ok     (0 passed)
+misc/general1 ........................................... ok     (1 passed)
+misc/general2 ........................................... ok     (1 passed)
+misc/general3 ........................................... ok     (10 passed)
+misc/general4 ........................................... ok     (6 passed)
+options/dash-B .......................................... ok     (7 passed)
+options/dash-C .......................................... ok     (2 passed)
+options/dash-I .......................................... ok     (3 passed)
+options/dash-W .......................................... ok     (10 passed)
+options/dash-e .......................................... ok     (1 passed)
+options/dash-f .......................................... ok     (4 passed)
+options/dash-k .......................................... ok     (3 passed)
+options/dash-l .......................................... ok     (1 passed)
+options/dash-n .......................................... ok     (4 passed)
+options/dash-q .......................................... ok     (8 passed)
+options/dash-t .......................................... ok     (2 passed)
+options/general ......................................... ok     (1 passed)
+options/symlinks ........................................ ok     (10 passed)
+options/warn-undefined-variables ........................ ok     (2 passed)
+targets/DEFAULT ......................................... ok     (1 passed)
+targets/FORCE ........................................... ok     (1 passed)
+targets/INTERMEDIATE .................................... ok     (8 passed)
+targets/PHONY ........................................... ok     (1 passed)
+targets/SECONDARY ....................................... ok     (8 passed)
+targets/SILENT .......................................... ok     (1 passed)
+targets/clean ........................................... ok     (2 passed)
+variables/CURDIR ........................................ ok     (1 passed)
+variables/DEFAULT_GOAL .................................. ok     (4 passed)
+variables/INCLUDE_DIRS .................................. ok     (2 passed)
+variables/MAKE .......................................... ok     (1 passed)
+variables/MAKECMDGOALS .................................. ok     (3 passed)
+variables/MAKEFILES ..................................... ok     (1 passed)
+variables/MAKELEVEL ..................................... ok     (1 passed)
+variables/MAKE_RESTARTS ................................. ok     (3 passed)
+variables/MFILE_LIST .................................... ok     (1 passed)
+variables/SHELL ......................................... ok     (5 passed)
+variables/automatic ..................................... ok     (5 passed)
+variables/flavors ....................................... ok     (10 passed)
+variables/negative ...................................... ok     (4 passed)
+variables/special ....................................... ok     (1 passed)
+
+350 Tests in 96 Categories Complete ... No Failures :-)
+
+The system uptime program believes the load average to be:
+uptime
+  8:46pm  up 16 min(s),  3 users,  load average: 0.87, 1.29, 0.74
+The GNU load average checking code thinks:
+./loadavg
+1-minute: 0.871094  5-minute: 1.289062  15-minute: 0.738281  
+
+==========================================================================================================
+ Regression PASSED: GNU Make 3.81 (i386-pc-solaris2.11) built with /opt/SUNWspro/solarisstudio12.3/bin/cc 
+==========================================================================================================
+
+make[3]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+make[2]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+make[1]: Leaving directory `/export/home/drlou/illumos-userland-1248/components/make/build/i86'
+/usr/bin/touch /export/home/drlou/illumos-userland-1248/components/make/build/i86/.tested
